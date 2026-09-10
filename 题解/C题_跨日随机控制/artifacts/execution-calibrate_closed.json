@@ -1,0 +1,70 @@
+{
+  "command": "python3 题解/C题_跨日随机控制/src/run.py --phase calibrate_closed --start 24 --stop 31 --candidates closed_baseline closed_affine --workers 4",
+  "exit_code": 0,
+  "runtime_seconds": 38.23492066701874,
+  "environment": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "numpy": "2.4.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+  },
+  "results": [
+    {
+      "kind": "q2",
+      "candidate": "closed_baseline",
+      "total_cost": 350805.6997589162,
+      "runtime_seconds": 2.538207875099033
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "closed_baseline",
+      "total_cost": 389533.5806111224,
+      "runtime_seconds": 2.6984921658877283
+    },
+    {
+      "kind": "q3",
+      "candidate": "closed_baseline",
+      "total_cost": 349847.2970562334,
+      "runtime_seconds": 5.317030958132818
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "closed_baseline",
+      "total_cost": 390343.7388867648,
+      "runtime_seconds": 5.495282499818131
+    },
+    {
+      "kind": "q2",
+      "candidate": "closed_affine",
+      "total_cost": 364716.1369887103,
+      "runtime_seconds": 14.29398220893927
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "closed_affine",
+      "total_cost": 406249.72463006905,
+      "runtime_seconds": 14.332524874946102
+    },
+    {
+      "kind": "q3",
+      "candidate": "closed_affine",
+      "total_cost": 357986.73860758735,
+      "runtime_seconds": 28.369980958057567
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "closed_affine",
+      "total_cost": 398477.6238616379,
+      "runtime_seconds": 26.882997541921213
+    }
+  ],
+  "seed": null,
+  "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+  "source_hashes": {
+    "run.py": "1c91e38d91b3d5760c5bfd158f416ff99e877ad2a6ce3bc54bb3e40c4cb9aa5d",
+    "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+    "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51",
+    "control.py": "a31e570b4046fddbd829c819bdd7aea63b934d909fc29d906d01e89112e0501f",
+    "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+  }
+}

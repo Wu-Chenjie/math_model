@@ -1,0 +1,139 @@
+{
+  "kind": "q3",
+  "candidate": "markov_mpc",
+  "configuration": {
+    "count": 7,
+    "horizon_days": 2,
+    "tail_scale": 1.0,
+    "grid": 321,
+    "final": null,
+    "closed_daily": false,
+    "start_day": 31,
+    "end_day": 31
+  },
+  "totals": {
+    "planned_cost": 23021.215430506305,
+    "increase_cost": 3.61524143954739e-14,
+    "reduction_net_cost": -1608.9973857023333,
+    "emergency_cost": 4.8765002702566564e-11,
+    "total_cost": 21412.21804480402,
+    "emergency_energy": 1.3713474800169934e-11,
+    "spill_energy": 4075.482822691195,
+    "projection_count": 0.0
+  },
+  "validation": {
+    "balance_max_abs": 5.684341886080802e-14,
+    "soc_recurrence_max_abs": 2.842170943040401e-14,
+    "midnight_jump_max_abs": 0.0,
+    "soc_min": 1200.0,
+    "soc_max": 10800.0,
+    "power_max_kw": 5000.0,
+    "simultaneous_max": 0.0,
+    "lp_violation_max": 3.439026841078885e-12,
+    "lp_objective_recompute_gap": 4.3655745685100555e-11,
+    "initial_inventory": 6000.0,
+    "final_inventory": 1200.0,
+    "negative_energy_violation": 0.0
+  },
+  "daily": [
+    {
+      "date": "2025-02-01",
+      "planned_cost": 23021.215430506305,
+      "increase_cost": 3.61524143954739e-14,
+      "reduction_net_cost": -1608.9973857023333,
+      "emergency_cost": 4.8765002702566564e-11,
+      "total_cost": 21412.21804480402,
+      "emergency_energy": 1.3713474800169934e-11,
+      "spill_energy": 4075.482822691195,
+      "ending_inventory": 1200.0,
+      "projection_count": 0
+    }
+  ],
+  "decisions": [
+    {
+      "as_of": 4464,
+      "end": 4608,
+      "history_days": [
+        7,
+        11,
+        15,
+        19,
+        22,
+        26,
+        30
+      ],
+      "latest_training_target_exclusive": 4464,
+      "official_covered_slots": 144,
+      "date": "2025-02-01",
+      "release": 0,
+      "inventory": 6000.0,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_cut_count": 0
+    },
+    {
+      "as_of": 4500,
+      "end": 4608,
+      "history_days": [
+        7,
+        11,
+        15,
+        19,
+        22,
+        26,
+        30
+      ],
+      "latest_training_target_exclusive": 4464,
+      "official_covered_slots": 108,
+      "date": "2025-02-01",
+      "release": 1,
+      "inventory": 10174.99053324599,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_cut_count": 0
+    },
+    {
+      "as_of": 4536,
+      "end": 4608,
+      "history_days": [
+        7,
+        11,
+        15,
+        19,
+        22,
+        26,
+        30
+      ],
+      "latest_training_target_exclusive": 4464,
+      "official_covered_slots": 72,
+      "date": "2025-02-01",
+      "release": 2,
+      "inventory": 6483.74772074074,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_cut_count": 0
+    },
+    {
+      "as_of": 4572,
+      "end": 4608,
+      "history_days": [
+        7,
+        11,
+        15,
+        19,
+        22,
+        26,
+        30
+      ],
+      "latest_training_target_exclusive": 4464,
+      "official_covered_slots": 36,
+      "date": "2025-02-01",
+      "release": 3,
+      "inventory": 10224.646778292159,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_cut_count": 0
+    }
+  ],
+  "runtime_seconds": 0.7604340419638902
+}

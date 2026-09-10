@@ -1,0 +1,10 @@
+{
+  "scope": "Synthetic mechanism only; original annual attachments are not processed by this project",
+  "statement_matches_frozen_original": true,
+  "synthetic_input": "inputs/toy.json",
+  "scenario_count": 8,
+  "period_count": 4,
+  "period_hours": 0.16666666666666666,
+  "no_random_price": true,
+  "no_intraday_amendments": true
+}

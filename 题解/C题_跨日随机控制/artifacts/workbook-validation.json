@@ -1,0 +1,39 @@
+{
+  "checks": [
+    {
+      "file": "计算结果/result1.xlsx",
+      "status": "pass",
+      "sheet_count": 3,
+      "sha256": "535e8f12cb099594d1b88a34d0faeeec7f0683886ff4b8b2bb3b4db3f18ceb77"
+    },
+    {
+      "file": "计算结果/result2.xlsx",
+      "status": "pass",
+      "sheet_count": 5,
+      "sha256": "aae2fed09f0f7b7af616ab7e9dd923fd90e2bee4a40d2419378a302e1c34138c"
+    },
+    {
+      "file": "计算结果/result3.xlsx",
+      "status": "pass",
+      "sheet_count": 6,
+      "sha256": "ccdfd0f18fb9cc87a2480e780e74fe633de3b32b3398d299979985594435cac8"
+    },
+    {
+      "file": "计算结果/result4-2.xlsx",
+      "status": "pass",
+      "sheet_count": 5,
+      "sha256": "2b679509fa10f7413e2abf846411b66dfb83b6a8fbb9422025bcbce7c7d90f86"
+    },
+    {
+      "file": "计算结果/result4-3.xlsx",
+      "status": "pass",
+      "sheet_count": 6,
+      "sha256": "613b599654c2c4fef5ab6c7c23115caebabbe8a4c84c8651257555a0111475a0"
+    }
+  ],
+  "execution": {
+    "command": "bundled-python src/verify_workbooks.py",
+    "exit_code": 0,
+    "runtime_seconds": 2.666434583021328
+  }
+}

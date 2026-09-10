@@ -1,0 +1,28 @@
+{
+  "status": "pass_for_synthetic_two_day_case",
+  "independent_formulation": "Full per-path q/c/d/e/E variables plus explicit nonanticipativity equalities; original uses shared-node variables and battery-flow elimination",
+  "independent_closed_cost": 4000.0,
+  "independent_cross_day_cost": 2743.333333333334,
+  "independent_clairvoyant_reference_cost": 1779.4187242798353,
+  "midnight_energy": 7500.0,
+  "physical_max_abs": 0.0,
+  "cost_max_abs": 4.547473508864641e-13,
+  "information_group_equalities_checked": 88,
+  "cut_probe_count": 61,
+  "cut_max_lower_bound_violation": 9.094947017729282e-13,
+  "cut_support_gaps": [
+    9.094947017729282e-13,
+    4.547473508864641e-13,
+    0.0
+  ],
+  "rolling_conditional_resolve_cost": 2743.3333333333335,
+  "benders_iterations": 3,
+  "scope": "Two compressed blocks, four ten-minute slots, eight specified equiprobable synthetic paths; exact second-block causal-tree Benders special case. No random-price, intraday-amendment, annual-data, or general SDDP validation.",
+  "reviewed_artifact_hashes": {
+    "src/two_day_tree.py": "0a0412d1f14eb2d80a757712e8110517c2e61684c0a74aeb183c7ed6f2af3ae8",
+    "inputs/toy.json": "fbf6eae4e2082db60e30741d43a00386656a0c6cc2367066eede6354e8ba2769",
+    "artifacts/prototype-results.json": "6d871d8d8c50ec278e7fb37b1f56ce6c763d41da7a8e798a3cb91227ce23f415",
+    "artifacts/prototype-execution.json": "5436b0502220805e4e3f7c2e8a55b2608f2c8d73cfb2fa45d536442a44a2d835",
+    "review/check-two-day-tree.py": "d6fe3c9d51b2b82d10f6b97a3937c5f0a07f831c197e272db2e2300c60a6d187"
+  }
+}

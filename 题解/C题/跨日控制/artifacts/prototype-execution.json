@@ -1,0 +1,13 @@
+{
+  "command": "python3 题解/C题/跨日控制/src/two_day_tree.py",
+  "exit_code": 0,
+  "runtime_seconds": 0.03335149982012808,
+  "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "numpy": "2.4.1",
+  "scipy": "1.17.0",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "seed": null,
+  "deterministic_reason": "All eight synthetic paths enumerated; deterministic LP solver",
+  "source_sha256": "0a0412d1f14eb2d80a757712e8110517c2e61684c0a74aeb183c7ed6f2af3ae8",
+  "input_sha256": "fbf6eae4e2082db60e30741d43a00386656a0c6cc2367066eede6354e8ba2769"
+}

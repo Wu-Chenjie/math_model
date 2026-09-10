@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "scope": "v2_boundary_and_q1_only",
+  "annual_final_review": "pending",
+  "checks": {
+    "q1_economic_and_normalization": {
+      "passed": true,
+      "cost_yuan": 35126.948589289634,
+      "independent_duality_gap": 7.275957614183426e-12,
+      "checks": {
+        "max_simultaneous": 0.0,
+        "soc_recurrence": 2.1032064978498966e-12,
+        "initial": 0.0,
+        "terminal": 6.366462912410498e-12,
+        "max_shortage_without_emergency": 0.0,
+        "max_economic_objective_difference": 7.275957614183426e-12,
+        "normalization_delta_error": 1.7053025658242404e-13,
+        "normalization_net_supply_error": 1.2079226507921703e-13,
+        "normalization_simultaneous": 5.684341886080802e-14
+      },
+      "q1_artifact_sha256": {
+        "json": "58b44384ce56a222ab6d8884facd7a1cb0ce8cda5b8db3a0a911a388f5568492",
+        "npz": "1fc008af9ea7d469787ff572fbb5deccf1f2067ac7285dfeced15ea6211f8929"
+      },
+      "scope": "Explicit-spill independent LP agrees with economic-only producer and regenerated artifact; normalization preserves SOC and permits extra free spill."
+    },
+    "tail_routing_and_reachable_prefix": {
+      "passed": true,
+      "intercepted_requests": [
+        {
+          "kind": "q2",
+          "cutoff": 31,
+          "days": 1
+        },
+        {
+          "kind": "q2",
+          "cutoff": 31,
+          "days": 2
+        },
+        {
+          "kind": "q2",
+          "cutoff": 31,
+          "days": 3
+        },
+        {
+          "kind": "q2",
+          "cutoff": 31,
+          "days": 3
+        }
+      ],
+      "actual_zero_tail_decisions": 8,
+      "optional_initial_kwh": 7123.0,
+      "prefix_last_date": "2025-12-29",
+      "minimum_remaining_steps_in_prefix": 288,
+      "steps_sufficient_for_entire_SOC_range": 7,
+      "minimum_prefix_reachability_slack_kwh": 211200.0,
+      "scope": "Intercepted file requests test routing only. The zero-tail case executes actual original data."
+    },
+    "inherited_suffix_replay": {
+      "passed": true,
+      "cases": [
+        {
+          "candidate": "affine_mpc",
+          "source_sha256": "873cc375f9a03b373a52191405cfdbcd20a4c73b5983360d757eb06f62bd3f17",
+          "initial_four_day_inventory": 7988.028289047474,
+          "suffix_initial_inventory": 7868.382540183942,
+          "free_replay_max_differences": {
+            "q": 0.0,
+            "r": 0.0,
+            "c": 0.0,
+            "d": 0.0,
+            "emergency": 0.0,
+            "spill": 0.0,
+            "state": 0.0
+          },
+          "fixed_prefix_max_differences": {
+            "q": 0.0,
+            "r": 0.0,
+            "c": 0.0,
+            "d": 0.0,
+            "emergency": 0.0,
+            "spill": 0.0,
+            "state": 0.0
+          },
+          "two_day_vs_four_day_fixed_suffix_differences": {
+            "q": 0.0,
+            "r": 0.0,
+            "c": 0.0,
+            "d": 0.0,
+            "emergency": 0.0,
+            "spill": 0.0,
+            "state": 0.0
+          },
+          "free_final_inventory": 1200.0,
+          "fixed_final_inventory": 6000.0
+        },
+        {
+          "candidate": "markov_mpc",
+          "source_sha256": "d4c6955b31fccbfbea213b0c9f298f9a1d9e18c6585db56ce678da841a8ec1c7",
+          "initial_four_day_inventory": 8714.947510402566,
+          "suffix_initial_inventory": 8298.325062349932,
+          "free_replay_max_differences": {
+            "q": 0.0,
+            "r": 0.0,
+            "c": 0.0,
+            "d": 0.0,
+            "emergency": 0.0,
+            "spill": 0.0,
+            "state": 0.0
+          },
+          "fixed_prefix_max_differences": {
+            "q": 0.0,
+            "r": 0.0,
+            "c": 0.0,
+            "d": 0.0,
+            "emergency": 0.0,
+            "spill": 0.0,
+            "state": 0.0
+          },
+          "two_day_vs_four_day_fixed_suffix_differences": {
+            "q": 0.0,
+            "r": 0.0,
+            "c": 0.0,
+            "d": 0.0,
+            "emergency": 0.0,
+            "spill": 0.0,
+            "state": 0.0
+          },
+          "free_final_inventory": 1200.0,
+          "fixed_final_inventory": 6000.0
+        }
+      ],
+      "scope": "Two Q2 linear-tail policies only; four-day replay, same two-day prefix under free/fixed global end, and exact match to inherited two-day suffix. This does not establish reuse across changed SDDP tail model versions."
+    },
+    "actual_cross_month_D1": {
+      "passed": true,
+      "status": "executed",
+      "model_sha256": "bfd47360e02233f0157ee0b226dfe2e964023baf1aaaea072fc2f67b6b6a4998",
+      "decisions": [
+        {
+          "as_of": 8352,
+          "end": 8640,
+          "history_days": [
+            29,
+            43,
+            56
+          ],
+          "latest_training_target_exclusive": 8352,
+          "official_covered_slots": 0,
+          "date": "2025-02-28",
+          "release": 0,
+          "inventory": 6432.0,
+          "tail_price": 0.0,
+          "tail_model_cutoff": 31,
+          "tail_model_days": 1,
+          "tail_cut_count": 5
+        },
+        {
+          "as_of": 8388,
+          "end": 8640,
+          "history_days": [
+            29,
+            43,
+            56
+          ],
+          "latest_training_target_exclusive": 8352,
+          "official_covered_slots": 0,
+          "date": "2025-02-28",
+          "release": 1,
+          "inventory": 6147.348177872879,
+          "tail_price": 0.0,
+          "tail_model_cutoff": 31,
+          "tail_model_days": 1,
+          "tail_cut_count": 5
+        },
+        {
+          "as_of": 8424,
+          "end": 8640,
+          "history_days": [
+            29,
+            43,
+            56
+          ],
+          "latest_training_target_exclusive": 8352,
+          "official_covered_slots": 0,
+          "date": "2025-02-28",
+          "release": 2,
+          "inventory": 5878.151201864263,
+          "tail_price": 0.0,
+          "tail_model_cutoff": 31,
+          "tail_model_days": 1,
+          "tail_cut_count": 5
+        },
+        {
+          "as_of": 8460,
+          "end": 8640,
+          "history_days": [
+            29,
+            43,
+            56
+          ],
+          "latest_training_target_exclusive": 8352,
+          "official_covered_slots": 0,
+          "date": "2025-02-28",
+          "release": 3,
+          "inventory": 9943.888944271592,
+          "tail_price": 0.0,
+          "tail_model_cutoff": 31,
+          "tail_model_days": 1,
+          "tail_cut_count": 5
+        },
+        {
+          "as_of": 8496,
+          "end": 8784,
+          "history_days": [
+            30,
+            44,
+            57
+          ],
+          "latest_training_target_exclusive": 8496,
+          "official_covered_slots": 0,
+          "date": "2025-03-01",
+          "release": 0,
+          "inventory": 6060.150639212602,
+          "tail_price": 0.0,
+          "tail_model_cutoff": null,
+          "tail_model_days": null,
+          "tail_cut_count": 0
+        },
+        {
+          "as_of": 8532,
+          "end": 8784,
+          "history_days": [
+            30,
+            44,
+            57
+          ],
+          "latest_training_target_exclusive": 8496,
+          "official_covered_slots": 0,
+          "date": "2025-03-01",
+          "release": 1,
+          "inventory": 6336.536786229702,
+          "tail_price": 0.0,
+          "tail_model_cutoff": null,
+          "tail_model_days": null,
+          "tail_cut_count": 0
+        },
+        {
+          "as_of": 8568,
+          "end": 8784,
+          "history_days": [
+            30,
+            44,
+            57
+          ],
+          "latest_training_target_exclusive": 8496,
+          "official_covered_slots": 0,
+          "date": "2025-03-01",
+          "release": 2,
+          "inventory": 3691.417720617648,
+          "tail_price": 0.0,
+          "tail_model_cutoff": null,
+          "tail_model_days": null,
+          "tail_cut_count": 0
+        },
+        {
+          "as_of": 8604,
+          "end": 8784,
+          "history_days": [
+            30,
+            44,
+            57
+          ],
+          "latest_training_target_exclusive": 8496,
+          "official_covered_slots": 0,
+          "date": "2025-03-01",
+          "release": 3,
+          "inventory": 9936.293137385328,
+          "tail_price": 0.0,
+          "tail_model_cutoff": null,
+          "tail_model_days": null,
+          "tail_cut_count": 0
+        },
+        {
+          "as_of": 8640,
+          "end": 8784,
+          "history_days": [
+            32,
+            46,
+            59
+          ],
+          "latest_training_target_exclusive": 8640,
+          "official_covered_slots": 0,
+          "date": "2025-03-02",
+          "release": 0,
+          "inventory": 8255.828516142656,
+          "tail_price": 0.0,
+          "tail_model_cutoff": null,
+          "tail_model_days": null,
+          "tail_cut_count": 0
+        },
+        {
+          "as_of": 8676,
+          "end": 8784,
+          "history_days": [
+            32,
+            46,
+            59
+          ],
+          "latest_training_target_exclusive": 8640,
+          "official_covered_slots": 0,
+          "date": "2025-03-02",
+          "release": 1,
+          "inventory": 9898.279065799086,
+          "tail_price": 0.0,
+          "tail_model_cutoff": null,
+          "tail_model_days": null,
+          "tail_cut_count": 0
+        },
+        {
+          "as_of": 8712,
+          "end": 8784,
+          "history_days": [
+            32,
+            46,
+            59
+          ],
+          "latest_training_target_exclusive": 8640,
+          "official_covered_slots": 0,
+          "date": "2025-03-02",
+          "release": 2,
+          "inventory": 6076.984907185447,
+          "tail_price": 0.0,
+          "tail_model_cutoff": null,
+          "tail_model_days": null,
+          "tail_cut_count": 0
+        },
+        {
+          "as_of": 8748,
+          "end": 8784,
+          "history_days": [
+            32,
+            46,
+            59
+          ],
+          "latest_training_target_exclusive": 8640,
+          "official_covered_slots": 0,
+          "date": "2025-03-02",
+          "release": 3,
+          "inventory": 10525.080660725624,
+          "tail_price": 0.0,
+          "tail_model_cutoff": null,
+          "tail_model_days": null,
+          "tail_cut_count": 0
+        }
+      ],
+      "midnight_inventories": [
+        6060.150639212602,
+        8255.828516142656,
+        1200.0
+      ],
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.000000000001,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 7.275957614183426e-12,
+        "lp_objective_recompute_gap": 1.7462298274040222e-10,
+        "initial_inventory": 6432.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "scope": "Actual February 28 root horizon reaches March; uses known February cutoff with only one remaining auxiliary day, then no tail at H=T."
+    }
+  },
+  "source_hashes": {
+    "src/run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+    "src/control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+    "src/dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "src/check_terminal.py": "82f4ef60d0b67b5905dfc7644987fe6bc7eac589689cd9ab4c7cdef1baaa7046",
+    "src/sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8"
+  },
+  "passed": true,
+  "status": "pass_within_scope",
+  "executions": [
+    {
+      "command": "python3 review/check-v2-boundaries.py",
+      "exit_code": 0,
+      "runtime_seconds": 136.81903637503274
+    },
+    {
+      "command": "python3 review/check-v2-boundaries.py --month-only",
+      "exit_code": 0,
+      "runtime_seconds": 2.5342058329842985
+    }
+  ]
+}

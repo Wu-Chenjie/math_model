@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "project": {
+    "competition": "CUMCM",
+    "year": 2026,
+    "problem_id": "C",
+    "stage": "modeling_handoff",
+    "status": "complete"
+  },
+  "source": {
+    "statement_files": [
+      "inputs/C题.pdf"
+    ],
+    "data_files": [
+      "inputs/附件/附件1.xlsx",
+      "inputs/附件/附件2.xlsx",
+      "inputs/附件/附件3.xlsx",
+      "inputs/附件/附件4.xlsx",
+      "inputs/附件/附件5/result1.xlsx",
+      "inputs/附件/附件5/result2.xlsx",
+      "inputs/附件/附件5/result3.xlsx",
+      "inputs/附件/附件5/result4-2.xlsx",
+      "inputs/附件/附件5/result4-3.xlsx"
+    ],
+    "input_hashes": {
+      "inputs/C题.pdf": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+      "inputs/附件/附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+      "inputs/附件/附件2.xlsx": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+      "inputs/附件/附件3.xlsx": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843",
+      "inputs/附件/附件4.xlsx": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71",
+      "inputs/附件/附件5/result1.xlsx": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688",
+      "inputs/附件/附件5/result2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+      "inputs/附件/附件5/result3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+      "inputs/附件/附件5/result4-2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+      "inputs/附件/附件5/result4-3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+    },
+    "data_audit_file": "artifacts/data-audit.json",
+    "official_rules": {
+      "status": "verified",
+      "url": "https://www.mcm.edu.cn/html_cn/node/4cd596519c9eb9fbd866398f6df0caa3.html",
+      "version": "2026 revision; modeling handoff only, no competition submission claimed",
+      "reason": null
+    },
+    "official_statement_url": "https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html"
+  },
+  "framing": {
+    "objectives": [
+      "Minimize Q1 deterministic purchase cost and Q2–4 realized chronological settlement cost, with physically continuous cross-day inventory."
+    ],
+    "decision_variables": [
+      "Original q and effective r per delivery interval",
+      "Bus charge/discharge, inventory, emergency purchase and total spill",
+      "Causal affine policy coefficients and approximate future values"
+    ],
+    "constraints": [
+      "SOC 1200..10800 kWh, each-direction efficiency0.9, power5000 kW",
+      "10-minute balance, nonnegative purchases, no simultaneous charge/discharge after canonicalization",
+      "Allowed contract revisions only; first6hours unadjustable; original daily q retained for settlement",
+      "Q1 daily terminal6000; Q2–4 main free year-end, exact physical continuity and separate global6000 comparison",
+      "Scenario and release nonanticipativity"
+    ],
+    "constraint_justification": null,
+    "ambiguities": [
+      "Interval-end time labels; single-direction90% efficiency; refund interpretation; final net versus cumulative settlement. See 模型与推导.md."
+    ],
+    "assumptions": [
+      "Current net load observed before battery action",
+      "Free total surplus disposal, no sale; unspecified degradation/network constants omitted",
+      "January common no-battery emergency warmup; separate cost",
+      "Finite empirical scenario approximation and restricted affine/Markov policies"
+    ]
+  },
+  "models": {
+    "candidates": [
+      {
+        "name": "cross_baseline",
+        "target_output": "Common-path SAA with greedy physical feedback",
+        "failure_mode": "Ignores stochastic feedback effects",
+        "diagnostic": "January development comparison and complete held-out chronological replay; physical, information and exact-small-instance audits.",
+        "assumptions": [
+          "Same accounting and information rules",
+          "Details and limited policy scope in 模型与推导.md"
+        ],
+        "data_requirements": [
+          "Original load/PV/price history",
+          "Released official forecast where allowed"
+        ]
+      },
+      {
+        "name": "affine_mpc",
+        "target_output": "Causal affine-policy SAA-MPC",
+        "failure_mode": "Restricted affine policy may perform poorly outside empirical scenarios",
+        "diagnostic": "January development comparison and complete held-out chronological replay; physical, information and exact-small-instance audits.",
+        "assumptions": [
+          "Same accounting and information rules",
+          "Details and limited policy scope in 模型与推导.md"
+        ],
+        "data_requirements": [
+          "Original load/PV/price history",
+          "Released official forecast where allowed"
+        ]
+      },
+      {
+        "name": "markov_mpc",
+        "target_output": "Causal affine planning with Markov stochastic DP battery feedback",
+        "failure_mode": "Three error bins and nominal future contracts approximate the full process",
+        "diagnostic": "January development comparison and complete held-out chronological replay; physical, information and exact-small-instance audits.",
+        "assumptions": [
+          "Same accounting and information rules",
+          "Details and limited policy scope in 模型与推导.md"
+        ],
+        "data_requirements": [
+          "Original load/PV/price history",
+          "Released official forecast where allowed"
+        ]
+      },
+      {
+        "name": "sddp_markov",
+        "target_output": "Generic SDDP auxiliary value with the same Markov feedback",
+        "failure_mode": "Coarse independent-stage tail can miss fine-resolution forecast dependence",
+        "diagnostic": "January development comparison and complete held-out chronological replay; physical, information and exact-small-instance audits.",
+        "assumptions": [
+          "Same accounting and information rules",
+          "Details and limited policy scope in 模型与推导.md"
+        ],
+        "data_requirements": [
+          "Original load/PV/price history",
+          "Released official forecast where allowed"
+        ]
+      }
+    ],
+    "candidate_set_justification": null,
+    "selected": "markov_mpc",
+    "selection_rationale": {
+      "objective_fit": "Exact settlement accounting in executed historical evaluation; January-only choice with0.01% tie preference.",
+      "constraint_fit": "Hard power/SOC/nonanticipation and contract release restrictions, physically carried inventory.",
+      "data_fit": "Chronological mature historical errors and released24h forecasts.",
+      "baseline": "Matched daily-closure and cross-day common-path SAA baselines, with global terminal comparisons.",
+      "risks": [
+        "Empirical model misspecification",
+        "Approximate tail value",
+        "One historical year, no population optimality guarantee"
+      ],
+      "fallback_trigger": "Any physical/information audit failure blocks delivery; select only from executed January-feasible candidates, never switch after observing annual costs."
+    },
+    "baseline": {
+      "status": "completed",
+      "name": "closed_baseline",
+      "command": "python3 题解/C题_跨日随机控制/src/run.py --phase annual --candidates closed_baseline cross_baseline affine_mpc markov_mpc closed_affine --workers 4",
+      "exit_code": 0,
+      "runtime_seconds": 1488.965312833665,
+      "output": "artifacts/baseline-metrics.json",
+      "metric_ids": [
+        "q2_total_cost",
+        "q3_total_cost",
+        "q4_2_total_cost",
+        "q4_3_total_cost"
+      ],
+      "reason": null
+    }
+  },
+  "execution": {
+    "status": "completed",
+    "command": "python3 题解/C题_跨日随机控制/src/run.py --phase annual --candidates closed_baseline cross_baseline affine_mpc markov_mpc closed_affine --workers 4",
+    "exit_code": 0,
+    "runtime_seconds": 7780.923019082984,
+    "environment": {
+      "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "numpy": "2.4.1",
+      "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+    },
+    "seed": null,
+    "deterministic_reason": "Primary replay uses deterministic chronological scenarios and LP/DP. SDDP training seed20260911 and independent evaluation seed9182 are recorded separately.",
+    "metrics_file": "artifacts/metrics.json",
+    "metric_ids": [
+      "q2_total_cost",
+      "q3_total_cost",
+      "q4_2_total_cost",
+      "q4_3_total_cost"
+    ],
+    "figures": [
+      "figures/SDDP训练与库存价值.png",
+      "figures/SDDP训练与库存价值.svg",
+      "figures/午夜库存轨迹.png",
+      "figures/午夜库存轨迹.svg",
+      "figures/年度方法比较.png",
+      "figures/年度方法比较.svg",
+      "figures/预报发布消融.png",
+      "figures/预报发布消融.svg"
+    ],
+    "additional_execution_records": [
+      "artifacts/execution-annual_sddp.json",
+      "artifacts/execution-train.json",
+      "artifacts/execution-train-D1.json",
+      "artifacts/execution-train-D2.json",
+      "artifacts/global-terminal.json"
+    ]
+  },
+  "validation": {
+    "status": "completed",
+    "checks": [
+      {
+        "name": "physical_and_settlement",
+        "status": "pass",
+        "evidence": "artifacts/summary.json"
+      },
+      {
+        "name": "independent_36_trajectories",
+        "status": "pass",
+        "evidence": "review/production-audit.json"
+      },
+      {
+        "name": "independent_small_tree_sddp",
+        "status": "pass",
+        "evidence": "review/sddp-checks.json"
+      },
+      {
+        "name": "causality_and_dp",
+        "status": "pass",
+        "evidence": "review/controller-checks.json"
+      },
+      {
+        "name": "global_oracle",
+        "status": "pass",
+        "evidence": "review/global-oracle.json"
+      },
+      {
+        "name": "workbook_reconciliation",
+        "status": "pass",
+        "evidence": "artifacts/workbook-validation.json"
+      },
+      {
+        "name": "visual_review",
+        "status": "pass",
+        "evidence": "artifacts/visual-qa.json"
+      }
+    ],
+    "sensitivity": [
+      "artifacts/summary.json#/experiments: grids161/321/641, scenarios7/14, horizon2/3, tail0/1/2, fixed global endpoint"
+    ],
+    "sensitivity_not_applicable_reason": null,
+    "robustness": [
+      "artifacts/experiments/stress_load_up_pv_down.json",
+      "artifacts/experiments/variable_stress.json"
+    ],
+    "robustness_not_applicable_reason": null,
+    "falsification": [
+      "Future actual and unreleased forecast perturbations leave prior decisions unchanged",
+      "Independent explicit c/d LP versus convex infimal convolution",
+      "Full-path SDDP strategy enumeration and lower-cut validity",
+      "Free suffix replay before global terminal intervention",
+      "Annual release ablations keep adjustment rights fixed"
+    ]
+  },
+  "results": {
+    "registry_file": "artifacts/result-registry.json",
+    "paper_file": null,
+    "claims_file": "paper/result-claims.json"
+  },
+  "reproducibility_file": "artifacts/reproducibility.json",
+  "review": {
+    "status": "completed",
+    "independent": true,
+    "reviewer_id": "/root/independent_review",
+    "findings_file": "review/findings.json"
+  },
+  "pending": [],
+  "violations": []
+}

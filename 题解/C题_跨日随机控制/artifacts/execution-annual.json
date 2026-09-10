@@ -1,0 +1,152 @@
+{
+  "command": "python3 题解/C题_跨日随机控制/src/run.py --phase annual --candidates closed_baseline cross_baseline affine_mpc markov_mpc closed_affine --workers 4",
+  "exit_code": 0,
+  "runtime_seconds": 7780.923019082984,
+  "environment": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "numpy": "2.4.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+  },
+  "results": [
+    {
+      "kind": "q2",
+      "candidate": "cross_baseline",
+      "total_cost": 14044404.970295334,
+      "runtime_seconds": 181.41525108297355
+    },
+    {
+      "kind": "q2",
+      "candidate": "closed_baseline",
+      "total_cost": 14181955.664783094,
+      "runtime_seconds": 186.72337387502193
+    },
+    {
+      "kind": "q3",
+      "candidate": "closed_baseline",
+      "total_cost": 13828014.100518633,
+      "runtime_seconds": 577.6926333338488
+    },
+    {
+      "kind": "q3",
+      "candidate": "cross_baseline",
+      "total_cost": 13690929.572131855,
+      "runtime_seconds": 815.9142629997805
+    },
+    {
+      "kind": "q2",
+      "candidate": "affine_mpc",
+      "total_cost": 14576736.63790052,
+      "runtime_seconds": 1740.856508916011
+    },
+    {
+      "kind": "q2",
+      "candidate": "closed_affine",
+      "total_cost": 14806348.918109573,
+      "runtime_seconds": 1714.644073459087
+    },
+    {
+      "kind": "q2",
+      "candidate": "markov_mpc",
+      "total_cost": 13841680.520143364,
+      "runtime_seconds": 1921.3368742919993
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "closed_baseline",
+      "total_cost": 15010601.458628615,
+      "runtime_seconds": 231.32369899982587
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "cross_baseline",
+      "total_cost": 14805235.054143704,
+      "runtime_seconds": 289.688641167013
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "affine_mpc",
+      "total_cost": 15414351.829105174,
+      "runtime_seconds": 1907.2572822079528
+    },
+    {
+      "kind": "q3",
+      "candidate": "affine_mpc",
+      "total_cost": 14044632.291712927,
+      "runtime_seconds": 3172.586434500059
+    },
+    {
+      "kind": "q3",
+      "candidate": "closed_affine",
+      "total_cost": 14351793.80672446,
+      "runtime_seconds": 3113.600925875129
+    },
+    {
+      "kind": "q3",
+      "candidate": "markov_mpc",
+      "total_cost": 13459169.009695424,
+      "runtime_seconds": 3417.824116999982
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "closed_baseline",
+      "total_cost": 14681668.450043777,
+      "runtime_seconds": 493.22560662496835
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "cross_baseline",
+      "total_cost": 14478786.620573897,
+      "runtime_seconds": 480.59178591589443
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "markov_mpc",
+      "total_cost": 14652127.402359782,
+      "runtime_seconds": 1634.728113999823
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "closed_affine",
+      "total_cost": 15690288.964598,
+      "runtime_seconds": 1322.9921975829639
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "affine_mpc",
+      "total_cost": 14844972.022996884,
+      "runtime_seconds": 2077.102585333865
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "markov_mpc",
+      "total_cost": 14249362.495141067,
+      "runtime_seconds": 2128.905419916846
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "closed_affine",
+      "total_cost": 15181643.818528727,
+      "runtime_seconds": 1795.055309416959
+    }
+  ],
+  "seed": null,
+  "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+  "source_hashes": {
+    "continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+    "verify_workbooks.py": "c08289f66e183a22d2489f79b22b915758586b8940fc4c65b5c8b70c1802550a",
+    "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+    "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+    "dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+    "select_model.py": "4038e873c1d77e525ba1c2d591c0441dd93e527b8214acebb6c604196648b2f7",
+    "analyze_tail.py": "7c7c9dd491d21707eef4771d92f31ca03471d96d5a5c33f1df20b9758efb7ae0",
+    "freeze_evidence.py": "57562c3f701f071b261b8a962b88b484422896d496104a72a173208883b7ff75",
+    "validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+    "export_results.py": "7ce544846851b447bd119e483b790cf7f962987274669bfc7f7985d5320fa467",
+    "check_terminal.py": "801e8a1c7c4c98d1d0285d8e195c31874322c5996b37760ce5e1588c047fdf34",
+    "package_when_ready.py": "ce1697cc52c3e1c792973bdc8de4591e0746398a5481cee1756fe45e1b0d89fe",
+    "finish.py": "333b6e5a3e584db5fbf0ad54605ac99b1bb7396618c3484eea9656245da3c868",
+    "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+  }
+}

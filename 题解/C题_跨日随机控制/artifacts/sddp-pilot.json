@@ -1,0 +1,115 @@
+{
+  "configuration": {
+    "cutoff_day_exclusive": 31,
+    "history_days": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "steps_per_day": 4,
+    "horizon_days": 2,
+    "variable_price": false,
+    "adjustments": false,
+    "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+  },
+  "seed": 20260911,
+  "iterations": 10,
+  "trace": [
+    {
+      "iteration": 1,
+      "root_lower_bound": 0.0,
+      "forward_sample_cost": 529613.2297519746
+    },
+    {
+      "iteration": 10,
+      "root_lower_bound": 43861.29647817356,
+      "forward_sample_cost": 200949.5828461924
+    }
+  ],
+  "evaluation": {
+    "samples": 64,
+    "seed": 9182,
+    "mean_policy_cost": 225721.79465256038,
+    "standard_error": 3223.7324484455035,
+    "normal_approximation_95_interval": [
+      219403.2790536072,
+      232040.31025151355
+    ],
+    "root_lower_bound": 43861.29647817356,
+    "note": "Monte Carlo estimate, not a deterministic upper bound."
+  },
+  "root_cuts": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      46355.29339175381,
+      -0.41566615226337444
+    ]
+  ],
+  "runtime_seconds": 0.2164077500347048,
+  "scope": "Valid lower cuts for this fixed coarse auxiliary model; approximate terminal values for the contest MPC.",
+  "execution": {
+    "command": "python3 题解/C题_跨日随机控制/src/sddp.py --iterations 10 --steps 4 --days 2",
+    "exit_code": 0,
+    "source_sha256": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8"
+  }
+}

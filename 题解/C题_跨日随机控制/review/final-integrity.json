@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "passed": true,
+  "scope": "frozen_evidence_consistency_and_sampled_visual_review",
+  "checks": {
+    "registry_exact_source_values": {
+      "passed": true,
+      "records": 33
+    },
+    "visual_hashes": {
+      "preview_hashes": 27,
+      "figure_hashes": 4,
+      "workbook_hashes": 5
+    },
+    "workbook_hashes": 5,
+    "executed_source_archive": 5,
+    "input_hashes": 10,
+    "frozen_production_outputs": 408,
+    "independent_visual_inspection": {
+      "passed": true,
+      "scope": "Four final scientific PNGs, plus three representative workbook preview ranges; not every cell visually inspected.",
+      "files": {
+        "figures/年度方法比较.png": "b3b1ae8fb9abd9dd3d1fb9857e5921d8eff94d3020aaff8d4efdef1e0b9a7c2b",
+        "figures/午夜库存轨迹.png": "7fe41aaa402805679ad28fa21dbde62438fdd1f88b61601054d9253994a26b24",
+        "figures/SDDP训练与库存价值.png": "99151ad1538ea9700b927b16f77dd336cdb63bad42a034305f6148cfa0b8a8cf",
+        "figures/预报发布消融.png": "59e17d261690c7f357ea59b9f000d0ea6a4c60201b4f778597a7781e13708e25",
+        "artifacts/previews/result4-2-充放电量.png": "aacd5661b01cd4e2613a57b342e468b0571d9f955f21ee7cfe46adb1b60f1f12",
+        "artifacts/previews/result3-调整购电量-6点.png": "e8fd5268d7eb3132c939864e48895f4991a61363704df7c6cfe723168a3036f4",
+        "artifacts/previews/result1-口径说明.png": "62598d4f9d0ee6942508e0ece6d29ed41679f9c80918a90a30bef60ad7d170cd"
+      },
+      "observations": [
+        "Four figures have readable axes/legends, no visible clipping; close annual curves are accompanied by exact numeric differences in the handoff.",
+        "Battery dates are visible and grouped per six rows; the six-hour revision view has correct ten-minute interval headers.",
+        "Workbook SOC in kWh denotes energy inventory, as explicitly distinguished from the normalized SOC ratio in the model document.",
+        "Workbook notes state the time, settlement, terminal, information and optimality conventions."
+      ]
+    }
+  },
+  "audit_source_sha256": "d01b3e0569e7abd83226c46405e4664b501ef7fede0254f6e8b2b71951ef3d92"
+}

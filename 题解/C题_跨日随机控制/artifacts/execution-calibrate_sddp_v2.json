@@ -1,0 +1,79 @@
+{
+  "command": "python3 src/run.py --phase calibrate_sddp_v2 --start 24 --stop 31 --candidates sddp_mpc sddp_markov --workers 3",
+  "exit_code": 0,
+  "runtime_seconds": 101.03849350009114,
+  "environment": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "numpy": "2.4.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+  },
+  "results": [
+    {
+      "kind": "q2",
+      "candidate": "sddp_mpc",
+      "total_cost": 358497.88773318595,
+      "runtime_seconds": 19.756635082885623
+    },
+    {
+      "kind": "q2",
+      "candidate": "sddp_markov",
+      "total_cost": 344539.2289057616,
+      "runtime_seconds": 22.973920749966055
+    },
+    {
+      "kind": "q3",
+      "candidate": "sddp_mpc",
+      "total_cost": 349359.97573698143,
+      "runtime_seconds": 39.68829366704449
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "sddp_mpc",
+      "total_cost": 399902.9456533601,
+      "runtime_seconds": 21.40122279105708
+    },
+    {
+      "kind": "q3",
+      "candidate": "sddp_markov",
+      "total_cost": 339437.65936127875,
+      "runtime_seconds": 43.91725991712883
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "sddp_markov",
+      "total_cost": 384378.3982923654,
+      "runtime_seconds": 24.710339833050966
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "sddp_mpc",
+      "total_cost": 390049.6845719827,
+      "runtime_seconds": 37.73085275013
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "sddp_markov",
+      "total_cost": 378803.5592766406,
+      "runtime_seconds": 36.70027945796028
+    }
+  ],
+  "seed": null,
+  "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+  "source_hashes": {
+    "continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+    "verify_workbooks.py": "0d30e015cb745321fc24f6cbb64ccb92a97ffd2e5b97b1e93675bfc75127c1ce",
+    "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+    "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+    "dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+    "select_model.py": "c3ee7adec341c176e75c3ab90c2df74147cde199e2141e4f77ad05e5e5be9a62",
+    "freeze_evidence.py": "ea29c47fa1e00050227ba01aaf8aba2d9fbd1964f624ec1c6236a8e06ac7f2aa",
+    "validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+    "export_results.py": "7ce544846851b447bd119e483b790cf7f962987274669bfc7f7985d5320fa467",
+    "check_terminal.py": "82f4ef60d0b67b5905dfc7644987fe6bc7eac589689cd9ab4c7cdef1baaa7046",
+    "package_when_ready.py": "ce1697cc52c3e1c792973bdc8de4591e0746398a5481cee1756fe45e1b0d89fe",
+    "finish.py": "7f6accd20a77be4ac6fb60ba41b9395feb93bd87c04289ab70ef6c1a1b83d120",
+    "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+  }
+}

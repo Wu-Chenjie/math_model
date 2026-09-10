@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "project": {
+    "competition": "CUMCM",
+    "year": 2026,
+    "problem_id": "C",
+    "stage": "modeling",
+    "status": "in_progress"
+  },
+  "source": {
+    "statement_files": [
+      "inputs/C题.pdf"
+    ],
+    "data_files": [
+      "inputs/toy.json"
+    ],
+    "input_hashes": {
+      "inputs/C题.pdf": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+      "inputs/toy.json": "fbf6eae4e2082db60e30741d43a00386656a0c6cc2367066eede6354e8ba2769"
+    },
+    "data_audit_file": "artifacts/data-audit.json",
+    "official_rules": {
+      "status": "verified",
+      "url": "https://www.mcm.edu.cn/html_cn/node/4cd596519c9eb9fbd866398f6df0caa3.html",
+      "version": "2026 revision; modeling handoff only, no competition submission claimed",
+      "reason": null
+    },
+    "official_statement_url": "https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html"
+  },
+  "framing": {
+    "objectives": [
+      "Design Q2-Q4 cross-day causal stochastic MPC/SDDP migration and verify a finite-tree mechanism; annual empirical execution pending."
+    ],
+    "decision_variables": [
+      "Continuous physical energy",
+      "Original and currently effective remaining contracts",
+      "Node-adapted battery actions",
+      "Continuation-cost cuts"
+    ],
+    "constraints": [
+      "Physical capacity/power and bus balance",
+      "No midnight state reset",
+      "Contract and battery information nodes",
+      "Nonanticipativity",
+      "One final comparison inventory target, not a daily target"
+    ],
+    "constraint_justification": null,
+    "ambiguities": [],
+    "assumptions": [
+      "Original net amendment/refund settlement convention",
+      "Undiscounted objective and no cash-flow constraints for deferred delivery accounting",
+      "Synthetic example has deterministic prices and no intraday amendment"
+    ]
+  },
+  "models": {
+    "candidates": [
+      {
+        "name": "cross_day_common_path_mpc",
+        "target_output": "Conservative cross-day baseline",
+        "assumptions": [
+          "Causal observations and common physical accounting"
+        ],
+        "data_requirements": [
+          "as-of forecasts and joint multi-day innovations"
+        ],
+        "failure_mode": "Common future battery actions lose adaptation",
+        "diagnostic": "Extensive-form comparison and chronological rollout"
+      },
+      {
+        "name": "causal_tree_mpc",
+        "target_output": "Adaptive near-horizon tree with correct tail state",
+        "assumptions": [
+          "Causal observations and common physical accounting"
+        ],
+        "data_requirements": [
+          "as-of forecasts and joint multi-day innovations"
+        ],
+        "failure_mode": "Tree growth and terminal approximation",
+        "diagnostic": "Extensive-form comparison and chronological rollout"
+      },
+      {
+        "name": "markov_sddp_tail_mpc",
+        "target_output": "Convex continuation-cost cuts plus near-horizon tree",
+        "assumptions": [
+          "Causal observations and common physical accounting"
+        ],
+        "data_requirements": [
+          "as-of forecasts and joint multi-day innovations"
+        ],
+        "failure_mode": "Misspecified Markov information state or invalid stale cuts",
+        "diagnostic": "Extensive-form comparison and chronological rollout"
+      }
+    ],
+    "candidate_set_justification": null,
+    "selected": "markov_sddp_tail_mpc_design",
+    "selection_rationale": {
+      "objective_fit": "Continuous SOC and future energy opportunity cost without daily closure.",
+      "constraint_fit": "Causal contract and real-time action nodes; convex delivery accounting.",
+      "data_fit": "Requires as-of forecasts and multi-day innovations; original-data implementation pending.",
+      "baseline": "Keep the accepted daily-closure project frozen; use the independently verified synthetic full-tree LP for current mechanism validation.",
+      "risks": [
+        "Future forecast-cache leakage",
+        "Nonanticipativity errors",
+        "Invalid continuation cuts after random-model refitting",
+        "Artificial rolling-horizon inventory targets"
+      ],
+      "fallback_trigger": "First validate finite-tree MPC and a documented terminal-value baseline before deploying general SDDP."
+    },
+    "baseline": {
+      "status": "pending",
+      "name": null,
+      "command": null,
+      "exit_code": null,
+      "runtime_seconds": null,
+      "output": "artifacts/baseline-metrics.json",
+      "metric_ids": [],
+      "reason": null
+    }
+  },
+  "execution": {
+    "status": "pending",
+    "command": null,
+    "exit_code": null,
+    "runtime_seconds": null,
+    "environment": {},
+    "seed": null,
+    "deterministic_reason": null,
+    "metrics_file": "artifacts/metrics.json",
+    "metric_ids": [],
+    "figures": [],
+    "scope": "Annual contest-data execution is not performed; separately recorded synthetic prototype completed."
+  },
+  "validation": {
+    "status": "pending",
+    "checks": [],
+    "sensitivity": [],
+    "sensitivity_not_applicable_reason": null,
+    "robustness": [],
+    "robustness_not_applicable_reason": null,
+    "falsification": []
+  },
+  "results": {
+    "registry_file": "artifacts/result-registry.json",
+    "paper_file": null,
+    "claims_file": "paper/result-claims.json",
+    "handoff_file": "设计交接.md"
+  },
+  "reproducibility_file": "artifacts/reproducibility.json",
+  "review": {
+    "status": "completed",
+    "independent": true,
+    "reviewer_id": "/root/independent_review",
+    "findings_file": "review/findings.json",
+    "scope": "design_and_synthetic_prototype_only",
+    "decision": "pass"
+  },
+  "pending": [
+    "Implement as-of multi-day forecasting and future-release innovations for original data",
+    "Implement general SDDP with correct observable information nodes",
+    "Run chronological full-year continuous-state comparisons and validate terminal sensitivity"
+  ],
+  "violations": [],
+  "prototype": {
+    "status": "completed",
+    "scope": "Two compressed two-slot blocks, eight scenarios; exact-tail Benders, not full SDDP",
+    "execution_file": "artifacts/prototype-execution.json",
+    "results_file": "artifacts/prototype-results.json",
+    "report_file": "机制验证结果.md",
+    "independent_validation_file": "review/prototype-checks.json"
+  }
+}

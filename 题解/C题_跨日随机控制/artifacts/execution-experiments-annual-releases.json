@@ -1,0 +1,29 @@
+{
+  "command": "python3 src/validate.py --scope annual-releases --workers 3",
+  "exit_code": 0,
+  "runtime_seconds": 4347.4954834589735,
+  "source_sha256": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+  "results": [
+    {
+      "name": "annual_pv_without12",
+      "total_cost": 13638458.58238368,
+      "runtime_seconds": 2840.302473000018
+    },
+    {
+      "name": "annual_pv_0only",
+      "total_cost": 13776048.634147448,
+      "runtime_seconds": 2855.320427707862
+    },
+    {
+      "name": "annual_pv_without6",
+      "total_cost": 13531125.451426756,
+      "runtime_seconds": 2855.7759601669386
+    },
+    {
+      "name": "annual_pv_without18",
+      "total_cost": 13460126.846134413,
+      "runtime_seconds": 1506.202270833077
+    }
+  ],
+  "scope": "February–December continuous matched release ablations."
+}

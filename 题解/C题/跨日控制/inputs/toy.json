@@ -1,0 +1,13 @@
+{
+  "scope": "Synthetic compressed two-day example, two ten-minute slots per block; not the contest time series",
+  "eta": 0.9,
+  "power_limit_kw": 5000,
+  "step_hours": 0.16666666666666666,
+  "energy_bounds_kwh": [1200, 10800],
+  "initial_and_final_energy_kwh": 6000,
+  "first_block_net_kwh": [-600, -600],
+  "second_block_forecast_levels_kwh": [1000, 2000],
+  "independent_innovation_support_kwh": [-500, 500],
+  "prices_yuan_per_kwh": [0.2, 0.2, 1.0, 1.0],
+  "probability_rule": "Two equally likely forecasts, each followed by two independent equally likely innovations; eight equiprobable paths"
+}

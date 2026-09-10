@@ -1,0 +1,84 @@
+{
+  "command": "python3 题解/C题_跨日随机控制/src/validate.py --scope short --workers 2",
+  "exit_code": 0,
+  "runtime_seconds": 837.5820747502148,
+  "source_sha256": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+  "results": [
+    {
+      "name": "grid161",
+      "total_cost": 242988.8095517944,
+      "runtime_seconds": 98.33403679192998
+    },
+    {
+      "name": "reference",
+      "total_cost": 243002.9036523587,
+      "runtime_seconds": 98.711647832999
+    },
+    {
+      "name": "grid641",
+      "total_cost": 243028.93781902536,
+      "runtime_seconds": 100.66241129208356
+    },
+    {
+      "name": "horizon3",
+      "total_cost": 240844.86910395272,
+      "runtime_seconds": 189.8340709998738
+    },
+    {
+      "name": "scenarios14",
+      "total_cost": 242792.43339670094,
+      "runtime_seconds": 297.6854087919928
+    },
+    {
+      "name": "tail_zero",
+      "total_cost": 243002.90323503528,
+      "runtime_seconds": 108.25080458307639
+    },
+    {
+      "name": "tail_double",
+      "total_cost": 243009.1009167258,
+      "runtime_seconds": 108.78461779188365
+    },
+    {
+      "name": "stress_load_up_pv_down",
+      "total_cost": 528779.5901785615,
+      "runtime_seconds": 111.60846891603433
+    },
+    {
+      "name": "terminal6000",
+      "total_cost": 245491.4347684696,
+      "runtime_seconds": 122.93417283403687
+    },
+    {
+      "name": "pv_0only",
+      "total_cost": 246987.0445338411,
+      "runtime_seconds": 83.94998095789924
+    },
+    {
+      "name": "pv_without6",
+      "total_cost": 245049.62029879942,
+      "runtime_seconds": 84.87931612506509
+    },
+    {
+      "name": "pv_without12",
+      "total_cost": 254975.40385132466,
+      "runtime_seconds": 77.06742279115133
+    },
+    {
+      "name": "pv_without18",
+      "total_cost": 243002.90365235868,
+      "runtime_seconds": 76.63496249984019
+    },
+    {
+      "name": "variable_stress",
+      "total_cost": 520779.30916702165,
+      "runtime_seconds": 51.501094750128686
+    },
+    {
+      "name": "variable_reference",
+      "total_cost": 242114.4657432649,
+      "runtime_seconds": 57.9412601669319
+    }
+  ],
+  "scope": "Prespecified seven-day March subproblems; common initial SOC6000 and free endpoint except the terminal comparison. Do not extrapolate their cost differences to annual totals."
+}

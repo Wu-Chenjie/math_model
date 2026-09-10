@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "command": "python3 题解/C题/跨日控制/src/two_day_tree.py",
+  "seed": null,
+  "deterministic_reason": "All eight synthetic paths enumerated; deterministic LP solver",
+  "runtime": {
+    "command": "python3 题解/C题/跨日控制/src/two_day_tree.py",
+    "exit_code": 0,
+    "runtime_seconds": 0.03335149982012808,
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "numpy": "2.4.1",
+    "scipy": "1.17.0",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "seed": null,
+    "deterministic_reason": "All eight synthetic paths enumerated; deterministic LP solver",
+    "source_sha256": "0a0412d1f14eb2d80a757712e8110517c2e61684c0a74aeb183c7ed6f2af3ae8",
+    "input_sha256": "fbf6eae4e2082db60e30741d43a00386656a0c6cc2367066eede6354e8ba2769"
+  },
+  "input_hashes": {
+    "inputs/C题.pdf": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+    "inputs/toy.json": "fbf6eae4e2082db60e30741d43a00386656a0c6cc2367066eede6354e8ba2769"
+  },
+  "output_hashes": {
+    "README.md": "78b63352d073653847cff5e98099588ecda4df6a6c6d16d1041909a809ff6960",
+    "artifacts/data-audit.json": "b9e6bb902be46b77ab27f0563fc9cb84cf1bfed386cd452f93b7e84bf5c228b8",
+    "artifacts/prototype-execution.json": "5436b0502220805e4e3f7c2e8a55b2608f2c8d73cfb2fa45d536442a44a2d835",
+    "artifacts/prototype-results.json": "6d871d8d8c50ec278e7fb37b1f56ce6c763d41da7a8e798a3cb91227ce23f415",
+    "artifacts/result-registry.json": "531b08aae6061db85242db12f62389bcade9f12fe20f0ec82b099f662ffe3159",
+    "figures/跨日价值函数机制.png": "536b9e5ad6699acbf47f114b59c10c0d0ea79b18ce1c6558490501b093fe59d2",
+    "figures/跨日价值函数机制.svg": "6d88f5313c4a9d824ee99e51095d8c3478dc0dc45b1c8343031692ac641514d0",
+    "inputs/C题.pdf": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+    "inputs/toy.json": "fbf6eae4e2082db60e30741d43a00386656a0c6cc2367066eede6354e8ba2769",
+    "modeling-manifest.json": "190d062e13edbb415b35913495dcc8912b5c715c336af03085c0e41709ae74df",
+    "paper/result-claims.json": "7a8f76d2425071dd1e9d38c60815b7c8627884b510229d4525776dd8ef23bc3d",
+    "review/check-two-day-tree.py": "d6fe3c9d51b2b82d10f6b97a3937c5f0a07f831c197e272db2e2300c60a6d187",
+    "review/design-review.md": "745b7f79bf77ebb701468026a54e6a155fa1d9823de83ff40b0e2c3aece329fe",
+    "review/findings.json": "6d7a09309c577fe3b502c93dc258542f18343885d77322aba84fe43887807da8",
+    "review/prototype-checks.json": "758290f8211b4b07cce2fe7ba70ac9464738881dc3e56801e6554f3a6b72c96f",
+    "review/prototype-review.md": "38a03313a14dc139b0d09622891c1cc1a125ee5f9173512d7b70e63308823c70",
+    "src/report_prototype.py": "017117eb3597bd61e09f6814f44fe06b476a81a2554f7571a74ade598a0423fd",
+    "src/two_day_tree.py": "0a0412d1f14eb2d80a757712e8110517c2e61684c0a74aeb183c7ed6f2af3ae8",
+    "机制验证结果.md": "e015ace597908c15a649433b0cbf3da9878ac3918d4127b39b7328bb809d481a",
+    "设计交接.md": "90db27a09bed0d290a83abe88743d7578c45a1580b4256f067ee9aa51b7ebc60"
+  },
+  "scope": "design_and_synthetic_prototype_only",
+  "review_hashes_verified": true,
+  "annual_execution": "pending",
+  "general_sddp_implementation": "pending"
+}

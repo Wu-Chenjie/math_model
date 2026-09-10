@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "command": [
+        "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/wuchenjie/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.904.11930/skills/spreadsheets/container_tools/mark_artifact_operation_started.mjs",
+        "--operation-kind",
+        "create",
+        "--expected-output-count",
+        "5",
+        "--output-format",
+        "xlsx"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 0.1005372500512749
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "src/build_workbooks.mjs"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 16.958430958911777
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "src/verify_workbooks.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 3.0053480421192944
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/finish.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 1.1990305830258876
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/export_results.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 1.3208345831371844
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "src/verify_workbooks.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 2.756366959074512
+    }
+  ],
+  "exit_code": 0,
+  "runtime_seconds": 25.34054837631993
+}

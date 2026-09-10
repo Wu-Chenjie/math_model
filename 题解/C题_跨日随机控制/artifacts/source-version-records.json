@@ -1,0 +1,19 @@
+{
+  "v1": {
+    "files": {
+      "run.py": "1c91e38d91b3d5760c5bfd158f416ff99e877ad2a6ce3bc54bb3e40c4cb9aa5d",
+      "control.py": "a31e570b4046fddbd829c819bdd7aea63b934d909fc29d906d01e89112e0501f",
+      "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+      "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+      "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51"
+    },
+    "directory": "artifacts/source-v1",
+    "verified_against_selection_time_hashes": true,
+    "commands_already_running": [
+      "annual non-SDDP pool",
+      "500-iteration three-day tail training",
+      "short validation pool"
+    ]
+  },
+  "v2_change": "Added optional incoming SOC (default unchanged) and truncated SDDP auxiliary tails to remaining evaluation days. Ordinary linear-tail numerical defaults are unchanged. Corrected DP finite-terminal-penalty comment. Q1 was rerun after removing its 1e-7 turnover regularizer; annual settlement is unchanged."
+}

@@ -1,0 +1,60 @@
+{
+  "selection_period": [
+    24,
+    30
+  ],
+  "evaluation_period": [
+    31,
+    364
+  ],
+  "relative_tie_tolerance": 0.0001,
+  "policy": "Choose minimum development cost; if within 0.01%, prefer Markov DP with the simpler linear terminal value. Never reselect on evaluation costs.",
+  "selected": {
+    "q2": "markov_mpc",
+    "q3": "markov_mpc",
+    "q4_2": "markov_mpc",
+    "q4_3": "markov_mpc"
+  },
+  "development_costs": {
+    "q2": {
+      "cross_baseline": 347193.94010315835,
+      "affine_mpc": 358491.1563306534,
+      "markov_mpc": 344539.22891725734,
+      "sddp_mpc": 358465.7758520287,
+      "sddp_markov": 344539.2311055114
+    },
+    "q3": {
+      "cross_baseline": 346059.9831381737,
+      "affine_mpc": 349365.400499225,
+      "markov_mpc": 339412.43942864065,
+      "sddp_mpc": 349369.28135208116,
+      "sddp_markov": 339437.6391098426
+    },
+    "q4_2": {
+      "cross_baseline": 385581.89539562917,
+      "affine_mpc": 399952.64893016627,
+      "markov_mpc": 384378.43811770633,
+      "sddp_mpc": 399932.9790533105,
+      "sddp_markov": 384378.3982923654
+    },
+    "q4_3": {
+      "cross_baseline": 386054.3675103319,
+      "affine_mpc": 390049.68457198277,
+      "markov_mpc": 378803.55927664065,
+      "sddp_mpc": 390049.6845719828,
+      "sddp_markov": 378803.5592766406
+    }
+  },
+  "sddp_training_iterations_development": 300,
+  "sddp_training_iterations_evaluation": 500,
+  "sddp_training_note": "More iterations in evaluation is a predeclared numerical-accuracy increase, not chosen using annual costs.",
+  "source_hashes": {
+    "run.py": "1c91e38d91b3d5760c5bfd158f416ff99e877ad2a6ce3bc54bb3e40c4cb9aa5d",
+    "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+    "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51",
+    "control.py": "a31e570b4046fddbd829c819bdd7aea63b934d909fc29d906d01e89112e0501f",
+    "export_results.py": "e1ed32c49f3525be0c7a84788f769020bac342974c68e05e6934075446b87ee6",
+    "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+  }
+}

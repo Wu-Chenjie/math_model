@@ -1,0 +1,4417 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "scope": "Production numerical trajectories and recorded information permissions only; no ranking, score, or final project acceptance.",
+  "status": "all_36_pass_within_numerical_scope",
+  "passed": true,
+  "all_available_cases_passed": true,
+  "expected_cases": 36,
+  "passed_cases": 36,
+  "pending_cases": [],
+  "failed_cases": [],
+  "cases": {
+    "artifacts/annual/q2_closed_baseline": {
+      "status": "pass",
+      "kind": "q2",
+      "candidate": "closed_baseline",
+      "files": {
+        "artifacts/annual/q2_closed_baseline.json": "580dafdd972981767a54b36ffedbca9a270354c06de7f17f4aa0823174074382",
+        "artifacts/annual/q2_closed_baseline.npz": "b39c6de0334a58e69ba5dbc33aeff1c9c32be78804278e79c544600fcc3feb02"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13525231.071578983,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 656724.5932041093,
+        "emergency_energy": 116781.79758789127,
+        "spill_energy": 3098819.7845197846,
+        "projection_count": 15109.0,
+        "total_cost": 14181955.664783094
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q2_cross_baseline": {
+      "status": "pass",
+      "kind": "q2",
+      "candidate": "cross_baseline",
+      "files": {
+        "artifacts/annual/q2_cross_baseline.json": "ccbd59ac97284dd28b53ff4c62f3f2fef894acaf43f28da36ff2a289bbfb2753",
+        "artifacts/annual/q2_cross_baseline.npz": "e6775b1d3911ca460e05dca952a9a59dc82847222e9959c9fca574d5da7d45cb"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13411724.597776938,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 632680.3725183952,
+        "emergency_energy": 105243.03084109027,
+        "spill_energy": 2884401.138694083,
+        "projection_count": 15039.0,
+        "total_cost": 14044404.970295336
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1729.6305528571447,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q2_affine_mpc": {
+      "status": "pass",
+      "kind": "q2",
+      "candidate": "affine_mpc",
+      "files": {
+        "artifacts/annual/q2_affine_mpc.json": "b7258d8d2aaa63e80c7b9f222cc59fc572eeaa343045410cdac725e75e3219b1",
+        "artifacts/annual/q2_affine_mpc.npz": "873cc375f9a03b373a52191405cfdbcd20a4c73b5983360d757eb06f62bd3f17"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13264925.219744448,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1311811.418156072,
+        "emergency_energy": 332374.65344713005,
+        "spill_energy": 2583885.13702577,
+        "projection_count": 1507.0,
+        "total_cost": 14576736.63790052
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.4551915228366852e-11,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q2_markov_mpc": {
+      "status": "pass",
+      "kind": "q2",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/annual/q2_markov_mpc.json": "0847fa769b62f16b96fce3d0713f21ea0eadf1eeb5f0e3b99d67f6b8d17926cb",
+        "artifacts/annual/q2_markov_mpc.npz": "d4c6955b31fccbfbea213b0c9f298f9a1d9e18c6585db56ce678da841a8ec1c7"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13194636.673955264,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 647043.8461881,
+        "emergency_energy": 151764.07688902432,
+        "spill_energy": 2336399.654181278,
+        "projection_count": 0.0,
+        "total_cost": 13841680.520143364
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.1641532182693481e-10,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q2_closed_affine": {
+      "status": "pass",
+      "kind": "q2",
+      "candidate": "closed_affine",
+      "files": {
+        "artifacts/annual/q2_closed_affine.json": "e60ba89f7dfcc6ebc994a00c1ff5bee0030ff64d304ec7f59c3ab25be84a895f",
+        "artifacts/annual/q2_closed_affine.npz": "8cca83de371b79d5e9eaf406bd47db8f01d99175a5548d9d38cb887c5f86b3c2"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13377982.746087933,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1428366.172021641,
+        "emergency_energy": 362894.64922787214,
+        "spill_energy": 2809836.082019424,
+        "projection_count": 1069.0,
+        "total_cost": 14806348.918109573
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 4.656612873077393e-10,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual_sddp/q2_sddp_markov": {
+      "status": "pass",
+      "kind": "q2",
+      "candidate": "sddp_markov",
+      "files": {
+        "artifacts/annual_sddp/q2_sddp_markov.json": "5f68b67c8d359e7d3799c7a41616a4bf26091e89765291b355435f91301bf4f9",
+        "artifacts/annual_sddp/q2_sddp_markov.npz": "60b8cd2ff603c0d861bfd3f01318d9581e289b4d8d45436afad3e5c3389930a0"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13195936.520767005,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 649039.288151938,
+        "emergency_energy": 152188.38876502527,
+        "spill_energy": 2338460.956999013,
+        "projection_count": 0.0,
+        "total_cost": 13844975.808918942
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.4551915228366852e-11,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {
+          "3": 1320,
+          "2": 4,
+          "1": 4
+        },
+        "used_model_files": [
+          "artifacts/tails/q2_120.json",
+          "artifacts/tails/q2_151.json",
+          "artifacts/tails/q2_181.json",
+          "artifacts/tails/q2_212.json",
+          "artifacts/tails/q2_243.json",
+          "artifacts/tails/q2_273.json",
+          "artifacts/tails/q2_304.json",
+          "artifacts/tails/q2_31.json",
+          "artifacts/tails/q2_334.json",
+          "artifacts/tails/q2_334_D1.json",
+          "artifacts/tails/q2_334_D2.json",
+          "artifacts/tails/q2_59.json",
+          "artifacts/tails/q2_90.json"
+        ],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q3_closed_baseline": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "closed_baseline",
+      "files": {
+        "artifacts/annual/q3_closed_baseline.json": "ab7ec6373b1a16cac95462aaeb158e32675222b0f05bf91ac3b58ef87ccabe52",
+        "artifacts/annual/q3_closed_baseline.npz": "6afaed66c6551ec1e353175e7ca1b5523583f717bdb4ab6ea73b0ed3a1aee70a"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13709555.578467485,
+        "increase_cost": 254184.01491470725,
+        "reduction_net_cost": -292300.8949004199,
+        "emergency_cost": 156575.40203686175,
+        "emergency_energy": 33659.112929641604,
+        "spill_energy": 2509457.6635972084,
+        "projection_count": 14506.0,
+        "total_cost": 13828014.100518633
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 4.656612873077393e-10,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q3_cross_baseline": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "cross_baseline",
+      "files": {
+        "artifacts/annual/q3_cross_baseline.json": "e82274b0212f36ced81b634ab95140614fa021619a34ad3635e4357de9d08e21",
+        "artifacts/annual/q3_cross_baseline.npz": "3b686dc4757c16e4a308a2097f07c6c30ac144442fd21d22515743e353ecaf1f"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13594749.391551757,
+        "increase_cost": 253313.07774607575,
+        "reduction_net_cost": -292044.1824232855,
+        "emergency_cost": 134911.28525730842,
+        "emergency_energy": 23476.888243842943,
+        "spill_energy": 2292160.840438959,
+        "projection_count": 14426.0,
+        "total_cost": 13690929.572131857
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1729.6305581481429,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q3_affine_mpc": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "affine_mpc",
+      "files": {
+        "artifacts/annual/q3_affine_mpc.json": "b304c6d672e3407eda82a958931778747eb9adb246c6b0988268579b4a75a5e1",
+        "artifacts/annual/q3_affine_mpc.npz": "3a4b124e15e475e2ab3e4a688a0087b89781962465d417da9f6b0117622a82eb"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13410429.08850909,
+        "increase_cost": 245297.63018124975,
+        "reduction_net_cost": -262379.1226386917,
+        "emergency_cost": 651284.6956612787,
+        "emergency_energy": 177376.7574431153,
+        "spill_energy": 2060431.1956706173,
+        "projection_count": 1745.0,
+        "total_cost": 14044632.291712925
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q3_markov_mpc": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/annual/q3_markov_mpc.json": "26b7c8bdf5683614486a44469f55b5677c2c9bf6fd43cf552503f2b8a5b7f41a",
+        "artifacts/annual/q3_markov_mpc.npz": "2aa9df30144f0f5b586fda9b450c3eb320f2782441655f73a3f43e00cbc4748d"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13338154.54333805,
+        "increase_cost": 252177.40668422976,
+        "reduction_net_cost": -305826.4703435942,
+        "emergency_cost": 174663.53001673776,
+        "emergency_energy": 37820.33113411113,
+        "spill_energy": 1737593.6344406847,
+        "projection_count": 0.0,
+        "total_cost": 13459169.009695422
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q3_closed_affine": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "closed_affine",
+      "files": {
+        "artifacts/annual/q3_closed_affine.json": "7c631d58e48921e0247eb7fa9172ca1ca50d1b7b981c01aec0d36b42a3439cd6",
+        "artifacts/annual/q3_closed_affine.npz": "9e09d05c98a2c72f22b87972d1eb24fc775aff28e8135e613a804b2b6dd360fa"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13495829.632056177,
+        "increase_cost": 232605.35148538434,
+        "reduction_net_cost": -239238.07871141142,
+        "emergency_cost": 862596.90189431,
+        "emergency_energy": 227099.86394379448,
+        "spill_energy": 2311140.9102725796,
+        "projection_count": 1185.0,
+        "total_cost": 14351793.80672446
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual_sddp/q3_sddp_markov": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "sddp_markov",
+      "files": {
+        "artifacts/annual_sddp/q3_sddp_markov.json": "4356d9581817c143b9f7e29433694c6ee241f4628501b4c7b8b66c96772822a4",
+        "artifacts/annual_sddp/q3_sddp_markov.npz": "560808b11d79267925ac71a75cab95dec6ae2b8116610fc6d7c79e37e5624d73"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13339360.977026049,
+        "increase_cost": 252316.8159063305,
+        "reduction_net_cost": -304897.9628771007,
+        "emergency_cost": 174970.708575716,
+        "emergency_energy": 37865.26534062082,
+        "spill_energy": 1743428.5184245654,
+        "projection_count": 0.0,
+        "total_cost": 13461750.538630996
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {
+          "3": 1320,
+          "2": 4,
+          "1": 4
+        },
+        "used_model_files": [
+          "artifacts/tails/q3_120.json",
+          "artifacts/tails/q3_151.json",
+          "artifacts/tails/q3_181.json",
+          "artifacts/tails/q3_212.json",
+          "artifacts/tails/q3_243.json",
+          "artifacts/tails/q3_273.json",
+          "artifacts/tails/q3_304.json",
+          "artifacts/tails/q3_31.json",
+          "artifacts/tails/q3_334.json",
+          "artifacts/tails/q3_334_D1.json",
+          "artifacts/tails/q3_334_D2.json",
+          "artifacts/tails/q3_59.json",
+          "artifacts/tails/q3_90.json"
+        ],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q4_2_closed_baseline": {
+      "status": "pass",
+      "kind": "q4_2",
+      "candidate": "closed_baseline",
+      "files": {
+        "artifacts/annual/q4_2_closed_baseline.json": "fe056bfc8ac85138f26c2ee65d4fcd01855509a67d8894397dc36cba7002b6f4",
+        "artifacts/annual/q4_2_closed_baseline.npz": "c67521f47b3ed9a2427cdd56b6bc95c7ebd53e5c1bb69df63c2a7fdcc0182c99"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14395300.275784008,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 615301.1828446062,
+        "emergency_energy": 102050.0906031138,
+        "spill_energy": 3205017.8343492155,
+        "projection_count": 14906.0,
+        "total_cost": 15010601.458628617
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q4_2_cross_baseline": {
+      "status": "pass",
+      "kind": "q4_2",
+      "candidate": "cross_baseline",
+      "files": {
+        "artifacts/annual/q4_2_cross_baseline.json": "1f6c700b1aa2c68388d208b4984d6260c285c67cee60530131fe001b9db930f4",
+        "artifacts/annual/q4_2_cross_baseline.npz": "f101e6a978b626fd2725c18ebeae6c596987f257d2fbd41715494dc82d5544b9"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14203483.090642978,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 601751.9635007273,
+        "emergency_energy": 96868.96120079097,
+        "spill_energy": 2892314.8132064547,
+        "projection_count": 14599.0,
+        "total_cost": 14805235.054143704
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.4551915228366852e-11,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1729.6305528571445,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q4_2_affine_mpc": {
+      "status": "pass",
+      "kind": "q4_2",
+      "candidate": "affine_mpc",
+      "files": {
+        "artifacts/annual/q4_2_affine_mpc.json": "79974be84a6835c12178f6cf725c3e62ee97d172078a816aa375d231f05a085a",
+        "artifacts/annual/q4_2_affine_mpc.npz": "d613bd74d40b35f44ea4715dfb3e34dcb26901b5c39dedc16d343a6860c82a06"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14075641.13131624,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1338710.6977889347,
+        "emergency_energy": 322252.14082441234,
+        "spill_energy": 2635021.2910390906,
+        "projection_count": 1476.0,
+        "total_cost": 15414351.829105176
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q4_2_markov_mpc": {
+      "status": "pass",
+      "kind": "q4_2",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/annual/q4_2_markov_mpc.json": "2d600bc2c15c93fc9da5422df0149410e8b7b6bdf23c090507a6e1362a8da412",
+        "artifacts/annual/q4_2_markov_mpc.npz": "6c21f38c22c91f27df122cea1ece71642ee6d1339fe1350058bfb66f8ba342d5"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13997268.293233696,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 654859.1091260854,
+        "emergency_energy": 140005.4874960441,
+        "spill_energy": 2372887.753895975,
+        "projection_count": 0.0,
+        "total_cost": 14652127.402359784
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q4_2_closed_affine": {
+      "status": "pass",
+      "kind": "q4_2",
+      "candidate": "closed_affine",
+      "files": {
+        "artifacts/annual/q4_2_closed_affine.json": "159a45a71dac3e80a8e3dc02c0f8ad31e8f0e21d77f2df74d8d291c00f50c692",
+        "artifacts/annual/q4_2_closed_affine.npz": "410802e16f3380fbca1ada7d72505df99214ab60798be9ab6c1f906599cf7787"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14232600.209941834,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1457688.7546561675,
+        "emergency_energy": 350156.81578101753,
+        "spill_energy": 2878514.127506833,
+        "projection_count": 1015.0,
+        "total_cost": 15690288.964598
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual_sddp/q4_2_sddp_markov": {
+      "status": "pass",
+      "kind": "q4_2",
+      "candidate": "sddp_markov",
+      "files": {
+        "artifacts/annual_sddp/q4_2_sddp_markov.json": "30e283af00fef08d39c0417c7f19b181e483182a2e275f654adb998be29c536f",
+        "artifacts/annual_sddp/q4_2_sddp_markov.npz": "c4086e3ed89424cf95ce954c70042418086d9ee30dcd929947e011906e48c644"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13999908.804336566,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 657338.4706301803,
+        "emergency_energy": 140617.61119528307,
+        "spill_energy": 2377580.8398297904,
+        "projection_count": 0.0,
+        "total_cost": 14657247.274966747
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.1641532182693481e-10,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "0": 1336
+        },
+        "tail_days_histogram": {
+          "3": 1320,
+          "2": 4,
+          "1": 4
+        },
+        "used_model_files": [
+          "artifacts/tails/q4_2_120.json",
+          "artifacts/tails/q4_2_151.json",
+          "artifacts/tails/q4_2_181.json",
+          "artifacts/tails/q4_2_212.json",
+          "artifacts/tails/q4_2_243.json",
+          "artifacts/tails/q4_2_273.json",
+          "artifacts/tails/q4_2_304.json",
+          "artifacts/tails/q4_2_31.json",
+          "artifacts/tails/q4_2_334.json",
+          "artifacts/tails/q4_2_334_D1.json",
+          "artifacts/tails/q4_2_334_D2.json",
+          "artifacts/tails/q4_2_59.json",
+          "artifacts/tails/q4_2_90.json"
+        ],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q4_3_closed_baseline": {
+      "status": "pass",
+      "kind": "q4_3",
+      "candidate": "closed_baseline",
+      "files": {
+        "artifacts/annual/q4_3_closed_baseline.json": "78ce79a29ba7a17d1a68a21fa34739bcfc0152233303057fc5a3d539c9fec57e",
+        "artifacts/annual/q4_3_closed_baseline.npz": "0b9dc0ae3cd0368d6350b8d42f67456f6e662ae982ef0baa4d4e51e2819ba7b1"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14570685.045163691,
+        "increase_cost": 294746.16306958866,
+        "reduction_net_cost": -327240.3344314168,
+        "emergency_cost": 143477.57624191476,
+        "emergency_energy": 27930.99519235816,
+        "spill_energy": 2549881.5955247227,
+        "projection_count": 14292.0,
+        "total_cost": 14681668.450043777
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 5.820766091346741e-11,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q4_3_cross_baseline": {
+      "status": "pass",
+      "kind": "q4_3",
+      "candidate": "cross_baseline",
+      "files": {
+        "artifacts/annual/q4_3_cross_baseline.json": "3d7dc6556667b232e2d23f407df8860e2af1b01e2ac72d7d78a3d5f6e14019d2",
+        "artifacts/annual/q4_3_cross_baseline.npz": "317a5eaa34b5f305cdd90eac133b017e6656e5fba89a465fc183ba4f222047b2"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14376749.877380915,
+        "increase_cost": 290599.65178629826,
+        "reduction_net_cost": -326257.579837747,
+        "emergency_cost": 137694.67124443027,
+        "emergency_energy": 25475.121887395806,
+        "spill_energy": 2231264.7388261943,
+        "projection_count": 13950.0,
+        "total_cost": 14478786.620573897
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 5.820766091346741e-11,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1734.0447555344201,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q4_3_affine_mpc": {
+      "status": "pass",
+      "kind": "q4_3",
+      "candidate": "affine_mpc",
+      "files": {
+        "artifacts/annual/q4_3_affine_mpc.json": "db6d35b21baeb0960279e37caa9accbf5c3c35a285f7fe05352e769eb9cb481a",
+        "artifacts/annual/q4_3_affine_mpc.npz": "993e1d1c169240a23736eca6b89e57ae2b70f984e5967867cbe486726bd98405"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14191781.29604167,
+        "increase_cost": 289234.18344801036,
+        "reduction_net_cost": -277998.8367762313,
+        "emergency_cost": 641955.3802834351,
+        "emergency_energy": 170285.49940450618,
+        "spill_energy": 2081280.263489024,
+        "projection_count": 1653.0,
+        "total_cost": 14844972.022996884
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q4_3_markov_mpc": {
+      "status": "pass",
+      "kind": "q4_3",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/annual/q4_3_markov_mpc.json": "895d1ac7ed61a81bc8f7d92ecbf9f3080285f7bc28ceb66988601d0b451a44f8",
+        "artifacts/annual/q4_3_markov_mpc.npz": "abf6bb7c30a7a084886be89b911cc9c5fdc0c7baa3cf897e5fcf58c9fa0ce203"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14115100.335729554,
+        "increase_cost": 287303.4413616986,
+        "reduction_net_cost": -327864.95543017995,
+        "emergency_cost": 174823.67347999153,
+        "emergency_energy": 37932.59680589181,
+        "spill_energy": 1745863.3117631292,
+        "projection_count": 0.0,
+        "total_cost": 14249362.495141067
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual/q4_3_closed_affine": {
+      "status": "pass",
+      "kind": "q4_3",
+      "candidate": "closed_affine",
+      "files": {
+        "artifacts/annual/q4_3_closed_affine.json": "2a6a82aaa8510546fde5cbaa5e4091a10a285da05fe3509d84bf7651d984078b",
+        "artifacts/annual/q4_3_closed_affine.npz": "a71df0c6ad3c526c480ff0bd46eef3b973216e933bf9c09a42cb85c4f1a6a263"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14323092.566385347,
+        "increase_cost": 284563.7956626995,
+        "reduction_net_cost": -256700.8141731571,
+        "emergency_cost": 830688.2706538363,
+        "emergency_energy": 211260.02613710007,
+        "spill_energy": 2339734.2658450813,
+        "projection_count": 1101.0,
+        "total_cost": 15181643.818528729
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/annual_sddp/q4_3_sddp_markov": {
+      "status": "pass",
+      "kind": "q4_3",
+      "candidate": "sddp_markov",
+      "files": {
+        "artifacts/annual_sddp/q4_3_sddp_markov.json": "82024680ed3a1044509f0b520983cd3b8786934ef30af4f4ad9eab5b92c0deeb",
+        "artifacts/annual_sddp/q4_3_sddp_markov.npz": "bce2bdac7cfc98ff0704e603a158715834dd497343ae29fd17956d76a815cee2"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14116958.177544694,
+        "increase_cost": 287663.55276832415,
+        "reduction_net_cost": -326859.91876863793,
+        "emergency_cost": 175315.62718796328,
+        "emergency_energy": 38072.74663299812,
+        "spill_energy": 1753607.0988340867,
+        "projection_count": 0.0,
+        "total_cost": 14253077.438732345
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1333,
+          "108": 1,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {
+          "3": 1320,
+          "2": 4,
+          "1": 4
+        },
+        "used_model_files": [
+          "artifacts/tails/q4_3_120.json",
+          "artifacts/tails/q4_3_151.json",
+          "artifacts/tails/q4_3_181.json",
+          "artifacts/tails/q4_3_212.json",
+          "artifacts/tails/q4_3_243.json",
+          "artifacts/tails/q4_3_273.json",
+          "artifacts/tails/q4_3_304.json",
+          "artifacts/tails/q4_3_31.json",
+          "artifacts/tails/q4_3_334.json",
+          "artifacts/tails/q4_3_334_D1.json",
+          "artifacts/tails/q4_3_334_D2.json",
+          "artifacts/tails/q4_3_59.json",
+          "artifacts/tails/q4_3_90.json"
+        ],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/experiments/annual_pv_0only": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/experiments/annual_pv_0only.json": "067b71d268b2dc903b86fd566caf621607dba411c88db8ba91f82584420657d1",
+        "artifacts/experiments/annual_pv_0only.npz": "330d8d94995cab3d91da185c60a06c8ce30b4937d4c459b5f0dabde8d663ff97"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13339262.325987607,
+        "increase_cost": 191228.0030439871,
+        "reduction_net_cost": -69038.15916856952,
+        "emergency_cost": 314596.4642844224,
+        "emergency_energy": 73819.52639824183,
+        "spill_energy": 2390887.393378309,
+        "projection_count": 0.0,
+        "total_cost": 13776048.634147448
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 334,
+          "108": 334,
+          "72": 334,
+          "36": 334
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/experiments/annual_pv_without6": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/experiments/annual_pv_without6.json": "02a662a4dd97d080381083d18023897f998a287aa05cd1d3a399746788876b09",
+        "artifacts/experiments/annual_pv_without6.npz": "e6fd4a38628d545b87c27e0500a5dbab8ee900f370de2851315b63fc2a361169"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13338326.886191461,
+        "increase_cost": 230446.50218265434,
+        "reduction_net_cost": -233810.85428176136,
+        "emergency_cost": 196162.91733440157,
+        "emergency_energy": 43019.162208378846,
+        "spill_energy": 1932588.300857468,
+        "projection_count": 0.0,
+        "total_cost": 13531125.451426756
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 2.1827872842550278e-11,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1000,
+          "108": 334,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/experiments/annual_pv_without12": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/experiments/annual_pv_without12.json": "be1a0af0071dd4ff8defed81e1b0bf93b1c75c903113e1d1fac1f9c1bf57e574",
+        "artifacts/experiments/annual_pv_without12.npz": "570fde1e7ee84e417cd548c7d6a02b2753cf410fe640d40b28f756fed8ab8405"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13339168.861345768,
+        "increase_cost": 338179.7747703976,
+        "reduction_net_cost": -251505.9217434455,
+        "emergency_cost": 212615.8680109583,
+        "emergency_energy": 47517.07439123347,
+        "spill_energy": 1981509.3947395096,
+        "projection_count": 0.0,
+        "total_cost": 13638458.582383677
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 1.862645149230957e-09,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1000,
+          "108": 334,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/experiments/annual_pv_without18": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/experiments/annual_pv_without18.json": "a732a29a8b2434f423ba4c895b94246a715fbc20e83c543d70b99d83700c2e63",
+        "artifacts/experiments/annual_pv_without18.npz": "ced44a1fe78d57d1aa664af06df82d1964a0abfb8b04a3e9761d77f32969e7f4"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13338582.455907036,
+        "increase_cost": 252051.38573139108,
+        "reduction_net_cost": -305751.56810809334,
+        "emergency_cost": 175244.57260408087,
+        "emergency_energy": 37960.106976898256,
+        "spill_energy": 1738648.8144595663,
+        "projection_count": 0.0,
+        "total_cost": 13460126.846134413
+      },
+      "daily_and_annual_cost_reconciliation_max_abs": 5.820766091346741e-11,
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "information": {
+        "passed": true,
+        "decisions": 1336,
+        "minimum_training_maturity_slack_slots": 0,
+        "input_SOC_max_error": 0.0,
+        "official_coverage_histogram": {
+          "144": 1000,
+          "108": 334,
+          "72": 1,
+          "36": 1
+        },
+        "tail_days_histogram": {},
+        "used_model_files": [],
+        "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+      }
+    },
+    "artifacts/global-terminal/q2_affine_mpc": {
+      "status": "pass",
+      "kind": "q2",
+      "candidate": "affine_mpc",
+      "files": {
+        "artifacts/global-terminal/q2_affine_mpc.json": "8a3b3f21c877731c4450a045cdeea8de2b1cd81662ecbddbe4f1be482c3635e4",
+        "artifacts/global-terminal/q2_affine_mpc.npz": "dd4402fc64ebb728fa0e45a632ee383da0bda6a7ad59fb82390956b6afe96773"
+      },
+      "source_files": {
+        "artifacts/annual/q2_affine_mpc.json": "b7258d8d2aaa63e80c7b9f222cc59fc572eeaa343045410cdac725e75e3219b1",
+        "artifacts/annual/q2_affine_mpc.npz": "873cc375f9a03b373a52191405cfdbcd20a4c73b5983360d757eb06f62bd3f17"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13267414.761460178,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1312380.9488402535,
+        "emergency_energy": 332559.6647141245,
+        "spill_energy": 2584472.749692864,
+        "projection_count": 1506.0,
+        "total_cost": 14579795.71030043
+      },
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "prefix_exact_max_error": 0.0,
+      "suffix_daily_cost_reconciliation_max_abs": 0.0,
+      "information": {
+        "prefix": {
+          "passed": true,
+          "decisions": 1328,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "0": 1328
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        },
+        "fixed_suffix": {
+          "passed": true,
+          "decisions": 8,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "0": 8
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        }
+      },
+      "replay_scope": "Independently verifies stored source hashes, every reused prefix element, splice SOC, suffix logs/fees and physical constraints. Does not rerun all eight controllers; prior v2 review independently replayed both Q2 linear-tail cases."
+    },
+    "artifacts/global-terminal/q2_markov_mpc": {
+      "status": "pass",
+      "kind": "q2",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/global-terminal/q2_markov_mpc.json": "9e0ba0c6923e7a21793e9ef552e7bc189ece37cd0f99e74f06350a717355c9ac",
+        "artifacts/global-terminal/q2_markov_mpc.npz": "8b4df5f97f7d0cd887a0c690eb8c2f93980f9fb9f24be105369514ebc6fb9ff6"
+      },
+      "source_files": {
+        "artifacts/annual/q2_markov_mpc.json": "0847fa769b62f16b96fce3d0713f21ea0eadf1eeb5f0e3b99d67f6b8d17926cb",
+        "artifacts/annual/q2_markov_mpc.npz": "d4c6955b31fccbfbea213b0c9f298f9a1d9e18c6585db56ce678da841a8ec1c7"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13197126.215670994,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 647043.8461881,
+        "emergency_energy": 151764.07688902435,
+        "spill_energy": 2336748.172034976,
+        "projection_count": 0.0,
+        "total_cost": 13844170.061859094
+      },
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "prefix_exact_max_error": 0.0,
+      "suffix_daily_cost_reconciliation_max_abs": 7.275957614183426e-12,
+      "information": {
+        "prefix": {
+          "passed": true,
+          "decisions": 1328,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "0": 1328
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        },
+        "fixed_suffix": {
+          "passed": true,
+          "decisions": 8,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "0": 8
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        }
+      },
+      "replay_scope": "Independently verifies stored source hashes, every reused prefix element, splice SOC, suffix logs/fees and physical constraints. Does not rerun all eight controllers; prior v2 review independently replayed both Q2 linear-tail cases."
+    },
+    "artifacts/global-terminal/q3_affine_mpc": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "affine_mpc",
+      "files": {
+        "artifacts/global-terminal/q3_affine_mpc.json": "12e5f59c389a94d2935874603681839b49b8b0024fd0199b36bfb3dc67ce01b7",
+        "artifacts/global-terminal/q3_affine_mpc.npz": "d4f30646dbdeeed78b65aa13b2dcbb7f20dc64f815791693d97c9d16665dcf96"
+      },
+      "source_files": {
+        "artifacts/annual/q3_affine_mpc.json": "b304c6d672e3407eda82a958931778747eb9adb246c6b0988268579b4a75a5e1",
+        "artifacts/annual/q3_affine_mpc.npz": "3a4b124e15e475e2ab3e4a688a0087b89781962465d417da9f6b0117622a82eb"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13412957.379777346,
+        "increase_cost": 245297.63018124975,
+        "reduction_net_cost": -262318.9313320345,
+        "emergency_cost": 651691.3758954087,
+        "emergency_energy": 177471.4566315786,
+        "spill_energy": 2061065.476517132,
+        "projection_count": 1737.0,
+        "total_cost": 14047627.454521969
+      },
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "prefix_exact_max_error": 0.0,
+      "suffix_daily_cost_reconciliation_max_abs": 7.275957614183426e-12,
+      "information": {
+        "prefix": {
+          "passed": true,
+          "decisions": 1328,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "144": 1328
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        },
+        "fixed_suffix": {
+          "passed": true,
+          "decisions": 8,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "144": 5,
+            "108": 1,
+            "72": 1,
+            "36": 1
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        }
+      },
+      "replay_scope": "Independently verifies stored source hashes, every reused prefix element, splice SOC, suffix logs/fees and physical constraints. Does not rerun all eight controllers; prior v2 review independently replayed both Q2 linear-tail cases."
+    },
+    "artifacts/global-terminal/q3_markov_mpc": {
+      "status": "pass",
+      "kind": "q3",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/global-terminal/q3_markov_mpc.json": "48abb7e0c7064f5916ff9d9ddea9e6aa43fa5d5f1df3b1ceda67a5c344aa8531",
+        "artifacts/global-terminal/q3_markov_mpc.npz": "5d3083a543e143623dde5f964f302b693ca378218d7c88bc34ebd8633161723f"
+      },
+      "source_files": {
+        "artifacts/annual/q3_markov_mpc.json": "26b7c8bdf5683614486a44469f55b5677c2c9bf6fd43cf552503f2b8a5b7f41a",
+        "artifacts/annual/q3_markov_mpc.npz": "2aa9df30144f0f5b586fda9b450c3eb320f2782441655f73a3f43e00cbc4748d"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13340682.098085783,
+        "increase_cost": 252177.40668422976,
+        "reduction_net_cost": -305683.3310681213,
+        "emergency_cost": 174666.1772459749,
+        "emergency_energy": 37821.56931429688,
+        "spill_energy": 1738320.5163277145,
+        "projection_count": 0.0,
+        "total_cost": 13461842.350947868
+      },
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "prefix_exact_max_error": 0.0,
+      "suffix_daily_cost_reconciliation_max_abs": 7.275957614183426e-12,
+      "information": {
+        "prefix": {
+          "passed": true,
+          "decisions": 1328,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "144": 1328
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        },
+        "fixed_suffix": {
+          "passed": true,
+          "decisions": 8,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "144": 5,
+            "108": 1,
+            "72": 1,
+            "36": 1
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        }
+      },
+      "replay_scope": "Independently verifies stored source hashes, every reused prefix element, splice SOC, suffix logs/fees and physical constraints. Does not rerun all eight controllers; prior v2 review independently replayed both Q2 linear-tail cases."
+    },
+    "artifacts/global-terminal/q4_2_affine_mpc": {
+      "status": "pass",
+      "kind": "q4_2",
+      "candidate": "affine_mpc",
+      "files": {
+        "artifacts/global-terminal/q4_2_affine_mpc.json": "646f09594f692bcbef91b3aca218d37364b8aa4a72cb3bddad1ed200d7e3af93",
+        "artifacts/global-terminal/q4_2_affine_mpc.npz": "b92e5a5d09f0e3e0b1ef58493d504720f4983cbf47de688ceddbd699f46716f7"
+      },
+      "source_files": {
+        "artifacts/annual/q4_2_affine_mpc.json": "79974be84a6835c12178f6cf725c3e62ee97d172078a816aa375d231f05a085a",
+        "artifacts/annual/q4_2_affine_mpc.npz": "d613bd74d40b35f44ea4715dfb3e34dcb26901b5c39dedc16d343a6860c82a06"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14078161.63463767,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1339167.4820841118,
+        "emergency_energy": 322393.38715043664,
+        "spill_energy": 2635519.341905809,
+        "projection_count": 1475.0,
+        "total_cost": 15417329.116721783
+      },
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "prefix_exact_max_error": 0.0,
+      "suffix_daily_cost_reconciliation_max_abs": 1.4551915228366852e-11,
+      "information": {
+        "prefix": {
+          "passed": true,
+          "decisions": 1328,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "0": 1328
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        },
+        "fixed_suffix": {
+          "passed": true,
+          "decisions": 8,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "0": 8
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        }
+      },
+      "replay_scope": "Independently verifies stored source hashes, every reused prefix element, splice SOC, suffix logs/fees and physical constraints. Does not rerun all eight controllers; prior v2 review independently replayed both Q2 linear-tail cases."
+    },
+    "artifacts/global-terminal/q4_2_markov_mpc": {
+      "status": "pass",
+      "kind": "q4_2",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/global-terminal/q4_2_markov_mpc.json": "5941d84bd149c27edeaa83281fbfdaabd36f4b77e5ccb513542afc570a1166af",
+        "artifacts/global-terminal/q4_2_markov_mpc.npz": "44a073ea8b20935f6221eabad299fca56c2f7a5c76e79889d662b33005fc4461"
+      },
+      "source_files": {
+        "artifacts/annual/q4_2_markov_mpc.json": "2d600bc2c15c93fc9da5422df0149410e8b7b6bdf23c090507a6e1362a8da412",
+        "artifacts/annual/q4_2_markov_mpc.npz": "6c21f38c22c91f27df122cea1ece71642ee6d1339fe1350058bfb66f8ba342d5"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 13999788.76539036,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 654822.6158482771,
+        "emergency_energy": 139989.68954028297,
+        "spill_energy": 2373217.794892113,
+        "projection_count": 0.0,
+        "total_cost": 14654611.38123864
+      },
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 1,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "prefix_exact_max_error": 0.0,
+      "suffix_daily_cost_reconciliation_max_abs": 0.0,
+      "information": {
+        "prefix": {
+          "passed": true,
+          "decisions": 1328,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "0": 1328
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        },
+        "fixed_suffix": {
+          "passed": true,
+          "decisions": 8,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "0": 8
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        }
+      },
+      "replay_scope": "Independently verifies stored source hashes, every reused prefix element, splice SOC, suffix logs/fees and physical constraints. Does not rerun all eight controllers; prior v2 review independently replayed both Q2 linear-tail cases."
+    },
+    "artifacts/global-terminal/q4_3_affine_mpc": {
+      "status": "pass",
+      "kind": "q4_3",
+      "candidate": "affine_mpc",
+      "files": {
+        "artifacts/global-terminal/q4_3_affine_mpc.json": "3bcaf787da3c5209254514c0f2ded7491fd4b388c4673148e1bf0dd70b1a4a11",
+        "artifacts/global-terminal/q4_3_affine_mpc.npz": "f3ed5b75dfa0aa64cd7dd91eb5d9e429d3e0ccf606d2a61f1067dff870139550"
+      },
+      "source_files": {
+        "artifacts/annual/q4_3_affine_mpc.json": "db6d35b21baeb0960279e37caa9accbf5c3c35a285f7fe05352e769eb9cb481a",
+        "artifacts/annual/q4_3_affine_mpc.npz": "993e1d1c169240a23736eca6b89e57ae2b70f984e5967867cbe486726bd98405"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14194358.352097873,
+        "increase_cost": 289234.18344801036,
+        "reduction_net_cost": -277914.02461394726,
+        "emergency_cost": 642330.3499256249,
+        "emergency_energy": 170369.40398156282,
+        "spill_energy": 2081946.338920874,
+        "projection_count": 1645.0,
+        "total_cost": 14848008.860857561
+      },
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "prefix_exact_max_error": 0.0,
+      "suffix_daily_cost_reconciliation_max_abs": 1.4551915228366852e-11,
+      "information": {
+        "prefix": {
+          "passed": true,
+          "decisions": 1328,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "144": 1328
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        },
+        "fixed_suffix": {
+          "passed": true,
+          "decisions": 8,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "144": 5,
+            "108": 1,
+            "72": 1,
+            "36": 1
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        }
+      },
+      "replay_scope": "Independently verifies stored source hashes, every reused prefix element, splice SOC, suffix logs/fees and physical constraints. Does not rerun all eight controllers; prior v2 review independently replayed both Q2 linear-tail cases."
+    },
+    "artifacts/global-terminal/q4_3_markov_mpc": {
+      "status": "pass",
+      "kind": "q4_3",
+      "candidate": "markov_mpc",
+      "files": {
+        "artifacts/global-terminal/q4_3_markov_mpc.json": "30e9651fd420030a9f8b440f43721f0297d31e51a4efc45c8644d8dd4c64b57d",
+        "artifacts/global-terminal/q4_3_markov_mpc.npz": "d9d2ae9736751c534f11322d834f42987bd35d2e8b24d1a402276a8e2508a205"
+      },
+      "source_files": {
+        "artifacts/annual/q4_3_markov_mpc.json": "895d1ac7ed61a81bc8f7d92ecbf9f3080285f7bc28ceb66988601d0b451a44f8",
+        "artifacts/annual/q4_3_markov_mpc.npz": "abf6bb7c30a7a084886be89b911cc9c5fdc0c7baa3cf897e5fcf58c9fa0ce203"
+      },
+      "days": 334,
+      "independent_totals": {
+        "planned_cost": 14117677.518234555,
+        "increase_cost": 287303.4413616986,
+        "reduction_net_cost": -327716.22921499296,
+        "emergency_cost": 174818.29501795504,
+        "emergency_energy": 37930.268467347865,
+        "spill_energy": 1746588.1004165576,
+        "projection_count": 0.0,
+        "total_cost": 14252083.025399216
+      },
+      "physical": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "releases": {
+        "passed": true,
+        "final_r_reconstruction_error": 0.0,
+        "official_revision_nodes_per_day": 4,
+        "meaning": "r is delivery-wise final effective quantity; every original q equals its daily 00:00 snapshot."
+      },
+      "prefix_exact_max_error": 0.0,
+      "suffix_daily_cost_reconciliation_max_abs": 0.0,
+      "information": {
+        "prefix": {
+          "passed": true,
+          "decisions": 1328,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "144": 1328
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        },
+        "fixed_suffix": {
+          "passed": true,
+          "decisions": 8,
+          "minimum_training_maturity_slack_slots": 0,
+          "input_SOC_max_error": 0.0,
+          "official_coverage_histogram": {
+            "144": 5,
+            "108": 1,
+            "72": 1,
+            "36": 1
+          },
+          "tail_days_histogram": {},
+          "used_model_files": [],
+          "scope_limit": "Checks recorded time/index permissions and file metadata. Nonanticipativity of the producing algorithm additionally relies on separately executed source/mutation reviews; it cannot be proved from one realized trajectory alone."
+        }
+      },
+      "replay_scope": "Independently verifies stored source hashes, every reused prefix element, splice SOC, suffix logs/fees and physical constraints. Does not rerun all eight controllers; prior v2 review independently replayed both Q2 linear-tail cases."
+    }
+  },
+  "used_tail_models": {
+    "artifacts/tails/q2_31.json": {
+      "sha256": "21907f2333084ae5ebf639cc55074240de2d4a774e94858afb052ce706b4a62b",
+      "configuration": {
+        "cutoff_day_exclusive": 31,
+        "history_days": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_59.json": {
+      "sha256": "3316c9b581aa306d81f40b2d6e022838a0ab1e584c5a0a8abebc15e00f276ef6",
+      "configuration": {
+        "cutoff_day_exclusive": 59,
+        "history_days": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_90.json": {
+      "sha256": "00af4cb02fb82ab1c61e5e8bfb4310daf1b4efa0cf0b9f4f87edb0a72bea3b9b",
+      "configuration": {
+        "cutoff_day_exclusive": 90,
+        "history_days": [
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_120.json": {
+      "sha256": "45a4c423c9ad97e570b9095a09b51e397795115ca01ddf5b74fa3c10fd16ebdf",
+      "configuration": {
+        "cutoff_day_exclusive": 120,
+        "history_days": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_151.json": {
+      "sha256": "62261cf0915512e9615d2fc3e2db5795230a4b3333a776192638b38019948ccb",
+      "configuration": {
+        "cutoff_day_exclusive": 151,
+        "history_days": [
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_181.json": {
+      "sha256": "bade54e66b0af38d485e3d259d8df10b09a0b86208159270c3374df56a8358e8",
+      "configuration": {
+        "cutoff_day_exclusive": 181,
+        "history_days": [
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_212.json": {
+      "sha256": "e20e4bbc736af2213cddbb9f2685799d8a01967e23f8c4ec6e1888e633419b1a",
+      "configuration": {
+        "cutoff_day_exclusive": 212,
+        "history_days": [
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_243.json": {
+      "sha256": "84c0645546b6eaf9f896fdf4edcad01c7830005cdb690b49235cddd7c92baf88",
+      "configuration": {
+        "cutoff_day_exclusive": 243,
+        "history_days": [
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_273.json": {
+      "sha256": "8c7c819ddedd2248be42e188f82b929c91b5997c44206bcdb78cdd1c6a73f557",
+      "configuration": {
+        "cutoff_day_exclusive": 273,
+        "history_days": [
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_304.json": {
+      "sha256": "2b1872dc790b484f4ba52eb9e6492f9bc0f40bf2ed37dcdea9712dc4a67d1488",
+      "configuration": {
+        "cutoff_day_exclusive": 304,
+        "history_days": [
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_334.json": {
+      "sha256": "5f2c396ac08510a53a8b69e8729d72c5fb55ffa8f0b343649f17fa02b8bfe0eb",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_334_D2.json": {
+      "sha256": "a6b5f5427f58a941944b3e9bfe6fe1760f7ebd64fb04ff541ffd6e89990602d9",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 2,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q2_334_D1.json": {
+      "sha256": "428c8f29a37f1d473076d728f12f48fad0b71a177cced49d44ea4c7d898c0259",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 1,
+        "variable_price": false,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_31.json": {
+      "sha256": "5e22e4ad61a53a77419082a3297d8d56d569905a3f1377ddef223c92b6e50ac0",
+      "configuration": {
+        "cutoff_day_exclusive": 31,
+        "history_days": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_59.json": {
+      "sha256": "90908e4911b8ca2283f8f27f9320856f7095760223bb48d29b7bb5555ad30a38",
+      "configuration": {
+        "cutoff_day_exclusive": 59,
+        "history_days": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_90.json": {
+      "sha256": "7ff8419dde55eef795aff14bbb961866fcf553f5c73bdb26ec0e93dbc8be7f67",
+      "configuration": {
+        "cutoff_day_exclusive": 90,
+        "history_days": [
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_120.json": {
+      "sha256": "103250503a04cb973b272f8610b245b22cb7562dd5e5b11c190236824e09752c",
+      "configuration": {
+        "cutoff_day_exclusive": 120,
+        "history_days": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_151.json": {
+      "sha256": "c38bc9f0914aca134be1425c50c053ec9c267712f02a37919a38d3b08269b5de",
+      "configuration": {
+        "cutoff_day_exclusive": 151,
+        "history_days": [
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_181.json": {
+      "sha256": "63626a886b18f9cf38ccbc48bc24c552699fe9390ee856ecb8895e86ab32df73",
+      "configuration": {
+        "cutoff_day_exclusive": 181,
+        "history_days": [
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_212.json": {
+      "sha256": "b41a3d6ca41a6d19d73c64bb63b2fc5f0cb9c85a25b8f7adb57337b546c5ff59",
+      "configuration": {
+        "cutoff_day_exclusive": 212,
+        "history_days": [
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_243.json": {
+      "sha256": "88b13a15eb6a1198c8230c115543c2941919932f92164d732249dce82871c131",
+      "configuration": {
+        "cutoff_day_exclusive": 243,
+        "history_days": [
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_273.json": {
+      "sha256": "9018e9dc4b265e204e26cae3527cd452b5ee586a526b48957576675edf22bf8a",
+      "configuration": {
+        "cutoff_day_exclusive": 273,
+        "history_days": [
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_304.json": {
+      "sha256": "1420119dfea268db73b5f170cefdfd2351309cc303feec1956c3592372e05739",
+      "configuration": {
+        "cutoff_day_exclusive": 304,
+        "history_days": [
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_334.json": {
+      "sha256": "686df2c87f07b8904f1fae54a05759879a45e75818b856d1d0565c414e27783f",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_334_D2.json": {
+      "sha256": "e4637060e2795019fb865775fc28613ee523566989b075e3dc4bac9192947d95",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 2,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q3_334_D1.json": {
+      "sha256": "8993336b6d9aef95faed0c82a13bebad9cabc9b8ddc8ecd6c4a1c7ee3131a7e2",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 1,
+        "variable_price": false,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_31.json": {
+      "sha256": "0fdab7edb1897097e4be3cfe0e48af94a0e45770160105f3928c551197654275",
+      "configuration": {
+        "cutoff_day_exclusive": 31,
+        "history_days": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_59.json": {
+      "sha256": "72db037987ac2faf1aaa0c8a1db825beac62862ba268b9648947c1a3e680ced8",
+      "configuration": {
+        "cutoff_day_exclusive": 59,
+        "history_days": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_90.json": {
+      "sha256": "b7d2a35d0b9f62eb425f23720356e0a8cd2e535b388182ac410e10bb6482d8e2",
+      "configuration": {
+        "cutoff_day_exclusive": 90,
+        "history_days": [
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_120.json": {
+      "sha256": "100b41d7354e892bfd7d86f9ca82131ddb3ab1cdd0ea0cd84d8f56e36ccc345f",
+      "configuration": {
+        "cutoff_day_exclusive": 120,
+        "history_days": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_151.json": {
+      "sha256": "7618f90e33ad2a9bdf0222af82160850ba4558f8c8325d11dea0b8bc1e3d52ae",
+      "configuration": {
+        "cutoff_day_exclusive": 151,
+        "history_days": [
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_181.json": {
+      "sha256": "8a87c597f6b0438e8ae90e08839bc49091e4467e1f5b4ec76fc37fb561fd340a",
+      "configuration": {
+        "cutoff_day_exclusive": 181,
+        "history_days": [
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_212.json": {
+      "sha256": "cdcaba1b75c88344e1f49535f19310e9d547d9feb8677981227e30f9e8d7428e",
+      "configuration": {
+        "cutoff_day_exclusive": 212,
+        "history_days": [
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_243.json": {
+      "sha256": "3232f1b5dce60014369b496f1d85e063b93da702401f0604a60075a70868018a",
+      "configuration": {
+        "cutoff_day_exclusive": 243,
+        "history_days": [
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_273.json": {
+      "sha256": "4f0e6d36d57238db199f70923105a301a2e7aade719769d4919e69cc5bed4b6a",
+      "configuration": {
+        "cutoff_day_exclusive": 273,
+        "history_days": [
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_304.json": {
+      "sha256": "4294186d5b87e7a15f540a2fdbb6f8bfa5901c323b71a88cafd9549455154846",
+      "configuration": {
+        "cutoff_day_exclusive": 304,
+        "history_days": [
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_334.json": {
+      "sha256": "fc99cc873ad9effea079779cfce8bd39ed99960a271f30104ca49ca13ac7f2e3",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_334_D2.json": {
+      "sha256": "162bf206b1463a661c2d22d6303521c49ebed710ed1030b18757fd3c5229841b",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 2,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_2_334_D1.json": {
+      "sha256": "c63c7154dbd4e58d0482f8bcb0a5392f87b03731868345fecee6646a0fd95029",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 1,
+        "variable_price": true,
+        "adjustments": false,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_31.json": {
+      "sha256": "3db7a04c6dd1faab46315c5d5f27a608af159ea50226b31267bb13ea1e7d5705",
+      "configuration": {
+        "cutoff_day_exclusive": 31,
+        "history_days": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_59.json": {
+      "sha256": "13f021faaca73a910e5b3ddda8b94f3798ff34f59bbfd16a2222d69da82ad0ac",
+      "configuration": {
+        "cutoff_day_exclusive": 59,
+        "history_days": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_90.json": {
+      "sha256": "3250ee77580485083551ccac47dd1f510aa28a6d8cccd11b44670236a488b8b0",
+      "configuration": {
+        "cutoff_day_exclusive": 90,
+        "history_days": [
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_120.json": {
+      "sha256": "eb79546b0ee98ec0faa0cc93400caa367c5d46bf5ecdc7d63eafc4c104609c7b",
+      "configuration": {
+        "cutoff_day_exclusive": 120,
+        "history_days": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_151.json": {
+      "sha256": "bfa4c2b74bcea5b018a5a5f50a7226844067bf264d65470cda1c31e32bf0d58e",
+      "configuration": {
+        "cutoff_day_exclusive": 151,
+        "history_days": [
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_181.json": {
+      "sha256": "50b39b337d6bd36cb27e83dcffdb2a7a1ca77c77992dbeb946cfb6480b8bac82",
+      "configuration": {
+        "cutoff_day_exclusive": 181,
+        "history_days": [
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_212.json": {
+      "sha256": "3c8c8a2179bdac0a037fb6e7ccfcde4464131b335375a8f1c671c88b61af8bb6",
+      "configuration": {
+        "cutoff_day_exclusive": 212,
+        "history_days": [
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_243.json": {
+      "sha256": "fe8da366bfc576e90e563be8edbb721275023e3f5455bf61ceb300611332aa4f",
+      "configuration": {
+        "cutoff_day_exclusive": 243,
+        "history_days": [
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_273.json": {
+      "sha256": "c2e4764e97284cb992297f5486db884689dc96a27b7cd425e9c030be7e77ae03",
+      "configuration": {
+        "cutoff_day_exclusive": 273,
+        "history_days": [
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_304.json": {
+      "sha256": "6d9857aa03c948d29a43e6fd112c41e72749f96082d11281cac6e7f4c95d4c1e",
+      "configuration": {
+        "cutoff_day_exclusive": 304,
+        "history_days": [
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_334.json": {
+      "sha256": "14f80da51351f2c3abb8d5cbfd36927c74aed139fb6033a08833788fc0db02be",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 3,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_334_D2.json": {
+      "sha256": "7d680831cceac32fcbfce6f35bb67e716947f5080bfa9bf91a92679fd95a76b8",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 2,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    },
+    "artifacts/tails/q4_3_334_D1.json": {
+      "sha256": "cc157f87f9aa827eb5a9f3bd9dda40761741ab1cc6da9f3007eb20858ad52880",
+      "configuration": {
+        "cutoff_day_exclusive": 334,
+        "history_days": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "steps_per_day": 12,
+        "horizon_days": 1,
+        "variable_price": true,
+        "adjustments": true,
+        "noise_model": "Stagewise-independent net bins; conditional expected prices; hourly aggregation is an auxiliary-model approximation."
+      },
+      "cut_count": 500,
+      "iterations": 500
+    }
+  },
+  "formula_independence": "No production module imported. Bus balance, battery recurrence, fee piecewise identity, daily/annual aggregation, revision replay, calendar/maturity, tail-file calendar routing, and prefix splice checks are independent NumPy calculations in this file.",
+  "reused_evidence": {
+    "review/controller-checks.json": "d258664bc98f50a1383b6ad8359fad80a4ab155f42e8bf4a44a72e3a69943a56",
+    "review/sddp-checks.json": "41d38a33896f8a8f06d7c7d6a37583c5d0ef811ef69d5db806625522e8cc1f58",
+    "review/v2-boundary-review.json": "d44c0a63088edfb42daacffb20760fdcacc50678cc59f39c4cb36588d7524eb1",
+    "review/global-oracle.json": "e7a7fd545dc30c42fafe7f8926546abf80d9dbbb8f40d4fa92e110db11f499ae"
+  },
+  "reuse_limitations": "Source nonanticipativity, future-data mutation, LP/SDDP dual validity, and deterministic fixed-suffix policy reproduction are covered by named earlier reviews. This script does not pretend that recorded timestamps alone prove those algorithmic properties and does not re-solve optimization models.",
+  "audit_source_sha256": "f1bb57fdb7f358b56d1b35f29efbd8eb60e83b742938e4d0995f3c16d7f696e7",
+  "data_npz_sha256": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+  "observed_production_source_hashes": {
+    "src/continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+    "src/verify_workbooks.py": "c08289f66e183a22d2489f79b22b915758586b8940fc4c65b5c8b70c1802550a",
+    "src/run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+    "src/sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "src/prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+    "src/dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "src/control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+    "src/select_model.py": "4038e873c1d77e525ba1c2d591c0441dd93e527b8214acebb6c604196648b2f7",
+    "src/analyze_tail.py": "7c7c9dd491d21707eef4771d92f31ca03471d96d5a5c33f1df20b9758efb7ae0",
+    "src/freeze_evidence.py": "57562c3f701f071b261b8a962b88b484422896d496104a72a173208883b7ff75",
+    "src/validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+    "src/export_results.py": "8467bdbda3c39ec8afa6eee6adfa6b0bf081c963dec4f8f719c2dd8ed40c5f87",
+    "src/check_terminal.py": "801e8a1c7c4c98d1d0285d8e195c31874322c5996b37760ce5e1588c047fdf34",
+    "src/package_when_ready.py": "20c8fce64211887745ac62670d91fc62b7d644d826252e2a9e0bd77a5532c8eb",
+    "src/finish.py": "60a6ce80be56ee552f0d60baf6975f3055163ecee2d82c2f9f98e2e3ed6d84a4",
+    "src/forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+  },
+  "execution": {
+    "command": "python3 review/check-production.py --require-complete",
+    "exit_code": 0,
+    "runtime_seconds": 1.7865120000205934,
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "numpy": "2.4.1",
+    "deterministic_reason": "Exact calendar/index comparisons and deterministic array formulas; no sampling."
+  }
+}

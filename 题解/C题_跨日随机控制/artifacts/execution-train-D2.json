@@ -1,0 +1,167 @@
+{
+  "command": "python3 src/run.py --phase train --cutoffs 14 334 --tail-days 2 --iterations 500 --workers 2",
+  "exit_code": 0,
+  "runtime_seconds": 1354.5039516659454,
+  "environment": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "numpy": "2.4.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+  },
+  "results": [
+    {
+      "kind": "q2",
+      "cutoff": 14,
+      "runtime_seconds": 360.3742324579507,
+      "evaluation": {
+        "samples": 64,
+        "seed": 9182,
+        "mean_policy_cost": 122553.21704306407,
+        "standard_error": 1024.3917196211055,
+        "normal_approximation_95_interval": [
+          120545.4092726067,
+          124561.02481352144
+        ],
+        "root_lower_bound": 121821.03832467964,
+        "note": "Monte Carlo estimate, not a deterministic upper bound."
+      }
+    },
+    {
+      "kind": "q2",
+      "cutoff": 334,
+      "runtime_seconds": 367.0331838328857,
+      "evaluation": {
+        "samples": 64,
+        "seed": 9182,
+        "mean_policy_cost": 97609.95956988023,
+        "standard_error": 1131.9177036705985,
+        "normal_approximation_95_interval": [
+          95391.40087068586,
+          99828.5182690746
+        ],
+        "root_lower_bound": 96358.47999138625,
+        "note": "Monte Carlo estimate, not a deterministic upper bound."
+      }
+    },
+    {
+      "kind": "q3",
+      "cutoff": 14,
+      "runtime_seconds": 362.8603473750409,
+      "evaluation": {
+        "samples": 64,
+        "seed": 9182,
+        "mean_policy_cost": 119474.07469846,
+        "standard_error": 774.9978698452236,
+        "normal_approximation_95_interval": [
+          117955.07887356335,
+          120993.07052335664
+        ],
+        "root_lower_bound": 117740.42753322166,
+        "note": "Monte Carlo estimate, not a deterministic upper bound."
+      }
+    },
+    {
+      "kind": "q3",
+      "cutoff": 334,
+      "runtime_seconds": 364.4681114999112,
+      "evaluation": {
+        "samples": 64,
+        "seed": 9182,
+        "mean_policy_cost": 93834.47964176082,
+        "standard_error": 684.684204296864,
+        "normal_approximation_95_interval": [
+          92492.49860133896,
+          95176.46068218267
+        ],
+        "root_lower_bound": 92534.80168925243,
+        "note": "Monte Carlo estimate, not a deterministic upper bound."
+      }
+    },
+    {
+      "kind": "q4_2",
+      "cutoff": 14,
+      "runtime_seconds": 358.79114366695285,
+      "evaluation": {
+        "samples": 64,
+        "seed": 9182,
+        "mean_policy_cost": 136844.09767949523,
+        "standard_error": 1447.7240465255477,
+        "normal_approximation_95_interval": [
+          134006.55854830515,
+          139681.6368106853
+        ],
+        "root_lower_bound": 136099.07694673847,
+        "note": "Monte Carlo estimate, not a deterministic upper bound."
+      }
+    },
+    {
+      "kind": "q4_2",
+      "cutoff": 334,
+      "runtime_seconds": 360.03661662503146,
+      "evaluation": {
+        "samples": 64,
+        "seed": 9182,
+        "mean_policy_cost": 96614.87124371587,
+        "standard_error": 1283.6660804075714,
+        "normal_approximation_95_interval": [
+          94098.88572611703,
+          99130.8567613147
+        ],
+        "root_lower_bound": 95715.9125516443,
+        "note": "Monte Carlo estimate, not a deterministic upper bound."
+      }
+    },
+    {
+      "kind": "q4_3",
+      "cutoff": 14,
+      "runtime_seconds": 267.67146179196425,
+      "evaluation": {
+        "samples": 64,
+        "seed": 9182,
+        "mean_policy_cost": 133091.23778201343,
+        "standard_error": 1139.4798975496788,
+        "normal_approximation_95_interval": [
+          130857.85718281606,
+          135324.6183812108
+        ],
+        "root_lower_bound": 130571.7545000328,
+        "note": "Monte Carlo estimate, not a deterministic upper bound."
+      }
+    },
+    {
+      "kind": "q4_3",
+      "cutoff": 334,
+      "runtime_seconds": 261.769419291988,
+      "evaluation": {
+        "samples": 64,
+        "seed": 9182,
+        "mean_policy_cost": 93350.05528085664,
+        "standard_error": 950.428724268239,
+        "normal_approximation_95_interval": [
+          91487.21498129089,
+          95212.8955804224
+        ],
+        "root_lower_bound": 91463.37892326307,
+        "note": "Monte Carlo estimate, not a deterministic upper bound."
+      }
+    }
+  ],
+  "seed": 20260911,
+  "deterministic_reason": null,
+  "source_hashes": {
+    "continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+    "verify_workbooks.py": "0d30e015cb745321fc24f6cbb64ccb92a97ffd2e5b97b1e93675bfc75127c1ce",
+    "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+    "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+    "dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+    "select_model.py": "c3ee7adec341c176e75c3ab90c2df74147cde199e2141e4f77ad05e5e5be9a62",
+    "freeze_evidence.py": "6dffa0e6afedbd0120e236bd092b30d083039f20aede59bf8e878d73a8c8d485",
+    "validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+    "export_results.py": "7ce544846851b447bd119e483b790cf7f962987274669bfc7f7985d5320fa467",
+    "check_terminal.py": "82f4ef60d0b67b5905dfc7644987fe6bc7eac589689cd9ab4c7cdef1baaa7046",
+    "package_when_ready.py": "ce1697cc52c3e1c792973bdc8de4591e0746398a5481cee1756fe45e1b0d89fe",
+    "finish.py": "60b976901e49126625d15a14e66fbed55744ac975f9d2c8d11b7ea5309f422e7",
+    "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+  }
+}

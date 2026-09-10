@@ -1,0 +1,70 @@
+{
+  "command": "python3 题解/C题_跨日随机控制/src/run.py --phase calibrate_sddp --start 24 --stop 31 --candidates sddp_mpc sddp_markov --workers 4",
+  "exit_code": 0,
+  "runtime_seconds": 38.666624791920185,
+  "environment": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "numpy": "2.4.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+  },
+  "results": [
+    {
+      "kind": "q2",
+      "candidate": "sddp_mpc",
+      "total_cost": 358465.7758520287,
+      "runtime_seconds": 9.32364400010556
+    },
+    {
+      "kind": "q2",
+      "candidate": "sddp_markov",
+      "total_cost": 344539.2311055114,
+      "runtime_seconds": 10.998424415942281
+    },
+    {
+      "kind": "q3",
+      "candidate": "sddp_mpc",
+      "total_cost": 349369.28135208116,
+      "runtime_seconds": 19.468284292146564
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "sddp_mpc",
+      "total_cost": 399932.9790533105,
+      "runtime_seconds": 10.25048654107377
+    },
+    {
+      "kind": "q3",
+      "candidate": "sddp_markov",
+      "total_cost": 339437.6391098426,
+      "runtime_seconds": 20.96286362502724
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "sddp_markov",
+      "total_cost": 384378.3982923654,
+      "runtime_seconds": 11.796528958017007
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "sddp_mpc",
+      "total_cost": 390049.6845719828,
+      "runtime_seconds": 17.34027124987915
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "sddp_markov",
+      "total_cost": 378803.5592766406,
+      "runtime_seconds": 18.71994537487626
+    }
+  ],
+  "seed": null,
+  "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+  "source_hashes": {
+    "run.py": "1c91e38d91b3d5760c5bfd158f416ff99e877ad2a6ce3bc54bb3e40c4cb9aa5d",
+    "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+    "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51",
+    "control.py": "a31e570b4046fddbd829c819bdd7aea63b934d909fc29d906d01e89112e0501f",
+    "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+  }
+}
