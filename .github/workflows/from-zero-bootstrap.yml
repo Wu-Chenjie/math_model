@@ -1,0 +1,34 @@
+name: From-zero private data verification
+on:
+  push:
+    branches: ['rebuild/microgrid-from-zero']
+    paths: ['.github/workflows/from-zero-bootstrap.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare private input snapshot
+        shell: bash
+        run: |
+          mkdir -p snapshot
+          cp '题解/C题/综合优化/inputs/prepared/data.npz' snapshot/
+          cp '题解/C题/综合优化/inputs/prepared/forecasts.npz' snapshot/
+          cp '题解/C题/综合优化/inputs/C题.pdf' snapshot/problem.pdf
+          cp '题解/C题/综合优化/artifacts/metrics.json' snapshot/baseline_metrics.json
+          for k in q2 q3 q4_2 q4_3; do
+            cp "题解/C题/综合优化/artifacts/${k}.npz" "snapshot/baseline_${k}.npz"
+            cp "题解/C题/综合优化/artifacts/${k}.json" "snapshot/baseline_${k}.json"
+          done
+          git rev-parse HEAD > snapshot/source_commit.txt
+          sha256sum snapshot/* > snapshot/SHA256SUMS.txt
+          ls -lh snapshot
+      - uses: actions/upload-artifact@v4
+        with:
+          name: from-zero-private-inputs
+          path: snapshot/
+          retention-days: 7
