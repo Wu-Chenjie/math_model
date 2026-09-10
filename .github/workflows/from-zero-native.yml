@@ -1,0 +1,43 @@
+name: From-zero native C++ verification
+on:
+  push:
+    branches: ['rebuild/microgrid-from-zero']
+    paths: ['题解/C题/从零重构/.run-validation']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install format reader and native solver dependency
+        run: python -m pip install numpy casadi
+      - name: Build, test, freeze January choices, and replay original data in C++
+        shell: bash
+        run: |
+          cd '题解/C题/从零重构'
+          mkdir -p results
+          printf '%s\n' '${{ github.sha }}' >results/source_commit.txt
+          bash reproduce.sh
+      - name: Financial acceptance is distinct from numerical execution
+        shell: bash
+        run: |
+          cd '题解/C题/从零重构'
+          cat results/acceptance.json
+          if ! grep -q '"all_cases_bill_saving_at_least_10_percent": true' results/acceptance.json; then
+            echo 'Numerical replay completed, but the requested 10% bill reduction has not passed in all four cases.'
+            exit 1
+          fi
+      - name: Preserve reports, source hashes, configurations and trajectories
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: from-zero-native-results
+          path: '题解/C题/从零重构/results'
+          retention-days: 30
+          if-no-files-found: error
