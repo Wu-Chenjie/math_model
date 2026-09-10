@@ -1,0 +1,56 @@
+{
+  "selected": "greedy",
+  "results": {
+    "q2_fixed": {
+      "planned_cost": 504131.1368275375,
+      "increase_cost": 0.0,
+      "reduction_net_cost": 0.0,
+      "emergency_cost": 27537.805111371432,
+      "total_cost": 531668.9419389089,
+      "planned_energy": 817962.2950281305,
+      "adjusted_energy": 817962.2950281305,
+      "emergency_energy": 7836.25454047619,
+      "spill_energy": 60833.425180952385,
+      "emergency_while_charging": 3158.2374785714273
+    },
+    "q3_fixed": {
+      "planned_cost": 507461.6182867763,
+      "increase_cost": 3696.3560537193957,
+      "reduction_net_cost": -4655.8996701377255,
+      "emergency_cost": 25602.553175874033,
+      "total_cost": 532104.627846232,
+      "planned_energy": 823756.4460087449,
+      "adjusted_energy": 812769.336087817,
+      "emergency_energy": 6545.631037886086,
+      "spill_energy": 54583.20539433357,
+      "emergency_while_charging": 1712.6478439283264
+    },
+    "fixed_sum": 1063773.569785141,
+    "q2_greedy": {
+      "planned_cost": 504131.1368275375,
+      "increase_cost": 0.0,
+      "reduction_net_cost": 0.0,
+      "emergency_cost": 6.195446156098683e-10,
+      "total_cost": 504131.13682753814,
+      "planned_energy": 817962.2950281305,
+      "adjusted_energy": 817962.2950281305,
+      "emergency_energy": 1.7180257216864447e-10,
+      "spill_energy": 54063.05332026739,
+      "emergency_while_charging": 1.0139133976849735e-10
+    },
+    "q3_greedy": {
+      "planned_cost": 507461.6182867763,
+      "increase_cost": 3635.6306679734535,
+      "reduction_net_cost": -7036.338096344528,
+      "emergency_cost": 373.3593993297407,
+      "total_cost": 504434.2702577349,
+      "planned_energy": 823756.4460087449,
+      "adjusted_energy": 804292.2116064099,
+      "emergency_energy": 64.26139119912754,
+      "spill_energy": 40355.449554472536,
+      "emergency_while_charging": 1.017510520284759e-10
+    },
+    "greedy_sum": 1008565.4070852731
+  },
+  "caveat": "January development only; family selection and controller selection share January, no out-of-sample claim for January."
+}

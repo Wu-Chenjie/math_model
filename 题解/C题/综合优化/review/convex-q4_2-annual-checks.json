@@ -1,0 +1,101 @@
+{
+  "scope": "Completed q4_2 convex aggregation only; other settings and project acceptance pending",
+  "status": "pass_for_q4_2_annual",
+  "days": 334,
+  "slots": 48096,
+  "experts": [
+    "baseline",
+    "common_mpc",
+    "affine_feedback",
+    "affine_mpc",
+    "affine_saa_mpc",
+    "affine_sdp"
+  ],
+  "expert_source_hashes_verified": 12,
+  "aggregation_field_max_abs": {
+    "q": 2.2737367544323206e-13,
+    "r": 2.2737367544323206e-13,
+    "state": 1.8189894035458565e-12,
+    "c": 4.092726157978177e-12,
+    "d": 3.296918293926865e-12,
+    "emergency": 3.183231456205249e-12,
+    "spill": 4.320099833421409e-12,
+    "price": 0.0
+  },
+  "weight_sum_max_abs": 1.1102230246251565e-16,
+  "balance_max_abs": 2.2737367544323206e-13,
+  "soc_recurrence_max_abs": 1.1368683772161603e-13,
+  "soc_min": 1199.9999999999998,
+  "soc_max": 10800.000000000002,
+  "maximum_power_kw": 5000.000000000012,
+  "initial_terminal_max_abs": 9.094947017729282e-13,
+  "annual_cost_recomputed": 14913434.727652263,
+  "annual_cost_difference": 3.725290298461914e-09,
+  "daily_cost_max_abs": 6.548361852765083e-11,
+  "component_max_abs": {
+    "planned_cost": 1.4551915228366852e-11,
+    "increase_cost": 0.0,
+    "reduction_net_cost": 0.0,
+    "emergency_cost": 1.862645149230957e-09
+  },
+  "convex_bound_max_difference": 8.731149137020111e-11,
+  "convex_gain_recomputed": -2.826709533110261e-09,
+  "published_snapshot_max_abs": 0.0,
+  "publication_mask_verified": true,
+  "releases_per_day": 1,
+  "final_r_from_latest_legal_release_max_abs": 2.2737367544323206e-13,
+  "future_18h_release_preperiod_mutation_max_abs": 0.0,
+  "all_history_windows": "all 334 windows exclude current and future dates",
+  "training_objective_max_abs": 1.862645149230957e-09,
+  "training_best_vertex_max_abs": 6.51925802230835e-09,
+  "window_examples": [
+    {
+      "date": "2025-02-01",
+      "first_training_date": "2025-01-22",
+      "last_training_date": "2025-01-31",
+      "count": 10
+    },
+    {
+      "date": "2025-03-01",
+      "first_training_date": "2025-02-01",
+      "last_training_date": "2025-02-28",
+      "count": 28
+    },
+    {
+      "date": "2025-07-21",
+      "first_training_date": "2025-06-23",
+      "last_training_date": "2025-07-20",
+      "count": 28
+    },
+    {
+      "date": "2025-12-31",
+      "first_training_date": "2025-12-03",
+      "last_training_date": "2025-12-30",
+      "count": 28
+    }
+  ],
+  "selected_window_refits": [
+    {
+      "date": "2025-02-01",
+      "weight_max_abs": 0.0,
+      "objective_difference": 0.0
+    },
+    {
+      "date": "2025-03-01",
+      "weight_max_abs": 0.0,
+      "objective_difference": 0.0
+    },
+    {
+      "date": "2025-07-21",
+      "weight_max_abs": 0.0,
+      "objective_difference": 0.0
+    }
+  ],
+  "future_mutation_evidence": "All 334 actual training windows checked to exclude current/future dates; review/convex-checks.json additionally tests the shared solver under future mutations",
+  "artifact_hashes": {
+    "artifacts/q4_2_convex.json": "42b0da29fd880cb42a973d654fb28f9aa5206a882673fd49e2f15d7936b45557",
+    "artifacts/q4_2_convex.npz": "78d914d0e6b67a195c737f08795912cf943f2525633f5dd5c5275d906c9d6db8",
+    "src/convex_aggregation.py": "d5e75985563ef55488062dd940a7bb5f2bf2140c51406f128d90452459849d71",
+    "review/convex-annual-checks.py": "e958a5a742531c05aaa7dd7bbaad8604bdc05be925f8753fb0831dcf6998d667"
+  }
+}

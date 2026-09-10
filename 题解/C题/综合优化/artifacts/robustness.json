@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "seed": 20260910,
+  "cases": 20000,
+  "net_energy_test_range_kwh": [
+    -10000,
+    20000
+  ],
+  "requested_soc_range_kwh": [
+    -100000,
+    100000
+  ],
+  "max_balance_error": 3.637978807091713e-12,
+  "max_soc_recurrence_error": 1.1368683772161603e-13,
+  "max_power_kw": 5000.0000000000055,
+  "max_terminal_error": 0.0,
+  "scope": "Conditional on initially terminal-reachable SOC; feasibility stress only. Emergency supply is unlimited. No economic worst-case guarantee.",
+  "runtime_seconds": 0.28879999998025596
+}

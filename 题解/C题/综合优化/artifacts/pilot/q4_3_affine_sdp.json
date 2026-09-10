@@ -1,0 +1,61 @@
+{
+  "kind": "q4_3",
+  "candidate": "affine_sdp",
+  "configuration": {
+    "upper": "affine",
+    "lower": "sdp",
+    "grid_size": 321,
+    "alpha": 0.2,
+    "window": 28,
+    "start_day": 30,
+    "end_day": 30
+  },
+  "totals": {
+    "planned_cost": 20195.151861674814,
+    "increase_cost": 195.60165971966154,
+    "reduction_net_cost": -62.432183013857106,
+    "emergency_cost": 62.96438850892457,
+    "total_cost": 20391.285726889546,
+    "emergency_energy": 14.51830604690278,
+    "planned_energy": 45561.593567759555,
+    "adjusted_energy": 45634.265947693115,
+    "spill_energy": 2641.1278704066763,
+    "projection_count": 0.0,
+    "projection_total_kwh": 0.0,
+    "projection_max_kwh": 0.0,
+    "daily_cost_p95": 20391.285726889546,
+    "worst_day_cost": 20391.285726889546
+  },
+  "daily": [
+    {
+      "date": "2025-01-31",
+      "planned_cost": 20195.151861674814,
+      "increase_cost": 195.60165971966154,
+      "reduction_net_cost": -62.432183013857106,
+      "emergency_cost": 62.96438850892457,
+      "total_cost": 20391.285726889546,
+      "emergency_energy": 14.51830604690278,
+      "planned_energy": 45561.593567759555,
+      "adjusted_energy": 45634.265947693115,
+      "spill_energy": 2641.1278704066763,
+      "projection_count": 0,
+      "projection_total_kwh": 0.0,
+      "projection_max_kwh": 0.0
+    }
+  ],
+  "validation": {
+    "energy_balance_max_abs": 5.684341886080802e-14,
+    "soc_recurrence_max_abs": 5.684341886080802e-14,
+    "soc_min": 1320.0,
+    "soc_max": 10800.0,
+    "terminal_max_abs": 0.0,
+    "power_max_kw": 4800.0,
+    "simultaneous_max": 0.0,
+    "lp_eq_max_abs": 3.637978807091713e-12,
+    "lp_ineq_max": 1.1368683772161603e-13,
+    "max_lp_tie_break_and_cancellation_gap_yuan": 0.06531860201721429,
+    "negative_energy_violation": 0.0
+  },
+  "lp_solve_count": 4,
+  "runtime_seconds": 3.242972415871918
+}

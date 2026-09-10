@@ -1,0 +1,69 @@
+{
+  "scope": "q2 independent real-history windows and publication algebra; not other incomplete problem sets",
+  "source_sha256": "d5e75985563ef55488062dd940a7bb5f2bf2140c51406f128d90452459849d71",
+  "expert_names": [
+    "baseline",
+    "common_mpc",
+    "affine_feedback",
+    "affine_mpc",
+    "affine_saa_mpc",
+    "affine_sdp"
+  ],
+  "checks": {
+    "past_only_real_windows": [
+      {
+        "date": "2025-02-01",
+        "training_first_date": "2025-01-22",
+        "training_last_date": "2025-01-31",
+        "training_days": 10,
+        "weight_sum": 1.0,
+        "minimum_weight": 0.0,
+        "independent_training_cost": 495308.31898919144,
+        "best_single_expert_training_cost": 495308.31898919144,
+        "training_objective_difference": 1.1641532182693481e-10,
+        "future_mutation_weight_max_abs": 0.0,
+        "real_day_mixed_cost": 23686.78368896013,
+        "weighted_expert_cost": 23686.783688960135
+      },
+      {
+        "date": "2025-03-01",
+        "training_first_date": "2025-02-01",
+        "training_last_date": "2025-02-28",
+        "training_days": 28,
+        "weight_sum": 1.0,
+        "minimum_weight": 0.0,
+        "independent_training_cost": 1197977.0247453714,
+        "best_single_expert_training_cost": 1197977.0247453714,
+        "training_objective_difference": 0.0,
+        "future_mutation_weight_max_abs": 0.0,
+        "real_day_mixed_cost": 17781.251730849595,
+        "weighted_expert_cost": 17781.251730849595
+      },
+      {
+        "date": "2025-07-21",
+        "training_first_date": "2025-06-23",
+        "training_last_date": "2025-07-20",
+        "training_days": 28,
+        "weight_sum": 1.0,
+        "minimum_weight": 0.0,
+        "independent_training_cost": 1462884.1300354975,
+        "best_single_expert_training_cost": 1462884.1300354972,
+        "training_objective_difference": 6.984919309616089e-10,
+        "future_mutation_weight_max_abs": 0.0,
+        "real_day_mixed_cost": 58081.35686911679,
+        "weighted_expert_cost": 58081.356869116775
+      }
+    ],
+    "random_weight_real_days": {
+      "combinations": 40,
+      "convex_upper_bound_violation": 0.0,
+      "q2_publication_reconstruction_max_abs": 4.547473508864641e-13,
+      "zero_weight_nan_mask": "pass"
+    },
+    "synthetic_four_release_test": {
+      "final_contract_difference": 1.1368683772161603e-13,
+      "future_publication_changes_prior_snapshots": false
+    }
+  },
+  "status": "pass_for_reviewed_scope"
+}

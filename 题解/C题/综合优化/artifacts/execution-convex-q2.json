@@ -1,0 +1,24 @@
+{
+  "command": "python3 题解/C题/综合优化/src/convex_aggregation.py --kinds q2 --workers 1",
+  "exit_code": 0,
+  "runtime_seconds": 278.02258912520483,
+  "results": [
+    {
+      "kind": "q2",
+      "total_cost": 14086403.68093206,
+      "runtime_seconds": 276.9845604591537,
+      "validation": {
+        "energy_balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "soc_min": 1200.0,
+        "soc_max": 10800.000000000002,
+        "power_max_kw": 5000.000000000012,
+        "terminal_max_abs": 1.8189894035458565e-12,
+        "convex_dominance_violation_yuan": 8.731149137020111e-11,
+        "training_reconstruction_gap_yuan": 6.984919309616089e-09,
+        "training_constraint_violation": 2.5920599000528455e-11
+      }
+    }
+  ],
+  "deterministic_reason": "Native single-thread HiGHS, past-only fixed windows; no random sampling."
+}

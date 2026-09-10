@@ -1,0 +1,82 @@
+{
+  "q2": {
+    "dates": [
+      "2025-02-01",
+      "2025-03-01",
+      "2025-04-01",
+      "2025-05-01",
+      "2025-06-01",
+      "2025-07-01",
+      "2025-08-01",
+      "2025-09-01",
+      "2025-10-01",
+      "2025-11-01",
+      "2025-12-01"
+    ],
+    "grid321_cost": 505322.68473501864,
+    "grid641_cost": 501048.42272078723,
+    "difference_yuan": -4274.262014231412,
+    "difference_percent": -0.8458480379666216,
+    "scope": "Same predeclared11dates; closed-loop policies and subsequent contracts may differ."
+  },
+  "q3": {
+    "dates": [
+      "2025-02-01",
+      "2025-03-01",
+      "2025-04-01",
+      "2025-05-01",
+      "2025-06-01",
+      "2025-07-01",
+      "2025-08-01",
+      "2025-09-01",
+      "2025-10-01",
+      "2025-11-01",
+      "2025-12-01"
+    ],
+    "grid321_cost": 460216.2067251901,
+    "grid641_cost": 457014.157954873,
+    "difference_yuan": -3202.0487703171093,
+    "difference_percent": -0.6957705364403117,
+    "scope": "Same predeclared11dates; closed-loop policies and subsequent contracts may differ."
+  },
+  "q4_2": {
+    "dates": [
+      "2025-02-01",
+      "2025-03-01",
+      "2025-04-01",
+      "2025-05-01",
+      "2025-06-01",
+      "2025-07-01",
+      "2025-08-01",
+      "2025-09-01",
+      "2025-10-01",
+      "2025-11-01",
+      "2025-12-01"
+    ],
+    "grid321_cost": 532817.9713557805,
+    "grid641_cost": 528591.1637646174,
+    "difference_yuan": -4226.807591163088,
+    "difference_percent": -0.7932929852962309,
+    "scope": "Same predeclared11dates; closed-loop policies and subsequent contracts may differ."
+  },
+  "q4_3": {
+    "dates": [
+      "2025-02-01",
+      "2025-03-01",
+      "2025-04-01",
+      "2025-05-01",
+      "2025-06-01",
+      "2025-07-01",
+      "2025-08-01",
+      "2025-09-01",
+      "2025-10-01",
+      "2025-11-01",
+      "2025-12-01"
+    ],
+    "grid321_cost": 476548.04894395906,
+    "grid641_cost": 473400.67259332363,
+    "difference_yuan": -3147.37635063543,
+    "difference_percent": -0.6604530975648909,
+    "scope": "Same predeclared11dates; closed-loop policies and subsequent contracts may differ."
+  }
+}

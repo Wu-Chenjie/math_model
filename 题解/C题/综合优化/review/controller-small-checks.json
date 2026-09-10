@@ -1,0 +1,51 @@
+{
+  "scope": "Independent finite examples, not final annual acceptance",
+  "checks": {
+    "dp_vs_explicit_recursive_enumeration": {
+      "grid_points": 33,
+      "horizon": 3,
+      "paths": 4,
+      "maximum_value_difference": 9.094947017729282e-13
+    },
+    "mpc_known_toy_first_target": {
+      "deterministic": 6000.0,
+      "common_scenario": 6000.0,
+      "expected": 6000.0
+    },
+    "affine_scenario_rollout": [
+      {
+        "release_hour": 0.0,
+        "cost_difference": 9.094947017729282e-13,
+        "maximum_projection": 1.8189894035458565e-12,
+        "terminal_error": 0.0,
+        "lp_eq_residual": 1.620851000655505e-12
+      },
+      {
+        "release_hour": 6.0,
+        "cost_difference": 1.1368683772161603e-13,
+        "maximum_projection": 0.0,
+        "terminal_error": 0.0,
+        "lp_eq_residual": 2.0889956431346945e-12
+      },
+      {
+        "release_hour": 12.0,
+        "cost_difference": 7.958078640513122e-13,
+        "maximum_projection": 0.0,
+        "terminal_error": 0.0,
+        "lp_eq_residual": 7.489902358829756e-13
+      },
+      {
+        "release_hour": 18.0,
+        "cost_difference": 7.744915819785092e-13,
+        "maximum_projection": 0.0,
+        "terminal_error": 0.0,
+        "lp_eq_residual": 7.015408025542677e-13
+      }
+    ]
+  },
+  "source_hashes": {
+    "controllers.py": "f80c01c1e3c3210117229aad36d7f8dc2077850f69bbf6d8c2c14c7fa464c2bf",
+    "run_comparison.py": "d8f4b189916476a1ea0b9157162631e809cd399068f512ba25d7836ccdf718e5"
+  },
+  "status": "small_checks_pass"
+}

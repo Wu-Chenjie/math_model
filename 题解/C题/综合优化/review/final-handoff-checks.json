@@ -1,0 +1,58 @@
+{
+  "status": "pass_for_current_handoff",
+  "january_selected": {
+    "q2": "affine_saa_mpc",
+    "q3": "affine_saa_mpc",
+    "q4_2": "affine_saa_mpc",
+    "q4_3": "affine_saa_mpc"
+  },
+  "adaptive_day_counts": {
+    "q2": {
+      "baseline": 56,
+      "common_mpc": 0,
+      "affine_feedback": 0,
+      "affine_mpc": 0,
+      "affine_saa_mpc": 278,
+      "affine_sdp": 0
+    },
+    "q3": {
+      "baseline": 0,
+      "common_mpc": 0,
+      "affine_feedback": 0,
+      "affine_mpc": 0,
+      "affine_saa_mpc": 334,
+      "affine_sdp": 0
+    },
+    "q4_2": {
+      "baseline": 57,
+      "common_mpc": 0,
+      "affine_feedback": 0,
+      "affine_mpc": 0,
+      "affine_saa_mpc": 277,
+      "affine_sdp": 0
+    },
+    "q4_3": {
+      "baseline": 0,
+      "common_mpc": 0,
+      "affine_feedback": 0,
+      "affine_mpc": 0,
+      "affine_saa_mpc": 334,
+      "affine_sdp": 0
+    }
+  },
+  "independent_history_windows_checked": 1336,
+  "specified_date_tables_checked": 48,
+  "registry_values_resolved": 11841,
+  "input_hashes_verified": 18,
+  "checks": [
+    "January-only main selection",
+    "whole-day past-only adaptive choice",
+    "all adaptive fields including publication snapshots",
+    "32 candidates plus aggregators cost/monthly/percentile metrics",
+    "same-date grid comparison",
+    "all 144 corrected period labels",
+    "specified-date purchase/battery/emergency/energy tables",
+    "registry pointers and inherited input snapshots"
+  ],
+  "scope": "Current modeling/calculation handoff; final manifest and reproducibility output hashes are finalized by the author after independent findings."
+}

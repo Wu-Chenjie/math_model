@@ -1,0 +1,32 @@
+{
+  "command": "python3 题解/C题/综合优化/src/run_comparison.py --phase pilot --workers 1 --kinds q2 --candidates affine_saa_mpc affine_sdp affine_feedback",
+  "exit_code": 0,
+  "runtime_seconds": 2.488674791995436,
+  "results": [
+    {
+      "kind": "q2",
+      "candidate": "affine_saa_mpc",
+      "total_cost": 23510.614155616546,
+      "runtime_seconds": 1.418883957900107
+    },
+    {
+      "kind": "q2",
+      "candidate": "affine_sdp",
+      "total_cost": 23611.935531015457,
+      "runtime_seconds": 0.4067050418816507
+    },
+    {
+      "kind": "q2",
+      "candidate": "affine_feedback",
+      "total_cost": 24752.07804646711,
+      "runtime_seconds": 0.33227854198776186
+    }
+  ],
+  "environment": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "numpy": "2.4.1",
+    "scipy": "1.17.0",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+  },
+  "deterministic_reason": "Fixed scenario windows, deterministic HiGHS, fixed quantile Markov bins; no random training."
+}

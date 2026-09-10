@@ -1,0 +1,34 @@
+{
+  "scope": "Artificial three-slot deterministic illustration; not annual performance.",
+  "net_kwh": [
+    100.0,
+    100.0,
+    0.0
+  ],
+  "price_cny_per_kwh": [
+    0.4,
+    1.4,
+    0.4
+  ],
+  "fixed_contract_kwh": [
+    0.0,
+    0.0,
+    123.45679012345678
+  ],
+  "initial_and_terminal_soc_kwh": 1311.111111111111,
+  "greedy_emergency_kwh": [
+    1.4210854715202004e-14,
+    100.0,
+    0.0
+  ],
+  "predictive_emergency_kwh": [
+    100.0,
+    0.0,
+    0.0
+  ],
+  "greedy_emergency_cost": 700.0,
+  "predictive_emergency_cost": 200.0,
+  "same_contract_cost": 49.382716049382715,
+  "full_year_lower_mpc_solves_per_policy": 48096,
+  "four_policies_solves": 192384
+}

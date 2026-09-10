@@ -1,0 +1,47 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "file": "计算结果/result2.xlsx",
+      "status": "pass",
+      "days": 334,
+      "battery_rows": 2004,
+      "emergency_event_rows": 546,
+      "scope": "all published purchase cells, all six battery windows/day, all emergency events, all fees and cached totals",
+      "sha256": "011bc1e2164a19cd93500a646d3f25b9923bb55f66825446cb92474d3973c3c4"
+    },
+    {
+      "file": "计算结果/result3.xlsx",
+      "status": "pass",
+      "days": 334,
+      "battery_rows": 2004,
+      "emergency_event_rows": 401,
+      "scope": "all published purchase cells, all six battery windows/day, all emergency events, all fees and cached totals",
+      "sha256": "bb4f93475b3ed751ee97fdece3a4d70a968ea61d4713d72e2d0c58965d02526d"
+    },
+    {
+      "file": "计算结果/result4-2.xlsx",
+      "status": "pass",
+      "days": 334,
+      "battery_rows": 2004,
+      "emergency_event_rows": 567,
+      "scope": "all published purchase cells, all six battery windows/day, all emergency events, all fees and cached totals",
+      "sha256": "ef8fb3c83d51b1a2b2de3594fbf32ef78bbea10d4295b3406600dfd4d954f47f"
+    },
+    {
+      "file": "计算结果/result4-3.xlsx",
+      "status": "pass",
+      "days": 334,
+      "battery_rows": 2004,
+      "emergency_event_rows": 414,
+      "scope": "all published purchase cells, all six battery windows/day, all emergency events, all fees and cached totals",
+      "sha256": "dc485b6011722b0ef7c16a579d3385f01b0536a53b364d2040ea9ac0b0df7434"
+    },
+    {
+      "file": "计算结果/result1.xlsx",
+      "status": "pass",
+      "scope": "inherited Q1 numerical output and all corrected periods",
+      "sha256": "10fd4a1a8350f7ecda1d5c769ba8b81d5b12a98da03f99687fb1b7a4f1b08032"
+    }
+  ]
+}

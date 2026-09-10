@@ -1,0 +1,56 @@
+{
+  "command": "python3 题解/C题/综合优化/src/run_diagnostics.py",
+  "exit_code": 0,
+  "runtime_seconds": 2995.194345458178,
+  "results": [
+    {
+      "kind": "q2",
+      "candidate": "common_saa_mpc",
+      "total_cost": 14172783.26374296,
+      "runtime_seconds": 1180.887918167049
+    },
+    {
+      "kind": "q3",
+      "candidate": "common_saa_mpc",
+      "total_cost": 13900294.535142874,
+      "runtime_seconds": 1219.226715292083
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "common_saa_mpc",
+      "total_cost": 15017263.480937397,
+      "runtime_seconds": 1161.062422374962
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "common_saa_mpc",
+      "total_cost": 14733161.825762315,
+      "runtime_seconds": 1211.2686643342022
+    },
+    {
+      "kind": "q2",
+      "candidate": "common_sdp",
+      "total_cost": 14309646.36877154,
+      "runtime_seconds": 150.4095704171341
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "common_sdp",
+      "total_cost": 15161504.280060666,
+      "runtime_seconds": 173.89723254181445
+    },
+    {
+      "kind": "q3",
+      "candidate": "common_sdp",
+      "total_cost": 14010430.835857948,
+      "runtime_seconds": 424.5148620000109
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "common_sdp",
+      "total_cost": 14831374.24677337,
+      "runtime_seconds": 327.2075851249974
+    }
+  ],
+  "scope": "Structural controls added during annual execution to isolate the upper planner; not used to refit six-expert selection or claimed as a new untouched holdout."
+}

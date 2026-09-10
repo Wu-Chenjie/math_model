@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "file": "计算结果/result1.xlsx",
+      "status": "pass",
+      "sheet_count": 3
+    },
+    {
+      "file": "计算结果/result2.xlsx",
+      "status": "pass",
+      "sheet_count": 5
+    },
+    {
+      "file": "计算结果/result3.xlsx",
+      "status": "pass",
+      "sheet_count": 6
+    },
+    {
+      "file": "计算结果/result4-2.xlsx",
+      "status": "pass",
+      "sheet_count": 5
+    },
+    {
+      "file": "计算结果/result4-3.xlsx",
+      "status": "pass",
+      "sheet_count": 6
+    }
+  ]
+}

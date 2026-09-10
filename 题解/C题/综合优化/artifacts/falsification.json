@@ -1,0 +1,166 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "future_mutation_baseline",
+      "status": "pass",
+      "cut_slot": 78,
+      "max_differences": {
+        "q": 0.0,
+        "r": 0.0,
+        "c": 0.0,
+        "d": 0.0,
+        "emergency": 0.0,
+        "issued_contract_snapshots": 0.0
+      }
+    },
+    {
+      "name": "future_mutation_common_mpc",
+      "status": "pass",
+      "cut_slot": 78,
+      "max_differences": {
+        "q": 0.0,
+        "r": 0.0,
+        "c": 0.0,
+        "d": 0.0,
+        "emergency": 0.0,
+        "issued_contract_snapshots": 0.0
+      }
+    },
+    {
+      "name": "future_mutation_affine_feedback",
+      "status": "pass",
+      "cut_slot": 78,
+      "max_differences": {
+        "q": 0.0,
+        "r": 0.0,
+        "c": 0.0,
+        "d": 0.0,
+        "emergency": 0.0,
+        "issued_contract_snapshots": 0.0
+      }
+    },
+    {
+      "name": "future_mutation_affine_mpc",
+      "status": "pass",
+      "cut_slot": 78,
+      "max_differences": {
+        "q": 0.0,
+        "r": 0.0,
+        "c": 0.0,
+        "d": 0.0,
+        "emergency": 0.0,
+        "issued_contract_snapshots": 0.0
+      }
+    },
+    {
+      "name": "future_mutation_affine_saa_mpc",
+      "status": "pass",
+      "cut_slot": 78,
+      "max_differences": {
+        "q": 0.0,
+        "r": 0.0,
+        "c": 0.0,
+        "d": 0.0,
+        "emergency": 0.0,
+        "issued_contract_snapshots": 0.0
+      }
+    },
+    {
+      "name": "future_mutation_affine_sdp",
+      "status": "pass",
+      "cut_slot": 78,
+      "max_differences": {
+        "q": 0.0,
+        "r": 0.0,
+        "c": 0.0,
+        "d": 0.0,
+        "emergency": 0.0,
+        "issued_contract_snapshots": 0.0
+      }
+    }
+  ],
+  "affine_contains_zero_gain_common_policy": [
+    {
+      "kind": "q2",
+      "release": 0,
+      "affine_minus_common_expected_cost": -835.0224784870061
+    },
+    {
+      "kind": "q2",
+      "release": 1,
+      "affine_minus_common_expected_cost": -449.83791715647203
+    },
+    {
+      "kind": "q2",
+      "release": 2,
+      "affine_minus_common_expected_cost": -468.1959029970676
+    },
+    {
+      "kind": "q2",
+      "release": 3,
+      "affine_minus_common_expected_cost": -576.560902941199
+    },
+    {
+      "kind": "q3",
+      "release": 0,
+      "affine_minus_common_expected_cost": -757.5491357599185
+    },
+    {
+      "kind": "q3",
+      "release": 1,
+      "affine_minus_common_expected_cost": -455.61429750004936
+    },
+    {
+      "kind": "q3",
+      "release": 2,
+      "affine_minus_common_expected_cost": -546.0994520845416
+    },
+    {
+      "kind": "q3",
+      "release": 3,
+      "affine_minus_common_expected_cost": -592.9473781874549
+    },
+    {
+      "kind": "q4_2",
+      "release": 0,
+      "affine_minus_common_expected_cost": -672.0430633817687
+    },
+    {
+      "kind": "q4_2",
+      "release": 1,
+      "affine_minus_common_expected_cost": -362.3467739987491
+    },
+    {
+      "kind": "q4_2",
+      "release": 2,
+      "affine_minus_common_expected_cost": -379.97578227754
+    },
+    {
+      "kind": "q4_2",
+      "release": 3,
+      "affine_minus_common_expected_cost": -470.5149430243582
+    },
+    {
+      "kind": "q4_3",
+      "release": 0,
+      "affine_minus_common_expected_cost": -608.7619683561461
+    },
+    {
+      "kind": "q4_3",
+      "release": 1,
+      "affine_minus_common_expected_cost": -367.55387399811207
+    },
+    {
+      "kind": "q4_3",
+      "release": 2,
+      "affine_minus_common_expected_cost": -441.58754288170803
+    },
+    {
+      "kind": "q4_3",
+      "release": 3,
+      "affine_minus_common_expected_cost": -484.0761885877
+    }
+  ],
+  "scope": "LP dominance is in-sample within declared classes; not out-of-sample dominance."
+}

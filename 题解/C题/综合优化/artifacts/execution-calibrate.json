@@ -1,0 +1,158 @@
+{
+  "command": "python3 题解/C题/综合优化/src/run_comparison.py --phase calibrate --workers 6",
+  "exit_code": 0,
+  "runtime_seconds": 31.816945833154023,
+  "results": [
+    {
+      "kind": "q2",
+      "candidate": "baseline",
+      "total_cost": 504131.13682753814,
+      "runtime_seconds": 0.1855888341087848
+    },
+    {
+      "kind": "q3",
+      "candidate": "baseline",
+      "total_cost": 504434.2702577349,
+      "runtime_seconds": 0.509341707918793
+    },
+    {
+      "kind": "q2",
+      "candidate": "common_mpc",
+      "total_cost": 554344.7766897636,
+      "runtime_seconds": 2.1760707499925047
+    },
+    {
+      "kind": "q2",
+      "candidate": "affine_feedback",
+      "total_cost": 510003.7102106855,
+      "runtime_seconds": 2.9604427500162274
+    },
+    {
+      "kind": "q3",
+      "candidate": "common_mpc",
+      "total_cost": 558880.1129117833,
+      "runtime_seconds": 2.3801107089966536
+    },
+    {
+      "kind": "q2",
+      "candidate": "affine_sdp",
+      "total_cost": 505911.38784933364,
+      "runtime_seconds": 3.8667917081620544
+    },
+    {
+      "kind": "q2",
+      "candidate": "affine_mpc",
+      "total_cost": 546063.497646013,
+      "runtime_seconds": 5.091466083889827
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "baseline",
+      "total_cost": 562997.3421539308,
+      "runtime_seconds": 0.21377837494947016
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "common_mpc",
+      "total_cost": 621535.8973929391,
+      "runtime_seconds": 1.9804670000448823
+    },
+    {
+      "kind": "q3",
+      "candidate": "affine_feedback",
+      "total_cost": 505467.64519242244,
+      "runtime_seconds": 6.656521708006039
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "affine_feedback",
+      "total_cost": 571232.3422088488,
+      "runtime_seconds": 2.9786754159722477
+    },
+    {
+      "kind": "q3",
+      "candidate": "affine_mpc",
+      "total_cost": 546404.8968699253,
+      "runtime_seconds": 8.610496999928728
+    },
+    {
+      "kind": "q3",
+      "candidate": "affine_sdp",
+      "total_cost": 500314.22644897195,
+      "runtime_seconds": 9.189073750050738
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "baseline",
+      "total_cost": 565650.5248274629,
+      "runtime_seconds": 0.5788776250556111
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "affine_mpc",
+      "total_cost": 614998.0233712565,
+      "runtime_seconds": 5.233515500091016
+    },
+    {
+      "kind": "q2",
+      "candidate": "affine_saa_mpc",
+      "total_cost": 495308.3189891915,
+      "runtime_seconds": 15.342957541812211
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "affine_sdp",
+      "total_cost": 565724.6418747001,
+      "runtime_seconds": 4.2580880001187325
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "common_mpc",
+      "total_cost": 630965.1376309498,
+      "runtime_seconds": 2.550588709069416
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "affine_feedback",
+      "total_cost": 566515.0743795176,
+      "runtime_seconds": 6.658926042029634
+    },
+    {
+      "kind": "q3",
+      "candidate": "affine_saa_mpc",
+      "total_cost": 493542.7980801378,
+      "runtime_seconds": 19.157829832984135
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "affine_mpc",
+      "total_cost": 616424.8105532798,
+      "runtime_seconds": 8.586066999938339
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "affine_sdp",
+      "total_cost": 560209.6276785823,
+      "runtime_seconds": 8.671682625077665
+    },
+    {
+      "kind": "q4_2",
+      "candidate": "affine_saa_mpc",
+      "total_cost": 552631.5577244716,
+      "runtime_seconds": 15.203592791920528
+    },
+    {
+      "kind": "q4_3",
+      "candidate": "affine_saa_mpc",
+      "total_cost": 553398.7014247368,
+      "runtime_seconds": 15.442869083955884
+    }
+  ],
+  "environment": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "numpy": "2.4.1",
+    "scipy": "1.17.0",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+  },
+  "deterministic_reason": "Fixed scenario windows, deterministic HiGHS, fixed quantile Markov bins; no random training."
+}

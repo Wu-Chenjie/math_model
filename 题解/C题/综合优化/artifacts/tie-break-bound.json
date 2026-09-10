@@ -1,0 +1,10 @@
+{
+  "status": "computed",
+  "scope": "Per-subproblem bound in exact arithmetic, plus solver tolerance; not a closed-loop annual bound",
+  "lambda": 1e-07,
+  "maximum_scenarios": 28,
+  "maximum_slots": 144,
+  "bus_energy_limit_kwh": 833.3333333333334,
+  "affine_economic_suboptimality_bound_yuan": 0.672,
+  "mpc_economic_suboptimality_bound_yuan": 0.024
+}

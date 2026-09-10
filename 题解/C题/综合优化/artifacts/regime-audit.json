@@ -1,0 +1,22 @@
+{
+  "q2": {
+    "empty_regime_slot_count": 0,
+    "minimum_regime_samples": 2,
+    "examples": []
+  },
+  "q3": {
+    "empty_regime_slot_count": 0,
+    "minimum_regime_samples": 2,
+    "examples": []
+  },
+  "q4_2": {
+    "empty_regime_slot_count": 0,
+    "minimum_regime_samples": 2,
+    "examples": []
+  },
+  "q4_3": {
+    "empty_regime_slot_count": 0,
+    "minimum_regime_samples": 2,
+    "examples": []
+  }
+}

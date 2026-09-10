@@ -1,0 +1,74 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "release": 0,
+      "model": "original",
+      "runtime_seconds": 1.34659095807001,
+      "expected_cost": 20865.14823287334,
+      "eq_residual": 3.1566895595480098e-12,
+      "ineq_violation": 1.1368683772161603e-13
+    },
+    {
+      "release": 0,
+      "model": "reduced",
+      "runtime_seconds": 0.4655206250026822,
+      "expected_cost": 20865.14823287335,
+      "eq_residual": 0.0,
+      "ineq_violation": 3.637978807091713e-12,
+      "economic_objective_difference": 1.0913936421275139e-11
+    },
+    {
+      "release": 1,
+      "model": "original",
+      "runtime_seconds": 0.44341079192236066,
+      "expected_cost": 14511.739693905265,
+      "eq_residual": 4.030136923906979e-12,
+      "ineq_violation": 1.1368683772161603e-13
+    },
+    {
+      "release": 1,
+      "model": "reduced",
+      "runtime_seconds": 0.3850660410244018,
+      "expected_cost": 14511.73969390527,
+      "eq_residual": 0.0,
+      "ineq_violation": 4.249045559845399e-12,
+      "economic_objective_difference": 5.4569682106375694e-12
+    },
+    {
+      "release": 2,
+      "model": "original",
+      "runtime_seconds": 0.29656370892189443,
+      "expected_cost": 10514.05513617802,
+      "eq_residual": 1.8189894035458565e-12,
+      "ineq_violation": 5.684341886080802e-14
+    },
+    {
+      "release": 2,
+      "model": "reduced",
+      "runtime_seconds": 0.15431604208424687,
+      "expected_cost": 10514.055136178022,
+      "eq_residual": 0.0,
+      "ineq_violation": 2.6147972675971687e-12,
+      "economic_objective_difference": 1.8189894035458565e-12
+    },
+    {
+      "release": 3,
+      "model": "original",
+      "runtime_seconds": 0.1149328330066055,
+      "expected_cost": 10260.841149002872,
+      "eq_residual": 9.094947017729282e-13,
+      "ineq_violation": 1.1368683772161603e-13
+    },
+    {
+      "release": 3,
+      "model": "reduced",
+      "runtime_seconds": 0.05938687501475215,
+      "expected_cost": 10260.841149002872,
+      "eq_residual": 0.0,
+      "ineq_violation": 1.1937117960769683e-12,
+      "economic_objective_difference": 0.0
+    }
+  ],
+  "difference_note": "Original includes 1e-7 charge/discharge tie breaker; reduced solves economic objective directly."
+}

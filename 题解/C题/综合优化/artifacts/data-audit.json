@@ -1,0 +1,167 @@
+{
+  "status": "completed",
+  "stats": {
+    "load": {
+      "shape": [
+        365,
+        144
+      ],
+      "count": 52560,
+      "missing": 0,
+      "min": 1995.7176,
+      "max": 7978.8849,
+      "negative": 0,
+      "quantiles": [
+        1995.7176,
+        2409.012422,
+        4270.6836,
+        7312.3768759999975,
+        7978.8849
+      ]
+    },
+    "pv": {
+      "shape": [
+        365,
+        144
+      ],
+      "count": 52560,
+      "missing": 0,
+      "min": 0.0,
+      "max": 10216.2,
+      "negative": 0,
+      "quantiles": [
+        0.0,
+        0.0,
+        18.8589,
+        8904.692938999995,
+        10216.2
+      ]
+    },
+    "price": {
+      "shape": [
+        365,
+        144
+      ],
+      "count": 52560,
+      "missing": 0,
+      "min": 0.0076,
+      "max": 1.7936,
+      "negative": 0,
+      "quantiles": [
+        0.0076,
+        0.244818,
+        0.73845,
+        1.5713459999999977,
+        1.7936
+      ]
+    },
+    "forecast": {
+      "shape": [
+        365,
+        4,
+        24
+      ],
+      "count": 35040,
+      "missing": 0,
+      "min": 0.0,
+      "max": 9995.8875,
+      "negative": 0,
+      "quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        9209.775,
+        9995.8875
+      ]
+    },
+    "q1": {
+      "shape": [
+        144,
+        3
+      ],
+      "count": 432,
+      "missing": 0,
+      "min": 0.0,
+      "max": 7612.316,
+      "negative": 0,
+      "quantiles": [
+        0.0,
+        0.0,
+        387.61125,
+        7563.858723,
+        7612.316
+      ]
+    },
+    "lag_correlations": {
+      "load": [
+        0.6792228203357924,
+        0.9854841731589497
+      ],
+      "pv": [
+        0.9923139365019341,
+        0.9903393354144828
+      ],
+      "price": [
+        0.9335388576734323,
+        0.9820369555202595
+      ]
+    },
+    "daily_load_energy_range": [
+      71490.16935,
+      141565.53863333332
+    ],
+    "daily_pv_energy_range": [
+      34360.561200000004,
+      75223.00616666667
+    ]
+  },
+  "date_range": [
+    "2025-01-01",
+    "2025-12-31"
+  ],
+  "evaluation_days": 334,
+  "checks": [
+    {
+      "name": "finite_nonnegative_values",
+      "status": "pass"
+    },
+    {
+      "name": "365_unique_consecutive_days",
+      "status": "pass"
+    },
+    {
+      "name": "144_aligned_samples_per_day",
+      "status": "pass"
+    },
+    {
+      "name": "forecast_4_releases_24_leads",
+      "status": "pass"
+    },
+    {
+      "name": "source_copies_hashed",
+      "status": "pass"
+    },
+    {
+      "name": "snapshot_hash_matches_parent_sources",
+      "status": "pass"
+    }
+  ],
+  "issues": [
+    {
+      "type": "time_label_mismatch",
+      "evidence": "Inputs 00:10..24:00; template 00:10-00:20..next-day00:10.",
+      "resolution": "Treat input as right endpoint / interval mean of preceding 10min; correct output copy headers."
+    }
+  ],
+  "units": {
+    "load": "kW",
+    "pv": "kW",
+    "forecast": "kW",
+    "price": "CNY/kWh",
+    "time_step_hours": 0.16666666666666666
+  },
+  "data_policy": "No deletion or imputation. Repeated zero night PV is structural, not missing. Mixed Excel time/text types normalized to minutes.",
+  "coverage": "January is calibration; February-December strictly prequential. Raw future data only for scoring.",
+  "incremental_source": "Byte-identical copies from accepted baseline; input hashes re-evaluated.",
+  "evaluation_boundary": "Same fixed 2025 data previously examined; incremental chronological replay, not a newly acquired external holdout."
+}

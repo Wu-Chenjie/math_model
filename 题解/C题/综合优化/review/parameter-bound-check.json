@@ -1,0 +1,12 @@
+{
+  "scope": "Exact arithmetic objective-perturbation constants; not a numerical solver optimality certificate or annual policy bound",
+  "status": "pass",
+  "lambda": 1e-07,
+  "maximum_S": 28,
+  "maximum_T": 144,
+  "M": 833.3333333333334,
+  "affine_bound": 0.672,
+  "mpc_bound": 0.024,
+  "affine_exact_fraction": "84/125",
+  "mpc_exact_fraction": "3/125"
+}

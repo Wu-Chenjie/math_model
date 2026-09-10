@@ -1,0 +1,10 @@
+{
+  "scope": "Design assessment and refinement of hierarchical scenario-based economic MPC",
+  "status": "assessment_complete",
+  "implemented": ["Artificial three-slot predictive-vs-greedy battery counterexample"],
+  "not_executed": ["Full-year hierarchical MPC", "Event-triggered contract MPC", "CVaR or robust MPC annual backtest"],
+  "baseline_outputs_modified": false,
+  "prior_review_score_applies_to_new_design": false,
+  "document": "分层场景MPC评估与改进.md",
+  "executed_example": "toy_control_check.json"
+}
