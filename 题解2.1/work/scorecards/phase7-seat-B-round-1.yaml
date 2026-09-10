@@ -1,0 +1,29 @@
+scorecard:
+  contest: CUMCM
+  seat: B
+  round: 1
+  criteria:
+    - {name: summary, weight: 0.15, score: 84}
+    - {name: modeling, weight: 0.20, score: 85}
+    - {name: results, weight: 0.15, score: 84}
+    - {name: innovation, weight: 0.30, score: 82}
+    - {name: evidence, weight: 0.20, score: 78}
+  weighted_total: 82.4
+  implied_tier: finalist
+  fix_one_thing: "修复编译溢出：将公式(4)与(6)的cases环境改为多行align排版（当前Overfull 298/284pt使P1、P2两个核心模型约束右缘被页边裁切），并同步清理三处失稳数字（32.7%+6.7%≠37.2%的口径、无出处的283.9 MWh、消融边际-0.03万应为-0.27万）。"
+  ranked_gaps:
+    - {severity: high, summary: "核心模型公式(4)（P1，第4页）与(6)（P2，第7页）超出右页边被物理裁切：'S0=SN=s*=6000'只剩'600…'、'+e_t^k'被切，评审翻开模型页即见不完整的中心方程", artifact: "paper/main.pdf 第4、7页；main.log Overfull \hbox 298.42pt(line 161)/283.99pt(line 237)"}
+    - {severity: medium, summary: "摘要与6.6节归因分解写作 '32.7% + 6.7% = 37.2%'，但两个百分比分母不同（2267.9 与 1525.7），加和实为39.4%；37.2%仅在全单分母(2267.9)下成立，标题性论断算术不自洽", artifact: "paper/main.pdf 第1、10-11页；results/paper_tables.json year_baseline_det=2267.87万/det_fc=1525.71万"}
+    - {severity: medium, summary: "6.5节'283.9→76.1 MWh'的283.9在全部工件中无出处（对照基线实际为2006.2/524.0/72.1 MWh），且与6.6节自述'2006→76 MWh(-96%)'相矛盾，系旧版残留孤儿数值", artifact: "paper/main.tex 第267行；results/p2_det.npz、p2_det_fc.npz、p3_A.npz"}
+    - {severity: medium, summary: "5.3节称'全天购电量59482.70 kWh恰等于负载-光伏净缺口、全部购电用于负载'，实测净缺口仅55541.97 kWh，差额3940.72 kWh(6.6%)为往返效率损耗(0.19×Σc)，解释性论断被数值证伪", artifact: "paper/main.pdf 第6页；results/p1.npz（Σc=20740.65, Σd=18666.60=0.9Σc）"}
+    - {severity: medium, summary: "表13消融{12:00}边际收益'-0.03万元'为导出脚本硬编码，实际14244232-14241513=+0.27万元（方向对、量级差9倍），与本表自身舍入值(1424.4 vs 1424.2)也不一致", artifact: "paper/tables/p3_ablation.tex 第8行；code/export_paper_tables.py 第254行('$-0.03$')；results/paper_tables.json adjust_ablation.adj_12"}
+    - {severity: medium, summary: "图4、图5面板标号为(c)/(d)、(e)/(f)，与图注'(a)…(b)…'不对应（旧六面板版本残留），跨图引用(fig5a/5b)与图内标题错位", artifact: "figures/fig4_p3_adjust.png、fig5_p4_price.png 面板标题；paper/main.pdf 第13、17页图注"}
+    - {severity: low, summary: "results/paper_tables.json 指定日期table2充放电量为陈旧值（P2 3-20块0=4820.62/161.07），与论文tex、p2.npz、result2.xlsx实际采用值(5512.30/937.98)不一致，manifest'全部表格数值唯一来源'的说法不成立", artifact: "results/paper_tables.json p2.spec_dates.2025-03-20.table2 对照 results/p2.npz d=78"}
+    - {severity: low, summary: "'K∈[10,25]内变化不足0.5%'仅在相对选定K=15时成立（最大偏差0.49%），区间内全极差为0.81%，表述口径偏宽松", artifact: "paper/main.pdf 第11页表8；results/paper_tables.json K_sensitivity"}
+    - {severity: low, summary: "对题面'是否需要引入其他时刻的预报'仅在给定集合{6,12,18}内做子集消融，未试验集合外时刻（如9/15/21时），'无需其他时刻'一侧仅以定性推断收尾", artifact: "paper/main.pdf 7.3节表13；code/tables_export.py adjust_ablation"}
+  do_not_regress:
+    - "归因阶梯（旧预报器2267.9→本文预报器1525.7→SAA 1424.2，附-96%紧急电量）与三方案A/B/C、调整时刻消融共同构成的决策价值证据文化——这是本文相对常规SAA论文的最大差异点"
+    - "npz↔xlsx↔tex零手抄数据链与validate.py独立校验（SOC递推、平衡恒等式、费用三分量重算、工作簿逐格比对）"
+    - "执行层可达带投影+引理2归纳证明（日末精确复位）、命题1日循环最优性、引理1不同时充放的理论闭环"
+    - "P4的信息假设自律：明日预报仅用d-1及更早数据防泄漏，且对'明日电价不可知'严口径做敏感性(+0.24%)"
+    - "P4-3末态SOC锚定对'退购套取违约退款'短视行为的机制性防范（8.2节）"
