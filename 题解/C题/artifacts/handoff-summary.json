@@ -1,0 +1,182 @@
+{
+  "q1": {
+    "daily_energy": 59482.698998353924,
+    "daily_cost": 35126.948589289634,
+    "no_storage_cost": 48052.04659084666
+  },
+  "comparisons": {
+    "q1_saving_percent": 26.898121762870144,
+    "q2_vs_deterministic_saving": 1113390.8224862646,
+    "q2_vs_deterministic_percent": 7.251320126144892,
+    "q3_full_update_saving": 537859.0730293635,
+    "q3_full_update_percent": 3.7353756226611035,
+    "q3_pv_only_saving": 132764.69858137332,
+    "q4_full_update_saving": 583751.8388327844,
+    "q4_pv_only_saving": 127838.22371895052,
+    "refund_interpretation_cost_difference": 335278.0083403364,
+    "monthly_cost": {
+      "q2": [
+        1219898.7271164486,
+        1143798.8660650265,
+        969151.7046502933,
+        1038194.8203339162,
+        1546886.6828848824,
+        1661320.0682951617,
+        1305265.730073017,
+        1159807.4741891578,
+        1149569.5958614084,
+        1277291.1476385666,
+        1769743.3411924676
+      ],
+      "q3": [
+        1226033.4414104647,
+        1138067.6378062842,
+        949182.1456511915,
+        1004140.9977212594,
+        1358734.7882434274,
+        1577308.6659127697,
+        1312671.705316281,
+        1150314.7971264648,
+        1152935.4317381612,
+        1286983.6393400733,
+        1704830.243969973
+      ],
+      "q4_2": [
+        1291005.3748260466,
+        1145985.1026669294,
+        947863.7467604971,
+        1019951.2109121764,
+        1639471.8601808348,
+        1894400.6300896676,
+        1454860.04630068,
+        1175374.8255133585,
+        1147434.133580895,
+        1340059.9237091062,
+        2020644.7156764993
+      ],
+      "q4_3": [
+        1297266.8906996704,
+        1141623.5381014585,
+        931513.7902894939,
+        987650.4883614372,
+        1454175.2949621554,
+        1800297.471583474,
+        1460356.646816966,
+        1166848.6162145678,
+        1152229.3356145616,
+        1348999.0960703592,
+        1944018.26428202
+      ]
+    },
+    "figure_sources": {
+      "01": "q1.json,data.npz",
+      "02": "q2.json,q3.json,q4_2.json,q4_3.json",
+      "03": "ablations.json,validation.json,metrics.json",
+      "04": "q3.npz,data.npz"
+    }
+  },
+  "main": {
+    "q2": {
+      "planned_cost": 13666205.654351318,
+      "increase_cost": 0.0,
+      "reduction_net_cost": 0.0,
+      "emergency_cost": 574722.5039490273,
+      "total_cost": 14240928.158300346,
+      "planned_energy": 22390132.96795298,
+      "adjusted_energy": 22390132.96795298,
+      "emergency_energy": 103312.16214711076,
+      "spill_energy": 3292261.1661287853,
+      "emergency_while_charging": 11915.391003089058
+    },
+    "q3": {
+      "planned_cost": 13886671.074864775,
+      "increase_cost": 237820.863186504,
+      "reduction_net_cost": -344099.44852899446,
+      "emergency_cost": 80811.0047140657,
+      "total_cost": 13861203.49423635,
+      "planned_energy": 22688730.04153833,
+      "adjusted_energy": 21799685.984336346,
+      "emergency_energy": 16202.010722468629,
+      "spill_energy": 2603939.0912221805,
+      "emergency_while_charging": 2291.5105968884673
+    },
+    "q4_2": {
+      "planned_cost": 14517759.615532022,
+      "increase_cost": 0.0,
+      "reduction_net_cost": 0.0,
+      "emergency_cost": 559291.9546846693,
+      "total_cost": 15077051.570216691,
+      "planned_energy": 22556436.54235499,
+      "adjusted_energy": 22556436.54235499,
+      "emergency_energy": 93670.61977856184,
+      "spill_energy": 3410786.8207793892,
+      "emergency_while_charging": 10026.445731895394
+    },
+    "q4_3": {
+      "planned_cost": 14723680.452206137,
+      "increase_cost": 259125.01288734915,
+      "reduction_net_cost": -374995.0780253113,
+      "emergency_cost": 77169.04592798925,
+      "total_cost": 14684979.432996163,
+      "planned_energy": 22807055.835474357,
+      "adjusted_energy": 21884085.558778215,
+      "emergency_energy": 15054.07834280279,
+      "spill_energy": 2647885.0301904418,
+      "emergency_while_charging": 1802.154453180465
+    }
+  },
+  "feasibility": {
+    "q2": {
+      "energy_balance_max_abs": 2.2737367544323206e-13,
+      "soc_recurrence_max_abs": 1.1368683772161603e-13,
+      "soc_min": 1200.0,
+      "soc_max": 10800.0,
+      "terminal_max_abs": 0.0,
+      "power_max_kw": 5000.0000000000055,
+      "simultaneous_charge_discharge_max": 0.0,
+      "lp_eq_max_abs": 1.8189894035458565e-12,
+      "lp_ineq_violation": 2.2737367544323206e-13,
+      "lp_duality_gap_max": 1.5279510989785194e-10,
+      "negative_energy_violation": 0.0
+    },
+    "q3": {
+      "energy_balance_max_abs": 2.2737367544323206e-13,
+      "soc_recurrence_max_abs": 1.1368683772161603e-13,
+      "soc_min": 1200.0,
+      "soc_max": 10800.0,
+      "terminal_max_abs": 0.0,
+      "power_max_kw": 5000.0000000000055,
+      "simultaneous_charge_discharge_max": 0.0,
+      "lp_eq_max_abs": 1.8189894035458565e-12,
+      "lp_ineq_violation": 2.2737367544323206e-13,
+      "lp_duality_gap_max": 1.7462298274040222e-10,
+      "negative_energy_violation": 0.0
+    },
+    "q4_2": {
+      "energy_balance_max_abs": 2.2737367544323206e-13,
+      "soc_recurrence_max_abs": 1.1368683772161603e-13,
+      "soc_min": 1200.0,
+      "soc_max": 10800.0,
+      "terminal_max_abs": 0.0,
+      "power_max_kw": 5000.0000000000055,
+      "simultaneous_charge_discharge_max": 0.0,
+      "lp_eq_max_abs": 1.8189894035458565e-12,
+      "lp_ineq_violation": 1.1368683772161603e-13,
+      "lp_duality_gap_max": 1.7462298274040222e-10,
+      "negative_energy_violation": 0.0
+    },
+    "q4_3": {
+      "energy_balance_max_abs": 2.2737367544323206e-13,
+      "soc_recurrence_max_abs": 1.1368683772161603e-13,
+      "soc_min": 1200.0,
+      "soc_max": 10800.0,
+      "terminal_max_abs": 0.0,
+      "power_max_kw": 5000.0000000000055,
+      "simultaneous_charge_discharge_max": 0.0,
+      "lp_eq_max_abs": 1.8189894035458565e-12,
+      "lp_ineq_violation": 2.2737367544323206e-13,
+      "lp_duality_gap_max": 1.6007106751203537e-10,
+      "negative_energy_violation": 0.0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "reviewer": "root visual inspection",
+  "figures": [
+    "figures/03_日内调整与新增预报价值.png",
+    "figures/02_月度费用比较.png",
+    "figures/04_指定日最终购电策略.png",
+    "figures/01_问题1最优计划.png"
+  ],
+  "representative_workbook_previews": [
+    "result3-计划购电量.png",
+    "result4-2-计划购电量.png",
+    "result4-3-费用汇总.png",
+    "result4-2-费用汇总.png",
+    "result4-3-调整购电量.png",
+    "result3-口径说明.png",
+    "result2-口径说明.png",
+    "result2-计划购电量.png",
+    "result4-3-计划购电量.png",
+    "result3-调整购电量.png",
+    "result2-充放电量.png",
+    "result3-充放电量.png",
+    "result2-紧急购电量.png",
+    "result4-3-紧急购电量.png",
+    "result1-计划购电量.png",
+    "result1-口径说明.png",
+    "result4-2-口径说明.png",
+    "result4-3-口径说明.png",
+    "result2-费用汇总.png",
+    "result3-费用汇总.png",
+    "result3-紧急购电量.png",
+    "result4-2-紧急购电量.png",
+    "result1-充放电量.png",
+    "result4-3-充放电量.png",
+    "result4-2-充放电量.png"
+  ],
+  "checks": [
+    "all four figures visually inspected",
+    "CJK glyph warning corrected and rerendered",
+    "time headers corrected in all output copies",
+    "representative ranges inspected for every worksheet type",
+    "battery grouped date rendering corrected and rechecked",
+    "all XLSX values and totals independently reopened and reconciled"
+  ],
+  "scope": "sample ranges per worksheet; full numeric matrices checked programmatically"
+}

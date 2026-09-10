@@ -42,7 +42,7 @@ def main():
         pv_accuracy.append({'release_hour':6*k,'latest_mae_kw':float(abs(act-fc['official_pv'][31:,k,t:]).mean()),
              'midnight_same_horizon_mae_kw':float(abs(act-fc['official_pv'][31:,0,t:]).mean())})
     prediction={key:{'mae_kw' if key!='price' else 'mae_cny_per_kwh':float(abs(data[key][31:]-fc[key][31:,0]).mean()),
-                    'rmse':float(np.sqrt(np.mean((data[key][31:]-fc[key][31:,0])**2))))} for key in ['load','pv','price']}
+                    'rmse':float(np.sqrt(np.mean((data[key][31:]-fc[key][31:,0])**2)))} for key in ['load','pv','price']}
     # Update controller and load/price forecasts at identical times; hold PV forecast at midnight.
     fhold={k:v.copy() for k,v in fc.items()}
     for k in range(1,4): fhold['official_pv'][:,k,k*36:]=fc['official_pv'][:,0,k*36:]

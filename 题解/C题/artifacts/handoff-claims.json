@@ -1,8 +1,7 @@
 {
-  "schema_version": 1,
-  "results": [
+  "claims": [
     {
-      "id": "q1.q",
+      "result_id": "q1.q",
       "value": [
         1406.6411,
         1406.3298666666667,
@@ -149,12 +148,10 @@
         573.1768333333333,
         574.1209833333334
       ],
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/q",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "q1.c",
+      "result_id": "q1.c",
       "value": [
         833.3333333333334,
         833.3333333333334,
@@ -301,12 +298,10 @@
         0.0,
         0.0
       ],
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/c",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "q1.d",
+      "result_id": "q1.d",
       "value": [
         0.0,
         0.0,
@@ -453,12 +448,10 @@
         0.0,
         0.0
       ],
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/d",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "q1.state",
+      "result_id": "q1.state",
       "value": [
         6000.0,
         6750.0,
@@ -606,68 +599,50 @@
         6000.000000000006,
         6000.000000000006
       ],
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/state",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "q1.expected_cost",
+      "result_id": "q1.expected_cost",
       "value": 35126.948589289634,
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/expected_cost",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "q1.lp_objective",
+      "result_id": "q1.lp_objective",
       "value": 35126.95234335019,
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/lp_objective",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "q1.eq_residual",
+      "result_id": "q1.eq_residual",
       "value": 9.094947017729282e-13,
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/eq_residual",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "q1.ineq_violation",
+      "result_id": "q1.ineq_violation",
       "value": 1.1368683772161603e-13,
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/ineq_violation",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "q1.duality_gap",
+      "result_id": "q1.duality_gap",
       "value": 7.275957614183426e-12,
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/duality_gap",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "q1.no_storage_cost",
+      "result_id": "q1.no_storage_cost",
       "value": 48052.04659084666,
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/no_storage_cost",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "q1.daily_energy",
+      "result_id": "q1.daily_energy",
       "value": 59482.698998353924,
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/daily_energy",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "q1.daily_cost",
+      "result_id": "q1.daily_cost",
       "value": 35126.948589289634,
-      "source_artifact": "artifacts/q1.json",
-      "source_path": "/daily_cost",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "metrics.q2",
+      "result_id": "metrics.q2",
       "value": {
         "planned_cost": 13666205.654351318,
         "increase_cost": 0.0,
@@ -680,12 +655,10 @@
         "spill_energy": 3292261.1661287853,
         "emergency_while_charging": 11915.391003089058
       },
-      "source_artifact": "artifacts/metrics.json",
-      "source_path": "/q2",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "metrics.q3",
+      "result_id": "metrics.q3",
       "value": {
         "planned_cost": 13886671.074864775,
         "increase_cost": 237820.863186504,
@@ -698,12 +671,10 @@
         "spill_energy": 2603939.0912221805,
         "emergency_while_charging": 2291.5105968884673
       },
-      "source_artifact": "artifacts/metrics.json",
-      "source_path": "/q3",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "metrics.q4_2",
+      "result_id": "metrics.q4_2",
       "value": {
         "planned_cost": 14517759.615532022,
         "increase_cost": 0.0,
@@ -716,12 +687,10 @@
         "spill_energy": 3410786.8207793892,
         "emergency_while_charging": 10026.445731895394
       },
-      "source_artifact": "artifacts/metrics.json",
-      "source_path": "/q4_2",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "metrics.q4_3",
+      "result_id": "metrics.q4_3",
       "value": {
         "planned_cost": 14723680.452206137,
         "increase_cost": 259125.01288734915,
@@ -734,42 +703,34 @@
         "spill_energy": 2647885.0301904418,
         "emergency_while_charging": 1802.154453180465
       },
-      "source_artifact": "artifacts/metrics.json",
-      "source_path": "/q4_3",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "metrics.q1",
+      "result_id": "metrics.q1",
       "value": {
         "daily_energy": 59482.698998353924,
         "daily_cost": 35126.948589289634,
         "no_storage_cost": 48052.04659084666
       },
-      "source_artifact": "artifacts/metrics.json",
-      "source_path": "/q1",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "metrics.runtime_seconds",
+      "result_id": "metrics.runtime_seconds",
       "value": 54.97746737510897,
-      "source_artifact": "artifacts/metrics.json",
-      "source_path": "/runtime_seconds",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "metrics.environment",
+      "result_id": "metrics.environment",
       "value": {
         "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
         "numpy": "2.4.1",
         "scipy": "1.17.0",
         "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
       },
-      "source_artifact": "artifacts/metrics.json",
-      "source_path": "/environment",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "baseline-metrics.q2",
+      "result_id": "baseline-metrics.q2",
       "value": {
         "planned_cost": 12214333.764523571,
         "increase_cost": 0.0,
@@ -782,12 +743,10 @@
         "spill_energy": 1513472.6438964396,
         "emergency_while_charging": 38134.97135672728
       },
-      "source_artifact": "artifacts/baseline-metrics.json",
-      "source_path": "/q2",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "handoff-tables.q1",
+      "result_id": "handoff-tables.q1",
       "value": {
         "purchase": [
           [
@@ -854,12 +813,10 @@
           6000.000000000006
         ]
       },
-      "source_artifact": "artifacts/handoff-tables.json",
-      "source_path": "/q1",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "handoff-tables.models",
+      "result_id": "handoff-tables.models",
       "value": {
         "q2": {
           "totals": {
@@ -2642,23 +2599,19 @@
           }
         }
       },
-      "source_artifact": "artifacts/handoff-tables.json",
-      "source_path": "/models",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "handoff-summary.q1",
+      "result_id": "handoff-summary.q1",
       "value": {
         "daily_energy": 59482.698998353924,
         "daily_cost": 35126.948589289634,
         "no_storage_cost": 48052.04659084666
       },
-      "source_artifact": "artifacts/handoff-summary.json",
-      "source_path": "/q1",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "handoff-summary.comparisons",
+      "result_id": "handoff-summary.comparisons",
       "value": {
         "q1_saving_percent": 26.898121762870144,
         "q2_vs_deterministic_saving": 1113390.8224862646,
@@ -2730,12 +2683,10 @@
           "04": "q3.npz,data.npz"
         }
       },
-      "source_artifact": "artifacts/handoff-summary.json",
-      "source_path": "/comparisons",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "handoff-summary.main",
+      "result_id": "handoff-summary.main",
       "value": {
         "q2": {
           "planned_cost": 13666205.654351318,
@@ -2786,12 +2737,10 @@
           "emergency_while_charging": 1802.154453180465
         }
       },
-      "source_artifact": "artifacts/handoff-summary.json",
-      "source_path": "/main",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "handoff-summary.feasibility",
+      "result_id": "handoff-summary.feasibility",
       "value": {
         "q2": {
           "energy_balance_max_abs": 2.2737367544323206e-13,
@@ -2846,12 +2795,10 @@
           "negative_energy_violation": 0.0
         }
       },
-      "source_artifact": "artifacts/handoff-summary.json",
-      "source_path": "/feasibility",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "validation.checks",
+      "result_id": "validation.checks",
       "value": [
         {
           "name": "newsvendor_80_percent_quantile",
@@ -2887,12 +2834,10 @@
           "status": "pass"
         }
       ],
-      "source_artifact": "artifacts/validation.json",
-      "source_path": "/checks",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "validation.prediction_accuracy",
+      "result_id": "validation.prediction_accuracy",
       "value": {
         "load": {
           "mae_kw": 176.79572117223884,
@@ -2907,12 +2852,10 @@
           "rmse": 0.06534801504178886
         }
       },
-      "source_artifact": "artifacts/validation.json",
-      "source_path": "/prediction_accuracy",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "validation.pv_release_accuracy",
+      "result_id": "validation.pv_release_accuracy",
       "value": [
         {
           "release_hour": 0,
@@ -2935,12 +2878,10 @@
           "midnight_same_horizon_mae_kw": 10.623287947715683
         }
       ],
-      "source_artifact": "artifacts/validation.json",
-      "source_path": "/pv_release_accuracy",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "validation.controlled_pv_value",
+      "result_id": "validation.controlled_pv_value",
       "value": {
         "q3_keep_midnight_pv": {
           "planned_cost": 13886671.074864775,
@@ -2967,12 +2908,10 @@
           "emergency_while_charging": 1802.1544531805068
         }
       },
-      "source_artifact": "artifacts/validation.json",
-      "source_path": "/controlled_pv_value",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "validation.frozen_contract_stress",
+      "result_id": "validation.frozen_contract_stress",
       "value": {
         "reference": {
           "total_cost": 13861203.49423635,
@@ -3000,12 +2939,10 @@
           "terminal_max_abs": 0.0
         }
       },
-      "source_artifact": "artifacts/validation.json",
-      "source_path": "/frozen_contract_stress",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "validation.q1_sensitivity",
+      "result_id": "validation.q1_sensitivity",
       "value": {
         "reference": {
           "cost": 35126.948589289634,
@@ -3020,19 +2957,15 @@
           "energy": 59540.18466923868
         }
       },
-      "source_artifact": "artifacts/validation.json",
-      "source_path": "/q1_sensitivity",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "validation.runtime_seconds",
+      "result_id": "validation.runtime_seconds",
       "value": 40.53461800003424,
-      "source_artifact": "artifacts/validation.json",
-      "source_path": "/runtime_seconds",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "sensitivity.reference",
+      "result_id": "sensitivity.reference",
       "value": {
         "totals": {
           "planned_cost": 442452.9322540048,
@@ -3221,12 +3154,10 @@
           "deterministic": false
         }
       },
-      "source_artifact": "artifacts/sensitivity.json",
-      "source_path": "/reference",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "sensitivity.window14",
+      "result_id": "sensitivity.window14",
       "value": {
         "totals": {
           "planned_cost": 442042.1070107873,
@@ -3415,12 +3346,10 @@
           "deterministic": false
         }
       },
-      "source_artifact": "artifacts/sensitivity.json",
-      "source_path": "/window14",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "sensitivity.window56",
+      "result_id": "sensitivity.window56",
       "value": {
         "totals": {
           "planned_cost": 441805.320291675,
@@ -3609,12 +3538,10 @@
           "deterministic": false
         }
       },
-      "source_artifact": "artifacts/sensitivity.json",
-      "source_path": "/window56",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "sensitivity.eta085",
+      "result_id": "sensitivity.eta085",
       "value": {
         "totals": {
           "planned_cost": 457441.9803326718,
@@ -3803,12 +3730,10 @@
           "deterministic": false
         }
       },
-      "source_artifact": "artifacts/sensitivity.json",
-      "source_path": "/eta085",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "sensitivity.eta095",
+      "result_id": "sensitivity.eta095",
       "value": {
         "totals": {
           "planned_cost": 428075.699659871,
@@ -3997,12 +3922,10 @@
           "deterministic": false
         }
       },
-      "source_artifact": "artifacts/sensitivity.json",
-      "source_path": "/eta095",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "sensitivity.terminal4800",
+      "result_id": "sensitivity.terminal4800",
       "value": {
         "totals": {
           "planned_cost": 442151.5371675969,
@@ -4191,12 +4114,10 @@
           "deterministic": false
         }
       },
-      "source_artifact": "artifacts/sensitivity.json",
-      "source_path": "/terminal4800",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "sensitivity.terminal7200",
+      "result_id": "sensitivity.terminal7200",
       "value": {
         "totals": {
           "planned_cost": 442780.0221632521,
@@ -4385,12 +4306,10 @@
           "deterministic": false
         }
       },
-      "source_artifact": "artifacts/sensitivity.json",
-      "source_path": "/terminal7200",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "sensitivity.power4000",
+      "result_id": "sensitivity.power4000",
       "value": {
         "totals": {
           "planned_cost": 444751.55944119964,
@@ -4579,12 +4498,10 @@
           "deterministic": false
         }
       },
-      "source_artifact": "artifacts/sensitivity.json",
-      "source_path": "/power4000",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "sensitivity.power6000",
+      "result_id": "sensitivity.power6000",
       "value": {
         "totals": {
           "planned_cost": 441980.0425667207,
@@ -4773,75 +4690,55 @@
           "deterministic": false
         }
       },
-      "source_artifact": "artifacts/sensitivity.json",
-      "source_path": "/power6000",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "derived-results.q1_saving_percent",
+      "result_id": "derived-results.q1_saving_percent",
       "value": 26.898121762870144,
-      "source_artifact": "artifacts/derived-results.json",
-      "source_path": "/q1_saving_percent",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "derived-results.q2_vs_deterministic_saving",
+      "result_id": "derived-results.q2_vs_deterministic_saving",
       "value": 1113390.8224862646,
-      "source_artifact": "artifacts/derived-results.json",
-      "source_path": "/q2_vs_deterministic_saving",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "derived-results.q2_vs_deterministic_percent",
+      "result_id": "derived-results.q2_vs_deterministic_percent",
       "value": 7.251320126144892,
-      "source_artifact": "artifacts/derived-results.json",
-      "source_path": "/q2_vs_deterministic_percent",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "derived-results.q3_full_update_saving",
+      "result_id": "derived-results.q3_full_update_saving",
       "value": 537859.0730293635,
-      "source_artifact": "artifacts/derived-results.json",
-      "source_path": "/q3_full_update_saving",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "derived-results.q3_full_update_percent",
+      "result_id": "derived-results.q3_full_update_percent",
       "value": 3.7353756226611035,
-      "source_artifact": "artifacts/derived-results.json",
-      "source_path": "/q3_full_update_percent",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "derived-results.q3_pv_only_saving",
+      "result_id": "derived-results.q3_pv_only_saving",
       "value": 132764.69858137332,
-      "source_artifact": "artifacts/derived-results.json",
-      "source_path": "/q3_pv_only_saving",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "derived-results.q4_full_update_saving",
+      "result_id": "derived-results.q4_full_update_saving",
       "value": 583751.8388327844,
-      "source_artifact": "artifacts/derived-results.json",
-      "source_path": "/q4_full_update_saving",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "derived-results.q4_pv_only_saving",
+      "result_id": "derived-results.q4_pv_only_saving",
       "value": 127838.22371895052,
-      "source_artifact": "artifacts/derived-results.json",
-      "source_path": "/q4_pv_only_saving",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "derived-results.refund_interpretation_cost_difference",
+      "result_id": "derived-results.refund_interpretation_cost_difference",
       "value": 335278.0083403364,
-      "source_artifact": "artifacts/derived-results.json",
-      "source_path": "/refund_interpretation_cost_difference",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "derived-results.monthly_cost",
+      "result_id": "derived-results.monthly_cost",
       "value": {
         "q2": [
           1219898.7271164486,
@@ -4896,24 +4793,20 @@
           1944018.26428202
         ]
       },
-      "source_artifact": "artifacts/derived-results.json",
-      "source_path": "/monthly_cost",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "derived-results.figure_sources",
+      "result_id": "derived-results.figure_sources",
       "value": {
         "01": "q1.json,data.npz",
         "02": "q2.json,q3.json,q4_2.json,q4_3.json",
         "03": "ablations.json,validation.json,metrics.json",
         "04": "q3.npz,data.npz"
       },
-      "source_artifact": "artifacts/derived-results.json",
-      "source_path": "/figure_sources",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "forecast-selection.load",
+      "result_id": "forecast-selection.load",
       "value": {
         "candidate_january_mae": {
           "lag1": 658.4766755718955,
@@ -4927,12 +4820,10 @@
           30
         ]
       },
-      "source_artifact": "artifacts/forecast-selection.json",
-      "source_path": "/load",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "forecast-selection.pv",
+      "result_id": "forecast-selection.pv",
       "value": {
         "candidate_january_mae": {
           "lag1": 119.47910053104575,
@@ -4946,12 +4837,10 @@
           30
         ]
       },
-      "source_artifact": "artifacts/forecast-selection.json",
-      "source_path": "/pv",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "forecast-selection.price",
+      "result_id": "forecast-selection.price",
       "value": {
         "candidate_january_mae": {
           "lag1": 0.08576229575163398,
@@ -4965,19 +4854,15 @@
           30
         ]
       },
-      "source_artifact": "artifacts/forecast-selection.json",
-      "source_path": "/price",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "controller-selection.selected",
+      "result_id": "controller-selection.selected",
       "value": "greedy",
-      "source_artifact": "artifacts/controller-selection.json",
-      "source_path": "/selected",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "controller-selection.results",
+      "result_id": "controller-selection.results",
       "value": {
         "q2_fixed": {
           "planned_cost": 504131.1368275375,
@@ -5030,19 +4915,15 @@
         },
         "greedy_sum": 1008565.4070852731
       },
-      "source_artifact": "artifacts/controller-selection.json",
-      "source_path": "/results",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "controller-selection.caveat",
+      "result_id": "controller-selection.caveat",
       "value": "January development only; family selection and controller selection share January, no out-of-sample claim for January.",
-      "source_artifact": "artifacts/controller-selection.json",
-      "source_path": "/caveat",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "oracle.fixed",
+      "result_id": "oracle.fixed",
       "value": {
         "daily_cost": [
           19758.970907472758,
@@ -5383,12 +5264,10 @@
         "total_cost": 12245046.91527763,
         "total_energy": 20218838.18025311
       },
-      "source_artifact": "artifacts/oracle.json",
-      "source_path": "/fixed",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "oracle.variable",
+      "result_id": "oracle.variable",
       "value": {
         "daily_cost": [
           15856.036827208334,
@@ -5729,12 +5608,10 @@
         "total_cost": 12830486.386656135,
         "total_energy": 20273062.219935305
       },
-      "source_artifact": "artifacts/oracle.json",
-      "source_path": "/variable",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "ablations.q2_deterministic",
+      "result_id": "ablations.q2_deterministic",
       "value": {
         "planned_cost": 12214333.764523571,
         "increase_cost": 0.0,
@@ -5747,12 +5624,10 @@
         "spill_energy": 1513472.6438964396,
         "emergency_while_charging": 38134.97135672728
       },
-      "source_artifact": "artifacts/ablations.json",
-      "source_path": "/q2_deterministic",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "ablations.q3_0only",
+      "result_id": "ablations.q3_0only",
       "value": {
         "planned_cost": 13886671.074864775,
         "increase_cost": 0.0,
@@ -5765,12 +5640,10 @@
         "spill_energy": 3587707.8586214543,
         "emergency_while_charging": 11898.024013994456
       },
-      "source_artifact": "artifacts/ablations.json",
-      "source_path": "/q3_0only",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "ablations.q3_6only",
+      "result_id": "ablations.q3_6only",
       "value": {
         "planned_cost": 13886671.074864775,
         "increase_cost": 282770.61681853887,
@@ -5783,12 +5656,10 @@
         "spill_energy": 3130308.769948795,
         "emergency_while_charging": 3470.857965644375
       },
-      "source_artifact": "artifacts/ablations.json",
-      "source_path": "/q3_6only",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "ablations.q3_12only",
+      "result_id": "ablations.q3_12only",
       "value": {
         "planned_cost": 13886671.074864775,
         "increase_cost": 133799.41865941428,
@@ -5801,12 +5672,10 @@
         "spill_energy": 2795102.0521197654,
         "emergency_while_charging": 7607.395883961684
       },
-      "source_artifact": "artifacts/ablations.json",
-      "source_path": "/q3_12only",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "ablations.q3_18only",
+      "result_id": "ablations.q3_18only",
       "value": {
         "planned_cost": 13886671.074864775,
         "increase_cost": 126820.10622401639,
@@ -5819,12 +5688,10 @@
         "spill_energy": 3540658.651793311,
         "emergency_while_charging": 2296.9025652541623
       },
-      "source_artifact": "artifacts/ablations.json",
-      "source_path": "/q3_18only",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "ablations.q3_no_refund",
+      "result_id": "ablations.q3_no_refund",
       "value": {
         "planned_cost": 13886671.074864775,
         "increase_cost": 231783.10931949026,
@@ -5837,12 +5704,10 @@
         "spill_energy": 3716541.2026916393,
         "emergency_while_charging": 2280.7551773665773
       },
-      "source_artifact": "artifacts/ablations.json",
-      "source_path": "/q3_no_refund",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "ablations.q4_3_0only",
+      "result_id": "ablations.q4_3_0only",
       "value": {
         "planned_cost": 14723680.452206137,
         "increase_cost": 0.0,
@@ -5855,12 +5720,10 @@
         "spill_energy": 3657644.7246606587,
         "emergency_while_charging": 10026.445731895414
       },
-      "source_artifact": "artifacts/ablations.json",
-      "source_path": "/q4_3_0only",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "ablations.q2_fixed",
+      "result_id": "ablations.q2_fixed",
       "value": {
         "planned_cost": 13666205.654351318,
         "increase_cost": 0.0,
@@ -5873,19 +5736,15 @@
         "spill_energy": 3418146.041632452,
         "emergency_while_charging": 87958.8430680776
       },
-      "source_artifact": "artifacts/ablations.json",
-      "source_path": "/q2_fixed",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "data-audit.status",
+      "result_id": "data-audit.status",
       "value": "completed",
-      "source_artifact": "artifacts/data-audit.json",
-      "source_path": "/status",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "data-audit.stats",
+      "result_id": "data-audit.stats",
       "value": {
         "load": {
           "shape": [
@@ -6001,29 +5860,23 @@
           75223.00616666667
         ]
       },
-      "source_artifact": "artifacts/data-audit.json",
-      "source_path": "/stats",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "data-audit.date_range",
+      "result_id": "data-audit.date_range",
       "value": [
         "2025-01-01",
         "2025-12-31"
       ],
-      "source_artifact": "artifacts/data-audit.json",
-      "source_path": "/date_range",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "data-audit.evaluation_days",
+      "result_id": "data-audit.evaluation_days",
       "value": 334,
-      "source_artifact": "artifacts/data-audit.json",
-      "source_path": "/evaluation_days",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "data-audit.checks",
+      "result_id": "data-audit.checks",
       "value": [
         {
           "name": "finite_nonnegative_values",
@@ -6046,12 +5899,10 @@
           "status": "pass"
         }
       ],
-      "source_artifact": "artifacts/data-audit.json",
-      "source_path": "/checks",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "data-audit.issues",
+      "result_id": "data-audit.issues",
       "value": [
         {
           "type": "time_label_mismatch",
@@ -6059,12 +5910,10 @@
           "resolution": "Treat input as right endpoint / interval mean of preceding 10min; correct output copy headers."
         }
       ],
-      "source_artifact": "artifacts/data-audit.json",
-      "source_path": "/issues",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "data-audit.units",
+      "result_id": "data-audit.units",
       "value": {
         "load": "kW",
         "pv": "kW",
@@ -6072,100 +5921,72 @@
         "price": "CNY/kWh",
         "time_step_hours": 0.16666666666666666
       },
-      "source_artifact": "artifacts/data-audit.json",
-      "source_path": "/units",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "data-audit.data_policy",
+      "result_id": "data-audit.data_policy",
       "value": "No deletion or imputation. Repeated zero night PV is structural, not missing. Mixed Excel time/text types normalized to minutes.",
-      "source_artifact": "artifacts/data-audit.json",
-      "source_path": "/data_policy",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "data-audit.coverage",
+      "result_id": "data-audit.coverage",
       "value": "January is calibration; February-December strictly prequential. Raw future data only for scoring.",
-      "source_artifact": "artifacts/data-audit.json",
-      "source_path": "/coverage",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "execution-main.command",
+      "result_id": "execution-main.command",
       "value": "python3 src/run_models.py --phase main",
-      "source_artifact": "artifacts/execution-main.json",
-      "source_path": "/command",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "execution-main.exit_code",
+      "result_id": "execution-main.exit_code",
       "value": 0,
-      "source_artifact": "artifacts/execution-main.json",
-      "source_path": "/exit_code",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "execution-main.runtime_seconds",
+      "result_id": "execution-main.runtime_seconds",
       "value": 54.99669687496498,
-      "source_artifact": "artifacts/execution-main.json",
-      "source_path": "/runtime_seconds",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "execution-main.deterministic_reason",
+      "result_id": "execution-main.deterministic_reason",
       "value": "No random sampling; chronological residual windows and deterministic HiGHS.",
-      "source_artifact": "artifacts/execution-main.json",
-      "source_path": "/deterministic_reason",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "execution-extras.command",
+      "result_id": "execution-extras.command",
       "value": "python3 src/run_models.py --phase extras",
-      "source_artifact": "artifacts/execution-extras.json",
-      "source_path": "/command",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "execution-extras.exit_code",
+      "result_id": "execution-extras.exit_code",
       "value": 0,
-      "source_artifact": "artifacts/execution-extras.json",
-      "source_path": "/exit_code",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "execution-extras.runtime_seconds",
+      "result_id": "execution-extras.runtime_seconds",
       "value": 87.331506208051,
-      "source_artifact": "artifacts/execution-extras.json",
-      "source_path": "/runtime_seconds",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "execution-extras.deterministic_reason",
+      "result_id": "execution-extras.deterministic_reason",
       "value": "No random sampling; chronological residual windows and deterministic HiGHS.",
-      "source_artifact": "artifacts/execution-extras.json",
-      "source_path": "/deterministic_reason",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "execution-validation.command",
+      "result_id": "execution-validation.command",
       "value": "python3 src/validate_models.py",
-      "source_artifact": "artifacts/execution-validation.json",
-      "source_path": "/command",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "execution-validation.exit_code",
+      "result_id": "execution-validation.exit_code",
       "value": 0,
-      "source_artifact": "artifacts/execution-validation.json",
-      "source_path": "/exit_code",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     },
     {
-      "id": "execution-validation.runtime_seconds",
+      "result_id": "execution-validation.runtime_seconds",
       "value": 40.53461800003424,
-      "source_artifact": "artifacts/execution-validation.json",
-      "source_path": "/runtime_seconds",
-      "status": "verified"
+      "usage": "建模计算交接.md / 指定日期结果表.md / figures"
     }
   ]
 }

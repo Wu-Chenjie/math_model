@@ -1,0 +1,141 @@
+{
+  "reviewer": "independent_review",
+  "checks": {
+    "one_slot_exact_newsvendor": [
+      {
+        "q": 80.0,
+        "objective": 85.0,
+        "grid_min": 85.0,
+        "error": 0.0
+      },
+      {
+        "q": 80.0,
+        "objective": 490.0,
+        "grid_min": 490.0,
+        "error": 0.0
+      }
+    ],
+    "settlement_exact_cases": [
+      {
+        "refund": true,
+        "r": 80.0,
+        "total_cost": 90.0
+      },
+      {
+        "refund": true,
+        "r": 120.0,
+        "total_cost": 130.0
+      },
+      {
+        "refund": false,
+        "r": 80.0,
+        "total_cost": 110.0
+      },
+      {
+        "refund": false,
+        "r": 120.0,
+        "total_cost": 130.0
+      }
+    ],
+    "no_refund_no_downward_adjustment": "pass",
+    "terminal_reachability": {
+      "paths": 135,
+      "steps": 19440,
+      "max_power_kw": 6000.000000000011,
+      "terminal_error": 0.0,
+      "soc_recurrence_error": 1.1368683772161603e-13
+    },
+    "future_perturbation": [
+      {
+        "release": 0,
+        "official_pv": false,
+        "net_scenario_max_delta": 0.0,
+        "price_scenario_max_delta": 0.0
+      },
+      {
+        "release": 0,
+        "official_pv": true,
+        "net_scenario_max_delta": 0.0,
+        "price_scenario_max_delta": 0.0
+      },
+      {
+        "release": 1,
+        "official_pv": false,
+        "net_scenario_max_delta": 0.0,
+        "price_scenario_max_delta": 0.0
+      },
+      {
+        "release": 1,
+        "official_pv": true,
+        "net_scenario_max_delta": 0.0,
+        "price_scenario_max_delta": 0.0
+      },
+      {
+        "release": 2,
+        "official_pv": false,
+        "net_scenario_max_delta": 0.0,
+        "price_scenario_max_delta": 0.0
+      },
+      {
+        "release": 2,
+        "official_pv": true,
+        "net_scenario_max_delta": 0.0,
+        "price_scenario_max_delta": 0.0
+      },
+      {
+        "release": 3,
+        "official_pv": false,
+        "net_scenario_max_delta": 0.0,
+        "price_scenario_max_delta": 0.0
+      },
+      {
+        "release": 3,
+        "official_pv": true,
+        "net_scenario_max_delta": 0.0,
+        "price_scenario_max_delta": 0.0
+      }
+    ],
+    "saved_main_products": {
+      "q2": {
+        "energy_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "cost_recomputed": 14240928.158300348,
+        "cost_difference": 1.862645149230957e-09,
+        "release_snapshot_consistency": "pass",
+        "dates": 334
+      },
+      "q3": {
+        "energy_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "cost_recomputed": 13861203.49423635,
+        "cost_difference": 0.0,
+        "release_snapshot_consistency": "pass",
+        "dates": 334
+      },
+      "q4_2": {
+        "energy_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "cost_recomputed": 15077051.57021669,
+        "cost_difference": 1.862645149230957e-09,
+        "release_snapshot_consistency": "pass",
+        "dates": 334
+      },
+      "q4_3": {
+        "energy_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "cost_recomputed": 14684979.432996165,
+        "cost_difference": 1.862645149230957e-09,
+        "release_snapshot_consistency": "pass",
+        "dates": 334
+      }
+    }
+  },
+  "source_hashes": {
+    "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51",
+    "forecasting.py": "e8e3acfc40d627b4cd12e1093308868fef7f103b77ce26c4de849064e5fa5ec7",
+    "run_models.py": "95a0dcc5f326b6dbfd9a1c3054d349b2c73137ca4450a1359432dbfe4096a805"
+  },
+  "pv_forecast_attribution_note": "Producer is independently running stale-PV/full-replanning control; omitted here to avoid duplicate annual computation.",
+  "runtime_seconds": 2.8763544159010053,
+  "status": "pass"
+}

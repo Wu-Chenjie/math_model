@@ -4,8 +4,8 @@
     "competition": "CUMCM",
     "year": 2026,
     "problem_id": "C",
-    "stage": "modeling",
-    "status": "in_progress"
+    "stage": "handoff",
+    "status": "complete"
   },
   "source": {
     "statement_files": [
@@ -44,67 +44,254 @@
     "official_statement_url": "https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html"
   },
   "framing": {
-    "objectives": [],
-    "decision_variables": [],
-    "constraints": [],
+    "objectives": [
+      "Minimize actual planned+adjustment+emergency electricity cost with causal information.",
+      "Deliver Q1 and 334-day Q2/Q3/Q4 trajectories, specified-day tables and modeling handoff."
+    ],
+    "decision_variables": [
+      "q: midnight contract",
+      "r: final contract",
+      "c,d: bus-side battery charge/discharge",
+      "E: stored energy",
+      "e,w: emergency and surplus"
+    ],
+    "constraints": [
+      "bus energy conservation",
+      "SOC in [1200,10800] kWh",
+      "charge/discharge <=5000/6 kWh per slot",
+      "no simultaneous charging/discharging after analytic cancellation",
+      "initial6000",
+      "daily terminal6000 policy",
+      "causal forecasts",
+      "freeze completed slots"
+    ],
     "constraint_justification": null,
-    "ambiguities": [],
-    "assumptions": []
+    "ambiguities": [
+      "template headers shifted10min",
+      "directional versus roundtrip90%",
+      "cancellation refund",
+      "net versus repeated amendment settlement",
+      "future price information"
+    ],
+    "assumptions": [
+      "10min interval-mean powers with right-endpoint tags",
+      "each efficiency0.9",
+      "no sale, free curtailment, unlimited emergency purchase",
+      "Q2-4 daily6000 terminal is extra operational policy",
+      "refund then50% penalty; net final adjustments relative midnight",
+      "same-slot actual net-load feedback, no inter-slot future observation"
+    ]
   },
   "models": {
-    "candidates": [],
+    "candidates": [
+      {
+        "name": "deterministic_forecast_LP",
+        "target_output": "Causal daily contract and realized cost",
+        "assumptions": [
+          "point forecasts",
+          "same causal feedback"
+        ],
+        "data_requirements": [
+          "historical load and PV"
+        ],
+        "failure_mode": "large fivefold emergency cost from forecast errors",
+        "diagnostic": "334-day actual total cost baseline"
+      },
+      {
+        "name": "empirical_SAA_LP_with_feedback",
+        "target_output": "Causal contracts, battery paths, realized total cost",
+        "assumptions": [
+          "local empirical residual distribution",
+          "common planned battery path",
+          "reachable-terminal greedy feedback"
+        ],
+        "data_requirements": [
+          "past residuals",
+          "released PV forecasts for Q3",
+          "past price for Q4"
+        ],
+        "failure_mode": "systematic bias and rigid terminal losses",
+        "diagnostic": "baseline, controlled PV ablation, frozen-contract stress, parameter sensitivity"
+      },
+      {
+        "name": "full_multistage_stochastic_control",
+        "target_output": "optimal contingent storage and contract policy",
+        "assumptions": [
+          "identified state transition and scenario tree"
+        ],
+        "data_requirements": [
+          "joint temporal uncertainty distribution"
+        ],
+        "failure_mode": "large state/scenario space and weak transition identification",
+        "diagnostic": "not run; choose tractable approximation, no global optimum claim"
+      }
+    ],
     "candidate_set_justification": null,
-    "selected": null,
+    "selected": "empirical_SAA_LP_with_feedback",
     "selection_rationale": {
-      "objective_fit": null,
-      "constraint_fit": null,
-      "data_fit": null,
-      "baseline": null,
-      "risks": [],
-      "fallback_trigger": null
+      "objective_fit": "Explicit asymmetric emergency and piecewise contract settlement costs",
+      "constraint_fit": "Linear energy/SOC/power constraints plus causal reachable-state feedback",
+      "data_fit": "January selection; preceding residual windows; four actual forecast release times",
+      "baseline": "Executed point-forecast LP with identical controller and evaluation dates",
+      "risks": [
+        "extra daily terminal policy",
+        "approximate common-path plan",
+        "empirical errors may shift",
+        "ambiguous settlement"
+      ],
+      "fallback_trigger": "For revised inputs, rerun January selection and baseline; prefer simpler method if held-out realized cost improvement vanishes. Never tune on reported holdout."
     },
     "baseline": {
-      "status": "pending",
-      "name": null,
-      "command": null,
-      "exit_code": null,
-      "runtime_seconds": null,
+      "status": "completed",
+      "name": "Q2 point-forecast LP with same causal feedback",
+      "command": "python3 src/run_models.py --phase extras",
+      "exit_code": 0,
+      "runtime_seconds": 87.331506208051,
       "output": "artifacts/baseline-metrics.json",
-      "metric_ids": [],
+      "metric_ids": [
+        "q2"
+      ],
       "reason": null
     }
   },
   "execution": {
-    "status": "pending",
-    "command": null,
-    "exit_code": null,
-    "runtime_seconds": null,
-    "environment": {},
+    "status": "completed",
+    "command": "python3 src/run_models.py --phase main",
+    "exit_code": 0,
+    "runtime_seconds": 54.99669687496498,
+    "environment": {
+      "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "numpy": "2.4.1",
+      "scipy": "1.17.0",
+      "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+    },
     "seed": null,
-    "deterministic_reason": null,
+    "deterministic_reason": "No random sampling; chronological residual windows and deterministic HiGHS.",
     "metrics_file": "artifacts/metrics.json",
-    "metric_ids": [],
-    "figures": []
+    "metric_ids": [
+      "q2"
+    ],
+    "figures": [
+      "figures/01_问题1最优计划.png",
+      "figures/01_问题1最优计划.svg",
+      "figures/02_月度费用比较.png",
+      "figures/02_月度费用比较.svg",
+      "figures/03_日内调整与新增预报价值.png",
+      "figures/03_日内调整与新增预报价值.svg",
+      "figures/04_指定日最终购电策略.png",
+      "figures/04_指定日最终购电策略.svg"
+    ]
   },
   "validation": {
-    "status": "pending",
-    "checks": [],
-    "sensitivity": [],
+    "status": "completed",
+    "checks": [
+      {
+        "name": "newsvendor_80_percent_quantile",
+        "status": "pass",
+        "quantity": 9.0,
+        "optimal_interval": [
+          8,
+          9
+        ]
+      },
+      {
+        "name": "charge_discharge_cancellation",
+        "status": "pass"
+      },
+      {
+        "name": "future_mutation_invariance_release_00",
+        "status": "pass"
+      },
+      {
+        "name": "future_mutation_invariance_release_06",
+        "status": "pass"
+      },
+      {
+        "name": "future_mutation_invariance_release_12",
+        "status": "pass"
+      },
+      {
+        "name": "future_mutation_invariance_release_18",
+        "status": "pass"
+      },
+      {
+        "name": "no_refund_downward_adjustment_dominated",
+        "status": "pass"
+      },
+      {
+        "file": "计算结果/result1.xlsx",
+        "status": "pass",
+        "sheet_count": 3
+      },
+      {
+        "file": "计算结果/result2.xlsx",
+        "status": "pass",
+        "sheet_count": 5
+      },
+      {
+        "file": "计算结果/result3.xlsx",
+        "status": "pass",
+        "sheet_count": 6
+      },
+      {
+        "file": "计算结果/result4-2.xlsx",
+        "status": "pass",
+        "sheet_count": 5
+      },
+      {
+        "file": "计算结果/result4-3.xlsx",
+        "status": "pass",
+        "sheet_count": 6
+      },
+      {
+        "name": "q2_physical_and_lp_invariants",
+        "status": "pass",
+        "source": "artifacts/q2.json"
+      },
+      {
+        "name": "q3_physical_and_lp_invariants",
+        "status": "pass",
+        "source": "artifacts/q3.json"
+      },
+      {
+        "name": "q4_2_physical_and_lp_invariants",
+        "status": "pass",
+        "source": "artifacts/q4_2.json"
+      },
+      {
+        "name": "q4_3_physical_and_lp_invariants",
+        "status": "pass",
+        "source": "artifacts/q4_3.json"
+      }
+    ],
+    "sensitivity": [
+      "artifacts/sensitivity.json",
+      "artifacts/validation.json#/q1_sensitivity"
+    ],
     "sensitivity_not_applicable_reason": null,
-    "robustness": [],
+    "robustness": [
+      "artifacts/validation.json#/frozen_contract_stress"
+    ],
     "robustness_not_applicable_reason": null,
-    "falsification": []
+    "falsification": [
+      "future actual/forecast mutation invariance at all4 releases",
+      "80% quantile exact boundary",
+      "no-refund downward adjustment dominance",
+      "review/independent-checks.json"
+    ]
   },
   "results": {
     "registry_file": "artifacts/result-registry.json",
     "paper_file": null,
-    "claims_file": "paper/result-claims.json"
+    "claims_file": "paper/result-claims.json",
+    "handoff_file": "建模计算交接.md",
+    "handoff_claims_file": "artifacts/handoff-claims.json"
   },
   "reproducibility_file": "artifacts/reproducibility.json",
   "review": {
-    "status": "pending",
-    "independent": false,
-    "reviewer_id": null,
+    "status": "completed",
+    "independent": true,
+    "reviewer_id": "/root/independent_review",
     "findings_file": "review/findings.json"
   },
   "pending": [],

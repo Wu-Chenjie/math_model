@@ -1,0 +1,89 @@
+{
+  "reviewer_id": "/root/independent_review",
+  "checks": {
+    "input_hashes": {
+      "count": 10,
+      "mismatches": []
+    },
+    "output_hashes": {
+      "count": 90,
+      "mismatches": []
+    },
+    "original_inputs_unchanged": {
+      "files": 10,
+      "mismatches": []
+    },
+    "registry_and_claims": {
+      "registered_results": 89,
+      "claims": 89,
+      "status": "pass"
+    },
+    "workbooks": [
+      {
+        "name": "result1",
+        "purchase_values": 144,
+        "battery_values": 12,
+        "status": "pass"
+      },
+      {
+        "name": "result2",
+        "days": 334,
+        "purchase_values": 48096,
+        "battery_values": 4008,
+        "emergency_rows": 424,
+        "status": "pass"
+      },
+      {
+        "name": "result3",
+        "days": 334,
+        "purchase_values": 48096,
+        "battery_values": 4008,
+        "emergency_rows": 389,
+        "status": "pass"
+      },
+      {
+        "name": "result4-2",
+        "days": 334,
+        "purchase_values": 48096,
+        "battery_values": 4008,
+        "emergency_rows": 434,
+        "status": "pass"
+      },
+      {
+        "name": "result4-3",
+        "days": 334,
+        "purchase_values": 48096,
+        "battery_values": 4008,
+        "emergency_rows": 390,
+        "status": "pass"
+      }
+    ],
+    "csvs": [
+      {
+        "name": "q2",
+        "rows": 48096,
+        "numeric_max_abs": 0.0,
+        "status": "pass"
+      },
+      {
+        "name": "q3",
+        "rows": 48096,
+        "numeric_max_abs": 0.0,
+        "status": "pass"
+      },
+      {
+        "name": "q4_2",
+        "rows": 48096,
+        "numeric_max_abs": 0.0,
+        "status": "pass"
+      },
+      {
+        "name": "q4_3",
+        "rows": 48096,
+        "numeric_max_abs": 0.0,
+        "status": "pass"
+      }
+    ]
+  },
+  "status": "pass"
+}

@@ -1,0 +1,8 @@
+{
+  "q1_unregularized_optimum": 35126.94858928964,
+  "q1_reported_economic_cost": 35126.948589289634,
+  "absolute_difference": 7.275957614183426e-12,
+  "negative_quantile_boundary_purchase": 0.0,
+  "boundary_cdf_at_zero": 1.0,
+  "status": "pass"
+}

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="656.39952pt" height="332.39952pt" viewBox="0 0 656.39952 332.39952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-10T19:20:08.589895</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 332.39952 
+L 656.39952 332.39952 
+L 656.39952 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 154.2 295.136551 
+L 649.19952 295.136551 
+L 649.19952 7.2 
+L 154.2 7.2 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 154.2 295.136551 
+L 154.2 7.2 
+" clip-path="url(#p7a731787b3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m1adac64db6" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m1adac64db6" x="154.2" y="295.136551" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: middle" x="154.2" y="309.336551" transform="rotate(-0 154.2 309.336551)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 232.192757 295.136551 
+L 232.192757 7.2 
+" clip-path="url(#p7a731787b3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m1adac64db6" x="232.192757" y="295.136551" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: middle" x="232.192757" y="309.336551" transform="rotate(-0 232.192757 309.336551)">10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 310.185514 295.136551 
+L 310.185514 7.2 
+" clip-path="url(#p7a731787b3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m1adac64db6" x="310.185514" y="295.136551" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: middle" x="310.185514" y="309.336551" transform="rotate(-0 310.185514 309.336551)">20</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 388.17827 295.136551 
+L 388.17827 7.2 
+" clip-path="url(#p7a731787b3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m1adac64db6" x="388.17827" y="295.136551" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: middle" x="388.17827" y="309.336551" transform="rotate(-0 388.17827 309.336551)">30</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 466.171027 295.136551 
+L 466.171027 7.2 
+" clip-path="url(#p7a731787b3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m1adac64db6" x="466.171027" y="295.136551" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: middle" x="466.171027" y="309.336551" transform="rotate(-0 466.171027 309.336551)">40</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 544.163784 295.136551 
+L 544.163784 7.2 
+" clip-path="url(#p7a731787b3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m1adac64db6" x="544.163784" y="295.136551" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: middle" x="544.163784" y="309.336551" transform="rotate(-0 544.163784 309.336551)">50</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 622.156541 295.136551 
+L 622.156541 7.2 
+" clip-path="url(#p7a731787b3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m1adac64db6" x="622.156541" y="295.136551" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: middle" x="622.156541" y="309.336551" transform="rotate(-0 622.156541 309.336551)">60</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 11px; font-family: 'Songti SC'; text-anchor: middle" x="401.69976" y="323.669832" transform="rotate(-0 401.69976 323.669832)">相对仅0点计划的累计节省 / 万元</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_15">
+      <defs>
+       <path id="me3d669496c" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#me3d669496c" x="154.2" y="263.996078" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: end" x="147.2" y="268.065609" transform="rotate(-0 147.2 268.065609)">三次调整，使用各次新光伏预报</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#me3d669496c" x="154.2" y="218.864957" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: end" x="147.2" y="222.984488" transform="rotate(-0 147.2 222.984488)">三次调整，光伏始终用0点预报</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#me3d669496c" x="154.2" y="173.733836" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: end" x="147.2" y="177.743992" transform="rotate(-0 147.2 177.743992)">只增加18点调整</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#me3d669496c" x="154.2" y="128.602715" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: end" x="147.2" y="132.612871" transform="rotate(-0 147.2 132.612871)">只增加12点调整</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#me3d669496c" x="154.2" y="83.471594" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: end" x="147.2" y="87.481751" transform="rotate(-0 147.2 87.481751)">只增加6点调整</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#me3d669496c" x="154.2" y="38.340473" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: end" x="147.2" y="42.395161" transform="rotate(-0 147.2 42.395161)">只在0点制定计划</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 154.2 282.048526 
+L 573.691119 282.048526 
+L 573.691119 245.943629 
+L 154.2 245.943629 
+z
+" clip-path="url(#p7a731787b3)" style="fill: #398576"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 154.2 236.917405 
+L 470.14427 236.917405 
+L 470.14427 200.812509 
+L 154.2 200.812509 
+z
+" clip-path="url(#p7a731787b3)" style="fill: #668397"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 154.2 191.786284 
+L 349.513652 191.786284 
+L 349.513652 155.681388 
+L 154.2 155.681388 
+z
+" clip-path="url(#p7a731787b3)" style="fill: #668397"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 154.2 146.655164 
+L 425.879642 146.655164 
+L 425.879642 110.550267 
+L 154.2 110.550267 
+z
+" clip-path="url(#p7a731787b3)" style="fill: #668397"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 154.2 101.524043 
+L 397.621347 101.524043 
+L 397.621347 65.419146 
+L 154.2 65.419146 
+z
+" clip-path="url(#p7a731787b3)" style="fill: #668397"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 154.2 56.392922 
+L 154.2 56.392922 
+L 154.2 20.288025 
+L 154.2 20.288025 
+z
+" clip-path="url(#p7a731787b3)" style="fill: #668397"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 154.2 295.136551 
+L 154.2 7.2 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 154.2 295.136551 
+L 649.19952 295.136551 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: start" x="577.590756" y="266.900765" transform="rotate(-0 577.590756 266.900765)">53.79</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: start" x="474.043908" y="221.769644" transform="rotate(-0 474.043908 221.769644)">40.51</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: start" x="353.41329" y="176.638524" transform="rotate(-0 353.41329 176.638524)">25.04</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: start" x="429.77928" y="131.507403" transform="rotate(-0 429.77928 131.507403)">34.83</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: start" x="401.520985" y="86.376282" transform="rotate(-0 401.520985 86.376282)">31.21</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10px; font-family: 'Songti SC'; text-anchor: start" x="158.099638" y="41.245161" transform="rotate(-0 158.099638 41.245161)">0.00</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7a731787b3">
+   <rect x="154.2" y="7.2" width="494.99952" height="287.936551"/>
+  </clipPath>
+ </defs>
+</svg>

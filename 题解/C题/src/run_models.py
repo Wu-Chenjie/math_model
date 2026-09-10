@@ -76,6 +76,9 @@ def main():
         chosen=min(['fixed','greedy'],key=lambda z:results[z+'_sum'])
         dump(ROOT/'artifacts/controller-selection.json',{'selected':chosen,'results':results,
              'caveat':'January development only; family selection and controller selection share January, no out-of-sample claim for January.'})
+        dump(ROOT/'artifacts/execution-calibrate.json',{'command':'python3 src/run_models.py --phase calibrate',
+             'exit_code':0,'runtime_seconds':time.perf_counter()-start,
+             'deterministic_reason':'January-only fixed candidate comparison; no random sampling.'})
         print('CONTROLLER',chosen,results,flush=True);return
     controller=json.loads((ROOT/'artifacts/controller-selection.json').read_text())['selected']
     days=list(range(31,365));metrics={}

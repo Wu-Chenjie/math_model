@@ -1,7 +1,81 @@
 {
   "schema_version": 1,
-  "reviewer_id": null,
-  "independent": false,
-  "decision": "pending",
-  "unresolved": []
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "decision": "pass",
+  "unresolved": [],
+  "resolved": [
+    {
+      "id": "MR-1",
+      "resolution": "增加相同日内重规划但沿用0点PV预报的控制组，区分新增PV信息与全部重规划收益。"
+    },
+    {
+      "id": "MR-2",
+      "resolution": "披露终端恢复可能导致充电与紧急补购同时发生，并报告该量的非因果定义。"
+    },
+    {
+      "id": "MR-3",
+      "resolution": "明确1月仅用于开发选型，并以储能保持6000的可行暖机解释2月初状态。"
+    },
+    {
+      "id": "MR-4",
+      "resolution": "明确每日闭合为额外政策约束，LP与实际反馈不同，不宣称完整多阶段全局最优。"
+    },
+    {
+      "id": "MR-5",
+      "resolution": "明确区间平均功率及10分钟观测响应假设，修正结果模板时间偏移。"
+    },
+    {
+      "id": "MR-6",
+      "resolution": "提供复现脚本、区分计算与Excel环境，披露全部经验和数值参数。"
+    },
+    {
+      "id": "FR-1",
+      "resolution": "修正非负购电分位边界：正内点满足双边CDF条件；最优分位区间投影至非负域，零边界只需F_Y(0)>=0.8；70%/90%调整阈值相应截断。生成源和交接均已修复，负净需求例核验通过。"
+    }
+  ],
+  "scope": "建模计算交接、核心代码、全部四套334日轨迹、指定日表、5份XLSX、CSV、登记引用及冻结哈希；非论文评分，不对官方奖项作判断。",
+  "score": {
+    "total": 89,
+    "maximum": 100,
+    "criteria": [
+      {
+        "criterion": "题意与模型结构",
+        "score": 22,
+        "maximum": 25
+      },
+      {
+        "criterion": "数学与实现正确性",
+        "score": 24,
+        "maximum": 25
+      },
+      {
+        "criterion": "验证与结论可靠性",
+        "score": 16,
+        "maximum": 20
+      },
+      {
+        "criterion": "结果输出与复现",
+        "score": 18,
+        "maximum": 20
+      },
+      {
+        "criterion": "交接清晰度",
+        "score": 9,
+        "maximum": 10
+      }
+    ]
+  },
+  "evidence": [
+    "review/independent-checks.json",
+    "review/final-artifact-checks.json",
+    "review/final-theory-checks.json",
+    "review/model-review.md"
+  ],
+  "limitations": [
+    "问题2–4为经验情景近似计划与因果反馈策略，不是完整多阶段问题全局最优。",
+    "每日6000循环限制跨日套利；只有一个年度，参数敏感性部分仅取11个指定样本日。",
+    "复现依赖已说明的本机Python及artifact-tool运行时；完整年度流水线未在本次最终审查中重复运行。"
+  ],
+  "finalization": "主代理随后更新最终审查及清单哈希并运行项目validator；本审查不冒充该尚待执行的最终门禁。"
 }

@@ -1,0 +1,141 @@
+{
+  "checks": [
+    {
+      "name": "newsvendor_80_percent_quantile",
+      "status": "pass",
+      "quantity": 9.0,
+      "optimal_interval": [
+        8,
+        9
+      ]
+    },
+    {
+      "name": "charge_discharge_cancellation",
+      "status": "pass"
+    },
+    {
+      "name": "future_mutation_invariance_release_00",
+      "status": "pass"
+    },
+    {
+      "name": "future_mutation_invariance_release_06",
+      "status": "pass"
+    },
+    {
+      "name": "future_mutation_invariance_release_12",
+      "status": "pass"
+    },
+    {
+      "name": "future_mutation_invariance_release_18",
+      "status": "pass"
+    },
+    {
+      "name": "no_refund_downward_adjustment_dominated",
+      "status": "pass"
+    }
+  ],
+  "prediction_accuracy": {
+    "load": {
+      "mae_kw": 176.79572117223884,
+      "rmse": 244.28661499529923
+    },
+    "pv": {
+      "mae_kw": 153.39970672494297,
+      "rmse": 303.85773925555964
+    },
+    "price": {
+      "mae_cny_per_kwh": 0.04715118305056554,
+      "rmse": 0.06534801504178886
+    }
+  },
+  "pv_release_accuracy": [
+    {
+      "release_hour": 0,
+      "latest_mae_kw": 197.49097249805948,
+      "midnight_same_horizon_mae_kw": 197.49097249805948
+    },
+    {
+      "release_hour": 6,
+      "latest_mae_kw": 158.5164766434723,
+      "midnight_same_horizon_mae_kw": 259.80202759019
+    },
+    {
+      "release_hour": 12,
+      "latest_mae_kw": 75.2527363855622,
+      "midnight_same_horizon_mae_kw": 218.44765422280443
+    },
+    {
+      "release_hour": 18,
+      "latest_mae_kw": 10.015140843313374,
+      "midnight_same_horizon_mae_kw": 10.623287947715683
+    }
+  ],
+  "controlled_pv_value": {
+    "q3_keep_midnight_pv": {
+      "planned_cost": 13886671.074864775,
+      "increase_cost": 161891.41941227973,
+      "reduction_net_cost": -137540.5944689712,
+      "emergency_cost": 82946.29300963951,
+      "total_cost": 13993968.192817723,
+      "planned_energy": 22688730.04153833,
+      "adjusted_energy": 22305664.329290576,
+      "emergency_energy": 16596.035931587692,
+      "spill_energy": 3127524.226619139,
+      "emergency_while_charging": 2270.394239679872
+    },
+    "q4_3_keep_midnight_pv": {
+      "planned_cost": 14723680.452206137,
+      "increase_cost": 176055.14475535575,
+      "reduction_net_cost": -150770.11470290896,
+      "emergency_cost": 63852.1744565305,
+      "total_cost": 14812817.656715114,
+      "planned_energy": 22807055.835474357,
+      "adjusted_energy": 22411558.844449222,
+      "emergency_energy": 13041.15452841486,
+      "spill_energy": 3188206.0645842226,
+      "emergency_while_charging": 1802.1544531805068
+    }
+  },
+  "frozen_contract_stress": {
+    "reference": {
+      "total_cost": 13861203.49423635,
+      "emergency_energy": 16202.010722468627,
+      "terminal_max_abs": 0.0
+    },
+    "load_plus5pct": {
+      "total_cost": 17115758.731294047,
+      "emergency_energy": 554138.8756778968,
+      "terminal_max_abs": 0.0
+    },
+    "load_minus5pct": {
+      "total_cost": 13786076.699373115,
+      "emergency_energy": 1012.5744819712424,
+      "terminal_max_abs": 0.0
+    },
+    "pv_minus10pct": {
+      "total_cost": 17686710.344124436,
+      "emergency_energy": 598761.0334426775,
+      "terminal_max_abs": 0.0
+    },
+    "pv_plus10pct": {
+      "total_cost": 13836160.304527426,
+      "emergency_energy": 10840.101202872873,
+      "terminal_max_abs": 0.0
+    }
+  },
+  "q1_sensitivity": {
+    "reference": {
+      "cost": 35126.948589289634,
+      "energy": 59482.698998353924
+    },
+    "roundtrip90": {
+      "cost": 33801.495542222016,
+      "energy": 57526.24348088352
+    },
+    "trapezoid_power": {
+      "cost": 35042.53998429457,
+      "energy": 59540.18466923868
+    }
+  },
+  "runtime_seconds": 40.53461800003424
+}

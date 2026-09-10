@@ -1,0 +1,6 @@
+{
+  "command": "python3 src/run_models.py --phase calibrate",
+  "exit_code": 0,
+  "runtime_seconds": 1.7769830420147628,
+  "deterministic_reason": "January-only fixed candidate comparison; no random sampling."
+}

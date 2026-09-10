@@ -1,0 +1,5 @@
+{
+  "command": "python3 src/validate_models.py",
+  "exit_code": 0,
+  "runtime_seconds": 40.53461800003424
+}
