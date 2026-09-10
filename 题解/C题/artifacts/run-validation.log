@@ -1,0 +1,4 @@
+  File "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题/src/validate_models.py", line 45
+    'rmse':float(np.sqrt(np.mean((data[key][31:]-fc[key][31:,0])**2))))} for key in ['load','pv','price']}
+                                                                      ^
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '{' on line 44

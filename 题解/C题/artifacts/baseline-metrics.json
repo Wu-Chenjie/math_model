@@ -1,0 +1,14 @@
+{
+  "q2": {
+    "planned_cost": 12214333.764523571,
+    "increase_cost": 0.0,
+    "reduction_net_cost": 0.0,
+    "emergency_cost": 3139985.216263039,
+    "total_cost": 15354318.98078661,
+    "planned_energy": 20181078.32780786,
+    "adjusted_energy": 20181078.32780786,
+    "emergency_energy": 542449.8383205783,
+    "spill_energy": 1513472.6438964396,
+    "emergency_while_charging": 38134.97135672728
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "command": "python3 src/run_models.py --phase extras",
+  "exit_code": 0,
+  "runtime_seconds": 87.331506208051,
+  "deterministic_reason": "No random sampling; chronological residual windows and deterministic HiGHS."
+}

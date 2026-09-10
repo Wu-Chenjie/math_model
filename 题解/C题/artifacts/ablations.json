@@ -1,0 +1,98 @@
+{
+  "q2_deterministic": {
+    "planned_cost": 12214333.764523571,
+    "increase_cost": 0.0,
+    "reduction_net_cost": 0.0,
+    "emergency_cost": 3139985.216263039,
+    "total_cost": 15354318.98078661,
+    "planned_energy": 20181078.32780786,
+    "adjusted_energy": 20181078.32780786,
+    "emergency_energy": 542449.8383205783,
+    "spill_energy": 1513472.6438964396,
+    "emergency_while_charging": 38134.97135672728
+  },
+  "q3_0only": {
+    "planned_cost": 13886671.074864775,
+    "increase_cost": 0.0,
+    "reduction_net_cost": 0.0,
+    "emergency_cost": 512391.49240093894,
+    "total_cost": 14399062.567265714,
+    "planned_energy": 22688730.04153833,
+    "adjusted_energy": 22688730.04153833,
+    "emergency_energy": 92866.08231976283,
+    "spill_energy": 3587707.8586214543,
+    "emergency_while_charging": 11898.024013994456
+  },
+  "q3_6only": {
+    "planned_cost": 13886671.074864775,
+    "increase_cost": 282770.61681853887,
+    "reduction_net_cost": -220256.58787186976,
+    "emergency_cost": 137769.83060587224,
+    "total_cost": 14086954.934417317,
+    "planned_energy": 22688730.04153833,
+    "adjusted_energy": 22315226.380782317,
+    "emergency_energy": 25524.838756278696,
+    "spill_energy": 3130308.769948795,
+    "emergency_while_charging": 3470.857965644375
+  },
+  "q3_12only": {
+    "planned_cost": 13886671.074864775,
+    "increase_cost": 133799.41865941428,
+    "reduction_net_cost": -261556.29870775892,
+    "emergency_cost": 291808.7911689821,
+    "total_cost": 14050722.985985413,
+    "planned_energy": 22688730.04153833,
+    "adjusted_energy": 21936635.319405798,
+    "emergency_energy": 56731.08476996665,
+    "spill_energy": 2795102.0521197654,
+    "emergency_while_charging": 7607.395883961684
+  },
+  "q3_18only": {
+    "planned_cost": 13886671.074864775,
+    "increase_cost": 126820.10622401639,
+    "reduction_net_cost": -29592.605396489544,
+    "emergency_cost": 164738.618816144,
+    "total_cost": 14148637.194508446,
+    "planned_energy": 22688730.04153833,
+    "adjusted_energy": 22700297.457300026,
+    "emergency_energy": 33478.106492343,
+    "spill_energy": 3540658.651793311,
+    "emergency_while_charging": 2296.9025652541623
+  },
+  "q3_no_refund": {
+    "planned_cost": 13886671.074864775,
+    "increase_cost": 231783.10931949026,
+    "reduction_net_cost": 0.0,
+    "emergency_cost": 78027.31839242154,
+    "total_cost": 14196481.502576686,
+    "planned_energy": 22688730.04153833,
+    "adjusted_energy": 22894789.40526663,
+    "emergency_energy": 15762.830947974584,
+    "spill_energy": 3716541.2026916393,
+    "emergency_while_charging": 2280.7551773665773
+  },
+  "q4_3_0only": {
+    "planned_cost": 14723680.452206137,
+    "increase_cost": 0.0,
+    "reduction_net_cost": 0.0,
+    "emergency_cost": 545050.8196228114,
+    "total_cost": 15268731.271828948,
+    "planned_energy": 22807055.835474357,
+    "adjusted_energy": 22807055.835474357,
+    "emergency_energy": 87311.72224221924,
+    "spill_energy": 3657644.7246606587,
+    "emergency_while_charging": 10026.445731895414
+  },
+  "q2_fixed": {
+    "planned_cost": 13666205.654351318,
+    "increase_cost": 0.0,
+    "reduction_net_cost": 0.0,
+    "emergency_cost": 1123701.57361947,
+    "total_cost": 14789907.227970788,
+    "planned_energy": 22390132.96795298,
+    "adjusted_energy": 22390132.96795298,
+    "emergency_energy": 297157.69954772195,
+    "spill_energy": 3418146.041632452,
+    "emergency_while_charging": 87958.8430680776
+  }
+}

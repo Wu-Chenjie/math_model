@@ -1,0 +1,41 @@
+{
+  "load": {
+    "candidate_january_mae": {
+      "lag1": 658.4766755718955,
+      "lag7": 142.55051078431373,
+      "mean7": 781.8746744456116,
+      "trend7": 248.25041715686274
+    },
+    "selected": "lag7",
+    "selection_days": [
+      14,
+      30
+    ]
+  },
+  "pv": {
+    "candidate_january_mae": {
+      "lag1": 119.47910053104575,
+      "lag7": 137.16450490196078,
+      "mean7": 96.17717116013073,
+      "trend7": 186.8746183415033
+    },
+    "selected": "mean7",
+    "selection_days": [
+      14,
+      30
+    ]
+  },
+  "price": {
+    "candidate_january_mae": {
+      "lag1": 0.08576229575163398,
+      "lag7": 0.038290972222222226,
+      "mean7": 0.08159579831932773,
+      "trend7": 0.0644703022875817
+    },
+    "selected": "lag7",
+    "selection_days": [
+      14,
+      30
+    ]
+  }
+}
