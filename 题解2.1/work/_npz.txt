@@ -1,0 +1,5 @@
+p shape=(365, 144) dtype=float64
+c shape=(365, 144) dtype=float64
+dd shape=(365, 144) dtype=float64
+e shape=(365, 144) dtype=float64
+plan_p shape=(365, 144) dtype=float64

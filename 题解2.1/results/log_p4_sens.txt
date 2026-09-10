@@ -1,0 +1,9 @@
+day 0 0s
+day 60 2s
+day 120 5s
+day 180 8s
+day 240 11s
+day 300 14s
+day 360 17s
+P4-2 strict-price-info: total=14708293 (1470.8 wan), emerg=76.4 MWh
+saved p4_2_sens_priceinfo.npz

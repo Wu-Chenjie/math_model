@@ -1,0 +1,27 @@
+scorecard:
+  contest: CUMCM
+  seat: A
+  round: 1
+  criteria:
+    - {name: summary, weight: 0.25, score: 86}
+    - {name: modeling, weight: 0.25, score: 85}
+    - {name: results, weight: 0.20, score: 72}
+    - {name: writing, weight: 0.15, score: 78}
+    - {name: completeness, weight: 0.15, score: 84}
+  weighted_total: 81.5
+  implied_tier: finalist
+  fix_one_thing: "修复 export_paper_tables.py spec_cd() 的 36 时段切片错误（4 小时块应为 24 时段，k=4/5 越界静默补 0），用当前运行结果重生成论文表 6/表 11 并同步刷新 results/log_*，使印刷表与 result2.xlsx、paper_tables.json 完全一致。"
+  ranked_gaps:
+    - {severity: high, summary: "论文表 6、表 11（题面表 2 格式的指定日充放电量）数值错误：spec_cd() 以 36 时段/块切片（实为 24），把 0-6h/6-12h/12-18h/18-24h 的 6 小时和标成 4 小时块，且 k=4/5 越界数组为空静默输出 0.00，导致 16:00 后两行全为假 0（如 12-21 实际 16-20 时放电 6178.73 kWh 印刷为 0.00）；日总量恰对、时段全错，与 result2.xlsx 和 paper_tables.json 直接矛盾", artifact: "paper/main.pdf 第9页表6、第14页表11；code/export_paper_tables.py spec_cd()（z['c'][d, 36*k:36*(k+1)]）"}
+    - {severity: high, summary: "支撑材料运行日志是旧版运行且与论文 headline 数字矛盾：log_p3.txt B 方案 14740955 元 vs 论文 1401.3 万；log_p4.txt P4-2 15543319 vs 论文 1468.4 万；log_det.txt 22823679/16210812 vs 论文 2267.9/1525.7 万，而 manifest 明确引导评委核对 results/log_*.txt", artifact: "results/log_det.txt、log_p3.txt、log_p4.txt（20:08-20:09，早于 21:00 重跑的 npz/xlsx/JSON）"}
+    - {severity: medium, summary: "表 4（问题 1 充放电量，题面表 2 格式）右列超出页面被裁切，放电量 101.22/6422.37/3177.63 印刷只剩 '1/64/31'，必答答案表部分不可读", artifact: "paper/main.pdf 第5页表4；paper/tables/t2p1.tex 表格超宽"}
+    - {severity: medium, summary: "P4 信息口径敏感性百分比错误：摘要、8.3 节、第 9 节三处称'仅上升 0.24%'，按 14708293/14684147.6 实际为 +0.16%（方向不变但数值错）", artifact: "paper/main.pdf 第1/16/17 页；results/log_p4_sens.txt"}
+    - {severity: medium, summary: "5.3 节策略解读'全天购电量 59482.70 恰等于负载减光伏净缺口'不成立：净缺口=55541.97 kWh，差 3940.73 kWh 恰为往返损耗（C−ηD），该句反而说明购电并非全部用于负载", artifact: "paper/main.pdf 第6页；results/paper_tables.json p1.load_total/pv_total"}
+    - {severity: medium, summary: "6.5 节'283.9→76.1 MWh'中 283.9 无法由当前工件复现：当前确定性基线（本文预测器）紧急购电实为 524.0 MWh（2006 MWh 那处与 p2_det.npz 复核一致），283.9 疑为旧版残留", artifact: "paper/main.pdf 第8页 6.5 节；results/p2_det_fc.npz"}
+    - {severity: low, summary: "图 4/图 5 面板标号 (c)(d)/(e)(f) 与图题 (a)(b) 不一致；图 4(d) 纵轴自 1400 起、B 柱被压成薄片，视觉夸大差异", artifact: "figures/fig4_p3_adjust.png、fig5_p4_price.png 与 paper 第13/17页图题"}
+    - {severity: low, summary: "代码硬编码绝对路径 D:/shumo/shumoC（common.py load_data、strategy.py sys.path 等），评委机器需改路径才能复现；附录 B 注释'光伏 P2 用 P[d-1] naive MAPE 7.7%'与正文表 2（近 3 日均值 3.53%）不一致", artifact: "code/common.py、code/strategy.py；paper/main.pdf 附录 B 第22页"}
+  do_not_regress:
+    - "归因阶梯（2267.9→1525.7→1424.2 万元，32.7%/6.7%）、调整时刻消融（表 13）、电价信息敏感性（1470.8 万）整套论证链，全部数值经独立复算一致，是全文最强亮点"
+    - "表 3/5/7/10/12/13/14/15 与 paper_tables.json、result*.xlsx 的零手抄一致性（复核全部吻合）"
+    - "引理 1/命题 1/引理 2 的理论框架与 A8 信息假设的诚实声明加稳健性检验写法"
+    - "图 1-5 的 300 dpi 中文渲染质量与摘要页独立成篇、方法-结果-结论量化闭环"
