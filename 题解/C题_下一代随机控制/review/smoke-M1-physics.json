@@ -1,0 +1,329 @@
+{
+  "passed": true,
+  "checks": {
+    "evaluation_day_indices": {
+      "passed": true
+    },
+    "January_development_only": {
+      "passed": true
+    },
+    "dates_align_input": {
+      "passed": true
+    },
+    "state_shape": {
+      "passed": true
+    },
+    "release_shape": {
+      "passed": true
+    },
+    "shape:q": {
+      "passed": true
+    },
+    "finite:q": {
+      "passed": true
+    },
+    "shape:r": {
+      "passed": true
+    },
+    "finite:r": {
+      "passed": true
+    },
+    "shape:c": {
+      "passed": true
+    },
+    "finite:c": {
+      "passed": true
+    },
+    "shape:d": {
+      "passed": true
+    },
+    "finite:d": {
+      "passed": true
+    },
+    "shape:emergency": {
+      "passed": true
+    },
+    "finite:emergency": {
+      "passed": true
+    },
+    "shape:spill": {
+      "passed": true
+    },
+    "finite:spill": {
+      "passed": true
+    },
+    "shape:price": {
+      "passed": true
+    },
+    "finite:price": {
+      "passed": true
+    },
+    "finite:state": {
+      "passed": true
+    },
+    "official_physics_only": {
+      "passed": true
+    },
+    "bus_balance_max_abs": {
+      "value": 5.684341886080802e-14,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "soc_recurrence_max_abs": {
+      "value": 1.1368683772161603e-13,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "inventory_bound_violation": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "charge_power_excess_kw": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "discharge_power_excess_kw": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "simultaneous_energy_max": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "negative_energy_max": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "midnight_jump_max_abs": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "initial_inventory_declared": {
+      "passed": true
+    },
+    "initial_inventory_agreement": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "hard_terminal_declared": {
+      "passed": true
+    },
+    "true_terminal6000": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "unaltered_actual_scoring_price": {
+      "value": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    "root_original_contract_finite": {
+      "passed": true
+    },
+    "original_q_release": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "release1_past_delivery_unset": {
+      "passed": true
+    },
+    "release1_future_finite": {
+      "passed": true
+    },
+    "release2_past_delivery_unset": {
+      "passed": true
+    },
+    "release2_future_finite": {
+      "passed": true
+    },
+    "release3_past_delivery_unset": {
+      "passed": true
+    },
+    "release3_future_finite": {
+      "passed": true
+    },
+    "effective_r_reconstructed": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "first_six_hours_unchanged": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "daily_log_count": {
+      "passed": true
+    },
+    "daily_log_dates": {
+      "passed": true
+    },
+    "aggregate:planned_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:planned_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:increase_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:increase_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:reduction_net_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:reduction_net_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:emergency_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:emergency_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:total_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:total_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:emergency_energy": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:emergency_energy": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:spill_energy": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:spill_energy": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily_ending_inventory": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "decision_log_complete": {
+      "passed": true
+    },
+    "decision_clock": {
+      "passed": true
+    },
+    "fixed_horizon:3456": {
+      "passed": true
+    },
+    "mature_whole_blocks:3456": {
+      "passed": true
+    },
+    "recorded_maturity:3456": {
+      "passed": true
+    },
+    "fixed_horizon:3492": {
+      "passed": true
+    },
+    "mature_whole_blocks:3492": {
+      "passed": true
+    },
+    "recorded_maturity:3492": {
+      "passed": true
+    },
+    "fixed_horizon:3528": {
+      "passed": true
+    },
+    "mature_whole_blocks:3528": {
+      "passed": true
+    },
+    "recorded_maturity:3528": {
+      "passed": true
+    },
+    "fixed_horizon:3564": {
+      "passed": true
+    },
+    "mature_whole_blocks:3564": {
+      "passed": true
+    },
+    "recorded_maturity:3564": {
+      "passed": true
+    }
+  },
+  "errors": [],
+  "independent_totals": {
+    "planned_cost": 20330.52872256258,
+    "increase_cost": 1175.593323427519,
+    "reduction_net_cost": -144.7049763077041,
+    "emergency_cost": 3.8284948544742296e-11,
+    "total_cost": 21361.41706968243,
+    "emergency_energy": 9.656275778979762e-12,
+    "spill_energy": 4041.515230971499
+  },
+  "independent_daily_total_cost": [
+    21361.41706968243
+  ],
+  "scope_notes": [],
+  "status": "PASS",
+  "input_hashes": {
+    "trajectory": "a0faba444f91e8beff2fc8648cae35f7252e324d3766acd43eb4a6ef58a6598a",
+    "metrics": "b8a1a9d47fb795d0c43e0f0cf39324191d42298c5598514ff3f3c4d8e5271a79",
+    "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+  },
+  "reviewer_id": "/root/upgrade_code_review",
+  "independent": true,
+  "scope": "Numerical physics, billing, release reconstruction and recorded metadata only. Separate executable information-mutation and model-formula gates mandatory.",
+  "execution": {
+    "command": [
+      "review/check_nextgen_physics.py",
+      "--trajectory",
+      "artifacts/smoke/q4_3_M1.npz",
+      "--metrics",
+      "artifacts/smoke/q4_3_M1.json",
+      "--data",
+      "artifacts/data.npz",
+      "--output",
+      "review/smoke-M1-physics.json",
+      "--development"
+    ],
+    "exit_code": 0,
+    "runtime_seconds": 0.04009783384390175,
+    "created_utc": "2026-09-11T02:35:33.238106+00:00",
+    "source_sha256": "79dfa491be048d543c9541ababe07399e02db4545a7a5b9373aa865ef9a1cf95"
+  }
+}

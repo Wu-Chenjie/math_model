@@ -1,0 +1,138 @@
+{
+  "reviewer_id": "/root/upgrade_code_review",
+  "independent": true,
+  "status": "PASS",
+  "scope": "Independent small LP, stored-state metadata, EMA/convexity, hidden-price fixture and frozen executor boundary tests. Not full policy optimality, annual performance or full rollout perturbation acceptance.",
+  "cases": [
+    {
+      "name": "weighted_affine_vs_independent_explicit_LP",
+      "status": "PASS",
+      "details": {
+        "max_objective_gap": 2.2737367544323206e-13,
+        "cases": [
+          {
+            "weights": [
+              1.0
+            ],
+            "adjustment": false,
+            "objective": 589.8666666666669,
+            "independent_explicit_lp": 589.8666666666667
+          },
+          {
+            "weights": [
+              1.0
+            ],
+            "adjustment": true,
+            "objective": 1194.8000000000002,
+            "independent_explicit_lp": 1194.8
+          },
+          {
+            "weights": [
+              0.2,
+              0.8
+            ],
+            "adjustment": false,
+            "objective": 1120.6666666666667,
+            "independent_explicit_lp": 1120.6666666666667
+          },
+          {
+            "weights": [
+              0.2,
+              0.8
+            ],
+            "adjustment": true,
+            "objective": 1515.2592592592596,
+            "independent_explicit_lp": 1515.2592592592594
+          },
+          {
+            "weights": [
+              0.8,
+              0.2
+            ],
+            "adjustment": false,
+            "objective": 1264.5679012345681,
+            "independent_explicit_lp": 1264.567901234568
+          },
+          {
+            "weights": [
+              0.8,
+              0.2
+            ],
+            "adjustment": true,
+            "objective": 1796.8200000000002,
+            "independent_explicit_lp": 1796.8200000000002
+          }
+        ]
+      }
+    },
+    {
+      "name": "future_contract_shared_prefix_and_cutoff",
+      "status": "PASS",
+      "details": {
+        "shared_midnight_q_max_spread": 0.0,
+        "root_revision_max_spread": 0.0,
+        "future_midnight_information_cutoff": 144
+      }
+    },
+    {
+      "name": "M1_EMA_matrix_clipped_price_expectation_convexity",
+      "status": "PASS",
+      "details": {
+        "EMA_max_abs_error": 7.105427357601002e-15,
+        "min_slope_increment": -3.774758283725532e-15,
+        "nonnegative_inventory_independent_kernel": true
+      }
+    },
+    {
+      "name": "action_before_hidden_price_not_branchwise_min",
+      "status": "PASS",
+      "details": {
+        "causal_action": 5074.074074074074,
+        "causal_value": -9689.814814814814,
+        "hidden_price_branchwise_value": -10949.074074074075,
+        "invalid_information_advantage": 1259.259259259261
+      }
+    },
+    {
+      "name": "true_endpoint_reachable_projection",
+      "status": "PASS",
+      "details": {
+        "three_initial_states_endpoint_max_error": 9.094947017729282e-13
+      }
+    },
+    {
+      "name": "actual_replay_first_action_hides_current_price_with_fusion",
+      "status": "PASS",
+      "details": {
+        "origin": 3456,
+        "current_net_preserved": true,
+        "current_price_and_future_realizations_mutated": true,
+        "first_action": {
+          "target": 6695.152536284694,
+          "physical_result": [
+            6695.152536284694,
+            772.3917069829935,
+            0.0,
+            0,
+            1.7053025658242404e-13,
+            0.0
+          ]
+        },
+        "scope": "First executed action only; replay intentionally stopped after committing that action."
+      }
+    }
+  ],
+  "source_hashes": {
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "src/nextgen_run.py": "0beb60045672e170ddd99788e9d07b0d6b9a1a246e867627af52ed74b27824c0",
+    "src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+    "src/dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233"
+  },
+  "execution": {
+    "command": [
+      "review/check_nextgen_control.py"
+    ],
+    "runtime_seconds": 3.1135099169332534
+  }
+}

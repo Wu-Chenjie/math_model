@@ -1,0 +1,59 @@
+{
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "scope": "bounded_static_and_small_mathematical_checks_no_annual_replay",
+  "checks": {
+    "origin_state_recursion": [
+      {
+        "alpha": 0.1,
+        "manual_state_error": 0.0,
+        "hidden_current_price_state_unchanged": true
+      },
+      {
+        "alpha": 0.2,
+        "manual_state_error": 0.0,
+        "hidden_current_price_state_unchanged": true
+      },
+      {
+        "alpha": 0.5,
+        "manual_state_error": 0.0,
+        "hidden_current_price_state_unchanged": true
+      }
+    ],
+    "online_M1_action_vs_independent_explicit_LP": {
+      "passed": true,
+      "max_objective_gap": 3.342393029015511e-11,
+      "cases": 315
+    },
+    "paired_future_contract_nonanticipation": {
+      "passed": true,
+      "max_paired_spread": 0.0,
+      "root_revision_spread": 0.0
+    }
+  },
+  "finding": {
+    "id": "NM-1",
+    "type": "extra_approximation_needs_explicit_statement",
+    "description": "Non-cardinal current-state kernel means online support-point actions need not be greedy for the unsmoothed support Bellman updates used offline.",
+    "counterexample": {
+      "alpha": 0.1,
+      "j": 4,
+      "support": 2,
+      "inventory": 6000.0,
+      "kernel_self_weight": 0.6435453126551086,
+      "support_price": 0.1274831251346893,
+      "online_smoothed_price": 0.1686271130386552,
+      "online_action": 5941.780991817554,
+      "support_greedy_action": 6000.0,
+      "support_operator_regret": 7.354570753677308
+    },
+    "max_support_continuation_coefficient_gap": 827.0460629232275
+  },
+  "source_hashes": {
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "src/nextgen_control.py": "11df75e72cf27880e64476e4e656683783a1bf7f4b6f48bf853e0344553e8189",
+    "src/nextgen_run.py": "0beb60045672e170ddd99788e9d07b0d6b9a1a246e867627af52ed74b27824c0"
+  },
+  "audit_source_sha256": "6d2c611714c8fb2db026118c89965ac95b9d025f8d9c8b56e3eb4744c23b0f76",
+  "runtime_seconds": 3.609732500044629
+}

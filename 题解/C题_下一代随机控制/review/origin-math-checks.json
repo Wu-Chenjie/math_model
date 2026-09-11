@@ -1,0 +1,109 @@
+{
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "status": "PASS",
+  "scope": "bounded_static_and_small_mathematical_checks_no_annual_replay",
+  "checks": {
+    "origin_state_recursion": [
+      {
+        "alpha": 0.1,
+        "manual_state_error": 0.0,
+        "hidden_current_price_state_unchanged": true
+      },
+      {
+        "alpha": 0.2,
+        "manual_state_error": 0.0,
+        "hidden_current_price_state_unchanged": true
+      },
+      {
+        "alpha": 0.5,
+        "manual_state_error": 0.0,
+        "hidden_current_price_state_unchanged": true
+      }
+    ],
+    "online_M1_action_vs_independent_explicit_LP": {
+      "passed": true,
+      "max_objective_gap": 3.342393029015511e-11,
+      "cases": 315
+    },
+    "complete_short_projected_Bellman_vs_explicit_LPs": [
+      {
+        "alpha": 0.1,
+        "passed": true,
+        "raw_continuation_gap": 1.1774233144024038e-08,
+        "conditional_price_gap": 2.220446049250313e-16,
+        "initial_value_gap": 1.11791962353891e-08,
+        "row_stochastic_gap": 2.220446049250313e-16,
+        "support_operator_objective_gap": 4.501998773775995e-11,
+        "support_operator_probe": {
+          "j": 4,
+          "support": 2,
+          "inventory": 6000.0
+        },
+        "explicit_LP_states": 1435
+      },
+      {
+        "alpha": 0.2,
+        "passed": true,
+        "raw_continuation_gap": 6.618392944801599e-09,
+        "conditional_price_gap": 2.220446049250313e-16,
+        "initial_value_gap": 6.352621539917891e-09,
+        "row_stochastic_gap": 2.220446049250313e-16,
+        "support_operator_objective_gap": 3.501554601825774e-11,
+        "support_operator_probe": {
+          "j": 4,
+          "support": 2,
+          "inventory": 6000.0
+        },
+        "explicit_LP_states": 1435
+      },
+      {
+        "alpha": 0.5,
+        "passed": true,
+        "raw_continuation_gap": 1.4823058336332906e-08,
+        "conditional_price_gap": 2.220446049250313e-16,
+        "initial_value_gap": 1.4490524335997179e-08,
+        "row_stochastic_gap": 2.220446049250313e-16,
+        "support_operator_objective_gap": 3.319655661471188e-11,
+        "support_operator_probe": {
+          "j": 4,
+          "support": 2,
+          "inventory": 6000.0
+        },
+        "explicit_LP_states": 1435
+      }
+    ],
+    "paired_future_contract_nonanticipation": {
+      "passed": true,
+      "max_paired_spread": 0.0,
+      "root_revision_spread": 0.0
+    }
+  },
+  "finding": {
+    "id": "NM-1",
+    "status": "resolved_by_operator_correction",
+    "description": "Backward support updates now use the same current-state probability projection as online actions.",
+    "previous_evidence": "review/history/origin-math-checks-before-NM1-fix.json",
+    "previous_evidence_sha256": "b30ca197de727eb934b9f274098dc92ed0c0803974ed29a31a6206412baf117e",
+    "diagnostic_raw_VAR_vs_projected_operator": {
+      "alpha": 0.2,
+      "j": 0,
+      "support": 2,
+      "inventory": 3000.0,
+      "kernel_self_weight": 0.40889785211627677,
+      "support_price": 0.3653153392492792,
+      "online_smoothed_price": 0.3567912863065571,
+      "online_action": 3360.0,
+      "support_greedy_action": 3120.000000000009,
+      "support_operator_regret": 7.728025586982767
+    },
+    "max_raw_VAR_vs_projected_continuation_gap": 823.3713415874372
+  },
+  "source_hashes": {
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "src/nextgen_run.py": "0beb60045672e170ddd99788e9d07b0d6b9a1a246e867627af52ed74b27824c0"
+  },
+  "audit_source_sha256": "37f2c6b8321d85465bdce71ecda3dbeb3a715ad2d0abef658f4c2dfbb377a971",
+  "runtime_seconds": 8.810563792008907
+}

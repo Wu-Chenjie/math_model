@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tests": [
+    "seven-day blocks remain consecutive",
+    "exact334day scope",
+    "constant paired saving reproduced in both CI endpoints",
+    "sign reversal"
+  ],
+  "seed": 20260911,
+  "replicates": 10000
+}

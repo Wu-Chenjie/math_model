@@ -1,0 +1,4 @@
+{"name": "annual_pv_without18", "total_cost": 13460126.846134413, "runtime_seconds": 2271.211716541089}
+{"name": "annual_pv_without12", "total_cost": 13638458.58238368, "runtime_seconds": 2279.3363847909495}
+{"name": "annual_pv_without6", "total_cost": 13531125.451426756, "runtime_seconds": 2284.485267583048}
+{"name": "annual_pv_0only", "total_cost": 13776048.634147448, "runtime_seconds": 2285.46518316702}

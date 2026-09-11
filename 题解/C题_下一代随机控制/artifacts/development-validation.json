@@ -1,0 +1,1682 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "kind": "q2",
+      "configuration_id": "cc3ebe6953b57007",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_cc3ebe6953b57007.json",
+      "report_sha256": "efc97bc5d493ffa963eea3bca44ab4ad271e6b10deeea677102e6c868c1d21fd",
+      "input_hashes": {
+        "trajectory": "c0c59019a8bb26fd19ff67e73044af57fd2588bbb3d74803a92586279cc95fbb",
+        "metrics": "2b3c0aa14c18e44f4fbfba703967de08d0d0a0e607bc4a63a2b47b3533f995bd",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "cc3ebe6953b57007",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_cc3ebe6953b57007.json",
+      "report_sha256": "ed7772fdb0eb936136f93cdc69b3a9dbacd5091f844e80dd061ca7f32fe33c49",
+      "input_hashes": {
+        "trajectory": "14fff1e0333fdd9de43bd2dad4e158c9588953889ec662850908d3f9ce4b60ee",
+        "metrics": "483b82a635d207077f1233124a188592a583376fcb256ed9708672110c7379c7",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "cc3ebe6953b57007",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_cc3ebe6953b57007.json",
+      "report_sha256": "fab7e901ff4f4fa64cc325d0e497df83bfe9da1737fba4567e640bb83b1c827b",
+      "input_hashes": {
+        "trajectory": "0c1c56ea9c9a735f91032267d527f956e15ea52883d0abbd633d139eddb5d9df",
+        "metrics": "37c254cd003e577c21c25b61e1ef5e12bebb39ce5ca99aeedca9d750435fc8e6",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "cc3ebe6953b57007",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_cc3ebe6953b57007.json",
+      "report_sha256": "ebbeb6333278f8fec56cfae62a452b61445b7709e842d201399bf1ce253c7dbb",
+      "input_hashes": {
+        "trajectory": "60821c10f2e65c4ee95cc47acf65c222fd63e97db47f993bf5c27404d299359e",
+        "metrics": "0475f169ba96a6b76ca706dc25448747297e725d4fa01b5f74efbd9f9f9800a7",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_5c5eb1d7988dccd0.json",
+      "report_sha256": "df059688a1e3172accb933fec1cdefce0fee2d820396a2dda3b774468938d3f4",
+      "input_hashes": {
+        "trajectory": "9c66d34892d37bcf35ce12ec07e51eb9d5f688b43ee603fa6cd51849e3b4de67",
+        "metrics": "04281f79059991b21aa0f3710cd2739c3248031b078f91c1744579aa95d06e57",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_5c5eb1d7988dccd0.json",
+      "report_sha256": "ffeb2e7c52436338be8ca7c6412a1d34839fb2bef6aa152f704e3b2d9d39ac15",
+      "input_hashes": {
+        "trajectory": "653eb3efca93eaed9710ac04b30d082ac2fe07f2eb33fdf9b5fe7b5c2716f56e",
+        "metrics": "4cd4a8731950230cad15610338a085ecb8744bdddeab69250ff31375f8f49faa",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_5c5eb1d7988dccd0.json",
+      "report_sha256": "c41658e6a027568f93bba89c3d656d8051d953223bb9b77c68ab9e1a4d3f88eb",
+      "input_hashes": {
+        "trajectory": "cd011009832816d8f996444c5ea79d2e0bd830f5a95a3eb96fc395b24d603596",
+        "metrics": "dda37f483e9c99fdea6c37f9bc525076254a3e8bc3c09e1c28a8778c60352940",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_5c5eb1d7988dccd0.json",
+      "report_sha256": "2553cfa4e6aaf9d499fab4d09f85c8865b4adec1009e6d3061470366fee7ba63",
+      "input_hashes": {
+        "trajectory": "66921b7cec9924bd1451cdcc28cab7a3bfc657e66c676ea5f8ba5e6d95a9cda8",
+        "metrics": "c92867f8dc2ff4b94ffe0293d2ac95b557ea1767b79753ab576d08632b93c927",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "7a7d9f1f5f762810",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_7a7d9f1f5f762810.json",
+      "report_sha256": "136e2ba55d8b1be30c40f79439a9d2e61bff05cc6cf1295ffdf13455632d2fda",
+      "input_hashes": {
+        "trajectory": "bcdf0db4398a10386e432523f55b028d310e8bbd3af2c07eaa13a86530d75f2b",
+        "metrics": "00ebc3c9d294209f66d30e9f68f2740a271bfb1af473fd915f7c1025b4fec3d6",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "7a7d9f1f5f762810",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_7a7d9f1f5f762810.json",
+      "report_sha256": "e09de92434a784160a9162584fdc85e32978587009ab811d8928d698d8163e79",
+      "input_hashes": {
+        "trajectory": "31547a0254d09454a6a1566dd5038951020dd0c332accecdbdd44854e3ef3a86",
+        "metrics": "1b87a491f74aaeaf8c0c528561b90f7cb85a33de369c11adccc4fd2234c26019",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "7a7d9f1f5f762810",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_7a7d9f1f5f762810.json",
+      "report_sha256": "c0e03528bf513f5be32572ff81a389a7adf5b85b18c4ca28bef2da4e60ac4b22",
+      "input_hashes": {
+        "trajectory": "6d2497f8b5c1be9a7ac64815c4afabbba95178b09428b5064a1495e965b5a1bc",
+        "metrics": "13b64c8bdee561fd7b72c866933ae421dbaf55c84592ff64e5fc8948f084c0ba",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "7a7d9f1f5f762810",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_7a7d9f1f5f762810.json",
+      "report_sha256": "a1a8656b842e3cd57fb6eca9daa88a9fd7121651ca978e9edfd4f0af83aa70d9",
+      "input_hashes": {
+        "trajectory": "dcd0f0e0ac84253286e3297648204f5b7783fbf80c175f53f951229dd5eb29ce",
+        "metrics": "8d9d5d65853ecf9d0e01942b9350be80fd920729d9389a27c10c5e1e6b5fee10",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "d21be844de2de2b1",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_d21be844de2de2b1.json",
+      "report_sha256": "2bb0c65000d99d4425210d85902f6dc2b9164468b1e8fc4719c857e22535b17a",
+      "input_hashes": {
+        "trajectory": "baa6264e97263c4e5fdf90ebe43a47f228b4a81d59dcd6a34122878501870559",
+        "metrics": "35f9756257d762b220beb0831a67008d9eb5317a777769285abdbb92ed934778",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "d21be844de2de2b1",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_d21be844de2de2b1.json",
+      "report_sha256": "d0b38c27608492fcb1f8608087b7264cff76a2f73725369a05ccceed240e77ef",
+      "input_hashes": {
+        "trajectory": "b3077b84b0bd4479823a0141c117abe3a9388085c11cea5d98b8a971db56df24",
+        "metrics": "dc419bd0d68f1523dc61ce9f4a94766d1b4c0337fdd8cc4db3c71ae0c1b10eaf",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "d21be844de2de2b1",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_d21be844de2de2b1.json",
+      "report_sha256": "a8956d2cf7eba99ca1bf8ed85b466e70315ff5af25aff44a93985935dda3a0eb",
+      "input_hashes": {
+        "trajectory": "049794ef1dfbf79a338768e1f432266fd533d074def58f12615d365a24ac1255",
+        "metrics": "2e2a969ac5779e84a27ade7946548a2ca9e85862c92910892f078110d118caa6",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "d21be844de2de2b1",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_d21be844de2de2b1.json",
+      "report_sha256": "fe38ad4ad91eff849c54fcf94d84603759c8d50f4f6424b5c7ff46d3305ee8d9",
+      "input_hashes": {
+        "trajectory": "b3c0f05b16089924f922ccd649fea7a9c1dee71c41786140d3d725a048f10148",
+        "metrics": "63a7bc8f2af1fed98a38631ac6f768528519d7292381dcfa2365d84edf4f9947",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "6cfbc0fe34fd0999",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_6cfbc0fe34fd0999.json",
+      "report_sha256": "d63ed47cdb2b9261f5746191a40db9b204738b38344c20f4642baa757b39714f",
+      "input_hashes": {
+        "trajectory": "bcdf0db4398a10386e432523f55b028d310e8bbd3af2c07eaa13a86530d75f2b",
+        "metrics": "692c5d7a70cf3a562b51b52afab445ef8eb01e7153d9e7ff0b0f37c31e53aa21",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "6cfbc0fe34fd0999",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_6cfbc0fe34fd0999.json",
+      "report_sha256": "525099763b05bc2f9a1956f099fed2bd0a74106e27e93f092e89aa551fe553c9",
+      "input_hashes": {
+        "trajectory": "b21d9e31f5fdeb3865c1fa1adba7ed373fced0c318ab29afac6185294480f8ab",
+        "metrics": "d45474dcf138cef3bb488bd2c98b48078475b221e1f75e5d540698b8c74f4d29",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "6cfbc0fe34fd0999",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_6cfbc0fe34fd0999.json",
+      "report_sha256": "94290a7c8c93948571b581e3a0d094dcb9e6c03a75963b1f3b6d818fac3ff7f0",
+      "input_hashes": {
+        "trajectory": "6d2497f8b5c1be9a7ac64815c4afabbba95178b09428b5064a1495e965b5a1bc",
+        "metrics": "62a59f4470cab4062e3a1e6e5636c6d644276e8ae4340b791dd7ebb0b4bfda75",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "6cfbc0fe34fd0999",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_6cfbc0fe34fd0999.json",
+      "report_sha256": "801f401d37886c52931c5cc28850babe1cdd46d598ec4ee470a6646ff12dcf7e",
+      "input_hashes": {
+        "trajectory": "af39ad0b54a2d12f136940312c90566bd9e2b414e06a12c104605e62d99534e8",
+        "metrics": "21164a73e7cddb9dfb6ff20c34f30c1fcd808ce275f5fab1dd8a8b41c9c1bb0e",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "7bc4bc3e62f01705",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_7bc4bc3e62f01705.json",
+      "report_sha256": "079c8f2c97356b434c2e6777def41babb09c9d2af7f2ea6b00c71c308930e48e",
+      "input_hashes": {
+        "trajectory": "fdde48cbe1a2fb79de2a189a4b8e822fec67ab8e04dc341e45a9579c5863993d",
+        "metrics": "7b3c17bc950e5c3de83e18558cccac9c265e65a75fc5ae2641e87247414e35ee",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "7bc4bc3e62f01705",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_7bc4bc3e62f01705.json",
+      "report_sha256": "b471bae003ec2bfe65f98b1366b917115ea450054da92d62d2821d6ad3944767",
+      "input_hashes": {
+        "trajectory": "ff481833dc64bda06762209775c7b30e2e4123f5f0dfda11e17f97720e2f39eb",
+        "metrics": "ef31342a228ef8a6cec0d090e4d021f7e41d9c0953f5c9482cc9116309d59536",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "7bc4bc3e62f01705",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_7bc4bc3e62f01705.json",
+      "report_sha256": "1895b8093b0cc2d1e6186ea008e27db02a59c98a8ca30ad4099729644ebaf562",
+      "input_hashes": {
+        "trajectory": "817a765cc99072a7414039f55227e74feb53b8bd6f0c464961ea674e83f7dac9",
+        "metrics": "3e3df676e14eaf92f70ea95c5aa3c62f7fa48daf362de30021b976fa8675e64e",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "7bc4bc3e62f01705",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_7bc4bc3e62f01705.json",
+      "report_sha256": "20180af022a57684e5433f21da0bdaf0ccc1334a597c9eeb767f332866287661",
+      "input_hashes": {
+        "trajectory": "7e99e3687a26579ace27f471096e6c74f861daff9ac2a3f0e3442fe307c8482a",
+        "metrics": "bb002e5e21daa0111f422566bc0d8851eb7d53c30e385d30e3384cbd2566c190",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "8c3a9abb4b0b1129",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_8c3a9abb4b0b1129.json",
+      "report_sha256": "5d31f9272240494e4cb68b5de745958fbc3e83017218cc9a77fa555b2d43ed1b",
+      "input_hashes": {
+        "trajectory": "f26a8eab94555f33613b4f8124ccc4d4fa709feb7f0f47cc8885bb19a0f22334",
+        "metrics": "36e08e5af3bbc05558b3f27e78284b5b788b0082dff01ef90d3db83954aad84c",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "8c3a9abb4b0b1129",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_8c3a9abb4b0b1129.json",
+      "report_sha256": "7734afdacf1214068097791484775a04a4db940fb9bbcb87c40f5ad2ec2a0ff7",
+      "input_hashes": {
+        "trajectory": "fa781e9022a3059f43469a36e5aeca2f5ffdfb9507030896702b2b29b74d4962",
+        "metrics": "386c7ecfcf179ce959415af0ec21c0aa3edf9ba930eaef74308e997e3f14477b",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "8c3a9abb4b0b1129",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_8c3a9abb4b0b1129.json",
+      "report_sha256": "59f498d150e1fd133ecbc92e3d9bba8825a99b8fcc1d9f3519314ae154ca4fda",
+      "input_hashes": {
+        "trajectory": "bb7df0a278a299b24ab7b30f4acf83e71a02d0bb6cad80876d59278a0cdde8a9",
+        "metrics": "87ed3940e47db4b289154dfd2bb00c037308884b5ca021535f7760643717d7d0",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "8c3a9abb4b0b1129",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_8c3a9abb4b0b1129.json",
+      "report_sha256": "6c0fdf8681398464716de710c4293442aaf95ccd49b53191bca14dc8880c8559",
+      "input_hashes": {
+        "trajectory": "5dd976e5873a86ba5870c640ce1fea9c13d074109665fd48d3ddf2177049e7df",
+        "metrics": "82551e3a46c0a23981c3175dcce604a855a4d46e9c9358e270996b058264b96b",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "8850f18f7cddd093",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_8850f18f7cddd093.json",
+      "report_sha256": "fa21cf059f9f8fcd9e792a19217f6202ade78217a0ae6960cd3cbcada7e00fef",
+      "input_hashes": {
+        "trajectory": "24559303a05b4170ca4f75b4c67e38e3f45715363a50ee6bee43bc913eac5a44",
+        "metrics": "7168306ac44cd6ea4f9076611933077429bdc76aad86878cb6cb79f7b2fb99a2",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "8850f18f7cddd093",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_8850f18f7cddd093.json",
+      "report_sha256": "1985ffcc44eb6fd6f99a28a515e3545f257def548c23a39bbc432f1442e7e139",
+      "input_hashes": {
+        "trajectory": "9310dff97a2aac229a239e7a3ce2fa646cdb2d1553248727554c509bd14765ad",
+        "metrics": "e2848803e95304086ce73d19fa7d7c86c6f1c5143cddd0fa540956f30a413d5b",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "8850f18f7cddd093",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_8850f18f7cddd093.json",
+      "report_sha256": "7d46c316147c3c642f0289ddccca0179db9bd5a8ed7c69822792e97fd1ba625d",
+      "input_hashes": {
+        "trajectory": "5a310579a33f23c35a4cec04a2cd8269438fa8c2e2646a3dabd18e5e2227a103",
+        "metrics": "b5510f8770a9d0c6150059a7af292cad2437a353e67205a687afd6bfebda4a11",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "8850f18f7cddd093",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_8850f18f7cddd093.json",
+      "report_sha256": "87a943ceafc3f027f10a597f058ea508ba8892ee422072e5370dbf7c2b2b4212",
+      "input_hashes": {
+        "trajectory": "9b71251d702c4026abce1354595b0f16537fab564fe25478bbc2c90a0b5e06ff",
+        "metrics": "e48bc98da79f1febc17a46a1e061967c0f5ab8becfcd864747829164e4396910",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "b989094f64adca97",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_b989094f64adca97.json",
+      "report_sha256": "03db8f96136bbf975d8cf65df1afef834314e4dd8abde9fb0a33eb70fce23481",
+      "input_hashes": {
+        "trajectory": "f26a8eab94555f33613b4f8124ccc4d4fa709feb7f0f47cc8885bb19a0f22334",
+        "metrics": "945e80ce5172b3ffbd01385362b3a6c5f1f0f8e2c476ceca82872c17e6362456",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "b989094f64adca97",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_b989094f64adca97.json",
+      "report_sha256": "60bd8f8a0639a30a102b843fa9a7a09515f1a20f2a4a8e91c1e50d7b9e95c069",
+      "input_hashes": {
+        "trajectory": "fa781e9022a3059f43469a36e5aeca2f5ffdfb9507030896702b2b29b74d4962",
+        "metrics": "6d468eadb1056754e00cc9f5e6f759f94b8819e95e82bf0d1e8304f439e9641d",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "b989094f64adca97",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_b989094f64adca97.json",
+      "report_sha256": "6960b0c0aa19ff2c6f97a56d1e482d2e4bdcfcc99a0120b21099b32c7f7a2eac",
+      "input_hashes": {
+        "trajectory": "bb7df0a278a299b24ab7b30f4acf83e71a02d0bb6cad80876d59278a0cdde8a9",
+        "metrics": "520ba21b8d7ff1834161551ebe81525b7a02343e68db1803a01f87da2145b476",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "b989094f64adca97",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_b989094f64adca97.json",
+      "report_sha256": "50d16300149d5bbab477b0978798872f7946f158be3d522282415b30e2413e2d",
+      "input_hashes": {
+        "trajectory": "5dd976e5873a86ba5870c640ce1fea9c13d074109665fd48d3ddf2177049e7df",
+        "metrics": "81f92df44e7ecdb541cc1201a91a6346cb02997fbd7b8c71ab5e967afda370c1",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "55c6ca18abc9ba50",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_55c6ca18abc9ba50.json",
+      "report_sha256": "d782f9354e192113dd73b79772544994932c08a857e33bd723b6e204224c6a71",
+      "input_hashes": {
+        "trajectory": "f77cb9c65cca6de3e1d24a151fcacc38946a922050b0ac63f0ca187760bee4e0",
+        "metrics": "84a7fd1d22e2778f9e2294b195ba675784207a9ef271e98c6f7b28292d1cc3e8",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "55c6ca18abc9ba50",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_55c6ca18abc9ba50.json",
+      "report_sha256": "6aa1a501f87e1cbccbd4cb460129c6ce326c47082dfe9a76f8b4f8c4e6c84d0f",
+      "input_hashes": {
+        "trajectory": "e4fd344e7b7815c26a976bd4953ca98c4119967e6c72a361025855e17da95b3d",
+        "metrics": "53bea8345f92d89edf761b1f6e030d8cb58812261c7882dd1ee74e8aec6190b9",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "55c6ca18abc9ba50",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_55c6ca18abc9ba50.json",
+      "report_sha256": "7ece3c6ccdb173fabc8e2b4e7e5309d112c972ba06e3bbad9690c596168065d3",
+      "input_hashes": {
+        "trajectory": "f973fa66f165d1c17f8364bcda99965203f84115e0c24a16ddbcfaa81d88ee2c",
+        "metrics": "02f12ae4b375ada7b1d535016092ed1f32a13fee3219e232e48cad73b25f3ee3",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "55c6ca18abc9ba50",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_55c6ca18abc9ba50.json",
+      "report_sha256": "773b5a59ad0866c960c5790cbc682d4557f56d2e8c3878218885587dfdbdac3f",
+      "input_hashes": {
+        "trajectory": "753f49cea30e53e7797af8e1a6537c5212f16c330492879ef8171e0482ca5216",
+        "metrics": "ce855f5a3ce111fbd58997a3c5e82951619fc458216dc9f47338a5463f4259e3",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "6f445816279b7da4",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_6f445816279b7da4.json",
+      "report_sha256": "e9f239f51d577c646b728855c439a7a0a3d7618cefc2edcf5c1589742cb00c80",
+      "input_hashes": {
+        "trajectory": "61ba0ae5232a9e357649ca4c0490b6688e1cb9fced42a8b490454e01ecbe1fda",
+        "metrics": "61a6aee2c4e8a306b2e1c3fe22b0c6532ee7af46059b7682f4f1d9135dea6801",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "6f445816279b7da4",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_6f445816279b7da4.json",
+      "report_sha256": "12a5b7821f5d3904d8f1e4caefa641215da3eb2cd98907779b9904241901fe33",
+      "input_hashes": {
+        "trajectory": "ba18c056a7e44d441d991bbd17d869492ae4b41195df5ff2260e1b2ef5cddb63",
+        "metrics": "6271d1c10a3e7e1a1676f3550eb9c6e50d655cdceb91802073635d0c525ef809",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "6f445816279b7da4",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_6f445816279b7da4.json",
+      "report_sha256": "c2afe62dcd0b4abc053115bc1ea6b6b3bed6d343c34b262289513b3a40f0f88a",
+      "input_hashes": {
+        "trajectory": "490a09ba275f371866a17f03c1b2578a3f83082b77c5b8e5bad82f3cdabdbcbf",
+        "metrics": "63da25943d51f40c6b41a67f6ad8f8a29e0ffa45a786026941055a9c8a1e3a36",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "6f445816279b7da4",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_6f445816279b7da4.json",
+      "report_sha256": "501272ff468e2768f1b09a303637f5a3e78b73af9a36c39242edd631075bdddd",
+      "input_hashes": {
+        "trajectory": "70a26850ce8f50423a7bfb01e911bba190bec99e04081453606b2371d8f96ea3",
+        "metrics": "1898af964baf730cbf4b2f99dfc353ca485c8f493fee0ce03da750ab0b0b18db",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "42681d4e99c271f6",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_42681d4e99c271f6.json",
+      "report_sha256": "f24ca3c4f074d92509c323658453fcd42bcb2ec83af5ec3f9de97a7ad69caaf6",
+      "input_hashes": {
+        "trajectory": "d22430ac9aba06fceaef1de0dd5a6adb53a09a6574a183dce80591f5deeaf921",
+        "metrics": "077dcee9a00d1fb11266fe82fd34072092d5e5d1991a81b5555552db227d5b49",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "42681d4e99c271f6",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_42681d4e99c271f6.json",
+      "report_sha256": "b66abd0a4f36fac13d41bf39addfdbabb5987d91be5bb096e783aa68646d9144",
+      "input_hashes": {
+        "trajectory": "87a03e72689ba7810f82c446aa009ae4b4fbc7943049ec2bfe086a7157cf838b",
+        "metrics": "ce5fc18b78731fdb4e7207290e174d0db984babee397abcdf1af25c7de5e955f",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "42681d4e99c271f6",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_42681d4e99c271f6.json",
+      "report_sha256": "e8f5481dbeaabf2c6c506a8218d79a0efa6944b548e4554498aa2054216d6ce3",
+      "input_hashes": {
+        "trajectory": "c2f2bb7e09ccd8853521f8c44865126bc958256b7203a81a210c031e15c9d795",
+        "metrics": "17a8273d632aea390d233689cc5b7399b9151840501295ecf5f84b2a42ab8dcc",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "42681d4e99c271f6",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_42681d4e99c271f6.json",
+      "report_sha256": "edb9249ed42b8f85e5fc1f8b6624649d3d4ff5f4609d65be317fba4dacf8dbb8",
+      "input_hashes": {
+        "trajectory": "14aa6a29119299f3511d0e297ad4737b3c8a11003f10421b810552a74566fdd7",
+        "metrics": "5b451ad5cea5e33f6769e9d79f1a4b4af2ccc857fe01a5b8bf1e547d37976cf6",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "6efdd1cbeb9390c2",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_6efdd1cbeb9390c2.json",
+      "report_sha256": "5f66a28a09ab3afdd35d0fad17d08d534b7314f8c78ce586e3f00da9b5530ceb",
+      "input_hashes": {
+        "trajectory": "993815560ee3cc49e47bde830c9cc0df4e088b5819157f7927acd95da92c756f",
+        "metrics": "30902d16e82b9b780781dfa0110f4c246c5f4d42591c703cd7716825cdd9a0cb",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "6efdd1cbeb9390c2",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_6efdd1cbeb9390c2.json",
+      "report_sha256": "79bbe884aa78356cb0eaa7fe68d83deb1822a730a78eacbb1a057102f0c835c9",
+      "input_hashes": {
+        "trajectory": "7c06d18d1613419e014e41ca6c40d47f2e669cc957bfc7c908ef363a313b9f67",
+        "metrics": "9f5577d52183262940c78bdf51a6fa7d4e9148cbe2783983370e665669492e46",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "6efdd1cbeb9390c2",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_6efdd1cbeb9390c2.json",
+      "report_sha256": "203610ac61e3704f22ebfd303fbd5934c5da28ecc33185806f7ffb5dcbde23fa",
+      "input_hashes": {
+        "trajectory": "97ca958ca9b611bdae02d42be369e29d1bda617c217a08758636ed08eef71d51",
+        "metrics": "e4194e28944e38348861071acf839f64ef919b94cfc67581ab5fcc3c7aec381e",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "6efdd1cbeb9390c2",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_6efdd1cbeb9390c2.json",
+      "report_sha256": "2464a33fe6bf57ecae4f219aec39d7d78a3833b15096742ea4e282b54045aaf3",
+      "input_hashes": {
+        "trajectory": "113ff7f781fcb5a27fe4a75a2ae6c3785ae0f85c65e56d20de7addae2fbcd6db",
+        "metrics": "419ef93765b743a5aefe95ee631663dad85900a599369981fdc7612a6896dd9c",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "52ca9d11f98d3a45",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_52ca9d11f98d3a45.json",
+      "report_sha256": "d17afc35f829aa2a9727c3520e40b3f0589c4b4bde746b1abf34838a98c75235",
+      "input_hashes": {
+        "trajectory": "dff4b7b7597c033a48f5c51991c0dd7d11005b9dd41f57a4997ddf78a380355b",
+        "metrics": "be1e05f74270daa5c02858647151d6b7cb55587564b6db84b0cb2078c8bea97b",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "52ca9d11f98d3a45",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_52ca9d11f98d3a45.json",
+      "report_sha256": "8cda7d7bf2f908eeaf4c0b762b1e77bd664feda7bab9da08167a282a7b228331",
+      "input_hashes": {
+        "trajectory": "4168327853daed7a06f681707fcfd8e6446440bc0f870a9ecf4d8bb743aafd54",
+        "metrics": "191fcdd41a9a464af2b48a832be353153d6b6649a17d9f61558227686372344e",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "52ca9d11f98d3a45",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_52ca9d11f98d3a45.json",
+      "report_sha256": "107efcb4e65bb183b1b6653f3f82c8472eca705f13f5e2abf5688129f44d1e5d",
+      "input_hashes": {
+        "trajectory": "ab9159eae46d8d3dc946bf9fcdc7209a656d8b7092f70e773e46272776dac57d",
+        "metrics": "7c3e429879a7cfb764f1d246abf5110e361bcffa37f7e01c6107cb38b4acdc80",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "52ca9d11f98d3a45",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_52ca9d11f98d3a45.json",
+      "report_sha256": "7d9e2f83d13dbb1d2312f026da9975b7161b8e0c50e29c64bb0717fbb6be2a2f",
+      "input_hashes": {
+        "trajectory": "9b11641cac7616b7bc12e5cb530380896c09ab6ff3f3a6dbb9a3b937691b6d7f",
+        "metrics": "8ac0ba617073ba5b2c79392187d4de4fb0f9d99caf362b148de4a3965c8933c6",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "49fe1e89bc0d7166",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_49fe1e89bc0d7166.json",
+      "report_sha256": "996203297ff6ab8af72e1fba4e15acd8a1a774700c782e1693876b9f9c81f9de",
+      "input_hashes": {
+        "trajectory": "22a44bdc7653d0a676ebc7436381ba9b6a53ace8606eafeaaef103b1dfa1f819",
+        "metrics": "21b82616f0e43a78ed01a6798a33d9c594d19c6fc4bf9386042ce7787d7be493",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "49fe1e89bc0d7166",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_49fe1e89bc0d7166.json",
+      "report_sha256": "9400ae38c33378f6ba64292109bf006bd4b9d00e63c7a98792010c2ee9a7dbef",
+      "input_hashes": {
+        "trajectory": "a060e43a051599732b48aad2d5c161c08ab6edef3b7b443168a4947f64fbbdf6",
+        "metrics": "16475ead1cc2e4a5d2711befd4f9403c460740197ca5e1bebed033dba116ad23",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "49fe1e89bc0d7166",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_49fe1e89bc0d7166.json",
+      "report_sha256": "e57237f705771d793543861e6501cdafcd03f28e3196a6344052a1cc12793b2e",
+      "input_hashes": {
+        "trajectory": "6cdb274cf9ce76208091a88ce120cf9d475cd94f94e47a772c33c02562e79b4a",
+        "metrics": "6b310e01e261bac8ab7f23b133fe56d978ba774338c29b7e73081f490e0bb281",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "49fe1e89bc0d7166",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_49fe1e89bc0d7166.json",
+      "report_sha256": "6dd00b25f7044633560dcd50195d244c5c09b3207842b9e6b9c2061a82c8ffe1",
+      "input_hashes": {
+        "trajectory": "47acd5f6b17bc09c722cbb45990477c120739e35552f516b562a98fa0459b678",
+        "metrics": "38b18697f29720625e3905449852b126e0343c84e85976dcecee7baf4afcc26b",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "3dbadbc095a54a4d",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_3dbadbc095a54a4d.json",
+      "report_sha256": "15ac437d110954f3c6b5d27180fb50cdbbdcde59a4fb6c46485d4ec2268ee4d6",
+      "input_hashes": {
+        "trajectory": "377d801c82a958061b8e514189f31d03172af250d1d638c96aebedfd033d90fa",
+        "metrics": "02aec059bb7a10ce6a3b5e52136315746daa408164a084d70256bdd457c57c1f",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "3dbadbc095a54a4d",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_3dbadbc095a54a4d.json",
+      "report_sha256": "e6e1659b14d3f1e7b76673e950540115c302fa82faddd2bd4b4f829bdd0c23f2",
+      "input_hashes": {
+        "trajectory": "bbc1e6eac51fab6c7a448b5e41e53cc68fdd24b33def360d7b76380524c8a6da",
+        "metrics": "7cd5cd28e9b0c0e9d00424e9934c6041c7fba4d77efc6c7dbb30b08488a7d1f6",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "3dbadbc095a54a4d",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_3dbadbc095a54a4d.json",
+      "report_sha256": "bef8b95193876718efeab91bd4418d3ca69085e1dc4eec7aeedaec8f910181dc",
+      "input_hashes": {
+        "trajectory": "1627d29c033ceb32ec07fdc7eeb13413fccfa29bf12700d5c00321d044436988",
+        "metrics": "03b8c7527f3df81763dad6f7a98bc595867c341c4a38b1d888415ecc95783fd2",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "3dbadbc095a54a4d",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_3dbadbc095a54a4d.json",
+      "report_sha256": "28ac6b891ea451f09eef927e2fc93c81f24987533b61864ad3bb61cd77604266",
+      "input_hashes": {
+        "trajectory": "fd2815daa33a03d59e1e534d1d0bb783dc6a06048cdd64008a7aca9cfa2457b9",
+        "metrics": "2cbaa0d003db96bdc9ab9677ceb53f80eb22ec4aab6d121ff07e76dc42308ef6",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "e493f54273b083c1",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_e493f54273b083c1.json",
+      "report_sha256": "403fee62c9eda3109eb3332cf8864bd0bbc4c3a2674851abed8d75d84394d5a2",
+      "input_hashes": {
+        "trajectory": "63370ba7e380fd4793c4c04577ac67588c0f33bb21d8578adf53b4685edaedd0",
+        "metrics": "c5de7c17c1dc27c3791d8e58715255c7f3b888df38116c6e8fd4e546271a4772",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "e493f54273b083c1",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_e493f54273b083c1.json",
+      "report_sha256": "26ea013304e967ec1dc0005bfa576ce3fe7808800c5047e3ee3ee38558724265",
+      "input_hashes": {
+        "trajectory": "cc8f71aa08dc6c8188112514b832795897f855596723c8e10c852af56480e46a",
+        "metrics": "5e2ba0f064e91c2909f97fae734addc9dadae80243e344efe62785c5940ac33d",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "e493f54273b083c1",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_e493f54273b083c1.json",
+      "report_sha256": "090d8cafad82526a9f9944d29cdf350a18f73e962feb2d9f3144f84230f9f664",
+      "input_hashes": {
+        "trajectory": "ee8e9f32963730de44ad3ce373025fa0da57048c29ea18e606d943be46d49434",
+        "metrics": "703db16538b8e15713b21a5834107caf79833cdf38243c23c87d4946272e23df",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "e493f54273b083c1",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_e493f54273b083c1.json",
+      "report_sha256": "fcfb98ca987c1b524e1ec94945aef4a82ff35addbcbee51b3718c95835fca991",
+      "input_hashes": {
+        "trajectory": "1f40006b8e46631aae8c6c5bd0ba4593e18f81291a7bde1fe4962ddd000587ef",
+        "metrics": "ac14357f7e2a8c4438da8862c3eb1a4ba50f253a8c899e77f194ebcad1d77bd9",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "4570ad5cda797dec",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_4570ad5cda797dec.json",
+      "report_sha256": "553798ff4480cb28fb9581211854255b05f320a5c841c9281092f787a5b22df4",
+      "input_hashes": {
+        "trajectory": "621987cd00b3521082dae4deb2f779acd13e29e6d266aa1f6bf60b5ceebb8188",
+        "metrics": "864302a02eaa8c1b80fc7a11664b47eb85eef919de599e371b3b2ac2a3a787e5",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "4570ad5cda797dec",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_4570ad5cda797dec.json",
+      "report_sha256": "cdb834fe12a8bd527c817f262b3c703bb31ec00c2037d2098a6b471d7573acc7",
+      "input_hashes": {
+        "trajectory": "5065269847624ba51217eed0703514a937c5d3d91869c5c64fff5995d06832f8",
+        "metrics": "d0b6fedc865aa492bf4eb78d98e11ade25864e5c413c7158a7352c10e0a96680",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "4570ad5cda797dec",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_4570ad5cda797dec.json",
+      "report_sha256": "658f0db676ae83d24d9d576c12c1df060d0811621ecd39f5f7eda934018e85f2",
+      "input_hashes": {
+        "trajectory": "c89b92ccec4f602dde5dba7af437ec09efbb33662abfd04ef588720728ac9136",
+        "metrics": "e80c514319ccc615e20b36e0ab44efbf219e8a07d077061400d4037b901baa1b",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "4570ad5cda797dec",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_4570ad5cda797dec.json",
+      "report_sha256": "2f46e62e756b06a8085454e0ee7f5167ee41b9e8a435769b9073504e24341b13",
+      "input_hashes": {
+        "trajectory": "b6b8a35f4ae260c59dd4c6a0ef1d99b012827e3a64a3ebb4037a9884f05454d1",
+        "metrics": "f151c054e9d94409cb7f7b3e82beaf9d1ad93e3e8c70004e98de55fe8e32d4dc",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "9152d976de489293",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_9152d976de489293.json",
+      "report_sha256": "306d8d009df93942a5c7b46b672a64d5f6dc39caeb28ea1528c1698d29c5a53e",
+      "input_hashes": {
+        "trajectory": "2a38aaa998c3c9319476a2fe4a8f3dcefb9f1a7ddba6aede5fa75e23dfc121e7",
+        "metrics": "28aa54f6daa49987b994df0b93837b2a4980de77930196d216ae2964cb849a4f",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "9152d976de489293",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_9152d976de489293.json",
+      "report_sha256": "54d35cafc1241a26a200895aa7f62ccf0cca868f19787fe57a4671cc29d931a5",
+      "input_hashes": {
+        "trajectory": "24fd468dc7f644bcc1e93438377b20799dd70dfe7b91a9a15604c65d57c6fa98",
+        "metrics": "c92673b8ba241051310997daa295a9a4b7509d75f4cd809a7811ef569bd3e433",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "9152d976de489293",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_9152d976de489293.json",
+      "report_sha256": "94d7b71e28f0b9478e764ad104913db0f598ffcf1b5f16b6e0d5b5a4f2f3e246",
+      "input_hashes": {
+        "trajectory": "19069653c83a006a87d586d372307aba732e23bf09bfa7198dba1e11b07efa38",
+        "metrics": "dff9ab6e07f0f75d11362a2e03e9cce75854551ca08ee7a0c9669b6b00d6151a",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "9152d976de489293",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_9152d976de489293.json",
+      "report_sha256": "5079c8f7488086d711f9bb4302dd3caec5411b82dfc3fec1708a768b2ebf9ebe",
+      "input_hashes": {
+        "trajectory": "8fa47b70fde15b5f10e8890dfcaf9f71450bef737cf2048bd97f8ca587165812",
+        "metrics": "c19a6efbef396c7e545215a9c5ec42c850df30b98c4fc55d6eebc07e79f0c0a4",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "c4458f2f6fb06e54",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_c4458f2f6fb06e54.json",
+      "report_sha256": "19c476d5eaad2ff5d0e79802a19fdccfbb94c88589c0baaeefce1ab9f64ad1f2",
+      "input_hashes": {
+        "trajectory": "7ee6d30a2fa4a7795bb0a909e425cd103183f5c7afa4523e1c75ea963f8f2491",
+        "metrics": "1cbb3a28d995dfae85643b34f61e10a536d77efbba7ffb0b5b1b48dbbf87c640",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "c4458f2f6fb06e54",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_c4458f2f6fb06e54.json",
+      "report_sha256": "f6ca280824bad6c47fb63bb4983a9b871390012290a4e5bb3bdad308c9bdc059",
+      "input_hashes": {
+        "trajectory": "cff122ba981442e746394cbd5e1b4405c655a5121e65205433eeacaf76b59e03",
+        "metrics": "b146f919cd54bdfd9603855ccbe2631c9ebcd8e4b71132d62f21df2ced6c7f0e",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "c4458f2f6fb06e54",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_c4458f2f6fb06e54.json",
+      "report_sha256": "de7c605204cf7f968757b02dcd1e639ddfae4609f8956b7e183498cc149bdd58",
+      "input_hashes": {
+        "trajectory": "1e524686d1de5284bca3cfcb1fabc8bdb2e76eaaa8d3d97aabc04b5e459fe958",
+        "metrics": "b02499b39da328ebedf1dcd40f84656cd7f6ccf56acebba8c6f4778ef6f4761a",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "c4458f2f6fb06e54",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_c4458f2f6fb06e54.json",
+      "report_sha256": "ad6847e78eb81629caedc5b94c1e57efcb80c92a5cbcb9c0dddf5af169d37930",
+      "input_hashes": {
+        "trajectory": "630b5cab5c4090df0a2a437baaaf30bbcebc237234d861d99450330a2a9b7ed0",
+        "metrics": "bf40dfffb10447d48c0d5948c313cbbc98eb61ed3c5179c1a4a207b1aa553758",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "7369b0d225b8f24a",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_7369b0d225b8f24a.json",
+      "report_sha256": "7daa4c741f0f5d885dba7c0ebb19a9ce5376d638936e2c0a6260b0c7d7600571",
+      "input_hashes": {
+        "trajectory": "0b61c6a183312237b44fcdc6e010e38b394856c71edc449e446c97ef57c42e0b",
+        "metrics": "f6d9a7ab1d64fd26391102638c019a9e133db1bdbe28dabc96bbbaebec5860f9",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "7369b0d225b8f24a",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_7369b0d225b8f24a.json",
+      "report_sha256": "86cfea396ff456e488c55438871027bdaeee017a8d10f8daa32a24ba72d827f7",
+      "input_hashes": {
+        "trajectory": "04269ba956b7d086df733708f3db5b7229195a451aa7a717c8cf3536d930d09f",
+        "metrics": "7574f64478dfb066307462182ff12a25d9b3b7298155cfa407c06c1870eba8fe",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "7369b0d225b8f24a",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_7369b0d225b8f24a.json",
+      "report_sha256": "63fc71a15f94ee2776449d265c23241158df546ef52d5d7b7f367122dfc97b2e",
+      "input_hashes": {
+        "trajectory": "596c6dfc779fab6d7eed096939577a2ba20ec63b84e799098bb05a3b708d28cc",
+        "metrics": "f9f3b76eb619f34b7d0b0ff7d81a4191239326bf76571d826a89daa2eba2af86",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "7369b0d225b8f24a",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_7369b0d225b8f24a.json",
+      "report_sha256": "461b366c2b9b75dc86335dfe64118cab81380224ae4f0f040f8e98a3f92cc15c",
+      "input_hashes": {
+        "trajectory": "be70ddb3fe3539c3afa1eff7fa19c6c946bd89cababa68f427ac9f847c44d862",
+        "metrics": "50d3b70a06be6e8d4e2e1c02f2c45f52c69a194dd757988a8ce4bf3121ba32f1",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "7d331156cce3d04a",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_7d331156cce3d04a.json",
+      "report_sha256": "a6b937525df933157920a65fdb73cb8d3507b1343bebb8971055e43c4307ca00",
+      "input_hashes": {
+        "trajectory": "30808369f9e846ef9affdba7576419c3567ac9d672d3ccfd5e81df882d951008",
+        "metrics": "e626a109e99121bbb41d1a1d2838513b473c92e959ae2dc24708678682895b8b",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "7d331156cce3d04a",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_7d331156cce3d04a.json",
+      "report_sha256": "206c4680b7d4779776c6789ff824aa6736877462803c31de6f807a433ab0b491",
+      "input_hashes": {
+        "trajectory": "9dc2346759124a0b91fd99344942ef0769311697406e97c654372000c2877297",
+        "metrics": "7845a5b14656d904ac35b2daa816318915f8e922a0f536eb1e49c36bf93e6191",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "7d331156cce3d04a",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_7d331156cce3d04a.json",
+      "report_sha256": "e4638b0e8ecfc623913436185dc76b819ee0f8da964bf342cf7aa2402d1fca91",
+      "input_hashes": {
+        "trajectory": "6120f9ee55a8579431b05747a48e23048837461f348a669ffa3634dde40d2236",
+        "metrics": "2a098c45ac8e2e534b60a28a43a63c7fd2238090cc30e5f69630effb3989cc76",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "7d331156cce3d04a",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_7d331156cce3d04a.json",
+      "report_sha256": "e23b4a230c12fda399953d69a41d293800350aa284de01072f46a80e09bef18b",
+      "input_hashes": {
+        "trajectory": "ab4fadea9b1f52423db7dd6bcccbf3070faaa4cbfae803dcc513a9c5a74f6cd7",
+        "metrics": "81623a16e06afd7906cf2887fb3f573e20b8ecbbc08d07590cf21c08bed208f1",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "9b120da9701a0ad6",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_9b120da9701a0ad6.json",
+      "report_sha256": "059c028a9b101245ce60c89ead824983d45aafdb10dde1fb7fb05f67407806cd",
+      "input_hashes": {
+        "trajectory": "f92ab91fc6c21fb38df7d0a38ad3efd8783ec5ec1fab2f07d0deb9e469884377",
+        "metrics": "0fdb8ee96a3d4e52f53d0b66f298abe9e5097b388cd43b0d2c7c1914558b26b5",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "9b120da9701a0ad6",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_9b120da9701a0ad6.json",
+      "report_sha256": "0b56c2e5f1058b3dea007b87bac8b5b9e362a8647500f5a1dc3cd71caef817c9",
+      "input_hashes": {
+        "trajectory": "149af757f894e8f77a08809364ca3ea29a835ea08d75a143f33c7c0a2d50b18c",
+        "metrics": "d42a95cd2575b7fb44dcf783e9db82cd02deba26baad52440c83d666f5801102",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "9b120da9701a0ad6",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_9b120da9701a0ad6.json",
+      "report_sha256": "a7f3dc1c1f5fc71c6c16067dc384d2df7436269a8c51aa2fdc56e5cefef314c9",
+      "input_hashes": {
+        "trajectory": "702a558b605e9ce2fff48921467f082c4d9e7e331f959e153da30ff54cb29c52",
+        "metrics": "28457f8760c5efc41bcc6d053d79611d9e2ab588a757595ce4f0fd47e25ad848",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "9b120da9701a0ad6",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_9b120da9701a0ad6.json",
+      "report_sha256": "7697206ae5b89a0f35f7da2a1e4e9442b0633f2dc8023c028315c59f6b1d5a7d",
+      "input_hashes": {
+        "trajectory": "9e022259d8fc8c5aa282b9a4a8e160c4ef67edd037438b3868a666391cf6f2fe",
+        "metrics": "28aed84263a8adfa2eee20c26084d9c8c46524ae76dde868046bef0eedf11832",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "592bc8462bb5cae5",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_592bc8462bb5cae5.json",
+      "report_sha256": "5c78a44c41ea0b304002b115217ac7f2eac0fa38e14fe81361d0d3db931573f7",
+      "input_hashes": {
+        "trajectory": "07ea3075de887fb0a9935448e618ca7c0446c2148ac38a4411b131dc1ceb564f",
+        "metrics": "a0bf4f12e5ea163825c0203985089915820358929bfebc7959005292b5949a8b",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "592bc8462bb5cae5",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_592bc8462bb5cae5.json",
+      "report_sha256": "34fe7fce8e870977f2ba6e5f19fb8235293af954c29c34fae3f3f8a43bd497e7",
+      "input_hashes": {
+        "trajectory": "21e1952b3e8259631008167b7264033e0bfa05676f719ef57d9221ddf09b9800",
+        "metrics": "fd472d7a41f119d684cbaee9b3a6ac1b3efdaca419707bee86e20f09aa6a8f50",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "592bc8462bb5cae5",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_592bc8462bb5cae5.json",
+      "report_sha256": "d7c4d9010df7353c43c925f388c74038b575a9a04a194864df1c7b7d60b54af8",
+      "input_hashes": {
+        "trajectory": "69d8bf9867e793b6859700a58c766368907e55cf12af82dd22b204c99745f071",
+        "metrics": "05166f42594575266968e58eabe3a7fdb30d40a235982fcc50bdfe3eaa868bfb",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "592bc8462bb5cae5",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_592bc8462bb5cae5.json",
+      "report_sha256": "153c8cab500c05a9275ee4f03f34b7018e8668588d0d7dbe9636d1f38c77bc87",
+      "input_hashes": {
+        "trajectory": "737bd140f6f92e069f0a07b4c25d6e90ee3359a2ae799c04683f70cd6c8eb16b",
+        "metrics": "9c14a235bea4c0579c1c404f977c2f025e94d615f0fde942d53f361d23f8f736",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "69eb140d3b7ad049",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_69eb140d3b7ad049.json",
+      "report_sha256": "7b4147293dcd78294ff06bf2db1a3dfe3cd6ca9b20e7a58c0aefa1d0699b99dd",
+      "input_hashes": {
+        "trajectory": "2a9780c574d0de9d108cc3c42b15f9d47cfe84e2dc61ed6e0fcdca2b6447c1eb",
+        "metrics": "ecf49d09f2e59a75ea9520b4ec02fcaf3fbfce844408eb99e0c874a484930808",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "69eb140d3b7ad049",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_69eb140d3b7ad049.json",
+      "report_sha256": "0859198d6d97be8bf9a46c2f90d1b5501a66a6ac3002073b79541af9664b2980",
+      "input_hashes": {
+        "trajectory": "1ac3966fc1ff5b9d551272ca8147575a64eb124c72836b521291dea4e0ff2859",
+        "metrics": "dbadba9b766814ec1dab6b23dbc9f1027387f05dd82fcf8f7fa32996b701a2e0",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "69eb140d3b7ad049",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_69eb140d3b7ad049.json",
+      "report_sha256": "6eaa0fe3acfffd468d061c4abf5462b653f1e05d1f5be6cf708368cbec071078",
+      "input_hashes": {
+        "trajectory": "e15d9fac1d9f1b1c422623873db5a58e61c276e19a5e4230aa3a9938f1716c5a",
+        "metrics": "47ffb033f77c83fb19e206f00db884c449c08632b882f8362a95416d83d7dd8d",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "69eb140d3b7ad049",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_69eb140d3b7ad049.json",
+      "report_sha256": "88e2842bb04e5a43806f1734cda2a2950b36d2c4fd6d1653b00837bd25f503cc",
+      "input_hashes": {
+        "trajectory": "e8e4f1f4d7c2c5ab0ff2c810c281c8e8eecab3691fc8522cc55f3c006c0908fe",
+        "metrics": "151cd1f528f1e4dd4d3cba276b14664ab58c3ce9d0fb6e596bd1a9049c8fa442",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "51bac964dec9def2",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_51bac964dec9def2.json",
+      "report_sha256": "da7e4b58eec057b37bc35faa484b837150b0e12bfeafba09398b7ae5a2cec65b",
+      "input_hashes": {
+        "trajectory": "8e607a5ed84de054cb280ddd4a59ddab55a808455291ab38560ae60212511c53",
+        "metrics": "ec5de71d0a0e032f0baf051cb5e8bcb487e529984e8c0202cfa5cf210044b3fa",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "51bac964dec9def2",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_51bac964dec9def2.json",
+      "report_sha256": "9a870464e31a18393a4339e4137c41eaca8eb97adb30cb89dd14bd528fb8fb18",
+      "input_hashes": {
+        "trajectory": "8bf8d67f57cd96496d90200acb0f58141c4eb9a4a841f31cacb0fc56a76e20da",
+        "metrics": "b10407d4853f8bc3c375234bfd367906eceb1b44fc44397aa178319c0f983f1b",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "51bac964dec9def2",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_51bac964dec9def2.json",
+      "report_sha256": "57119eaf597d40da79c4a56543d001da870d614d840d4b0a9c4c3fab2733f73f",
+      "input_hashes": {
+        "trajectory": "cfc60fd932580c04f474aff1922a121667f260fd67f9f0758927ebceda3cda45",
+        "metrics": "74342de1bcedbcdebaeb25fd93bd3a29055ba6ed26f8e025baceaf32f65a2f5c",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "51bac964dec9def2",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_51bac964dec9def2.json",
+      "report_sha256": "7b68a859a9ecd8dc9e8011e4d489abc32831329cfe6e1acafe7acea420cb8172",
+      "input_hashes": {
+        "trajectory": "b6024e52c92b34b0f754972b5fa1cbc263b1a65a110ca83a97e8422b2568b66d",
+        "metrics": "ce21ec700ceda28c19aca1a95c709a630317b3c6aa20faa6c29196eb0a6d174c",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "867bed8aa5daa8e5",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_867bed8aa5daa8e5.json",
+      "report_sha256": "50f2c6e76e3cfff5f5d5ec320b25a8c5b140e4b131b4e3b1ff30ad361a5fed54",
+      "input_hashes": {
+        "trajectory": "11d7471441067b52fd5dd3f5d9e3f38a1bb82241d73def2a3fd7dbbeb6e3fcc4",
+        "metrics": "5cb5e077585c6ddff23d826957092a61e65c41f9d33f43cb1b5d09ab2d3aaf02",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "867bed8aa5daa8e5",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_867bed8aa5daa8e5.json",
+      "report_sha256": "2e9d24c0e23ac5ab5497bf7dd3a23699835bb5976c29280438e75f2d3909eccd",
+      "input_hashes": {
+        "trajectory": "680b57317474596c63f3fd5f0e2809cd23694fb9e237b15f5f2054f363fcb518",
+        "metrics": "c9b922ada96a864b31b7747f9e86a4d2e9dadc5a36249739cbc7e68d9a6e1edf",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "867bed8aa5daa8e5",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_867bed8aa5daa8e5.json",
+      "report_sha256": "fdee5ea5a77bd61d8220cbfcda4ef757e089a976411d30595d96d2e9e419a25b",
+      "input_hashes": {
+        "trajectory": "78bb939a09ca14d3caa3a541f81319f6c27338d1760a0be3ee070b5444e6e947",
+        "metrics": "9d0faf0dc65a75c8c5789f8ff777ddbdadbb785c34b93914c784f069a9b9fd25",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "867bed8aa5daa8e5",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_867bed8aa5daa8e5.json",
+      "report_sha256": "02ced4546b52dd4312850a72c374d0bd8cb21d00c485e3ec9d271de243d7c926",
+      "input_hashes": {
+        "trajectory": "87e023c4983a49516ed423e4a83c0d075c45650c49619945642a4ace704cbca1",
+        "metrics": "9e07f1c0097b51b0cece00675b492cdfede991b971dd461d5bf4a51e69365e7f",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "3f4e5973d35fc45f",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_3f4e5973d35fc45f.json",
+      "report_sha256": "1bec8f6901ef110254d9f2cf4863ccaeae9e0b8f3d058a7e9b2673b737543cb4",
+      "input_hashes": {
+        "trajectory": "70e7e704f66601f7793c55ee6adf84bd370b1694761ffd51c375d4b9deffa616",
+        "metrics": "819674da7e01df638bdc82cfcdd69ef1879a8a342369b12a2d56064c09b699a9",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "3f4e5973d35fc45f",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_3f4e5973d35fc45f.json",
+      "report_sha256": "694058b95f9ab79ae6c09b2c7e28f6286a508aabd4ec84e0cabbc08e0df08934",
+      "input_hashes": {
+        "trajectory": "acb5f70e6ae5f85496dd7a82e2d09ef701e8b18e1f6c07a8febd1f5bfc8b4791",
+        "metrics": "a99bdadac75ce6a07bfe999dae77ca92357291c65eb304a0a8b84eaeec975a71",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "3f4e5973d35fc45f",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_3f4e5973d35fc45f.json",
+      "report_sha256": "2bc55ec9c57067eb8a4661d64dfbc949f6214531379eac3fc526db187bd60d07",
+      "input_hashes": {
+        "trajectory": "dafa46efd05e5e8019ac58531e935533e95f1a71b1114521a45ebdd1a1285b32",
+        "metrics": "122275371e7e8fc0fbea1a6aac81d634c8e47801c836c73b92a655186191d471",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "3f4e5973d35fc45f",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_3f4e5973d35fc45f.json",
+      "report_sha256": "55fc383c9d00f50833f6538feaba6ef2a24525788077a7ce2330f901e1bd6253",
+      "input_hashes": {
+        "trajectory": "a87b52a8a5af77f7fa6f629a18d78df319deecc9ca6835b090964ce8f08cbe92",
+        "metrics": "788a223b009b73e77141d6c7c1d8847c86d552b8e91e28431c0cb4c678ac5feb",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "d62d51371d07e6f2",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_d62d51371d07e6f2.json",
+      "report_sha256": "9fba3146a2f5ab5f2146b0fe3b25ab3507f253eb46d5811a5a3870355b63b139",
+      "input_hashes": {
+        "trajectory": "cdb1a64ead9bf9fda67fed867c8335f18552ce2ce6c088ddc44fdd787abf1d21",
+        "metrics": "31de395589f90b8c5aa14925d9f52be2a692c2d865170ff7d7643381c218bb81",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "d62d51371d07e6f2",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_d62d51371d07e6f2.json",
+      "report_sha256": "7007eb7bf8443861555b7d605496a6028cc41e8beaeccaa1325e7b797c9c07e4",
+      "input_hashes": {
+        "trajectory": "2761f23c77b5ef0b01c9792d884c544a90debe44eaba997b398a182c8d528b8e",
+        "metrics": "e0308919b2dd711c2d55821fa40895144a79eeea62016462af1015af53446512",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "d62d51371d07e6f2",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_d62d51371d07e6f2.json",
+      "report_sha256": "0ae4ce06a226f0feb99bc39254a61a55524a4a3466ce08d63dc62e8584bb9105",
+      "input_hashes": {
+        "trajectory": "be0888b8b8682a8177cdf0897d58ba711778ac3aad3dfe416eca3c4b659fa657",
+        "metrics": "e1980ed5c5ff017740935cf62efa8f54e66249a6bbb3a9649cae006674b2b1e2",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "d62d51371d07e6f2",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_d62d51371d07e6f2.json",
+      "report_sha256": "d70568174a662772b3a9b2238795b469d79ff513a7638700df648b171c5efc58",
+      "input_hashes": {
+        "trajectory": "602e01b0d753759b138b7b1c7fb89b15a6c3df829883818b48042abca56ac6d6",
+        "metrics": "f6054c1c2cde7e818682c224ce1de3b7e25a143cda49ff7efef6b49bd05ae94c",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "d6ec61e25a4be690",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_d6ec61e25a4be690.json",
+      "report_sha256": "52821ff158ea49b746f4c5e112db704e3fae546011b682f2ad0a7f97cdad3a52",
+      "input_hashes": {
+        "trajectory": "13343e802b0516cfaa8aefd538cdef3086f49265429d8eae8a8c76a1cf46fee2",
+        "metrics": "cd53fe0d64898ba79a03dc5115861b624ac69be1e95d2bbd8ed19d3e911bdd4b",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "d6ec61e25a4be690",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_d6ec61e25a4be690.json",
+      "report_sha256": "cbaa42e0f3275b94d5524bdd92fc349bf7d69432d8d365d49c9b95efddf7b046",
+      "input_hashes": {
+        "trajectory": "541cc430b443dcc70af7c944d1559ae958e169d64a27ab8e5ba73f0c94474612",
+        "metrics": "3469b7b1ccc6c344f841d8fae67bdf354a9380dedadf03fed3dadd5ed9092e94",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "d6ec61e25a4be690",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_d6ec61e25a4be690.json",
+      "report_sha256": "ab5c69dd7bfa7149897078e21d6002a7d5e0d291044dd64422b390315667aaf3",
+      "input_hashes": {
+        "trajectory": "f0bd0dbe83619407456220dfe5ee0a217d7d59a1bc1d9f6209bcaaa451d627fe",
+        "metrics": "c5c66cd6029e09e514ec3bc9e4d23f9b27068904d450c53f0a8643387f2d38a5",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "d6ec61e25a4be690",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_d6ec61e25a4be690.json",
+      "report_sha256": "1ee538facaa6eab3aeb03776db62389102124ca5cfed967fbf01b778fdfa5ad4",
+      "input_hashes": {
+        "trajectory": "6b8b8ed01740ab1e1c6b3287f5b073a1929f701956f55f07a4e7f4eb018f13dd",
+        "metrics": "bb2451ed7d704e228148ca4179767876d4b97b9c3b6e6c3c075f6dc258910da8",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "14efb40e2e2a7223",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_14efb40e2e2a7223.json",
+      "report_sha256": "02ca2205dfb51b36e95f0e08f3770769742c2cef2bdb885cd0f75c6d95590bbd",
+      "input_hashes": {
+        "trajectory": "3f0fd81fbf8a25a6e0507a8756a7ff1310b5d260a630f4f0619ef85b204227b9",
+        "metrics": "b6c7c32c80ee9be6285626e4bc7d323fd23131a07d9ba6e98e4dbd726a6120cf",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "14efb40e2e2a7223",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_14efb40e2e2a7223.json",
+      "report_sha256": "260923dcba0dcd2b1892b3263234d801af51287cdbe947a77fed616f91c6a02d",
+      "input_hashes": {
+        "trajectory": "b61775d8e0147ebcabf3933f575b45d2649c7b1b7299e8c1f0d4771766d945c9",
+        "metrics": "abbd336fbbb18ade48b993c39479bfbd9c7480663e06103eefdc9eb9f6d6f450",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "14efb40e2e2a7223",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_14efb40e2e2a7223.json",
+      "report_sha256": "b4719bb3ab2cb34c80216f370d1b934c4eda6caf8286d33e47655be6f35ac393",
+      "input_hashes": {
+        "trajectory": "75e73616533389c918873597e79396ccf8fc6a7dac0b8eee019d466a133f18e3",
+        "metrics": "534fe258cd9d255e6a3a77c7bfe29c660a006960e80b2d3fd1e500e69db2aa43",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "14efb40e2e2a7223",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_14efb40e2e2a7223.json",
+      "report_sha256": "0121375cb3178ca2e988c66f3fa28d4d31023acfe5386c88a7dc078b9522f9ec",
+      "input_hashes": {
+        "trajectory": "7f4f83d8abae599700318cea780103666a622000ae056a33d7038cec00ceebca",
+        "metrics": "c676544b1451786cdcf79211ff801239354bbc3362d4ce66ce7ecece6bc4867f",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "2e1fd5d7b5ff08fe",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q2_2e1fd5d7b5ff08fe.json",
+      "report_sha256": "1684a4afda78958c3008c0e78a7bec39659639424392ba0d48e36e1a7582a12a",
+      "input_hashes": {
+        "trajectory": "6f6ef970d6814f4099026fc77b6128882d2fafdec33a0c46faa1da695fe289b7",
+        "metrics": "241d55255ba2b9c2750a0394cdc968658ec1c9f47a9edb2db8123501a08de82a",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "2e1fd5d7b5ff08fe",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q3_2e1fd5d7b5ff08fe.json",
+      "report_sha256": "ceb596a8abd014d0facf2ed73e86fd827c1b730b68e2007894f4e1b1e2a3ef84",
+      "input_hashes": {
+        "trajectory": "9ce5a42f3de554111c40cb0591e16d44b4bce47fe9741830c1953fd950863b0d",
+        "metrics": "3607a4c48c61cec4bb47143a2a9a3590c305c0c8133c96794d19e8f0c1482bbc",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "2e1fd5d7b5ff08fe",
+      "status": "PASS",
+      "checks": 169,
+      "report": "review/development-physics/q4_2_2e1fd5d7b5ff08fe.json",
+      "report_sha256": "155728cf67a0ea71b647cda4fb54f72a692b5d7342f2142da63fb96f57a710b4",
+      "input_hashes": {
+        "trajectory": "930aadb0a8132e63ada0fdcf9c4a3d1893680c9fb1d08c9018f439059996c7db",
+        "metrics": "49b8ce49be4a0e59b6f6f03eed116ae64df505642bf67e64a35dd184b62568aa",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "2e1fd5d7b5ff08fe",
+      "status": "PASS",
+      "checks": 175,
+      "report": "review/development-physics/q4_3_2e1fd5d7b5ff08fe.json",
+      "report_sha256": "2c3a8845cc4cb7009deae4c41f025f88f9d6dcfbbd014158949bddbd5e42d46a",
+      "input_hashes": {
+        "trajectory": "4b3bdc7d5ec164b1eb58bfeba4e4f0219ac4a64f0c2092d48c297111d5674554",
+        "metrics": "3983f72d9d06f41338d6e90b33c0071d67bc9c88a23952d3a4ac9899464d37a6",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    }
+  ],
+  "failures": [],
+  "pending": [],
+  "frozen_selection_sha256": "046fe0d378a130b1d7dcb5ba8178e823ca2ef8f407c7e8066f1e95ccb279ab1f",
+  "auditor_sha256": "d7f93eac6dc07d6f810629a2eec260cf5119aff6e836babcb5394a99d67984f0",
+  "execution": {
+    "command": [
+      "tools/validate_formal_results.py",
+      "--phase",
+      "development"
+    ],
+    "runtime_seconds": 0.4069005420897156
+  },
+  "scope": "Independent equations and actual bill, output consistency and recorded contract permissions. Behavioral information causality requires separate mutation tests."
+}

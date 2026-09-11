@@ -1,0 +1,427 @@
+{
+  "scope": "44 monthly three-day auxiliary lower envelopes on inventory1200..10800, after500iterations. This describes computed lower approximations, not exact value-function shape.",
+  "models": [
+    {
+      "model": "q2_120",
+      "active_root_cut_count": 4,
+      "active_slopes": [
+        -0.4762777777777781,
+        -0.4603162478286431,
+        -0.43575718530079877,
+        0.0
+      ]
+    },
+    {
+      "model": "q2_151",
+      "active_root_cut_count": 5,
+      "active_slopes": [
+        -0.4762777777777779,
+        -0.4645647111131426,
+        -0.4479240680023978,
+        -0.4225170922253295,
+        0.0
+      ]
+    },
+    {
+      "model": "q2_181",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.4762777777777778,
+        -0.43073351790796116,
+        0.0
+      ]
+    },
+    {
+      "model": "q2_212",
+      "active_root_cut_count": 2,
+      "active_slopes": [
+        -0.4762777777777781,
+        0.0
+      ]
+    },
+    {
+      "model": "q2_243",
+      "active_root_cut_count": 4,
+      "active_slopes": [
+        -0.47627777777777797,
+        -0.4472009390270923,
+        -0.4323851977588988,
+        0.0
+      ]
+    },
+    {
+      "model": "q2_273",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.4762777777777779,
+        -0.45186691681174584,
+        0.0
+      ]
+    },
+    {
+      "model": "q2_304",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.47627777777777786,
+        -0.45606189305470435,
+        0.0
+      ]
+    },
+    {
+      "model": "q2_31",
+      "active_root_cut_count": 2,
+      "active_slopes": [
+        -0.4762777777777779,
+        -0.4714708614736007
+      ]
+    },
+    {
+      "model": "q2_334",
+      "active_root_cut_count": 2,
+      "active_slopes": [
+        -0.47627777777777786,
+        0.0
+      ]
+    },
+    {
+      "model": "q2_59",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.4752572132041349,
+        -0.4589471600137826,
+        0.0
+      ]
+    },
+    {
+      "model": "q2_90",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.4757061285961727,
+        -0.4650211606884471,
+        0.0
+      ]
+    },
+    {
+      "model": "q3_120",
+      "active_root_cut_count": 5,
+      "active_slopes": [
+        -0.47627777777777647,
+        -0.454017171138389,
+        -0.43416034148395605,
+        -0.4157078442831192,
+        0.0
+      ]
+    },
+    {
+      "model": "q3_151",
+      "active_root_cut_count": 5,
+      "active_slopes": [
+        -0.4747109813285802,
+        -0.4444229912300083,
+        -0.4376607211119717,
+        -0.43609091303649616,
+        0.0
+      ]
+    },
+    {
+      "model": "q3_181",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.47627777777777786,
+        -0.4372607740387675,
+        0.0
+      ]
+    },
+    {
+      "model": "q3_212",
+      "active_root_cut_count": 2,
+      "active_slopes": [
+        -0.4762777777777777,
+        0.0
+      ]
+    },
+    {
+      "model": "q3_243",
+      "active_root_cut_count": 5,
+      "active_slopes": [
+        -0.47627777777777797,
+        -0.4727742984006714,
+        -0.44461122644507545,
+        -0.4321915936697037,
+        0.0
+      ]
+    },
+    {
+      "model": "q3_273",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.47627777777777797,
+        -0.47288080322961573,
+        0.0
+      ]
+    },
+    {
+      "model": "q3_304",
+      "active_root_cut_count": 2,
+      "active_slopes": [
+        -0.4762777777777778,
+        0.0
+      ]
+    },
+    {
+      "model": "q3_31",
+      "active_root_cut_count": 1,
+      "active_slopes": [
+        -0.47627777777777786
+      ]
+    },
+    {
+      "model": "q3_334",
+      "active_root_cut_count": 2,
+      "active_slopes": [
+        -0.47627777777777763,
+        0.0
+      ]
+    },
+    {
+      "model": "q3_59",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.47610291918470926,
+        -0.45080013783058853,
+        0.0
+      ]
+    },
+    {
+      "model": "q3_90",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.4762777777777781,
+        -0.4276278142347542,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_2_120",
+      "active_root_cut_count": 4,
+      "active_slopes": [
+        -0.4502447089947092,
+        -0.4276123216723945,
+        -0.42231191323995143,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_2_151",
+      "active_root_cut_count": 6,
+      "active_slopes": [
+        -0.45363128306878164,
+        -0.4485727148868716,
+        -0.4179322419792379,
+        -0.3977144551410336,
+        -0.3950157584199621,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_2_181",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.4834796733347622,
+        -0.46184228417916534,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_2_212",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.5422493386243382,
+        -0.515139146311949,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_2_243",
+      "active_root_cut_count": 4,
+      "active_slopes": [
+        -0.5255796896208726,
+        -0.46568244598872716,
+        -0.4543730121909566,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_2_273",
+      "active_root_cut_count": 4,
+      "active_slopes": [
+        -0.4515522486772479,
+        -0.4324309204412105,
+        -0.4187066798155201,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_2_304",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.4466111111111111,
+        -0.44117060610926445,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_2_31",
+      "active_root_cut_count": 2,
+      "active_slopes": [
+        -0.4743842592592595,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_2_334",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.4493773148148149,
+        -0.4154626762180885,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_2_59",
+      "active_root_cut_count": 1,
+      "active_slopes": [
+        -0.4514814814814815
+      ]
+    },
+    {
+      "model": "q4_2_90",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.44451223544973545,
+        -0.4343975655206098,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_3_120",
+      "active_root_cut_count": 4,
+      "active_slopes": [
+        -0.45024470899470903,
+        -0.4201246677038236,
+        -0.4059353863781283,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_3_151",
+      "active_root_cut_count": 7,
+      "active_slopes": [
+        -0.45363128306878325,
+        -0.44856682558823435,
+        -0.42701042139511564,
+        -0.42112609583260896,
+        -0.4125860213145654,
+        -0.3982236437952065,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_3_181",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.4872324735449736,
+        -0.4529569309139651,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_3_212",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.542102984219237,
+        -0.49026573572109694,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_3_243",
+      "active_root_cut_count": 6,
+      "active_slopes": [
+        -0.525596544886302,
+        -0.5225941368520531,
+        -0.5042687269459238,
+        -0.47265872068347814,
+        -0.46707276832938593,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_3_273",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.45155224867724875,
+        -0.4201632211645709,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_3_304",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.44661111111111107,
+        -0.42376448466779787,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_3_31",
+      "active_root_cut_count": 2,
+      "active_slopes": [
+        -0.4743842592592594,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_3_334",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.44937731481481474,
+        -0.44597439712655573,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_3_59",
+      "active_root_cut_count": 3,
+      "active_slopes": [
+        -0.45148148148148154,
+        -0.4332977348491365,
+        0.0
+      ]
+    },
+    {
+      "model": "q4_3_90",
+      "active_root_cut_count": 4,
+      "active_slopes": [
+        -0.4445122354497355,
+        -0.44051550669801953,
+        -0.4243954143173536,
+        0.0
+      ]
+    }
+  ],
+  "count": 44,
+  "active_cut_count_distribution": {
+    "4": 7,
+    "5": 4,
+    "3": 20,
+    "2": 8,
+    "1": 2,
+    "6": 2,
+    "7": 1
+  },
+  "single_segment_models": 2,
+  "minimum_active_cuts": 1,
+  "maximum_active_cuts": 7
+}

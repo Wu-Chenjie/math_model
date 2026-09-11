@@ -1,0 +1,173 @@
+{
+  "status": "PASS",
+  "bound_hashes": {
+    "artifacts/data.npz": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+    "artifacts/experiment-protocol.json": "b6cbc2b08a3518759c5775fdcae546b1659b8b18dcccb5610d6f860500a513d8",
+    "artifacts/forecast-selection.json": "eb6277a072175fe845b87b5eb55e042e562659f8d55cb5e94ea4222b0146ee71",
+    "review/check_adoption_matched_M1.py": "e3f72734f732af95346caaa30003d0c6421438f5c86169932b7605692815d57d",
+    "review/check_certificate_guards.py": "d1424b806a3fd125e73f4ec78d30b11b9ddba577f4b792881b4dfea7b4564e3c",
+    "review/check_experiment_protocol.py": "7f2eb57cb4e5e5fec848723afc669b9ee959fa09962bcc58a750caa89f1e6c1b",
+    "review/check_finalization_guards.py": "7ba0064461c97a424a14c398690ad3a2d7a31d246b34425a391cdbcdc43ede02",
+    "review/check_nextgen_control.py": "3159fb7b6207ddca1067b5a6b34d4a995a51df15d360ff9c49277d64ac74eadc",
+    "review/check_nextgen_physics.py": "d7f93eac6dc07d6f810629a2eec260cf5119aff6e836babcb5394a99d67984f0",
+    "review/check_nextgen_scenarios.py": "fb1768fe93a8b7daf8dbb7c85aa3e2bd83a52f08f25d31e0ecb191c4ee382dc8",
+    "review/check_origin_math.py": "37f2c6b8321d85465bdce71ecda3dbeb3a715ad2d0abef658f4c2dfbb377a971",
+    "review/check_output_finisher.py": "b3f46915651eeeba7a76d3e4695efffa1687f763f612af405a1ef17d13c3c9ec",
+    "review/check_output_pipeline.py": "a3b78eafed02b1bb9abc87b597e1a87e3bc8a7c00839213571bdbbdf2f2a5435",
+    "review/test_nextgen_physics.py": "5aca549b3df90606218dc0d5bc63ee0522500d7a3e544cb776d7ab51625c93c3",
+    "src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+    "src/dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "src/forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "src/nextgen_run.py": "0beb60045672e170ddd99788e9d07b0d6b9a1a246e867627af52ed74b27824c0",
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "src/sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "tools/build_paper.py": "a17d69142cda5ab18c2ac50ee3a2ef1ce5220fcc98c631546490c2c207414f0a",
+    "tools/build_paper_results.py": "05d7b709e3c2837c891d03953540b9702dfc938a8af0fff03f451d45a0e368c6",
+    "tools/certify_model_checks.py": "757e94817d7be0a77cf9b213269c3cbf7e96e7b43c4b59c6c67168e70647bc23",
+    "tools/check_baseline_reproduction.py": "e7c73d214b43a04a3ab7db8f62c64d6be164857b91acdbf4d9ebb822a520df7e",
+    "tools/check_paper_pdf.py": "78c28b275632457f4b50b58041a14552356336802604cd6e2716a6881f219557",
+    "tools/compare_incremental_results.py": "a3eaa12e512284628ecfb1e146dd195ee4ea58f69be1ac761e4ea2067d95c340",
+    "tools/continue_registered_pipeline.py": "aa71a10bb02a28b4d7a6443d5608a373c9ed5b0c0dea5ddcd6e0f466a6e34dff",
+    "tools/current_evidence.py": "1149709433debbf6f6d66b9090c9388fc3e79752cc48d10f4edc3bfa1b93bdaf",
+    "tools/evaluate_adoption.py": "1ce337bcadc8554d2f04b3a1ad465245e19262b32aa92b41a192234b8a25f001",
+    "tools/export_selected.py": "5a03fe0111f90fa1b9a7cfce5efe64d79887f8531acbaa2f81f91a7be0267621",
+    "tools/export_workbook_payload.py": "153e6c780b9535bf7aa86c3c863f272d3e946313e9e8b8a85ca2479d4b5e0283",
+    "tools/finalize_project.py": "859ebd89f5c8c05c2df74e9ecaefd4f75e1779bbbdc063cfa5941e6ef6b20988",
+    "tools/finish_registered_outputs.py": "fc8185f25e70ab54a9590116aac1684403adb01b2588d864fb60c2013e15ff20",
+    "tools/make_figures.py": "2efa7131dddce53221dc4f24d68eb5cfad6308d5bed4daa1c8e4f894225e7dc0",
+    "tools/match_information_ablation_endpoints.py": "0c3beea8626034dabbdcb3e879c92f0c91122bc93a18e756f42ef3640f349022",
+    "tools/profile_baseline.py": "f97676233f3cad085c4cefeb5a142504973dfddca002129009412e1c899a1987",
+    "tools/reproduce_baseline.py": "c00d5d2bf517b45c2aa7a076bf0db8d28ebab9b4ccdd55f62ea10f8e02efc29d",
+    "tools/reproduce_project.py": "60c15acd7160129749933afbf4e6dc108eed1d8af3c54091dd252f5224e7f26c",
+    "tools/run_incremental_experiments.py": "ed0c310f145a3f56899cecafeaea41899a1085a0107189ec4409c83a36c50da1",
+    "tools/snapshot_baseline_parameters.py": "dd8e8aa12dfd3644ab8e2a40e708b1c56e83c76ca2a404c82ade98ffda0857c4",
+    "tools/summarize_development.py": "35f1578d4a8cb5c124b7a07e7b68318767ded2c19762788dbe85c40134d54d29",
+    "tools/test_baseline_checker.py": "8c8e7100f9bc8f87cba7a5ae9144e18f6415e985ce01d14ad9905bcf623880ba",
+    "tools/validate_formal_results.py": "2aa663ada2c83f8ebf64018d70f473cad669bd259050c29554e4d68f7b24dc36",
+    "tools/verify_official_source.py": "643a896e8c48e29b4d1aed8bb59058998ff645ba8691e51f7eb162c03dd6a723",
+    "tools/verify_workbooks.py": "0ecda287f8894badf98dd1325e82cae48ede604a9280f9ff812714d7d2e6bfce"
+  },
+  "records": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check_nextgen_scenarios.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 4.452737000072375,
+      "log": "artifacts/model-check-logs/check_nextgen_scenarios.log",
+      "log_sha256": "90930d24a7151a7c5c353cb1aaae86963cf1630a1480793328ec24a91f1ff6c3",
+      "report": "review/nextgen-scenario-checks.json",
+      "report_sha256": "9e1470f86c4952cd53a39ffbfeeae554ae26d567a660a34e24b6abbb37275817"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check_nextgen_control.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 3.9729420410003513,
+      "log": "artifacts/model-check-logs/check_nextgen_control.log",
+      "log_sha256": "c476a0d92d24606af85e41843e0997f5686cca7509d0b894e93d241ea6707884",
+      "report": "review/nextgen-control-checks.json",
+      "report_sha256": "85e212403f48748605a078b0b5c2957144339efed592185f7841c50a4d503a08"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check_origin_math.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 9.815475624985993,
+      "log": "artifacts/model-check-logs/check_origin_math.log",
+      "log_sha256": "c16a569dbb71b63ff788a25b7b14dbc0c4c2a3265ea79bc6eca1a6fe7fd106f2",
+      "report": "review/origin-math-checks.json",
+      "report_sha256": "35f4a03918193cbf2ba62e426362cdd50f996751e950ef5e3c371ad1ecfc8edb"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check_experiment_protocol.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 2.2186562079004943,
+      "log": "artifacts/model-check-logs/check_experiment_protocol.log",
+      "log_sha256": "a88df18f7c1c22ff3522f89a4300005bc45a5a4f32719cb2eea0db213d316648",
+      "report": "review/protocol-comparison-checks.json",
+      "report_sha256": "6f9a10055b74f3b85fc59a1acba41035945bb05bd8ebf4b876d6d893a3073085"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check_adoption_matched_M1.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 1.6612506660167128,
+      "log": "artifacts/model-check-logs/check_adoption_matched_M1.log",
+      "log_sha256": "e797633482cabdcee740660e3a132988dcbcde7cad796ce20a32bd9f2721cb03",
+      "report": "review/adoption-matched-M1-checks.json",
+      "report_sha256": "4db58278c96998b1f85266333277c1c52b4315986d82b30075ef1d62493621de"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check_certificate_guards.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 0.4343738751485944,
+      "log": "artifacts/model-check-logs/check_certificate_guards.log",
+      "log_sha256": "86689415d1cc592b1c6f87e4a49986595f6b2df5004dca5de4a7c06729c489a6",
+      "report": "review/certificate-guard-checks.json",
+      "report_sha256": "66f3ef005b5db63786fab13876f7e18c43291894c0f777b4ded6394c27cf94c1"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check_output_pipeline.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 0.23262808402068913,
+      "log": "artifacts/model-check-logs/check_output_pipeline.log",
+      "log_sha256": "3be81b135a66cd0a9269c35d75273a2a73d27a9ee212d34e32fe178d71ed440e",
+      "report": "review/output-pipeline-checks.json",
+      "report_sha256": "da16fae4531048a79a84ac56d22f949126065f6ee9e944f0a324b0615894a5f2"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check_finalization_guards.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 2.3140442920848727,
+      "log": "artifacts/model-check-logs/check_finalization_guards.log",
+      "log_sha256": "33d2ab13839bb79c5f2bece0102c28a190826836b9f2f9d49ac3d7e6019485e4",
+      "report": "review/finalization-guard-checks.json",
+      "report_sha256": "f2ab815305cea9e17e6384d12b8403d2e23cd8dc62f08508c83fa62cd7d76615"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check_output_finisher.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 0.9148789590690285,
+      "log": "artifacts/model-check-logs/check_output_finisher.log",
+      "log_sha256": "0e9b8fff8d2b9c8ede310f38bde67472190d2ef9ea514762d1741184ddcaf344",
+      "report": "review/output-finisher-checks.json",
+      "report_sha256": "514b2e0f40ae9dbcb6cc641e5a64b42766cca7c678d375d177fdc9748a18c9d2"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/test_nextgen_physics.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 0.6155862079467624,
+      "log": "artifacts/model-check-logs/test_nextgen_physics.log",
+      "log_sha256": "5cad53ede00d5ee3c0a356d594d6c8d3e6ba347ec0c75c12a3197353976eea94"
+    }
+  ],
+  "runtime_seconds": 26.652227584039792,
+  "scope": "Independent executable information, small mathematical/control, protocol and physical-falsification checks. No annual-cost or paper-layout acceptance is implied."
+}

@@ -1,0 +1,12 @@
+{"kind": "q2", "candidate": "cross_baseline", "total_cost": 347193.94010315835, "runtime_seconds": 2.9033241670113057}
+{"kind": "q3", "candidate": "cross_baseline", "total_cost": 346059.9831381737, "runtime_seconds": 5.739126125117764}
+{"kind": "q2", "candidate": "affine_mpc", "total_cost": 358491.1563306534, "runtime_seconds": 16.681722291046754}
+{"kind": "q2", "candidate": "markov_mpc", "total_cost": 344539.22891725734, "runtime_seconds": 19.7595506249927}
+{"kind": "q4_2", "candidate": "cross_baseline", "total_cost": 385581.89539562917, "runtime_seconds": 3.3563581248745322}
+{"kind": "q3", "candidate": "affine_mpc", "total_cost": 349365.400499225, "runtime_seconds": 34.909598500002176}
+{"kind": "q4_2", "candidate": "affine_mpc", "total_cost": 399952.64893016627, "runtime_seconds": 18.04771133302711}
+{"kind": "q4_2", "candidate": "markov_mpc", "total_cost": 384378.43811770633, "runtime_seconds": 21.4419576250948}
+{"kind": "q3", "candidate": "markov_mpc", "total_cost": 339412.43942864065, "runtime_seconds": 38.1467678330373}
+{"kind": "q4_3", "candidate": "cross_baseline", "total_cost": 386054.3675103319, "runtime_seconds": 6.608009499963373}
+{"kind": "q4_3", "candidate": "affine_mpc", "total_cost": 390049.68457198277, "runtime_seconds": 33.494760165922344}
+{"kind": "q4_3", "candidate": "markov_mpc", "total_cost": 378803.55927664065, "runtime_seconds": 35.31186437513679}

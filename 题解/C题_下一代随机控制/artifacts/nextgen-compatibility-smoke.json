@@ -1,0 +1,16 @@
+[
+  {
+    "official": false,
+    "variable": false,
+    "q_difference": 0.0,
+    "state_difference": 0.0,
+    "objective_gap": 2.9103830456733704e-11
+  },
+  {
+    "official": true,
+    "variable": true,
+    "q_difference": 0.0,
+    "state_difference": 0.0,
+    "objective_gap": 2.9103830456733704e-11
+  }
+]

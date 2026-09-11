@@ -1,0 +1,69 @@
+{
+  "access_date": "2026-09-11",
+  "status": "primary metadata collected; final manuscript claims require direct supporting passages",
+  "sources": [
+    {
+      "id": "brown2010",
+      "title": "Information Relaxations and Duality in Stochastic Dynamic Programs",
+      "authors": "Brown, D. B.; Smith, J. E.; Sun, P.",
+      "year": 2010,
+      "journal": "Operations Research",
+      "volume": "58(4-part-1)",
+      "pages": "785-801",
+      "doi": "10.1287/opre.1090.0796",
+      "url": "https://pubsonline.informs.org/doi/pdf/10.1287/opre.1090.0796",
+      "role": "Information-relaxation dual feasibility and scope of stochastic bounds"
+    },
+    {
+      "id": "heitsch2000",
+      "title": "Scenario Reduction in Stochastic Programming: An Approach Using Probability Metrics",
+      "url": "https://www2.mathematik.hu-berlin.de/publ/pre/2000/M-00-9.html",
+      "role": "Finite empirical measure approximation; search indexed primary abstract verified, direct open unavailable"
+    },
+    {
+      "id": "sddp_objective",
+      "title": "Objective states",
+      "url": "https://sddp.dev/stable/tutorial/objective_states/",
+      "role": "Convex inventory versus concave price value structure"
+    },
+    {
+      "id": "kunsch1989",
+      "title": "The Jackknife and the Bootstrap for General Stationary Observations",
+      "authors": "Künsch, H. R.",
+      "year": 1989,
+      "journal": "The Annals of Statistics",
+      "volume": "17(3)",
+      "pages": "1217-1241",
+      "url": "https://people.math.ethz.ch/~hkuensch/papers/",
+      "role": "Dependent-data block resampling; stationary assumptions not automatically valid for one seasonal year"
+    },
+    {
+      "id": "bertsimas2020",
+      "title": "From Predictive to Prescriptive Analytics",
+      "authors": "Bertsimas, D.; Kallus, N.",
+      "year": 2020,
+      "online_year": 2019,
+      "journal": "Management Science",
+      "volume": "66(3)",
+      "pages": "1025-1044",
+      "doi": "10.1287/mnsc.2018.3253",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2018.3253",
+      "author_preprint": "https://arxiv.org/pdf/1402.5481",
+      "support": "Author preprint pp.2-4: conditional stochastic optimization and weighted empirical prescriptions, equation (3).",
+      "role": "Motivates conditioning empirical scenario mass on observable covariates; no blanket consistency claim for our finite overlapping seasonal blocks."
+    },
+    {
+      "id": "bental2004",
+      "title": "Adjustable robust solutions of uncertain linear programs",
+      "authors": "Ben-Tal, A.; Goryashko, A.; Guslitzer, E.; Nemirovski, A.",
+      "year": 2004,
+      "journal": "Mathematical Programming, Series A",
+      "volume": "99(2)",
+      "pages": "351-376",
+      "doi": "10.1007/s10107-003-0454-y",
+      "url": "https://www2.isye.gatech.edu/~nemirovs/MP_Elana_2004.pdf",
+      "support": "Journal pp.352-353: variable-specific information bases; pp.356-357: affine decision-rule restriction.",
+      "role": "Supports causal affine policy-class construction only; our empirical expected-cost LP does not inherit all-realization robust guarantees."
+    }
+  ]
+}

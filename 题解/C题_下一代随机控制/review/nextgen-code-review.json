@@ -1,0 +1,39 @@
+{
+  "reviewer_id": "/root/upgrade_code_review",
+  "independent": true,
+  "decision": "pass_within_small_test_scope",
+  "final_adoption_gate": "pending",
+  "source_hashes": {
+    "src/nextgen_scenarios.py": "147f639166155bdc49e28e8a0dbc3a840771704d31fd0f4120670f7f52c8252e",
+    "src/nextgen_control.py": "11df75e72cf27880e64476e4e656683783a1bf7f4b6f48bf853e0344553e8189",
+    "src/nextgen_run.py": "601e3e2de33c49322697d5808b8b640da168a0be6d27dba69183a7a4896a9245",
+    "src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+    "src/dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233"
+  },
+  "scenario_source_sha256": "759f073bec3825c35c041e2359f6eb453bca183c571e8c49834f2b499e011e25",
+  "executed_tests": {
+    "control": "PASS",
+    "scenario": "PASS"
+  },
+  "remaining": [
+    "Full baseline reproduction",
+    "January-only frozen model selection and334day matched endpoint results",
+    "Non-midnight SDDP contract continuation not implemented",
+    "Full M1 multistage independent enumeration not yet executed",
+    "Full final information/physics/billing/PDF reviews"
+  ],
+  "issues": [
+    {
+      "id": "NG-CODE-01",
+      "status": "documented_limitation",
+      "scope": "outside-core contract suffix",
+      "detail": "Declared deterministic completion is not numerically persisted or priced in current LP. Do not describe it as full continuation model."
+    },
+    {
+      "id": "NG-CODE-02",
+      "status": "documented_limitation",
+      "scope": "weighted M0 transition smoothing",
+      "detail": "Pseudo-count uses S*weights, so changing S also changes smoothing strength."
+    }
+  ]
+}

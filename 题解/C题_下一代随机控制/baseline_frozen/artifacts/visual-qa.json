@@ -1,0 +1,54 @@
+{
+  "status": "pass",
+  "reviewer": "author_visual_inspection",
+  "scope": "25 sheets via top populated ranges, two additional 6am revision ranges; all numerical rows separately reconciled. Four scientific figures inspected.",
+  "observations": [
+    "All date labels visible in saved-file previews after clearing inherited result4-2 battery formats",
+    "Common notes sheets are byte-identical and inspected once",
+    "Plan and revised midnight views coincide because first6hours cannot be revised;6am views inspected separately",
+    "Annual legend moved outside plotted data",
+    "No paper or PDF authored"
+  ],
+  "preview_hashes": {
+    "artifacts/previews/result1-充放电量.png": "329b818f223ff38ceb914faeb8f4f4911e7bff4babf7c28da7c26886edcebd05",
+    "artifacts/previews/result1-口径说明.png": "62598d4f9d0ee6942508e0ece6d29ed41679f9c80918a90a30bef60ad7d170cd",
+    "artifacts/previews/result1-计划购电量.png": "751297a0fa47f153e6c83c45fe84d7fabce28db3ba1e61cb49f7f903cd1b4d13",
+    "artifacts/previews/result2-充放电量.png": "2e7a765dd1ee91e20e4aaaae7df8daf41edbc8f35876569aa32a05f3f04a0ea6",
+    "artifacts/previews/result2-口径说明.png": "62598d4f9d0ee6942508e0ece6d29ed41679f9c80918a90a30bef60ad7d170cd",
+    "artifacts/previews/result2-紧急购电量.png": "0abc7be3c3669f6e6fb15413a8e0e608dee883fbb2ba9f5dddf82883016d9a59",
+    "artifacts/previews/result2-计划购电量.png": "de2b26c694b8819b8eea99888d5dcb0fd4664e697e944be802aea61c068e4942",
+    "artifacts/previews/result2-费用汇总.png": "9005c090e8b5ed8e2e76aab066b46f918fb5f22353f438b39cf187da993d5e1c",
+    "artifacts/previews/result3-充放电量.png": "c851281b3e354091ea9674499431283107dc9af69076f6eab0e925c45d39c87f",
+    "artifacts/previews/result3-口径说明.png": "62598d4f9d0ee6942508e0ece6d29ed41679f9c80918a90a30bef60ad7d170cd",
+    "artifacts/previews/result3-紧急购电量.png": "8d1f462f1f0e8f6056296bd002f1aa8fe48146d8b9db5074d845de210c8e0ed7",
+    "artifacts/previews/result3-计划购电量.png": "c16c5a74d223a551d9b86a2106fc74f882912dc0d42ad7fd41efb0aa749cf70a",
+    "artifacts/previews/result3-调整购电量-6点.png": "e8fd5268d7eb3132c939864e48895f4991a61363704df7c6cfe723168a3036f4",
+    "artifacts/previews/result3-调整购电量.png": "c16c5a74d223a551d9b86a2106fc74f882912dc0d42ad7fd41efb0aa749cf70a",
+    "artifacts/previews/result3-费用汇总.png": "8f93ef1968feb72348a87d2d6691d430d9e335608ccb1f04016820154dd1dac4",
+    "artifacts/previews/result4-2-充放电量.png": "aacd5661b01cd4e2613a57b342e468b0571d9f955f21ee7cfe46adb1b60f1f12",
+    "artifacts/previews/result4-2-口径说明.png": "62598d4f9d0ee6942508e0ece6d29ed41679f9c80918a90a30bef60ad7d170cd",
+    "artifacts/previews/result4-2-紧急购电量.png": "1b2666ac62e03f0b412445578b6354daeeafb3183f5e1e58d650f80f78703620",
+    "artifacts/previews/result4-2-计划购电量.png": "7f1c140059e7dd3dba78d50396658883a1fb61d9651726e37d64b7bab7119fe9",
+    "artifacts/previews/result4-2-费用汇总.png": "c641c4ff9c9b4d1e3a7fe20d14714788e4540d92042e38f9cd17f576bc6223ad",
+    "artifacts/previews/result4-3-充放电量.png": "e244f1ed9a6660583cbe517119ee2cc8c865c348fba3d9903d16241fb3986bb6",
+    "artifacts/previews/result4-3-口径说明.png": "62598d4f9d0ee6942508e0ece6d29ed41679f9c80918a90a30bef60ad7d170cd",
+    "artifacts/previews/result4-3-紧急购电量.png": "c2b5513914515bf538a7c0a4ff6d26687f065d0d901fed6fed39e1ee844142d1",
+    "artifacts/previews/result4-3-计划购电量.png": "7336cb551a1440e209ff40332b11f9efd1d30a61f0090bce88dc27ca78298649",
+    "artifacts/previews/result4-3-调整购电量-6点.png": "dae9f33a55b833f1f5e7ff9a99872abcdb42d889f4234584404b39774edbb15b",
+    "artifacts/previews/result4-3-调整购电量.png": "7336cb551a1440e209ff40332b11f9efd1d30a61f0090bce88dc27ca78298649",
+    "artifacts/previews/result4-3-费用汇总.png": "c45c2e0f1e992da2a814a1a3a0a120d9a7020cc317849099abe50e11decda810"
+  },
+  "figure_hashes": {
+    "figures/午夜库存轨迹.png": "7fe41aaa402805679ad28fa21dbde62438fdd1f88b61601054d9253994a26b24",
+    "figures/预报发布消融.png": "59e17d261690c7f357ea59b9f000d0ea6a4c60201b4f778597a7781e13708e25",
+    "figures/SDDP训练与库存价值.png": "99151ad1538ea9700b927b16f77dd336cdb63bad42a034305f6148cfa0b8a8cf",
+    "figures/年度方法比较.png": "b3b1ae8fb9abd9dd3d1fb9857e5921d8eff94d3020aaff8d4efdef1e0b9a7c2b"
+  },
+  "workbook_hashes": {
+    "计算结果/result4-2.xlsx": "2b679509fa10f7413e2abf846411b66dfb83b6a8fbb9422025bcbce7c7d90f86",
+    "计算结果/result4-3.xlsx": "613b599654c2c4fef5ab6c7c23115caebabbe8a4c84c8651257555a0111475a0",
+    "计算结果/result2.xlsx": "aae2fed09f0f7b7af616ab7e9dd923fd90e2bee4a40d2419378a302e1c34138c",
+    "计算结果/result3.xlsx": "ccdfd0f18fb9cc87a2480e780e74fe633de3b32b3398d299979985594435cac8",
+    "计算结果/result1.xlsx": "535e8f12cb099594d1b88a34d0faeeec7f0683886ff4b8b2bb3b4db3f18ceb77"
+  }
+}

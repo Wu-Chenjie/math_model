@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "official_page": "https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html",
+  "download_url": "https://www.mcm.edu.cn/upload_cn/CUMCM2026Problems.zip",
+  "archive_sha256": "a54c0e6b552d31e2dbd41aba4a07769943433cb9317927514c2d39ec6442e241",
+  "checked_utc": "2026-09-11T01:47:48.591148+00:00",
+  "checks": [
+    {
+      "file": "C题.pdf",
+      "bytes": 354389,
+      "official_sha256": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+      "local_sha256": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+      "equal": true
+    },
+    {
+      "file": "附件/附件1.xlsx",
+      "bytes": 16003,
+      "official_sha256": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+      "local_sha256": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+      "equal": true
+    },
+    {
+      "file": "附件/附件2.xlsx",
+      "bytes": 907128,
+      "official_sha256": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+      "local_sha256": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+      "equal": true
+    },
+    {
+      "file": "附件/附件3.xlsx",
+      "bytes": 293526,
+      "official_sha256": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843",
+      "local_sha256": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843",
+      "equal": true
+    },
+    {
+      "file": "附件/附件4.xlsx",
+      "bytes": 409790,
+      "official_sha256": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71",
+      "local_sha256": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71",
+      "equal": true
+    },
+    {
+      "file": "附件/附件5/result1.xlsx",
+      "bytes": 13323,
+      "official_sha256": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688",
+      "local_sha256": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688",
+      "equal": true
+    },
+    {
+      "file": "附件/附件5/result2.xlsx",
+      "bytes": 18397,
+      "official_sha256": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+      "local_sha256": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+      "equal": true
+    },
+    {
+      "file": "附件/附件5/result3.xlsx",
+      "bytes": 265429,
+      "official_sha256": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+      "local_sha256": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+      "equal": true
+    },
+    {
+      "file": "附件/附件5/result4-2.xlsx",
+      "bytes": 18397,
+      "official_sha256": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+      "local_sha256": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+      "equal": true
+    },
+    {
+      "file": "附件/附件5/result4-3.xlsx",
+      "bytes": 265429,
+      "official_sha256": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+      "local_sha256": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+      "equal": true
+    }
+  ],
+  "scope": "All ten C-problem PDF/data/template files; no input modified. The separately supplied formatting PDF is outside this byte-comparison scope."
+}

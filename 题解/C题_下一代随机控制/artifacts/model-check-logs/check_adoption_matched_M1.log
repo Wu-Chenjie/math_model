@@ -1,0 +1,7 @@
+{"status": "PENDING", "decision": "await_verification", "pending": []}
+{"status": "PENDING", "decision": "await_verification", "pending": []}
+{"status": "PENDING", "decision": "await_verification", "pending": []}
+{"status": "PENDING", "decision": "await_verification", "pending": []}
+{"status": "PENDING", "decision": "await_verification", "pending": []}
+{"status": "PENDING", "decision": "await_verification", "pending": []}
+{"reviewer_id": "/root/upgrade_code_review", "independent": true, "status": "PASS_WITHIN_SCOPE", "scope": "Synthetic ledgers in temporary directories. No valid physics, source or independence certificate supplied; overall status must stayPENDING. Tests economic masking only.", "cases": [{"name": "other_modules_mask_M1_loss", "overall_saving_percent": 10.0, "M1_direct_saving_percent": -1.1235955056179776, "M1_direct_gate": false, "combined_economic_gate": false, "missing_certificates_prevent_adoption": true, "empty_physics_certificate_rejected": true}, {"name": "direct_M1_gain", "overall_saving_percent": 10.0, "M1_direct_saving_percent": 5.2631578947368425, "M1_direct_gate": true, "combined_economic_gate": true, "missing_certificates_prevent_adoption": true, "empty_physics_certificate_rejected": true}, {"name": "M1_zero_contribution", "overall_saving_percent": 10.0, "M1_direct_saving_percent": 0.0, "M1_direct_gate": false, "combined_economic_gate": false, "missing_certificates_prevent_adoption": true, "empty_physics_certificate_rejected": true}], "source_sha256": "1ce337bcadc8554d2f04b3a1ad465245e19262b32aa92b41a192234b8a25f001"}

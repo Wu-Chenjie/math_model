@@ -1,0 +1,94 @@
+{
+  "reviewer_id": "/root/upgrade_code_review",
+  "independent": true,
+  "status": "PASS",
+  "scope": "Scenario algebra, weight transport, mature-cache access and contract-origin information perturbations only. No upper LP, battery policy or annual performance claim.",
+  "cases": [
+    {
+      "name": "future_actuals_and_unreleased_forecasts:False:False:1.0:0.0",
+      "status": "PASS",
+      "details": {
+        "origins_tested": 4,
+        "modified": "current/future actuals, later official releases; all pre-contract outputs exact equal"
+      }
+    },
+    {
+      "name": "future_actuals_and_unreleased_forecasts:True:False:1.0:0.0",
+      "status": "PASS",
+      "details": {
+        "origins_tested": 4,
+        "modified": "current/future actuals, later official releases; all pre-contract outputs exact equal"
+      }
+    },
+    {
+      "name": "future_actuals_and_unreleased_forecasts:False:True:1.0:0.0",
+      "status": "PASS",
+      "details": {
+        "origins_tested": 4,
+        "modified": "current/future actuals, later official releases; all pre-contract outputs exact equal"
+      }
+    },
+    {
+      "name": "future_actuals_and_unreleased_forecasts:True:True:1.0:0.0",
+      "status": "PASS",
+      "details": {
+        "origins_tested": 4,
+        "modified": "current/future actuals, later official releases; all pre-contract outputs exact equal"
+      }
+    },
+    {
+      "name": "future_actuals_and_unreleased_forecasts:True:False:0.65:0.35",
+      "status": "PASS",
+      "details": {
+        "origins_tested": 4,
+        "modified": "current/future actuals, later official releases; all pre-contract outputs exact equal"
+      }
+    },
+    {
+      "name": "future_actuals_and_unreleased_forecasts:True:True:0.65:0.35",
+      "status": "PASS",
+      "details": {
+        "origins_tested": 4,
+        "modified": "current/future actuals, later official releases; all pre-contract outputs exact equal"
+      }
+    },
+    {
+      "name": "maturity_guard_before_cache",
+      "status": "PASS",
+      "details": {
+        "exact_boundary_accepted": true,
+        "one_slot_unripe_rejected": true
+      }
+    },
+    {
+      "name": "lagged_price_and_EMA_identity",
+      "status": "PASS",
+      "details": {
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "name": "weighted_PAM_mass_and_small_exact_case",
+      "status": "PASS",
+      "details": {
+        "fixture_exhaustive_optimum": 0.7,
+        "returned_transport": 0.7000000000000001,
+        "mass_preserved": true
+      }
+    },
+    {
+      "name": "single_candidate_statistical_fallback",
+      "status": "PASS",
+      "details": {
+        "single_mature_candidate_probability": 1.0
+      }
+    }
+  ],
+  "source_sha256": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+  "execution": {
+    "command": [
+      "review/check_nextgen_scenarios.py"
+    ],
+    "runtime_seconds": 3.741537709021941
+  }
+}

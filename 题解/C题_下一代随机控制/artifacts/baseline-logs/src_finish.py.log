@@ -1,0 +1,2 @@
+{'scope': '44 monthly three-day auxiliary lower envelopes on inventory1200..10800, after500iterations. This describes computed lower approximations, not exact value-function shape.', 'count': 44, 'active_cut_count_distribution': {'4': 7, '5': 4, '3': 20, '2': 8, '1': 2, '6': 2, '7': 1}, 'single_segment_models': 2, 'minimum_active_cuts': 1, 'maximum_active_cuts': 7}
+{"q2_total_cost": 13841680.520143364, "q3_total_cost": 13459169.009695424, "q4_2_total_cost": 14652127.402359782, "q4_3_total_cost": 14249362.495141067}

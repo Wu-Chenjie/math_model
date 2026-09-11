@@ -1,0 +1,15 @@
+{
+  "status": "structure_only",
+  "execution": {
+    "command": [
+      "tools/make_figures.py",
+      "--structure-only"
+    ],
+    "exit_code": 0,
+    "runtime_seconds": 0.43305600015446544
+  },
+  "outputs": {
+    "figures/新旧模型结构.png": "d98092b1236f1341c8478cdfd51a85c72edf2bba874219e83279cd26735781bf",
+    "figures/新旧模型结构.svg": "e1f0b5e7a106ab3db65de69eb71cb5aaa72a17fc6f51e464e720609925d0887e"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "created_utc": "2026-09-11T02:34:52.097653+00:00",
+  "protocol": {
+    "version": 2,
+    "development_days": [
+      24,
+      31
+    ],
+    "evaluation_days": [
+      31,
+      365
+    ],
+    "initial_kwh": 6000.0,
+    "final_kwh": 6000.0,
+    "physical_parameters": "Unchanged control.execute and dispatch.settlement; original official input hashes preserved",
+    "incumbent": "Accepted legacy two-midnight M0 with the same true final6000; fixed48 is separately retained as the single-factor horizon reference.",
+    "parameter_classes": {
+      "physical": [
+        "ETA=.9",
+        "capacity=12000",
+        "inventory=[1200,10800]",
+        "power=5000",
+        "settlement=original"
+      ],
+      "numerical": {
+        "SOC_grid": [
+          161,
+          321,
+          641
+        ],
+        "grid_bill_convergence_tolerance": 0.0002,
+        "PAM_max_swaps": 20
+      },
+      "policy": {
+        "H_hours": [
+          48,
+          72,
+          96
+        ],
+        "gain_bound": [
+          5.0,
+          10.0,
+          20.0
+        ],
+        "tail_scales": [
+          0.0,
+          0.5,
+          1.0,
+          2.0
+        ]
+      },
+      "statistical": {
+        "W": [
+          14,
+          28,
+          56
+        ],
+        "S": [
+          5,
+          7,
+          10,
+          14
+        ],
+        "alpha": [
+          0.1,
+          0.2,
+          0.3,
+          0.5
+        ],
+        "Markov_bins": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "fusion_weight": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "official_correction": [
+          0.0,
+          0.4,
+          0.8
+        ],
+        "ridge": 0.0001,
+        "empirical_innovation_representatives": 10,
+        "state_kernel_bandwidth": 1.0
+      }
+    },
+    "selection": "Staged one-factor January comparisons, equal weight to each question relative to its stage reference. Within0.1percent select the listed simpler configuration. No annual cost enters parameter selection.",
+    "predictor_selection": "Keep accepted historical forecast families. Select official PV fusion/correction by Jan15-24 next-six-hour MAE; retrospective development scores are not claimed to be unbiased held-out forecasts.",
+    "grid_selection": "Smallest grid whose January total bills in all four questions are within0.02percent of641; not the grid yielding minimum expense.",
+    "M1_development_gate": "Mean normalized saving at least0.1percent, no question worse than0.1percent, positive aggregate saving in both Jan25-27 and Jan28-31.",
+    "annual_adoption_gate": "One January-selected challenger only: normalized mean saving>=0.1percent, no question worse, positive aggregate saving in both Feb-Jun and Jul-Dec, and lower endpoint of paired7day block bootstrap total saving>0. If not met retain the frozen incumbent.0.1-0.3percent requires the predeclared state/conditional-probability theoretical role;>=0.3percent may justify adoption. No selecting a different annual winner.",
+    "bootstrap": {
+      "block_days": 7,
+      "replicates": 10000,
+      "seed": 20260911,
+      "interval": 0.95,
+      "interpretation": "paired moving-block stability diagnostic on one seasonal year, not a distribution-free future-year confidence guarantee"
+    },
+    "gain_expansion_rule": "If over5percent of active gains hit the bound in January, move to the next predeclared bound5/10/20 regardless of bill. If20 remains above5percent, add40 and80 sequentially as declared engineering checks; freeze before annual. Formal hits do not trigger expense-based retuning.",
+    "tail_interface": "Fixed-H zero/linear are inventory-tail truncation heuristics with explicit causal q suffix completion. Existing SDDP compared with zero/linear/scaled tails in a separate common two-midnight block. No inventory-only SDDP at nonmidnight; no unimplemented contract bridge claimed.",
+    "horizon_pool": "Each H uses all its own complete mature blocks, identical generator settings; thus H changes legally available history too. Report requested/effective counts rather than claiming an isolated physical-lookahead effect.",
+    "scope": "All economic development configurations are registered for334days; forecast-only MAE fits are not unexecuted closed-loop policy results. Free-end sensitivity is separate."
+  },
+  "source_hashes_at_registration": {
+    "src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+    "src/dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "src/forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "src/nextgen_run.py": "0beb60045672e170ddd99788e9d07b0d6b9a1a246e867627af52ed74b27824c0",
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "src/sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8"
+  },
+  "baseline_reproduction": "still running; user explicitly authorized incremental implementation before completion"
+}

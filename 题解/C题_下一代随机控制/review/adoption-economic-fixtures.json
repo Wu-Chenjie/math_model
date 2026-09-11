@@ -1,0 +1,31 @@
+{
+  "scope": "Pure economic gate fixtures; main evidence binding and direct M1-vs-M0 adoption gate remain under review",
+  "passed": true,
+  "cases": [
+    {
+      "name": "valid_small_theoretical_gain",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "small_gain_no_theoretical_role",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "name": "one_setting_worse",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "name": "no_first_period_improvement",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "name": "below_minimum_gain",
+      "expected": false,
+      "actual": false
+    }
+  ]
+}

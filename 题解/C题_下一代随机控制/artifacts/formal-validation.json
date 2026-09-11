@@ -1,0 +1,325 @@
+{
+  "status": "PENDING",
+  "records": [
+    {
+      "kind": "q2",
+      "configuration_id": "cc3ebe6953b57007",
+      "status": "PASS",
+      "checks": 5401,
+      "report": "review/formal-physics/q2_cc3ebe6953b57007.json",
+      "report_sha256": "6d63836329e042efeefa4b468ce7a3f1c7bdfd918fb30e72bfb041edabcb4aa2",
+      "input_hashes": {
+        "trajectory": "8b4df5f97f7d0cd887a0c690eb8c2f93980f9fb9f24be105369514ebc6fb9ff6",
+        "metrics": "e30e6428278d64bb4eaeeca1d9745bc84f42b4c9edf6634c31889dbc101ef2ba",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "cc3ebe6953b57007",
+      "status": "PASS",
+      "checks": 5407,
+      "report": "review/formal-physics/q3_cc3ebe6953b57007.json",
+      "report_sha256": "eea1ec36e448236b7b294f04868cf1bd811a0e869291c260e70bdcff0c55dbdd",
+      "input_hashes": {
+        "trajectory": "5d3083a543e143623dde5f964f302b693ca378218d7c88bc34ebd8633161723f",
+        "metrics": "48bde5c6be297f3a8b98beccf055a7e51ce80c0195dacea42b50bd641499eb85",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "cc3ebe6953b57007",
+      "status": "PASS",
+      "checks": 5401,
+      "report": "review/formal-physics/q4_2_cc3ebe6953b57007.json",
+      "report_sha256": "21a55ac613fff6b2fddb812f44585e5198ef2bcc4e36fed7910e5931596bb458",
+      "input_hashes": {
+        "trajectory": "44a073ea8b20935f6221eabad299fca56c2f7a5c76e79889d662b33005fc4461",
+        "metrics": "134f1524787a1778e9d43b98ffe461b11026576554507ba83f1e9a0f375b1653",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "cc3ebe6953b57007",
+      "status": "PASS",
+      "checks": 5407,
+      "report": "review/formal-physics/q4_3_cc3ebe6953b57007.json",
+      "report_sha256": "c7098d6d24bd9927fbce7eea4e2ea79af1e02824de99ff100c50b985250dff89",
+      "input_hashes": {
+        "trajectory": "d9d2ae9736751c534f11322d834f42987bd35d2e8b24d1a402276a8e2508a205",
+        "metrics": "9724f7d3ccffce425987b7588f3382a5dc4e1acf2408780c586b60d858b19ac9",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "status": "PASS",
+      "checks": 5401,
+      "report": "review/formal-physics/q2_5c5eb1d7988dccd0.json",
+      "report_sha256": "98c600432a29ac1b9298c2c4c8050a200dd8a7a20e69a6072d15b1fbf51a8141",
+      "input_hashes": {
+        "trajectory": "fd508146eff1c7c7546a0b3c6949063519f57ce2bb2ae09d13cac7ed0bca19d4",
+        "metrics": "4ecbafb7905766cc304f135f934caa2af624a0ea92740477894cd4aeabfbea23",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "status": "PASS",
+      "checks": 5407,
+      "report": "review/formal-physics/q3_5c5eb1d7988dccd0.json",
+      "report_sha256": "a111f9efe83f39ba0b5afaf5e8b8826cd41c25d798a4e2bef0b1d1c1526c5494",
+      "input_hashes": {
+        "trajectory": "5dcd672256465c49633b320296acd4e6077acfc60e5cfe8a4f43953828577149",
+        "metrics": "c207e2ca1df11dcab5dae3c36dae30325c8f809a3380620b64ecdcf34fbccb38",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "status": "PASS",
+      "checks": 5401,
+      "report": "review/formal-physics/q4_2_5c5eb1d7988dccd0.json",
+      "report_sha256": "b7086cf02573d769f49d951d28cccfed337a186240f95cbc6493d14993b000a4",
+      "input_hashes": {
+        "trajectory": "1bca8ebeeff37b61664aa4abbf3f5e783ee983209c2bf542538197872562f356",
+        "metrics": "7a92ee70291c984c4bde12f7e5b544a060d7ae294933b9c7ed3d8d163c52483e",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "status": "PASS",
+      "checks": 5407,
+      "report": "review/formal-physics/q4_3_5c5eb1d7988dccd0.json",
+      "report_sha256": "2a899b2e22e54eba0df6f9fdb3a6644005a657aae17d5c25d3b7b9426c6a1751",
+      "input_hashes": {
+        "trajectory": "0fd51c11fdce99a4f4df2b07c1a78c2c5831b831f85699e7452ca800eb4acfa1",
+        "metrics": "31639cbf46a86786be23c1c132de6e56ba15edd9dfcf70f38d1db42ead09f312",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "7a7d9f1f5f762810",
+      "status": "PASS",
+      "checks": 5401,
+      "report": "review/formal-physics/q2_7a7d9f1f5f762810.json",
+      "report_sha256": "93bc41444d671c7349ac2bad81cd9c875172173a05cbd22e431c0cd5bfbb1446",
+      "input_hashes": {
+        "trajectory": "c72656fd3e28d92c3a04995c4ce51e55b8767850a19e55afe50de1d1b9131904",
+        "metrics": "11793a2d266873d20f73448ba07bff380598d5fabedbe5b703f58cdc5ae1b483",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q3",
+      "configuration_id": "7a7d9f1f5f762810",
+      "status": "PASS",
+      "checks": 5407,
+      "report": "review/formal-physics/q3_7a7d9f1f5f762810.json",
+      "report_sha256": "429d489c35465a5ee73cc31f3c289d4b22a9e723a8c81ade2e67e659eb7ea497",
+      "input_hashes": {
+        "trajectory": "b9eee4f752e93cdd8e368572ed05f371796b769acf0965c9f1e5e3a1d263e42b",
+        "metrics": "b61428a8c60c4f2ae39d572d9ca3988d5f66764a74db161db0856da84713f951",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "7a7d9f1f5f762810",
+      "status": "PASS",
+      "checks": 5401,
+      "report": "review/formal-physics/q4_2_7a7d9f1f5f762810.json",
+      "report_sha256": "c74cfdb096925045c14d4ad78e7fe9dad4d8ca924520aa9006c7d30ea0c8f7fc",
+      "input_hashes": {
+        "trajectory": "65d58fae81197ffc93ac8fca9a10d1193bc4c60efdbbb12218db73f0f84c5ab4",
+        "metrics": "f028d692f2465b232fca63d9e9cf0bfc11e5b8981c0794523819827bb280cda6",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_3",
+      "configuration_id": "7a7d9f1f5f762810",
+      "status": "PASS",
+      "checks": 5407,
+      "report": "review/formal-physics/q4_3_7a7d9f1f5f762810.json",
+      "report_sha256": "0e8f65a32e48675747b58538b42f78bb8c4b67625f2b7baf90a56b846dcab663",
+      "input_hashes": {
+        "trajectory": "6a9ac91289bcc957d038a758d6786970c3e90a4fd00002e8bed87b15fe9eba08",
+        "metrics": "e52d41f6d67f2d8dc34c0d4962e02bade12c8998e3d4cdce6e1da67caebbd3bd",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "d21be844de2de2b1",
+      "status": "PASS",
+      "checks": 5401,
+      "report": "review/formal-physics/q2_d21be844de2de2b1.json",
+      "report_sha256": "4f59bd67693fd38ba53b0150f859725090c18a2d61dd1f8943b469296dc601ce",
+      "input_hashes": {
+        "trajectory": "92ad34bfb3a36c23531f3422a1f231093debababe7b8ebe6bd5550a6ab04e1b5",
+        "metrics": "8d06b5a836b22e7fc9e123b19e32e28759f01111854afc7c5bdccbff0a6d9a03",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q4_2",
+      "configuration_id": "d21be844de2de2b1",
+      "status": "PASS",
+      "checks": 5401,
+      "report": "review/formal-physics/q4_2_d21be844de2de2b1.json",
+      "report_sha256": "36bba1252981b887ceee8f09bbb7148a49402f38293a549d5d9cd2a18e4f61d0",
+      "input_hashes": {
+        "trajectory": "d6331541195f28de45cdcef463796318b3265eefe16576396f42637f76cbafbd",
+        "metrics": "3c1b6c27339e35a29a42c33f2c1f5f650748100e04e7cdccb18794eecda54765",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    },
+    {
+      "kind": "q2",
+      "configuration_id": "6cfbc0fe34fd0999",
+      "status": "PASS",
+      "checks": 5401,
+      "report": "review/formal-physics/q2_6cfbc0fe34fd0999.json",
+      "report_sha256": "992f5a52fc63118fa1ad5b20e6186e7e25867cc4a22fe6a703181429c45c4339",
+      "input_hashes": {
+        "trajectory": "c72656fd3e28d92c3a04995c4ce51e55b8767850a19e55afe50de1d1b9131904",
+        "metrics": "efb9d38deeec81f2418663dc54005ba9e4d46fd36475829aff34c474adf797d4",
+        "data": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+      }
+    }
+  ],
+  "failures": [],
+  "pending": [
+    "artifacts/formal/q3_d21be844de2de2b1",
+    "artifacts/formal/q4_3_d21be844de2de2b1",
+    "artifacts/formal/q3_6cfbc0fe34fd0999",
+    "artifacts/formal/q4_2_6cfbc0fe34fd0999",
+    "artifacts/formal/q4_3_6cfbc0fe34fd0999",
+    "artifacts/formal/q2_7bc4bc3e62f01705",
+    "artifacts/formal/q3_7bc4bc3e62f01705",
+    "artifacts/formal/q4_2_7bc4bc3e62f01705",
+    "artifacts/formal/q4_3_7bc4bc3e62f01705",
+    "artifacts/formal/q2_8c3a9abb4b0b1129",
+    "artifacts/formal/q3_8c3a9abb4b0b1129",
+    "artifacts/formal/q4_2_8c3a9abb4b0b1129",
+    "artifacts/formal/q4_3_8c3a9abb4b0b1129",
+    "artifacts/formal/q2_8850f18f7cddd093",
+    "artifacts/formal/q3_8850f18f7cddd093",
+    "artifacts/formal/q4_2_8850f18f7cddd093",
+    "artifacts/formal/q4_3_8850f18f7cddd093",
+    "artifacts/formal/q2_b989094f64adca97",
+    "artifacts/formal/q3_b989094f64adca97",
+    "artifacts/formal/q4_2_b989094f64adca97",
+    "artifacts/formal/q4_3_b989094f64adca97",
+    "artifacts/formal/q2_55c6ca18abc9ba50",
+    "artifacts/formal/q3_55c6ca18abc9ba50",
+    "artifacts/formal/q4_2_55c6ca18abc9ba50",
+    "artifacts/formal/q4_3_55c6ca18abc9ba50",
+    "artifacts/formal/q2_6f445816279b7da4",
+    "artifacts/formal/q3_6f445816279b7da4",
+    "artifacts/formal/q4_2_6f445816279b7da4",
+    "artifacts/formal/q4_3_6f445816279b7da4",
+    "artifacts/formal/q2_42681d4e99c271f6",
+    "artifacts/formal/q3_42681d4e99c271f6",
+    "artifacts/formal/q4_2_42681d4e99c271f6",
+    "artifacts/formal/q4_3_42681d4e99c271f6",
+    "artifacts/formal/q2_6efdd1cbeb9390c2",
+    "artifacts/formal/q3_6efdd1cbeb9390c2",
+    "artifacts/formal/q4_2_6efdd1cbeb9390c2",
+    "artifacts/formal/q4_3_6efdd1cbeb9390c2",
+    "artifacts/formal/q2_52ca9d11f98d3a45",
+    "artifacts/formal/q3_52ca9d11f98d3a45",
+    "artifacts/formal/q4_2_52ca9d11f98d3a45",
+    "artifacts/formal/q4_3_52ca9d11f98d3a45",
+    "artifacts/formal/q2_49fe1e89bc0d7166",
+    "artifacts/formal/q3_49fe1e89bc0d7166",
+    "artifacts/formal/q4_2_49fe1e89bc0d7166",
+    "artifacts/formal/q4_3_49fe1e89bc0d7166",
+    "artifacts/formal/q2_3dbadbc095a54a4d",
+    "artifacts/formal/q3_3dbadbc095a54a4d",
+    "artifacts/formal/q4_2_3dbadbc095a54a4d",
+    "artifacts/formal/q4_3_3dbadbc095a54a4d",
+    "artifacts/formal/q2_e493f54273b083c1",
+    "artifacts/formal/q3_e493f54273b083c1",
+    "artifacts/formal/q4_2_e493f54273b083c1",
+    "artifacts/formal/q4_3_e493f54273b083c1",
+    "artifacts/formal/q2_4570ad5cda797dec",
+    "artifacts/formal/q3_4570ad5cda797dec",
+    "artifacts/formal/q4_2_4570ad5cda797dec",
+    "artifacts/formal/q4_3_4570ad5cda797dec",
+    "artifacts/formal/q2_9152d976de489293",
+    "artifacts/formal/q3_9152d976de489293",
+    "artifacts/formal/q4_2_9152d976de489293",
+    "artifacts/formal/q4_3_9152d976de489293",
+    "artifacts/formal/q2_c4458f2f6fb06e54",
+    "artifacts/formal/q3_c4458f2f6fb06e54",
+    "artifacts/formal/q4_2_c4458f2f6fb06e54",
+    "artifacts/formal/q4_3_c4458f2f6fb06e54",
+    "artifacts/formal/q2_7369b0d225b8f24a",
+    "artifacts/formal/q3_7369b0d225b8f24a",
+    "artifacts/formal/q4_2_7369b0d225b8f24a",
+    "artifacts/formal/q4_3_7369b0d225b8f24a",
+    "artifacts/formal/q2_7d331156cce3d04a",
+    "artifacts/formal/q3_7d331156cce3d04a",
+    "artifacts/formal/q4_2_7d331156cce3d04a",
+    "artifacts/formal/q4_3_7d331156cce3d04a",
+    "artifacts/formal/q2_9b120da9701a0ad6",
+    "artifacts/formal/q3_9b120da9701a0ad6",
+    "artifacts/formal/q4_2_9b120da9701a0ad6",
+    "artifacts/formal/q4_3_9b120da9701a0ad6",
+    "artifacts/formal/q2_592bc8462bb5cae5",
+    "artifacts/formal/q3_592bc8462bb5cae5",
+    "artifacts/formal/q4_2_592bc8462bb5cae5",
+    "artifacts/formal/q4_3_592bc8462bb5cae5",
+    "artifacts/formal/q2_69eb140d3b7ad049",
+    "artifacts/formal/q3_69eb140d3b7ad049",
+    "artifacts/formal/q4_2_69eb140d3b7ad049",
+    "artifacts/formal/q4_3_69eb140d3b7ad049",
+    "artifacts/formal/q2_51bac964dec9def2",
+    "artifacts/formal/q3_51bac964dec9def2",
+    "artifacts/formal/q4_2_51bac964dec9def2",
+    "artifacts/formal/q4_3_51bac964dec9def2",
+    "artifacts/formal/q2_867bed8aa5daa8e5",
+    "artifacts/formal/q3_867bed8aa5daa8e5",
+    "artifacts/formal/q4_2_867bed8aa5daa8e5",
+    "artifacts/formal/q4_3_867bed8aa5daa8e5",
+    "artifacts/formal/q2_3f4e5973d35fc45f",
+    "artifacts/formal/q3_3f4e5973d35fc45f",
+    "artifacts/formal/q4_2_3f4e5973d35fc45f",
+    "artifacts/formal/q4_3_3f4e5973d35fc45f",
+    "artifacts/formal/q2_d62d51371d07e6f2",
+    "artifacts/formal/q3_d62d51371d07e6f2",
+    "artifacts/formal/q4_2_d62d51371d07e6f2",
+    "artifacts/formal/q4_3_d62d51371d07e6f2",
+    "artifacts/formal/q2_d6ec61e25a4be690",
+    "artifacts/formal/q3_d6ec61e25a4be690",
+    "artifacts/formal/q4_2_d6ec61e25a4be690",
+    "artifacts/formal/q4_3_d6ec61e25a4be690",
+    "artifacts/formal/q2_14efb40e2e2a7223",
+    "artifacts/formal/q3_14efb40e2e2a7223",
+    "artifacts/formal/q4_2_14efb40e2e2a7223",
+    "artifacts/formal/q4_3_14efb40e2e2a7223",
+    "artifacts/formal/q2_2e1fd5d7b5ff08fe",
+    "artifacts/formal/q3_2e1fd5d7b5ff08fe",
+    "artifacts/formal/q4_2_2e1fd5d7b5ff08fe",
+    "artifacts/formal/q4_3_2e1fd5d7b5ff08fe"
+  ],
+  "frozen_selection_sha256": "046fe0d378a130b1d7dcb5ba8178e823ca2ef8f407c7e8066f1e95ccb279ab1f",
+  "auditor_sha256": "d7f93eac6dc07d6f810629a2eec260cf5119aff6e836babcb5394a99d67984f0",
+  "execution": {
+    "command": [
+      "tools/validate_formal_results.py"
+    ],
+    "runtime_seconds": 6.398644249886274
+  },
+  "scope": "Independent equations and actual bill, output consistency and recorded contract permissions. Behavioral information causality requires separate mutation tests."
+}

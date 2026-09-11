@@ -1,0 +1,9 @@
+{
+  "policy": "Zero planned purchase and no battery operation; current shortages covered by emergency purchase.",
+  "initial_energy": 6000.0,
+  "february_initial_energy": 6000.0,
+  "days": 31,
+  "fixed_price_cost": 9456363.67146881,
+  "variable_price_cost": 10641987.876804242,
+  "note": "Same causal initialization for every candidate. January cost reported separately; no inventory transfer benefit hidden."
+}

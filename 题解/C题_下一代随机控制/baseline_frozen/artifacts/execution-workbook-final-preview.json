@@ -1,0 +1,15 @@
+{
+  "commands": [
+    [
+      "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "src/build_workbooks.mjs"
+    ],
+    [
+      "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "src/verify_workbooks.py"
+    ]
+  ],
+  "exit_code": 0,
+  "runtime_seconds": 29.533754917094484,
+  "reason": "Render reimported final XLSX to avoid stale merged-cell preview state"
+}

@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-09-11T03:59:02.014480+00:00",
+  "selection_sha256": "046fe0d378a130b1d7dcb5ba8178e823ca2ef8f407c7e8066f1e95ccb279ab1f",
+  "integrity_hashes": {
+    "artifacts/data.npz": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+    "artifacts/development-forecast-selection.json": "5886a5c4139c89e516a45aa7dcab7674baa39ca965c09ca8a9ec3b49cb9b4d54",
+    "artifacts/experiment-protocol.json": "b6cbc2b08a3518759c5775fdcae546b1659b8b18dcccb5610d6f860500a513d8",
+    "artifacts/forecast-selection.json": "eb6277a072175fe845b87b5eb55e042e562659f8d55cb5e94ea4222b0146ee71",
+    "src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+    "src/dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "src/forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "src/nextgen_run.py": "0beb60045672e170ddd99788e9d07b0d6b9a1a246e867627af52ed74b27824c0",
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "src/sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "tools/run_incremental_experiments.py": "ed0c310f145a3f56899cecafeaea41899a1085a0107189ec4409c83a36c50da1"
+  }
+}

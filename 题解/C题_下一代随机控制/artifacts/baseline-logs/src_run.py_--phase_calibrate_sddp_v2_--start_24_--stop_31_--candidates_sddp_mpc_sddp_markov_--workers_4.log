@@ -1,0 +1,8 @@
+{"kind": "q2", "candidate": "sddp_mpc", "total_cost": 358497.88773318595, "runtime_seconds": 22.00008187512867}
+{"kind": "q2", "candidate": "sddp_markov", "total_cost": 344539.2289057616, "runtime_seconds": 25.602193291066214}
+{"kind": "q3", "candidate": "sddp_mpc", "total_cost": 349359.97573698143, "runtime_seconds": 43.294896916951984}
+{"kind": "q4_2", "candidate": "sddp_mpc", "total_cost": 399902.9456533601, "runtime_seconds": 22.751037207897753}
+{"kind": "q3", "candidate": "sddp_markov", "total_cost": 339437.65936127875, "runtime_seconds": 47.28445220901631}
+{"kind": "q4_2", "candidate": "sddp_markov", "total_cost": 384378.3982923654, "runtime_seconds": 26.256457583978772}
+{"kind": "q4_3", "candidate": "sddp_mpc", "total_cost": 390049.6845719827, "runtime_seconds": 37.50577995786443}
+{"kind": "q4_3", "candidate": "sddp_markov", "total_cost": 378803.5592766406, "runtime_seconds": 39.62482633301988}

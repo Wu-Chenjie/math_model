@@ -1,0 +1,8620 @@
+{
+  "passed": true,
+  "checks": {
+    "evaluation_day_indices": {
+      "passed": true
+    },
+    "dates_align_input": {
+      "passed": true
+    },
+    "state_shape": {
+      "passed": true
+    },
+    "release_shape": {
+      "passed": true
+    },
+    "shape:q": {
+      "passed": true
+    },
+    "finite:q": {
+      "passed": true
+    },
+    "shape:r": {
+      "passed": true
+    },
+    "finite:r": {
+      "passed": true
+    },
+    "shape:c": {
+      "passed": true
+    },
+    "finite:c": {
+      "passed": true
+    },
+    "shape:d": {
+      "passed": true
+    },
+    "finite:d": {
+      "passed": true
+    },
+    "shape:emergency": {
+      "passed": true
+    },
+    "finite:emergency": {
+      "passed": true
+    },
+    "shape:spill": {
+      "passed": true
+    },
+    "finite:spill": {
+      "passed": true
+    },
+    "shape:price": {
+      "passed": true
+    },
+    "finite:price": {
+      "passed": true
+    },
+    "finite:state": {
+      "passed": true
+    },
+    "official_physics_only": {
+      "passed": true
+    },
+    "bus_balance_max_abs": {
+      "value": 2.2737367544323206e-13,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "soc_recurrence_max_abs": {
+      "value": 1.1368683772161603e-13,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "inventory_bound_violation": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "charge_power_excess_kw": {
+      "value": 5.4569682106375694e-12,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "discharge_power_excess_kw": {
+      "value": 9.094947017729282e-13,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "simultaneous_energy_max": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "negative_energy_max": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "midnight_jump_max_abs": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "initial_inventory_declared": {
+      "passed": true
+    },
+    "initial_inventory_agreement": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "matched_initial6000": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "hard_terminal_declared": {
+      "passed": true
+    },
+    "true_terminal6000": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "unaltered_actual_scoring_price": {
+      "value": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    "root_original_contract_finite": {
+      "passed": true
+    },
+    "original_q_release": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "release1_past_delivery_unset": {
+      "passed": true
+    },
+    "release1_future_finite": {
+      "passed": true
+    },
+    "release2_past_delivery_unset": {
+      "passed": true
+    },
+    "release2_future_finite": {
+      "passed": true
+    },
+    "release3_past_delivery_unset": {
+      "passed": true
+    },
+    "release3_future_finite": {
+      "passed": true
+    },
+    "effective_r_reconstructed": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "first_six_hours_unchanged": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "daily_log_count": {
+      "passed": true
+    },
+    "daily_log_dates": {
+      "passed": true
+    },
+    "aggregate:planned_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:planned_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:increase_cost": {
+      "value": 5.820766091346741e-11,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:increase_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:reduction_net_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:reduction_net_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:emergency_cost": {
+      "value": 2.9103830456733704e-11,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:emergency_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:total_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:total_cost": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:emergency_energy": {
+      "value": 7.275957614183426e-12,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:emergency_energy": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "aggregate:spill_energy": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily:spill_energy": {
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    "daily_ending_inventory": {
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    "decision_log_complete": {
+      "passed": true
+    },
+    "decision_clock": {
+      "passed": true
+    },
+    "mature_whole_blocks:4464": {
+      "passed": true
+    },
+    "recorded_maturity:4464": {
+      "passed": true
+    },
+    "mature_whole_blocks:4500": {
+      "passed": true
+    },
+    "recorded_maturity:4500": {
+      "passed": true
+    },
+    "mature_whole_blocks:4536": {
+      "passed": true
+    },
+    "recorded_maturity:4536": {
+      "passed": true
+    },
+    "mature_whole_blocks:4572": {
+      "passed": true
+    },
+    "recorded_maturity:4572": {
+      "passed": true
+    },
+    "mature_whole_blocks:4608": {
+      "passed": true
+    },
+    "recorded_maturity:4608": {
+      "passed": true
+    },
+    "mature_whole_blocks:4644": {
+      "passed": true
+    },
+    "recorded_maturity:4644": {
+      "passed": true
+    },
+    "mature_whole_blocks:4680": {
+      "passed": true
+    },
+    "recorded_maturity:4680": {
+      "passed": true
+    },
+    "mature_whole_blocks:4716": {
+      "passed": true
+    },
+    "recorded_maturity:4716": {
+      "passed": true
+    },
+    "mature_whole_blocks:4752": {
+      "passed": true
+    },
+    "recorded_maturity:4752": {
+      "passed": true
+    },
+    "mature_whole_blocks:4788": {
+      "passed": true
+    },
+    "recorded_maturity:4788": {
+      "passed": true
+    },
+    "mature_whole_blocks:4824": {
+      "passed": true
+    },
+    "recorded_maturity:4824": {
+      "passed": true
+    },
+    "mature_whole_blocks:4860": {
+      "passed": true
+    },
+    "recorded_maturity:4860": {
+      "passed": true
+    },
+    "mature_whole_blocks:4896": {
+      "passed": true
+    },
+    "recorded_maturity:4896": {
+      "passed": true
+    },
+    "mature_whole_blocks:4932": {
+      "passed": true
+    },
+    "recorded_maturity:4932": {
+      "passed": true
+    },
+    "mature_whole_blocks:4968": {
+      "passed": true
+    },
+    "recorded_maturity:4968": {
+      "passed": true
+    },
+    "mature_whole_blocks:5004": {
+      "passed": true
+    },
+    "recorded_maturity:5004": {
+      "passed": true
+    },
+    "mature_whole_blocks:5040": {
+      "passed": true
+    },
+    "recorded_maturity:5040": {
+      "passed": true
+    },
+    "mature_whole_blocks:5076": {
+      "passed": true
+    },
+    "recorded_maturity:5076": {
+      "passed": true
+    },
+    "mature_whole_blocks:5112": {
+      "passed": true
+    },
+    "recorded_maturity:5112": {
+      "passed": true
+    },
+    "mature_whole_blocks:5148": {
+      "passed": true
+    },
+    "recorded_maturity:5148": {
+      "passed": true
+    },
+    "mature_whole_blocks:5184": {
+      "passed": true
+    },
+    "recorded_maturity:5184": {
+      "passed": true
+    },
+    "mature_whole_blocks:5220": {
+      "passed": true
+    },
+    "recorded_maturity:5220": {
+      "passed": true
+    },
+    "mature_whole_blocks:5256": {
+      "passed": true
+    },
+    "recorded_maturity:5256": {
+      "passed": true
+    },
+    "mature_whole_blocks:5292": {
+      "passed": true
+    },
+    "recorded_maturity:5292": {
+      "passed": true
+    },
+    "mature_whole_blocks:5328": {
+      "passed": true
+    },
+    "recorded_maturity:5328": {
+      "passed": true
+    },
+    "mature_whole_blocks:5364": {
+      "passed": true
+    },
+    "recorded_maturity:5364": {
+      "passed": true
+    },
+    "mature_whole_blocks:5400": {
+      "passed": true
+    },
+    "recorded_maturity:5400": {
+      "passed": true
+    },
+    "mature_whole_blocks:5436": {
+      "passed": true
+    },
+    "recorded_maturity:5436": {
+      "passed": true
+    },
+    "mature_whole_blocks:5472": {
+      "passed": true
+    },
+    "recorded_maturity:5472": {
+      "passed": true
+    },
+    "mature_whole_blocks:5508": {
+      "passed": true
+    },
+    "recorded_maturity:5508": {
+      "passed": true
+    },
+    "mature_whole_blocks:5544": {
+      "passed": true
+    },
+    "recorded_maturity:5544": {
+      "passed": true
+    },
+    "mature_whole_blocks:5580": {
+      "passed": true
+    },
+    "recorded_maturity:5580": {
+      "passed": true
+    },
+    "mature_whole_blocks:5616": {
+      "passed": true
+    },
+    "recorded_maturity:5616": {
+      "passed": true
+    },
+    "mature_whole_blocks:5652": {
+      "passed": true
+    },
+    "recorded_maturity:5652": {
+      "passed": true
+    },
+    "mature_whole_blocks:5688": {
+      "passed": true
+    },
+    "recorded_maturity:5688": {
+      "passed": true
+    },
+    "mature_whole_blocks:5724": {
+      "passed": true
+    },
+    "recorded_maturity:5724": {
+      "passed": true
+    },
+    "mature_whole_blocks:5760": {
+      "passed": true
+    },
+    "recorded_maturity:5760": {
+      "passed": true
+    },
+    "mature_whole_blocks:5796": {
+      "passed": true
+    },
+    "recorded_maturity:5796": {
+      "passed": true
+    },
+    "mature_whole_blocks:5832": {
+      "passed": true
+    },
+    "recorded_maturity:5832": {
+      "passed": true
+    },
+    "mature_whole_blocks:5868": {
+      "passed": true
+    },
+    "recorded_maturity:5868": {
+      "passed": true
+    },
+    "mature_whole_blocks:5904": {
+      "passed": true
+    },
+    "recorded_maturity:5904": {
+      "passed": true
+    },
+    "mature_whole_blocks:5940": {
+      "passed": true
+    },
+    "recorded_maturity:5940": {
+      "passed": true
+    },
+    "mature_whole_blocks:5976": {
+      "passed": true
+    },
+    "recorded_maturity:5976": {
+      "passed": true
+    },
+    "mature_whole_blocks:6012": {
+      "passed": true
+    },
+    "recorded_maturity:6012": {
+      "passed": true
+    },
+    "mature_whole_blocks:6048": {
+      "passed": true
+    },
+    "recorded_maturity:6048": {
+      "passed": true
+    },
+    "mature_whole_blocks:6084": {
+      "passed": true
+    },
+    "recorded_maturity:6084": {
+      "passed": true
+    },
+    "mature_whole_blocks:6120": {
+      "passed": true
+    },
+    "recorded_maturity:6120": {
+      "passed": true
+    },
+    "mature_whole_blocks:6156": {
+      "passed": true
+    },
+    "recorded_maturity:6156": {
+      "passed": true
+    },
+    "mature_whole_blocks:6192": {
+      "passed": true
+    },
+    "recorded_maturity:6192": {
+      "passed": true
+    },
+    "mature_whole_blocks:6228": {
+      "passed": true
+    },
+    "recorded_maturity:6228": {
+      "passed": true
+    },
+    "mature_whole_blocks:6264": {
+      "passed": true
+    },
+    "recorded_maturity:6264": {
+      "passed": true
+    },
+    "mature_whole_blocks:6300": {
+      "passed": true
+    },
+    "recorded_maturity:6300": {
+      "passed": true
+    },
+    "mature_whole_blocks:6336": {
+      "passed": true
+    },
+    "recorded_maturity:6336": {
+      "passed": true
+    },
+    "mature_whole_blocks:6372": {
+      "passed": true
+    },
+    "recorded_maturity:6372": {
+      "passed": true
+    },
+    "mature_whole_blocks:6408": {
+      "passed": true
+    },
+    "recorded_maturity:6408": {
+      "passed": true
+    },
+    "mature_whole_blocks:6444": {
+      "passed": true
+    },
+    "recorded_maturity:6444": {
+      "passed": true
+    },
+    "mature_whole_blocks:6480": {
+      "passed": true
+    },
+    "recorded_maturity:6480": {
+      "passed": true
+    },
+    "mature_whole_blocks:6516": {
+      "passed": true
+    },
+    "recorded_maturity:6516": {
+      "passed": true
+    },
+    "mature_whole_blocks:6552": {
+      "passed": true
+    },
+    "recorded_maturity:6552": {
+      "passed": true
+    },
+    "mature_whole_blocks:6588": {
+      "passed": true
+    },
+    "recorded_maturity:6588": {
+      "passed": true
+    },
+    "mature_whole_blocks:6624": {
+      "passed": true
+    },
+    "recorded_maturity:6624": {
+      "passed": true
+    },
+    "mature_whole_blocks:6660": {
+      "passed": true
+    },
+    "recorded_maturity:6660": {
+      "passed": true
+    },
+    "mature_whole_blocks:6696": {
+      "passed": true
+    },
+    "recorded_maturity:6696": {
+      "passed": true
+    },
+    "mature_whole_blocks:6732": {
+      "passed": true
+    },
+    "recorded_maturity:6732": {
+      "passed": true
+    },
+    "mature_whole_blocks:6768": {
+      "passed": true
+    },
+    "recorded_maturity:6768": {
+      "passed": true
+    },
+    "mature_whole_blocks:6804": {
+      "passed": true
+    },
+    "recorded_maturity:6804": {
+      "passed": true
+    },
+    "mature_whole_blocks:6840": {
+      "passed": true
+    },
+    "recorded_maturity:6840": {
+      "passed": true
+    },
+    "mature_whole_blocks:6876": {
+      "passed": true
+    },
+    "recorded_maturity:6876": {
+      "passed": true
+    },
+    "mature_whole_blocks:6912": {
+      "passed": true
+    },
+    "recorded_maturity:6912": {
+      "passed": true
+    },
+    "mature_whole_blocks:6948": {
+      "passed": true
+    },
+    "recorded_maturity:6948": {
+      "passed": true
+    },
+    "mature_whole_blocks:6984": {
+      "passed": true
+    },
+    "recorded_maturity:6984": {
+      "passed": true
+    },
+    "mature_whole_blocks:7020": {
+      "passed": true
+    },
+    "recorded_maturity:7020": {
+      "passed": true
+    },
+    "mature_whole_blocks:7056": {
+      "passed": true
+    },
+    "recorded_maturity:7056": {
+      "passed": true
+    },
+    "mature_whole_blocks:7092": {
+      "passed": true
+    },
+    "recorded_maturity:7092": {
+      "passed": true
+    },
+    "mature_whole_blocks:7128": {
+      "passed": true
+    },
+    "recorded_maturity:7128": {
+      "passed": true
+    },
+    "mature_whole_blocks:7164": {
+      "passed": true
+    },
+    "recorded_maturity:7164": {
+      "passed": true
+    },
+    "mature_whole_blocks:7200": {
+      "passed": true
+    },
+    "recorded_maturity:7200": {
+      "passed": true
+    },
+    "mature_whole_blocks:7236": {
+      "passed": true
+    },
+    "recorded_maturity:7236": {
+      "passed": true
+    },
+    "mature_whole_blocks:7272": {
+      "passed": true
+    },
+    "recorded_maturity:7272": {
+      "passed": true
+    },
+    "mature_whole_blocks:7308": {
+      "passed": true
+    },
+    "recorded_maturity:7308": {
+      "passed": true
+    },
+    "mature_whole_blocks:7344": {
+      "passed": true
+    },
+    "recorded_maturity:7344": {
+      "passed": true
+    },
+    "mature_whole_blocks:7380": {
+      "passed": true
+    },
+    "recorded_maturity:7380": {
+      "passed": true
+    },
+    "mature_whole_blocks:7416": {
+      "passed": true
+    },
+    "recorded_maturity:7416": {
+      "passed": true
+    },
+    "mature_whole_blocks:7452": {
+      "passed": true
+    },
+    "recorded_maturity:7452": {
+      "passed": true
+    },
+    "mature_whole_blocks:7488": {
+      "passed": true
+    },
+    "recorded_maturity:7488": {
+      "passed": true
+    },
+    "mature_whole_blocks:7524": {
+      "passed": true
+    },
+    "recorded_maturity:7524": {
+      "passed": true
+    },
+    "mature_whole_blocks:7560": {
+      "passed": true
+    },
+    "recorded_maturity:7560": {
+      "passed": true
+    },
+    "mature_whole_blocks:7596": {
+      "passed": true
+    },
+    "recorded_maturity:7596": {
+      "passed": true
+    },
+    "mature_whole_blocks:7632": {
+      "passed": true
+    },
+    "recorded_maturity:7632": {
+      "passed": true
+    },
+    "mature_whole_blocks:7668": {
+      "passed": true
+    },
+    "recorded_maturity:7668": {
+      "passed": true
+    },
+    "mature_whole_blocks:7704": {
+      "passed": true
+    },
+    "recorded_maturity:7704": {
+      "passed": true
+    },
+    "mature_whole_blocks:7740": {
+      "passed": true
+    },
+    "recorded_maturity:7740": {
+      "passed": true
+    },
+    "mature_whole_blocks:7776": {
+      "passed": true
+    },
+    "recorded_maturity:7776": {
+      "passed": true
+    },
+    "mature_whole_blocks:7812": {
+      "passed": true
+    },
+    "recorded_maturity:7812": {
+      "passed": true
+    },
+    "mature_whole_blocks:7848": {
+      "passed": true
+    },
+    "recorded_maturity:7848": {
+      "passed": true
+    },
+    "mature_whole_blocks:7884": {
+      "passed": true
+    },
+    "recorded_maturity:7884": {
+      "passed": true
+    },
+    "mature_whole_blocks:7920": {
+      "passed": true
+    },
+    "recorded_maturity:7920": {
+      "passed": true
+    },
+    "mature_whole_blocks:7956": {
+      "passed": true
+    },
+    "recorded_maturity:7956": {
+      "passed": true
+    },
+    "mature_whole_blocks:7992": {
+      "passed": true
+    },
+    "recorded_maturity:7992": {
+      "passed": true
+    },
+    "mature_whole_blocks:8028": {
+      "passed": true
+    },
+    "recorded_maturity:8028": {
+      "passed": true
+    },
+    "mature_whole_blocks:8064": {
+      "passed": true
+    },
+    "recorded_maturity:8064": {
+      "passed": true
+    },
+    "mature_whole_blocks:8100": {
+      "passed": true
+    },
+    "recorded_maturity:8100": {
+      "passed": true
+    },
+    "mature_whole_blocks:8136": {
+      "passed": true
+    },
+    "recorded_maturity:8136": {
+      "passed": true
+    },
+    "mature_whole_blocks:8172": {
+      "passed": true
+    },
+    "recorded_maturity:8172": {
+      "passed": true
+    },
+    "mature_whole_blocks:8208": {
+      "passed": true
+    },
+    "recorded_maturity:8208": {
+      "passed": true
+    },
+    "mature_whole_blocks:8244": {
+      "passed": true
+    },
+    "recorded_maturity:8244": {
+      "passed": true
+    },
+    "mature_whole_blocks:8280": {
+      "passed": true
+    },
+    "recorded_maturity:8280": {
+      "passed": true
+    },
+    "mature_whole_blocks:8316": {
+      "passed": true
+    },
+    "recorded_maturity:8316": {
+      "passed": true
+    },
+    "mature_whole_blocks:8352": {
+      "passed": true
+    },
+    "recorded_maturity:8352": {
+      "passed": true
+    },
+    "mature_whole_blocks:8388": {
+      "passed": true
+    },
+    "recorded_maturity:8388": {
+      "passed": true
+    },
+    "mature_whole_blocks:8424": {
+      "passed": true
+    },
+    "recorded_maturity:8424": {
+      "passed": true
+    },
+    "mature_whole_blocks:8460": {
+      "passed": true
+    },
+    "recorded_maturity:8460": {
+      "passed": true
+    },
+    "mature_whole_blocks:8496": {
+      "passed": true
+    },
+    "recorded_maturity:8496": {
+      "passed": true
+    },
+    "mature_whole_blocks:8532": {
+      "passed": true
+    },
+    "recorded_maturity:8532": {
+      "passed": true
+    },
+    "mature_whole_blocks:8568": {
+      "passed": true
+    },
+    "recorded_maturity:8568": {
+      "passed": true
+    },
+    "mature_whole_blocks:8604": {
+      "passed": true
+    },
+    "recorded_maturity:8604": {
+      "passed": true
+    },
+    "mature_whole_blocks:8640": {
+      "passed": true
+    },
+    "recorded_maturity:8640": {
+      "passed": true
+    },
+    "mature_whole_blocks:8676": {
+      "passed": true
+    },
+    "recorded_maturity:8676": {
+      "passed": true
+    },
+    "mature_whole_blocks:8712": {
+      "passed": true
+    },
+    "recorded_maturity:8712": {
+      "passed": true
+    },
+    "mature_whole_blocks:8748": {
+      "passed": true
+    },
+    "recorded_maturity:8748": {
+      "passed": true
+    },
+    "mature_whole_blocks:8784": {
+      "passed": true
+    },
+    "recorded_maturity:8784": {
+      "passed": true
+    },
+    "mature_whole_blocks:8820": {
+      "passed": true
+    },
+    "recorded_maturity:8820": {
+      "passed": true
+    },
+    "mature_whole_blocks:8856": {
+      "passed": true
+    },
+    "recorded_maturity:8856": {
+      "passed": true
+    },
+    "mature_whole_blocks:8892": {
+      "passed": true
+    },
+    "recorded_maturity:8892": {
+      "passed": true
+    },
+    "mature_whole_blocks:8928": {
+      "passed": true
+    },
+    "recorded_maturity:8928": {
+      "passed": true
+    },
+    "mature_whole_blocks:8964": {
+      "passed": true
+    },
+    "recorded_maturity:8964": {
+      "passed": true
+    },
+    "mature_whole_blocks:9000": {
+      "passed": true
+    },
+    "recorded_maturity:9000": {
+      "passed": true
+    },
+    "mature_whole_blocks:9036": {
+      "passed": true
+    },
+    "recorded_maturity:9036": {
+      "passed": true
+    },
+    "mature_whole_blocks:9072": {
+      "passed": true
+    },
+    "recorded_maturity:9072": {
+      "passed": true
+    },
+    "mature_whole_blocks:9108": {
+      "passed": true
+    },
+    "recorded_maturity:9108": {
+      "passed": true
+    },
+    "mature_whole_blocks:9144": {
+      "passed": true
+    },
+    "recorded_maturity:9144": {
+      "passed": true
+    },
+    "mature_whole_blocks:9180": {
+      "passed": true
+    },
+    "recorded_maturity:9180": {
+      "passed": true
+    },
+    "mature_whole_blocks:9216": {
+      "passed": true
+    },
+    "recorded_maturity:9216": {
+      "passed": true
+    },
+    "mature_whole_blocks:9252": {
+      "passed": true
+    },
+    "recorded_maturity:9252": {
+      "passed": true
+    },
+    "mature_whole_blocks:9288": {
+      "passed": true
+    },
+    "recorded_maturity:9288": {
+      "passed": true
+    },
+    "mature_whole_blocks:9324": {
+      "passed": true
+    },
+    "recorded_maturity:9324": {
+      "passed": true
+    },
+    "mature_whole_blocks:9360": {
+      "passed": true
+    },
+    "recorded_maturity:9360": {
+      "passed": true
+    },
+    "mature_whole_blocks:9396": {
+      "passed": true
+    },
+    "recorded_maturity:9396": {
+      "passed": true
+    },
+    "mature_whole_blocks:9432": {
+      "passed": true
+    },
+    "recorded_maturity:9432": {
+      "passed": true
+    },
+    "mature_whole_blocks:9468": {
+      "passed": true
+    },
+    "recorded_maturity:9468": {
+      "passed": true
+    },
+    "mature_whole_blocks:9504": {
+      "passed": true
+    },
+    "recorded_maturity:9504": {
+      "passed": true
+    },
+    "mature_whole_blocks:9540": {
+      "passed": true
+    },
+    "recorded_maturity:9540": {
+      "passed": true
+    },
+    "mature_whole_blocks:9576": {
+      "passed": true
+    },
+    "recorded_maturity:9576": {
+      "passed": true
+    },
+    "mature_whole_blocks:9612": {
+      "passed": true
+    },
+    "recorded_maturity:9612": {
+      "passed": true
+    },
+    "mature_whole_blocks:9648": {
+      "passed": true
+    },
+    "recorded_maturity:9648": {
+      "passed": true
+    },
+    "mature_whole_blocks:9684": {
+      "passed": true
+    },
+    "recorded_maturity:9684": {
+      "passed": true
+    },
+    "mature_whole_blocks:9720": {
+      "passed": true
+    },
+    "recorded_maturity:9720": {
+      "passed": true
+    },
+    "mature_whole_blocks:9756": {
+      "passed": true
+    },
+    "recorded_maturity:9756": {
+      "passed": true
+    },
+    "mature_whole_blocks:9792": {
+      "passed": true
+    },
+    "recorded_maturity:9792": {
+      "passed": true
+    },
+    "mature_whole_blocks:9828": {
+      "passed": true
+    },
+    "recorded_maturity:9828": {
+      "passed": true
+    },
+    "mature_whole_blocks:9864": {
+      "passed": true
+    },
+    "recorded_maturity:9864": {
+      "passed": true
+    },
+    "mature_whole_blocks:9900": {
+      "passed": true
+    },
+    "recorded_maturity:9900": {
+      "passed": true
+    },
+    "mature_whole_blocks:9936": {
+      "passed": true
+    },
+    "recorded_maturity:9936": {
+      "passed": true
+    },
+    "mature_whole_blocks:9972": {
+      "passed": true
+    },
+    "recorded_maturity:9972": {
+      "passed": true
+    },
+    "mature_whole_blocks:10008": {
+      "passed": true
+    },
+    "recorded_maturity:10008": {
+      "passed": true
+    },
+    "mature_whole_blocks:10044": {
+      "passed": true
+    },
+    "recorded_maturity:10044": {
+      "passed": true
+    },
+    "mature_whole_blocks:10080": {
+      "passed": true
+    },
+    "recorded_maturity:10080": {
+      "passed": true
+    },
+    "mature_whole_blocks:10116": {
+      "passed": true
+    },
+    "recorded_maturity:10116": {
+      "passed": true
+    },
+    "mature_whole_blocks:10152": {
+      "passed": true
+    },
+    "recorded_maturity:10152": {
+      "passed": true
+    },
+    "mature_whole_blocks:10188": {
+      "passed": true
+    },
+    "recorded_maturity:10188": {
+      "passed": true
+    },
+    "mature_whole_blocks:10224": {
+      "passed": true
+    },
+    "recorded_maturity:10224": {
+      "passed": true
+    },
+    "mature_whole_blocks:10260": {
+      "passed": true
+    },
+    "recorded_maturity:10260": {
+      "passed": true
+    },
+    "mature_whole_blocks:10296": {
+      "passed": true
+    },
+    "recorded_maturity:10296": {
+      "passed": true
+    },
+    "mature_whole_blocks:10332": {
+      "passed": true
+    },
+    "recorded_maturity:10332": {
+      "passed": true
+    },
+    "mature_whole_blocks:10368": {
+      "passed": true
+    },
+    "recorded_maturity:10368": {
+      "passed": true
+    },
+    "mature_whole_blocks:10404": {
+      "passed": true
+    },
+    "recorded_maturity:10404": {
+      "passed": true
+    },
+    "mature_whole_blocks:10440": {
+      "passed": true
+    },
+    "recorded_maturity:10440": {
+      "passed": true
+    },
+    "mature_whole_blocks:10476": {
+      "passed": true
+    },
+    "recorded_maturity:10476": {
+      "passed": true
+    },
+    "mature_whole_blocks:10512": {
+      "passed": true
+    },
+    "recorded_maturity:10512": {
+      "passed": true
+    },
+    "mature_whole_blocks:10548": {
+      "passed": true
+    },
+    "recorded_maturity:10548": {
+      "passed": true
+    },
+    "mature_whole_blocks:10584": {
+      "passed": true
+    },
+    "recorded_maturity:10584": {
+      "passed": true
+    },
+    "mature_whole_blocks:10620": {
+      "passed": true
+    },
+    "recorded_maturity:10620": {
+      "passed": true
+    },
+    "mature_whole_blocks:10656": {
+      "passed": true
+    },
+    "recorded_maturity:10656": {
+      "passed": true
+    },
+    "mature_whole_blocks:10692": {
+      "passed": true
+    },
+    "recorded_maturity:10692": {
+      "passed": true
+    },
+    "mature_whole_blocks:10728": {
+      "passed": true
+    },
+    "recorded_maturity:10728": {
+      "passed": true
+    },
+    "mature_whole_blocks:10764": {
+      "passed": true
+    },
+    "recorded_maturity:10764": {
+      "passed": true
+    },
+    "mature_whole_blocks:10800": {
+      "passed": true
+    },
+    "recorded_maturity:10800": {
+      "passed": true
+    },
+    "mature_whole_blocks:10836": {
+      "passed": true
+    },
+    "recorded_maturity:10836": {
+      "passed": true
+    },
+    "mature_whole_blocks:10872": {
+      "passed": true
+    },
+    "recorded_maturity:10872": {
+      "passed": true
+    },
+    "mature_whole_blocks:10908": {
+      "passed": true
+    },
+    "recorded_maturity:10908": {
+      "passed": true
+    },
+    "mature_whole_blocks:10944": {
+      "passed": true
+    },
+    "recorded_maturity:10944": {
+      "passed": true
+    },
+    "mature_whole_blocks:10980": {
+      "passed": true
+    },
+    "recorded_maturity:10980": {
+      "passed": true
+    },
+    "mature_whole_blocks:11016": {
+      "passed": true
+    },
+    "recorded_maturity:11016": {
+      "passed": true
+    },
+    "mature_whole_blocks:11052": {
+      "passed": true
+    },
+    "recorded_maturity:11052": {
+      "passed": true
+    },
+    "mature_whole_blocks:11088": {
+      "passed": true
+    },
+    "recorded_maturity:11088": {
+      "passed": true
+    },
+    "mature_whole_blocks:11124": {
+      "passed": true
+    },
+    "recorded_maturity:11124": {
+      "passed": true
+    },
+    "mature_whole_blocks:11160": {
+      "passed": true
+    },
+    "recorded_maturity:11160": {
+      "passed": true
+    },
+    "mature_whole_blocks:11196": {
+      "passed": true
+    },
+    "recorded_maturity:11196": {
+      "passed": true
+    },
+    "mature_whole_blocks:11232": {
+      "passed": true
+    },
+    "recorded_maturity:11232": {
+      "passed": true
+    },
+    "mature_whole_blocks:11268": {
+      "passed": true
+    },
+    "recorded_maturity:11268": {
+      "passed": true
+    },
+    "mature_whole_blocks:11304": {
+      "passed": true
+    },
+    "recorded_maturity:11304": {
+      "passed": true
+    },
+    "mature_whole_blocks:11340": {
+      "passed": true
+    },
+    "recorded_maturity:11340": {
+      "passed": true
+    },
+    "mature_whole_blocks:11376": {
+      "passed": true
+    },
+    "recorded_maturity:11376": {
+      "passed": true
+    },
+    "mature_whole_blocks:11412": {
+      "passed": true
+    },
+    "recorded_maturity:11412": {
+      "passed": true
+    },
+    "mature_whole_blocks:11448": {
+      "passed": true
+    },
+    "recorded_maturity:11448": {
+      "passed": true
+    },
+    "mature_whole_blocks:11484": {
+      "passed": true
+    },
+    "recorded_maturity:11484": {
+      "passed": true
+    },
+    "mature_whole_blocks:11520": {
+      "passed": true
+    },
+    "recorded_maturity:11520": {
+      "passed": true
+    },
+    "mature_whole_blocks:11556": {
+      "passed": true
+    },
+    "recorded_maturity:11556": {
+      "passed": true
+    },
+    "mature_whole_blocks:11592": {
+      "passed": true
+    },
+    "recorded_maturity:11592": {
+      "passed": true
+    },
+    "mature_whole_blocks:11628": {
+      "passed": true
+    },
+    "recorded_maturity:11628": {
+      "passed": true
+    },
+    "mature_whole_blocks:11664": {
+      "passed": true
+    },
+    "recorded_maturity:11664": {
+      "passed": true
+    },
+    "mature_whole_blocks:11700": {
+      "passed": true
+    },
+    "recorded_maturity:11700": {
+      "passed": true
+    },
+    "mature_whole_blocks:11736": {
+      "passed": true
+    },
+    "recorded_maturity:11736": {
+      "passed": true
+    },
+    "mature_whole_blocks:11772": {
+      "passed": true
+    },
+    "recorded_maturity:11772": {
+      "passed": true
+    },
+    "mature_whole_blocks:11808": {
+      "passed": true
+    },
+    "recorded_maturity:11808": {
+      "passed": true
+    },
+    "mature_whole_blocks:11844": {
+      "passed": true
+    },
+    "recorded_maturity:11844": {
+      "passed": true
+    },
+    "mature_whole_blocks:11880": {
+      "passed": true
+    },
+    "recorded_maturity:11880": {
+      "passed": true
+    },
+    "mature_whole_blocks:11916": {
+      "passed": true
+    },
+    "recorded_maturity:11916": {
+      "passed": true
+    },
+    "mature_whole_blocks:11952": {
+      "passed": true
+    },
+    "recorded_maturity:11952": {
+      "passed": true
+    },
+    "mature_whole_blocks:11988": {
+      "passed": true
+    },
+    "recorded_maturity:11988": {
+      "passed": true
+    },
+    "mature_whole_blocks:12024": {
+      "passed": true
+    },
+    "recorded_maturity:12024": {
+      "passed": true
+    },
+    "mature_whole_blocks:12060": {
+      "passed": true
+    },
+    "recorded_maturity:12060": {
+      "passed": true
+    },
+    "mature_whole_blocks:12096": {
+      "passed": true
+    },
+    "recorded_maturity:12096": {
+      "passed": true
+    },
+    "mature_whole_blocks:12132": {
+      "passed": true
+    },
+    "recorded_maturity:12132": {
+      "passed": true
+    },
+    "mature_whole_blocks:12168": {
+      "passed": true
+    },
+    "recorded_maturity:12168": {
+      "passed": true
+    },
+    "mature_whole_blocks:12204": {
+      "passed": true
+    },
+    "recorded_maturity:12204": {
+      "passed": true
+    },
+    "mature_whole_blocks:12240": {
+      "passed": true
+    },
+    "recorded_maturity:12240": {
+      "passed": true
+    },
+    "mature_whole_blocks:12276": {
+      "passed": true
+    },
+    "recorded_maturity:12276": {
+      "passed": true
+    },
+    "mature_whole_blocks:12312": {
+      "passed": true
+    },
+    "recorded_maturity:12312": {
+      "passed": true
+    },
+    "mature_whole_blocks:12348": {
+      "passed": true
+    },
+    "recorded_maturity:12348": {
+      "passed": true
+    },
+    "mature_whole_blocks:12384": {
+      "passed": true
+    },
+    "recorded_maturity:12384": {
+      "passed": true
+    },
+    "mature_whole_blocks:12420": {
+      "passed": true
+    },
+    "recorded_maturity:12420": {
+      "passed": true
+    },
+    "mature_whole_blocks:12456": {
+      "passed": true
+    },
+    "recorded_maturity:12456": {
+      "passed": true
+    },
+    "mature_whole_blocks:12492": {
+      "passed": true
+    },
+    "recorded_maturity:12492": {
+      "passed": true
+    },
+    "mature_whole_blocks:12528": {
+      "passed": true
+    },
+    "recorded_maturity:12528": {
+      "passed": true
+    },
+    "mature_whole_blocks:12564": {
+      "passed": true
+    },
+    "recorded_maturity:12564": {
+      "passed": true
+    },
+    "mature_whole_blocks:12600": {
+      "passed": true
+    },
+    "recorded_maturity:12600": {
+      "passed": true
+    },
+    "mature_whole_blocks:12636": {
+      "passed": true
+    },
+    "recorded_maturity:12636": {
+      "passed": true
+    },
+    "mature_whole_blocks:12672": {
+      "passed": true
+    },
+    "recorded_maturity:12672": {
+      "passed": true
+    },
+    "mature_whole_blocks:12708": {
+      "passed": true
+    },
+    "recorded_maturity:12708": {
+      "passed": true
+    },
+    "mature_whole_blocks:12744": {
+      "passed": true
+    },
+    "recorded_maturity:12744": {
+      "passed": true
+    },
+    "mature_whole_blocks:12780": {
+      "passed": true
+    },
+    "recorded_maturity:12780": {
+      "passed": true
+    },
+    "mature_whole_blocks:12816": {
+      "passed": true
+    },
+    "recorded_maturity:12816": {
+      "passed": true
+    },
+    "mature_whole_blocks:12852": {
+      "passed": true
+    },
+    "recorded_maturity:12852": {
+      "passed": true
+    },
+    "mature_whole_blocks:12888": {
+      "passed": true
+    },
+    "recorded_maturity:12888": {
+      "passed": true
+    },
+    "mature_whole_blocks:12924": {
+      "passed": true
+    },
+    "recorded_maturity:12924": {
+      "passed": true
+    },
+    "mature_whole_blocks:12960": {
+      "passed": true
+    },
+    "recorded_maturity:12960": {
+      "passed": true
+    },
+    "mature_whole_blocks:12996": {
+      "passed": true
+    },
+    "recorded_maturity:12996": {
+      "passed": true
+    },
+    "mature_whole_blocks:13032": {
+      "passed": true
+    },
+    "recorded_maturity:13032": {
+      "passed": true
+    },
+    "mature_whole_blocks:13068": {
+      "passed": true
+    },
+    "recorded_maturity:13068": {
+      "passed": true
+    },
+    "mature_whole_blocks:13104": {
+      "passed": true
+    },
+    "recorded_maturity:13104": {
+      "passed": true
+    },
+    "mature_whole_blocks:13140": {
+      "passed": true
+    },
+    "recorded_maturity:13140": {
+      "passed": true
+    },
+    "mature_whole_blocks:13176": {
+      "passed": true
+    },
+    "recorded_maturity:13176": {
+      "passed": true
+    },
+    "mature_whole_blocks:13212": {
+      "passed": true
+    },
+    "recorded_maturity:13212": {
+      "passed": true
+    },
+    "mature_whole_blocks:13248": {
+      "passed": true
+    },
+    "recorded_maturity:13248": {
+      "passed": true
+    },
+    "mature_whole_blocks:13284": {
+      "passed": true
+    },
+    "recorded_maturity:13284": {
+      "passed": true
+    },
+    "mature_whole_blocks:13320": {
+      "passed": true
+    },
+    "recorded_maturity:13320": {
+      "passed": true
+    },
+    "mature_whole_blocks:13356": {
+      "passed": true
+    },
+    "recorded_maturity:13356": {
+      "passed": true
+    },
+    "mature_whole_blocks:13392": {
+      "passed": true
+    },
+    "recorded_maturity:13392": {
+      "passed": true
+    },
+    "mature_whole_blocks:13428": {
+      "passed": true
+    },
+    "recorded_maturity:13428": {
+      "passed": true
+    },
+    "mature_whole_blocks:13464": {
+      "passed": true
+    },
+    "recorded_maturity:13464": {
+      "passed": true
+    },
+    "mature_whole_blocks:13500": {
+      "passed": true
+    },
+    "recorded_maturity:13500": {
+      "passed": true
+    },
+    "mature_whole_blocks:13536": {
+      "passed": true
+    },
+    "recorded_maturity:13536": {
+      "passed": true
+    },
+    "mature_whole_blocks:13572": {
+      "passed": true
+    },
+    "recorded_maturity:13572": {
+      "passed": true
+    },
+    "mature_whole_blocks:13608": {
+      "passed": true
+    },
+    "recorded_maturity:13608": {
+      "passed": true
+    },
+    "mature_whole_blocks:13644": {
+      "passed": true
+    },
+    "recorded_maturity:13644": {
+      "passed": true
+    },
+    "mature_whole_blocks:13680": {
+      "passed": true
+    },
+    "recorded_maturity:13680": {
+      "passed": true
+    },
+    "mature_whole_blocks:13716": {
+      "passed": true
+    },
+    "recorded_maturity:13716": {
+      "passed": true
+    },
+    "mature_whole_blocks:13752": {
+      "passed": true
+    },
+    "recorded_maturity:13752": {
+      "passed": true
+    },
+    "mature_whole_blocks:13788": {
+      "passed": true
+    },
+    "recorded_maturity:13788": {
+      "passed": true
+    },
+    "mature_whole_blocks:13824": {
+      "passed": true
+    },
+    "recorded_maturity:13824": {
+      "passed": true
+    },
+    "mature_whole_blocks:13860": {
+      "passed": true
+    },
+    "recorded_maturity:13860": {
+      "passed": true
+    },
+    "mature_whole_blocks:13896": {
+      "passed": true
+    },
+    "recorded_maturity:13896": {
+      "passed": true
+    },
+    "mature_whole_blocks:13932": {
+      "passed": true
+    },
+    "recorded_maturity:13932": {
+      "passed": true
+    },
+    "mature_whole_blocks:13968": {
+      "passed": true
+    },
+    "recorded_maturity:13968": {
+      "passed": true
+    },
+    "mature_whole_blocks:14004": {
+      "passed": true
+    },
+    "recorded_maturity:14004": {
+      "passed": true
+    },
+    "mature_whole_blocks:14040": {
+      "passed": true
+    },
+    "recorded_maturity:14040": {
+      "passed": true
+    },
+    "mature_whole_blocks:14076": {
+      "passed": true
+    },
+    "recorded_maturity:14076": {
+      "passed": true
+    },
+    "mature_whole_blocks:14112": {
+      "passed": true
+    },
+    "recorded_maturity:14112": {
+      "passed": true
+    },
+    "mature_whole_blocks:14148": {
+      "passed": true
+    },
+    "recorded_maturity:14148": {
+      "passed": true
+    },
+    "mature_whole_blocks:14184": {
+      "passed": true
+    },
+    "recorded_maturity:14184": {
+      "passed": true
+    },
+    "mature_whole_blocks:14220": {
+      "passed": true
+    },
+    "recorded_maturity:14220": {
+      "passed": true
+    },
+    "mature_whole_blocks:14256": {
+      "passed": true
+    },
+    "recorded_maturity:14256": {
+      "passed": true
+    },
+    "mature_whole_blocks:14292": {
+      "passed": true
+    },
+    "recorded_maturity:14292": {
+      "passed": true
+    },
+    "mature_whole_blocks:14328": {
+      "passed": true
+    },
+    "recorded_maturity:14328": {
+      "passed": true
+    },
+    "mature_whole_blocks:14364": {
+      "passed": true
+    },
+    "recorded_maturity:14364": {
+      "passed": true
+    },
+    "mature_whole_blocks:14400": {
+      "passed": true
+    },
+    "recorded_maturity:14400": {
+      "passed": true
+    },
+    "mature_whole_blocks:14436": {
+      "passed": true
+    },
+    "recorded_maturity:14436": {
+      "passed": true
+    },
+    "mature_whole_blocks:14472": {
+      "passed": true
+    },
+    "recorded_maturity:14472": {
+      "passed": true
+    },
+    "mature_whole_blocks:14508": {
+      "passed": true
+    },
+    "recorded_maturity:14508": {
+      "passed": true
+    },
+    "mature_whole_blocks:14544": {
+      "passed": true
+    },
+    "recorded_maturity:14544": {
+      "passed": true
+    },
+    "mature_whole_blocks:14580": {
+      "passed": true
+    },
+    "recorded_maturity:14580": {
+      "passed": true
+    },
+    "mature_whole_blocks:14616": {
+      "passed": true
+    },
+    "recorded_maturity:14616": {
+      "passed": true
+    },
+    "mature_whole_blocks:14652": {
+      "passed": true
+    },
+    "recorded_maturity:14652": {
+      "passed": true
+    },
+    "mature_whole_blocks:14688": {
+      "passed": true
+    },
+    "recorded_maturity:14688": {
+      "passed": true
+    },
+    "mature_whole_blocks:14724": {
+      "passed": true
+    },
+    "recorded_maturity:14724": {
+      "passed": true
+    },
+    "mature_whole_blocks:14760": {
+      "passed": true
+    },
+    "recorded_maturity:14760": {
+      "passed": true
+    },
+    "mature_whole_blocks:14796": {
+      "passed": true
+    },
+    "recorded_maturity:14796": {
+      "passed": true
+    },
+    "mature_whole_blocks:14832": {
+      "passed": true
+    },
+    "recorded_maturity:14832": {
+      "passed": true
+    },
+    "mature_whole_blocks:14868": {
+      "passed": true
+    },
+    "recorded_maturity:14868": {
+      "passed": true
+    },
+    "mature_whole_blocks:14904": {
+      "passed": true
+    },
+    "recorded_maturity:14904": {
+      "passed": true
+    },
+    "mature_whole_blocks:14940": {
+      "passed": true
+    },
+    "recorded_maturity:14940": {
+      "passed": true
+    },
+    "mature_whole_blocks:14976": {
+      "passed": true
+    },
+    "recorded_maturity:14976": {
+      "passed": true
+    },
+    "mature_whole_blocks:15012": {
+      "passed": true
+    },
+    "recorded_maturity:15012": {
+      "passed": true
+    },
+    "mature_whole_blocks:15048": {
+      "passed": true
+    },
+    "recorded_maturity:15048": {
+      "passed": true
+    },
+    "mature_whole_blocks:15084": {
+      "passed": true
+    },
+    "recorded_maturity:15084": {
+      "passed": true
+    },
+    "mature_whole_blocks:15120": {
+      "passed": true
+    },
+    "recorded_maturity:15120": {
+      "passed": true
+    },
+    "mature_whole_blocks:15156": {
+      "passed": true
+    },
+    "recorded_maturity:15156": {
+      "passed": true
+    },
+    "mature_whole_blocks:15192": {
+      "passed": true
+    },
+    "recorded_maturity:15192": {
+      "passed": true
+    },
+    "mature_whole_blocks:15228": {
+      "passed": true
+    },
+    "recorded_maturity:15228": {
+      "passed": true
+    },
+    "mature_whole_blocks:15264": {
+      "passed": true
+    },
+    "recorded_maturity:15264": {
+      "passed": true
+    },
+    "mature_whole_blocks:15300": {
+      "passed": true
+    },
+    "recorded_maturity:15300": {
+      "passed": true
+    },
+    "mature_whole_blocks:15336": {
+      "passed": true
+    },
+    "recorded_maturity:15336": {
+      "passed": true
+    },
+    "mature_whole_blocks:15372": {
+      "passed": true
+    },
+    "recorded_maturity:15372": {
+      "passed": true
+    },
+    "mature_whole_blocks:15408": {
+      "passed": true
+    },
+    "recorded_maturity:15408": {
+      "passed": true
+    },
+    "mature_whole_blocks:15444": {
+      "passed": true
+    },
+    "recorded_maturity:15444": {
+      "passed": true
+    },
+    "mature_whole_blocks:15480": {
+      "passed": true
+    },
+    "recorded_maturity:15480": {
+      "passed": true
+    },
+    "mature_whole_blocks:15516": {
+      "passed": true
+    },
+    "recorded_maturity:15516": {
+      "passed": true
+    },
+    "mature_whole_blocks:15552": {
+      "passed": true
+    },
+    "recorded_maturity:15552": {
+      "passed": true
+    },
+    "mature_whole_blocks:15588": {
+      "passed": true
+    },
+    "recorded_maturity:15588": {
+      "passed": true
+    },
+    "mature_whole_blocks:15624": {
+      "passed": true
+    },
+    "recorded_maturity:15624": {
+      "passed": true
+    },
+    "mature_whole_blocks:15660": {
+      "passed": true
+    },
+    "recorded_maturity:15660": {
+      "passed": true
+    },
+    "mature_whole_blocks:15696": {
+      "passed": true
+    },
+    "recorded_maturity:15696": {
+      "passed": true
+    },
+    "mature_whole_blocks:15732": {
+      "passed": true
+    },
+    "recorded_maturity:15732": {
+      "passed": true
+    },
+    "mature_whole_blocks:15768": {
+      "passed": true
+    },
+    "recorded_maturity:15768": {
+      "passed": true
+    },
+    "mature_whole_blocks:15804": {
+      "passed": true
+    },
+    "recorded_maturity:15804": {
+      "passed": true
+    },
+    "mature_whole_blocks:15840": {
+      "passed": true
+    },
+    "recorded_maturity:15840": {
+      "passed": true
+    },
+    "mature_whole_blocks:15876": {
+      "passed": true
+    },
+    "recorded_maturity:15876": {
+      "passed": true
+    },
+    "mature_whole_blocks:15912": {
+      "passed": true
+    },
+    "recorded_maturity:15912": {
+      "passed": true
+    },
+    "mature_whole_blocks:15948": {
+      "passed": true
+    },
+    "recorded_maturity:15948": {
+      "passed": true
+    },
+    "mature_whole_blocks:15984": {
+      "passed": true
+    },
+    "recorded_maturity:15984": {
+      "passed": true
+    },
+    "mature_whole_blocks:16020": {
+      "passed": true
+    },
+    "recorded_maturity:16020": {
+      "passed": true
+    },
+    "mature_whole_blocks:16056": {
+      "passed": true
+    },
+    "recorded_maturity:16056": {
+      "passed": true
+    },
+    "mature_whole_blocks:16092": {
+      "passed": true
+    },
+    "recorded_maturity:16092": {
+      "passed": true
+    },
+    "mature_whole_blocks:16128": {
+      "passed": true
+    },
+    "recorded_maturity:16128": {
+      "passed": true
+    },
+    "mature_whole_blocks:16164": {
+      "passed": true
+    },
+    "recorded_maturity:16164": {
+      "passed": true
+    },
+    "mature_whole_blocks:16200": {
+      "passed": true
+    },
+    "recorded_maturity:16200": {
+      "passed": true
+    },
+    "mature_whole_blocks:16236": {
+      "passed": true
+    },
+    "recorded_maturity:16236": {
+      "passed": true
+    },
+    "mature_whole_blocks:16272": {
+      "passed": true
+    },
+    "recorded_maturity:16272": {
+      "passed": true
+    },
+    "mature_whole_blocks:16308": {
+      "passed": true
+    },
+    "recorded_maturity:16308": {
+      "passed": true
+    },
+    "mature_whole_blocks:16344": {
+      "passed": true
+    },
+    "recorded_maturity:16344": {
+      "passed": true
+    },
+    "mature_whole_blocks:16380": {
+      "passed": true
+    },
+    "recorded_maturity:16380": {
+      "passed": true
+    },
+    "mature_whole_blocks:16416": {
+      "passed": true
+    },
+    "recorded_maturity:16416": {
+      "passed": true
+    },
+    "mature_whole_blocks:16452": {
+      "passed": true
+    },
+    "recorded_maturity:16452": {
+      "passed": true
+    },
+    "mature_whole_blocks:16488": {
+      "passed": true
+    },
+    "recorded_maturity:16488": {
+      "passed": true
+    },
+    "mature_whole_blocks:16524": {
+      "passed": true
+    },
+    "recorded_maturity:16524": {
+      "passed": true
+    },
+    "mature_whole_blocks:16560": {
+      "passed": true
+    },
+    "recorded_maturity:16560": {
+      "passed": true
+    },
+    "mature_whole_blocks:16596": {
+      "passed": true
+    },
+    "recorded_maturity:16596": {
+      "passed": true
+    },
+    "mature_whole_blocks:16632": {
+      "passed": true
+    },
+    "recorded_maturity:16632": {
+      "passed": true
+    },
+    "mature_whole_blocks:16668": {
+      "passed": true
+    },
+    "recorded_maturity:16668": {
+      "passed": true
+    },
+    "mature_whole_blocks:16704": {
+      "passed": true
+    },
+    "recorded_maturity:16704": {
+      "passed": true
+    },
+    "mature_whole_blocks:16740": {
+      "passed": true
+    },
+    "recorded_maturity:16740": {
+      "passed": true
+    },
+    "mature_whole_blocks:16776": {
+      "passed": true
+    },
+    "recorded_maturity:16776": {
+      "passed": true
+    },
+    "mature_whole_blocks:16812": {
+      "passed": true
+    },
+    "recorded_maturity:16812": {
+      "passed": true
+    },
+    "mature_whole_blocks:16848": {
+      "passed": true
+    },
+    "recorded_maturity:16848": {
+      "passed": true
+    },
+    "mature_whole_blocks:16884": {
+      "passed": true
+    },
+    "recorded_maturity:16884": {
+      "passed": true
+    },
+    "mature_whole_blocks:16920": {
+      "passed": true
+    },
+    "recorded_maturity:16920": {
+      "passed": true
+    },
+    "mature_whole_blocks:16956": {
+      "passed": true
+    },
+    "recorded_maturity:16956": {
+      "passed": true
+    },
+    "mature_whole_blocks:16992": {
+      "passed": true
+    },
+    "recorded_maturity:16992": {
+      "passed": true
+    },
+    "mature_whole_blocks:17028": {
+      "passed": true
+    },
+    "recorded_maturity:17028": {
+      "passed": true
+    },
+    "mature_whole_blocks:17064": {
+      "passed": true
+    },
+    "recorded_maturity:17064": {
+      "passed": true
+    },
+    "mature_whole_blocks:17100": {
+      "passed": true
+    },
+    "recorded_maturity:17100": {
+      "passed": true
+    },
+    "mature_whole_blocks:17136": {
+      "passed": true
+    },
+    "recorded_maturity:17136": {
+      "passed": true
+    },
+    "mature_whole_blocks:17172": {
+      "passed": true
+    },
+    "recorded_maturity:17172": {
+      "passed": true
+    },
+    "mature_whole_blocks:17208": {
+      "passed": true
+    },
+    "recorded_maturity:17208": {
+      "passed": true
+    },
+    "mature_whole_blocks:17244": {
+      "passed": true
+    },
+    "recorded_maturity:17244": {
+      "passed": true
+    },
+    "mature_whole_blocks:17280": {
+      "passed": true
+    },
+    "recorded_maturity:17280": {
+      "passed": true
+    },
+    "mature_whole_blocks:17316": {
+      "passed": true
+    },
+    "recorded_maturity:17316": {
+      "passed": true
+    },
+    "mature_whole_blocks:17352": {
+      "passed": true
+    },
+    "recorded_maturity:17352": {
+      "passed": true
+    },
+    "mature_whole_blocks:17388": {
+      "passed": true
+    },
+    "recorded_maturity:17388": {
+      "passed": true
+    },
+    "mature_whole_blocks:17424": {
+      "passed": true
+    },
+    "recorded_maturity:17424": {
+      "passed": true
+    },
+    "mature_whole_blocks:17460": {
+      "passed": true
+    },
+    "recorded_maturity:17460": {
+      "passed": true
+    },
+    "mature_whole_blocks:17496": {
+      "passed": true
+    },
+    "recorded_maturity:17496": {
+      "passed": true
+    },
+    "mature_whole_blocks:17532": {
+      "passed": true
+    },
+    "recorded_maturity:17532": {
+      "passed": true
+    },
+    "mature_whole_blocks:17568": {
+      "passed": true
+    },
+    "recorded_maturity:17568": {
+      "passed": true
+    },
+    "mature_whole_blocks:17604": {
+      "passed": true
+    },
+    "recorded_maturity:17604": {
+      "passed": true
+    },
+    "mature_whole_blocks:17640": {
+      "passed": true
+    },
+    "recorded_maturity:17640": {
+      "passed": true
+    },
+    "mature_whole_blocks:17676": {
+      "passed": true
+    },
+    "recorded_maturity:17676": {
+      "passed": true
+    },
+    "mature_whole_blocks:17712": {
+      "passed": true
+    },
+    "recorded_maturity:17712": {
+      "passed": true
+    },
+    "mature_whole_blocks:17748": {
+      "passed": true
+    },
+    "recorded_maturity:17748": {
+      "passed": true
+    },
+    "mature_whole_blocks:17784": {
+      "passed": true
+    },
+    "recorded_maturity:17784": {
+      "passed": true
+    },
+    "mature_whole_blocks:17820": {
+      "passed": true
+    },
+    "recorded_maturity:17820": {
+      "passed": true
+    },
+    "mature_whole_blocks:17856": {
+      "passed": true
+    },
+    "recorded_maturity:17856": {
+      "passed": true
+    },
+    "mature_whole_blocks:17892": {
+      "passed": true
+    },
+    "recorded_maturity:17892": {
+      "passed": true
+    },
+    "mature_whole_blocks:17928": {
+      "passed": true
+    },
+    "recorded_maturity:17928": {
+      "passed": true
+    },
+    "mature_whole_blocks:17964": {
+      "passed": true
+    },
+    "recorded_maturity:17964": {
+      "passed": true
+    },
+    "mature_whole_blocks:18000": {
+      "passed": true
+    },
+    "recorded_maturity:18000": {
+      "passed": true
+    },
+    "mature_whole_blocks:18036": {
+      "passed": true
+    },
+    "recorded_maturity:18036": {
+      "passed": true
+    },
+    "mature_whole_blocks:18072": {
+      "passed": true
+    },
+    "recorded_maturity:18072": {
+      "passed": true
+    },
+    "mature_whole_blocks:18108": {
+      "passed": true
+    },
+    "recorded_maturity:18108": {
+      "passed": true
+    },
+    "mature_whole_blocks:18144": {
+      "passed": true
+    },
+    "recorded_maturity:18144": {
+      "passed": true
+    },
+    "mature_whole_blocks:18180": {
+      "passed": true
+    },
+    "recorded_maturity:18180": {
+      "passed": true
+    },
+    "mature_whole_blocks:18216": {
+      "passed": true
+    },
+    "recorded_maturity:18216": {
+      "passed": true
+    },
+    "mature_whole_blocks:18252": {
+      "passed": true
+    },
+    "recorded_maturity:18252": {
+      "passed": true
+    },
+    "mature_whole_blocks:18288": {
+      "passed": true
+    },
+    "recorded_maturity:18288": {
+      "passed": true
+    },
+    "mature_whole_blocks:18324": {
+      "passed": true
+    },
+    "recorded_maturity:18324": {
+      "passed": true
+    },
+    "mature_whole_blocks:18360": {
+      "passed": true
+    },
+    "recorded_maturity:18360": {
+      "passed": true
+    },
+    "mature_whole_blocks:18396": {
+      "passed": true
+    },
+    "recorded_maturity:18396": {
+      "passed": true
+    },
+    "mature_whole_blocks:18432": {
+      "passed": true
+    },
+    "recorded_maturity:18432": {
+      "passed": true
+    },
+    "mature_whole_blocks:18468": {
+      "passed": true
+    },
+    "recorded_maturity:18468": {
+      "passed": true
+    },
+    "mature_whole_blocks:18504": {
+      "passed": true
+    },
+    "recorded_maturity:18504": {
+      "passed": true
+    },
+    "mature_whole_blocks:18540": {
+      "passed": true
+    },
+    "recorded_maturity:18540": {
+      "passed": true
+    },
+    "mature_whole_blocks:18576": {
+      "passed": true
+    },
+    "recorded_maturity:18576": {
+      "passed": true
+    },
+    "mature_whole_blocks:18612": {
+      "passed": true
+    },
+    "recorded_maturity:18612": {
+      "passed": true
+    },
+    "mature_whole_blocks:18648": {
+      "passed": true
+    },
+    "recorded_maturity:18648": {
+      "passed": true
+    },
+    "mature_whole_blocks:18684": {
+      "passed": true
+    },
+    "recorded_maturity:18684": {
+      "passed": true
+    },
+    "mature_whole_blocks:18720": {
+      "passed": true
+    },
+    "recorded_maturity:18720": {
+      "passed": true
+    },
+    "mature_whole_blocks:18756": {
+      "passed": true
+    },
+    "recorded_maturity:18756": {
+      "passed": true
+    },
+    "mature_whole_blocks:18792": {
+      "passed": true
+    },
+    "recorded_maturity:18792": {
+      "passed": true
+    },
+    "mature_whole_blocks:18828": {
+      "passed": true
+    },
+    "recorded_maturity:18828": {
+      "passed": true
+    },
+    "mature_whole_blocks:18864": {
+      "passed": true
+    },
+    "recorded_maturity:18864": {
+      "passed": true
+    },
+    "mature_whole_blocks:18900": {
+      "passed": true
+    },
+    "recorded_maturity:18900": {
+      "passed": true
+    },
+    "mature_whole_blocks:18936": {
+      "passed": true
+    },
+    "recorded_maturity:18936": {
+      "passed": true
+    },
+    "mature_whole_blocks:18972": {
+      "passed": true
+    },
+    "recorded_maturity:18972": {
+      "passed": true
+    },
+    "mature_whole_blocks:19008": {
+      "passed": true
+    },
+    "recorded_maturity:19008": {
+      "passed": true
+    },
+    "mature_whole_blocks:19044": {
+      "passed": true
+    },
+    "recorded_maturity:19044": {
+      "passed": true
+    },
+    "mature_whole_blocks:19080": {
+      "passed": true
+    },
+    "recorded_maturity:19080": {
+      "passed": true
+    },
+    "mature_whole_blocks:19116": {
+      "passed": true
+    },
+    "recorded_maturity:19116": {
+      "passed": true
+    },
+    "mature_whole_blocks:19152": {
+      "passed": true
+    },
+    "recorded_maturity:19152": {
+      "passed": true
+    },
+    "mature_whole_blocks:19188": {
+      "passed": true
+    },
+    "recorded_maturity:19188": {
+      "passed": true
+    },
+    "mature_whole_blocks:19224": {
+      "passed": true
+    },
+    "recorded_maturity:19224": {
+      "passed": true
+    },
+    "mature_whole_blocks:19260": {
+      "passed": true
+    },
+    "recorded_maturity:19260": {
+      "passed": true
+    },
+    "mature_whole_blocks:19296": {
+      "passed": true
+    },
+    "recorded_maturity:19296": {
+      "passed": true
+    },
+    "mature_whole_blocks:19332": {
+      "passed": true
+    },
+    "recorded_maturity:19332": {
+      "passed": true
+    },
+    "mature_whole_blocks:19368": {
+      "passed": true
+    },
+    "recorded_maturity:19368": {
+      "passed": true
+    },
+    "mature_whole_blocks:19404": {
+      "passed": true
+    },
+    "recorded_maturity:19404": {
+      "passed": true
+    },
+    "mature_whole_blocks:19440": {
+      "passed": true
+    },
+    "recorded_maturity:19440": {
+      "passed": true
+    },
+    "mature_whole_blocks:19476": {
+      "passed": true
+    },
+    "recorded_maturity:19476": {
+      "passed": true
+    },
+    "mature_whole_blocks:19512": {
+      "passed": true
+    },
+    "recorded_maturity:19512": {
+      "passed": true
+    },
+    "mature_whole_blocks:19548": {
+      "passed": true
+    },
+    "recorded_maturity:19548": {
+      "passed": true
+    },
+    "mature_whole_blocks:19584": {
+      "passed": true
+    },
+    "recorded_maturity:19584": {
+      "passed": true
+    },
+    "mature_whole_blocks:19620": {
+      "passed": true
+    },
+    "recorded_maturity:19620": {
+      "passed": true
+    },
+    "mature_whole_blocks:19656": {
+      "passed": true
+    },
+    "recorded_maturity:19656": {
+      "passed": true
+    },
+    "mature_whole_blocks:19692": {
+      "passed": true
+    },
+    "recorded_maturity:19692": {
+      "passed": true
+    },
+    "mature_whole_blocks:19728": {
+      "passed": true
+    },
+    "recorded_maturity:19728": {
+      "passed": true
+    },
+    "mature_whole_blocks:19764": {
+      "passed": true
+    },
+    "recorded_maturity:19764": {
+      "passed": true
+    },
+    "mature_whole_blocks:19800": {
+      "passed": true
+    },
+    "recorded_maturity:19800": {
+      "passed": true
+    },
+    "mature_whole_blocks:19836": {
+      "passed": true
+    },
+    "recorded_maturity:19836": {
+      "passed": true
+    },
+    "mature_whole_blocks:19872": {
+      "passed": true
+    },
+    "recorded_maturity:19872": {
+      "passed": true
+    },
+    "mature_whole_blocks:19908": {
+      "passed": true
+    },
+    "recorded_maturity:19908": {
+      "passed": true
+    },
+    "mature_whole_blocks:19944": {
+      "passed": true
+    },
+    "recorded_maturity:19944": {
+      "passed": true
+    },
+    "mature_whole_blocks:19980": {
+      "passed": true
+    },
+    "recorded_maturity:19980": {
+      "passed": true
+    },
+    "mature_whole_blocks:20016": {
+      "passed": true
+    },
+    "recorded_maturity:20016": {
+      "passed": true
+    },
+    "mature_whole_blocks:20052": {
+      "passed": true
+    },
+    "recorded_maturity:20052": {
+      "passed": true
+    },
+    "mature_whole_blocks:20088": {
+      "passed": true
+    },
+    "recorded_maturity:20088": {
+      "passed": true
+    },
+    "mature_whole_blocks:20124": {
+      "passed": true
+    },
+    "recorded_maturity:20124": {
+      "passed": true
+    },
+    "mature_whole_blocks:20160": {
+      "passed": true
+    },
+    "recorded_maturity:20160": {
+      "passed": true
+    },
+    "mature_whole_blocks:20196": {
+      "passed": true
+    },
+    "recorded_maturity:20196": {
+      "passed": true
+    },
+    "mature_whole_blocks:20232": {
+      "passed": true
+    },
+    "recorded_maturity:20232": {
+      "passed": true
+    },
+    "mature_whole_blocks:20268": {
+      "passed": true
+    },
+    "recorded_maturity:20268": {
+      "passed": true
+    },
+    "mature_whole_blocks:20304": {
+      "passed": true
+    },
+    "recorded_maturity:20304": {
+      "passed": true
+    },
+    "mature_whole_blocks:20340": {
+      "passed": true
+    },
+    "recorded_maturity:20340": {
+      "passed": true
+    },
+    "mature_whole_blocks:20376": {
+      "passed": true
+    },
+    "recorded_maturity:20376": {
+      "passed": true
+    },
+    "mature_whole_blocks:20412": {
+      "passed": true
+    },
+    "recorded_maturity:20412": {
+      "passed": true
+    },
+    "mature_whole_blocks:20448": {
+      "passed": true
+    },
+    "recorded_maturity:20448": {
+      "passed": true
+    },
+    "mature_whole_blocks:20484": {
+      "passed": true
+    },
+    "recorded_maturity:20484": {
+      "passed": true
+    },
+    "mature_whole_blocks:20520": {
+      "passed": true
+    },
+    "recorded_maturity:20520": {
+      "passed": true
+    },
+    "mature_whole_blocks:20556": {
+      "passed": true
+    },
+    "recorded_maturity:20556": {
+      "passed": true
+    },
+    "mature_whole_blocks:20592": {
+      "passed": true
+    },
+    "recorded_maturity:20592": {
+      "passed": true
+    },
+    "mature_whole_blocks:20628": {
+      "passed": true
+    },
+    "recorded_maturity:20628": {
+      "passed": true
+    },
+    "mature_whole_blocks:20664": {
+      "passed": true
+    },
+    "recorded_maturity:20664": {
+      "passed": true
+    },
+    "mature_whole_blocks:20700": {
+      "passed": true
+    },
+    "recorded_maturity:20700": {
+      "passed": true
+    },
+    "mature_whole_blocks:20736": {
+      "passed": true
+    },
+    "recorded_maturity:20736": {
+      "passed": true
+    },
+    "mature_whole_blocks:20772": {
+      "passed": true
+    },
+    "recorded_maturity:20772": {
+      "passed": true
+    },
+    "mature_whole_blocks:20808": {
+      "passed": true
+    },
+    "recorded_maturity:20808": {
+      "passed": true
+    },
+    "mature_whole_blocks:20844": {
+      "passed": true
+    },
+    "recorded_maturity:20844": {
+      "passed": true
+    },
+    "mature_whole_blocks:20880": {
+      "passed": true
+    },
+    "recorded_maturity:20880": {
+      "passed": true
+    },
+    "mature_whole_blocks:20916": {
+      "passed": true
+    },
+    "recorded_maturity:20916": {
+      "passed": true
+    },
+    "mature_whole_blocks:20952": {
+      "passed": true
+    },
+    "recorded_maturity:20952": {
+      "passed": true
+    },
+    "mature_whole_blocks:20988": {
+      "passed": true
+    },
+    "recorded_maturity:20988": {
+      "passed": true
+    },
+    "mature_whole_blocks:21024": {
+      "passed": true
+    },
+    "recorded_maturity:21024": {
+      "passed": true
+    },
+    "mature_whole_blocks:21060": {
+      "passed": true
+    },
+    "recorded_maturity:21060": {
+      "passed": true
+    },
+    "mature_whole_blocks:21096": {
+      "passed": true
+    },
+    "recorded_maturity:21096": {
+      "passed": true
+    },
+    "mature_whole_blocks:21132": {
+      "passed": true
+    },
+    "recorded_maturity:21132": {
+      "passed": true
+    },
+    "mature_whole_blocks:21168": {
+      "passed": true
+    },
+    "recorded_maturity:21168": {
+      "passed": true
+    },
+    "mature_whole_blocks:21204": {
+      "passed": true
+    },
+    "recorded_maturity:21204": {
+      "passed": true
+    },
+    "mature_whole_blocks:21240": {
+      "passed": true
+    },
+    "recorded_maturity:21240": {
+      "passed": true
+    },
+    "mature_whole_blocks:21276": {
+      "passed": true
+    },
+    "recorded_maturity:21276": {
+      "passed": true
+    },
+    "mature_whole_blocks:21312": {
+      "passed": true
+    },
+    "recorded_maturity:21312": {
+      "passed": true
+    },
+    "mature_whole_blocks:21348": {
+      "passed": true
+    },
+    "recorded_maturity:21348": {
+      "passed": true
+    },
+    "mature_whole_blocks:21384": {
+      "passed": true
+    },
+    "recorded_maturity:21384": {
+      "passed": true
+    },
+    "mature_whole_blocks:21420": {
+      "passed": true
+    },
+    "recorded_maturity:21420": {
+      "passed": true
+    },
+    "mature_whole_blocks:21456": {
+      "passed": true
+    },
+    "recorded_maturity:21456": {
+      "passed": true
+    },
+    "mature_whole_blocks:21492": {
+      "passed": true
+    },
+    "recorded_maturity:21492": {
+      "passed": true
+    },
+    "mature_whole_blocks:21528": {
+      "passed": true
+    },
+    "recorded_maturity:21528": {
+      "passed": true
+    },
+    "mature_whole_blocks:21564": {
+      "passed": true
+    },
+    "recorded_maturity:21564": {
+      "passed": true
+    },
+    "mature_whole_blocks:21600": {
+      "passed": true
+    },
+    "recorded_maturity:21600": {
+      "passed": true
+    },
+    "mature_whole_blocks:21636": {
+      "passed": true
+    },
+    "recorded_maturity:21636": {
+      "passed": true
+    },
+    "mature_whole_blocks:21672": {
+      "passed": true
+    },
+    "recorded_maturity:21672": {
+      "passed": true
+    },
+    "mature_whole_blocks:21708": {
+      "passed": true
+    },
+    "recorded_maturity:21708": {
+      "passed": true
+    },
+    "mature_whole_blocks:21744": {
+      "passed": true
+    },
+    "recorded_maturity:21744": {
+      "passed": true
+    },
+    "mature_whole_blocks:21780": {
+      "passed": true
+    },
+    "recorded_maturity:21780": {
+      "passed": true
+    },
+    "mature_whole_blocks:21816": {
+      "passed": true
+    },
+    "recorded_maturity:21816": {
+      "passed": true
+    },
+    "mature_whole_blocks:21852": {
+      "passed": true
+    },
+    "recorded_maturity:21852": {
+      "passed": true
+    },
+    "mature_whole_blocks:21888": {
+      "passed": true
+    },
+    "recorded_maturity:21888": {
+      "passed": true
+    },
+    "mature_whole_blocks:21924": {
+      "passed": true
+    },
+    "recorded_maturity:21924": {
+      "passed": true
+    },
+    "mature_whole_blocks:21960": {
+      "passed": true
+    },
+    "recorded_maturity:21960": {
+      "passed": true
+    },
+    "mature_whole_blocks:21996": {
+      "passed": true
+    },
+    "recorded_maturity:21996": {
+      "passed": true
+    },
+    "mature_whole_blocks:22032": {
+      "passed": true
+    },
+    "recorded_maturity:22032": {
+      "passed": true
+    },
+    "mature_whole_blocks:22068": {
+      "passed": true
+    },
+    "recorded_maturity:22068": {
+      "passed": true
+    },
+    "mature_whole_blocks:22104": {
+      "passed": true
+    },
+    "recorded_maturity:22104": {
+      "passed": true
+    },
+    "mature_whole_blocks:22140": {
+      "passed": true
+    },
+    "recorded_maturity:22140": {
+      "passed": true
+    },
+    "mature_whole_blocks:22176": {
+      "passed": true
+    },
+    "recorded_maturity:22176": {
+      "passed": true
+    },
+    "mature_whole_blocks:22212": {
+      "passed": true
+    },
+    "recorded_maturity:22212": {
+      "passed": true
+    },
+    "mature_whole_blocks:22248": {
+      "passed": true
+    },
+    "recorded_maturity:22248": {
+      "passed": true
+    },
+    "mature_whole_blocks:22284": {
+      "passed": true
+    },
+    "recorded_maturity:22284": {
+      "passed": true
+    },
+    "mature_whole_blocks:22320": {
+      "passed": true
+    },
+    "recorded_maturity:22320": {
+      "passed": true
+    },
+    "mature_whole_blocks:22356": {
+      "passed": true
+    },
+    "recorded_maturity:22356": {
+      "passed": true
+    },
+    "mature_whole_blocks:22392": {
+      "passed": true
+    },
+    "recorded_maturity:22392": {
+      "passed": true
+    },
+    "mature_whole_blocks:22428": {
+      "passed": true
+    },
+    "recorded_maturity:22428": {
+      "passed": true
+    },
+    "mature_whole_blocks:22464": {
+      "passed": true
+    },
+    "recorded_maturity:22464": {
+      "passed": true
+    },
+    "mature_whole_blocks:22500": {
+      "passed": true
+    },
+    "recorded_maturity:22500": {
+      "passed": true
+    },
+    "mature_whole_blocks:22536": {
+      "passed": true
+    },
+    "recorded_maturity:22536": {
+      "passed": true
+    },
+    "mature_whole_blocks:22572": {
+      "passed": true
+    },
+    "recorded_maturity:22572": {
+      "passed": true
+    },
+    "mature_whole_blocks:22608": {
+      "passed": true
+    },
+    "recorded_maturity:22608": {
+      "passed": true
+    },
+    "mature_whole_blocks:22644": {
+      "passed": true
+    },
+    "recorded_maturity:22644": {
+      "passed": true
+    },
+    "mature_whole_blocks:22680": {
+      "passed": true
+    },
+    "recorded_maturity:22680": {
+      "passed": true
+    },
+    "mature_whole_blocks:22716": {
+      "passed": true
+    },
+    "recorded_maturity:22716": {
+      "passed": true
+    },
+    "mature_whole_blocks:22752": {
+      "passed": true
+    },
+    "recorded_maturity:22752": {
+      "passed": true
+    },
+    "mature_whole_blocks:22788": {
+      "passed": true
+    },
+    "recorded_maturity:22788": {
+      "passed": true
+    },
+    "mature_whole_blocks:22824": {
+      "passed": true
+    },
+    "recorded_maturity:22824": {
+      "passed": true
+    },
+    "mature_whole_blocks:22860": {
+      "passed": true
+    },
+    "recorded_maturity:22860": {
+      "passed": true
+    },
+    "mature_whole_blocks:22896": {
+      "passed": true
+    },
+    "recorded_maturity:22896": {
+      "passed": true
+    },
+    "mature_whole_blocks:22932": {
+      "passed": true
+    },
+    "recorded_maturity:22932": {
+      "passed": true
+    },
+    "mature_whole_blocks:22968": {
+      "passed": true
+    },
+    "recorded_maturity:22968": {
+      "passed": true
+    },
+    "mature_whole_blocks:23004": {
+      "passed": true
+    },
+    "recorded_maturity:23004": {
+      "passed": true
+    },
+    "mature_whole_blocks:23040": {
+      "passed": true
+    },
+    "recorded_maturity:23040": {
+      "passed": true
+    },
+    "mature_whole_blocks:23076": {
+      "passed": true
+    },
+    "recorded_maturity:23076": {
+      "passed": true
+    },
+    "mature_whole_blocks:23112": {
+      "passed": true
+    },
+    "recorded_maturity:23112": {
+      "passed": true
+    },
+    "mature_whole_blocks:23148": {
+      "passed": true
+    },
+    "recorded_maturity:23148": {
+      "passed": true
+    },
+    "mature_whole_blocks:23184": {
+      "passed": true
+    },
+    "recorded_maturity:23184": {
+      "passed": true
+    },
+    "mature_whole_blocks:23220": {
+      "passed": true
+    },
+    "recorded_maturity:23220": {
+      "passed": true
+    },
+    "mature_whole_blocks:23256": {
+      "passed": true
+    },
+    "recorded_maturity:23256": {
+      "passed": true
+    },
+    "mature_whole_blocks:23292": {
+      "passed": true
+    },
+    "recorded_maturity:23292": {
+      "passed": true
+    },
+    "mature_whole_blocks:23328": {
+      "passed": true
+    },
+    "recorded_maturity:23328": {
+      "passed": true
+    },
+    "mature_whole_blocks:23364": {
+      "passed": true
+    },
+    "recorded_maturity:23364": {
+      "passed": true
+    },
+    "mature_whole_blocks:23400": {
+      "passed": true
+    },
+    "recorded_maturity:23400": {
+      "passed": true
+    },
+    "mature_whole_blocks:23436": {
+      "passed": true
+    },
+    "recorded_maturity:23436": {
+      "passed": true
+    },
+    "mature_whole_blocks:23472": {
+      "passed": true
+    },
+    "recorded_maturity:23472": {
+      "passed": true
+    },
+    "mature_whole_blocks:23508": {
+      "passed": true
+    },
+    "recorded_maturity:23508": {
+      "passed": true
+    },
+    "mature_whole_blocks:23544": {
+      "passed": true
+    },
+    "recorded_maturity:23544": {
+      "passed": true
+    },
+    "mature_whole_blocks:23580": {
+      "passed": true
+    },
+    "recorded_maturity:23580": {
+      "passed": true
+    },
+    "mature_whole_blocks:23616": {
+      "passed": true
+    },
+    "recorded_maturity:23616": {
+      "passed": true
+    },
+    "mature_whole_blocks:23652": {
+      "passed": true
+    },
+    "recorded_maturity:23652": {
+      "passed": true
+    },
+    "mature_whole_blocks:23688": {
+      "passed": true
+    },
+    "recorded_maturity:23688": {
+      "passed": true
+    },
+    "mature_whole_blocks:23724": {
+      "passed": true
+    },
+    "recorded_maturity:23724": {
+      "passed": true
+    },
+    "mature_whole_blocks:23760": {
+      "passed": true
+    },
+    "recorded_maturity:23760": {
+      "passed": true
+    },
+    "mature_whole_blocks:23796": {
+      "passed": true
+    },
+    "recorded_maturity:23796": {
+      "passed": true
+    },
+    "mature_whole_blocks:23832": {
+      "passed": true
+    },
+    "recorded_maturity:23832": {
+      "passed": true
+    },
+    "mature_whole_blocks:23868": {
+      "passed": true
+    },
+    "recorded_maturity:23868": {
+      "passed": true
+    },
+    "mature_whole_blocks:23904": {
+      "passed": true
+    },
+    "recorded_maturity:23904": {
+      "passed": true
+    },
+    "mature_whole_blocks:23940": {
+      "passed": true
+    },
+    "recorded_maturity:23940": {
+      "passed": true
+    },
+    "mature_whole_blocks:23976": {
+      "passed": true
+    },
+    "recorded_maturity:23976": {
+      "passed": true
+    },
+    "mature_whole_blocks:24012": {
+      "passed": true
+    },
+    "recorded_maturity:24012": {
+      "passed": true
+    },
+    "mature_whole_blocks:24048": {
+      "passed": true
+    },
+    "recorded_maturity:24048": {
+      "passed": true
+    },
+    "mature_whole_blocks:24084": {
+      "passed": true
+    },
+    "recorded_maturity:24084": {
+      "passed": true
+    },
+    "mature_whole_blocks:24120": {
+      "passed": true
+    },
+    "recorded_maturity:24120": {
+      "passed": true
+    },
+    "mature_whole_blocks:24156": {
+      "passed": true
+    },
+    "recorded_maturity:24156": {
+      "passed": true
+    },
+    "mature_whole_blocks:24192": {
+      "passed": true
+    },
+    "recorded_maturity:24192": {
+      "passed": true
+    },
+    "mature_whole_blocks:24228": {
+      "passed": true
+    },
+    "recorded_maturity:24228": {
+      "passed": true
+    },
+    "mature_whole_blocks:24264": {
+      "passed": true
+    },
+    "recorded_maturity:24264": {
+      "passed": true
+    },
+    "mature_whole_blocks:24300": {
+      "passed": true
+    },
+    "recorded_maturity:24300": {
+      "passed": true
+    },
+    "mature_whole_blocks:24336": {
+      "passed": true
+    },
+    "recorded_maturity:24336": {
+      "passed": true
+    },
+    "mature_whole_blocks:24372": {
+      "passed": true
+    },
+    "recorded_maturity:24372": {
+      "passed": true
+    },
+    "mature_whole_blocks:24408": {
+      "passed": true
+    },
+    "recorded_maturity:24408": {
+      "passed": true
+    },
+    "mature_whole_blocks:24444": {
+      "passed": true
+    },
+    "recorded_maturity:24444": {
+      "passed": true
+    },
+    "mature_whole_blocks:24480": {
+      "passed": true
+    },
+    "recorded_maturity:24480": {
+      "passed": true
+    },
+    "mature_whole_blocks:24516": {
+      "passed": true
+    },
+    "recorded_maturity:24516": {
+      "passed": true
+    },
+    "mature_whole_blocks:24552": {
+      "passed": true
+    },
+    "recorded_maturity:24552": {
+      "passed": true
+    },
+    "mature_whole_blocks:24588": {
+      "passed": true
+    },
+    "recorded_maturity:24588": {
+      "passed": true
+    },
+    "mature_whole_blocks:24624": {
+      "passed": true
+    },
+    "recorded_maturity:24624": {
+      "passed": true
+    },
+    "mature_whole_blocks:24660": {
+      "passed": true
+    },
+    "recorded_maturity:24660": {
+      "passed": true
+    },
+    "mature_whole_blocks:24696": {
+      "passed": true
+    },
+    "recorded_maturity:24696": {
+      "passed": true
+    },
+    "mature_whole_blocks:24732": {
+      "passed": true
+    },
+    "recorded_maturity:24732": {
+      "passed": true
+    },
+    "mature_whole_blocks:24768": {
+      "passed": true
+    },
+    "recorded_maturity:24768": {
+      "passed": true
+    },
+    "mature_whole_blocks:24804": {
+      "passed": true
+    },
+    "recorded_maturity:24804": {
+      "passed": true
+    },
+    "mature_whole_blocks:24840": {
+      "passed": true
+    },
+    "recorded_maturity:24840": {
+      "passed": true
+    },
+    "mature_whole_blocks:24876": {
+      "passed": true
+    },
+    "recorded_maturity:24876": {
+      "passed": true
+    },
+    "mature_whole_blocks:24912": {
+      "passed": true
+    },
+    "recorded_maturity:24912": {
+      "passed": true
+    },
+    "mature_whole_blocks:24948": {
+      "passed": true
+    },
+    "recorded_maturity:24948": {
+      "passed": true
+    },
+    "mature_whole_blocks:24984": {
+      "passed": true
+    },
+    "recorded_maturity:24984": {
+      "passed": true
+    },
+    "mature_whole_blocks:25020": {
+      "passed": true
+    },
+    "recorded_maturity:25020": {
+      "passed": true
+    },
+    "mature_whole_blocks:25056": {
+      "passed": true
+    },
+    "recorded_maturity:25056": {
+      "passed": true
+    },
+    "mature_whole_blocks:25092": {
+      "passed": true
+    },
+    "recorded_maturity:25092": {
+      "passed": true
+    },
+    "mature_whole_blocks:25128": {
+      "passed": true
+    },
+    "recorded_maturity:25128": {
+      "passed": true
+    },
+    "mature_whole_blocks:25164": {
+      "passed": true
+    },
+    "recorded_maturity:25164": {
+      "passed": true
+    },
+    "mature_whole_blocks:25200": {
+      "passed": true
+    },
+    "recorded_maturity:25200": {
+      "passed": true
+    },
+    "mature_whole_blocks:25236": {
+      "passed": true
+    },
+    "recorded_maturity:25236": {
+      "passed": true
+    },
+    "mature_whole_blocks:25272": {
+      "passed": true
+    },
+    "recorded_maturity:25272": {
+      "passed": true
+    },
+    "mature_whole_blocks:25308": {
+      "passed": true
+    },
+    "recorded_maturity:25308": {
+      "passed": true
+    },
+    "mature_whole_blocks:25344": {
+      "passed": true
+    },
+    "recorded_maturity:25344": {
+      "passed": true
+    },
+    "mature_whole_blocks:25380": {
+      "passed": true
+    },
+    "recorded_maturity:25380": {
+      "passed": true
+    },
+    "mature_whole_blocks:25416": {
+      "passed": true
+    },
+    "recorded_maturity:25416": {
+      "passed": true
+    },
+    "mature_whole_blocks:25452": {
+      "passed": true
+    },
+    "recorded_maturity:25452": {
+      "passed": true
+    },
+    "mature_whole_blocks:25488": {
+      "passed": true
+    },
+    "recorded_maturity:25488": {
+      "passed": true
+    },
+    "mature_whole_blocks:25524": {
+      "passed": true
+    },
+    "recorded_maturity:25524": {
+      "passed": true
+    },
+    "mature_whole_blocks:25560": {
+      "passed": true
+    },
+    "recorded_maturity:25560": {
+      "passed": true
+    },
+    "mature_whole_blocks:25596": {
+      "passed": true
+    },
+    "recorded_maturity:25596": {
+      "passed": true
+    },
+    "mature_whole_blocks:25632": {
+      "passed": true
+    },
+    "recorded_maturity:25632": {
+      "passed": true
+    },
+    "mature_whole_blocks:25668": {
+      "passed": true
+    },
+    "recorded_maturity:25668": {
+      "passed": true
+    },
+    "mature_whole_blocks:25704": {
+      "passed": true
+    },
+    "recorded_maturity:25704": {
+      "passed": true
+    },
+    "mature_whole_blocks:25740": {
+      "passed": true
+    },
+    "recorded_maturity:25740": {
+      "passed": true
+    },
+    "mature_whole_blocks:25776": {
+      "passed": true
+    },
+    "recorded_maturity:25776": {
+      "passed": true
+    },
+    "mature_whole_blocks:25812": {
+      "passed": true
+    },
+    "recorded_maturity:25812": {
+      "passed": true
+    },
+    "mature_whole_blocks:25848": {
+      "passed": true
+    },
+    "recorded_maturity:25848": {
+      "passed": true
+    },
+    "mature_whole_blocks:25884": {
+      "passed": true
+    },
+    "recorded_maturity:25884": {
+      "passed": true
+    },
+    "mature_whole_blocks:25920": {
+      "passed": true
+    },
+    "recorded_maturity:25920": {
+      "passed": true
+    },
+    "mature_whole_blocks:25956": {
+      "passed": true
+    },
+    "recorded_maturity:25956": {
+      "passed": true
+    },
+    "mature_whole_blocks:25992": {
+      "passed": true
+    },
+    "recorded_maturity:25992": {
+      "passed": true
+    },
+    "mature_whole_blocks:26028": {
+      "passed": true
+    },
+    "recorded_maturity:26028": {
+      "passed": true
+    },
+    "mature_whole_blocks:26064": {
+      "passed": true
+    },
+    "recorded_maturity:26064": {
+      "passed": true
+    },
+    "mature_whole_blocks:26100": {
+      "passed": true
+    },
+    "recorded_maturity:26100": {
+      "passed": true
+    },
+    "mature_whole_blocks:26136": {
+      "passed": true
+    },
+    "recorded_maturity:26136": {
+      "passed": true
+    },
+    "mature_whole_blocks:26172": {
+      "passed": true
+    },
+    "recorded_maturity:26172": {
+      "passed": true
+    },
+    "mature_whole_blocks:26208": {
+      "passed": true
+    },
+    "recorded_maturity:26208": {
+      "passed": true
+    },
+    "mature_whole_blocks:26244": {
+      "passed": true
+    },
+    "recorded_maturity:26244": {
+      "passed": true
+    },
+    "mature_whole_blocks:26280": {
+      "passed": true
+    },
+    "recorded_maturity:26280": {
+      "passed": true
+    },
+    "mature_whole_blocks:26316": {
+      "passed": true
+    },
+    "recorded_maturity:26316": {
+      "passed": true
+    },
+    "mature_whole_blocks:26352": {
+      "passed": true
+    },
+    "recorded_maturity:26352": {
+      "passed": true
+    },
+    "mature_whole_blocks:26388": {
+      "passed": true
+    },
+    "recorded_maturity:26388": {
+      "passed": true
+    },
+    "mature_whole_blocks:26424": {
+      "passed": true
+    },
+    "recorded_maturity:26424": {
+      "passed": true
+    },
+    "mature_whole_blocks:26460": {
+      "passed": true
+    },
+    "recorded_maturity:26460": {
+      "passed": true
+    },
+    "mature_whole_blocks:26496": {
+      "passed": true
+    },
+    "recorded_maturity:26496": {
+      "passed": true
+    },
+    "mature_whole_blocks:26532": {
+      "passed": true
+    },
+    "recorded_maturity:26532": {
+      "passed": true
+    },
+    "mature_whole_blocks:26568": {
+      "passed": true
+    },
+    "recorded_maturity:26568": {
+      "passed": true
+    },
+    "mature_whole_blocks:26604": {
+      "passed": true
+    },
+    "recorded_maturity:26604": {
+      "passed": true
+    },
+    "mature_whole_blocks:26640": {
+      "passed": true
+    },
+    "recorded_maturity:26640": {
+      "passed": true
+    },
+    "mature_whole_blocks:26676": {
+      "passed": true
+    },
+    "recorded_maturity:26676": {
+      "passed": true
+    },
+    "mature_whole_blocks:26712": {
+      "passed": true
+    },
+    "recorded_maturity:26712": {
+      "passed": true
+    },
+    "mature_whole_blocks:26748": {
+      "passed": true
+    },
+    "recorded_maturity:26748": {
+      "passed": true
+    },
+    "mature_whole_blocks:26784": {
+      "passed": true
+    },
+    "recorded_maturity:26784": {
+      "passed": true
+    },
+    "mature_whole_blocks:26820": {
+      "passed": true
+    },
+    "recorded_maturity:26820": {
+      "passed": true
+    },
+    "mature_whole_blocks:26856": {
+      "passed": true
+    },
+    "recorded_maturity:26856": {
+      "passed": true
+    },
+    "mature_whole_blocks:26892": {
+      "passed": true
+    },
+    "recorded_maturity:26892": {
+      "passed": true
+    },
+    "mature_whole_blocks:26928": {
+      "passed": true
+    },
+    "recorded_maturity:26928": {
+      "passed": true
+    },
+    "mature_whole_blocks:26964": {
+      "passed": true
+    },
+    "recorded_maturity:26964": {
+      "passed": true
+    },
+    "mature_whole_blocks:27000": {
+      "passed": true
+    },
+    "recorded_maturity:27000": {
+      "passed": true
+    },
+    "mature_whole_blocks:27036": {
+      "passed": true
+    },
+    "recorded_maturity:27036": {
+      "passed": true
+    },
+    "mature_whole_blocks:27072": {
+      "passed": true
+    },
+    "recorded_maturity:27072": {
+      "passed": true
+    },
+    "mature_whole_blocks:27108": {
+      "passed": true
+    },
+    "recorded_maturity:27108": {
+      "passed": true
+    },
+    "mature_whole_blocks:27144": {
+      "passed": true
+    },
+    "recorded_maturity:27144": {
+      "passed": true
+    },
+    "mature_whole_blocks:27180": {
+      "passed": true
+    },
+    "recorded_maturity:27180": {
+      "passed": true
+    },
+    "mature_whole_blocks:27216": {
+      "passed": true
+    },
+    "recorded_maturity:27216": {
+      "passed": true
+    },
+    "mature_whole_blocks:27252": {
+      "passed": true
+    },
+    "recorded_maturity:27252": {
+      "passed": true
+    },
+    "mature_whole_blocks:27288": {
+      "passed": true
+    },
+    "recorded_maturity:27288": {
+      "passed": true
+    },
+    "mature_whole_blocks:27324": {
+      "passed": true
+    },
+    "recorded_maturity:27324": {
+      "passed": true
+    },
+    "mature_whole_blocks:27360": {
+      "passed": true
+    },
+    "recorded_maturity:27360": {
+      "passed": true
+    },
+    "mature_whole_blocks:27396": {
+      "passed": true
+    },
+    "recorded_maturity:27396": {
+      "passed": true
+    },
+    "mature_whole_blocks:27432": {
+      "passed": true
+    },
+    "recorded_maturity:27432": {
+      "passed": true
+    },
+    "mature_whole_blocks:27468": {
+      "passed": true
+    },
+    "recorded_maturity:27468": {
+      "passed": true
+    },
+    "mature_whole_blocks:27504": {
+      "passed": true
+    },
+    "recorded_maturity:27504": {
+      "passed": true
+    },
+    "mature_whole_blocks:27540": {
+      "passed": true
+    },
+    "recorded_maturity:27540": {
+      "passed": true
+    },
+    "mature_whole_blocks:27576": {
+      "passed": true
+    },
+    "recorded_maturity:27576": {
+      "passed": true
+    },
+    "mature_whole_blocks:27612": {
+      "passed": true
+    },
+    "recorded_maturity:27612": {
+      "passed": true
+    },
+    "mature_whole_blocks:27648": {
+      "passed": true
+    },
+    "recorded_maturity:27648": {
+      "passed": true
+    },
+    "mature_whole_blocks:27684": {
+      "passed": true
+    },
+    "recorded_maturity:27684": {
+      "passed": true
+    },
+    "mature_whole_blocks:27720": {
+      "passed": true
+    },
+    "recorded_maturity:27720": {
+      "passed": true
+    },
+    "mature_whole_blocks:27756": {
+      "passed": true
+    },
+    "recorded_maturity:27756": {
+      "passed": true
+    },
+    "mature_whole_blocks:27792": {
+      "passed": true
+    },
+    "recorded_maturity:27792": {
+      "passed": true
+    },
+    "mature_whole_blocks:27828": {
+      "passed": true
+    },
+    "recorded_maturity:27828": {
+      "passed": true
+    },
+    "mature_whole_blocks:27864": {
+      "passed": true
+    },
+    "recorded_maturity:27864": {
+      "passed": true
+    },
+    "mature_whole_blocks:27900": {
+      "passed": true
+    },
+    "recorded_maturity:27900": {
+      "passed": true
+    },
+    "mature_whole_blocks:27936": {
+      "passed": true
+    },
+    "recorded_maturity:27936": {
+      "passed": true
+    },
+    "mature_whole_blocks:27972": {
+      "passed": true
+    },
+    "recorded_maturity:27972": {
+      "passed": true
+    },
+    "mature_whole_blocks:28008": {
+      "passed": true
+    },
+    "recorded_maturity:28008": {
+      "passed": true
+    },
+    "mature_whole_blocks:28044": {
+      "passed": true
+    },
+    "recorded_maturity:28044": {
+      "passed": true
+    },
+    "mature_whole_blocks:28080": {
+      "passed": true
+    },
+    "recorded_maturity:28080": {
+      "passed": true
+    },
+    "mature_whole_blocks:28116": {
+      "passed": true
+    },
+    "recorded_maturity:28116": {
+      "passed": true
+    },
+    "mature_whole_blocks:28152": {
+      "passed": true
+    },
+    "recorded_maturity:28152": {
+      "passed": true
+    },
+    "mature_whole_blocks:28188": {
+      "passed": true
+    },
+    "recorded_maturity:28188": {
+      "passed": true
+    },
+    "mature_whole_blocks:28224": {
+      "passed": true
+    },
+    "recorded_maturity:28224": {
+      "passed": true
+    },
+    "mature_whole_blocks:28260": {
+      "passed": true
+    },
+    "recorded_maturity:28260": {
+      "passed": true
+    },
+    "mature_whole_blocks:28296": {
+      "passed": true
+    },
+    "recorded_maturity:28296": {
+      "passed": true
+    },
+    "mature_whole_blocks:28332": {
+      "passed": true
+    },
+    "recorded_maturity:28332": {
+      "passed": true
+    },
+    "mature_whole_blocks:28368": {
+      "passed": true
+    },
+    "recorded_maturity:28368": {
+      "passed": true
+    },
+    "mature_whole_blocks:28404": {
+      "passed": true
+    },
+    "recorded_maturity:28404": {
+      "passed": true
+    },
+    "mature_whole_blocks:28440": {
+      "passed": true
+    },
+    "recorded_maturity:28440": {
+      "passed": true
+    },
+    "mature_whole_blocks:28476": {
+      "passed": true
+    },
+    "recorded_maturity:28476": {
+      "passed": true
+    },
+    "mature_whole_blocks:28512": {
+      "passed": true
+    },
+    "recorded_maturity:28512": {
+      "passed": true
+    },
+    "mature_whole_blocks:28548": {
+      "passed": true
+    },
+    "recorded_maturity:28548": {
+      "passed": true
+    },
+    "mature_whole_blocks:28584": {
+      "passed": true
+    },
+    "recorded_maturity:28584": {
+      "passed": true
+    },
+    "mature_whole_blocks:28620": {
+      "passed": true
+    },
+    "recorded_maturity:28620": {
+      "passed": true
+    },
+    "mature_whole_blocks:28656": {
+      "passed": true
+    },
+    "recorded_maturity:28656": {
+      "passed": true
+    },
+    "mature_whole_blocks:28692": {
+      "passed": true
+    },
+    "recorded_maturity:28692": {
+      "passed": true
+    },
+    "mature_whole_blocks:28728": {
+      "passed": true
+    },
+    "recorded_maturity:28728": {
+      "passed": true
+    },
+    "mature_whole_blocks:28764": {
+      "passed": true
+    },
+    "recorded_maturity:28764": {
+      "passed": true
+    },
+    "mature_whole_blocks:28800": {
+      "passed": true
+    },
+    "recorded_maturity:28800": {
+      "passed": true
+    },
+    "mature_whole_blocks:28836": {
+      "passed": true
+    },
+    "recorded_maturity:28836": {
+      "passed": true
+    },
+    "mature_whole_blocks:28872": {
+      "passed": true
+    },
+    "recorded_maturity:28872": {
+      "passed": true
+    },
+    "mature_whole_blocks:28908": {
+      "passed": true
+    },
+    "recorded_maturity:28908": {
+      "passed": true
+    },
+    "mature_whole_blocks:28944": {
+      "passed": true
+    },
+    "recorded_maturity:28944": {
+      "passed": true
+    },
+    "mature_whole_blocks:28980": {
+      "passed": true
+    },
+    "recorded_maturity:28980": {
+      "passed": true
+    },
+    "mature_whole_blocks:29016": {
+      "passed": true
+    },
+    "recorded_maturity:29016": {
+      "passed": true
+    },
+    "mature_whole_blocks:29052": {
+      "passed": true
+    },
+    "recorded_maturity:29052": {
+      "passed": true
+    },
+    "mature_whole_blocks:29088": {
+      "passed": true
+    },
+    "recorded_maturity:29088": {
+      "passed": true
+    },
+    "mature_whole_blocks:29124": {
+      "passed": true
+    },
+    "recorded_maturity:29124": {
+      "passed": true
+    },
+    "mature_whole_blocks:29160": {
+      "passed": true
+    },
+    "recorded_maturity:29160": {
+      "passed": true
+    },
+    "mature_whole_blocks:29196": {
+      "passed": true
+    },
+    "recorded_maturity:29196": {
+      "passed": true
+    },
+    "mature_whole_blocks:29232": {
+      "passed": true
+    },
+    "recorded_maturity:29232": {
+      "passed": true
+    },
+    "mature_whole_blocks:29268": {
+      "passed": true
+    },
+    "recorded_maturity:29268": {
+      "passed": true
+    },
+    "mature_whole_blocks:29304": {
+      "passed": true
+    },
+    "recorded_maturity:29304": {
+      "passed": true
+    },
+    "mature_whole_blocks:29340": {
+      "passed": true
+    },
+    "recorded_maturity:29340": {
+      "passed": true
+    },
+    "mature_whole_blocks:29376": {
+      "passed": true
+    },
+    "recorded_maturity:29376": {
+      "passed": true
+    },
+    "mature_whole_blocks:29412": {
+      "passed": true
+    },
+    "recorded_maturity:29412": {
+      "passed": true
+    },
+    "mature_whole_blocks:29448": {
+      "passed": true
+    },
+    "recorded_maturity:29448": {
+      "passed": true
+    },
+    "mature_whole_blocks:29484": {
+      "passed": true
+    },
+    "recorded_maturity:29484": {
+      "passed": true
+    },
+    "mature_whole_blocks:29520": {
+      "passed": true
+    },
+    "recorded_maturity:29520": {
+      "passed": true
+    },
+    "mature_whole_blocks:29556": {
+      "passed": true
+    },
+    "recorded_maturity:29556": {
+      "passed": true
+    },
+    "mature_whole_blocks:29592": {
+      "passed": true
+    },
+    "recorded_maturity:29592": {
+      "passed": true
+    },
+    "mature_whole_blocks:29628": {
+      "passed": true
+    },
+    "recorded_maturity:29628": {
+      "passed": true
+    },
+    "mature_whole_blocks:29664": {
+      "passed": true
+    },
+    "recorded_maturity:29664": {
+      "passed": true
+    },
+    "mature_whole_blocks:29700": {
+      "passed": true
+    },
+    "recorded_maturity:29700": {
+      "passed": true
+    },
+    "mature_whole_blocks:29736": {
+      "passed": true
+    },
+    "recorded_maturity:29736": {
+      "passed": true
+    },
+    "mature_whole_blocks:29772": {
+      "passed": true
+    },
+    "recorded_maturity:29772": {
+      "passed": true
+    },
+    "mature_whole_blocks:29808": {
+      "passed": true
+    },
+    "recorded_maturity:29808": {
+      "passed": true
+    },
+    "mature_whole_blocks:29844": {
+      "passed": true
+    },
+    "recorded_maturity:29844": {
+      "passed": true
+    },
+    "mature_whole_blocks:29880": {
+      "passed": true
+    },
+    "recorded_maturity:29880": {
+      "passed": true
+    },
+    "mature_whole_blocks:29916": {
+      "passed": true
+    },
+    "recorded_maturity:29916": {
+      "passed": true
+    },
+    "mature_whole_blocks:29952": {
+      "passed": true
+    },
+    "recorded_maturity:29952": {
+      "passed": true
+    },
+    "mature_whole_blocks:29988": {
+      "passed": true
+    },
+    "recorded_maturity:29988": {
+      "passed": true
+    },
+    "mature_whole_blocks:30024": {
+      "passed": true
+    },
+    "recorded_maturity:30024": {
+      "passed": true
+    },
+    "mature_whole_blocks:30060": {
+      "passed": true
+    },
+    "recorded_maturity:30060": {
+      "passed": true
+    },
+    "mature_whole_blocks:30096": {
+      "passed": true
+    },
+    "recorded_maturity:30096": {
+      "passed": true
+    },
+    "mature_whole_blocks:30132": {
+      "passed": true
+    },
+    "recorded_maturity:30132": {
+      "passed": true
+    },
+    "mature_whole_blocks:30168": {
+      "passed": true
+    },
+    "recorded_maturity:30168": {
+      "passed": true
+    },
+    "mature_whole_blocks:30204": {
+      "passed": true
+    },
+    "recorded_maturity:30204": {
+      "passed": true
+    },
+    "mature_whole_blocks:30240": {
+      "passed": true
+    },
+    "recorded_maturity:30240": {
+      "passed": true
+    },
+    "mature_whole_blocks:30276": {
+      "passed": true
+    },
+    "recorded_maturity:30276": {
+      "passed": true
+    },
+    "mature_whole_blocks:30312": {
+      "passed": true
+    },
+    "recorded_maturity:30312": {
+      "passed": true
+    },
+    "mature_whole_blocks:30348": {
+      "passed": true
+    },
+    "recorded_maturity:30348": {
+      "passed": true
+    },
+    "mature_whole_blocks:30384": {
+      "passed": true
+    },
+    "recorded_maturity:30384": {
+      "passed": true
+    },
+    "mature_whole_blocks:30420": {
+      "passed": true
+    },
+    "recorded_maturity:30420": {
+      "passed": true
+    },
+    "mature_whole_blocks:30456": {
+      "passed": true
+    },
+    "recorded_maturity:30456": {
+      "passed": true
+    },
+    "mature_whole_blocks:30492": {
+      "passed": true
+    },
+    "recorded_maturity:30492": {
+      "passed": true
+    },
+    "mature_whole_blocks:30528": {
+      "passed": true
+    },
+    "recorded_maturity:30528": {
+      "passed": true
+    },
+    "mature_whole_blocks:30564": {
+      "passed": true
+    },
+    "recorded_maturity:30564": {
+      "passed": true
+    },
+    "mature_whole_blocks:30600": {
+      "passed": true
+    },
+    "recorded_maturity:30600": {
+      "passed": true
+    },
+    "mature_whole_blocks:30636": {
+      "passed": true
+    },
+    "recorded_maturity:30636": {
+      "passed": true
+    },
+    "mature_whole_blocks:30672": {
+      "passed": true
+    },
+    "recorded_maturity:30672": {
+      "passed": true
+    },
+    "mature_whole_blocks:30708": {
+      "passed": true
+    },
+    "recorded_maturity:30708": {
+      "passed": true
+    },
+    "mature_whole_blocks:30744": {
+      "passed": true
+    },
+    "recorded_maturity:30744": {
+      "passed": true
+    },
+    "mature_whole_blocks:30780": {
+      "passed": true
+    },
+    "recorded_maturity:30780": {
+      "passed": true
+    },
+    "mature_whole_blocks:30816": {
+      "passed": true
+    },
+    "recorded_maturity:30816": {
+      "passed": true
+    },
+    "mature_whole_blocks:30852": {
+      "passed": true
+    },
+    "recorded_maturity:30852": {
+      "passed": true
+    },
+    "mature_whole_blocks:30888": {
+      "passed": true
+    },
+    "recorded_maturity:30888": {
+      "passed": true
+    },
+    "mature_whole_blocks:30924": {
+      "passed": true
+    },
+    "recorded_maturity:30924": {
+      "passed": true
+    },
+    "mature_whole_blocks:30960": {
+      "passed": true
+    },
+    "recorded_maturity:30960": {
+      "passed": true
+    },
+    "mature_whole_blocks:30996": {
+      "passed": true
+    },
+    "recorded_maturity:30996": {
+      "passed": true
+    },
+    "mature_whole_blocks:31032": {
+      "passed": true
+    },
+    "recorded_maturity:31032": {
+      "passed": true
+    },
+    "mature_whole_blocks:31068": {
+      "passed": true
+    },
+    "recorded_maturity:31068": {
+      "passed": true
+    },
+    "mature_whole_blocks:31104": {
+      "passed": true
+    },
+    "recorded_maturity:31104": {
+      "passed": true
+    },
+    "mature_whole_blocks:31140": {
+      "passed": true
+    },
+    "recorded_maturity:31140": {
+      "passed": true
+    },
+    "mature_whole_blocks:31176": {
+      "passed": true
+    },
+    "recorded_maturity:31176": {
+      "passed": true
+    },
+    "mature_whole_blocks:31212": {
+      "passed": true
+    },
+    "recorded_maturity:31212": {
+      "passed": true
+    },
+    "mature_whole_blocks:31248": {
+      "passed": true
+    },
+    "recorded_maturity:31248": {
+      "passed": true
+    },
+    "mature_whole_blocks:31284": {
+      "passed": true
+    },
+    "recorded_maturity:31284": {
+      "passed": true
+    },
+    "mature_whole_blocks:31320": {
+      "passed": true
+    },
+    "recorded_maturity:31320": {
+      "passed": true
+    },
+    "mature_whole_blocks:31356": {
+      "passed": true
+    },
+    "recorded_maturity:31356": {
+      "passed": true
+    },
+    "mature_whole_blocks:31392": {
+      "passed": true
+    },
+    "recorded_maturity:31392": {
+      "passed": true
+    },
+    "mature_whole_blocks:31428": {
+      "passed": true
+    },
+    "recorded_maturity:31428": {
+      "passed": true
+    },
+    "mature_whole_blocks:31464": {
+      "passed": true
+    },
+    "recorded_maturity:31464": {
+      "passed": true
+    },
+    "mature_whole_blocks:31500": {
+      "passed": true
+    },
+    "recorded_maturity:31500": {
+      "passed": true
+    },
+    "mature_whole_blocks:31536": {
+      "passed": true
+    },
+    "recorded_maturity:31536": {
+      "passed": true
+    },
+    "mature_whole_blocks:31572": {
+      "passed": true
+    },
+    "recorded_maturity:31572": {
+      "passed": true
+    },
+    "mature_whole_blocks:31608": {
+      "passed": true
+    },
+    "recorded_maturity:31608": {
+      "passed": true
+    },
+    "mature_whole_blocks:31644": {
+      "passed": true
+    },
+    "recorded_maturity:31644": {
+      "passed": true
+    },
+    "mature_whole_blocks:31680": {
+      "passed": true
+    },
+    "recorded_maturity:31680": {
+      "passed": true
+    },
+    "mature_whole_blocks:31716": {
+      "passed": true
+    },
+    "recorded_maturity:31716": {
+      "passed": true
+    },
+    "mature_whole_blocks:31752": {
+      "passed": true
+    },
+    "recorded_maturity:31752": {
+      "passed": true
+    },
+    "mature_whole_blocks:31788": {
+      "passed": true
+    },
+    "recorded_maturity:31788": {
+      "passed": true
+    },
+    "mature_whole_blocks:31824": {
+      "passed": true
+    },
+    "recorded_maturity:31824": {
+      "passed": true
+    },
+    "mature_whole_blocks:31860": {
+      "passed": true
+    },
+    "recorded_maturity:31860": {
+      "passed": true
+    },
+    "mature_whole_blocks:31896": {
+      "passed": true
+    },
+    "recorded_maturity:31896": {
+      "passed": true
+    },
+    "mature_whole_blocks:31932": {
+      "passed": true
+    },
+    "recorded_maturity:31932": {
+      "passed": true
+    },
+    "mature_whole_blocks:31968": {
+      "passed": true
+    },
+    "recorded_maturity:31968": {
+      "passed": true
+    },
+    "mature_whole_blocks:32004": {
+      "passed": true
+    },
+    "recorded_maturity:32004": {
+      "passed": true
+    },
+    "mature_whole_blocks:32040": {
+      "passed": true
+    },
+    "recorded_maturity:32040": {
+      "passed": true
+    },
+    "mature_whole_blocks:32076": {
+      "passed": true
+    },
+    "recorded_maturity:32076": {
+      "passed": true
+    },
+    "mature_whole_blocks:32112": {
+      "passed": true
+    },
+    "recorded_maturity:32112": {
+      "passed": true
+    },
+    "mature_whole_blocks:32148": {
+      "passed": true
+    },
+    "recorded_maturity:32148": {
+      "passed": true
+    },
+    "mature_whole_blocks:32184": {
+      "passed": true
+    },
+    "recorded_maturity:32184": {
+      "passed": true
+    },
+    "mature_whole_blocks:32220": {
+      "passed": true
+    },
+    "recorded_maturity:32220": {
+      "passed": true
+    },
+    "mature_whole_blocks:32256": {
+      "passed": true
+    },
+    "recorded_maturity:32256": {
+      "passed": true
+    },
+    "mature_whole_blocks:32292": {
+      "passed": true
+    },
+    "recorded_maturity:32292": {
+      "passed": true
+    },
+    "mature_whole_blocks:32328": {
+      "passed": true
+    },
+    "recorded_maturity:32328": {
+      "passed": true
+    },
+    "mature_whole_blocks:32364": {
+      "passed": true
+    },
+    "recorded_maturity:32364": {
+      "passed": true
+    },
+    "mature_whole_blocks:32400": {
+      "passed": true
+    },
+    "recorded_maturity:32400": {
+      "passed": true
+    },
+    "mature_whole_blocks:32436": {
+      "passed": true
+    },
+    "recorded_maturity:32436": {
+      "passed": true
+    },
+    "mature_whole_blocks:32472": {
+      "passed": true
+    },
+    "recorded_maturity:32472": {
+      "passed": true
+    },
+    "mature_whole_blocks:32508": {
+      "passed": true
+    },
+    "recorded_maturity:32508": {
+      "passed": true
+    },
+    "mature_whole_blocks:32544": {
+      "passed": true
+    },
+    "recorded_maturity:32544": {
+      "passed": true
+    },
+    "mature_whole_blocks:32580": {
+      "passed": true
+    },
+    "recorded_maturity:32580": {
+      "passed": true
+    },
+    "mature_whole_blocks:32616": {
+      "passed": true
+    },
+    "recorded_maturity:32616": {
+      "passed": true
+    },
+    "mature_whole_blocks:32652": {
+      "passed": true
+    },
+    "recorded_maturity:32652": {
+      "passed": true
+    },
+    "mature_whole_blocks:32688": {
+      "passed": true
+    },
+    "recorded_maturity:32688": {
+      "passed": true
+    },
+    "mature_whole_blocks:32724": {
+      "passed": true
+    },
+    "recorded_maturity:32724": {
+      "passed": true
+    },
+    "mature_whole_blocks:32760": {
+      "passed": true
+    },
+    "recorded_maturity:32760": {
+      "passed": true
+    },
+    "mature_whole_blocks:32796": {
+      "passed": true
+    },
+    "recorded_maturity:32796": {
+      "passed": true
+    },
+    "mature_whole_blocks:32832": {
+      "passed": true
+    },
+    "recorded_maturity:32832": {
+      "passed": true
+    },
+    "mature_whole_blocks:32868": {
+      "passed": true
+    },
+    "recorded_maturity:32868": {
+      "passed": true
+    },
+    "mature_whole_blocks:32904": {
+      "passed": true
+    },
+    "recorded_maturity:32904": {
+      "passed": true
+    },
+    "mature_whole_blocks:32940": {
+      "passed": true
+    },
+    "recorded_maturity:32940": {
+      "passed": true
+    },
+    "mature_whole_blocks:32976": {
+      "passed": true
+    },
+    "recorded_maturity:32976": {
+      "passed": true
+    },
+    "mature_whole_blocks:33012": {
+      "passed": true
+    },
+    "recorded_maturity:33012": {
+      "passed": true
+    },
+    "mature_whole_blocks:33048": {
+      "passed": true
+    },
+    "recorded_maturity:33048": {
+      "passed": true
+    },
+    "mature_whole_blocks:33084": {
+      "passed": true
+    },
+    "recorded_maturity:33084": {
+      "passed": true
+    },
+    "mature_whole_blocks:33120": {
+      "passed": true
+    },
+    "recorded_maturity:33120": {
+      "passed": true
+    },
+    "mature_whole_blocks:33156": {
+      "passed": true
+    },
+    "recorded_maturity:33156": {
+      "passed": true
+    },
+    "mature_whole_blocks:33192": {
+      "passed": true
+    },
+    "recorded_maturity:33192": {
+      "passed": true
+    },
+    "mature_whole_blocks:33228": {
+      "passed": true
+    },
+    "recorded_maturity:33228": {
+      "passed": true
+    },
+    "mature_whole_blocks:33264": {
+      "passed": true
+    },
+    "recorded_maturity:33264": {
+      "passed": true
+    },
+    "mature_whole_blocks:33300": {
+      "passed": true
+    },
+    "recorded_maturity:33300": {
+      "passed": true
+    },
+    "mature_whole_blocks:33336": {
+      "passed": true
+    },
+    "recorded_maturity:33336": {
+      "passed": true
+    },
+    "mature_whole_blocks:33372": {
+      "passed": true
+    },
+    "recorded_maturity:33372": {
+      "passed": true
+    },
+    "mature_whole_blocks:33408": {
+      "passed": true
+    },
+    "recorded_maturity:33408": {
+      "passed": true
+    },
+    "mature_whole_blocks:33444": {
+      "passed": true
+    },
+    "recorded_maturity:33444": {
+      "passed": true
+    },
+    "mature_whole_blocks:33480": {
+      "passed": true
+    },
+    "recorded_maturity:33480": {
+      "passed": true
+    },
+    "mature_whole_blocks:33516": {
+      "passed": true
+    },
+    "recorded_maturity:33516": {
+      "passed": true
+    },
+    "mature_whole_blocks:33552": {
+      "passed": true
+    },
+    "recorded_maturity:33552": {
+      "passed": true
+    },
+    "mature_whole_blocks:33588": {
+      "passed": true
+    },
+    "recorded_maturity:33588": {
+      "passed": true
+    },
+    "mature_whole_blocks:33624": {
+      "passed": true
+    },
+    "recorded_maturity:33624": {
+      "passed": true
+    },
+    "mature_whole_blocks:33660": {
+      "passed": true
+    },
+    "recorded_maturity:33660": {
+      "passed": true
+    },
+    "mature_whole_blocks:33696": {
+      "passed": true
+    },
+    "recorded_maturity:33696": {
+      "passed": true
+    },
+    "mature_whole_blocks:33732": {
+      "passed": true
+    },
+    "recorded_maturity:33732": {
+      "passed": true
+    },
+    "mature_whole_blocks:33768": {
+      "passed": true
+    },
+    "recorded_maturity:33768": {
+      "passed": true
+    },
+    "mature_whole_blocks:33804": {
+      "passed": true
+    },
+    "recorded_maturity:33804": {
+      "passed": true
+    },
+    "mature_whole_blocks:33840": {
+      "passed": true
+    },
+    "recorded_maturity:33840": {
+      "passed": true
+    },
+    "mature_whole_blocks:33876": {
+      "passed": true
+    },
+    "recorded_maturity:33876": {
+      "passed": true
+    },
+    "mature_whole_blocks:33912": {
+      "passed": true
+    },
+    "recorded_maturity:33912": {
+      "passed": true
+    },
+    "mature_whole_blocks:33948": {
+      "passed": true
+    },
+    "recorded_maturity:33948": {
+      "passed": true
+    },
+    "mature_whole_blocks:33984": {
+      "passed": true
+    },
+    "recorded_maturity:33984": {
+      "passed": true
+    },
+    "mature_whole_blocks:34020": {
+      "passed": true
+    },
+    "recorded_maturity:34020": {
+      "passed": true
+    },
+    "mature_whole_blocks:34056": {
+      "passed": true
+    },
+    "recorded_maturity:34056": {
+      "passed": true
+    },
+    "mature_whole_blocks:34092": {
+      "passed": true
+    },
+    "recorded_maturity:34092": {
+      "passed": true
+    },
+    "mature_whole_blocks:34128": {
+      "passed": true
+    },
+    "recorded_maturity:34128": {
+      "passed": true
+    },
+    "mature_whole_blocks:34164": {
+      "passed": true
+    },
+    "recorded_maturity:34164": {
+      "passed": true
+    },
+    "mature_whole_blocks:34200": {
+      "passed": true
+    },
+    "recorded_maturity:34200": {
+      "passed": true
+    },
+    "mature_whole_blocks:34236": {
+      "passed": true
+    },
+    "recorded_maturity:34236": {
+      "passed": true
+    },
+    "mature_whole_blocks:34272": {
+      "passed": true
+    },
+    "recorded_maturity:34272": {
+      "passed": true
+    },
+    "mature_whole_blocks:34308": {
+      "passed": true
+    },
+    "recorded_maturity:34308": {
+      "passed": true
+    },
+    "mature_whole_blocks:34344": {
+      "passed": true
+    },
+    "recorded_maturity:34344": {
+      "passed": true
+    },
+    "mature_whole_blocks:34380": {
+      "passed": true
+    },
+    "recorded_maturity:34380": {
+      "passed": true
+    },
+    "mature_whole_blocks:34416": {
+      "passed": true
+    },
+    "recorded_maturity:34416": {
+      "passed": true
+    },
+    "mature_whole_blocks:34452": {
+      "passed": true
+    },
+    "recorded_maturity:34452": {
+      "passed": true
+    },
+    "mature_whole_blocks:34488": {
+      "passed": true
+    },
+    "recorded_maturity:34488": {
+      "passed": true
+    },
+    "mature_whole_blocks:34524": {
+      "passed": true
+    },
+    "recorded_maturity:34524": {
+      "passed": true
+    },
+    "mature_whole_blocks:34560": {
+      "passed": true
+    },
+    "recorded_maturity:34560": {
+      "passed": true
+    },
+    "mature_whole_blocks:34596": {
+      "passed": true
+    },
+    "recorded_maturity:34596": {
+      "passed": true
+    },
+    "mature_whole_blocks:34632": {
+      "passed": true
+    },
+    "recorded_maturity:34632": {
+      "passed": true
+    },
+    "mature_whole_blocks:34668": {
+      "passed": true
+    },
+    "recorded_maturity:34668": {
+      "passed": true
+    },
+    "mature_whole_blocks:34704": {
+      "passed": true
+    },
+    "recorded_maturity:34704": {
+      "passed": true
+    },
+    "mature_whole_blocks:34740": {
+      "passed": true
+    },
+    "recorded_maturity:34740": {
+      "passed": true
+    },
+    "mature_whole_blocks:34776": {
+      "passed": true
+    },
+    "recorded_maturity:34776": {
+      "passed": true
+    },
+    "mature_whole_blocks:34812": {
+      "passed": true
+    },
+    "recorded_maturity:34812": {
+      "passed": true
+    },
+    "mature_whole_blocks:34848": {
+      "passed": true
+    },
+    "recorded_maturity:34848": {
+      "passed": true
+    },
+    "mature_whole_blocks:34884": {
+      "passed": true
+    },
+    "recorded_maturity:34884": {
+      "passed": true
+    },
+    "mature_whole_blocks:34920": {
+      "passed": true
+    },
+    "recorded_maturity:34920": {
+      "passed": true
+    },
+    "mature_whole_blocks:34956": {
+      "passed": true
+    },
+    "recorded_maturity:34956": {
+      "passed": true
+    },
+    "mature_whole_blocks:34992": {
+      "passed": true
+    },
+    "recorded_maturity:34992": {
+      "passed": true
+    },
+    "mature_whole_blocks:35028": {
+      "passed": true
+    },
+    "recorded_maturity:35028": {
+      "passed": true
+    },
+    "mature_whole_blocks:35064": {
+      "passed": true
+    },
+    "recorded_maturity:35064": {
+      "passed": true
+    },
+    "mature_whole_blocks:35100": {
+      "passed": true
+    },
+    "recorded_maturity:35100": {
+      "passed": true
+    },
+    "mature_whole_blocks:35136": {
+      "passed": true
+    },
+    "recorded_maturity:35136": {
+      "passed": true
+    },
+    "mature_whole_blocks:35172": {
+      "passed": true
+    },
+    "recorded_maturity:35172": {
+      "passed": true
+    },
+    "mature_whole_blocks:35208": {
+      "passed": true
+    },
+    "recorded_maturity:35208": {
+      "passed": true
+    },
+    "mature_whole_blocks:35244": {
+      "passed": true
+    },
+    "recorded_maturity:35244": {
+      "passed": true
+    },
+    "mature_whole_blocks:35280": {
+      "passed": true
+    },
+    "recorded_maturity:35280": {
+      "passed": true
+    },
+    "mature_whole_blocks:35316": {
+      "passed": true
+    },
+    "recorded_maturity:35316": {
+      "passed": true
+    },
+    "mature_whole_blocks:35352": {
+      "passed": true
+    },
+    "recorded_maturity:35352": {
+      "passed": true
+    },
+    "mature_whole_blocks:35388": {
+      "passed": true
+    },
+    "recorded_maturity:35388": {
+      "passed": true
+    },
+    "mature_whole_blocks:35424": {
+      "passed": true
+    },
+    "recorded_maturity:35424": {
+      "passed": true
+    },
+    "mature_whole_blocks:35460": {
+      "passed": true
+    },
+    "recorded_maturity:35460": {
+      "passed": true
+    },
+    "mature_whole_blocks:35496": {
+      "passed": true
+    },
+    "recorded_maturity:35496": {
+      "passed": true
+    },
+    "mature_whole_blocks:35532": {
+      "passed": true
+    },
+    "recorded_maturity:35532": {
+      "passed": true
+    },
+    "mature_whole_blocks:35568": {
+      "passed": true
+    },
+    "recorded_maturity:35568": {
+      "passed": true
+    },
+    "mature_whole_blocks:35604": {
+      "passed": true
+    },
+    "recorded_maturity:35604": {
+      "passed": true
+    },
+    "mature_whole_blocks:35640": {
+      "passed": true
+    },
+    "recorded_maturity:35640": {
+      "passed": true
+    },
+    "mature_whole_blocks:35676": {
+      "passed": true
+    },
+    "recorded_maturity:35676": {
+      "passed": true
+    },
+    "mature_whole_blocks:35712": {
+      "passed": true
+    },
+    "recorded_maturity:35712": {
+      "passed": true
+    },
+    "mature_whole_blocks:35748": {
+      "passed": true
+    },
+    "recorded_maturity:35748": {
+      "passed": true
+    },
+    "mature_whole_blocks:35784": {
+      "passed": true
+    },
+    "recorded_maturity:35784": {
+      "passed": true
+    },
+    "mature_whole_blocks:35820": {
+      "passed": true
+    },
+    "recorded_maturity:35820": {
+      "passed": true
+    },
+    "mature_whole_blocks:35856": {
+      "passed": true
+    },
+    "recorded_maturity:35856": {
+      "passed": true
+    },
+    "mature_whole_blocks:35892": {
+      "passed": true
+    },
+    "recorded_maturity:35892": {
+      "passed": true
+    },
+    "mature_whole_blocks:35928": {
+      "passed": true
+    },
+    "recorded_maturity:35928": {
+      "passed": true
+    },
+    "mature_whole_blocks:35964": {
+      "passed": true
+    },
+    "recorded_maturity:35964": {
+      "passed": true
+    },
+    "mature_whole_blocks:36000": {
+      "passed": true
+    },
+    "recorded_maturity:36000": {
+      "passed": true
+    },
+    "mature_whole_blocks:36036": {
+      "passed": true
+    },
+    "recorded_maturity:36036": {
+      "passed": true
+    },
+    "mature_whole_blocks:36072": {
+      "passed": true
+    },
+    "recorded_maturity:36072": {
+      "passed": true
+    },
+    "mature_whole_blocks:36108": {
+      "passed": true
+    },
+    "recorded_maturity:36108": {
+      "passed": true
+    },
+    "mature_whole_blocks:36144": {
+      "passed": true
+    },
+    "recorded_maturity:36144": {
+      "passed": true
+    },
+    "mature_whole_blocks:36180": {
+      "passed": true
+    },
+    "recorded_maturity:36180": {
+      "passed": true
+    },
+    "mature_whole_blocks:36216": {
+      "passed": true
+    },
+    "recorded_maturity:36216": {
+      "passed": true
+    },
+    "mature_whole_blocks:36252": {
+      "passed": true
+    },
+    "recorded_maturity:36252": {
+      "passed": true
+    },
+    "mature_whole_blocks:36288": {
+      "passed": true
+    },
+    "recorded_maturity:36288": {
+      "passed": true
+    },
+    "mature_whole_blocks:36324": {
+      "passed": true
+    },
+    "recorded_maturity:36324": {
+      "passed": true
+    },
+    "mature_whole_blocks:36360": {
+      "passed": true
+    },
+    "recorded_maturity:36360": {
+      "passed": true
+    },
+    "mature_whole_blocks:36396": {
+      "passed": true
+    },
+    "recorded_maturity:36396": {
+      "passed": true
+    },
+    "mature_whole_blocks:36432": {
+      "passed": true
+    },
+    "recorded_maturity:36432": {
+      "passed": true
+    },
+    "mature_whole_blocks:36468": {
+      "passed": true
+    },
+    "recorded_maturity:36468": {
+      "passed": true
+    },
+    "mature_whole_blocks:36504": {
+      "passed": true
+    },
+    "recorded_maturity:36504": {
+      "passed": true
+    },
+    "mature_whole_blocks:36540": {
+      "passed": true
+    },
+    "recorded_maturity:36540": {
+      "passed": true
+    },
+    "mature_whole_blocks:36576": {
+      "passed": true
+    },
+    "recorded_maturity:36576": {
+      "passed": true
+    },
+    "mature_whole_blocks:36612": {
+      "passed": true
+    },
+    "recorded_maturity:36612": {
+      "passed": true
+    },
+    "mature_whole_blocks:36648": {
+      "passed": true
+    },
+    "recorded_maturity:36648": {
+      "passed": true
+    },
+    "mature_whole_blocks:36684": {
+      "passed": true
+    },
+    "recorded_maturity:36684": {
+      "passed": true
+    },
+    "mature_whole_blocks:36720": {
+      "passed": true
+    },
+    "recorded_maturity:36720": {
+      "passed": true
+    },
+    "mature_whole_blocks:36756": {
+      "passed": true
+    },
+    "recorded_maturity:36756": {
+      "passed": true
+    },
+    "mature_whole_blocks:36792": {
+      "passed": true
+    },
+    "recorded_maturity:36792": {
+      "passed": true
+    },
+    "mature_whole_blocks:36828": {
+      "passed": true
+    },
+    "recorded_maturity:36828": {
+      "passed": true
+    },
+    "mature_whole_blocks:36864": {
+      "passed": true
+    },
+    "recorded_maturity:36864": {
+      "passed": true
+    },
+    "mature_whole_blocks:36900": {
+      "passed": true
+    },
+    "recorded_maturity:36900": {
+      "passed": true
+    },
+    "mature_whole_blocks:36936": {
+      "passed": true
+    },
+    "recorded_maturity:36936": {
+      "passed": true
+    },
+    "mature_whole_blocks:36972": {
+      "passed": true
+    },
+    "recorded_maturity:36972": {
+      "passed": true
+    },
+    "mature_whole_blocks:37008": {
+      "passed": true
+    },
+    "recorded_maturity:37008": {
+      "passed": true
+    },
+    "mature_whole_blocks:37044": {
+      "passed": true
+    },
+    "recorded_maturity:37044": {
+      "passed": true
+    },
+    "mature_whole_blocks:37080": {
+      "passed": true
+    },
+    "recorded_maturity:37080": {
+      "passed": true
+    },
+    "mature_whole_blocks:37116": {
+      "passed": true
+    },
+    "recorded_maturity:37116": {
+      "passed": true
+    },
+    "mature_whole_blocks:37152": {
+      "passed": true
+    },
+    "recorded_maturity:37152": {
+      "passed": true
+    },
+    "mature_whole_blocks:37188": {
+      "passed": true
+    },
+    "recorded_maturity:37188": {
+      "passed": true
+    },
+    "mature_whole_blocks:37224": {
+      "passed": true
+    },
+    "recorded_maturity:37224": {
+      "passed": true
+    },
+    "mature_whole_blocks:37260": {
+      "passed": true
+    },
+    "recorded_maturity:37260": {
+      "passed": true
+    },
+    "mature_whole_blocks:37296": {
+      "passed": true
+    },
+    "recorded_maturity:37296": {
+      "passed": true
+    },
+    "mature_whole_blocks:37332": {
+      "passed": true
+    },
+    "recorded_maturity:37332": {
+      "passed": true
+    },
+    "mature_whole_blocks:37368": {
+      "passed": true
+    },
+    "recorded_maturity:37368": {
+      "passed": true
+    },
+    "mature_whole_blocks:37404": {
+      "passed": true
+    },
+    "recorded_maturity:37404": {
+      "passed": true
+    },
+    "mature_whole_blocks:37440": {
+      "passed": true
+    },
+    "recorded_maturity:37440": {
+      "passed": true
+    },
+    "mature_whole_blocks:37476": {
+      "passed": true
+    },
+    "recorded_maturity:37476": {
+      "passed": true
+    },
+    "mature_whole_blocks:37512": {
+      "passed": true
+    },
+    "recorded_maturity:37512": {
+      "passed": true
+    },
+    "mature_whole_blocks:37548": {
+      "passed": true
+    },
+    "recorded_maturity:37548": {
+      "passed": true
+    },
+    "mature_whole_blocks:37584": {
+      "passed": true
+    },
+    "recorded_maturity:37584": {
+      "passed": true
+    },
+    "mature_whole_blocks:37620": {
+      "passed": true
+    },
+    "recorded_maturity:37620": {
+      "passed": true
+    },
+    "mature_whole_blocks:37656": {
+      "passed": true
+    },
+    "recorded_maturity:37656": {
+      "passed": true
+    },
+    "mature_whole_blocks:37692": {
+      "passed": true
+    },
+    "recorded_maturity:37692": {
+      "passed": true
+    },
+    "mature_whole_blocks:37728": {
+      "passed": true
+    },
+    "recorded_maturity:37728": {
+      "passed": true
+    },
+    "mature_whole_blocks:37764": {
+      "passed": true
+    },
+    "recorded_maturity:37764": {
+      "passed": true
+    },
+    "mature_whole_blocks:37800": {
+      "passed": true
+    },
+    "recorded_maturity:37800": {
+      "passed": true
+    },
+    "mature_whole_blocks:37836": {
+      "passed": true
+    },
+    "recorded_maturity:37836": {
+      "passed": true
+    },
+    "mature_whole_blocks:37872": {
+      "passed": true
+    },
+    "recorded_maturity:37872": {
+      "passed": true
+    },
+    "mature_whole_blocks:37908": {
+      "passed": true
+    },
+    "recorded_maturity:37908": {
+      "passed": true
+    },
+    "mature_whole_blocks:37944": {
+      "passed": true
+    },
+    "recorded_maturity:37944": {
+      "passed": true
+    },
+    "mature_whole_blocks:37980": {
+      "passed": true
+    },
+    "recorded_maturity:37980": {
+      "passed": true
+    },
+    "mature_whole_blocks:38016": {
+      "passed": true
+    },
+    "recorded_maturity:38016": {
+      "passed": true
+    },
+    "mature_whole_blocks:38052": {
+      "passed": true
+    },
+    "recorded_maturity:38052": {
+      "passed": true
+    },
+    "mature_whole_blocks:38088": {
+      "passed": true
+    },
+    "recorded_maturity:38088": {
+      "passed": true
+    },
+    "mature_whole_blocks:38124": {
+      "passed": true
+    },
+    "recorded_maturity:38124": {
+      "passed": true
+    },
+    "mature_whole_blocks:38160": {
+      "passed": true
+    },
+    "recorded_maturity:38160": {
+      "passed": true
+    },
+    "mature_whole_blocks:38196": {
+      "passed": true
+    },
+    "recorded_maturity:38196": {
+      "passed": true
+    },
+    "mature_whole_blocks:38232": {
+      "passed": true
+    },
+    "recorded_maturity:38232": {
+      "passed": true
+    },
+    "mature_whole_blocks:38268": {
+      "passed": true
+    },
+    "recorded_maturity:38268": {
+      "passed": true
+    },
+    "mature_whole_blocks:38304": {
+      "passed": true
+    },
+    "recorded_maturity:38304": {
+      "passed": true
+    },
+    "mature_whole_blocks:38340": {
+      "passed": true
+    },
+    "recorded_maturity:38340": {
+      "passed": true
+    },
+    "mature_whole_blocks:38376": {
+      "passed": true
+    },
+    "recorded_maturity:38376": {
+      "passed": true
+    },
+    "mature_whole_blocks:38412": {
+      "passed": true
+    },
+    "recorded_maturity:38412": {
+      "passed": true
+    },
+    "mature_whole_blocks:38448": {
+      "passed": true
+    },
+    "recorded_maturity:38448": {
+      "passed": true
+    },
+    "mature_whole_blocks:38484": {
+      "passed": true
+    },
+    "recorded_maturity:38484": {
+      "passed": true
+    },
+    "mature_whole_blocks:38520": {
+      "passed": true
+    },
+    "recorded_maturity:38520": {
+      "passed": true
+    },
+    "mature_whole_blocks:38556": {
+      "passed": true
+    },
+    "recorded_maturity:38556": {
+      "passed": true
+    },
+    "mature_whole_blocks:38592": {
+      "passed": true
+    },
+    "recorded_maturity:38592": {
+      "passed": true
+    },
+    "mature_whole_blocks:38628": {
+      "passed": true
+    },
+    "recorded_maturity:38628": {
+      "passed": true
+    },
+    "mature_whole_blocks:38664": {
+      "passed": true
+    },
+    "recorded_maturity:38664": {
+      "passed": true
+    },
+    "mature_whole_blocks:38700": {
+      "passed": true
+    },
+    "recorded_maturity:38700": {
+      "passed": true
+    },
+    "mature_whole_blocks:38736": {
+      "passed": true
+    },
+    "recorded_maturity:38736": {
+      "passed": true
+    },
+    "mature_whole_blocks:38772": {
+      "passed": true
+    },
+    "recorded_maturity:38772": {
+      "passed": true
+    },
+    "mature_whole_blocks:38808": {
+      "passed": true
+    },
+    "recorded_maturity:38808": {
+      "passed": true
+    },
+    "mature_whole_blocks:38844": {
+      "passed": true
+    },
+    "recorded_maturity:38844": {
+      "passed": true
+    },
+    "mature_whole_blocks:38880": {
+      "passed": true
+    },
+    "recorded_maturity:38880": {
+      "passed": true
+    },
+    "mature_whole_blocks:38916": {
+      "passed": true
+    },
+    "recorded_maturity:38916": {
+      "passed": true
+    },
+    "mature_whole_blocks:38952": {
+      "passed": true
+    },
+    "recorded_maturity:38952": {
+      "passed": true
+    },
+    "mature_whole_blocks:38988": {
+      "passed": true
+    },
+    "recorded_maturity:38988": {
+      "passed": true
+    },
+    "mature_whole_blocks:39024": {
+      "passed": true
+    },
+    "recorded_maturity:39024": {
+      "passed": true
+    },
+    "mature_whole_blocks:39060": {
+      "passed": true
+    },
+    "recorded_maturity:39060": {
+      "passed": true
+    },
+    "mature_whole_blocks:39096": {
+      "passed": true
+    },
+    "recorded_maturity:39096": {
+      "passed": true
+    },
+    "mature_whole_blocks:39132": {
+      "passed": true
+    },
+    "recorded_maturity:39132": {
+      "passed": true
+    },
+    "mature_whole_blocks:39168": {
+      "passed": true
+    },
+    "recorded_maturity:39168": {
+      "passed": true
+    },
+    "mature_whole_blocks:39204": {
+      "passed": true
+    },
+    "recorded_maturity:39204": {
+      "passed": true
+    },
+    "mature_whole_blocks:39240": {
+      "passed": true
+    },
+    "recorded_maturity:39240": {
+      "passed": true
+    },
+    "mature_whole_blocks:39276": {
+      "passed": true
+    },
+    "recorded_maturity:39276": {
+      "passed": true
+    },
+    "mature_whole_blocks:39312": {
+      "passed": true
+    },
+    "recorded_maturity:39312": {
+      "passed": true
+    },
+    "mature_whole_blocks:39348": {
+      "passed": true
+    },
+    "recorded_maturity:39348": {
+      "passed": true
+    },
+    "mature_whole_blocks:39384": {
+      "passed": true
+    },
+    "recorded_maturity:39384": {
+      "passed": true
+    },
+    "mature_whole_blocks:39420": {
+      "passed": true
+    },
+    "recorded_maturity:39420": {
+      "passed": true
+    },
+    "mature_whole_blocks:39456": {
+      "passed": true
+    },
+    "recorded_maturity:39456": {
+      "passed": true
+    },
+    "mature_whole_blocks:39492": {
+      "passed": true
+    },
+    "recorded_maturity:39492": {
+      "passed": true
+    },
+    "mature_whole_blocks:39528": {
+      "passed": true
+    },
+    "recorded_maturity:39528": {
+      "passed": true
+    },
+    "mature_whole_blocks:39564": {
+      "passed": true
+    },
+    "recorded_maturity:39564": {
+      "passed": true
+    },
+    "mature_whole_blocks:39600": {
+      "passed": true
+    },
+    "recorded_maturity:39600": {
+      "passed": true
+    },
+    "mature_whole_blocks:39636": {
+      "passed": true
+    },
+    "recorded_maturity:39636": {
+      "passed": true
+    },
+    "mature_whole_blocks:39672": {
+      "passed": true
+    },
+    "recorded_maturity:39672": {
+      "passed": true
+    },
+    "mature_whole_blocks:39708": {
+      "passed": true
+    },
+    "recorded_maturity:39708": {
+      "passed": true
+    },
+    "mature_whole_blocks:39744": {
+      "passed": true
+    },
+    "recorded_maturity:39744": {
+      "passed": true
+    },
+    "mature_whole_blocks:39780": {
+      "passed": true
+    },
+    "recorded_maturity:39780": {
+      "passed": true
+    },
+    "mature_whole_blocks:39816": {
+      "passed": true
+    },
+    "recorded_maturity:39816": {
+      "passed": true
+    },
+    "mature_whole_blocks:39852": {
+      "passed": true
+    },
+    "recorded_maturity:39852": {
+      "passed": true
+    },
+    "mature_whole_blocks:39888": {
+      "passed": true
+    },
+    "recorded_maturity:39888": {
+      "passed": true
+    },
+    "mature_whole_blocks:39924": {
+      "passed": true
+    },
+    "recorded_maturity:39924": {
+      "passed": true
+    },
+    "mature_whole_blocks:39960": {
+      "passed": true
+    },
+    "recorded_maturity:39960": {
+      "passed": true
+    },
+    "mature_whole_blocks:39996": {
+      "passed": true
+    },
+    "recorded_maturity:39996": {
+      "passed": true
+    },
+    "mature_whole_blocks:40032": {
+      "passed": true
+    },
+    "recorded_maturity:40032": {
+      "passed": true
+    },
+    "mature_whole_blocks:40068": {
+      "passed": true
+    },
+    "recorded_maturity:40068": {
+      "passed": true
+    },
+    "mature_whole_blocks:40104": {
+      "passed": true
+    },
+    "recorded_maturity:40104": {
+      "passed": true
+    },
+    "mature_whole_blocks:40140": {
+      "passed": true
+    },
+    "recorded_maturity:40140": {
+      "passed": true
+    },
+    "mature_whole_blocks:40176": {
+      "passed": true
+    },
+    "recorded_maturity:40176": {
+      "passed": true
+    },
+    "mature_whole_blocks:40212": {
+      "passed": true
+    },
+    "recorded_maturity:40212": {
+      "passed": true
+    },
+    "mature_whole_blocks:40248": {
+      "passed": true
+    },
+    "recorded_maturity:40248": {
+      "passed": true
+    },
+    "mature_whole_blocks:40284": {
+      "passed": true
+    },
+    "recorded_maturity:40284": {
+      "passed": true
+    },
+    "mature_whole_blocks:40320": {
+      "passed": true
+    },
+    "recorded_maturity:40320": {
+      "passed": true
+    },
+    "mature_whole_blocks:40356": {
+      "passed": true
+    },
+    "recorded_maturity:40356": {
+      "passed": true
+    },
+    "mature_whole_blocks:40392": {
+      "passed": true
+    },
+    "recorded_maturity:40392": {
+      "passed": true
+    },
+    "mature_whole_blocks:40428": {
+      "passed": true
+    },
+    "recorded_maturity:40428": {
+      "passed": true
+    },
+    "mature_whole_blocks:40464": {
+      "passed": true
+    },
+    "recorded_maturity:40464": {
+      "passed": true
+    },
+    "mature_whole_blocks:40500": {
+      "passed": true
+    },
+    "recorded_maturity:40500": {
+      "passed": true
+    },
+    "mature_whole_blocks:40536": {
+      "passed": true
+    },
+    "recorded_maturity:40536": {
+      "passed": true
+    },
+    "mature_whole_blocks:40572": {
+      "passed": true
+    },
+    "recorded_maturity:40572": {
+      "passed": true
+    },
+    "mature_whole_blocks:40608": {
+      "passed": true
+    },
+    "recorded_maturity:40608": {
+      "passed": true
+    },
+    "mature_whole_blocks:40644": {
+      "passed": true
+    },
+    "recorded_maturity:40644": {
+      "passed": true
+    },
+    "mature_whole_blocks:40680": {
+      "passed": true
+    },
+    "recorded_maturity:40680": {
+      "passed": true
+    },
+    "mature_whole_blocks:40716": {
+      "passed": true
+    },
+    "recorded_maturity:40716": {
+      "passed": true
+    },
+    "mature_whole_blocks:40752": {
+      "passed": true
+    },
+    "recorded_maturity:40752": {
+      "passed": true
+    },
+    "mature_whole_blocks:40788": {
+      "passed": true
+    },
+    "recorded_maturity:40788": {
+      "passed": true
+    },
+    "mature_whole_blocks:40824": {
+      "passed": true
+    },
+    "recorded_maturity:40824": {
+      "passed": true
+    },
+    "mature_whole_blocks:40860": {
+      "passed": true
+    },
+    "recorded_maturity:40860": {
+      "passed": true
+    },
+    "mature_whole_blocks:40896": {
+      "passed": true
+    },
+    "recorded_maturity:40896": {
+      "passed": true
+    },
+    "mature_whole_blocks:40932": {
+      "passed": true
+    },
+    "recorded_maturity:40932": {
+      "passed": true
+    },
+    "mature_whole_blocks:40968": {
+      "passed": true
+    },
+    "recorded_maturity:40968": {
+      "passed": true
+    },
+    "mature_whole_blocks:41004": {
+      "passed": true
+    },
+    "recorded_maturity:41004": {
+      "passed": true
+    },
+    "mature_whole_blocks:41040": {
+      "passed": true
+    },
+    "recorded_maturity:41040": {
+      "passed": true
+    },
+    "mature_whole_blocks:41076": {
+      "passed": true
+    },
+    "recorded_maturity:41076": {
+      "passed": true
+    },
+    "mature_whole_blocks:41112": {
+      "passed": true
+    },
+    "recorded_maturity:41112": {
+      "passed": true
+    },
+    "mature_whole_blocks:41148": {
+      "passed": true
+    },
+    "recorded_maturity:41148": {
+      "passed": true
+    },
+    "mature_whole_blocks:41184": {
+      "passed": true
+    },
+    "recorded_maturity:41184": {
+      "passed": true
+    },
+    "mature_whole_blocks:41220": {
+      "passed": true
+    },
+    "recorded_maturity:41220": {
+      "passed": true
+    },
+    "mature_whole_blocks:41256": {
+      "passed": true
+    },
+    "recorded_maturity:41256": {
+      "passed": true
+    },
+    "mature_whole_blocks:41292": {
+      "passed": true
+    },
+    "recorded_maturity:41292": {
+      "passed": true
+    },
+    "mature_whole_blocks:41328": {
+      "passed": true
+    },
+    "recorded_maturity:41328": {
+      "passed": true
+    },
+    "mature_whole_blocks:41364": {
+      "passed": true
+    },
+    "recorded_maturity:41364": {
+      "passed": true
+    },
+    "mature_whole_blocks:41400": {
+      "passed": true
+    },
+    "recorded_maturity:41400": {
+      "passed": true
+    },
+    "mature_whole_blocks:41436": {
+      "passed": true
+    },
+    "recorded_maturity:41436": {
+      "passed": true
+    },
+    "mature_whole_blocks:41472": {
+      "passed": true
+    },
+    "recorded_maturity:41472": {
+      "passed": true
+    },
+    "mature_whole_blocks:41508": {
+      "passed": true
+    },
+    "recorded_maturity:41508": {
+      "passed": true
+    },
+    "mature_whole_blocks:41544": {
+      "passed": true
+    },
+    "recorded_maturity:41544": {
+      "passed": true
+    },
+    "mature_whole_blocks:41580": {
+      "passed": true
+    },
+    "recorded_maturity:41580": {
+      "passed": true
+    },
+    "mature_whole_blocks:41616": {
+      "passed": true
+    },
+    "recorded_maturity:41616": {
+      "passed": true
+    },
+    "mature_whole_blocks:41652": {
+      "passed": true
+    },
+    "recorded_maturity:41652": {
+      "passed": true
+    },
+    "mature_whole_blocks:41688": {
+      "passed": true
+    },
+    "recorded_maturity:41688": {
+      "passed": true
+    },
+    "mature_whole_blocks:41724": {
+      "passed": true
+    },
+    "recorded_maturity:41724": {
+      "passed": true
+    },
+    "mature_whole_blocks:41760": {
+      "passed": true
+    },
+    "recorded_maturity:41760": {
+      "passed": true
+    },
+    "mature_whole_blocks:41796": {
+      "passed": true
+    },
+    "recorded_maturity:41796": {
+      "passed": true
+    },
+    "mature_whole_blocks:41832": {
+      "passed": true
+    },
+    "recorded_maturity:41832": {
+      "passed": true
+    },
+    "mature_whole_blocks:41868": {
+      "passed": true
+    },
+    "recorded_maturity:41868": {
+      "passed": true
+    },
+    "mature_whole_blocks:41904": {
+      "passed": true
+    },
+    "recorded_maturity:41904": {
+      "passed": true
+    },
+    "mature_whole_blocks:41940": {
+      "passed": true
+    },
+    "recorded_maturity:41940": {
+      "passed": true
+    },
+    "mature_whole_blocks:41976": {
+      "passed": true
+    },
+    "recorded_maturity:41976": {
+      "passed": true
+    },
+    "mature_whole_blocks:42012": {
+      "passed": true
+    },
+    "recorded_maturity:42012": {
+      "passed": true
+    },
+    "mature_whole_blocks:42048": {
+      "passed": true
+    },
+    "recorded_maturity:42048": {
+      "passed": true
+    },
+    "mature_whole_blocks:42084": {
+      "passed": true
+    },
+    "recorded_maturity:42084": {
+      "passed": true
+    },
+    "mature_whole_blocks:42120": {
+      "passed": true
+    },
+    "recorded_maturity:42120": {
+      "passed": true
+    },
+    "mature_whole_blocks:42156": {
+      "passed": true
+    },
+    "recorded_maturity:42156": {
+      "passed": true
+    },
+    "mature_whole_blocks:42192": {
+      "passed": true
+    },
+    "recorded_maturity:42192": {
+      "passed": true
+    },
+    "mature_whole_blocks:42228": {
+      "passed": true
+    },
+    "recorded_maturity:42228": {
+      "passed": true
+    },
+    "mature_whole_blocks:42264": {
+      "passed": true
+    },
+    "recorded_maturity:42264": {
+      "passed": true
+    },
+    "mature_whole_blocks:42300": {
+      "passed": true
+    },
+    "recorded_maturity:42300": {
+      "passed": true
+    },
+    "mature_whole_blocks:42336": {
+      "passed": true
+    },
+    "recorded_maturity:42336": {
+      "passed": true
+    },
+    "mature_whole_blocks:42372": {
+      "passed": true
+    },
+    "recorded_maturity:42372": {
+      "passed": true
+    },
+    "mature_whole_blocks:42408": {
+      "passed": true
+    },
+    "recorded_maturity:42408": {
+      "passed": true
+    },
+    "mature_whole_blocks:42444": {
+      "passed": true
+    },
+    "recorded_maturity:42444": {
+      "passed": true
+    },
+    "mature_whole_blocks:42480": {
+      "passed": true
+    },
+    "recorded_maturity:42480": {
+      "passed": true
+    },
+    "mature_whole_blocks:42516": {
+      "passed": true
+    },
+    "recorded_maturity:42516": {
+      "passed": true
+    },
+    "mature_whole_blocks:42552": {
+      "passed": true
+    },
+    "recorded_maturity:42552": {
+      "passed": true
+    },
+    "mature_whole_blocks:42588": {
+      "passed": true
+    },
+    "recorded_maturity:42588": {
+      "passed": true
+    },
+    "mature_whole_blocks:42624": {
+      "passed": true
+    },
+    "recorded_maturity:42624": {
+      "passed": true
+    },
+    "mature_whole_blocks:42660": {
+      "passed": true
+    },
+    "recorded_maturity:42660": {
+      "passed": true
+    },
+    "mature_whole_blocks:42696": {
+      "passed": true
+    },
+    "recorded_maturity:42696": {
+      "passed": true
+    },
+    "mature_whole_blocks:42732": {
+      "passed": true
+    },
+    "recorded_maturity:42732": {
+      "passed": true
+    },
+    "mature_whole_blocks:42768": {
+      "passed": true
+    },
+    "recorded_maturity:42768": {
+      "passed": true
+    },
+    "mature_whole_blocks:42804": {
+      "passed": true
+    },
+    "recorded_maturity:42804": {
+      "passed": true
+    },
+    "mature_whole_blocks:42840": {
+      "passed": true
+    },
+    "recorded_maturity:42840": {
+      "passed": true
+    },
+    "mature_whole_blocks:42876": {
+      "passed": true
+    },
+    "recorded_maturity:42876": {
+      "passed": true
+    },
+    "mature_whole_blocks:42912": {
+      "passed": true
+    },
+    "recorded_maturity:42912": {
+      "passed": true
+    },
+    "mature_whole_blocks:42948": {
+      "passed": true
+    },
+    "recorded_maturity:42948": {
+      "passed": true
+    },
+    "mature_whole_blocks:42984": {
+      "passed": true
+    },
+    "recorded_maturity:42984": {
+      "passed": true
+    },
+    "mature_whole_blocks:43020": {
+      "passed": true
+    },
+    "recorded_maturity:43020": {
+      "passed": true
+    },
+    "mature_whole_blocks:43056": {
+      "passed": true
+    },
+    "recorded_maturity:43056": {
+      "passed": true
+    },
+    "mature_whole_blocks:43092": {
+      "passed": true
+    },
+    "recorded_maturity:43092": {
+      "passed": true
+    },
+    "mature_whole_blocks:43128": {
+      "passed": true
+    },
+    "recorded_maturity:43128": {
+      "passed": true
+    },
+    "mature_whole_blocks:43164": {
+      "passed": true
+    },
+    "recorded_maturity:43164": {
+      "passed": true
+    },
+    "mature_whole_blocks:43200": {
+      "passed": true
+    },
+    "recorded_maturity:43200": {
+      "passed": true
+    },
+    "mature_whole_blocks:43236": {
+      "passed": true
+    },
+    "recorded_maturity:43236": {
+      "passed": true
+    },
+    "mature_whole_blocks:43272": {
+      "passed": true
+    },
+    "recorded_maturity:43272": {
+      "passed": true
+    },
+    "mature_whole_blocks:43308": {
+      "passed": true
+    },
+    "recorded_maturity:43308": {
+      "passed": true
+    },
+    "mature_whole_blocks:43344": {
+      "passed": true
+    },
+    "recorded_maturity:43344": {
+      "passed": true
+    },
+    "mature_whole_blocks:43380": {
+      "passed": true
+    },
+    "recorded_maturity:43380": {
+      "passed": true
+    },
+    "mature_whole_blocks:43416": {
+      "passed": true
+    },
+    "recorded_maturity:43416": {
+      "passed": true
+    },
+    "mature_whole_blocks:43452": {
+      "passed": true
+    },
+    "recorded_maturity:43452": {
+      "passed": true
+    },
+    "mature_whole_blocks:43488": {
+      "passed": true
+    },
+    "recorded_maturity:43488": {
+      "passed": true
+    },
+    "mature_whole_blocks:43524": {
+      "passed": true
+    },
+    "recorded_maturity:43524": {
+      "passed": true
+    },
+    "mature_whole_blocks:43560": {
+      "passed": true
+    },
+    "recorded_maturity:43560": {
+      "passed": true
+    },
+    "mature_whole_blocks:43596": {
+      "passed": true
+    },
+    "recorded_maturity:43596": {
+      "passed": true
+    },
+    "mature_whole_blocks:43632": {
+      "passed": true
+    },
+    "recorded_maturity:43632": {
+      "passed": true
+    },
+    "mature_whole_blocks:43668": {
+      "passed": true
+    },
+    "recorded_maturity:43668": {
+      "passed": true
+    },
+    "mature_whole_blocks:43704": {
+      "passed": true
+    },
+    "recorded_maturity:43704": {
+      "passed": true
+    },
+    "mature_whole_blocks:43740": {
+      "passed": true
+    },
+    "recorded_maturity:43740": {
+      "passed": true
+    },
+    "mature_whole_blocks:43776": {
+      "passed": true
+    },
+    "recorded_maturity:43776": {
+      "passed": true
+    },
+    "mature_whole_blocks:43812": {
+      "passed": true
+    },
+    "recorded_maturity:43812": {
+      "passed": true
+    },
+    "mature_whole_blocks:43848": {
+      "passed": true
+    },
+    "recorded_maturity:43848": {
+      "passed": true
+    },
+    "mature_whole_blocks:43884": {
+      "passed": true
+    },
+    "recorded_maturity:43884": {
+      "passed": true
+    },
+    "mature_whole_blocks:43920": {
+      "passed": true
+    },
+    "recorded_maturity:43920": {
+      "passed": true
+    },
+    "mature_whole_blocks:43956": {
+      "passed": true
+    },
+    "recorded_maturity:43956": {
+      "passed": true
+    },
+    "mature_whole_blocks:43992": {
+      "passed": true
+    },
+    "recorded_maturity:43992": {
+      "passed": true
+    },
+    "mature_whole_blocks:44028": {
+      "passed": true
+    },
+    "recorded_maturity:44028": {
+      "passed": true
+    },
+    "mature_whole_blocks:44064": {
+      "passed": true
+    },
+    "recorded_maturity:44064": {
+      "passed": true
+    },
+    "mature_whole_blocks:44100": {
+      "passed": true
+    },
+    "recorded_maturity:44100": {
+      "passed": true
+    },
+    "mature_whole_blocks:44136": {
+      "passed": true
+    },
+    "recorded_maturity:44136": {
+      "passed": true
+    },
+    "mature_whole_blocks:44172": {
+      "passed": true
+    },
+    "recorded_maturity:44172": {
+      "passed": true
+    },
+    "mature_whole_blocks:44208": {
+      "passed": true
+    },
+    "recorded_maturity:44208": {
+      "passed": true
+    },
+    "mature_whole_blocks:44244": {
+      "passed": true
+    },
+    "recorded_maturity:44244": {
+      "passed": true
+    },
+    "mature_whole_blocks:44280": {
+      "passed": true
+    },
+    "recorded_maturity:44280": {
+      "passed": true
+    },
+    "mature_whole_blocks:44316": {
+      "passed": true
+    },
+    "recorded_maturity:44316": {
+      "passed": true
+    },
+    "mature_whole_blocks:44352": {
+      "passed": true
+    },
+    "recorded_maturity:44352": {
+      "passed": true
+    },
+    "mature_whole_blocks:44388": {
+      "passed": true
+    },
+    "recorded_maturity:44388": {
+      "passed": true
+    },
+    "mature_whole_blocks:44424": {
+      "passed": true
+    },
+    "recorded_maturity:44424": {
+      "passed": true
+    },
+    "mature_whole_blocks:44460": {
+      "passed": true
+    },
+    "recorded_maturity:44460": {
+      "passed": true
+    },
+    "mature_whole_blocks:44496": {
+      "passed": true
+    },
+    "recorded_maturity:44496": {
+      "passed": true
+    },
+    "mature_whole_blocks:44532": {
+      "passed": true
+    },
+    "recorded_maturity:44532": {
+      "passed": true
+    },
+    "mature_whole_blocks:44568": {
+      "passed": true
+    },
+    "recorded_maturity:44568": {
+      "passed": true
+    },
+    "mature_whole_blocks:44604": {
+      "passed": true
+    },
+    "recorded_maturity:44604": {
+      "passed": true
+    },
+    "mature_whole_blocks:44640": {
+      "passed": true
+    },
+    "recorded_maturity:44640": {
+      "passed": true
+    },
+    "mature_whole_blocks:44676": {
+      "passed": true
+    },
+    "recorded_maturity:44676": {
+      "passed": true
+    },
+    "mature_whole_blocks:44712": {
+      "passed": true
+    },
+    "recorded_maturity:44712": {
+      "passed": true
+    },
+    "mature_whole_blocks:44748": {
+      "passed": true
+    },
+    "recorded_maturity:44748": {
+      "passed": true
+    },
+    "mature_whole_blocks:44784": {
+      "passed": true
+    },
+    "recorded_maturity:44784": {
+      "passed": true
+    },
+    "mature_whole_blocks:44820": {
+      "passed": true
+    },
+    "recorded_maturity:44820": {
+      "passed": true
+    },
+    "mature_whole_blocks:44856": {
+      "passed": true
+    },
+    "recorded_maturity:44856": {
+      "passed": true
+    },
+    "mature_whole_blocks:44892": {
+      "passed": true
+    },
+    "recorded_maturity:44892": {
+      "passed": true
+    },
+    "mature_whole_blocks:44928": {
+      "passed": true
+    },
+    "recorded_maturity:44928": {
+      "passed": true
+    },
+    "mature_whole_blocks:44964": {
+      "passed": true
+    },
+    "recorded_maturity:44964": {
+      "passed": true
+    },
+    "mature_whole_blocks:45000": {
+      "passed": true
+    },
+    "recorded_maturity:45000": {
+      "passed": true
+    },
+    "mature_whole_blocks:45036": {
+      "passed": true
+    },
+    "recorded_maturity:45036": {
+      "passed": true
+    },
+    "mature_whole_blocks:45072": {
+      "passed": true
+    },
+    "recorded_maturity:45072": {
+      "passed": true
+    },
+    "mature_whole_blocks:45108": {
+      "passed": true
+    },
+    "recorded_maturity:45108": {
+      "passed": true
+    },
+    "mature_whole_blocks:45144": {
+      "passed": true
+    },
+    "recorded_maturity:45144": {
+      "passed": true
+    },
+    "mature_whole_blocks:45180": {
+      "passed": true
+    },
+    "recorded_maturity:45180": {
+      "passed": true
+    },
+    "mature_whole_blocks:45216": {
+      "passed": true
+    },
+    "recorded_maturity:45216": {
+      "passed": true
+    },
+    "mature_whole_blocks:45252": {
+      "passed": true
+    },
+    "recorded_maturity:45252": {
+      "passed": true
+    },
+    "mature_whole_blocks:45288": {
+      "passed": true
+    },
+    "recorded_maturity:45288": {
+      "passed": true
+    },
+    "mature_whole_blocks:45324": {
+      "passed": true
+    },
+    "recorded_maturity:45324": {
+      "passed": true
+    },
+    "mature_whole_blocks:45360": {
+      "passed": true
+    },
+    "recorded_maturity:45360": {
+      "passed": true
+    },
+    "mature_whole_blocks:45396": {
+      "passed": true
+    },
+    "recorded_maturity:45396": {
+      "passed": true
+    },
+    "mature_whole_blocks:45432": {
+      "passed": true
+    },
+    "recorded_maturity:45432": {
+      "passed": true
+    },
+    "mature_whole_blocks:45468": {
+      "passed": true
+    },
+    "recorded_maturity:45468": {
+      "passed": true
+    },
+    "mature_whole_blocks:45504": {
+      "passed": true
+    },
+    "recorded_maturity:45504": {
+      "passed": true
+    },
+    "mature_whole_blocks:45540": {
+      "passed": true
+    },
+    "recorded_maturity:45540": {
+      "passed": true
+    },
+    "mature_whole_blocks:45576": {
+      "passed": true
+    },
+    "recorded_maturity:45576": {
+      "passed": true
+    },
+    "mature_whole_blocks:45612": {
+      "passed": true
+    },
+    "recorded_maturity:45612": {
+      "passed": true
+    },
+    "mature_whole_blocks:45648": {
+      "passed": true
+    },
+    "recorded_maturity:45648": {
+      "passed": true
+    },
+    "mature_whole_blocks:45684": {
+      "passed": true
+    },
+    "recorded_maturity:45684": {
+      "passed": true
+    },
+    "mature_whole_blocks:45720": {
+      "passed": true
+    },
+    "recorded_maturity:45720": {
+      "passed": true
+    },
+    "mature_whole_blocks:45756": {
+      "passed": true
+    },
+    "recorded_maturity:45756": {
+      "passed": true
+    },
+    "mature_whole_blocks:45792": {
+      "passed": true
+    },
+    "recorded_maturity:45792": {
+      "passed": true
+    },
+    "mature_whole_blocks:45828": {
+      "passed": true
+    },
+    "recorded_maturity:45828": {
+      "passed": true
+    },
+    "mature_whole_blocks:45864": {
+      "passed": true
+    },
+    "recorded_maturity:45864": {
+      "passed": true
+    },
+    "mature_whole_blocks:45900": {
+      "passed": true
+    },
+    "recorded_maturity:45900": {
+      "passed": true
+    },
+    "mature_whole_blocks:45936": {
+      "passed": true
+    },
+    "recorded_maturity:45936": {
+      "passed": true
+    },
+    "mature_whole_blocks:45972": {
+      "passed": true
+    },
+    "recorded_maturity:45972": {
+      "passed": true
+    },
+    "mature_whole_blocks:46008": {
+      "passed": true
+    },
+    "recorded_maturity:46008": {
+      "passed": true
+    },
+    "mature_whole_blocks:46044": {
+      "passed": true
+    },
+    "recorded_maturity:46044": {
+      "passed": true
+    },
+    "mature_whole_blocks:46080": {
+      "passed": true
+    },
+    "recorded_maturity:46080": {
+      "passed": true
+    },
+    "mature_whole_blocks:46116": {
+      "passed": true
+    },
+    "recorded_maturity:46116": {
+      "passed": true
+    },
+    "mature_whole_blocks:46152": {
+      "passed": true
+    },
+    "recorded_maturity:46152": {
+      "passed": true
+    },
+    "mature_whole_blocks:46188": {
+      "passed": true
+    },
+    "recorded_maturity:46188": {
+      "passed": true
+    },
+    "mature_whole_blocks:46224": {
+      "passed": true
+    },
+    "recorded_maturity:46224": {
+      "passed": true
+    },
+    "mature_whole_blocks:46260": {
+      "passed": true
+    },
+    "recorded_maturity:46260": {
+      "passed": true
+    },
+    "mature_whole_blocks:46296": {
+      "passed": true
+    },
+    "recorded_maturity:46296": {
+      "passed": true
+    },
+    "mature_whole_blocks:46332": {
+      "passed": true
+    },
+    "recorded_maturity:46332": {
+      "passed": true
+    },
+    "mature_whole_blocks:46368": {
+      "passed": true
+    },
+    "recorded_maturity:46368": {
+      "passed": true
+    },
+    "mature_whole_blocks:46404": {
+      "passed": true
+    },
+    "recorded_maturity:46404": {
+      "passed": true
+    },
+    "mature_whole_blocks:46440": {
+      "passed": true
+    },
+    "recorded_maturity:46440": {
+      "passed": true
+    },
+    "mature_whole_blocks:46476": {
+      "passed": true
+    },
+    "recorded_maturity:46476": {
+      "passed": true
+    },
+    "mature_whole_blocks:46512": {
+      "passed": true
+    },
+    "recorded_maturity:46512": {
+      "passed": true
+    },
+    "mature_whole_blocks:46548": {
+      "passed": true
+    },
+    "recorded_maturity:46548": {
+      "passed": true
+    },
+    "mature_whole_blocks:46584": {
+      "passed": true
+    },
+    "recorded_maturity:46584": {
+      "passed": true
+    },
+    "mature_whole_blocks:46620": {
+      "passed": true
+    },
+    "recorded_maturity:46620": {
+      "passed": true
+    },
+    "mature_whole_blocks:46656": {
+      "passed": true
+    },
+    "recorded_maturity:46656": {
+      "passed": true
+    },
+    "mature_whole_blocks:46692": {
+      "passed": true
+    },
+    "recorded_maturity:46692": {
+      "passed": true
+    },
+    "mature_whole_blocks:46728": {
+      "passed": true
+    },
+    "recorded_maturity:46728": {
+      "passed": true
+    },
+    "mature_whole_blocks:46764": {
+      "passed": true
+    },
+    "recorded_maturity:46764": {
+      "passed": true
+    },
+    "mature_whole_blocks:46800": {
+      "passed": true
+    },
+    "recorded_maturity:46800": {
+      "passed": true
+    },
+    "mature_whole_blocks:46836": {
+      "passed": true
+    },
+    "recorded_maturity:46836": {
+      "passed": true
+    },
+    "mature_whole_blocks:46872": {
+      "passed": true
+    },
+    "recorded_maturity:46872": {
+      "passed": true
+    },
+    "mature_whole_blocks:46908": {
+      "passed": true
+    },
+    "recorded_maturity:46908": {
+      "passed": true
+    },
+    "mature_whole_blocks:46944": {
+      "passed": true
+    },
+    "recorded_maturity:46944": {
+      "passed": true
+    },
+    "mature_whole_blocks:46980": {
+      "passed": true
+    },
+    "recorded_maturity:46980": {
+      "passed": true
+    },
+    "mature_whole_blocks:47016": {
+      "passed": true
+    },
+    "recorded_maturity:47016": {
+      "passed": true
+    },
+    "mature_whole_blocks:47052": {
+      "passed": true
+    },
+    "recorded_maturity:47052": {
+      "passed": true
+    },
+    "mature_whole_blocks:47088": {
+      "passed": true
+    },
+    "recorded_maturity:47088": {
+      "passed": true
+    },
+    "mature_whole_blocks:47124": {
+      "passed": true
+    },
+    "recorded_maturity:47124": {
+      "passed": true
+    },
+    "mature_whole_blocks:47160": {
+      "passed": true
+    },
+    "recorded_maturity:47160": {
+      "passed": true
+    },
+    "mature_whole_blocks:47196": {
+      "passed": true
+    },
+    "recorded_maturity:47196": {
+      "passed": true
+    },
+    "mature_whole_blocks:47232": {
+      "passed": true
+    },
+    "recorded_maturity:47232": {
+      "passed": true
+    },
+    "mature_whole_blocks:47268": {
+      "passed": true
+    },
+    "recorded_maturity:47268": {
+      "passed": true
+    },
+    "mature_whole_blocks:47304": {
+      "passed": true
+    },
+    "recorded_maturity:47304": {
+      "passed": true
+    },
+    "mature_whole_blocks:47340": {
+      "passed": true
+    },
+    "recorded_maturity:47340": {
+      "passed": true
+    },
+    "mature_whole_blocks:47376": {
+      "passed": true
+    },
+    "recorded_maturity:47376": {
+      "passed": true
+    },
+    "mature_whole_blocks:47412": {
+      "passed": true
+    },
+    "recorded_maturity:47412": {
+      "passed": true
+    },
+    "mature_whole_blocks:47448": {
+      "passed": true
+    },
+    "recorded_maturity:47448": {
+      "passed": true
+    },
+    "mature_whole_blocks:47484": {
+      "passed": true
+    },
+    "recorded_maturity:47484": {
+      "passed": true
+    },
+    "mature_whole_blocks:47520": {
+      "passed": true
+    },
+    "recorded_maturity:47520": {
+      "passed": true
+    },
+    "mature_whole_blocks:47556": {
+      "passed": true
+    },
+    "recorded_maturity:47556": {
+      "passed": true
+    },
+    "mature_whole_blocks:47592": {
+      "passed": true
+    },
+    "recorded_maturity:47592": {
+      "passed": true
+    },
+    "mature_whole_blocks:47628": {
+      "passed": true
+    },
+    "recorded_maturity:47628": {
+      "passed": true
+    },
+    "mature_whole_blocks:47664": {
+      "passed": true
+    },
+    "recorded_maturity:47664": {
+      "passed": true
+    },
+    "mature_whole_blocks:47700": {
+      "passed": true
+    },
+    "recorded_maturity:47700": {
+      "passed": true
+    },
+    "mature_whole_blocks:47736": {
+      "passed": true
+    },
+    "recorded_maturity:47736": {
+      "passed": true
+    },
+    "mature_whole_blocks:47772": {
+      "passed": true
+    },
+    "recorded_maturity:47772": {
+      "passed": true
+    },
+    "mature_whole_blocks:47808": {
+      "passed": true
+    },
+    "recorded_maturity:47808": {
+      "passed": true
+    },
+    "mature_whole_blocks:47844": {
+      "passed": true
+    },
+    "recorded_maturity:47844": {
+      "passed": true
+    },
+    "mature_whole_blocks:47880": {
+      "passed": true
+    },
+    "recorded_maturity:47880": {
+      "passed": true
+    },
+    "mature_whole_blocks:47916": {
+      "passed": true
+    },
+    "recorded_maturity:47916": {
+      "passed": true
+    },
+    "mature_whole_blocks:47952": {
+      "passed": true
+    },
+    "recorded_maturity:47952": {
+      "passed": true
+    },
+    "mature_whole_blocks:47988": {
+      "passed": true
+    },
+    "recorded_maturity:47988": {
+      "passed": true
+    },
+    "mature_whole_blocks:48024": {
+      "passed": true
+    },
+    "recorded_maturity:48024": {
+      "passed": true
+    },
+    "mature_whole_blocks:48060": {
+      "passed": true
+    },
+    "recorded_maturity:48060": {
+      "passed": true
+    },
+    "mature_whole_blocks:48096": {
+      "passed": true
+    },
+    "recorded_maturity:48096": {
+      "passed": true
+    },
+    "mature_whole_blocks:48132": {
+      "passed": true
+    },
+    "recorded_maturity:48132": {
+      "passed": true
+    },
+    "mature_whole_blocks:48168": {
+      "passed": true
+    },
+    "recorded_maturity:48168": {
+      "passed": true
+    },
+    "mature_whole_blocks:48204": {
+      "passed": true
+    },
+    "recorded_maturity:48204": {
+      "passed": true
+    },
+    "mature_whole_blocks:48240": {
+      "passed": true
+    },
+    "recorded_maturity:48240": {
+      "passed": true
+    },
+    "mature_whole_blocks:48276": {
+      "passed": true
+    },
+    "recorded_maturity:48276": {
+      "passed": true
+    },
+    "mature_whole_blocks:48312": {
+      "passed": true
+    },
+    "recorded_maturity:48312": {
+      "passed": true
+    },
+    "mature_whole_blocks:48348": {
+      "passed": true
+    },
+    "recorded_maturity:48348": {
+      "passed": true
+    },
+    "mature_whole_blocks:48384": {
+      "passed": true
+    },
+    "recorded_maturity:48384": {
+      "passed": true
+    },
+    "mature_whole_blocks:48420": {
+      "passed": true
+    },
+    "recorded_maturity:48420": {
+      "passed": true
+    },
+    "mature_whole_blocks:48456": {
+      "passed": true
+    },
+    "recorded_maturity:48456": {
+      "passed": true
+    },
+    "mature_whole_blocks:48492": {
+      "passed": true
+    },
+    "recorded_maturity:48492": {
+      "passed": true
+    },
+    "mature_whole_blocks:48528": {
+      "passed": true
+    },
+    "recorded_maturity:48528": {
+      "passed": true
+    },
+    "mature_whole_blocks:48564": {
+      "passed": true
+    },
+    "recorded_maturity:48564": {
+      "passed": true
+    },
+    "mature_whole_blocks:48600": {
+      "passed": true
+    },
+    "recorded_maturity:48600": {
+      "passed": true
+    },
+    "mature_whole_blocks:48636": {
+      "passed": true
+    },
+    "recorded_maturity:48636": {
+      "passed": true
+    },
+    "mature_whole_blocks:48672": {
+      "passed": true
+    },
+    "recorded_maturity:48672": {
+      "passed": true
+    },
+    "mature_whole_blocks:48708": {
+      "passed": true
+    },
+    "recorded_maturity:48708": {
+      "passed": true
+    },
+    "mature_whole_blocks:48744": {
+      "passed": true
+    },
+    "recorded_maturity:48744": {
+      "passed": true
+    },
+    "mature_whole_blocks:48780": {
+      "passed": true
+    },
+    "recorded_maturity:48780": {
+      "passed": true
+    },
+    "mature_whole_blocks:48816": {
+      "passed": true
+    },
+    "recorded_maturity:48816": {
+      "passed": true
+    },
+    "mature_whole_blocks:48852": {
+      "passed": true
+    },
+    "recorded_maturity:48852": {
+      "passed": true
+    },
+    "mature_whole_blocks:48888": {
+      "passed": true
+    },
+    "recorded_maturity:48888": {
+      "passed": true
+    },
+    "mature_whole_blocks:48924": {
+      "passed": true
+    },
+    "recorded_maturity:48924": {
+      "passed": true
+    },
+    "mature_whole_blocks:48960": {
+      "passed": true
+    },
+    "recorded_maturity:48960": {
+      "passed": true
+    },
+    "mature_whole_blocks:48996": {
+      "passed": true
+    },
+    "recorded_maturity:48996": {
+      "passed": true
+    },
+    "mature_whole_blocks:49032": {
+      "passed": true
+    },
+    "recorded_maturity:49032": {
+      "passed": true
+    },
+    "mature_whole_blocks:49068": {
+      "passed": true
+    },
+    "recorded_maturity:49068": {
+      "passed": true
+    },
+    "mature_whole_blocks:49104": {
+      "passed": true
+    },
+    "recorded_maturity:49104": {
+      "passed": true
+    },
+    "mature_whole_blocks:49140": {
+      "passed": true
+    },
+    "recorded_maturity:49140": {
+      "passed": true
+    },
+    "mature_whole_blocks:49176": {
+      "passed": true
+    },
+    "recorded_maturity:49176": {
+      "passed": true
+    },
+    "mature_whole_blocks:49212": {
+      "passed": true
+    },
+    "recorded_maturity:49212": {
+      "passed": true
+    },
+    "mature_whole_blocks:49248": {
+      "passed": true
+    },
+    "recorded_maturity:49248": {
+      "passed": true
+    },
+    "mature_whole_blocks:49284": {
+      "passed": true
+    },
+    "recorded_maturity:49284": {
+      "passed": true
+    },
+    "mature_whole_blocks:49320": {
+      "passed": true
+    },
+    "recorded_maturity:49320": {
+      "passed": true
+    },
+    "mature_whole_blocks:49356": {
+      "passed": true
+    },
+    "recorded_maturity:49356": {
+      "passed": true
+    },
+    "mature_whole_blocks:49392": {
+      "passed": true
+    },
+    "recorded_maturity:49392": {
+      "passed": true
+    },
+    "mature_whole_blocks:49428": {
+      "passed": true
+    },
+    "recorded_maturity:49428": {
+      "passed": true
+    },
+    "mature_whole_blocks:49464": {
+      "passed": true
+    },
+    "recorded_maturity:49464": {
+      "passed": true
+    },
+    "mature_whole_blocks:49500": {
+      "passed": true
+    },
+    "recorded_maturity:49500": {
+      "passed": true
+    },
+    "mature_whole_blocks:49536": {
+      "passed": true
+    },
+    "recorded_maturity:49536": {
+      "passed": true
+    },
+    "mature_whole_blocks:49572": {
+      "passed": true
+    },
+    "recorded_maturity:49572": {
+      "passed": true
+    },
+    "mature_whole_blocks:49608": {
+      "passed": true
+    },
+    "recorded_maturity:49608": {
+      "passed": true
+    },
+    "mature_whole_blocks:49644": {
+      "passed": true
+    },
+    "recorded_maturity:49644": {
+      "passed": true
+    },
+    "mature_whole_blocks:49680": {
+      "passed": true
+    },
+    "recorded_maturity:49680": {
+      "passed": true
+    },
+    "mature_whole_blocks:49716": {
+      "passed": true
+    },
+    "recorded_maturity:49716": {
+      "passed": true
+    },
+    "mature_whole_blocks:49752": {
+      "passed": true
+    },
+    "recorded_maturity:49752": {
+      "passed": true
+    },
+    "mature_whole_blocks:49788": {
+      "passed": true
+    },
+    "recorded_maturity:49788": {
+      "passed": true
+    },
+    "mature_whole_blocks:49824": {
+      "passed": true
+    },
+    "recorded_maturity:49824": {
+      "passed": true
+    },
+    "mature_whole_blocks:49860": {
+      "passed": true
+    },
+    "recorded_maturity:49860": {
+      "passed": true
+    },
+    "mature_whole_blocks:49896": {
+      "passed": true
+    },
+    "recorded_maturity:49896": {
+      "passed": true
+    },
+    "mature_whole_blocks:49932": {
+      "passed": true
+    },
+    "recorded_maturity:49932": {
+      "passed": true
+    },
+    "mature_whole_blocks:49968": {
+      "passed": true
+    },
+    "recorded_maturity:49968": {
+      "passed": true
+    },
+    "mature_whole_blocks:50004": {
+      "passed": true
+    },
+    "recorded_maturity:50004": {
+      "passed": true
+    },
+    "mature_whole_blocks:50040": {
+      "passed": true
+    },
+    "recorded_maturity:50040": {
+      "passed": true
+    },
+    "mature_whole_blocks:50076": {
+      "passed": true
+    },
+    "recorded_maturity:50076": {
+      "passed": true
+    },
+    "mature_whole_blocks:50112": {
+      "passed": true
+    },
+    "recorded_maturity:50112": {
+      "passed": true
+    },
+    "mature_whole_blocks:50148": {
+      "passed": true
+    },
+    "recorded_maturity:50148": {
+      "passed": true
+    },
+    "mature_whole_blocks:50184": {
+      "passed": true
+    },
+    "recorded_maturity:50184": {
+      "passed": true
+    },
+    "mature_whole_blocks:50220": {
+      "passed": true
+    },
+    "recorded_maturity:50220": {
+      "passed": true
+    },
+    "mature_whole_blocks:50256": {
+      "passed": true
+    },
+    "recorded_maturity:50256": {
+      "passed": true
+    },
+    "mature_whole_blocks:50292": {
+      "passed": true
+    },
+    "recorded_maturity:50292": {
+      "passed": true
+    },
+    "mature_whole_blocks:50328": {
+      "passed": true
+    },
+    "recorded_maturity:50328": {
+      "passed": true
+    },
+    "mature_whole_blocks:50364": {
+      "passed": true
+    },
+    "recorded_maturity:50364": {
+      "passed": true
+    },
+    "mature_whole_blocks:50400": {
+      "passed": true
+    },
+    "recorded_maturity:50400": {
+      "passed": true
+    },
+    "mature_whole_blocks:50436": {
+      "passed": true
+    },
+    "recorded_maturity:50436": {
+      "passed": true
+    },
+    "mature_whole_blocks:50472": {
+      "passed": true
+    },
+    "recorded_maturity:50472": {
+      "passed": true
+    },
+    "mature_whole_blocks:50508": {
+      "passed": true
+    },
+    "recorded_maturity:50508": {
+      "passed": true
+    },
+    "mature_whole_blocks:50544": {
+      "passed": true
+    },
+    "recorded_maturity:50544": {
+      "passed": true
+    },
+    "mature_whole_blocks:50580": {
+      "passed": true
+    },
+    "recorded_maturity:50580": {
+      "passed": true
+    },
+    "mature_whole_blocks:50616": {
+      "passed": true
+    },
+    "recorded_maturity:50616": {
+      "passed": true
+    },
+    "mature_whole_blocks:50652": {
+      "passed": true
+    },
+    "recorded_maturity:50652": {
+      "passed": true
+    },
+    "mature_whole_blocks:50688": {
+      "passed": true
+    },
+    "recorded_maturity:50688": {
+      "passed": true
+    },
+    "mature_whole_blocks:50724": {
+      "passed": true
+    },
+    "recorded_maturity:50724": {
+      "passed": true
+    },
+    "mature_whole_blocks:50760": {
+      "passed": true
+    },
+    "recorded_maturity:50760": {
+      "passed": true
+    },
+    "mature_whole_blocks:50796": {
+      "passed": true
+    },
+    "recorded_maturity:50796": {
+      "passed": true
+    },
+    "mature_whole_blocks:50832": {
+      "passed": true
+    },
+    "recorded_maturity:50832": {
+      "passed": true
+    },
+    "mature_whole_blocks:50868": {
+      "passed": true
+    },
+    "recorded_maturity:50868": {
+      "passed": true
+    },
+    "mature_whole_blocks:50904": {
+      "passed": true
+    },
+    "recorded_maturity:50904": {
+      "passed": true
+    },
+    "mature_whole_blocks:50940": {
+      "passed": true
+    },
+    "recorded_maturity:50940": {
+      "passed": true
+    },
+    "mature_whole_blocks:50976": {
+      "passed": true
+    },
+    "recorded_maturity:50976": {
+      "passed": true
+    },
+    "mature_whole_blocks:51012": {
+      "passed": true
+    },
+    "recorded_maturity:51012": {
+      "passed": true
+    },
+    "mature_whole_blocks:51048": {
+      "passed": true
+    },
+    "recorded_maturity:51048": {
+      "passed": true
+    },
+    "mature_whole_blocks:51084": {
+      "passed": true
+    },
+    "recorded_maturity:51084": {
+      "passed": true
+    },
+    "mature_whole_blocks:51120": {
+      "passed": true
+    },
+    "recorded_maturity:51120": {
+      "passed": true
+    },
+    "mature_whole_blocks:51156": {
+      "passed": true
+    },
+    "recorded_maturity:51156": {
+      "passed": true
+    },
+    "mature_whole_blocks:51192": {
+      "passed": true
+    },
+    "recorded_maturity:51192": {
+      "passed": true
+    },
+    "mature_whole_blocks:51228": {
+      "passed": true
+    },
+    "recorded_maturity:51228": {
+      "passed": true
+    },
+    "mature_whole_blocks:51264": {
+      "passed": true
+    },
+    "recorded_maturity:51264": {
+      "passed": true
+    },
+    "mature_whole_blocks:51300": {
+      "passed": true
+    },
+    "recorded_maturity:51300": {
+      "passed": true
+    },
+    "mature_whole_blocks:51336": {
+      "passed": true
+    },
+    "recorded_maturity:51336": {
+      "passed": true
+    },
+    "mature_whole_blocks:51372": {
+      "passed": true
+    },
+    "recorded_maturity:51372": {
+      "passed": true
+    },
+    "mature_whole_blocks:51408": {
+      "passed": true
+    },
+    "recorded_maturity:51408": {
+      "passed": true
+    },
+    "mature_whole_blocks:51444": {
+      "passed": true
+    },
+    "recorded_maturity:51444": {
+      "passed": true
+    },
+    "mature_whole_blocks:51480": {
+      "passed": true
+    },
+    "recorded_maturity:51480": {
+      "passed": true
+    },
+    "mature_whole_blocks:51516": {
+      "passed": true
+    },
+    "recorded_maturity:51516": {
+      "passed": true
+    },
+    "mature_whole_blocks:51552": {
+      "passed": true
+    },
+    "recorded_maturity:51552": {
+      "passed": true
+    },
+    "mature_whole_blocks:51588": {
+      "passed": true
+    },
+    "recorded_maturity:51588": {
+      "passed": true
+    },
+    "mature_whole_blocks:51624": {
+      "passed": true
+    },
+    "recorded_maturity:51624": {
+      "passed": true
+    },
+    "mature_whole_blocks:51660": {
+      "passed": true
+    },
+    "recorded_maturity:51660": {
+      "passed": true
+    },
+    "mature_whole_blocks:51696": {
+      "passed": true
+    },
+    "recorded_maturity:51696": {
+      "passed": true
+    },
+    "mature_whole_blocks:51732": {
+      "passed": true
+    },
+    "recorded_maturity:51732": {
+      "passed": true
+    },
+    "mature_whole_blocks:51768": {
+      "passed": true
+    },
+    "recorded_maturity:51768": {
+      "passed": true
+    },
+    "mature_whole_blocks:51804": {
+      "passed": true
+    },
+    "recorded_maturity:51804": {
+      "passed": true
+    },
+    "mature_whole_blocks:51840": {
+      "passed": true
+    },
+    "recorded_maturity:51840": {
+      "passed": true
+    },
+    "mature_whole_blocks:51876": {
+      "passed": true
+    },
+    "recorded_maturity:51876": {
+      "passed": true
+    },
+    "mature_whole_blocks:51912": {
+      "passed": true
+    },
+    "recorded_maturity:51912": {
+      "passed": true
+    },
+    "mature_whole_blocks:51948": {
+      "passed": true
+    },
+    "recorded_maturity:51948": {
+      "passed": true
+    },
+    "mature_whole_blocks:51984": {
+      "passed": true
+    },
+    "recorded_maturity:51984": {
+      "passed": true
+    },
+    "mature_whole_blocks:52020": {
+      "passed": true
+    },
+    "recorded_maturity:52020": {
+      "passed": true
+    },
+    "mature_whole_blocks:52056": {
+      "passed": true
+    },
+    "recorded_maturity:52056": {
+      "passed": true
+    },
+    "mature_whole_blocks:52092": {
+      "passed": true
+    },
+    "recorded_maturity:52092": {
+      "passed": true
+    },
+    "mature_whole_blocks:52128": {
+      "passed": true
+    },
+    "recorded_maturity:52128": {
+      "passed": true
+    },
+    "mature_whole_blocks:52164": {
+      "passed": true
+    },
+    "recorded_maturity:52164": {
+      "passed": true
+    },
+    "mature_whole_blocks:52200": {
+      "passed": true
+    },
+    "recorded_maturity:52200": {
+      "passed": true
+    },
+    "mature_whole_blocks:52236": {
+      "passed": true
+    },
+    "recorded_maturity:52236": {
+      "passed": true
+    },
+    "mature_whole_blocks:52272": {
+      "passed": true
+    },
+    "recorded_maturity:52272": {
+      "passed": true
+    },
+    "mature_whole_blocks:52308": {
+      "passed": true
+    },
+    "recorded_maturity:52308": {
+      "passed": true
+    },
+    "mature_whole_blocks:52344": {
+      "passed": true
+    },
+    "recorded_maturity:52344": {
+      "passed": true
+    },
+    "mature_whole_blocks:52380": {
+      "passed": true
+    },
+    "recorded_maturity:52380": {
+      "passed": true
+    },
+    "mature_whole_blocks:52416": {
+      "passed": true
+    },
+    "recorded_maturity:52416": {
+      "passed": true
+    },
+    "mature_whole_blocks:52452": {
+      "passed": true
+    },
+    "recorded_maturity:52452": {
+      "passed": true
+    },
+    "mature_whole_blocks:52488": {
+      "passed": true
+    },
+    "recorded_maturity:52488": {
+      "passed": true
+    },
+    "mature_whole_blocks:52524": {
+      "passed": true
+    },
+    "recorded_maturity:52524": {
+      "passed": true
+    }
+  },
+  "errors": [],
+  "independent_totals": {
+    "planned_cost": 13341696.416093502,
+    "increase_cost": 338179.7747703976,
+    "reduction_net_cost": -251372.776738212,
+    "emergency_cost": 212618.5152401954,
+    "total_cost": 13641121.929365885,
+    "emergency_energy": 47518.312571419214,
+    "spill_energy": 1982261.3489638702
+  },
+  "independent_daily_total_cost": [
+    25065.181042184668,
+    56754.2078557568,
+    57577.71906480932,
+    59670.876433395366,
+    56270.810962913936,
+    58468.72946943746,
+    23483.780144254793,
+    20263.137490325593,
+    55259.09361879704,
+    55173.81073740542,
+    52851.24312791992,
+    51851.94564799746,
+    49516.096672462096,
+    19570.798459889524,
+    19641.09920284543,
+    52584.200925649755,
+    50519.40032113953,
+    49189.90848669145,
+    48599.30774281414,
+    49412.94239678192,
+    18204.772080016777,
+    19744.949105013522,
+    49103.04628465246,
+    47313.38577587384,
+    48440.68370981984,
+    46061.76933618899,
+    45278.733292051475,
+    17446.15678220416,
+    20893.000088243196,
+    50946.228778381505,
+    50132.31400667259,
+    49512.11338141767,
+    47961.644262777714,
+    44563.534933300936,
+    16981.088043116295,
+    18711.003945809265,
+    43543.02849416474,
+    45131.36035374635,
+    47164.24809303776,
+    44084.36528394832,
+    44898.51403759938,
+    16604.742421599334,
+    18450.9185198162,
+    45327.068980604745,
+    43458.03490450303,
+    44890.41363868243,
+    43436.621245899165,
+    44249.64439749021,
+    15391.754450180339,
+    18407.625551452787,
+    43570.21725587686,
+    41028.39570495907,
+    46377.277327468866,
+    40534.88938992866,
+    41521.522871867026,
+    15859.687526064878,
+    17212.648848755925,
+    39353.729342764746,
+    40941.90650120974,
+    44130.90410940428,
+    42630.5448804164,
+    38887.68838217312,
+    14240.168003133018,
+    16692.2566331146,
+    38153.64770916326,
+    37157.2427942752,
+    39676.0750682271,
+    41494.838438223844,
+    36611.958878084995,
+    13660.65033827068,
+    16839.909550064975,
+    36953.83274598873,
+    36600.26090905932,
+    37109.43398210625,
+    39145.80503730596,
+    33565.58196762808,
+    13445.184784185467,
+    15147.078816944206,
+    36248.47567044756,
+    34152.692565221565,
+    35081.14452721343,
+    34652.146156510345,
+    30578.466115503335,
+    12843.250421701401,
+    15724.86103106777,
+    35672.44480446688,
+    39146.18299731021,
+    34363.95559682922,
+    33262.260701237814,
+    38650.34283029624,
+    21102.801783552226,
+    22489.103604895157,
+    41046.661912229996,
+    41580.265153627864,
+    41202.99696355745,
+    41956.929707763404,
+    37699.701494185974,
+    16024.722295285097,
+    18759.94719841778,
+    39540.43161814379,
+    38634.92359921348,
+    39572.40745722146,
+    40349.01995810121,
+    37406.657365029445,
+    15565.573756898833,
+    18781.159556568644,
+    40153.70079766396,
+    36096.22643463767,
+    37915.72865861534,
+    37680.00202936499,
+    34511.11248024514,
+    14187.53517039705,
+    18109.26239125663,
+    35692.41771077053,
+    37425.224954901234,
+    37602.31524267874,
+    38060.12597046556,
+    35597.818282863824,
+    15965.186737675609,
+    19526.463337755376,
+    52116.15571034854,
+    51917.41013361979,
+    50303.95338846203,
+    63780.96116372751,
+    52818.105501234226,
+    24863.184454388127,
+    30315.118571240862,
+    48923.30717618942,
+    53568.31203021826,
+    49763.00608308929,
+    55606.5920245206,
+    50093.266115366525,
+    22706.909405428218,
+    26159.771275232826,
+    50466.311422105384,
+    51346.01763752088,
+    55255.08277033953,
+    54108.58587529235,
+    45229.9250300383,
+    21364.29616154966,
+    25198.085286150777,
+    50119.320586513015,
+    47223.217532941555,
+    56064.26703858428,
+    48566.507540363076,
+    47775.40238314387,
+    22008.82721883169,
+    22712.480959100827,
+    47742.62067320545,
+    50169.064914960865,
+    59342.30761416222,
+    56898.314732281826,
+    58009.27945356448,
+    30910.48466658356,
+    33936.44383098315,
+    59922.13106036637,
+    57450.7001333872,
+    57651.87679821447,
+    57032.09234555768,
+    50789.81226414974,
+    27250.268785889206,
+    31432.339720283046,
+    54561.922129694816,
+    55213.91023629524,
+    52934.06550242668,
+    54545.318914978416,
+    52296.81763737148,
+    29399.02853485989,
+    31046.175008609913,
+    52831.26923278875,
+    56730.96054376779,
+    60255.6589352397,
+    56661.01543769228,
+    54659.92685287751,
+    25088.585049892703,
+    30363.00669276845,
+    55242.469914022644,
+    54384.23777662565,
+    55416.74045966424,
+    56772.37377149605,
+    50361.208097567905,
+    27234.757772591074,
+    29468.144366785495,
+    47302.67899003397,
+    48725.47904843716,
+    48040.93300648699,
+    50101.1573041486,
+    46849.80276943701,
+    24308.470013229562,
+    25916.82307677604,
+    48355.91925790015,
+    47920.533575744106,
+    50266.98824162316,
+    46626.007594882205,
+    45603.31171290847,
+    24878.597118857226,
+    28217.54435566673,
+    48239.28387150582,
+    46537.85241175555,
+    46369.71735625816,
+    50714.43204804671,
+    46424.27245139796,
+    24435.06135350471,
+    26685.09435272289,
+    47155.68543760832,
+    57369.32931880732,
+    48772.451047549825,
+    51392.510373982725,
+    48623.158428971,
+    25643.73405115198,
+    27435.62086762063,
+    47541.88598679779,
+    46136.80114756412,
+    46898.75104611195,
+    46773.81844534051,
+    44415.77929044787,
+    22363.24558373473,
+    25836.001955570773,
+    46480.0617213777,
+    41041.249444756024,
+    40615.55013817874,
+    42749.678163008335,
+    39396.04216923907,
+    18585.611794047574,
+    20398.65727501107,
+    43807.63647556388,
+    38739.29228900993,
+    43884.29275041071,
+    44200.27387960424,
+    41576.43925613524,
+    18598.1107564178,
+    20781.218095732722,
+    42881.68778446346,
+    45232.232531682836,
+    44064.83673502559,
+    44730.338607935686,
+    42752.811918468804,
+    19179.976802014717,
+    22254.240113570388,
+    47014.88742190754,
+    45030.178556949795,
+    46861.62035172629,
+    42241.84142442055,
+    42515.39549309678,
+    17185.92021264861,
+    21035.652564474134,
+    43612.17621127571,
+    40656.25009940695,
+    42147.294470329885,
+    40208.90560314736,
+    40787.218732966445,
+    17092.988858900397,
+    18611.382111500978,
+    42098.9562856072,
+    40495.36838265865,
+    42410.51417459507,
+    44106.63317020246,
+    41362.99282593169,
+    16890.26067794594,
+    19143.6602396721,
+    45971.632920923475,
+    45208.494091449626,
+    45584.566997074864,
+    44999.93051718421,
+    46557.63888765698,
+    17814.63650392781,
+    19539.82840499434,
+    46727.311662098204,
+    45526.615008422945,
+    46874.471244467524,
+    48182.006591363184,
+    43987.20297601941,
+    18623.6293838481,
+    19757.10912076917,
+    50518.23883436376,
+    49529.03518641664,
+    47684.93792394476,
+    49080.056591662025,
+    49096.97093724283,
+    18994.046777086398,
+    19687.85203871417,
+    48756.687919368655,
+    53358.54366641913,
+    51854.62505698214,
+    52670.85605937029,
+    51300.486743463065,
+    20855.630661626717,
+    22105.041732889564,
+    53127.51989085369,
+    51777.42996223243,
+    57403.02111521807,
+    54539.362552032035,
+    51768.871977664276,
+    19878.183402814047,
+    21566.285152969052,
+    53140.760483202655,
+    50920.66554056636,
+    56658.24721112443,
+    54797.57545597378,
+    52228.25607497931,
+    20587.691033334944,
+    23849.09287147744,
+    56257.553672566544,
+    70800.82179264285,
+    71008.47288470666,
+    66036.2191229347,
+    70010.10482547508,
+    28548.415058507868,
+    28897.48182962517,
+    67282.39473612038,
+    66496.92216301538,
+    64925.23668941042,
+    62325.03675081684,
+    61927.29257049299,
+    28611.83008032757,
+    30646.770363100542,
+    62693.28679548242,
+    61756.94602672828,
+    64181.91251348308,
+    63626.006500302996,
+    62419.71640508258,
+    26443.372184883632,
+    26738.292658832772,
+    63451.50385971286,
+    62291.85027160912,
+    62356.16193808828,
+    60893.266595303714,
+    61908.57287437742,
+    27202.876188979,
+    26944.608457160688,
+    60258.27260283628,
+    61833.50548261142,
+    62315.962725665304,
+    63008.39695986826
+  ],
+  "scope_notes": [],
+  "status": "PASS",
+  "input_npz_sha256": "b3466a0f3a9ecf97c4d1857a89c1b9d1b3b408c8201b789d8f3ef14a19479afe",
+  "input_json_sha256": "9f83fe75aad5d7d57375ce4d20bcd50058d61ac439d334d896bc3d547bf76d0a"
+}

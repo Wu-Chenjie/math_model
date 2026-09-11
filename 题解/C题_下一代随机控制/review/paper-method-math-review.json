@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "scope": "paper_method_mathematical_consistency_and_old_information_ablation_prefix_proof_only",
+  "status": "PASS",
+  "decision": "method_consistency_pass",
+  "unresolved": [],
+  "resolved": [
+    {
+      "id": "PM-1",
+      "topic": "Physical elimination feasible domain and nonnegative price/free-spill conditions"
+    },
+    {
+      "id": "PM-2",
+      "topic": "DP physical action domain versus actual global-terminal reachability"
+    },
+    {
+      "id": "PM-3",
+      "topic": "Q1 endpoints and formal evaluation time origin"
+    },
+    {
+      "id": "PM-4",
+      "topic": "Origin residual, shared seed, release features, centering, price scale and joint innovation definitions"
+    },
+    {
+      "id": "PM-5",
+      "topic": "Matched M0/M1 rules and information versus unequal closed-loop contract trajectories"
+    }
+  ],
+  "prefix_proof": {
+    "decision": "valid_under_stated_old_policy_and_version_conditions",
+    "free_suffix_guard": "All source NPZ arrays including release and NaN layouts are compared; detailed provenance implementation is separately reviewed",
+    "not_generalized_to_new_fixed_horizon": true
+  },
+  "activities": [
+    "Static source-to-formula comparison",
+    "Review of endpoint-prefix proof and arithmetic bounds",
+    "Static review after M1 appendix relocation and coefficient-update wording",
+    "Bounded independent old information-ablation output audit, recorded separately",
+    "Bounded static verification of explicit M0 recursion against weighted and frozen legacy controllers"
+  ],
+  "annual_optimization_executed": false,
+  "excluded": [
+    "Annual numerical result acceptance",
+    "Formal adoption gate",
+    "Bibliographic verification",
+    "PDF layout/rendering",
+    "Complete paper scoring",
+    "Whole-project final acceptance"
+  ],
+  "reviewed_artifact_hashes": {
+    "paper/main.tex": "c6b02990b4a58de792f4cd403b8e39b65f44f741e62d8259ee5bb1bed4cd6f5a",
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "src/nextgen_run.py": "0beb60045672e170ddd99788e9d07b0d6b9a1a246e867627af52ed74b27824c0",
+    "tools/match_information_ablation_endpoints.py": "0c3beea8626034dabbdcb3e879c92f0c91122bc93a18e756f42ef3640f349022",
+    "review/论文方法与预报消融末端证明审查.md": "5b53f0fa03c0e349a1a75ab61dbbb82eff787f619b748d9e55fd3c574e6bc2cf",
+    "review/information-terminal-independent.json": "905fd9af9097f8c1955b7e11e18c10023795c0b1d9279eccfc3d1df4431baaef",
+    "review/同终点信息消融独立审查.md": "28e68079545c5e91560c655a5b31d1f7137783c420c64c9fb466a16c961ea485",
+    "src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+    "baseline_frozen/src/control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283"
+  },
+  "document_reorganization": "Detailed M1 operator moved intact to appendix; frozen model family/hyperparameters distinguished from lawful online coefficient estimation.",
+  "m0_explicit_recursion_review": {
+    "status": "PASS",
+    "order": "Within-group weighted expectation of minima after current net-load observation",
+    "price": "Group conditional mean integrated before battery action; hidden realized price not used",
+    "continuation": "Smoothed group transition P times next group values, followed by convex inventory chords",
+    "empty_group": "Full-scenario current net-load distribution and price mean; transition empty row remains uniform under pseudocount smoothing",
+    "legacy_function_identity": "inf_convolution and MarkovDP source text is identical between current control.py and baseline_frozen/control.py",
+    "optimization_executed": false
+  }
+}

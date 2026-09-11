@@ -1,0 +1,378 @@
+{
+  "scope": "final_independent_supplement",
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "checks": {
+    "warmup": {
+      "passed": true,
+      "days": 31,
+      "fees_yuan": {
+        "fixed_price_cost": 9456363.67146881,
+        "variable_price_cost": 10641987.876804242
+      },
+      "emergency_kwh": 2395683.7306833332,
+      "spill_kwh": 62061.08703333333,
+      "initial_and_february_inventory": 6000.0,
+      "files": {
+        "artifacts/january-warmup.npz": "73212110411268b8ae4ada8b69e470481f008ee4efaf41e510427a08a32a80d4",
+        "artifacts/warmup.json": "d3a374541899679d75b93dcbc1115679c63b375b3ac3d36d3ca9f0e139caba3a"
+      }
+    },
+    "q1": {
+      "passed": true,
+      "economic_cost_yuan": 35126.948589289634,
+      "energy_kwh": 59482.698998353924,
+      "duality_gap": 7.275957614183426e-12,
+      "normalization_simultaneous_max": 0.0,
+      "files": {
+        "artifacts/q1.json": "58b44384ce56a222ab6d8884facd7a1cb0ce8cda5b8db3a0a911a388f5568492",
+        "artifacts/q1.npz": "1fc008af9ea7d469787ff572fbb5deccf1f2067ac7285dfeced15ea6211f8929"
+      }
+    },
+    "development_and_short": {
+      "passed": true,
+      "development_cases": 20,
+      "short_experiments": 15,
+      "checked": [
+        {
+          "case": "artifacts/calibrate/q2_cross_baseline",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/calibrate/q2_cross_baseline.json": "9b3089045f7281cccc924db4a32fc620f1dae9b4aedb9d5559adbb9ba9c49f90",
+            "artifacts/calibrate/q2_cross_baseline.npz": "2a072339262eb102e925a3e236ca73f7422e4fcec203254e9b96692ff9f462f6"
+          }
+        },
+        {
+          "case": "artifacts/calibrate/q2_affine_mpc",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/calibrate/q2_affine_mpc.json": "df0e8daba2ca7b12a31b9d937dda8c0bae04771e3b0419309ff65eb6704f0124",
+            "artifacts/calibrate/q2_affine_mpc.npz": "d712d04fb15afa7b97a0dca0e41deca03f697f5fe9f6e2b5036df57f07b1afd3"
+          }
+        },
+        {
+          "case": "artifacts/calibrate/q2_markov_mpc",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/calibrate/q2_markov_mpc.json": "fc3dba2791d5833d466bb14cf96d4cdd2d173cc48d618a1a5182a52a78c5a40f",
+            "artifacts/calibrate/q2_markov_mpc.npz": "30f6b3d6045007e566758ab3831c9fb2550cbac67e463b1c2a973b8a16615571"
+          }
+        },
+        {
+          "case": "artifacts/calibrate_sddp_v2/q2_sddp_mpc",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/calibrate_sddp_v2/q2_sddp_mpc.json": "8937b2278ab5fd080537bcaaff1b31e0c6a569b633495245f3632d6821713eac",
+            "artifacts/calibrate_sddp_v2/q2_sddp_mpc.npz": "211a223bc98e529c43eaf43cc6e7ccb77e9fa81515e3bf86b98b58f6c73cbeaa"
+          }
+        },
+        {
+          "case": "artifacts/calibrate_sddp_v2/q2_sddp_markov",
+          "ledger_error": 7.275957614183426e-12,
+          "files": {
+            "artifacts/calibrate_sddp_v2/q2_sddp_markov.json": "027ef7973e48a8b4c47ced9e65b47f76b38469d71f6626d34c68a239972cbd6d",
+            "artifacts/calibrate_sddp_v2/q2_sddp_markov.npz": "187c34dc6699254afc9510aad4afbbad6e5d23b1b167300d7bbfeed890b7fb01"
+          }
+        },
+        {
+          "case": "artifacts/calibrate/q3_cross_baseline",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/calibrate/q3_cross_baseline.json": "ef620b8f3a89cdd18ca509ce9814706226df011acf51e18f25c48e9357285475",
+            "artifacts/calibrate/q3_cross_baseline.npz": "c5bcdffdd2128afec8d9c8c38ca493ec15ba2083daae949445cbde3afbf47508"
+          }
+        },
+        {
+          "case": "artifacts/calibrate/q3_affine_mpc",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/calibrate/q3_affine_mpc.json": "3bdc0ae16628ded432ffcb4a4a0877c7bef7c249b8142f73bf64dc68e6340d90",
+            "artifacts/calibrate/q3_affine_mpc.npz": "21520445cdb8e433e9365e790fd45509122d6abd5a23e454231dfe7347c1ea17"
+          }
+        },
+        {
+          "case": "artifacts/calibrate/q3_markov_mpc",
+          "ledger_error": 7.275957614183426e-12,
+          "files": {
+            "artifacts/calibrate/q3_markov_mpc.json": "ea6ead49247de858395537af52d533069bd80a41c5d0ff17cfae3eaae0f3c3b4",
+            "artifacts/calibrate/q3_markov_mpc.npz": "77844fba56ddd7b35e7b461f4509d6042cf6374eb1d78364f12868e184d775d4"
+          }
+        },
+        {
+          "case": "artifacts/calibrate_sddp_v2/q3_sddp_mpc",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/calibrate_sddp_v2/q3_sddp_mpc.json": "cebef867efb00941a85873acd367c5a6e807ef6f8deed7eecfc56d261b1c3f04",
+            "artifacts/calibrate_sddp_v2/q3_sddp_mpc.npz": "44e422c52c742ddbc691218367ad577c4c83d7aae408c824b5616f634f1b566e"
+          }
+        },
+        {
+          "case": "artifacts/calibrate_sddp_v2/q3_sddp_markov",
+          "ledger_error": 7.275957614183426e-12,
+          "files": {
+            "artifacts/calibrate_sddp_v2/q3_sddp_markov.json": "bc64b390bdc72e0375b9555b3108894414a686ab80fbda7c1b16e6eb347881a2",
+            "artifacts/calibrate_sddp_v2/q3_sddp_markov.npz": "8be824c35cfb149bb337142ac9e4a4c4935d7602c16be93cfe8e7f038247f880"
+          }
+        },
+        {
+          "case": "artifacts/calibrate/q4_2_cross_baseline",
+          "ledger_error": 1.4551915228366852e-11,
+          "files": {
+            "artifacts/calibrate/q4_2_cross_baseline.json": "2eec9bbe4a7e7a477e0336cb8ce9cd0209f8efd73b2e4e7ad581a27c6ae3f90a",
+            "artifacts/calibrate/q4_2_cross_baseline.npz": "a5ab89f408311fa5174d94fd67517e68368c138a37993684e602d2091ee729ac"
+          }
+        },
+        {
+          "case": "artifacts/calibrate/q4_2_affine_mpc",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/calibrate/q4_2_affine_mpc.json": "fb469f4140d43b81f09022b98aa17c755f55123ad9949e4d6e6d90fcf91b3fcd",
+            "artifacts/calibrate/q4_2_affine_mpc.npz": "d6709e026ad67809dafe3c0e3980994668d8673e07f11d7ba057166461bf5d00"
+          }
+        },
+        {
+          "case": "artifacts/calibrate/q4_2_markov_mpc",
+          "ledger_error": 7.275957614183426e-12,
+          "files": {
+            "artifacts/calibrate/q4_2_markov_mpc.json": "e090a285973b13e1f9b0a39ee09d43e4e7ffc6182f3a90981a554b6881a5448d",
+            "artifacts/calibrate/q4_2_markov_mpc.npz": "ccd3b4bc5b114857813c995c03799eb4a0a33171e8e77a8a0e1bf0f38907648a"
+          }
+        },
+        {
+          "case": "artifacts/calibrate_sddp_v2/q4_2_sddp_mpc",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/calibrate_sddp_v2/q4_2_sddp_mpc.json": "ab77d8394032334a49c6b27ee10cfc4d3815e08ce553b4cb588287e70862edf2",
+            "artifacts/calibrate_sddp_v2/q4_2_sddp_mpc.npz": "8e0456f02bad8771c5bf79315fbfc44f0c5a10628b621957ee1ba6e9cef26459"
+          }
+        },
+        {
+          "case": "artifacts/calibrate_sddp_v2/q4_2_sddp_markov",
+          "ledger_error": 1.4551915228366852e-11,
+          "files": {
+            "artifacts/calibrate_sddp_v2/q4_2_sddp_markov.json": "87e72032e186c36e368ec3dc82af62d1ddc5348479dc19992bb08a2cf0f67fad",
+            "artifacts/calibrate_sddp_v2/q4_2_sddp_markov.npz": "500f188ea21fec935a7596b4cfc70b7de4b9c4a0d56f0b2f88a6bcd9faa72978"
+          }
+        },
+        {
+          "case": "artifacts/calibrate/q4_3_cross_baseline",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/calibrate/q4_3_cross_baseline.json": "0768aa2c7e443c22d81e8d3b42b9158a940e027f982be4d09b4af61deb463b4e",
+            "artifacts/calibrate/q4_3_cross_baseline.npz": "f8d592ae71a384d30a20037fec7acd32864199acffec74e7afe164f5d212b12c"
+          }
+        },
+        {
+          "case": "artifacts/calibrate/q4_3_affine_mpc",
+          "ledger_error": 1.4551915228366852e-11,
+          "files": {
+            "artifacts/calibrate/q4_3_affine_mpc.json": "08c6524628345c6983ac760bfa62688c0a060b0de611c9e3f4eb9036932060a0",
+            "artifacts/calibrate/q4_3_affine_mpc.npz": "becdf7b16443679f1c6c649fe9edbd8b12d3714a701f54b48e1d16ed364b1369"
+          }
+        },
+        {
+          "case": "artifacts/calibrate/q4_3_markov_mpc",
+          "ledger_error": 1.4551915228366852e-11,
+          "files": {
+            "artifacts/calibrate/q4_3_markov_mpc.json": "f0878c135bfc40a8184bc208f36aecf67c94e92e9e09ae3213d2c8a81a557dac",
+            "artifacts/calibrate/q4_3_markov_mpc.npz": "deff72092c240539b575e4447f4a4a28e60d7aff23dbc0928404b4bf357f96ed"
+          }
+        },
+        {
+          "case": "artifacts/calibrate_sddp_v2/q4_3_sddp_mpc",
+          "ledger_error": 7.275957614183426e-12,
+          "files": {
+            "artifacts/calibrate_sddp_v2/q4_3_sddp_mpc.json": "f850bf8a0167635e84895fd06aaa628124aa8623837379440c0c63994d7ca1f6",
+            "artifacts/calibrate_sddp_v2/q4_3_sddp_mpc.npz": "dcb5e3b0bdd275c8da03ddba61bd24e4104e4a81da7fd6e9baab2c81aac27f5a"
+          }
+        },
+        {
+          "case": "artifacts/calibrate_sddp_v2/q4_3_sddp_markov",
+          "ledger_error": 1.4551915228366852e-11,
+          "files": {
+            "artifacts/calibrate_sddp_v2/q4_3_sddp_markov.json": "c49361a8ce2b6bb2fefabfe4235a7f9038ef3df472ae07abedc304e45ff88027",
+            "artifacts/calibrate_sddp_v2/q4_3_sddp_markov.npz": "3576ee92d2153f372554143d2fa4f75df4795cd4714002c6baff7111f0744ac7"
+          }
+        },
+        {
+          "case": "artifacts/experiments/grid161",
+          "ledger_error": 2.9103830456733704e-11,
+          "files": {
+            "artifacts/experiments/grid161.json": "2418fb02f57d5b1851474dfc4db9d2c9fe46d50fbedef5856e4e3467c738a11e",
+            "artifacts/experiments/grid161.npz": "76170a50d94a263c7886ce5c59dca99a450799ab694773f6d1c386e1c203e558"
+          }
+        },
+        {
+          "case": "artifacts/experiments/grid641",
+          "ledger_error": 7.275957614183426e-12,
+          "files": {
+            "artifacts/experiments/grid641.json": "7eff131428288d63fcff457bb24cc864b91c9fcee1c1be1e0455ab5656c95e04",
+            "artifacts/experiments/grid641.npz": "43dc0070f20b0d146c3bc886a48b8ad48c001501b0ee938400dafde5ee433510"
+          }
+        },
+        {
+          "case": "artifacts/experiments/horizon3",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/experiments/horizon3.json": "12197221aea37ffcebd1ab491f93497e9661cf7ffd0283bd62ea68000dcdcf4c",
+            "artifacts/experiments/horizon3.npz": "7dc289c8e8fb4af804dc1f67b5ecd59ea29fb1ad645227613647ae8bedaa6cdf"
+          }
+        },
+        {
+          "case": "artifacts/experiments/pv_0only",
+          "ledger_error": 2.9103830456733704e-11,
+          "files": {
+            "artifacts/experiments/pv_0only.json": "1e30ff671e97aaa1726efd8b5793696a598bdc53b2c7a67a6c8415c288c5f615",
+            "artifacts/experiments/pv_0only.npz": "bc759a0660658c0eef25d5c0a4ae41b3d4f8c85ccc784d9a599e736ff781bdb0"
+          }
+        },
+        {
+          "case": "artifacts/experiments/pv_without12",
+          "ledger_error": 2.9103830456733704e-11,
+          "files": {
+            "artifacts/experiments/pv_without12.json": "044d65b0484064e8fcd518eb9e24bf3e1f6095d0cd136911878322bb587e2436",
+            "artifacts/experiments/pv_without12.npz": "0e1afb93d8a0567360c8c8679868a9f8fe20074c8497ee5021d9cf547187cfcd"
+          }
+        },
+        {
+          "case": "artifacts/experiments/pv_without18",
+          "ledger_error": 7.275957614183426e-12,
+          "files": {
+            "artifacts/experiments/pv_without18.json": "a194582a302ed8ac6723e205fd30d4c462355db8c565d338f0726cafb0111cd9",
+            "artifacts/experiments/pv_without18.npz": "ffe49dd0ee44689f7deac93596f404216a80f71c73d12a9816cddb74b24b1eb0"
+          }
+        },
+        {
+          "case": "artifacts/experiments/pv_without6",
+          "ledger_error": 5.820766091346741e-11,
+          "files": {
+            "artifacts/experiments/pv_without6.json": "8b942e11b9d4cb28c387e0da75867f06afddbd297135262ef561e742c81f5978",
+            "artifacts/experiments/pv_without6.npz": "b07a15b0c5e961c67b129d90f6d16649237de848220c3f6e02cfa1fe690082f8"
+          }
+        },
+        {
+          "case": "artifacts/experiments/reference",
+          "ledger_error": 2.9103830456733704e-11,
+          "files": {
+            "artifacts/experiments/reference.json": "5ab14701b5430bbe8fefe4dbdfd2231cb622d7649f193cd024ce15be8ba4a8a5",
+            "artifacts/experiments/reference.npz": "568f9149bf04735f94708f0ac5abb87568a5749bfdd751230ea59dc42f332425"
+          }
+        },
+        {
+          "case": "artifacts/experiments/scenarios14",
+          "ledger_error": 2.9103830456733704e-11,
+          "files": {
+            "artifacts/experiments/scenarios14.json": "3275c734f87e9e4b189947915ee37fef2533f5033395d7a658c348d100e61f7a",
+            "artifacts/experiments/scenarios14.npz": "7778290ee3c9b404b5eab6125a38530776c0d1150635b4d1d287666a6c9f4254"
+          }
+        },
+        {
+          "case": "artifacts/experiments/stress_load_up_pv_down",
+          "ledger_error": 2.9103830456733704e-11,
+          "files": {
+            "artifacts/experiments/stress_load_up_pv_down.json": "3935d268a92ccef61de7a084b632a5bc01d51c0ea880d808988fa482d6e7f7a6",
+            "artifacts/experiments/stress_load_up_pv_down.npz": "b8caebe096164e2cf4521bb031c1b59b0d6c13e4231eca927806f241c8ff6ee1"
+          }
+        },
+        {
+          "case": "artifacts/experiments/tail_double",
+          "ledger_error": 2.9103830456733704e-11,
+          "files": {
+            "artifacts/experiments/tail_double.json": "20574bd9029615cf70f6e923164d97cf78a4f8793a28e36ba5426b0f7f09b817",
+            "artifacts/experiments/tail_double.npz": "01ab8b6b337a4d5718843e688123dc966e0afb8945e599dec8572c53de09ed39"
+          }
+        },
+        {
+          "case": "artifacts/experiments/tail_zero",
+          "ledger_error": 2.9103830456733704e-11,
+          "files": {
+            "artifacts/experiments/tail_zero.json": "a288e0fa0ec0d5b1f70fb71a678ca7700ca3143e84938536a71f73901742f9aa",
+            "artifacts/experiments/tail_zero.npz": "7c784135cd22aa5f900ebd7f60732936e3171c7cd5eb353dbc649a8cb5ff68e4"
+          }
+        },
+        {
+          "case": "artifacts/experiments/terminal6000",
+          "ledger_error": 7.275957614183426e-12,
+          "files": {
+            "artifacts/experiments/terminal6000.json": "4d5968391a625288ecc1e2b8285ac0c035c4bb19b306405f16e10f54008483f1",
+            "artifacts/experiments/terminal6000.npz": "7de1219d61a0d5ad9c6cc1cf9fb6c592abefd8dff6c3a0c6066ad07ef9d48183"
+          }
+        },
+        {
+          "case": "artifacts/experiments/variable_reference",
+          "ledger_error": 2.9103830456733704e-11,
+          "files": {
+            "artifacts/experiments/variable_reference.json": "5888e391ddf51a6a2c56a9dcea35d7c866c31a96e99c42b619d715254f61658c",
+            "artifacts/experiments/variable_reference.npz": "b7911f790bcfebf1037def1cdcc92a1bdbbeb5e85715f275e392b3795b609dcf"
+          }
+        },
+        {
+          "case": "artifacts/experiments/variable_stress",
+          "ledger_error": 2.9103830456733704e-11,
+          "files": {
+            "artifacts/experiments/variable_stress.json": "0f2bb443ca67ea0eadaa4919fa9f9c85cb7f51bbdc3907b202fb9d00d3c4bf8a",
+            "artifacts/experiments/variable_stress.npz": "15c1ea379f5ccd904b7b7e1ca2bd34dcd5a6287be4f05fd79ef782d0a4b1ce45"
+          }
+        }
+      ],
+      "scope": "Independent numerical ledger/physics for January counterfactual development and March sensitivity; January choice reconstructed with declared tie rule. No out-of-sample claim for development scores."
+    },
+    "specified_day_tables": {
+      "passed": true,
+      "selected_dates": 16,
+      "max_numeric_error": 0.0,
+      "source": "2bc505d3057f5c6bd7cecd6c4e1fb0551113f56b88319c3ace24da9494e90fa2",
+      "meaning": "Four-hour blocks may contain both charging and discharging at different ten-minute intervals; this does not violate instantaneous mutual exclusion."
+    },
+    "workbooks": {
+      "passed": true,
+      "files": [
+        {
+          "file": "计算结果/result1.xlsx",
+          "sha256": "9d79ac1ad41d88f0ff1a19b30438cf345d1c1bc6d1f8c1dec50fbd6271a58151",
+          "sheet_count": 3,
+          "status": "pass"
+        },
+        {
+          "file": "计算结果/result2.xlsx",
+          "sha256": "338a281aa29bc5fe7257cf39998c50ac0405b2deaa626d10754d95a66247962b",
+          "sheet_count": 5,
+          "status": "pass"
+        },
+        {
+          "file": "计算结果/result3.xlsx",
+          "sha256": "43681aec9131f481e7a0878b3482db28853aa25954581da797af966dd8db5f4d",
+          "sheet_count": 6,
+          "status": "pass"
+        },
+        {
+          "file": "计算结果/result4-2.xlsx",
+          "sha256": "920f27e7e9d8ac1fbe4b728a2cfdb3ab18ddb1188f9741d20d30c90aa29dd3c3",
+          "sheet_count": 5,
+          "status": "pass"
+        },
+        {
+          "file": "计算结果/result4-3.xlsx",
+          "sha256": "cf17d7c6dd75bed6421f330e27420f74abb69a6cb197e64c03bb4d6f27265fdc",
+          "sheet_count": 6,
+          "status": "pass"
+        }
+      ],
+      "scope": "Independent workbook headers, full q and four-hour battery sums/inventory directly versus raw NPZ. Other workbook cells are covered by producer readback plus independently reconciled handoff/production ledgers; no claim to have rerendered all cells."
+    }
+  },
+  "passed": true,
+  "executions": [
+    {
+      "command": "python3 review/check-final-supplement.py",
+      "exit_code": 0,
+      "runtime_seconds": 0.24547012499533594
+    },
+    {
+      "command": "bundled-python review/check-final-supplement.py --workbooks",
+      "exit_code": 0,
+      "runtime_seconds": 0.8245144169777632
+    }
+  ],
+  "review_script_sha256": "fb12907f08cc00619c432a61c2de7f3491831e28612ffd1555fbb5247080072d"
+}

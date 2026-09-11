@@ -1,0 +1,11 @@
+{
+  "reviewer_id": "/root/upgrade_code_review",
+  "independent": true,
+  "status": "FAIL",
+  "command": "python3 review/check_adoption_matched_M1.py",
+  "exit_code": 1,
+  "observed_exception": "TypeError: Object of type bool is not JSON serializable",
+  "location": "evaluate_adoption.main json.dumps(report)",
+  "diagnosis": "gate checks includes numpy.bool_ from positive_joint_bootstrap_lower_endpoint comparison",
+  "source_sha256": "202a82c1e16a7858504c76a2c30e2547065c9964534054662778b5b402a208a3"
+}

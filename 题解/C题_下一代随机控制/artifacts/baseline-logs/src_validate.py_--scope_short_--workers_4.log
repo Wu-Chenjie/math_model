@@ -1,0 +1,15 @@
+{"name": "grid161", "total_cost": 242988.8095517944, "runtime_seconds": 63.335401833057404}
+{"name": "reference", "total_cost": 243002.9036523587, "runtime_seconds": 64.0755970000755}
+{"name": "grid641", "total_cost": 243028.93781902536, "runtime_seconds": 64.49811870907433}
+{"name": "tail_zero", "total_cost": 243002.90323503528, "runtime_seconds": 50.670075834030285}
+{"name": "tail_double", "total_cost": 243009.1009167258, "runtime_seconds": 50.60458012507297}
+{"name": "horizon3", "total_cost": 240844.86910395272, "runtime_seconds": 89.71706275013275}
+{"name": "scenarios14", "total_cost": 242792.43339670094, "runtime_seconds": 156.33663770812564}
+{"name": "stress_load_up_pv_down", "total_cost": 528779.5901785615, "runtime_seconds": 41.519811917096376}
+{"name": "terminal6000", "total_cost": 245491.4347684696, "runtime_seconds": 47.799510708777234}
+{"name": "pv_0only", "total_cost": 246987.0445338411, "runtime_seconds": 52.0587311249692}
+{"name": "pv_without12", "total_cost": 254975.40385132466, "runtime_seconds": 51.854248125106096}
+{"name": "pv_without6", "total_cost": 245049.62029879942, "runtime_seconds": 52.75033633294515}
+{"name": "pv_without18", "total_cost": 243002.90365235868, "runtime_seconds": 50.81660037511028}
+{"name": "variable_stress", "total_cost": 520779.30916702165, "runtime_seconds": 31.594425916904584}
+{"name": "variable_reference", "total_cost": 242114.4657432649, "runtime_seconds": 35.7585970829241}

@@ -1,0 +1,137 @@
+{
+  "status": "PASS_WITHIN_SCOPE",
+  "independent": true,
+  "reviewer_id": "/root/upgrade_code_review",
+  "scope": "Temporary full baseline/formal/adoption evidence fixtures; only certificate authenticator isolated; all production subprocess calls intercepted. One inert fixture controller is killed to test lock inheritance. No annual job, export, compiler or final review is run.",
+  "cases": [
+    {
+      "case": "control",
+      "outcome": "dispatch_boundary",
+      "dispatches": [
+        {
+          "command": [
+            "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+            "review/check_information_terminal_independent.py"
+          ],
+          "pipeline_locked": true,
+          "own_locked": true,
+          "pass_fds": [
+            3,
+            4
+          ]
+        }
+      ],
+      "sleep_calls": 0,
+      "stored_status": "running"
+    },
+    {
+      "case": "transient_json_recovered",
+      "outcome": "dispatch_boundary",
+      "dispatches": [
+        {
+          "command": [
+            "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+            "review/check_information_terminal_independent.py"
+          ],
+          "pipeline_locked": true,
+          "own_locked": true,
+          "pass_fds": [
+            3,
+            4
+          ]
+        }
+      ],
+      "sleep_calls": 1,
+      "stored_status": "running"
+    },
+    {
+      "case": "failed_pipeline",
+      "outcome": "rejected:Registered numerical pipeline failed: fixture failure",
+      "dispatches": [],
+      "sleep_calls": 0,
+      "stored_status": "failed"
+    },
+    {
+      "case": "duplicate_finisher",
+      "outcome": "rejected:Output continuation already active",
+      "dispatches": [],
+      "sleep_calls": 0,
+      "stored_status": null
+    },
+    {
+      "case": "producer_changed_before_lock",
+      "outcome": "rejected:Registered numerical pipeline failed: changed between locks",
+      "dispatches": [],
+      "sleep_calls": 0,
+      "stored_status": "failed"
+    },
+    {
+      "case": "truncated_json",
+      "outcome": "rejected:Numerical state JSON remained incomplete past the retry deadline",
+      "dispatches": [],
+      "sleep_calls": 2,
+      "stored_status": "failed"
+    },
+    {
+      "case": "corrupt_after_known_pid_died",
+      "outcome": "rejected:Numerical process ended without a completed result gate",
+      "dispatches": [],
+      "sleep_calls": 1,
+      "stored_status": "failed"
+    },
+    {
+      "case": "stale_model_certificate",
+      "outcome": "rejected:Independent model certificate is stale or incomplete",
+      "dispatches": [],
+      "sleep_calls": 0,
+      "stored_status": "failed"
+    },
+    {
+      "case": "stale_adoption_binding",
+      "outcome": "rejected:Adoption evidence changed: formal_physics",
+      "dispatches": [],
+      "sleep_calls": 0,
+      "stored_status": "failed"
+    },
+    {
+      "case": "adoption_status_shell",
+      "outcome": "rejected:Adoption has not passed",
+      "dispatches": [],
+      "sleep_calls": 0,
+      "stored_status": "failed"
+    },
+    {
+      "case": "stale_formal_source",
+      "outcome": "rejected:Formal output changed after validation: /var/folders/b2/gb8zx__s42xczygcsg17jk_m0000gn/T/tmp6t58l1hr/project/artifacts/formal/q4_3_44136fa355b3678a.npz",
+      "dispatches": [],
+      "sleep_calls": 0,
+      "stored_status": "failed"
+    },
+    {
+      "case": "failed_child",
+      "outcome": "rejected:information_terminal_independent failed with exit 7; inspect /var/folders/b2/gb8zx__s42xczygcsg17jk_m0000gn/T/tmphr5fbq7z/project/artifacts/output-continuation-logs/information_terminal_independent.log",
+      "dispatches": [
+        {
+          "command": [
+            "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+            "review/check_information_terminal_independent.py"
+          ],
+          "pipeline_locked": true,
+          "own_locked": true,
+          "pass_fds": [
+            3,
+            4
+          ]
+        }
+      ],
+      "sleep_calls": 0,
+      "stored_status": "failed"
+    },
+    {
+      "case": "orphan_child_lock",
+      "acquired_after_parent_exit": false
+    }
+  ],
+  "issues": [],
+  "source_sha256": "fc8185f25e70ab54a9590116aac1684403adb01b2588d864fb60c2013e15ff20"
+}

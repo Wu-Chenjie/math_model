@@ -1,0 +1,1554 @@
+{
+  "status": "PENDING",
+  "summaries": [
+    {
+      "total_cost_yuan": 13844170.061859094,
+      "baseline_cost_yuan": 13844170.061859094,
+      "saving_yuan": 0.0,
+      "saving_percent": 0.0,
+      "bootstrap_95_lower_yuan": 0.0,
+      "bootstrap_95_upper_yuan": 0.0,
+      "positive_days": 0,
+      "negative_days": 0,
+      "emergency_cost_yuan": 647043.8461881,
+      "emergency_kwh": 151764.07688902435,
+      "spill_kwh": 2336748.172034976,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 0.0,
+      "second_half_saving_yuan": 0.0,
+      "kind": "q2",
+      "configuration_id": "cc3ebe6953b57007",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 1712.3396890410222,
+      "planning_seconds": 1477.1287781056017,
+      "feedback_build_seconds": 223.2966548311524,
+      "scenario_seconds": 8.609820132609457,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8012440160774258,
+      "net_tail95_retention_fraction": 0.4648203592814371,
+      "gain_binding_fraction": 0.0001
+    },
+    {
+      "total_cost_yuan": 13844170.061859094,
+      "baseline_cost_yuan": 13843597.725621978,
+      "saving_yuan": -572.3362371157855,
+      "saving_percent": -0.004134302718551951,
+      "bootstrap_95_lower_yuan": -1225.9734277406837,
+      "bootstrap_95_upper_yuan": -72.04550774963562,
+      "positive_days": 6,
+      "negative_days": 30,
+      "emergency_cost_yuan": 647043.8461881,
+      "emergency_kwh": 151764.07688902435,
+      "spill_kwh": 2336748.172034976,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": -290.1256364995061,
+      "second_half_saving_yuan": -282.210600617429,
+      "kind": "q2",
+      "configuration_id": "cc3ebe6953b57007",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 1712.3396890410222,
+      "planning_seconds": 1477.1287781056017,
+      "feedback_build_seconds": 223.2966548311524,
+      "scenario_seconds": 8.609820132609457,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8012440160774258,
+      "net_tail95_retention_fraction": 0.4648203592814371,
+      "gain_binding_fraction": 0.0001
+    },
+    {
+      "total_cost_yuan": 13461842.350947868,
+      "baseline_cost_yuan": 13461842.350947868,
+      "saving_yuan": 0.0,
+      "saving_percent": 0.0,
+      "bootstrap_95_lower_yuan": 0.0,
+      "bootstrap_95_upper_yuan": 0.0,
+      "positive_days": 0,
+      "negative_days": 0,
+      "emergency_cost_yuan": 174666.1772459749,
+      "emergency_kwh": 37821.56931429688,
+      "spill_kwh": 1738320.5163277145,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 0.0,
+      "second_half_saving_yuan": 0.0,
+      "kind": "q3",
+      "configuration_id": "cc3ebe6953b57007",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 3509.2401806251146,
+      "planning_seconds": 3231.9799425525125,
+      "feedback_build_seconds": 263.7612550142221,
+      "scenario_seconds": 9.641148258699104,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.7171938118897495,
+      "net_tail95_retention_fraction": 0.4708083832335329,
+      "gain_binding_fraction": 3.125e-05
+    },
+    {
+      "total_cost_yuan": 13461842.350947868,
+      "baseline_cost_yuan": 13461304.45382083,
+      "saving_yuan": -537.8971270378679,
+      "saving_percent": -0.003995876691468725,
+      "bootstrap_95_lower_yuan": -2656.3479403673687,
+      "bootstrap_95_upper_yuan": 1301.7786967709285,
+      "positive_days": 80,
+      "negative_days": 90,
+      "emergency_cost_yuan": 174666.1772459749,
+      "emergency_kwh": 37821.56931429688,
+      "spill_kwh": 1738320.5163277145,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": -582.3805814703719,
+      "second_half_saving_yuan": 44.48345443215294,
+      "kind": "q3",
+      "configuration_id": "cc3ebe6953b57007",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 3509.2401806251146,
+      "planning_seconds": 3231.9799425525125,
+      "feedback_build_seconds": 263.7612550142221,
+      "scenario_seconds": 9.641148258699104,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.7171938118897495,
+      "net_tail95_retention_fraction": 0.4708083832335329,
+      "gain_binding_fraction": 3.125e-05
+    },
+    {
+      "total_cost_yuan": 14654611.38123864,
+      "baseline_cost_yuan": 14654611.38123864,
+      "saving_yuan": 0.0,
+      "saving_percent": 0.0,
+      "bootstrap_95_lower_yuan": 0.0,
+      "bootstrap_95_upper_yuan": 0.0,
+      "positive_days": 0,
+      "negative_days": 0,
+      "emergency_cost_yuan": 654822.6158482771,
+      "emergency_kwh": 139989.68954028297,
+      "spill_kwh": 2373217.794892113,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 0.0,
+      "second_half_saving_yuan": 0.0,
+      "kind": "q4_2",
+      "configuration_id": "cc3ebe6953b57007",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 1699.2813444579951,
+      "planning_seconds": 1463.208777340129,
+      "feedback_build_seconds": 217.81603081407957,
+      "scenario_seconds": 14.924436936853454,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8400195138862658,
+      "net_tail95_retention_fraction": 0.4648203592814371,
+      "gain_binding_fraction": 0.0001
+    },
+    {
+      "total_cost_yuan": 14654611.38123864,
+      "baseline_cost_yuan": 14654319.804457856,
+      "saving_yuan": -291.5767807830125,
+      "saving_percent": -0.001989698496236684,
+      "bootstrap_95_lower_yuan": -1107.0497244061212,
+      "bootstrap_95_upper_yuan": 360.05095721025936,
+      "positive_days": 17,
+      "negative_days": 21,
+      "emergency_cost_yuan": 654822.6158482771,
+      "emergency_kwh": 139989.68954028297,
+      "spill_kwh": 2373217.794892113,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 200.74644086507942,
+      "second_half_saving_yuan": -492.32322164827565,
+      "kind": "q4_2",
+      "configuration_id": "cc3ebe6953b57007",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 1699.2813444579951,
+      "planning_seconds": 1463.208777340129,
+      "feedback_build_seconds": 217.81603081407957,
+      "scenario_seconds": 14.924436936853454,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8400195138862658,
+      "net_tail95_retention_fraction": 0.4648203592814371,
+      "gain_binding_fraction": 0.0001
+    },
+    {
+      "total_cost_yuan": 14252083.025399216,
+      "baseline_cost_yuan": 14252083.025399216,
+      "saving_yuan": 0.0,
+      "saving_percent": 0.0,
+      "bootstrap_95_lower_yuan": 0.0,
+      "bootstrap_95_upper_yuan": 0.0,
+      "positive_days": 0,
+      "negative_days": 0,
+      "emergency_cost_yuan": 174818.29501795504,
+      "emergency_kwh": 37930.268467347865,
+      "spill_kwh": 1746588.1004165576,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 0.0,
+      "second_half_saving_yuan": 0.0,
+      "kind": "q4_3",
+      "configuration_id": "cc3ebe6953b57007",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 3441.4419610421173,
+      "planning_seconds": 3159.56451917137,
+      "feedback_build_seconds": 260.60774066415615,
+      "scenario_seconds": 17.37917363550514,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8179563304491237,
+      "net_tail95_retention_fraction": 0.4708083832335329,
+      "gain_binding_fraction": 3.125e-05
+    },
+    {
+      "total_cost_yuan": 14252083.025399216,
+      "baseline_cost_yuan": 14252101.502195751,
+      "saving_yuan": 18.476796535775065,
+      "saving_percent": 0.00012964261118213644,
+      "bootstrap_95_lower_yuan": -283.5552059937739,
+      "bootstrap_95_upper_yuan": 375.96952077993365,
+      "positive_days": 45,
+      "negative_days": 54,
+      "emergency_cost_yuan": 174818.29501795504,
+      "emergency_kwh": 37930.268467347865,
+      "spill_kwh": 1746588.1004165576,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": -33.6993167468936,
+      "second_half_saving_yuan": 52.17611328048588,
+      "kind": "q4_3",
+      "configuration_id": "cc3ebe6953b57007",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 3441.4419610421173,
+      "planning_seconds": 3159.56451917137,
+      "feedback_build_seconds": 260.60774066415615,
+      "scenario_seconds": 17.37917363550514,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8179563304491237,
+      "net_tail95_retention_fraction": 0.4708083832335329,
+      "gain_binding_fraction": 3.125e-05
+    },
+    {
+      "total_cost_yuan": 13843597.725621978,
+      "baseline_cost_yuan": 13844170.061859094,
+      "saving_yuan": 572.3362371157855,
+      "saving_percent": 0.004134131801028513,
+      "bootstrap_95_lower_yuan": 72.04550774963538,
+      "bootstrap_95_upper_yuan": 1225.9734277406833,
+      "positive_days": 30,
+      "negative_days": 6,
+      "emergency_cost_yuan": 646776.7213995783,
+      "emergency_kwh": 151699.01209766747,
+      "spill_kwh": 2336108.0125929676,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 290.1256364995061,
+      "second_half_saving_yuan": 282.210600617429,
+      "kind": "q2",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 2711.446958333021,
+      "planning_seconds": 2377.3615481096786,
+      "feedback_build_seconds": 318.1405077839736,
+      "scenario_seconds": 12.012575199594721,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8138694745762034,
+      "net_tail95_retention_fraction": 0.47604790419161674,
+      "gain_binding_fraction": 0.0001924853711117955
+    },
+    {
+      "total_cost_yuan": 13843597.725621978,
+      "baseline_cost_yuan": 13843597.725621978,
+      "saving_yuan": 0.0,
+      "saving_percent": 0.0,
+      "bootstrap_95_lower_yuan": 0.0,
+      "bootstrap_95_upper_yuan": 0.0,
+      "positive_days": 0,
+      "negative_days": 0,
+      "emergency_cost_yuan": 646776.7213995783,
+      "emergency_kwh": 151699.01209766747,
+      "spill_kwh": 2336108.0125929676,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 0.0,
+      "second_half_saving_yuan": 0.0,
+      "kind": "q2",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 2711.446958333021,
+      "planning_seconds": 2377.3615481096786,
+      "feedback_build_seconds": 318.1405077839736,
+      "scenario_seconds": 12.012575199594721,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8138694745762034,
+      "net_tail95_retention_fraction": 0.47604790419161674,
+      "gain_binding_fraction": 0.0001924853711117955
+    },
+    {
+      "total_cost_yuan": 13461304.45382083,
+      "baseline_cost_yuan": 13461842.350947868,
+      "saving_yuan": 537.8971270378679,
+      "saving_percent": 0.0039957170275433645,
+      "bootstrap_95_lower_yuan": -1301.7786967709287,
+      "bootstrap_95_upper_yuan": 2656.3479403673678,
+      "positive_days": 90,
+      "negative_days": 80,
+      "emergency_cost_yuan": 174503.89148619372,
+      "emergency_kwh": 37788.72424605799,
+      "spill_kwh": 1737551.3984441317,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 582.3805814703719,
+      "second_half_saving_yuan": -44.48345443215294,
+      "kind": "q3",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 4582.342314667068,
+      "planning_seconds": 4242.226168035762,
+      "feedback_build_seconds": 324.1694631893188,
+      "scenario_seconds": 11.858416020171717,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.7500265031917932,
+      "net_tail95_retention_fraction": 0.47305389221556887,
+      "gain_binding_fraction": 2.5020016012810247e-05
+    },
+    {
+      "total_cost_yuan": 13461304.45382083,
+      "baseline_cost_yuan": 13461304.45382083,
+      "saving_yuan": 0.0,
+      "saving_percent": 0.0,
+      "bootstrap_95_lower_yuan": 0.0,
+      "bootstrap_95_upper_yuan": 0.0,
+      "positive_days": 0,
+      "negative_days": 0,
+      "emergency_cost_yuan": 174503.89148619372,
+      "emergency_kwh": 37788.72424605799,
+      "spill_kwh": 1737551.3984441317,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 0.0,
+      "second_half_saving_yuan": 0.0,
+      "kind": "q3",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 4582.342314667068,
+      "planning_seconds": 4242.226168035762,
+      "feedback_build_seconds": 324.1694631893188,
+      "scenario_seconds": 11.858416020171717,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.7500265031917932,
+      "net_tail95_retention_fraction": 0.47305389221556887,
+      "gain_binding_fraction": 2.5020016012810247e-05
+    },
+    {
+      "total_cost_yuan": 14654319.804457856,
+      "baseline_cost_yuan": 14654611.38123864,
+      "saving_yuan": 291.5767807830125,
+      "saving_percent": 0.0019896589080233107,
+      "bootstrap_95_lower_yuan": -360.0509572102597,
+      "bootstrap_95_upper_yuan": 1107.0497244061212,
+      "positive_days": 21,
+      "negative_days": 17,
+      "emergency_cost_yuan": 654657.5582253406,
+      "emergency_kwh": 139972.24213812902,
+      "spill_kwh": 2372756.698143433,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": -200.74644086507942,
+      "second_half_saving_yuan": 492.32322164827565,
+      "kind": "q4_2",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 2667.110540415859,
+      "planning_seconds": 2327.9567034151405,
+      "feedback_build_seconds": 314.6321606503334,
+      "scenario_seconds": 20.647125121206045,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8524658486593304,
+      "net_tail95_retention_fraction": 0.47604790419161674,
+      "gain_binding_fraction": 0.0001924853711117955
+    },
+    {
+      "total_cost_yuan": 14654319.804457856,
+      "baseline_cost_yuan": 14654319.804457856,
+      "saving_yuan": 0.0,
+      "saving_percent": 0.0,
+      "bootstrap_95_lower_yuan": 0.0,
+      "bootstrap_95_upper_yuan": 0.0,
+      "positive_days": 0,
+      "negative_days": 0,
+      "emergency_cost_yuan": 654657.5582253406,
+      "emergency_kwh": 139972.24213812902,
+      "spill_kwh": 2372756.698143433,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 0.0,
+      "second_half_saving_yuan": 0.0,
+      "kind": "q4_2",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 2667.110540415859,
+      "planning_seconds": 2327.9567034151405,
+      "feedback_build_seconds": 314.6321606503334,
+      "scenario_seconds": 20.647125121206045,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8524658486593304,
+      "net_tail95_retention_fraction": 0.47604790419161674,
+      "gain_binding_fraction": 0.0001924853711117955
+    },
+    {
+      "total_cost_yuan": 14252101.502195751,
+      "baseline_cost_yuan": 14252083.025399216,
+      "saving_yuan": -18.476796535775065,
+      "saving_percent": -0.0001296427792544207,
+      "bootstrap_95_lower_yuan": -375.9695207799337,
+      "bootstrap_95_upper_yuan": 283.5552059937738,
+      "positive_days": 54,
+      "negative_days": 45,
+      "emergency_cost_yuan": 174977.12167992975,
+      "emergency_kwh": 37973.7580939232,
+      "spill_kwh": 1746510.692462572,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 33.6993167468936,
+      "second_half_saving_yuan": -52.17611328048588,
+      "kind": "q4_3",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 4473.90180658293,
+      "planning_seconds": 4129.048132802127,
+      "feedback_build_seconds": 320.1281841949094,
+      "scenario_seconds": 20.788942002225667,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8351464658784419,
+      "net_tail95_retention_fraction": 0.47305389221556887,
+      "gain_binding_fraction": 2.5020016012810247e-05
+    },
+    {
+      "total_cost_yuan": 14252101.502195751,
+      "baseline_cost_yuan": 14252101.502195751,
+      "saving_yuan": 0.0,
+      "saving_percent": 0.0,
+      "bootstrap_95_lower_yuan": 0.0,
+      "bootstrap_95_upper_yuan": 0.0,
+      "positive_days": 0,
+      "negative_days": 0,
+      "emergency_cost_yuan": 174977.12167992975,
+      "emergency_kwh": 37973.7580939232,
+      "spill_kwh": 1746510.692462572,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 0.0,
+      "second_half_saving_yuan": 0.0,
+      "kind": "q4_3",
+      "configuration_id": "5c5eb1d7988dccd0",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 4473.90180658293,
+      "planning_seconds": 4129.048132802127,
+      "feedback_build_seconds": 320.1281841949094,
+      "scenario_seconds": 20.788942002225667,
+      "candidate_blocks_mean": 27.95508982035928,
+      "candidate_blocks_min": 23,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.95508982035928,
+      "transport_distance_mean": 0.8351464658784419,
+      "net_tail95_retention_fraction": 0.47305389221556887,
+      "gain_binding_fraction": 2.5020016012810247e-05
+    },
+    {
+      "total_cost_yuan": 13817945.063203087,
+      "baseline_cost_yuan": 13844170.061859094,
+      "saving_yuan": 26224.99865600653,
+      "saving_percent": 0.1894299083211699,
+      "bootstrap_95_lower_yuan": -33842.18257752922,
+      "bootstrap_95_upper_yuan": 95781.4408759804,
+      "positive_days": 156,
+      "negative_days": 177,
+      "emergency_cost_yuan": 620522.2356566048,
+      "emergency_kwh": 143746.70419328072,
+      "spill_kwh": 2329873.1630402585,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 2689.351347962647,
+      "second_half_saving_yuan": 23535.64730804524,
+      "kind": "q2",
+      "configuration_id": "7a7d9f1f5f762810",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 5273.925569667015,
+      "planning_seconds": 4721.695789650548,
+      "feedback_build_seconds": 529.2983635875862,
+      "scenario_seconds": 18.285590598359704,
+      "candidate_blocks_mean": 27.937125748502993,
+      "candidate_blocks_min": 22,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.937125748502993,
+      "transport_distance_mean": 0.8306629750124495,
+      "net_tail95_retention_fraction": 0.4812874251497006,
+      "gain_binding_fraction": 5.0970997502421125e-05
+    },
+    {
+      "total_cost_yuan": 13817945.063203087,
+      "baseline_cost_yuan": 13843597.725621978,
+      "saving_yuan": 25652.662418890744,
+      "saving_percent": 0.18530343720846743,
+      "bootstrap_95_lower_yuan": -34578.92162818854,
+      "bootstrap_95_upper_yuan": 95321.75225946862,
+      "positive_days": 156,
+      "negative_days": 177,
+      "emergency_cost_yuan": 620522.2356566048,
+      "emergency_kwh": 143746.70419328072,
+      "spill_kwh": 2329873.1630402585,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 2399.225711463141,
+      "second_half_saving_yuan": 23253.436707427813,
+      "kind": "q2",
+      "configuration_id": "7a7d9f1f5f762810",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 5273.925569667015,
+      "planning_seconds": 4721.695789650548,
+      "feedback_build_seconds": 529.2983635875862,
+      "scenario_seconds": 18.285590598359704,
+      "candidate_blocks_mean": 27.937125748502993,
+      "candidate_blocks_min": 22,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.937125748502993,
+      "transport_distance_mean": 0.8306629750124495,
+      "net_tail95_retention_fraction": 0.4812874251497006,
+      "gain_binding_fraction": 5.0970997502421125e-05
+    },
+    {
+      "total_cost_yuan": 13472619.965776566,
+      "baseline_cost_yuan": 13461842.350947868,
+      "saving_yuan": -10777.614828698337,
+      "saving_percent": -0.08006047424808439,
+      "bootstrap_95_lower_yuan": -35924.31047443413,
+      "bootstrap_95_upper_yuan": 15630.802192456158,
+      "positive_days": 162,
+      "negative_days": 171,
+      "emergency_cost_yuan": 179884.69068851005,
+      "emergency_kwh": 39569.846023515885,
+      "spill_kwh": 1747407.8977677117,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": -11485.7546107564,
+      "second_half_saving_yuan": 708.1397820582424,
+      "kind": "q3",
+      "configuration_id": "7a7d9f1f5f762810",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 9154.669084666995,
+      "planning_seconds": 8622.33064300497,
+      "feedback_build_seconds": 509.92576623079367,
+      "scenario_seconds": 17.94135399372317,
+      "candidate_blocks_mean": 27.937125748502993,
+      "candidate_blocks_min": 22,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.937125748502993,
+      "transport_distance_mean": 0.7860782488085443,
+      "net_tail95_retention_fraction": 0.47380239520958084,
+      "gain_binding_fraction": 3.268401098182769e-05
+    },
+    {
+      "total_cost_yuan": 13472619.965776566,
+      "baseline_cost_yuan": 13461304.45382083,
+      "saving_yuan": -11315.511955736205,
+      "saving_percent": -0.08405955005738268,
+      "bootstrap_95_lower_yuan": -36567.03766250888,
+      "bootstrap_95_upper_yuan": 14928.756827525513,
+      "positive_days": 161,
+      "negative_days": 172,
+      "emergency_cost_yuan": 179884.69068851005,
+      "emergency_kwh": 39569.846023515885,
+      "spill_kwh": 1747407.8977677117,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": -12068.135192226771,
+      "second_half_saving_yuan": 752.6232364903954,
+      "kind": "q3",
+      "configuration_id": "7a7d9f1f5f762810",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 9154.669084666995,
+      "planning_seconds": 8622.33064300497,
+      "feedback_build_seconds": 509.92576623079367,
+      "scenario_seconds": 17.94135399372317,
+      "candidate_blocks_mean": 27.937125748502993,
+      "candidate_blocks_min": 22,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.937125748502993,
+      "transport_distance_mean": 0.7860782488085443,
+      "net_tail95_retention_fraction": 0.47380239520958084,
+      "gain_binding_fraction": 3.268401098182769e-05
+    },
+    {
+      "total_cost_yuan": 14593105.445750773,
+      "baseline_cost_yuan": 14654611.38123864,
+      "saving_yuan": 61505.9354878664,
+      "saving_percent": 0.4197036269867143,
+      "bootstrap_95_lower_yuan": -10558.884871385815,
+      "bootstrap_95_upper_yuan": 151848.05379964723,
+      "positive_days": 172,
+      "negative_days": 161,
+      "emergency_cost_yuan": 611797.3671056945,
+      "emergency_kwh": 129731.42327962583,
+      "spill_kwh": 2358186.3384920014,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 15460.209442914522,
+      "second_half_saving_yuan": 46045.72604494938,
+      "kind": "q4_2",
+      "configuration_id": "7a7d9f1f5f762810",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 4929.435733459191,
+      "planning_seconds": 4406.619658880401,
+      "feedback_build_seconds": 488.3286891106982,
+      "scenario_seconds": 30.259720775298774,
+      "candidate_blocks_mean": 27.937125748502993,
+      "candidate_blocks_min": 22,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.937125748502993,
+      "transport_distance_mean": 0.866275256991745,
+      "net_tail95_retention_fraction": 0.4812874251497006,
+      "gain_binding_fraction": 7.645649625363168e-05
+    },
+    {
+      "total_cost_yuan": 14593105.445750773,
+      "baseline_cost_yuan": 14654319.804457856,
+      "saving_yuan": 61214.35870708339,
+      "saving_percent": 0.41772227932723244,
+      "bootstrap_95_lower_yuan": -10847.656095509505,
+      "bootstrap_95_upper_yuan": 151646.5596590998,
+      "positive_days": 172,
+      "negative_days": 161,
+      "emergency_cost_yuan": 611797.3671056945,
+      "emergency_kwh": 129731.42327962583,
+      "spill_kwh": 2358186.3384920014,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 15660.955883779607,
+      "second_half_saving_yuan": 45553.402823301105,
+      "kind": "q4_2",
+      "configuration_id": "7a7d9f1f5f762810",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 4929.435733459191,
+      "planning_seconds": 4406.619658880401,
+      "feedback_build_seconds": 488.3286891106982,
+      "scenario_seconds": 30.259720775298774,
+      "candidate_blocks_mean": 27.937125748502993,
+      "candidate_blocks_min": 22,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.937125748502993,
+      "transport_distance_mean": 0.866275256991745,
+      "net_tail95_retention_fraction": 0.4812874251497006,
+      "gain_binding_fraction": 7.645649625363168e-05
+    },
+    {
+      "total_cost_yuan": 14244036.493450446,
+      "baseline_cost_yuan": 14252083.025399216,
+      "saving_yuan": 8046.531948769465,
+      "saving_percent": 0.05645863790176786,
+      "bootstrap_95_lower_yuan": -18138.939184999046,
+      "bootstrap_95_upper_yuan": 38543.253741754124,
+      "positive_days": 171,
+      "negative_days": 162,
+      "emergency_cost_yuan": 179507.52394874612,
+      "emergency_kwh": 38051.36482674847,
+      "spill_kwh": 1742741.9235001893,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 1897.0213246135027,
+      "second_half_saving_yuan": 6149.510624156159,
+      "kind": "q4_3",
+      "configuration_id": "7a7d9f1f5f762810",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 8886.557375375181,
+      "planning_seconds": 8359.221668763552,
+      "feedback_build_seconds": 492.2636525244452,
+      "scenario_seconds": 30.789473271928728,
+      "candidate_blocks_mean": 27.937125748502993,
+      "candidate_blocks_min": 22,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.937125748502993,
+      "transport_distance_mean": 0.8531751832703908,
+      "net_tail95_retention_fraction": 0.47380239520958084,
+      "gain_binding_fraction": 0.00011439403843639692
+    },
+    {
+      "total_cost_yuan": 14244036.493450446,
+      "baseline_cost_yuan": 14252101.502195751,
+      "saving_yuan": 8065.00874530524,
+      "saving_percent": 0.056588207318497584,
+      "bootstrap_95_lower_yuan": -18074.586575948608,
+      "bootstrap_95_upper_yuan": 38670.2981924325,
+      "positive_days": 171,
+      "negative_days": 162,
+      "emergency_cost_yuan": 179507.52394874612,
+      "emergency_kwh": 38051.36482674847,
+      "spill_kwh": 1742741.9235001893,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 1863.322007866609,
+      "second_half_saving_yuan": 6201.686737436645,
+      "kind": "q4_3",
+      "configuration_id": "7a7d9f1f5f762810",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 8886.557375375181,
+      "planning_seconds": 8359.221668763552,
+      "feedback_build_seconds": 492.2636525244452,
+      "scenario_seconds": 30.789473271928728,
+      "candidate_blocks_mean": 27.937125748502993,
+      "candidate_blocks_min": 22,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.937125748502993,
+      "transport_distance_mean": 0.8531751832703908,
+      "net_tail95_retention_fraction": 0.47380239520958084,
+      "gain_binding_fraction": 0.00011439403843639692
+    },
+    {
+      "total_cost_yuan": 13831654.714459017,
+      "baseline_cost_yuan": 13844170.061859094,
+      "saving_yuan": 12515.347400076687,
+      "saving_percent": 0.09040157224416555,
+      "bootstrap_95_lower_yuan": -40493.48780790142,
+      "bootstrap_95_upper_yuan": 71579.47789115399,
+      "positive_days": 165,
+      "negative_days": 168,
+      "emergency_cost_yuan": 637517.7537397125,
+      "emergency_kwh": 150737.32864860178,
+      "spill_kwh": 2330045.327253121,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 9354.653479093227,
+      "second_half_saving_yuan": 3160.693920984384,
+      "kind": "q2",
+      "configuration_id": "d21be844de2de2b1",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 7573.524237083038,
+      "planning_seconds": 6897.82769737835,
+      "feedback_build_seconds": 649.6007393782493,
+      "scenario_seconds": 21.85568862920627,
+      "candidate_blocks_mean": 27.91616766467066,
+      "candidate_blocks_min": 21,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.91616766467066,
+      "transport_distance_mean": 0.8397082011270499,
+      "net_tail95_retention_fraction": 0.5104790419161677,
+      "gain_binding_fraction": 5.71864277544796e-05
+    },
+    {
+      "total_cost_yuan": 13831654.714459017,
+      "baseline_cost_yuan": 13843597.725621978,
+      "saving_yuan": 11943.011162960902,
+      "saving_percent": 0.0862710070002725,
+      "bootstrap_95_lower_yuan": -40857.50422150039,
+      "bootstrap_95_upper_yuan": 70674.97613139609,
+      "positive_days": 165,
+      "negative_days": 168,
+      "emergency_cost_yuan": 637517.7537397125,
+      "emergency_kwh": 150737.32864860178,
+      "spill_kwh": 2330045.327253121,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 9064.527842593721,
+      "second_half_saving_yuan": 2878.483320366955,
+      "kind": "q2",
+      "configuration_id": "d21be844de2de2b1",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 7573.524237083038,
+      "planning_seconds": 6897.82769737835,
+      "feedback_build_seconds": 649.6007393782493,
+      "scenario_seconds": 21.85568862920627,
+      "candidate_blocks_mean": 27.91616766467066,
+      "candidate_blocks_min": 21,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.91616766467066,
+      "transport_distance_mean": 0.8397082011270499,
+      "net_tail95_retention_fraction": 0.5104790419161677,
+      "gain_binding_fraction": 5.71864277544796e-05
+    },
+    {
+      "total_cost_yuan": 14636544.132188916,
+      "baseline_cost_yuan": 14654611.38123864,
+      "saving_yuan": 18067.24904972315,
+      "saving_percent": 0.1232871249854738,
+      "bootstrap_95_lower_yuan": -43990.131837452485,
+      "bootstrap_95_upper_yuan": 87729.71952006973,
+      "positive_days": 171,
+      "negative_days": 162,
+      "emergency_cost_yuan": 657269.7588524213,
+      "emergency_kwh": 141262.3368479351,
+      "spill_kwh": 2355539.216493426,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 3629.51884114683,
+      "second_half_saving_yuan": 14437.730208575136,
+      "kind": "q4_2",
+      "configuration_id": "d21be844de2de2b1",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 7830.171793291811,
+      "planning_seconds": 7101.58491649502,
+      "feedback_build_seconds": 682.8741351747885,
+      "scenario_seconds": 41.34401975758374,
+      "candidate_blocks_mean": 27.91616766467066,
+      "candidate_blocks_min": 21,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.91616766467066,
+      "transport_distance_mean": 0.8749204062986428,
+      "net_tail95_retention_fraction": 0.5104790419161677,
+      "gain_binding_fraction": 5.71864277544796e-05
+    },
+    {
+      "total_cost_yuan": 14636544.132188916,
+      "baseline_cost_yuan": 14654319.804457856,
+      "saving_yuan": 17775.672268940136,
+      "saving_percent": 0.121299879531309,
+      "bootstrap_95_lower_yuan": -44132.55940534076,
+      "bootstrap_95_upper_yuan": 87468.1366377034,
+      "positive_days": 171,
+      "negative_days": 162,
+      "emergency_cost_yuan": 657269.7588524213,
+      "emergency_kwh": 141262.3368479351,
+      "spill_kwh": 2355539.216493426,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 3830.2652820119074,
+      "second_half_saving_yuan": 13945.406986926864,
+      "kind": "q4_2",
+      "configuration_id": "d21be844de2de2b1",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 7830.171793291811,
+      "planning_seconds": 7101.58491649502,
+      "feedback_build_seconds": 682.8741351747885,
+      "scenario_seconds": 41.34401975758374,
+      "candidate_blocks_mean": 27.91616766467066,
+      "candidate_blocks_min": 21,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.91616766467066,
+      "transport_distance_mean": 0.8749204062986428,
+      "net_tail95_retention_fraction": 0.5104790419161677,
+      "gain_binding_fraction": 5.71864277544796e-05
+    },
+    {
+      "total_cost_yuan": 13817945.063203087,
+      "baseline_cost_yuan": 13844170.061859094,
+      "saving_yuan": 26224.99865600653,
+      "saving_percent": 0.1894299083211699,
+      "bootstrap_95_lower_yuan": -33842.18257752922,
+      "bootstrap_95_upper_yuan": 95781.4408759804,
+      "positive_days": 156,
+      "negative_days": 177,
+      "emergency_cost_yuan": 620522.2356566048,
+      "emergency_kwh": 143746.70419328072,
+      "spill_kwh": 2329873.1630402585,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 2689.351347962647,
+      "second_half_saving_yuan": 23535.64730804524,
+      "kind": "q2",
+      "configuration_id": "6cfbc0fe34fd0999",
+      "comparison": "legacy_matched_terminal",
+      "runtime_seconds": 5199.840522999875,
+      "planning_seconds": 4660.113757249899,
+      "feedback_build_seconds": 517.0858304672875,
+      "scenario_seconds": 18.19205625145696,
+      "candidate_blocks_mean": 27.937125748502993,
+      "candidate_blocks_min": 22,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.937125748502993,
+      "transport_distance_mean": 0.8306629750124495,
+      "net_tail95_retention_fraction": 0.4812874251497006,
+      "gain_binding_fraction": 5.0970997502421125e-05
+    },
+    {
+      "total_cost_yuan": 13817945.063203087,
+      "baseline_cost_yuan": 13843597.725621978,
+      "saving_yuan": 25652.662418890744,
+      "saving_percent": 0.18530343720846743,
+      "bootstrap_95_lower_yuan": -34578.92162818854,
+      "bootstrap_95_upper_yuan": 95321.75225946862,
+      "positive_days": 156,
+      "negative_days": 177,
+      "emergency_cost_yuan": 620522.2356566048,
+      "emergency_kwh": 143746.70419328072,
+      "spill_kwh": 2329873.1630402585,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 2399.225711463141,
+      "second_half_saving_yuan": 23253.436707427813,
+      "kind": "q2",
+      "configuration_id": "6cfbc0fe34fd0999",
+      "comparison": "fixed48_reference",
+      "runtime_seconds": 5199.840522999875,
+      "planning_seconds": 4660.113757249899,
+      "feedback_build_seconds": 517.0858304672875,
+      "scenario_seconds": 18.19205625145696,
+      "candidate_blocks_mean": 27.937125748502993,
+      "candidate_blocks_min": 22,
+      "representatives_mean": 7.0,
+      "candidate_ESS_mean": 27.937125748502993,
+      "transport_distance_mean": 0.8306629750124495,
+      "net_tail95_retention_fraction": 0.4812874251497006,
+      "gain_binding_fraction": 5.0970997502421125e-05
+    }
+  ],
+  "pending": [
+    {
+      "kind": "q3",
+      "configuration": "d21be844de2de2b1"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "d21be844de2de2b1"
+    },
+    {
+      "kind": "q3",
+      "configuration": "6cfbc0fe34fd0999"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "6cfbc0fe34fd0999"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "6cfbc0fe34fd0999"
+    },
+    {
+      "kind": "q2",
+      "configuration": "7bc4bc3e62f01705"
+    },
+    {
+      "kind": "q3",
+      "configuration": "7bc4bc3e62f01705"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "7bc4bc3e62f01705"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "7bc4bc3e62f01705"
+    },
+    {
+      "kind": "q2",
+      "configuration": "8c3a9abb4b0b1129"
+    },
+    {
+      "kind": "q3",
+      "configuration": "8c3a9abb4b0b1129"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "8c3a9abb4b0b1129"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "8c3a9abb4b0b1129"
+    },
+    {
+      "kind": "q2",
+      "configuration": "8850f18f7cddd093"
+    },
+    {
+      "kind": "q3",
+      "configuration": "8850f18f7cddd093"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "8850f18f7cddd093"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "8850f18f7cddd093"
+    },
+    {
+      "kind": "q2",
+      "configuration": "b989094f64adca97"
+    },
+    {
+      "kind": "q3",
+      "configuration": "b989094f64adca97"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "b989094f64adca97"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "b989094f64adca97"
+    },
+    {
+      "kind": "q2",
+      "configuration": "55c6ca18abc9ba50"
+    },
+    {
+      "kind": "q3",
+      "configuration": "55c6ca18abc9ba50"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "55c6ca18abc9ba50"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "55c6ca18abc9ba50"
+    },
+    {
+      "kind": "q2",
+      "configuration": "6f445816279b7da4"
+    },
+    {
+      "kind": "q3",
+      "configuration": "6f445816279b7da4"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "6f445816279b7da4"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "6f445816279b7da4"
+    },
+    {
+      "kind": "q2",
+      "configuration": "42681d4e99c271f6"
+    },
+    {
+      "kind": "q3",
+      "configuration": "42681d4e99c271f6"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "42681d4e99c271f6"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "42681d4e99c271f6"
+    },
+    {
+      "kind": "q2",
+      "configuration": "6efdd1cbeb9390c2"
+    },
+    {
+      "kind": "q3",
+      "configuration": "6efdd1cbeb9390c2"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "6efdd1cbeb9390c2"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "6efdd1cbeb9390c2"
+    },
+    {
+      "kind": "q2",
+      "configuration": "52ca9d11f98d3a45"
+    },
+    {
+      "kind": "q3",
+      "configuration": "52ca9d11f98d3a45"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "52ca9d11f98d3a45"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "52ca9d11f98d3a45"
+    },
+    {
+      "kind": "q2",
+      "configuration": "49fe1e89bc0d7166"
+    },
+    {
+      "kind": "q3",
+      "configuration": "49fe1e89bc0d7166"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "49fe1e89bc0d7166"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "49fe1e89bc0d7166"
+    },
+    {
+      "kind": "q2",
+      "configuration": "3dbadbc095a54a4d"
+    },
+    {
+      "kind": "q3",
+      "configuration": "3dbadbc095a54a4d"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "3dbadbc095a54a4d"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "3dbadbc095a54a4d"
+    },
+    {
+      "kind": "q2",
+      "configuration": "e493f54273b083c1"
+    },
+    {
+      "kind": "q3",
+      "configuration": "e493f54273b083c1"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "e493f54273b083c1"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "e493f54273b083c1"
+    },
+    {
+      "kind": "q2",
+      "configuration": "4570ad5cda797dec"
+    },
+    {
+      "kind": "q3",
+      "configuration": "4570ad5cda797dec"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "4570ad5cda797dec"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "4570ad5cda797dec"
+    },
+    {
+      "kind": "q2",
+      "configuration": "9152d976de489293"
+    },
+    {
+      "kind": "q3",
+      "configuration": "9152d976de489293"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "9152d976de489293"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "9152d976de489293"
+    },
+    {
+      "kind": "q2",
+      "configuration": "c4458f2f6fb06e54"
+    },
+    {
+      "kind": "q3",
+      "configuration": "c4458f2f6fb06e54"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "c4458f2f6fb06e54"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "c4458f2f6fb06e54"
+    },
+    {
+      "kind": "q2",
+      "configuration": "7369b0d225b8f24a"
+    },
+    {
+      "kind": "q3",
+      "configuration": "7369b0d225b8f24a"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "7369b0d225b8f24a"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "7369b0d225b8f24a"
+    },
+    {
+      "kind": "q2",
+      "configuration": "7d331156cce3d04a"
+    },
+    {
+      "kind": "q3",
+      "configuration": "7d331156cce3d04a"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "7d331156cce3d04a"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "7d331156cce3d04a"
+    },
+    {
+      "kind": "q2",
+      "configuration": "9b120da9701a0ad6"
+    },
+    {
+      "kind": "q3",
+      "configuration": "9b120da9701a0ad6"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "9b120da9701a0ad6"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "9b120da9701a0ad6"
+    },
+    {
+      "kind": "q2",
+      "configuration": "592bc8462bb5cae5"
+    },
+    {
+      "kind": "q3",
+      "configuration": "592bc8462bb5cae5"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "592bc8462bb5cae5"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "592bc8462bb5cae5"
+    },
+    {
+      "kind": "q2",
+      "configuration": "69eb140d3b7ad049"
+    },
+    {
+      "kind": "q3",
+      "configuration": "69eb140d3b7ad049"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "69eb140d3b7ad049"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "69eb140d3b7ad049"
+    },
+    {
+      "kind": "q2",
+      "configuration": "51bac964dec9def2"
+    },
+    {
+      "kind": "q3",
+      "configuration": "51bac964dec9def2"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "51bac964dec9def2"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "51bac964dec9def2"
+    },
+    {
+      "kind": "q2",
+      "configuration": "867bed8aa5daa8e5"
+    },
+    {
+      "kind": "q3",
+      "configuration": "867bed8aa5daa8e5"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "867bed8aa5daa8e5"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "867bed8aa5daa8e5"
+    },
+    {
+      "kind": "q2",
+      "configuration": "3f4e5973d35fc45f"
+    },
+    {
+      "kind": "q3",
+      "configuration": "3f4e5973d35fc45f"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "3f4e5973d35fc45f"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "3f4e5973d35fc45f"
+    },
+    {
+      "kind": "q2",
+      "configuration": "d62d51371d07e6f2"
+    },
+    {
+      "kind": "q3",
+      "configuration": "d62d51371d07e6f2"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "d62d51371d07e6f2"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "d62d51371d07e6f2"
+    },
+    {
+      "kind": "q2",
+      "configuration": "d6ec61e25a4be690"
+    },
+    {
+      "kind": "q3",
+      "configuration": "d6ec61e25a4be690"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "d6ec61e25a4be690"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "d6ec61e25a4be690"
+    },
+    {
+      "kind": "q2",
+      "configuration": "14efb40e2e2a7223"
+    },
+    {
+      "kind": "q3",
+      "configuration": "14efb40e2e2a7223"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "14efb40e2e2a7223"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "14efb40e2e2a7223"
+    },
+    {
+      "kind": "q2",
+      "configuration": "2e1fd5d7b5ff08fe"
+    },
+    {
+      "kind": "q3",
+      "configuration": "2e1fd5d7b5ff08fe"
+    },
+    {
+      "kind": "q4_2",
+      "configuration": "2e1fd5d7b5ff08fe"
+    },
+    {
+      "kind": "q4_3",
+      "configuration": "2e1fd5d7b5ff08fe"
+    }
+  ],
+  "stage_comparisons": [
+    {
+      "stage_index": 1,
+      "stage": "fixed_horizon_only",
+      "kind": "q2",
+      "reference_configuration": "5c5eb1d7988dccd0",
+      "candidate_configuration": "7a7d9f1f5f762810",
+      "total_cost_yuan": 13817945.063203087,
+      "baseline_cost_yuan": 13843597.725621978,
+      "saving_yuan": 25652.662418890744,
+      "saving_percent": 0.18530343720846743,
+      "bootstrap_95_lower_yuan": -34578.92162818854,
+      "bootstrap_95_upper_yuan": 95321.75225946862,
+      "positive_days": 156,
+      "negative_days": 177,
+      "emergency_cost_yuan": 620522.2356566048,
+      "emergency_kwh": 143746.70419328072,
+      "spill_kwh": 2329873.1630402585,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 2399.225711463141,
+      "second_half_saving_yuan": 23253.436707427813
+    },
+    {
+      "stage_index": 1,
+      "stage": "fixed_horizon_only",
+      "kind": "q3",
+      "reference_configuration": "5c5eb1d7988dccd0",
+      "candidate_configuration": "7a7d9f1f5f762810",
+      "total_cost_yuan": 13472619.965776566,
+      "baseline_cost_yuan": 13461304.45382083,
+      "saving_yuan": -11315.511955736205,
+      "saving_percent": -0.08405955005738268,
+      "bootstrap_95_lower_yuan": -36567.03766250888,
+      "bootstrap_95_upper_yuan": 14928.756827525513,
+      "positive_days": 161,
+      "negative_days": 172,
+      "emergency_cost_yuan": 179884.69068851005,
+      "emergency_kwh": 39569.846023515885,
+      "spill_kwh": 1747407.8977677117,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": -12068.135192226771,
+      "second_half_saving_yuan": 752.6232364903954
+    },
+    {
+      "stage_index": 1,
+      "stage": "fixed_horizon_only",
+      "kind": "q4_2",
+      "reference_configuration": "5c5eb1d7988dccd0",
+      "candidate_configuration": "7a7d9f1f5f762810",
+      "total_cost_yuan": 14593105.445750773,
+      "baseline_cost_yuan": 14654319.804457856,
+      "saving_yuan": 61214.35870708339,
+      "saving_percent": 0.41772227932723244,
+      "bootstrap_95_lower_yuan": -10847.656095509505,
+      "bootstrap_95_upper_yuan": 151646.5596590998,
+      "positive_days": 172,
+      "negative_days": 161,
+      "emergency_cost_yuan": 611797.3671056945,
+      "emergency_kwh": 129731.42327962583,
+      "spill_kwh": 2358186.3384920014,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 15660.955883779607,
+      "second_half_saving_yuan": 45553.402823301105
+    },
+    {
+      "stage_index": 1,
+      "stage": "fixed_horizon_only",
+      "kind": "q4_3",
+      "reference_configuration": "5c5eb1d7988dccd0",
+      "candidate_configuration": "7a7d9f1f5f762810",
+      "total_cost_yuan": 14244036.493450446,
+      "baseline_cost_yuan": 14252101.502195751,
+      "saving_yuan": 8065.00874530524,
+      "saving_percent": 0.056588207318497584,
+      "bootstrap_95_lower_yuan": -18074.586575948608,
+      "bootstrap_95_upper_yuan": 38670.2981924325,
+      "positive_days": 171,
+      "negative_days": 162,
+      "emergency_cost_yuan": 179507.52394874612,
+      "emergency_kwh": 38051.36482674847,
+      "spill_kwh": 1742741.9235001893,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 1863.322007866609,
+      "second_half_saving_yuan": 6201.686737436645
+    },
+    {
+      "stage_index": 1,
+      "stage": "fixed_horizon_only",
+      "kind": "q2",
+      "reference_configuration": "5c5eb1d7988dccd0",
+      "candidate_configuration": "d21be844de2de2b1",
+      "total_cost_yuan": 13831654.714459017,
+      "baseline_cost_yuan": 13843597.725621978,
+      "saving_yuan": 11943.011162960902,
+      "saving_percent": 0.0862710070002725,
+      "bootstrap_95_lower_yuan": -40857.50422150039,
+      "bootstrap_95_upper_yuan": 70674.97613139609,
+      "positive_days": 165,
+      "negative_days": 168,
+      "emergency_cost_yuan": 637517.7537397125,
+      "emergency_kwh": 150737.32864860178,
+      "spill_kwh": 2330045.327253121,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 9064.527842593721,
+      "second_half_saving_yuan": 2878.483320366955
+    },
+    {
+      "stage_index": 1,
+      "stage": "fixed_horizon_only",
+      "kind": "q4_2",
+      "reference_configuration": "5c5eb1d7988dccd0",
+      "candidate_configuration": "d21be844de2de2b1",
+      "total_cost_yuan": 14636544.132188916,
+      "baseline_cost_yuan": 14654319.804457856,
+      "saving_yuan": 17775.672268940136,
+      "saving_percent": 0.121299879531309,
+      "bootstrap_95_lower_yuan": -44132.55940534076,
+      "bootstrap_95_upper_yuan": 87468.1366377034,
+      "positive_days": 171,
+      "negative_days": 162,
+      "emergency_cost_yuan": 657269.7588524213,
+      "emergency_kwh": 141262.3368479351,
+      "spill_kwh": 2355539.216493426,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 3830.2652820119074,
+      "second_half_saving_yuan": 13945.406986926864
+    },
+    {
+      "stage_index": 2,
+      "stage": "forecast_fusion_only",
+      "kind": "q2",
+      "reference_configuration": "7a7d9f1f5f762810",
+      "candidate_configuration": "6cfbc0fe34fd0999",
+      "total_cost_yuan": 13817945.063203087,
+      "baseline_cost_yuan": 13817945.063203087,
+      "saving_yuan": 0.0,
+      "saving_percent": 0.0,
+      "bootstrap_95_lower_yuan": 0.0,
+      "bootstrap_95_upper_yuan": 0.0,
+      "positive_days": 0,
+      "negative_days": 0,
+      "emergency_cost_yuan": 620522.2356566048,
+      "emergency_kwh": 143746.70419328072,
+      "spill_kwh": 2329873.1630402585,
+      "min_soc": 0.1,
+      "max_soc": 0.9,
+      "first_half_saving_yuan": 0.0,
+      "second_half_saving_yuan": 0.0
+    }
+  ],
+  "bootstrap": {
+    "block": 7,
+    "replicates": 10000,
+    "seed": 20260911,
+    "interval": "percentile95",
+    "scope": "paired serial-dependence diagnostic for this seasonal single year; not a guarantee about future years"
+  },
+  "baseline_verification": "Frozen legacy results used only as a named reference; final claims require the independent full reproduction gate PASS",
+  "selection_sha256": "046fe0d378a130b1d7dcb5ba8178e823ca2ef8f407c7e8066f1e95ccb279ab1f"
+}

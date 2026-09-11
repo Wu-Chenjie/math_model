@@ -1,0 +1,1 @@
+{"samples": 64, "seed": 9182, "mean_policy_cost": 58718.03067769667, "standard_error": 699.6978747423152, "normal_approximation_95_interval": [57346.62284320173, 60089.438512191606], "root_lower_bound": 58688.931179323205, "note": "Monte Carlo estimate, not a deterministic upper bound."}

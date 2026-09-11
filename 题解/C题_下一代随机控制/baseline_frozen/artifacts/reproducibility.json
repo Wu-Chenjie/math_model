@@ -1,0 +1,2513 @@
+{
+  "command": "python3 题解/C题_跨日随机控制/src/run.py --phase annual --candidates closed_baseline cross_baseline affine_mpc markov_mpc closed_affine --workers 4",
+  "seed": null,
+  "input_hashes": {
+    "inputs/C题.pdf": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+    "inputs/附件/附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+    "inputs/附件/附件2.xlsx": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+    "inputs/附件/附件3.xlsx": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843",
+    "inputs/附件/附件4.xlsx": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71",
+    "inputs/附件/附件5/result1.xlsx": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688",
+    "inputs/附件/附件5/result2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+    "inputs/附件/附件5/result3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+    "inputs/附件/附件5/result4-2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+    "inputs/附件/附件5/result4-3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+  },
+  "output_hashes": {
+    "artifacts/execution-train-D2.json": "0c0d5c04ec346ee35aafdccd1e56217d8aa29201ba80c4473f650437733601f4",
+    "artifacts/metrics.json": "a17cedf909743b15874af58fe4d9a14bba39ca0be33b9e7cdef3fafe21042b57",
+    "artifacts/summary.json": "e86661c9d87035e92df7f66a169a9e7bbbfa1d51214db019ad4620ad55dbd46e",
+    "artifacts/execution-package.json": "6b28c3a482bb38c7251f92429d3f0d4d8cf30735478cdc136ab6ee24f2f0588f",
+    "artifacts/workbook-validation.json": "ee2e97e0b536fdbd3ba7d9ddfadb3c2f637b742a404cf31da07be0f908625da2",
+    "artifacts/execution-experiments-short.json": "d2dba0c07f892bca20d71f8dd7fb6bdcccb7b19ac9733ab9fb7a968088d4d0f4",
+    "artifacts/execution-annual_sddp.json": "00ea5d283994e1890a6547d011bdb5bdc917801a95e42419d2a4130687413739",
+    "artifacts/execution-calibrate.json": "fa479afbfd0004ba13d5367b04fdd9df8de096235a3a4996ca83cb0a13b3774d",
+    "artifacts/data-audit.json": "cdf53030416b9f45b4acc0ff4c65c5bca0a93ea6ba3c0a5533352324c64f177d",
+    "artifacts/execution-finish.json": "e757c007ad9aaad9b919bec620f0cd4b6f08bfe16fe346a03849c3f64fd3b9aa",
+    "artifacts/q4_3.npz": "abf6bb7c30a7a084886be89b911cc9c5fdc0c7baa3cf897e5fcf58c9fa0ce203",
+    "artifacts/q4_2.json": "2d600bc2c15c93fc9da5422df0149410e8b7b6bdf23c090507a6e1362a8da412",
+    "artifacts/q1.json": "58b44384ce56a222ab6d8884facd7a1cb0ce8cda5b8db3a0a911a388f5568492",
+    "artifacts/result-registry.json": "a247180d61d369cb4a6bf770179f2755d7727f4357ae0c239e2d71912669b32c",
+    "artifacts/tail-shape-analysis.json": "073e071f7620a086f3b5e5ce7d8a1da90b7296e5ee2f2301749878ee3d1cb069",
+    "artifacts/execution-calibrate_closed.json": "a924820d4a86c21c60f3bddd1d4a29a82c18a5b09c06be9d35b65280a07369f1",
+    "artifacts/execution-experiments-annual-releases.json": "ad1bf3d19c596c40548774f16116f4458bfc675ef1fa5285e2729d0f5bb20fca",
+    "artifacts/q4_2.npz": "6c21f38c22c91f27df122cea1ece71642ee6d1339fe1350058bfb66f8ba342d5",
+    "artifacts/handoff-tables.json": "2bc505d3057f5c6bd7cecd6c4e1fb0551113f56b88319c3ace24da9494e90fa2",
+    "artifacts/execution-annual.json": "aaf39166384a9464be6b93738a75134a64c42a24cc3354166b24df454c03a9df",
+    "artifacts/source-version-records.json": "d6f400dad6fa98039d96e38be0bfb332d77bedd734f372be3a29d92990b95669",
+    "artifacts/execution-calibrate_sddp.json": "d8f496bcff09e743af40b6fa87234129843b78ba5240eef6fe1a17b938c1d498",
+    "artifacts/workbook-payload.json": "006a21f72aff500d4e53120345ebe0c25d8ad1e402c5da892922a861c14c84db",
+    "artifacts/q4_3.json": "895d1ac7ed61a81bc8f7d92ecbf9f3080285f7bc28ceb66988601d0b451a44f8",
+    "artifacts/global-terminal.json": "a49c7ad98fb1daf25272da26bcfdbf40aad45c12487824e32e3d6699ee272875",
+    "artifacts/sddp-pilot100.json": "d340c18cdf05c4f280105ccdc9b82d8667da35d0a81b2562a92d5e5dafe97f4c",
+    "artifacts/q3.json": "26b7c8bdf5683614486a44469f55b5677c2c9bf6fd43cf552503f2b8a5b7f41a",
+    "artifacts/figure-data.json": "59eb6a17c4e6056c39d4317f9784be6d11f1fc087caea080fd11f88fb6ffb2a6",
+    "artifacts/execution-workbook-q42-format-fix.json": "836fe60608aa6761c0a6acefb6956b588862d797ae16b79ab1caea7a1a6414b5",
+    "artifacts/execution-workbook-layout-fix.json": "7f1bd75a5a1b4c9dcc0232ebbc9dde0c287393784e27632641610cd444dc92d0",
+    "artifacts/execution-pilot.json": "e3994db76f6b9b2984e647986d7c51836ed54c44f0a855527d3cc12465dbb610",
+    "artifacts/execution-train.json": "5c0e21f6a5fbd32e58f2cedd20b418ee66048db269f6c2e4ddb3353835a70cd9",
+    "artifacts/selection-v1.json": "d475adf14781325c1cae5945db26ed029426abf63ad95a338557dbc03d038319",
+    "artifacts/q1.npz": "1fc008af9ea7d469787ff572fbb5deccf1f2067ac7285dfeced15ea6211f8929",
+    "artifacts/data.npz": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+    "artifacts/warmup.json": "d3a374541899679d75b93dcbc1115679c63b375b3ac3d36d3ca9f0e139caba3a",
+    "artifacts/selection.json": "9fffb8f29150f60fbbb1128bb2283f93e65c60853540cdef8a8272529a9ef537",
+    "artifacts/q2.npz": "d4c6955b31fccbfbea213b0c9f298f9a1d9e18c6585db56ce678da841a8ec1c7",
+    "artifacts/q2.json": "0847fa769b62f16b96fce3d0713f21ea0eadf1eeb5f0e3b99d67f6b8d17926cb",
+    "artifacts/sddp-pilot.json": "3abd2bc9cd677c0543a49cadd6370a0c931153f91dcb6e717f952034f03361ed",
+    "artifacts/q3.npz": "2aa9df30144f0f5b586fda9b450c3eb320f2782441655f73a3f43e00cbc4748d",
+    "artifacts/execution-selection.json": "a4c8bef54066733e55c662e037fb6c3cb1203710d47444cce4c3a8c24e8c481c",
+    "artifacts/execution-export.json": "96b2a2cec2a14b89b3b4cccf81261a7ffd2d1c833cdad70303343e788581b120",
+    "artifacts/forecast-selection.json": "eb6277a072175fe845b87b5eb55e042e562659f8d55cb5e94ea4222b0146ee71",
+    "artifacts/execution-workbook-final-preview.json": "e4f8af82a89464f0f5ae7e6d5b9e99258a02388ea2b9e37e4fdfc2f20e64b573",
+    "artifacts/library-versions.json": "bd01682817cf4682c0216cf9315358de1eabbbd4a6e651a32b245b91c18c5472",
+    "artifacts/execution-calibrate_sddp_v2.json": "a8405b6e9afac3443b0b92ecca998ca70fa13f9b2c222774fe404d3c3f135cdf",
+    "artifacts/january-warmup.npz": "73212110411268b8ae4ada8b69e470481f008ee4efaf41e510427a08a32a80d4",
+    "artifacts/sddp-pilot500.json": "186d676aefa6991d7208d93136e05211e4087839f28a4b1fd67f40c448ff0137",
+    "artifacts/execution-train-D1.json": "0a4311edcef79e92131054a321876419b892cbfe8823cdb881adb4b405815c87",
+    "artifacts/visual-qa.json": "c73174c9d79f6cf4b6724ff993b20d0ccdbd5bbf5b428e77f20f5a9dc485c3bb",
+    "artifacts/baseline-metrics.json": "9574c254ef3491ce2890492d0c46de5b5ffddc08ccc7ddb2d3fb2e95e575517e",
+    "artifacts/calibrate_closed/q4_2_closed_baseline.npz": "b4dc0a5d97c451dba722cf51779cf597326e00700d37eb00d021ce49ebb9b6c1",
+    "artifacts/calibrate_closed/q3_closed_affine.npz": "adc96f4d1d53c68bff3ba3c65c69a5d9ce55b37f782e329e1909917371b96711",
+    "artifacts/calibrate_closed/q4_3_closed_baseline.npz": "0f6eb1fe973f0e607f14d2514ecb5d35d921a1723c3430afb82985b3e305c055",
+    "artifacts/calibrate_closed/q3_closed_affine.json": "54bba2b4a2341d1e468ef1ee8d56bd083562fcb5950cc3b9bb07eaa298a38bce",
+    "artifacts/calibrate_closed/q2_closed_affine.npz": "c10565ad22ae26cc080f3fc09638eb7308ce6f1337b70ac2ac04a70da6b4c83b",
+    "artifacts/calibrate_closed/q3_closed_baseline.npz": "862f8be258370756b8901c0fa55a7fc8bb42a40d1faf2214a65a849b844c2688",
+    "artifacts/calibrate_closed/q2_closed_baseline.npz": "444236a2ccd154e8b3b03fc78544524fde6c4ce9e937e9501857f60f3dc149b5",
+    "artifacts/calibrate_closed/q4_2_closed_affine.json": "b7860ed47cb10f61b7f7c161a6025dce67b442c8b0698928f4a55c4810284eae",
+    "artifacts/calibrate_closed/q2_closed_baseline.json": "b2eea0d14e3c9a3ebb1f13693a95ccd6e1ec19efd0c63aa8ed4dff44a4dd3635",
+    "artifacts/calibrate_closed/q4_3_closed_affine.json": "d55f1949bbd2f56079b66f772ce926f640b6c3b9953ef2e55209b53999df9743",
+    "artifacts/calibrate_closed/q4_3_closed_baseline.json": "47dc95ec5d3014de3f3a22ec2967a19c24c8881df042255b82160d662817c3de",
+    "artifacts/calibrate_closed/q3_closed_baseline.json": "937bb03381f61203f22a72e21fa21f78d8f27c2019122f50ad2de2b1bcde1598",
+    "artifacts/calibrate_closed/q4_2_closed_affine.npz": "832ec34409a5390fb1dca539a87589250cda3b63d1d6237c83509dce9c5445a8",
+    "artifacts/calibrate_closed/q4_3_closed_affine.npz": "9818e9584d247b19af4a888abecbb5a5e911874e021277ffa0c4e91aaf3ca3fa",
+    "artifacts/calibrate_closed/q2_closed_affine.json": "2f02b2dc0d402855b457c6229779819458f7124c573fae980ca80c887ed24088",
+    "artifacts/calibrate_closed/q4_2_closed_baseline.json": "347b0d1d8285d5d60056554509e7001e7bd724e84692de082414039a69660f42",
+    "artifacts/calibrate_sddp_v2/q3_sddp_mpc.npz": "44e422c52c742ddbc691218367ad577c4c83d7aae408c824b5616f634f1b566e",
+    "artifacts/calibrate_sddp_v2/q2_sddp_mpc.npz": "211a223bc98e529c43eaf43cc6e7ccb77e9fa81515e3bf86b98b58f6c73cbeaa",
+    "artifacts/calibrate_sddp_v2/q3_sddp_mpc.json": "6d296734a3816df81e85836406252c71a4bb9797e3001cbd9094457969f160b5",
+    "artifacts/calibrate_sddp_v2/q4_2_sddp_mpc.json": "0345d1811e3b13a34116044190870b835705f6a5ec56d003c28c6b0a46a13e00",
+    "artifacts/calibrate_sddp_v2/q4_2_sddp_markov.json": "0f87193ccc344b2989e64a6637cefd45b53112f281222f0fe01c6f443b5835f0",
+    "artifacts/calibrate_sddp_v2/q2_sddp_markov.json": "2e9c8f28b7fa9f5c2d3caaee6bdf71f4fa0ecb05d5fbdff1ac7d3975b3659ad0",
+    "artifacts/calibrate_sddp_v2/q4_3_sddp_mpc.json": "0fdd0edcaff1d7fbcc6d7a2bf37eaab77ff6f9bbdae02c3771b1b069f33e1846",
+    "artifacts/calibrate_sddp_v2/q3_sddp_markov.npz": "8be824c35cfb149bb337142ac9e4a4c4935d7602c16be93cfe8e7f038247f880",
+    "artifacts/calibrate_sddp_v2/q2_sddp_mpc.json": "f144189f674d70df4fe3db353608801a194911b371645e6e177bc2d5de10c9c7",
+    "artifacts/calibrate_sddp_v2/q4_2_sddp_markov.npz": "500f188ea21fec935a7596b4cfc70b7de4b9c4a0d56f0b2f88a6bcd9faa72978",
+    "artifacts/calibrate_sddp_v2/q4_3_sddp_mpc.npz": "dcb5e3b0bdd275c8da03ddba61bd24e4104e4a81da7fd6e9baab2c81aac27f5a",
+    "artifacts/calibrate_sddp_v2/q3_sddp_markov.json": "50672c58870402583228b7c456610ef923d7e9721888d35b6a0ad48386111fc8",
+    "artifacts/calibrate_sddp_v2/q2_sddp_markov.npz": "187c34dc6699254afc9510aad4afbbad6e5d23b1b167300d7bbfeed890b7fb01",
+    "artifacts/calibrate_sddp_v2/q4_3_sddp_markov.json": "ed7504e47e9f003aed8c705710d6a078c4ed92549988cca7a189a0addd33e68c",
+    "artifacts/calibrate_sddp_v2/q4_3_sddp_markov.npz": "3576ee92d2153f372554143d2fa4f75df4795cd4714002c6baff7111f0744ac7",
+    "artifacts/calibrate_sddp_v2/q4_2_sddp_mpc.npz": "8e0456f02bad8771c5bf79315fbfc44f0c5a10628b621957ee1ba6e9cef26459",
+    "artifacts/experiments/annual_pv_without6.json": "02a662a4dd97d080381083d18023897f998a287aa05cd1d3a399746788876b09",
+    "artifacts/experiments/stress_load_up_pv_down.npz": "b8caebe096164e2cf4521bb031c1b59b0d6c13e4231eca927806f241c8ff6ee1",
+    "artifacts/experiments/horizon3.npz": "7dc289c8e8fb4af804dc1f67b5ecd59ea29fb1ad645227613647ae8bedaa6cdf",
+    "artifacts/experiments/pv_without18.json": "56fc08762d1b520a39c96db00e2a900aa36a7234353a3f8e0c7b5e6161078169",
+    "artifacts/experiments/horizon3.json": "fbb2bf2846069d814dc7fa79b181ebc29e9d8c1f3c6c2bb92a3f3e6b9c22e6de",
+    "artifacts/experiments/pv_without6.json": "c695687e0d5aaed53957ef137b9282083aa6c6430c3cab998e581ef03feb28d7",
+    "artifacts/experiments/annual_pv_without12.json": "be1a0af0071dd4ff8defed81e1b0bf93b1c75c903113e1d1fac1f9c1bf57e574",
+    "artifacts/experiments/tail_double.json": "4d67ee4bdf4314f56175c88a519a76121204ea718049e77ae2ae0840cd34a5f8",
+    "artifacts/experiments/annual_pv_0only.npz": "330d8d94995cab3d91da185c60a06c8ce30b4937d4c459b5f0dabde8d663ff97",
+    "artifacts/experiments/annual_pv_without6.npz": "e6fd4a38628d545b87c27e0500a5dbab8ee900f370de2851315b63fc2a361169",
+    "artifacts/experiments/stress_load_up_pv_down.json": "bed5d42e6e65e0b9d87d90077a26f15a74591dbac777ab370070e630ccb06a73",
+    "artifacts/experiments/variable_stress.npz": "15c1ea379f5ccd904b7b7e1ca2bd34dcd5a6287be4f05fd79ef782d0a4b1ce45",
+    "artifacts/experiments/tail_double.npz": "01ab8b6b337a4d5718843e688123dc966e0afb8945e599dec8572c53de09ed39",
+    "artifacts/experiments/variable_stress.json": "dea2f2e0d704528c4878ea541a0434e2295be937f43f39d7854c981c6345946b",
+    "artifacts/experiments/pv_0only.json": "31de44b96e8c51ee15b4309442e9f999fa0da926db9e4ef96181abc9f34a8764",
+    "artifacts/experiments/grid641.npz": "43dc0070f20b0d146c3bc886a48b8ad48c001501b0ee938400dafde5ee433510",
+    "artifacts/experiments/pv_without12.json": "a36c1dd19019b1094d97f22c25e45bc6b5d992cef3f116d91c2a9638256310cc",
+    "artifacts/experiments/annual_pv_without18.json": "a732a29a8b2434f423ba4c895b94246a715fbc20e83c543d70b99d83700c2e63",
+    "artifacts/experiments/reference.npz": "568f9149bf04735f94708f0ac5abb87568a5749bfdd751230ea59dc42f332425",
+    "artifacts/experiments/pv_without12.npz": "0e1afb93d8a0567360c8c8679868a9f8fe20074c8497ee5021d9cf547187cfcd",
+    "artifacts/experiments/grid641.json": "6cb0c7ed48b0ae271d22819a11b13a91946064df6506ffdaff5a7e7dafba26f9",
+    "artifacts/experiments/pv_0only.npz": "bc759a0660658c0eef25d5c0a4ae41b3d4f8c85ccc784d9a599e736ff781bdb0",
+    "artifacts/experiments/annual_pv_without12.npz": "570fde1e7ee84e417cd548c7d6a02b2753cf410fe640d40b28f756fed8ab8405",
+    "artifacts/experiments/reference.json": "74be89a8e807c69bb5f3aa713117cdbb557b67de749c4379ccac09f8a8e01c42",
+    "artifacts/experiments/variable_reference.npz": "b7911f790bcfebf1037def1cdcc92a1bdbbeb5e85715f275e392b3795b609dcf",
+    "artifacts/experiments/pv_without6.npz": "b07a15b0c5e961c67b129d90f6d16649237de848220c3f6e02cfa1fe690082f8",
+    "artifacts/experiments/scenarios14.json": "5c6006514c98fb0d19ccfdf46ea8de7f411a868a983c461d3d9484ff6e4fba6a",
+    "artifacts/experiments/variable_reference.json": "d9cd7be26e469363df5653c23166ea395b39b9fbbe4911547e75f6dd772291a2",
+    "artifacts/experiments/tail_zero.npz": "7c784135cd22aa5f900ebd7f60732936e3171c7cd5eb353dbc649a8cb5ff68e4",
+    "artifacts/experiments/annual_pv_without18.npz": "ced44a1fe78d57d1aa664af06df82d1964a0abfb8b04a3e9761d77f32969e7f4",
+    "artifacts/experiments/grid161.json": "b04b54b0fb14111975790a0ffc5376f85443154aa7c0e894cea0ba6d9a7476c6",
+    "artifacts/experiments/pv_without18.npz": "ffe49dd0ee44689f7deac93596f404216a80f71c73d12a9816cddb74b24b1eb0",
+    "artifacts/experiments/terminal6000.npz": "7de1219d61a0d5ad9c6cc1cf9fb6c592abefd8dff6c3a0c6066ad07ef9d48183",
+    "artifacts/experiments/scenarios14.npz": "7778290ee3c9b404b5eab6125a38530776c0d1150635b4d1d287666a6c9f4254",
+    "artifacts/experiments/tail_zero.json": "a4df8edf3c809e037dfa4ce64ff71d8d012dca939fdcd3c9be1470f439f92ea7",
+    "artifacts/experiments/terminal6000.json": "0139482f427a82a83ce2648ac91b1660017706c12c3270a51ad38e804491a061",
+    "artifacts/experiments/annual_pv_0only.json": "067b71d268b2dc903b86fd566caf621607dba411c88db8ba91f82584420657d1",
+    "artifacts/experiments/grid161.npz": "76170a50d94a263c7886ce5c59dca99a450799ab694773f6d1c386e1c203e558",
+    "artifacts/annual_sddp/q4_2_sddp_markov.json": "30e283af00fef08d39c0417c7f19b181e483182a2e275f654adb998be29c536f",
+    "artifacts/annual_sddp/q2_sddp_markov.json": "5f68b67c8d359e7d3799c7a41616a4bf26091e89765291b355435f91301bf4f9",
+    "artifacts/annual_sddp/q3_sddp_markov.npz": "560808b11d79267925ac71a75cab95dec6ae2b8116610fc6d7c79e37e5624d73",
+    "artifacts/annual_sddp/q4_2_sddp_markov.npz": "c4086e3ed89424cf95ce954c70042418086d9ee30dcd929947e011906e48c644",
+    "artifacts/annual_sddp/q3_sddp_markov.json": "4356d9581817c143b9f7e29433694c6ee241f4628501b4c7b8b66c96772822a4",
+    "artifacts/annual_sddp/q2_sddp_markov.npz": "60b8cd2ff603c0d861bfd3f01318d9581e289b4d8d45436afad3e5c3389930a0",
+    "artifacts/annual_sddp/q4_3_sddp_markov.json": "82024680ed3a1044509f0b520983cd3b8786934ef30af4f4ad9eab5b92c0deeb",
+    "artifacts/annual_sddp/q4_3_sddp_markov.npz": "bce2bdac7cfc98ff0704e603a158715834dd497343ae29fd17956d76a815cee2",
+    "artifacts/annual/q4_3_affine_mpc.json": "db6d35b21baeb0960279e37caa9accbf5c3c35a285f7fe05352e769eb9cb481a",
+    "artifacts/annual/q4_2_closed_baseline.npz": "c67521f47b3ed9a2427cdd56b6bc95c7ebd53e5c1bb69df63c2a7fdcc0182c99",
+    "artifacts/annual/q3_closed_affine.npz": "9e09d05c98a2c72f22b87972d1eb24fc775aff28e8135e613a804b2b6dd360fa",
+    "artifacts/annual/q4_3_closed_baseline.npz": "0b9dc0ae3cd0368d6350b8d42f67456f6e662ae982ef0baa4d4e51e2819ba7b1",
+    "artifacts/annual/q2_affine_mpc.json": "b7258d8d2aaa63e80c7b9f222cc59fc572eeaa343045410cdac725e75e3219b1",
+    "artifacts/annual/q3_closed_affine.json": "7c631d58e48921e0247eb7fa9172ca1ca50d1b7b981c01aec0d36b42a3439cd6",
+    "artifacts/annual/q2_markov_mpc.json": "0847fa769b62f16b96fce3d0713f21ea0eadf1eeb5f0e3b99d67f6b8d17926cb",
+    "artifacts/annual/q2_closed_affine.npz": "8cca83de371b79d5e9eaf406bd47db8f01d99175a5548d9d38cb887c5f86b3c2",
+    "artifacts/annual/q4_3_markov_mpc.json": "895d1ac7ed61a81bc8f7d92ecbf9f3080285f7bc28ceb66988601d0b451a44f8",
+    "artifacts/annual/q3_closed_baseline.npz": "6afaed66c6551ec1e353175e7ca1b5523583f717bdb4ab6ea73b0ed3a1aee70a",
+    "artifacts/annual/q3_cross_baseline.npz": "3b686dc4757c16e4a308a2097f07c6c30ac144442fd21d22515743e353ecaf1f",
+    "artifacts/annual/q2_closed_baseline.npz": "b39c6de0334a58e69ba5dbc33aeff1c9c32be78804278e79c544600fcc3feb02",
+    "artifacts/annual/q3_markov_mpc.json": "26b7c8bdf5683614486a44469f55b5677c2c9bf6fd43cf552503f2b8a5b7f41a",
+    "artifacts/annual/q4_2_closed_affine.json": "159a45a71dac3e80a8e3dc02c0f8ad31e8f0e21d77f2df74d8d291c00f50c692",
+    "artifacts/annual/q2_affine_mpc.npz": "873cc375f9a03b373a52191405cfdbcd20a4c73b5983360d757eb06f62bd3f17",
+    "artifacts/annual/q4_2_markov_mpc.json": "2d600bc2c15c93fc9da5422df0149410e8b7b6bdf23c090507a6e1362a8da412",
+    "artifacts/annual/q4_2_affine_mpc.npz": "d613bd74d40b35f44ea4715dfb3e34dcb26901b5c39dedc16d343a6860c82a06",
+    "artifacts/annual/q4_3_affine_mpc.npz": "993e1d1c169240a23736eca6b89e57ae2b70f984e5967867cbe486726bd98405",
+    "artifacts/annual/q4_2_affine_mpc.json": "79974be84a6835c12178f6cf725c3e62ee97d172078a816aa375d231f05a085a",
+    "artifacts/annual/q4_2_cross_baseline.npz": "f101e6a978b626fd2725c18ebeae6c596987f257d2fbd41715494dc82d5544b9",
+    "artifacts/annual/q3_affine_mpc.npz": "3a4b124e15e475e2ab3e4a688a0087b89781962465d417da9f6b0117622a82eb",
+    "artifacts/annual/q3_affine_mpc.json": "b304c6d672e3407eda82a958931778747eb9adb246c6b0988268579b4a75a5e1",
+    "artifacts/annual/q4_3_markov_mpc.npz": "abf6bb7c30a7a084886be89b911cc9c5fdc0c7baa3cf897e5fcf58c9fa0ce203",
+    "artifacts/annual/q4_2_cross_baseline.json": "1f6c700b1aa2c68388d208b4984d6260c285c67cee60530131fe001b9db930f4",
+    "artifacts/annual/q4_3_cross_baseline.npz": "317a5eaa34b5f305cdd90eac133b017e6656e5fba89a465fc183ba4f222047b2",
+    "artifacts/annual/q3_markov_mpc.npz": "2aa9df30144f0f5b586fda9b450c3eb320f2782441655f73a3f43e00cbc4748d",
+    "artifacts/annual/q4_3_cross_baseline.json": "3d7dc6556667b232e2d23f407df8860e2af1b01e2ac72d7d78a3d5f6e14019d2",
+    "artifacts/annual/q2_closed_baseline.json": "580dafdd972981767a54b36ffedbca9a270354c06de7f17f4aa0823174074382",
+    "artifacts/annual/q4_3_closed_affine.json": "2a6a82aaa8510546fde5cbaa5e4091a10a285da05fe3509d84bf7651d984078b",
+    "artifacts/annual/q4_3_closed_baseline.json": "78ce79a29ba7a17d1a68a21fa34739bcfc0152233303057fc5a3d539c9fec57e",
+    "artifacts/annual/q3_cross_baseline.json": "e82274b0212f36ced81b634ab95140614fa021619a34ad3635e4357de9d08e21",
+    "artifacts/annual/q2_markov_mpc.npz": "d4c6955b31fccbfbea213b0c9f298f9a1d9e18c6585db56ce678da841a8ec1c7",
+    "artifacts/annual/q4_2_markov_mpc.npz": "6c21f38c22c91f27df122cea1ece71642ee6d1339fe1350058bfb66f8ba342d5",
+    "artifacts/annual/q2_cross_baseline.json": "ccbd59ac97284dd28b53ff4c62f3f2fef894acaf43f28da36ff2a289bbfb2753",
+    "artifacts/annual/q3_closed_baseline.json": "ab7ec6373b1a16cac95462aaeb158e32675222b0f05bf91ac3b58ef87ccabe52",
+    "artifacts/annual/q4_2_closed_affine.npz": "410802e16f3380fbca1ada7d72505df99214ab60798be9ab6c1f906599cf7787",
+    "artifacts/annual/q2_cross_baseline.npz": "e6775b1d3911ca460e05dca952a9a59dc82847222e9959c9fca574d5da7d45cb",
+    "artifacts/annual/q4_3_closed_affine.npz": "a71df0c6ad3c526c480ff0bd46eef3b973216e933bf9c09a42cb85c4f1a6a263",
+    "artifacts/annual/q2_closed_affine.json": "e60ba89f7dfcc6ebc994a00c1ff5bee0030ff64d304ec7f59c3ab25be84a895f",
+    "artifacts/annual/q4_2_closed_baseline.json": "fe056bfc8ac85138f26c2ee65d4fcd01855509a67d8894397dc36cba7002b6f4",
+    "artifacts/global-terminal/q4_3_affine_mpc.json": "3bcaf787da3c5209254514c0f2ded7491fd4b388c4673148e1bf0dd70b1a4a11",
+    "artifacts/global-terminal/q2_affine_mpc.json": "8a3b3f21c877731c4450a045cdeea8de2b1cd81662ecbddbe4f1be482c3635e4",
+    "artifacts/global-terminal/q2_markov_mpc.json": "9e0ba0c6923e7a21793e9ef552e7bc189ece37cd0f99e74f06350a717355c9ac",
+    "artifacts/global-terminal/q4_3_markov_mpc.json": "30e9651fd420030a9f8b440f43721f0297d31e51a4efc45c8644d8dd4c64b57d",
+    "artifacts/global-terminal/q3_markov_mpc.json": "48abb7e0c7064f5916ff9d9ddea9e6aa43fa5d5f1df3b1ceda67a5c344aa8531",
+    "artifacts/global-terminal/q2_affine_mpc.npz": "dd4402fc64ebb728fa0e45a632ee383da0bda6a7ad59fb82390956b6afe96773",
+    "artifacts/global-terminal/q4_2_markov_mpc.json": "5941d84bd149c27edeaa83281fbfdaabd36f4b77e5ccb513542afc570a1166af",
+    "artifacts/global-terminal/q4_2_affine_mpc.npz": "b92e5a5d09f0e3e0b1ef58493d504720f4983cbf47de688ceddbd699f46716f7",
+    "artifacts/global-terminal/q4_3_affine_mpc.npz": "f3ed5b75dfa0aa64cd7dd91eb5d9e429d3e0ccf606d2a61f1067dff870139550",
+    "artifacts/global-terminal/q4_2_affine_mpc.json": "646f09594f692bcbef91b3aca218d37364b8aa4a72cb3bddad1ed200d7e3af93",
+    "artifacts/global-terminal/q3_affine_mpc.npz": "d4f30646dbdeeed78b65aa13b2dcbb7f20dc64f815791693d97c9d16665dcf96",
+    "artifacts/global-terminal/q3_affine_mpc.json": "12e5f59c389a94d2935874603681839b49b8b0024fd0199b36bfb3dc67ce01b7",
+    "artifacts/global-terminal/q4_3_markov_mpc.npz": "d9d2ae9736751c534f11322d834f42987bd35d2e8b24d1a402276a8e2508a205",
+    "artifacts/global-terminal/q3_markov_mpc.npz": "5d3083a543e143623dde5f964f302b693ca378218d7c88bc34ebd8633161723f",
+    "artifacts/global-terminal/q2_markov_mpc.npz": "8b4df5f97f7d0cd887a0c690eb8c2f93980f9fb9f24be105369514ebc6fb9ff6",
+    "artifacts/global-terminal/q4_2_markov_mpc.npz": "44a073ea8b20935f6221eabad299fca56c2f7a5c76e79889d662b33005fc4461",
+    "artifacts/calibrate_sddp/q3_sddp_mpc.npz": "ac629d9b1663778ec4900228a59002baf12188a57416ecac446bd202d0a649f2",
+    "artifacts/calibrate_sddp/q2_sddp_mpc.npz": "864590268be70420bc281632fb920a206fdd13ac9e3c028c08db5376ed0afcf7",
+    "artifacts/calibrate_sddp/q3_sddp_mpc.json": "22ca5214a5b2703b2f1376d930189cd6574d1711c13c57f72522292c2083cb22",
+    "artifacts/calibrate_sddp/q4_2_sddp_mpc.json": "acd36d05f59de5805c6b991a2427acf471c568420b3349914f977034beacda20",
+    "artifacts/calibrate_sddp/q4_2_sddp_markov.json": "0332497ea65c61ab75771d243daa9af039ea335257374d548a53eeaa8dff2f94",
+    "artifacts/calibrate_sddp/q2_sddp_markov.json": "ad4dc904fe7545b3d5c268284a754d6ed805c69a5734680e06a37025e58c6e9a",
+    "artifacts/calibrate_sddp/q4_3_sddp_mpc.json": "d2d2922aeaa704a18853d1e17eb50c7544dbf4414b53d06b1cf4e31b6e752814",
+    "artifacts/calibrate_sddp/q3_sddp_markov.npz": "e93e210bfc828ce4e294d653e9a49c509d5a01cde7cf2f7021938723daf1f642",
+    "artifacts/calibrate_sddp/q2_sddp_mpc.json": "5d2d65af501cd270a8409af291f1f648d006937a72b63c4b89312df19c59f355",
+    "artifacts/calibrate_sddp/q4_2_sddp_markov.npz": "19a4a3bf543f60af7fefbe49e82e84c0d0ee610013319109dd1d50d93501ba4b",
+    "artifacts/calibrate_sddp/q4_3_sddp_mpc.npz": "b67dd2b3460ef4a2a9dac7a6a92fe4b36034eba31e85c01cc017e8dd2da3bae1",
+    "artifacts/calibrate_sddp/q3_sddp_markov.json": "8797b503dc2eb861e9d91f929e3b18d64c25555e5b40a1a8608f0c2335810338",
+    "artifacts/calibrate_sddp/q2_sddp_markov.npz": "428eaa97b0d9d6d8a2f4d77226168d9a7fef2dc19688ef9f689531781e30a285",
+    "artifacts/calibrate_sddp/q4_3_sddp_markov.json": "3753e16e91e594d777137f2b69d9c5d8b079aac94d97a6517f7b6a8e81c734e4",
+    "artifacts/calibrate_sddp/q4_3_sddp_markov.npz": "72744fa2e8fd3e75e4bb3d3c5c8414b300d4b97693ecac228da19a280b1b4381",
+    "artifacts/calibrate_sddp/q4_2_sddp_mpc.npz": "4e3b901e13e8f7140e06c13ba89dae0fb478fe6ce56086201158150b804db474",
+    "artifacts/source-v1/run.py": "1c91e38d91b3d5760c5bfd158f416ff99e877ad2a6ce3bc54bb3e40c4cb9aa5d",
+    "artifacts/source-v1/sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "artifacts/source-v1/dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51",
+    "artifacts/source-v1/control.py": "a31e570b4046fddbd829c819bdd7aea63b934d909fc29d906d01e89112e0501f",
+    "artifacts/source-v1/forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+    "artifacts/pilot/q2_affine_mpc.json": "3ad335cdb5557b841513738cf00910b304a5ee987ac7c79f16b46db53fe0d4ac",
+    "artifacts/pilot/q2_markov_mpc.json": "f70b7dd79520b66dbc604e06b65bfe4f9e2f17ae7921373204f5315886cb5039",
+    "artifacts/pilot/q3_cross_baseline.npz": "f1865c2b0b98281aa2187898d6a06c69117b012d67668c3986c79ee2084b17ea",
+    "artifacts/pilot/q3_markov_mpc.json": "8f3b13a1198f5a84f65856d21ff028537380798ca3e2309be0f56e999b7c2edc",
+    "artifacts/pilot/q2_affine_mpc.npz": "bf5d8e3b85716de701d090d5d5ed1b8d94e1460cdd2827460f88ded4485f1152",
+    "artifacts/pilot/q3_affine_mpc.npz": "95c8a561b5ddd268f874b70a01440b59b3f75654464393ced2b1cbeaab679e31",
+    "artifacts/pilot/q3_affine_mpc.json": "c34fc54f49cb98cc723be393abd28866776d12ba0fe920e70cf67617087b03f4",
+    "artifacts/pilot/q3_markov_mpc.npz": "24bb6e7073492b90941d11db033a8d86f2bfc2f2a1b0ede34b059da4c9e3991c",
+    "artifacts/pilot/q3_cross_baseline.json": "36e3ef6b39450426072834655b33b078f6672ac6382953c13ca5d1b430da764e",
+    "artifacts/pilot/q2_markov_mpc.npz": "5b583b02a50debdbba20ad197daf55fd082729629699d831b909e5528a711811",
+    "artifacts/pilot/q2_cross_baseline.json": "95d135fa2fe2df237a3fd5758f4f8f8a93c519203f914970de2365833c549dde",
+    "artifacts/pilot/q2_cross_baseline.npz": "453b548b4234f29768b06f1b3e407cecc1d0a719c5ee3b5c3788bca3ebac879c",
+    "artifacts/calibrate/q4_3_affine_mpc.json": "b72213b78f24ea0f03c70770fc8b4ffc728229b479092669cbc4d9abab6fb606",
+    "artifacts/calibrate/q4_2_closed_baseline.npz": "7edc7ce2bee9bfd5f236ad2bff13c89e497ec3d6ddc75d2427bac156870334c6",
+    "artifacts/calibrate/q4_3_closed_baseline.npz": "91b4f763eedf0426ca5ac6606a48a248b3e1c4fbafed6da41ec962b88e0d184a",
+    "artifacts/calibrate/q2_affine_mpc.json": "62c71eaaf007056bd9a2f187f57ccf8119a152e6603fed0947fc49ae1e97805a",
+    "artifacts/calibrate/q2_markov_mpc.json": "be05e5baa8651572441c4bee6c4da05ead352025b9642463083e909e35d8a6fc",
+    "artifacts/calibrate/q4_3_markov_mpc.json": "d6057eae1b5f67d3e5a3e55322ed7dea669a08a4c965320a63856a9bcc3ed51a",
+    "artifacts/calibrate/q3_closed_baseline.npz": "007e09be9eb4b6a7bf25d2ae5da523ec9e142312227593cd7a70d3ebd5c3e527",
+    "artifacts/calibrate/q3_cross_baseline.npz": "c5bcdffdd2128afec8d9c8c38ca493ec15ba2083daae949445cbde3afbf47508",
+    "artifacts/calibrate/q2_closed_baseline.npz": "6085fd39d3b7204c56a8b1d8f58a491776f46a412ff1d935bd5a2c641f46e1b2",
+    "artifacts/calibrate/q3_markov_mpc.json": "de269113d16f7729476a96650fcbea0e2447a965bdc28ff65ece243187732597",
+    "artifacts/calibrate/q2_affine_mpc.npz": "d712d04fb15afa7b97a0dca0e41deca03f697f5fe9f6e2b5036df57f07b1afd3",
+    "artifacts/calibrate/q4_2_markov_mpc.json": "720b972ec914c2d8e3423bb59e8db290998951290a46ef583e027db0342a1211",
+    "artifacts/calibrate/q4_2_affine_mpc.npz": "d6709e026ad67809dafe3c0e3980994668d8673e07f11d7ba057166461bf5d00",
+    "artifacts/calibrate/q4_3_affine_mpc.npz": "becdf7b16443679f1c6c649fe9edbd8b12d3714a701f54b48e1d16ed364b1369",
+    "artifacts/calibrate/q4_2_affine_mpc.json": "da71384ed11a587d737d3a9565bef37bd2facc55c48086d3bb5503f18b29a5f3",
+    "artifacts/calibrate/q4_2_cross_baseline.npz": "a5ab89f408311fa5174d94fd67517e68368c138a37993684e602d2091ee729ac",
+    "artifacts/calibrate/q3_affine_mpc.npz": "21520445cdb8e433e9365e790fd45509122d6abd5a23e454231dfe7347c1ea17",
+    "artifacts/calibrate/q3_affine_mpc.json": "910dd530b4be3364c373ec3d76fcc3f9871111e5cf7588f29dd6e8a01ad40caa",
+    "artifacts/calibrate/q4_3_markov_mpc.npz": "deff72092c240539b575e4447f4a4a28e60d7aff23dbc0928404b4bf357f96ed",
+    "artifacts/calibrate/q4_2_cross_baseline.json": "6988905001f9856c46da9edb2c56337a54b2daa83f77f4f81307e0bdef6e6b2d",
+    "artifacts/calibrate/q4_3_cross_baseline.npz": "f8d592ae71a384d30a20037fec7acd32864199acffec74e7afe164f5d212b12c",
+    "artifacts/calibrate/q3_markov_mpc.npz": "77844fba56ddd7b35e7b461f4509d6042cf6374eb1d78364f12868e184d775d4",
+    "artifacts/calibrate/q4_3_cross_baseline.json": "4155ea4bf72d306dd7b085e964577268280d343a45a2924bfaca09aaeaad3625",
+    "artifacts/calibrate/q2_closed_baseline.json": "91b0bba7f4423629c21ceec060409ae27c662828d55144c3c0485240ea4c54f2",
+    "artifacts/calibrate/q4_3_closed_baseline.json": "773046a21bfd386a5b1c7e0a4fd99cb8f9495785b19c1f8ccb3119974d9beebf",
+    "artifacts/calibrate/q3_cross_baseline.json": "0cabf4a4cfe104e8213daa81f9103f1e5e1b788249e04fd9370e442fda1df25b",
+    "artifacts/calibrate/q2_markov_mpc.npz": "30f6b3d6045007e566758ab3831c9fb2550cbac67e463b1c2a973b8a16615571",
+    "artifacts/calibrate/q4_2_markov_mpc.npz": "ccd3b4bc5b114857813c995c03799eb4a0a33171e8e77a8a0e1bf0f38907648a",
+    "artifacts/calibrate/q2_cross_baseline.json": "cd7fc5a21d713f8e6af4ee0f6156cdc22c95f753a87f35e5cb2441eb6e15f50a",
+    "artifacts/calibrate/q3_closed_baseline.json": "f21e5d3ed46b1613a226024bafac8bd9a3d095e290e2baa8f1dc58728f57dfa8",
+    "artifacts/calibrate/q2_cross_baseline.npz": "2a072339262eb102e925a3e236ca73f7422e4fcec203254e9b96692ff9f462f6",
+    "artifacts/calibrate/q4_2_closed_baseline.json": "dcd0bd272652858cf454bc01af75f40d1a3ad82463f0d956107bb93b9139640e",
+    "artifacts/previews/result3-计划购电量.png": "c16c5a74d223a551d9b86a2106fc74f882912dc0d42ad7fd41efb0aa749cf70a",
+    "artifacts/previews/template-result3-计划购电量.png": "1dca06f7eb227f33e421ab62f5e6d00a0b85599d8186d097d4074efeb2098701",
+    "artifacts/previews/result4-2-计划购电量.png": "7f1c140059e7dd3dba78d50396658883a1fb61d9651726e37d64b7bab7119fe9",
+    "artifacts/previews/result4-3-费用汇总.png": "c45c2e0f1e992da2a814a1a3a0a120d9a7020cc317849099abe50e11decda810",
+    "artifacts/previews/result4-2-费用汇总.png": "c641c4ff9c9b4d1e3a7fe20d14714788e4540d92042e38f9cd17f576bc6223ad",
+    "artifacts/previews/result4-3-调整购电量.png": "7336cb551a1440e209ff40332b11f9efd1d30a61f0090bce88dc27ca78298649",
+    "artifacts/previews/result3-口径说明.png": "62598d4f9d0ee6942508e0ece6d29ed41679f9c80918a90a30bef60ad7d170cd",
+    "artifacts/previews/result2-口径说明.png": "62598d4f9d0ee6942508e0ece6d29ed41679f9c80918a90a30bef60ad7d170cd",
+    "artifacts/previews/result2-计划购电量.png": "de2b26c694b8819b8eea99888d5dcb0fd4664e697e944be802aea61c068e4942",
+    "artifacts/previews/result4-3-计划购电量.png": "7336cb551a1440e209ff40332b11f9efd1d30a61f0090bce88dc27ca78298649",
+    "artifacts/previews/result3-调整购电量.png": "c16c5a74d223a551d9b86a2106fc74f882912dc0d42ad7fd41efb0aa749cf70a",
+    "artifacts/previews/result2-充放电量.png": "2e7a765dd1ee91e20e4aaaae7df8daf41edbc8f35876569aa32a05f3f04a0ea6",
+    "artifacts/previews/result3-充放电量.png": "c851281b3e354091ea9674499431283107dc9af69076f6eab0e925c45d39c87f",
+    "artifacts/previews/template-result3-调整购电量.png": "1dca06f7eb227f33e421ab62f5e6d00a0b85599d8186d097d4074efeb2098701",
+    "artifacts/previews/template-result1-充放电量.png": "d945ce089bfca2f430edcfff2a8605001ac6f3334c027304275a5d40f6730339",
+    "artifacts/previews/template-result1-计划购电量.png": "95a07147bedba96a1aa7785dedd7515dd97a3da93d0a3a0b37a5079cdbc426df",
+    "artifacts/previews/result2-紧急购电量.png": "0abc7be3c3669f6e6fb15413a8e0e608dee883fbb2ba9f5dddf82883016d9a59",
+    "artifacts/previews/result4-3-紧急购电量.png": "c2b5513914515bf538a7c0a4ff6d26687f065d0d901fed6fed39e1ee844142d1",
+    "artifacts/previews/result1-计划购电量.png": "751297a0fa47f153e6c83c45fe84d7fabce28db3ba1e61cb49f7f903cd1b4d13",
+    "artifacts/previews/result1-口径说明.png": "62598d4f9d0ee6942508e0ece6d29ed41679f9c80918a90a30bef60ad7d170cd",
+    "artifacts/previews/result4-2-口径说明.png": "62598d4f9d0ee6942508e0ece6d29ed41679f9c80918a90a30bef60ad7d170cd",
+    "artifacts/previews/result4-3-口径说明.png": "62598d4f9d0ee6942508e0ece6d29ed41679f9c80918a90a30bef60ad7d170cd",
+    "artifacts/previews/result2-费用汇总.png": "9005c090e8b5ed8e2e76aab066b46f918fb5f22353f438b39cf187da993d5e1c",
+    "artifacts/previews/result3-费用汇总.png": "8f93ef1968feb72348a87d2d6691d430d9e335608ccb1f04016820154dd1dac4",
+    "artifacts/previews/result3-调整购电量-6点.png": "e8fd5268d7eb3132c939864e48895f4991a61363704df7c6cfe723168a3036f4",
+    "artifacts/previews/result4-3-调整购电量-6点.png": "dae9f33a55b833f1f5e7ff9a99872abcdb42d889f4234584404b39774edbb15b",
+    "artifacts/previews/result3-紧急购电量.png": "8d1f462f1f0e8f6056296bd002f1aa8fe48146d8b9db5074d845de210c8e0ed7",
+    "artifacts/previews/template-result3-紧急购电量.png": "49a84f57033811d8c47717839b2e2179729d70633534f5f946de327074232792",
+    "artifacts/previews/template-result3-充放电量.png": "5103c8ed74609f03fa458e75c8277dfa99311af08058f3795c0d0870a8a730f7",
+    "artifacts/previews/result4-2-紧急购电量.png": "1b2666ac62e03f0b412445578b6354daeeafb3183f5e1e58d650f80f78703620",
+    "artifacts/previews/result1-充放电量.png": "329b818f223ff38ceb914faeb8f4f4911e7bff4babf7c28da7c26886edcebd05",
+    "artifacts/previews/result4-3-充放电量.png": "e244f1ed9a6660583cbe517119ee2cc8c865c348fba3d9903d16241fb3986bb6",
+    "artifacts/previews/result4-2-充放电量.png": "aacd5661b01cd4e2613a57b342e468b0571d9f955f21ee7cfe46adb1b60f1f12",
+    "artifacts/tails-development300/q4_3_14.json": "f8883b4eed072ff9bac75cb48ac788c2131c8ef7786bd115aa684819615285f6",
+    "artifacts/tails-development300/q4_2_14.json": "28a4c6bd05b1640b01de42c54f44c3fb09618ec113c2b406d445ed08677caa5c",
+    "artifacts/tails-development300/q3_14.json": "af77ef469d3e39327c5bfc01b3b72b58efc0486d99e7903e16a7789a9a5e791a",
+    "artifacts/tails-development300/q2_14.json": "c5c29839f29cc879fd5ab24c78366e7503cf5eb2bcdaec6f32b8093fb0123cb2",
+    "artifacts/tails/q3_334_D2.json": "e4637060e2795019fb865775fc28613ee523566989b075e3dc4bac9192947d95",
+    "artifacts/tails/q2_243.json": "84c0645546b6eaf9f896fdf4edcad01c7830005cdb690b49235cddd7c92baf88",
+    "artifacts/tails/q3_243.json": "88b13a15eb6a1198c8230c115543c2941919932f92164d732249dce82871c131",
+    "artifacts/tails/q4_3_334_D1.json": "cc157f87f9aa827eb5a9f3bd9dda40761741ab1cc6da9f3007eb20858ad52880",
+    "artifacts/tails/q4_2_31.json": "0fdab7edb1897097e4be3cfe0e48af94a0e45770160105f3928c551197654275",
+    "artifacts/tails/q4_2_181.json": "8a87c597f6b0438e8ae90e08839bc49091e4467e1f5b4ec76fc37fb561fd340a",
+    "artifacts/tails/q4_3_181.json": "50b39b337d6bd36cb27e83dcffdb2a7a1ca77c77992dbeb946cfb6480b8bac82",
+    "artifacts/tails/q3_14_D2.json": "0e46cb1b8e73a2f979fb7f8e62c894c10041b0ede0a17e98e74324955c47c44e",
+    "artifacts/tails/q4_3_31.json": "3db7a04c6dd1faab46315c5d5f27a608af159ea50226b31267bb13ea1e7d5705",
+    "artifacts/tails/q4_2_14_D2.json": "6019664e604d8f3f3a557547f8d7f8280df295c68c70a88ff20e0b2e45baf3c1",
+    "artifacts/tails/q2_31_D1.json": "bfd47360e02233f0157ee0b226dfe2e964023baf1aaaea072fc2f67b6b6a4998",
+    "artifacts/tails/q4_3_334.json": "14f80da51351f2c3abb8d5cbfd36927c74aed139fb6033a08833788fc0db02be",
+    "artifacts/tails/q4_2_334.json": "fc99cc873ad9effea079779cfce8bd39ed99960a271f30104ca49ca13ac7f2e3",
+    "artifacts/tails/q2_151.json": "62261cf0915512e9615d2fc3e2db5795230a4b3333a776192638b38019948ccb",
+    "artifacts/tails/q3_151.json": "c38bc9f0914aca134be1425c50c053ec9c267712f02a37919a38d3b08269b5de",
+    "artifacts/tails/q2_273.json": "8c7c819ddedd2248be42e188f82b929c91b5997c44206bcdb78cdd1c6a73f557",
+    "artifacts/tails/q3_273.json": "9018e9dc4b265e204e26cae3527cd452b5ee586a526b48957576675edf22bf8a",
+    "artifacts/tails/q2_334_D1.json": "428c8f29a37f1d473076d728f12f48fad0b71a177cced49d44ea4c7d898c0259",
+    "artifacts/tails/q2_31.json": "21907f2333084ae5ebf639cc55074240de2d4a774e94858afb052ce706b4a62b",
+    "artifacts/tails/q2_212.json": "e20e4bbc736af2213cddbb9f2685799d8a01967e23f8c4ec6e1888e633419b1a",
+    "artifacts/tails/q3_212.json": "b41a3d6ca41a6d19d73c64bb63b2fc5f0cb9c85a25b8f7adb57337b546c5ff59",
+    "artifacts/tails/q4_2_334_D2.json": "162bf206b1463a661c2d22d6303521c49ebed710ed1030b18757fd3c5229841b",
+    "artifacts/tails/q4_3_14_D1.json": "94268a389cb84836cd3249669fab64070ecb6cef1070d6345b3b465cb22e45c7",
+    "artifacts/tails/q4_3_304.json": "6d9857aa03c948d29a43e6fd112c41e72749f96082d11281cac6e7f4c95d4c1e",
+    "artifacts/tails/q4_2_304.json": "4294186d5b87e7a15f540a2fdbb6f8bfa5901c323b71a88cafd9549455154846",
+    "artifacts/tails/q2_120.json": "45a4c423c9ad97e570b9095a09b51e397795115ca01ddf5b74fa3c10fd16ebdf",
+    "artifacts/tails/q3_120.json": "103250503a04cb973b272f8610b245b22cb7562dd5e5b11c190236824e09752c",
+    "artifacts/tails/q2_14_D1.json": "d5633e24f2872d8cfb7492cb22824fce9f7a21c98093a10a97b2cb8f4d655e29",
+    "artifacts/tails/q3_31.json": "5e22e4ad61a53a77419082a3297d8d56d569905a3f1377ddef223c92b6e50ac0",
+    "artifacts/tails/q4_3_59.json": "13f021faaca73a910e5b3ddda8b94f3798ff34f59bbfd16a2222d69da82ad0ac",
+    "artifacts/tails/q2_14_D2.json": "fe3eb57abce4101e191312f0c7323330a42a68a60fd2fb428a59bbfa2f4106ea",
+    "artifacts/tails/q4_3_151.json": "bfa4c2b74bcea5b018a5a5f50a7226844067bf264d65470cda1c31e32bf0d58e",
+    "artifacts/tails/q4_2_151.json": "7618f90e33ad2a9bdf0222af82160850ba4558f8c8325d11dea0b8bc1e3d52ae",
+    "artifacts/tails/q2_334.json": "5f2c396ac08510a53a8b69e8729d72c5fb55ffa8f0b343649f17fa02b8bfe0eb",
+    "artifacts/tails/q3_334.json": "686df2c87f07b8904f1fae54a05759879a45e75818b856d1d0565c414e27783f",
+    "artifacts/tails/q3_181.json": "63626a886b18f9cf38ccbc48bc24c552699fe9390ee856ecb8895e86ab32df73",
+    "artifacts/tails/q2_181.json": "bade54e66b0af38d485e3d259d8df10b09a0b86208159270c3374df56a8358e8",
+    "artifacts/tails/q4_3_14.json": "8496960f6203de28866b3308a8384adb16c0f99e4b14c34e55e2f33de88f7b50",
+    "artifacts/tails/q4_3_14_D2.json": "621c417b4b2fe54d5755861ab816e4dce7d9bc67482c1c73f5c3d88d92822251",
+    "artifacts/tails/q3_90.json": "7ff8419dde55eef795aff14bbb961866fcf553f5c73bdb26ec0e93dbc8be7f67",
+    "artifacts/tails/q4_2_14.json": "ed21adc6d81f5d73898b01809877a3d5bae473b94c234091e80b27cc18db5b9e",
+    "artifacts/tails/q2_90.json": "00af4cb02fb82ab1c61e5e8bfb4310daf1b4efa0cf0b9f4f87edb0a72bea3b9b",
+    "artifacts/tails/q4_2_334_D1.json": "c63c7154dbd4e58d0482f8bcb0a5392f87b03731868345fecee6646a0fd95029",
+    "artifacts/tails/q4_2_59.json": "72db037987ac2faf1aaa0c8a1db825beac62862ba268b9648947c1a3e680ced8",
+    "artifacts/tails/q2_334_D2.json": "a6b5f5427f58a941944b3e9bfe6fe1760f7ebd64fb04ff541ffd6e89990602d9",
+    "artifacts/tails/q4_3_243.json": "fe8da366bfc576e90e563be8edbb721275023e3f5455bf61ceb300611332aa4f",
+    "artifacts/tails/q4_2_243.json": "3232f1b5dce60014369b496f1d85e063b93da702401f0604a60075a70868018a",
+    "artifacts/tails/q2_304.json": "2b1872dc790b484f4ba52eb9e6492f9bc0f40bf2ed37dcdea9712dc4a67d1488",
+    "artifacts/tails/q3_304.json": "1420119dfea268db73b5f170cefdfd2351309cc303feec1956c3592372e05739",
+    "artifacts/tails/q3_14.json": "eb6fc0b0767971662a3c6386f0b323c0ac3db76453c216f7496d9f59ea37ad2b",
+    "artifacts/tails/q4_2_14_D1.json": "8d713f2e2e676d085ab2e4896e1599735b6b5c1cc632ea678aad99a039a355d5",
+    "artifacts/tails/q4_3_120.json": "eb79546b0ee98ec0faa0cc93400caa367c5d46bf5ecdc7d63eafc4c104609c7b",
+    "artifacts/tails/q4_2_120.json": "100b41d7354e892bfd7d86f9ca82131ddb3ab1cdd0ea0cd84d8f56e36ccc345f",
+    "artifacts/tails/q4_3_90.json": "3250ee77580485083551ccac47dd1f510aa28a6d8cccd11b44670236a488b8b0",
+    "artifacts/tails/q3_59.json": "90908e4911b8ca2283f8f27f9320856f7095760223bb48d29b7bb5555ad30a38",
+    "artifacts/tails/q3_14_D1.json": "a445bb0d8c2ad0e2db9e0cea51862cc6c252fdb1335c714f2f89bc4943da7ce7",
+    "artifacts/tails/q4_3_334_D2.json": "7d680831cceac32fcbfce6f35bb67e716947f5080bfa9bf91a92679fd95a76b8",
+    "artifacts/tails/q2_59.json": "3316c9b581aa306d81f40b2d6e022838a0ab1e584c5a0a8abebc15e00f276ef6",
+    "artifacts/tails/q4_3_212.json": "3c8c8a2179bdac0a037fb6e7ccfcde4464131b335375a8f1c671c88b61af8bb6",
+    "artifacts/tails/q4_2_212.json": "cdcaba1b75c88344e1f49535f19310e9d547d9feb8677981227e30f9e8d7428e",
+    "artifacts/tails/q3_334_D1.json": "8993336b6d9aef95faed0c82a13bebad9cabc9b8ddc8ecd6c4a1c7ee3131a7e2",
+    "artifacts/tails/q2_14.json": "4861a3866174eb7049418a2aae139d90501b408107396eb035a1316f87dbfc2d",
+    "artifacts/tails/q4_3_273.json": "c2e4764e97284cb992297f5486db884689dc96a27b7cd425e9c030be7e77ae03",
+    "artifacts/tails/q4_2_273.json": "4f0e6d36d57238db199f70923105a301a2e7aade719769d4919e69cc5bed4b6a",
+    "artifacts/tails/q4_2_90.json": "b7d2a35d0b9f62eb425f23720356e0a8cd2e535b388182ac410e10bb6482d8e2",
+    "figures/午夜库存轨迹.png": "7fe41aaa402805679ad28fa21dbde62438fdd1f88b61601054d9253994a26b24",
+    "figures/预报发布消融.png": "59e17d261690c7f357ea59b9f000d0ea6a4c60201b4f778597a7781e13708e25",
+    "figures/预报发布消融.svg": "b964144d4fd7a32417bc9ac8ac43c9b087b196ce699e720900a98f3ebd9ebe0e",
+    "figures/午夜库存轨迹.svg": "cdc2e384e2cac7bbf0289a6cabe5c01b13ca4eee1cd1b6190567cc26f631e972",
+    "figures/SDDP训练与库存价值.png": "99151ad1538ea9700b927b16f77dd336cdb63bad42a034305f6148cfa0b8a8cf",
+    "figures/年度方法比较.svg": "341fbe3ac3c287a2abb65414cb892f48b59030ce4d08065a98185e639c487b6a",
+    "figures/年度方法比较.png": "b3b1ae8fb9abd9dd3d1fb9857e5921d8eff94d3020aaff8d4efdef1e0b9a7c2b",
+    "figures/SDDP训练与库存价值.svg": "cd5d398622e3564924ad684998007bc1fc9f840cce020b7143fe1b17afb00b4a",
+    "计算结果/result4-2.xlsx": "2b679509fa10f7413e2abf846411b66dfb83b6a8fbb9422025bcbce7c7d90f86",
+    "计算结果/q4_2_调整发布记录.csv": "e491f536b75507da8733fda950fcf90bf416f047129835f474073ac7e8a53758",
+    "计算结果/q4_2_费用汇总.csv": "ddc3838be2d015363851173b83d33fb2ebdebbc381a1d9cb1074e63be8ae7441",
+    "计算结果/q4_3_费用汇总.csv": "75c69416334f854cb70baba9df5721c87b34c78ba0eaef98b460f27278267f88",
+    "计算结果/result4-3.xlsx": "613b599654c2c4fef5ab6c7c23115caebabbe8a4c84c8651257555a0111475a0",
+    "计算结果/q1_逐时完整策略.csv": "77e5cc581cb970c4d5a1fe13d709c9c052e23fd0f56359b5bf51e833f9c5d76e",
+    "计算结果/q4_3_紧急购电.csv": "7085a928e558c769fd175f54c9794be3aeb935341381207fb648db974d466938",
+    "计算结果/q4_2_紧急购电.csv": "303734199009c0fa4c3109f51246a804eca4998f1bc1347a294d3d104c7d8c49",
+    "计算结果/q3_调整发布记录.csv": "1915928beb4ac7c3973689f3bedcc54d80cce0da2e6e2bd84e1c93e433299123",
+    "计算结果/result2.xlsx": "aae2fed09f0f7b7af616ab7e9dd923fd90e2bee4a40d2419378a302e1c34138c",
+    "计算结果/q4_2_逐时完整策略.csv": "068d921973e18cd8eafa4cfa1be32626ba31f3bab84214773a811e1cc3db366c",
+    "计算结果/result3.xlsx": "ccdfd0f18fb9cc87a2480e780e74fe633de3b32b3398d299979985594435cac8",
+    "计算结果/q3_逐时完整策略.csv": "9bcc8d8450d834100bf244278b803798f5b2abcda583cf7f6c553c8b61e03c81",
+    "计算结果/q4_3_调整发布记录.csv": "45538cc8cc1b094af2f88f4d93ac2b8d8d7aabdb47e1ddc3ed31340a6f3532c4",
+    "计算结果/q2_紧急购电.csv": "4af0dd234d08bb2ec6a35fc9769109fe3f23973acd69df0930a09f822ed0537e",
+    "计算结果/q3_紧急购电.csv": "39d1177c14ae5bbfda5a812ca7e5289b55d6dfde7ed6c4a666a63b6dd5c0b409",
+    "计算结果/q3_费用汇总.csv": "1d8e8f579aae09bc08a87aabea6635ab96278ea15036aba8d1a5ed2767ed7566",
+    "计算结果/q2_费用汇总.csv": "834073ee5a5363c4345db6008b7f10eddd17694d5757d63a2e128ca55a8042ee",
+    "计算结果/q2_调整发布记录.csv": "dd98b3d8584b75644445f7f59aada02729b6d5df4760e14db131c17b93bfaad2",
+    "计算结果/result1.xlsx": "535e8f12cb099594d1b88a34d0faeeec7f0683886ff4b8b2bb3b4db3f18ceb77",
+    "计算结果/q4_3_逐时完整策略.csv": "09e96457a2f6b678828fdbaf0350b123aaeebde6eab75f0d8ce5fa9733dec63e",
+    "计算结果/q2_逐时完整策略.csv": "2de15e7464da423ce00ddfd1f1d0a8ff259727536dd706f672a524e0ae546d26",
+    "review/check-sddp.py": "91287e64836e988b4a10a69d98271fb91068c7f645e64740afb70d186199199e",
+    "review/short-fixed.npz": "323d941ab82e7eb06b603265ae4c7c899b1d1023e2befc70dd68e58d5da0d3c7",
+    "review/global-oracle-trajectories.npz": "a7d312ecbba3f2dc9c87dc4e2a41365cb2a4c94c7b2f6a6f3eb7f6484d524489",
+    "review/check-controllers.py": "aa43252bddd7a2d6bf815e141432f979cb32f6ef62c21a06802053682ec22d4c",
+    "review/short-free.npz": "1217ef685ffc3ac5aa583f0cfd8eddfb358f23256a74acdffe8ec152c8ab1edf",
+    "review/final-integrity.json": "311c44c84472d3442be470f6b8a492006f58baa883b898cf294365bb01c8bf30",
+    "review/check-final-supplement.py": "fb12907f08cc00619c432a61c2de7f3491831e28612ffd1555fbb5247080072d",
+    "review/global-oracle.json": "e7a7fd545dc30c42fafe7f8926546abf80d9dbbb8f40d4fa92e110db11f499ae",
+    "review/narrative-review.json": "4a413c41fd7b255f737c5018cf11535b608e4d0b63cbd94a0a5b7c850e185869",
+    "review/production-audit.json": "abdf21941568521f5e6f221600934974ea6120d5f06027ce6108759190763c5e",
+    "review/short-fixed.json": "8d5f08d996d0eb18b6071be0f1c20d2aac1be9c52cc5f8612a212bb6d999a750",
+    "review/check-final-integrity.py": "d01b3e0569e7abd83226c46405e4664b501ef7fede0254f6e8b2b71951ef3d92",
+    "review/framing-review.md": "7334a5438fe1fb416f3eb2f518c9e0dd6440772d0438aa2848be411319030290",
+    "review/check-v2-boundaries.py": "b2e3a4aff44f4a3dd642ea82c8828628c4117d24209f34e50b8047c489b2a9c2",
+    "review/findings.json": "30be4d35968b6a7cd5962ebad714b3ea9009d2695534097573af0492868b3dfe",
+    "review/short-free.json": "792ea9a4c1224d48a42455d6dcb9e7d619f9bf98ffd41438e35a7ece1fd5efbe",
+    "review/production-audit.md": "348a11fd655ad5bc874187bc4de23772a59ea054441067a23b11afbc322ead2d",
+    "review/controllers-review.md": "eff4d93163e308091efdcda75a85e233633be9caa2240e8bf21d15ff9fcd4885",
+    "review/check-production.py": "f1bb57fdb7f358b56d1b35f29efbd8eb60e83b742938e4d0995f3c16d7f696e7",
+    "review/check-global-oracle.py": "521236fd8bdca2ab116deb70d89471c5511bcad98b396272280fb8367734e266",
+    "review/final-review.md": "296b9b6555e226b00c40f7b2b1f863f10373806015e28945e3871c2850feeb60",
+    "review/narrative-review.md": "efe17bb880fef9ade6c3b105da5d60025d7d970e4146dc045e2d76a94a46998d",
+    "review/final-supplement.json": "280ed36519a48dc0134c3c8aeecbded5a97d945eee21b655ae99a43c9069b9f8",
+    "review/v2-boundary-review.md": "ba0e479e819cd02e81a61a7150e2f658aa96d0e356bb76e6903cf15851949e73",
+    "review/sddp-checks.json": "41d38a33896f8a8f06d7c7d6a37583c5d0ef811ef69d5db806625522e8cc1f58",
+    "review/sddp-review.md": "b08ad16cba12f168f157c54d4a2eb13dbad9266a8079486c8e9202dda3d7b721",
+    "review/v2-boundary-review.json": "d44c0a63088edfb42daacffb20760fdcacc50678cc59f39c4cb36588d7524eb1",
+    "review/controller-checks.json": "d258664bc98f50a1383b6ad8359fad80a4ab155f42e8bf4a44a72e3a69943a56",
+    "src/continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+    "src/verify_workbooks.py": "c08289f66e183a22d2489f79b22b915758586b8940fc4c65b5c8b70c1802550a",
+    "src/run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+    "src/preview_templates.mjs": "91aac107b2f73f7334bbc3ace80b4cba7efef94cc5c003ec6fb1911540c831cc",
+    "src/sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "src/prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+    "src/preview_saved.mjs": "7bc010d1fd9b099be6f79c4929b21bbe26e19b714fec772ea1e191d3ea0ef397",
+    "src/dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "src/control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+    "src/select_model.py": "4038e873c1d77e525ba1c2d591c0441dd93e527b8214acebb6c604196648b2f7",
+    "src/analyze_tail.py": "7c7c9dd491d21707eef4771d92f31ca03471d96d5a5c33f1df20b9758efb7ae0",
+    "src/freeze_evidence.py": "57562c3f701f071b261b8a962b88b484422896d496104a72a173208883b7ff75",
+    "src/validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+    "src/build_workbooks.mjs": "f692b14a614d30bcf49cdd8601d4aabde0f98d60a4418c7fe215145fb2c4f02f",
+    "src/export_results.py": "8467bdbda3c39ec8afa6eee6adfa6b0bf081c963dec4f8f719c2dd8ed40c5f87",
+    "src/check_terminal.py": "801e8a1c7c4c98d1d0285d8e195c31874322c5996b37760ce5e1588c047fdf34",
+    "src/package_when_ready.py": "20c8fce64211887745ac62670d91fc62b7d644d826252e2a9e0bd77a5532c8eb",
+    "src/finish.py": "5b60a3808504711ad903b5356f1d1281685e07a7b814f31e028ea45bfd5d9c4b",
+    "src/forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+    "建模计算交接.md": "1c1eaafa25e9ad38ae20c263fe6f49046c1568c79807e78fee1eeda9a62e6879",
+    "模型与推导.md": "20610c14d9d54d2e071cf84724d77daa854960c7e2d3212b6851e27dcfaa512d",
+    "指定日期结果表.md": "2547e0352f347bd3eddf76ccda638105624255d90043c641f35cc54ad7672be7",
+    "复现.sh": "08f6d1a3566eba2f83dac120710e658eab556ebf1e22710693ce87e0bec13a62",
+    "README.md": "f3b4898e5e032d20cf278c622a64e3b8c48b4cf6204b630e21067b5cd225e90a",
+    "requirements-model.txt": "f8f3e2ffd5659549b75e8de2e88b045df1bf48aaf76b4927bf577c12a35628d3"
+  },
+  "execution_records": {
+    "execution-train-D2.json": {
+      "command": "python3 src/run.py --phase train --cutoffs 14 334 --tail-days 2 --iterations 500 --workers 2",
+      "exit_code": 0,
+      "runtime_seconds": 1354.5039516659454,
+      "environment": {
+        "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+        "numpy": "2.4.1",
+        "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+      },
+      "results": [
+        {
+          "kind": "q2",
+          "cutoff": 14,
+          "runtime_seconds": 360.3742324579507,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 122553.21704306407,
+            "standard_error": 1024.3917196211055,
+            "normal_approximation_95_interval": [
+              120545.4092726067,
+              124561.02481352144
+            ],
+            "root_lower_bound": 121821.03832467964,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 334,
+          "runtime_seconds": 367.0331838328857,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 97609.95956988023,
+            "standard_error": 1131.9177036705985,
+            "normal_approximation_95_interval": [
+              95391.40087068586,
+              99828.5182690746
+            ],
+            "root_lower_bound": 96358.47999138625,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 14,
+          "runtime_seconds": 362.8603473750409,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 119474.07469846,
+            "standard_error": 774.9978698452236,
+            "normal_approximation_95_interval": [
+              117955.07887356335,
+              120993.07052335664
+            ],
+            "root_lower_bound": 117740.42753322166,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 334,
+          "runtime_seconds": 364.4681114999112,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 93834.47964176082,
+            "standard_error": 684.684204296864,
+            "normal_approximation_95_interval": [
+              92492.49860133896,
+              95176.46068218267
+            ],
+            "root_lower_bound": 92534.80168925243,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 14,
+          "runtime_seconds": 358.79114366695285,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 136844.09767949523,
+            "standard_error": 1447.7240465255477,
+            "normal_approximation_95_interval": [
+              134006.55854830515,
+              139681.6368106853
+            ],
+            "root_lower_bound": 136099.07694673847,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 334,
+          "runtime_seconds": 360.03661662503146,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 96614.87124371587,
+            "standard_error": 1283.6660804075714,
+            "normal_approximation_95_interval": [
+              94098.88572611703,
+              99130.8567613147
+            ],
+            "root_lower_bound": 95715.9125516443,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 14,
+          "runtime_seconds": 267.67146179196425,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 133091.23778201343,
+            "standard_error": 1139.4798975496788,
+            "normal_approximation_95_interval": [
+              130857.85718281606,
+              135324.6183812108
+            ],
+            "root_lower_bound": 130571.7545000328,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 334,
+          "runtime_seconds": 261.769419291988,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 93350.05528085664,
+            "standard_error": 950.428724268239,
+            "normal_approximation_95_interval": [
+              91487.21498129089,
+              95212.8955804224
+            ],
+            "root_lower_bound": 91463.37892326307,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        }
+      ],
+      "seed": 20260911,
+      "deterministic_reason": null,
+      "source_hashes": {
+        "continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+        "verify_workbooks.py": "0d30e015cb745321fc24f6cbb64ccb92a97ffd2e5b97b1e93675bfc75127c1ce",
+        "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+        "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+        "dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+        "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+        "select_model.py": "c3ee7adec341c176e75c3ab90c2df74147cde199e2141e4f77ad05e5e5be9a62",
+        "freeze_evidence.py": "6dffa0e6afedbd0120e236bd092b30d083039f20aede59bf8e878d73a8c8d485",
+        "validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+        "export_results.py": "7ce544846851b447bd119e483b790cf7f962987274669bfc7f7985d5320fa467",
+        "check_terminal.py": "82f4ef60d0b67b5905dfc7644987fe6bc7eac589689cd9ab4c7cdef1baaa7046",
+        "package_when_ready.py": "ce1697cc52c3e1c792973bdc8de4591e0746398a5481cee1756fe45e1b0d89fe",
+        "finish.py": "60b976901e49126625d15a14e66fbed55744ac975f9d2c8d11b7ea5309f422e7",
+        "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+      }
+    },
+    "execution-package.json": {
+      "results": [
+        {
+          "command": [
+            "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+            "/Users/wuchenjie/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.904.11930/skills/spreadsheets/container_tools/mark_artifact_operation_started.mjs",
+            "--operation-kind",
+            "create",
+            "--expected-output-count",
+            "5",
+            "--output-format",
+            "xlsx"
+          ],
+          "exit_code": 0,
+          "runtime_seconds": 0.1005372500512749
+        },
+        {
+          "command": [
+            "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+            "src/build_workbooks.mjs"
+          ],
+          "exit_code": 0,
+          "runtime_seconds": 16.958430958911777
+        },
+        {
+          "command": [
+            "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+            "src/verify_workbooks.py"
+          ],
+          "exit_code": 0,
+          "runtime_seconds": 3.0053480421192944
+        },
+        {
+          "command": [
+            "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+            "src/finish.py"
+          ],
+          "exit_code": 0,
+          "runtime_seconds": 1.1990305830258876
+        },
+        {
+          "command": [
+            "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+            "src/export_results.py"
+          ],
+          "exit_code": 0,
+          "runtime_seconds": 1.3208345831371844
+        },
+        {
+          "command": [
+            "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+            "src/verify_workbooks.py"
+          ],
+          "exit_code": 0,
+          "runtime_seconds": 2.756366959074512
+        }
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 25.34054837631993
+    },
+    "execution-experiments-short.json": {
+      "command": "python3 题解/C题_跨日随机控制/src/validate.py --scope short --workers 2",
+      "exit_code": 0,
+      "runtime_seconds": 837.5820747502148,
+      "source_sha256": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+      "results": [
+        {
+          "name": "grid161",
+          "total_cost": 242988.8095517944,
+          "runtime_seconds": 98.33403679192998
+        },
+        {
+          "name": "reference",
+          "total_cost": 243002.9036523587,
+          "runtime_seconds": 98.711647832999
+        },
+        {
+          "name": "grid641",
+          "total_cost": 243028.93781902536,
+          "runtime_seconds": 100.66241129208356
+        },
+        {
+          "name": "horizon3",
+          "total_cost": 240844.86910395272,
+          "runtime_seconds": 189.8340709998738
+        },
+        {
+          "name": "scenarios14",
+          "total_cost": 242792.43339670094,
+          "runtime_seconds": 297.6854087919928
+        },
+        {
+          "name": "tail_zero",
+          "total_cost": 243002.90323503528,
+          "runtime_seconds": 108.25080458307639
+        },
+        {
+          "name": "tail_double",
+          "total_cost": 243009.1009167258,
+          "runtime_seconds": 108.78461779188365
+        },
+        {
+          "name": "stress_load_up_pv_down",
+          "total_cost": 528779.5901785615,
+          "runtime_seconds": 111.60846891603433
+        },
+        {
+          "name": "terminal6000",
+          "total_cost": 245491.4347684696,
+          "runtime_seconds": 122.93417283403687
+        },
+        {
+          "name": "pv_0only",
+          "total_cost": 246987.0445338411,
+          "runtime_seconds": 83.94998095789924
+        },
+        {
+          "name": "pv_without6",
+          "total_cost": 245049.62029879942,
+          "runtime_seconds": 84.87931612506509
+        },
+        {
+          "name": "pv_without12",
+          "total_cost": 254975.40385132466,
+          "runtime_seconds": 77.06742279115133
+        },
+        {
+          "name": "pv_without18",
+          "total_cost": 243002.90365235868,
+          "runtime_seconds": 76.63496249984019
+        },
+        {
+          "name": "variable_stress",
+          "total_cost": 520779.30916702165,
+          "runtime_seconds": 51.501094750128686
+        },
+        {
+          "name": "variable_reference",
+          "total_cost": 242114.4657432649,
+          "runtime_seconds": 57.9412601669319
+        }
+      ],
+      "scope": "Prespecified seven-day March subproblems; common initial SOC6000 and free endpoint except the terminal comparison. Do not extrapolate their cost differences to annual totals."
+    },
+    "execution-annual_sddp.json": {
+      "command": "python3 src/run.py --phase annual_sddp --start 31 --stop 365 --candidates sddp_markov --workers 3",
+      "exit_code": 0,
+      "runtime_seconds": 3854.242702333955,
+      "environment": {
+        "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+        "numpy": "2.4.1",
+        "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+      },
+      "results": [
+        {
+          "kind": "q4_2",
+          "candidate": "sddp_markov",
+          "total_cost": 14657247.274966747,
+          "runtime_seconds": 1664.8855569998268
+        },
+        {
+          "kind": "q2",
+          "candidate": "sddp_markov",
+          "total_cost": 13844975.808918942,
+          "runtime_seconds": 1679.2124261669815
+        },
+        {
+          "kind": "q3",
+          "candidate": "sddp_markov",
+          "total_cost": 13461750.538630994,
+          "runtime_seconds": 2833.6092682080343
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "sddp_markov",
+          "total_cost": 14253077.438732347,
+          "runtime_seconds": 2188.2770433330443
+        }
+      ],
+      "seed": null,
+      "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+      "source_hashes": {
+        "continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+        "verify_workbooks.py": "c08289f66e183a22d2489f79b22b915758586b8940fc4c65b5c8b70c1802550a",
+        "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+        "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+        "dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+        "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+        "select_model.py": "4038e873c1d77e525ba1c2d591c0441dd93e527b8214acebb6c604196648b2f7",
+        "analyze_tail.py": "7c7c9dd491d21707eef4771d92f31ca03471d96d5a5c33f1df20b9758efb7ae0",
+        "freeze_evidence.py": "57562c3f701f071b261b8a962b88b484422896d496104a72a173208883b7ff75",
+        "validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+        "export_results.py": "7ce544846851b447bd119e483b790cf7f962987274669bfc7f7985d5320fa467",
+        "check_terminal.py": "801e8a1c7c4c98d1d0285d8e195c31874322c5996b37760ce5e1588c047fdf34",
+        "package_when_ready.py": "ce1697cc52c3e1c792973bdc8de4591e0746398a5481cee1756fe45e1b0d89fe",
+        "finish.py": "333b6e5a3e584db5fbf0ad54605ac99b1bb7396618c3484eea9656245da3c868",
+        "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+      }
+    },
+    "execution-calibrate.json": {
+      "command": "python3 题解/C题_跨日随机控制/src/run.py --phase calibrate --candidates closed_baseline cross_baseline affine_mpc markov_mpc --workers 4",
+      "exit_code": 0,
+      "runtime_seconds": 68.72779625002295,
+      "environment": {
+        "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+        "numpy": "2.4.1",
+        "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+      },
+      "results": [
+        {
+          "kind": "q2",
+          "candidate": "closed_baseline",
+          "total_cost": 357831.50493141764,
+          "runtime_seconds": 0.9890080830082297
+        },
+        {
+          "kind": "q2",
+          "candidate": "cross_baseline",
+          "total_cost": 347193.94010315835,
+          "runtime_seconds": 2.6845037501771003
+        },
+        {
+          "kind": "q3",
+          "candidate": "closed_baseline",
+          "total_cost": 350735.74790770817,
+          "runtime_seconds": 1.9556437500286847
+        },
+        {
+          "kind": "q3",
+          "candidate": "cross_baseline",
+          "total_cost": 346059.9831381737,
+          "runtime_seconds": 5.433873458066955
+        },
+        {
+          "kind": "q2",
+          "candidate": "affine_mpc",
+          "total_cost": 358491.1563306534,
+          "runtime_seconds": 15.011332333786413
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "closed_baseline",
+          "total_cost": 396302.9922238548,
+          "runtime_seconds": 1.094026249833405
+        },
+        {
+          "kind": "q2",
+          "candidate": "markov_mpc",
+          "total_cost": 344539.22891725734,
+          "runtime_seconds": 17.43813925003633
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "cross_baseline",
+          "total_cost": 385581.89539562917,
+          "runtime_seconds": 3.058458416024223
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "affine_mpc",
+          "total_cost": 399952.64893016627,
+          "runtime_seconds": 16.441882125101984
+        },
+        {
+          "kind": "q3",
+          "candidate": "affine_mpc",
+          "total_cost": 349365.400499225,
+          "runtime_seconds": 31.759909457992762
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "closed_baseline",
+          "total_cost": 391496.7440562579,
+          "runtime_seconds": 2.120415332959965
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "markov_mpc",
+          "total_cost": 384378.43811770633,
+          "runtime_seconds": 19.07436666591093
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "cross_baseline",
+          "total_cost": 386054.3675103319,
+          "runtime_seconds": 5.965889999875799
+        },
+        {
+          "kind": "q3",
+          "candidate": "markov_mpc",
+          "total_cost": 339412.43942864065,
+          "runtime_seconds": 34.59198524989188
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "affine_mpc",
+          "total_cost": 390049.68457198277,
+          "runtime_seconds": 29.444051791913807
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "markov_mpc",
+          "total_cost": 378803.55927664065,
+          "runtime_seconds": 29.968951458111405
+        }
+      ],
+      "seed": null,
+      "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+      "source_hashes": {
+        "run.py": "9e7d4e07e5d38b882d24706fa551440d2605a7551a8e63a65e80253944c1ff2c",
+        "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+        "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51",
+        "control.py": "b03b1021fcb82da8a8ef7350647c6c07b0b1871047fa4de380b63f569f7ac621",
+        "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+      }
+    },
+    "execution-finish.json": {
+      "command": "python3 src/finish.py",
+      "exit_code": 0,
+      "runtime_seconds": 0.8201546249911189
+    },
+    "execution-calibrate_closed.json": {
+      "command": "python3 题解/C题_跨日随机控制/src/run.py --phase calibrate_closed --start 24 --stop 31 --candidates closed_baseline closed_affine --workers 4",
+      "exit_code": 0,
+      "runtime_seconds": 38.23492066701874,
+      "environment": {
+        "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+        "numpy": "2.4.1",
+        "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+      },
+      "results": [
+        {
+          "kind": "q2",
+          "candidate": "closed_baseline",
+          "total_cost": 350805.6997589162,
+          "runtime_seconds": 2.538207875099033
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "closed_baseline",
+          "total_cost": 389533.5806111224,
+          "runtime_seconds": 2.6984921658877283
+        },
+        {
+          "kind": "q3",
+          "candidate": "closed_baseline",
+          "total_cost": 349847.2970562334,
+          "runtime_seconds": 5.317030958132818
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "closed_baseline",
+          "total_cost": 390343.7388867648,
+          "runtime_seconds": 5.495282499818131
+        },
+        {
+          "kind": "q2",
+          "candidate": "closed_affine",
+          "total_cost": 364716.1369887103,
+          "runtime_seconds": 14.29398220893927
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "closed_affine",
+          "total_cost": 406249.72463006905,
+          "runtime_seconds": 14.332524874946102
+        },
+        {
+          "kind": "q3",
+          "candidate": "closed_affine",
+          "total_cost": 357986.73860758735,
+          "runtime_seconds": 28.369980958057567
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "closed_affine",
+          "total_cost": 398477.6238616379,
+          "runtime_seconds": 26.882997541921213
+        }
+      ],
+      "seed": null,
+      "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+      "source_hashes": {
+        "run.py": "1c91e38d91b3d5760c5bfd158f416ff99e877ad2a6ce3bc54bb3e40c4cb9aa5d",
+        "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+        "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51",
+        "control.py": "a31e570b4046fddbd829c819bdd7aea63b934d909fc29d906d01e89112e0501f",
+        "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+      }
+    },
+    "execution-experiments-annual-releases.json": {
+      "command": "python3 src/validate.py --scope annual-releases --workers 3",
+      "exit_code": 0,
+      "runtime_seconds": 4347.4954834589735,
+      "source_sha256": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+      "results": [
+        {
+          "name": "annual_pv_without12",
+          "total_cost": 13638458.58238368,
+          "runtime_seconds": 2840.302473000018
+        },
+        {
+          "name": "annual_pv_0only",
+          "total_cost": 13776048.634147448,
+          "runtime_seconds": 2855.320427707862
+        },
+        {
+          "name": "annual_pv_without6",
+          "total_cost": 13531125.451426756,
+          "runtime_seconds": 2855.7759601669386
+        },
+        {
+          "name": "annual_pv_without18",
+          "total_cost": 13460126.846134413,
+          "runtime_seconds": 1506.202270833077
+        }
+      ],
+      "scope": "February–December continuous matched release ablations."
+    },
+    "execution-annual.json": {
+      "command": "python3 题解/C题_跨日随机控制/src/run.py --phase annual --candidates closed_baseline cross_baseline affine_mpc markov_mpc closed_affine --workers 4",
+      "exit_code": 0,
+      "runtime_seconds": 7780.923019082984,
+      "environment": {
+        "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+        "numpy": "2.4.1",
+        "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+      },
+      "results": [
+        {
+          "kind": "q2",
+          "candidate": "cross_baseline",
+          "total_cost": 14044404.970295334,
+          "runtime_seconds": 181.41525108297355
+        },
+        {
+          "kind": "q2",
+          "candidate": "closed_baseline",
+          "total_cost": 14181955.664783094,
+          "runtime_seconds": 186.72337387502193
+        },
+        {
+          "kind": "q3",
+          "candidate": "closed_baseline",
+          "total_cost": 13828014.100518633,
+          "runtime_seconds": 577.6926333338488
+        },
+        {
+          "kind": "q3",
+          "candidate": "cross_baseline",
+          "total_cost": 13690929.572131855,
+          "runtime_seconds": 815.9142629997805
+        },
+        {
+          "kind": "q2",
+          "candidate": "affine_mpc",
+          "total_cost": 14576736.63790052,
+          "runtime_seconds": 1740.856508916011
+        },
+        {
+          "kind": "q2",
+          "candidate": "closed_affine",
+          "total_cost": 14806348.918109573,
+          "runtime_seconds": 1714.644073459087
+        },
+        {
+          "kind": "q2",
+          "candidate": "markov_mpc",
+          "total_cost": 13841680.520143364,
+          "runtime_seconds": 1921.3368742919993
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "closed_baseline",
+          "total_cost": 15010601.458628615,
+          "runtime_seconds": 231.32369899982587
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "cross_baseline",
+          "total_cost": 14805235.054143704,
+          "runtime_seconds": 289.688641167013
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "affine_mpc",
+          "total_cost": 15414351.829105174,
+          "runtime_seconds": 1907.2572822079528
+        },
+        {
+          "kind": "q3",
+          "candidate": "affine_mpc",
+          "total_cost": 14044632.291712927,
+          "runtime_seconds": 3172.586434500059
+        },
+        {
+          "kind": "q3",
+          "candidate": "closed_affine",
+          "total_cost": 14351793.80672446,
+          "runtime_seconds": 3113.600925875129
+        },
+        {
+          "kind": "q3",
+          "candidate": "markov_mpc",
+          "total_cost": 13459169.009695424,
+          "runtime_seconds": 3417.824116999982
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "closed_baseline",
+          "total_cost": 14681668.450043777,
+          "runtime_seconds": 493.22560662496835
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "cross_baseline",
+          "total_cost": 14478786.620573897,
+          "runtime_seconds": 480.59178591589443
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "markov_mpc",
+          "total_cost": 14652127.402359782,
+          "runtime_seconds": 1634.728113999823
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "closed_affine",
+          "total_cost": 15690288.964598,
+          "runtime_seconds": 1322.9921975829639
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "affine_mpc",
+          "total_cost": 14844972.022996884,
+          "runtime_seconds": 2077.102585333865
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "markov_mpc",
+          "total_cost": 14249362.495141067,
+          "runtime_seconds": 2128.905419916846
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "closed_affine",
+          "total_cost": 15181643.818528727,
+          "runtime_seconds": 1795.055309416959
+        }
+      ],
+      "seed": null,
+      "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+      "source_hashes": {
+        "continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+        "verify_workbooks.py": "c08289f66e183a22d2489f79b22b915758586b8940fc4c65b5c8b70c1802550a",
+        "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+        "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+        "dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+        "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+        "select_model.py": "4038e873c1d77e525ba1c2d591c0441dd93e527b8214acebb6c604196648b2f7",
+        "analyze_tail.py": "7c7c9dd491d21707eef4771d92f31ca03471d96d5a5c33f1df20b9758efb7ae0",
+        "freeze_evidence.py": "57562c3f701f071b261b8a962b88b484422896d496104a72a173208883b7ff75",
+        "validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+        "export_results.py": "7ce544846851b447bd119e483b790cf7f962987274669bfc7f7985d5320fa467",
+        "check_terminal.py": "801e8a1c7c4c98d1d0285d8e195c31874322c5996b37760ce5e1588c047fdf34",
+        "package_when_ready.py": "ce1697cc52c3e1c792973bdc8de4591e0746398a5481cee1756fe45e1b0d89fe",
+        "finish.py": "333b6e5a3e584db5fbf0ad54605ac99b1bb7396618c3484eea9656245da3c868",
+        "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+      }
+    },
+    "execution-calibrate_sddp.json": {
+      "command": "python3 题解/C题_跨日随机控制/src/run.py --phase calibrate_sddp --start 24 --stop 31 --candidates sddp_mpc sddp_markov --workers 4",
+      "exit_code": 0,
+      "runtime_seconds": 38.666624791920185,
+      "environment": {
+        "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+        "numpy": "2.4.1",
+        "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+      },
+      "results": [
+        {
+          "kind": "q2",
+          "candidate": "sddp_mpc",
+          "total_cost": 358465.7758520287,
+          "runtime_seconds": 9.32364400010556
+        },
+        {
+          "kind": "q2",
+          "candidate": "sddp_markov",
+          "total_cost": 344539.2311055114,
+          "runtime_seconds": 10.998424415942281
+        },
+        {
+          "kind": "q3",
+          "candidate": "sddp_mpc",
+          "total_cost": 349369.28135208116,
+          "runtime_seconds": 19.468284292146564
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "sddp_mpc",
+          "total_cost": 399932.9790533105,
+          "runtime_seconds": 10.25048654107377
+        },
+        {
+          "kind": "q3",
+          "candidate": "sddp_markov",
+          "total_cost": 339437.6391098426,
+          "runtime_seconds": 20.96286362502724
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "sddp_markov",
+          "total_cost": 384378.3982923654,
+          "runtime_seconds": 11.796528958017007
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "sddp_mpc",
+          "total_cost": 390049.6845719828,
+          "runtime_seconds": 17.34027124987915
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "sddp_markov",
+          "total_cost": 378803.5592766406,
+          "runtime_seconds": 18.71994537487626
+        }
+      ],
+      "seed": null,
+      "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+      "source_hashes": {
+        "run.py": "1c91e38d91b3d5760c5bfd158f416ff99e877ad2a6ce3bc54bb3e40c4cb9aa5d",
+        "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+        "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51",
+        "control.py": "a31e570b4046fddbd829c819bdd7aea63b934d909fc29d906d01e89112e0501f",
+        "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+      }
+    },
+    "execution-workbook-q42-format-fix.json": {
+      "commands": [
+        [
+          "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+          "src/build_workbooks.mjs",
+          "result4-2"
+        ],
+        [
+          "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "src/verify_workbooks.py"
+        ]
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 8.105023792013526,
+      "reason": "Clear inherited battery cell formats to resolve first-date renderer defect"
+    },
+    "execution-workbook-layout-fix.json": {
+      "commands": [
+        [
+          "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+          "src/build_workbooks.mjs"
+        ],
+        [
+          "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "src/verify_workbooks.py"
+        ]
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 19.396746915997937,
+      "reason": "Unmerge date cells to fix blank date rendering; compact and vertically center text; preview6am revised contracts."
+    },
+    "execution-pilot.json": {
+      "command": "python3 题解/C题_跨日随机控制/src/run.py --phase pilot --candidates cross_baseline affine_mpc markov_mpc --kinds q2 q3 --workers 4",
+      "exit_code": 0,
+      "runtime_seconds": 1.389398125000298,
+      "environment": {
+        "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+        "numpy": "2.4.1",
+        "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+      },
+      "results": [
+        {
+          "kind": "q2",
+          "candidate": "cross_baseline",
+          "total_cost": 22562.459979671723,
+          "runtime_seconds": 0.11765441694296896
+        },
+        {
+          "kind": "q3",
+          "candidate": "cross_baseline",
+          "total_cost": 22567.706750740734,
+          "runtime_seconds": 0.18651304207742214
+        },
+        {
+          "kind": "q2",
+          "candidate": "affine_mpc",
+          "total_cost": 22399.034275218764,
+          "runtime_seconds": 0.36424183403141797
+        },
+        {
+          "kind": "q2",
+          "candidate": "markov_mpc",
+          "total_cost": 21294.81268328482,
+          "runtime_seconds": 0.45013816677965224
+        },
+        {
+          "kind": "q3",
+          "candidate": "affine_mpc",
+          "total_cost": 23226.976276542104,
+          "runtime_seconds": 0.6950776251032948
+        },
+        {
+          "kind": "q3",
+          "candidate": "markov_mpc",
+          "total_cost": 21412.21804480402,
+          "runtime_seconds": 0.7604340419638902
+        }
+      ],
+      "seed": null,
+      "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+      "source_hashes": {
+        "run.py": "9e7d4e07e5d38b882d24706fa551440d2605a7551a8e63a65e80253944c1ff2c",
+        "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+        "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51",
+        "control.py": "b03b1021fcb82da8a8ef7350647c6c07b0b1871047fa4de380b63f569f7ac621",
+        "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+      }
+    },
+    "execution-train.json": {
+      "command": "python3 题解/C题_跨日随机控制/src/run.py --phase train --iterations 500 --workers 4",
+      "exit_code": 0,
+      "runtime_seconds": 3881.9602278331295,
+      "environment": {
+        "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+        "numpy": "2.4.1",
+        "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+      },
+      "results": [
+        {
+          "kind": "q2",
+          "cutoff": 31,
+          "runtime_seconds": 117.58448712504469,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 180180.87421499862,
+            "standard_error": 1397.5662035872056,
+            "normal_approximation_95_interval": [
+              177441.6444559677,
+              182920.10397402954
+            ],
+            "root_lower_bound": 177654.51402406965,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 14,
+          "runtime_seconds": 118.82843245915137,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 184376.3450765409,
+            "standard_error": 1087.5453084872286,
+            "normal_approximation_95_interval": [
+              182244.75627190594,
+              186507.93388117585
+            ],
+            "root_lower_bound": 182848.7677614489,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 90,
+          "runtime_seconds": 119.5841265830677,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 117483.17323120096,
+            "standard_error": 1374.3550273425476,
+            "normal_approximation_95_interval": [
+              114789.43737760956,
+              120176.90908479235
+            ],
+            "root_lower_bound": 116501.36395552428,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 59,
+          "runtime_seconds": 120.46209658309817,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 147109.2352135593,
+            "standard_error": 1479.896684801419,
+            "normal_approximation_95_interval": [
+              144208.6377113485,
+              150009.83271577008
+            ],
+            "root_lower_bound": 145462.79189520824,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 120,
+          "runtime_seconds": 174.57000187481754,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 97649.06423813199,
+            "standard_error": 916.9001766284813,
+            "normal_approximation_95_interval": [
+              95851.93989194017,
+              99446.18858432381
+            ],
+            "root_lower_bound": 97147.59641995704,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 151,
+          "runtime_seconds": 178.5380988328252,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 98704.03017278897,
+            "standard_error": 820.5693577719765,
+            "normal_approximation_95_interval": [
+              97095.7142315559,
+              100312.34611402205
+            ],
+            "root_lower_bound": 98052.73891652866,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 181,
+          "runtime_seconds": 179.27723533310927,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 137771.4245297939,
+            "standard_error": 1415.8737595235373,
+            "normal_approximation_95_interval": [
+              134996.31196112777,
+              140546.53709846004
+            ],
+            "root_lower_bound": 136415.49008923236,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 212,
+          "runtime_seconds": 180.15357912518084,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 145295.88101401032,
+            "standard_error": 1401.0765911033534,
+            "normal_approximation_95_interval": [
+              142549.77089544776,
+              148041.99113257288
+            ],
+            "root_lower_bound": 143934.38524877143,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 243,
+          "runtime_seconds": 255.78906262503006,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 130735.99133678692,
+            "standard_error": 843.8381344375433,
+            "normal_approximation_95_interval": [
+              129082.06859328932,
+              132389.9140802845
+            ],
+            "root_lower_bound": 130226.98461944192,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 273,
+          "runtime_seconds": 261.6399085840676,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 114650.6887561285,
+            "standard_error": 937.181576393698,
+            "normal_approximation_95_interval": [
+              112813.81286639685,
+              116487.56464586014
+            ],
+            "root_lower_bound": 114347.33587677845,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 304,
+          "runtime_seconds": 264.9695725000929,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 120091.28607057917,
+            "standard_error": 1212.4153581829546,
+            "normal_approximation_95_interval": [
+              117714.95196854058,
+              122467.62017261775
+            ],
+            "root_lower_bound": 119392.8802258751,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 334,
+          "runtime_seconds": 272.50950625003316,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 146335.45538646085,
+            "standard_error": 1313.5398989756245,
+            "normal_approximation_95_interval": [
+              143760.91718446862,
+              148909.99358845307
+            ],
+            "root_lower_bound": 144708.8201351975,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 14,
+          "runtime_seconds": 376.85170404193923,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 180266.57089177566,
+            "standard_error": 832.8729073777919,
+            "normal_approximation_95_interval": [
+              178634.13999331518,
+              181899.00179023613
+            ],
+            "root_lower_bound": 175882.82357476468,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 31,
+          "runtime_seconds": 377.9254796251189,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 175863.46145264548,
+            "standard_error": 744.0412585885044,
+            "normal_approximation_95_interval": [
+              174405.140585812,
+              177321.78231947895
+            ],
+            "root_lower_bound": 170721.45145819697,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 59,
+          "runtime_seconds": 378.30894770799205,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 144817.41877305618,
+            "standard_error": 963.8157190081727,
+            "normal_approximation_95_interval": [
+              142928.33996380016,
+              146706.4975823122
+            ],
+            "root_lower_bound": 139231.31472184684,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 90,
+          "runtime_seconds": 375.3031907500699,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 114384.66079243121,
+            "standard_error": 557.8564946120791,
+            "normal_approximation_95_interval": [
+              113291.26206299153,
+              115478.05952187089
+            ],
+            "root_lower_bound": 112469.56805748973,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 120,
+          "runtime_seconds": 514.4902465001214,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 95757.72369677668,
+            "standard_error": 455.8382304506714,
+            "normal_approximation_95_interval": [
+              94864.28076509337,
+              96651.16662845999
+            ],
+            "root_lower_bound": 95360.23092226393,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 151,
+          "runtime_seconds": 520.8430771250278,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 96800.49578880322,
+            "standard_error": 429.15435677694205,
+            "normal_approximation_95_interval": [
+              95959.35324952041,
+              97641.63832808603
+            ],
+            "root_lower_bound": 96024.68450230596,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 181,
+          "runtime_seconds": 528.472587000113,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 133102.56230614687,
+            "standard_error": 699.2222583162534,
+            "normal_approximation_95_interval": [
+              131732.086679847,
+              134473.03793244672
+            ],
+            "root_lower_bound": 130280.39840148001,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 212,
+          "runtime_seconds": 527.535456124926,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 142035.04427409475,
+            "standard_error": 586.7009748527491,
+            "normal_approximation_95_interval": [
+              140885.11036338337,
+              143184.97818480612
+            ],
+            "root_lower_bound": 139847.70830732764,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 243,
+          "runtime_seconds": 353.24605900002643,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 129154.83954712778,
+            "standard_error": 471.4185301375522,
+            "normal_approximation_95_interval": [
+              128230.85922805818,
+              130078.81986619737
+            ],
+            "root_lower_bound": 128073.49211311528,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 273,
+          "runtime_seconds": 339.7107355420012,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 113887.40687064563,
+            "standard_error": 490.6540545008319,
+            "normal_approximation_95_interval": [
+              112925.724923824,
+              114849.08881746726
+            ],
+            "root_lower_bound": 112206.70419277521,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 304,
+          "runtime_seconds": 332.9458813332021,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 117865.15807103459,
+            "standard_error": 698.7192673202719,
+            "normal_approximation_95_interval": [
+              116495.66830708686,
+              119234.64783498232
+            ],
+            "root_lower_bound": 116010.3251400078,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 334,
+          "runtime_seconds": 332.2405764157884,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 142199.19665284513,
+            "standard_error": 766.0631112239242,
+            "normal_approximation_95_interval": [
+              140697.71295484624,
+              143700.68035084402
+            ],
+            "root_lower_bound": 138824.0908898243,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 14,
+          "runtime_seconds": 192.18046487495303,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 205628.07480700407,
+            "standard_error": 1714.6113189483478,
+            "normal_approximation_95_interval": [
+              202267.43662186532,
+              208988.71299214283
+            ],
+            "root_lower_bound": 204008.60178042672,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 31,
+          "runtime_seconds": 193.1202991248574,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 196955.0540922606,
+            "standard_error": 1934.9442946033666,
+            "normal_approximation_95_interval": [
+              193162.563274838,
+              200747.5449096832
+            ],
+            "root_lower_bound": 195934.68721703117,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 59,
+          "runtime_seconds": 191.97618049988523,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 146621.0182511621,
+            "standard_error": 1779.3184636374572,
+            "normal_approximation_95_interval": [
+              143133.5540624327,
+              150108.48243989152
+            ],
+            "root_lower_bound": 144772.85299947907,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 90,
+          "runtime_seconds": 193.3543129998725,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 111060.15629214911,
+            "standard_error": 1335.841873149686,
+            "normal_approximation_95_interval": [
+              108441.90622077572,
+              113678.4063635225
+            ],
+            "root_lower_bound": 110382.27803192561,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 120,
+          "runtime_seconds": 223.5787568341475,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 90873.02389755276,
+            "standard_error": 978.2532229623332,
+            "normal_approximation_95_interval": [
+              88955.64758054659,
+              92790.40021455893
+            ],
+            "root_lower_bound": 90397.63296651284,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 151,
+          "runtime_seconds": 230.23069287487306,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 93493.24736850991,
+            "standard_error": 1005.2059367597059,
+            "normal_approximation_95_interval": [
+              91523.0437324609,
+              95463.45100455893
+            ],
+            "root_lower_bound": 92755.79184239943,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 181,
+          "runtime_seconds": 229.13057924993336,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 139389.60344333682,
+            "standard_error": 1732.1093518637783,
+            "normal_approximation_95_interval": [
+              135994.6691136838,
+              142784.53777298983
+            ],
+            "root_lower_bound": 137307.75415651486,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 212,
+          "runtime_seconds": 233.57635120791383,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 162900.97948000778,
+            "standard_error": 1833.680721960509,
+            "normal_approximation_95_interval": [
+              159306.96526496517,
+              166494.9936950504
+            ],
+            "root_lower_bound": 161278.7605098155,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 243,
+          "runtime_seconds": 209.89425150002353,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 143953.71191085028,
+            "standard_error": 1268.8879946458953,
+            "normal_approximation_95_interval": [
+              141466.69144134433,
+              146440.73238035623
+            ],
+            "root_lower_bound": 143487.19304922008,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 273,
+          "runtime_seconds": 217.51791837485507,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 111214.70216832092,
+            "standard_error": 1041.7111283448871,
+            "normal_approximation_95_interval": [
+              109172.94835676494,
+              113256.45597987689
+            ],
+            "root_lower_bound": 110932.84482720573,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 304,
+          "runtime_seconds": 219.0836982910987,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 115332.55596997563,
+            "standard_error": 1336.3940432242077,
+            "normal_approximation_95_interval": [
+              112713.22364525618,
+              117951.88829469508
+            ],
+            "root_lower_bound": 114706.08229165082,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 334,
+          "runtime_seconds": 248.22138433391228,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 144812.00783240618,
+            "standard_error": 1532.415518581927,
+            "normal_approximation_95_interval": [
+              141808.4734159856,
+              147815.54224882676
+            ],
+            "root_lower_bound": 143502.14730337198,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 14,
+          "runtime_seconds": 566.5460655000061,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 201119.21517702978,
+            "standard_error": 1408.6400148451419,
+            "normal_approximation_95_interval": [
+              198358.2807479333,
+              203880.14960612624
+            ],
+            "root_lower_bound": 195058.6996335774,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 59,
+          "runtime_seconds": 567.9877134589478,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 143040.6361960114,
+            "standard_error": 1303.4371622940316,
+            "normal_approximation_95_interval": [
+              140485.89935791507,
+              145595.3730341077
+            ],
+            "root_lower_bound": 138144.67351706602,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 31,
+          "runtime_seconds": 573.5217112500686,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 193537.35120768318,
+            "standard_error": 1317.2519533602613,
+            "normal_approximation_95_interval": [
+              190955.53737909708,
+              196119.1650362693
+            ],
+            "root_lower_bound": 187134.7103584647,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 90,
+          "runtime_seconds": 543.9839722909965,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 107971.4008013586,
+            "standard_error": 742.617956730562,
+            "normal_approximation_95_interval": [
+              106515.8696061667,
+              109426.9319965505
+            ],
+            "root_lower_bound": 106385.91341718996,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 120,
+          "runtime_seconds": 556.732449709205,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 89531.82635872075,
+            "standard_error": 573.6852873192746,
+            "normal_approximation_95_interval": [
+              88407.40319557497,
+              90656.24952186653
+            ],
+            "root_lower_bound": 88682.6769148189,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 151,
+          "runtime_seconds": 559.2377857079264,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 91323.36485066425,
+            "standard_error": 562.7818638981996,
+            "normal_approximation_95_interval": [
+              90220.31239742378,
+              92426.41730390472
+            ],
+            "root_lower_bound": 90924.7199890956,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 181,
+          "runtime_seconds": 569.5424869169947,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 135020.0391004148,
+            "standard_error": 954.5088470569345,
+            "normal_approximation_95_interval": [
+              133149.20176018323,
+              136890.8764406464
+            ],
+            "root_lower_bound": 131618.61654803064,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 212,
+          "runtime_seconds": 565.3604332499672,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 158445.95036752912,
+            "standard_error": 865.2197881815885,
+            "normal_approximation_95_interval": [
+              156750.1195826932,
+              160141.78115236503
+            ],
+            "root_lower_bound": 157163.93705468072,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 243,
+          "runtime_seconds": 320.7483269579243,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 141695.6159531667,
+            "standard_error": 715.3179545062353,
+            "normal_approximation_95_interval": [
+              140293.59276233448,
+              143097.63914399894
+            ],
+            "root_lower_bound": 141174.70263777967,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 273,
+          "runtime_seconds": 301.6301844578702,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 109698.55969393774,
+            "standard_error": 726.3083185432382,
+            "normal_approximation_95_interval": [
+              108274.995389593,
+              111122.12399828249
+            ],
+            "root_lower_bound": 108980.29551606865,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 304,
+          "runtime_seconds": 294.0788507498801,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 112849.44117344281,
+            "standard_error": 845.3659707779834,
+            "normal_approximation_95_interval": [
+              111192.52387071797,
+              114506.35847616766
+            ],
+            "root_lower_bound": 111385.31932319935,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 334,
+          "runtime_seconds": 288.5440826669801,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 140355.5194143445,
+            "standard_error": 1111.8882989182669,
+            "normal_approximation_95_interval": [
+              138176.2183484647,
+              142534.82048022433
+            ],
+            "root_lower_bound": 136872.21274988822,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        }
+      ],
+      "seed": 20260911,
+      "deterministic_reason": null,
+      "source_hashes": {
+        "continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+        "verify_workbooks.py": "0d30e015cb745321fc24f6cbb64ccb92a97ffd2e5b97b1e93675bfc75127c1ce",
+        "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+        "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+        "dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+        "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+        "select_model.py": "c3ee7adec341c176e75c3ab90c2df74147cde199e2141e4f77ad05e5e5be9a62",
+        "freeze_evidence.py": "6dffa0e6afedbd0120e236bd092b30d083039f20aede59bf8e878d73a8c8d485",
+        "validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+        "export_results.py": "7ce544846851b447bd119e483b790cf7f962987274669bfc7f7985d5320fa467",
+        "check_terminal.py": "82f4ef60d0b67b5905dfc7644987fe6bc7eac589689cd9ab4c7cdef1baaa7046",
+        "package_when_ready.py": "ce1697cc52c3e1c792973bdc8de4591e0746398a5481cee1756fe45e1b0d89fe",
+        "finish.py": "60b976901e49126625d15a14e66fbed55744ac975f9d2c8d11b7ea5309f422e7",
+        "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+      }
+    },
+    "execution-selection.json": {
+      "command": "python3 题解/C题_跨日随机控制/src/select_model.py",
+      "exit_code": 0,
+      "runtime_seconds": 0.010665874928236008,
+      "selected": {
+        "q2": "markov_mpc",
+        "q3": "markov_mpc",
+        "q4_2": "markov_mpc",
+        "q4_3": "markov_mpc"
+      },
+      "reads_annual_costs": false
+    },
+    "execution-export.json": {
+      "command": "python3 src/export_results.py",
+      "exit_code": 0,
+      "runtime_seconds": 1.2561149578541517,
+      "selected": {
+        "q2": "markov_mpc",
+        "q3": "markov_mpc",
+        "q4_2": "markov_mpc",
+        "q4_3": "markov_mpc"
+      }
+    },
+    "execution-workbook-final-preview.json": {
+      "commands": [
+        [
+          "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+          "src/build_workbooks.mjs"
+        ],
+        [
+          "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "src/verify_workbooks.py"
+        ]
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 29.533754917094484,
+      "reason": "Render reimported final XLSX to avoid stale merged-cell preview state"
+    },
+    "execution-calibrate_sddp_v2.json": {
+      "command": "python3 src/run.py --phase calibrate_sddp_v2 --start 24 --stop 31 --candidates sddp_mpc sddp_markov --workers 3",
+      "exit_code": 0,
+      "runtime_seconds": 101.03849350009114,
+      "environment": {
+        "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+        "numpy": "2.4.1",
+        "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+      },
+      "results": [
+        {
+          "kind": "q2",
+          "candidate": "sddp_mpc",
+          "total_cost": 358497.88773318595,
+          "runtime_seconds": 19.756635082885623
+        },
+        {
+          "kind": "q2",
+          "candidate": "sddp_markov",
+          "total_cost": 344539.2289057616,
+          "runtime_seconds": 22.973920749966055
+        },
+        {
+          "kind": "q3",
+          "candidate": "sddp_mpc",
+          "total_cost": 349359.97573698143,
+          "runtime_seconds": 39.68829366704449
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "sddp_mpc",
+          "total_cost": 399902.9456533601,
+          "runtime_seconds": 21.40122279105708
+        },
+        {
+          "kind": "q3",
+          "candidate": "sddp_markov",
+          "total_cost": 339437.65936127875,
+          "runtime_seconds": 43.91725991712883
+        },
+        {
+          "kind": "q4_2",
+          "candidate": "sddp_markov",
+          "total_cost": 384378.3982923654,
+          "runtime_seconds": 24.710339833050966
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "sddp_mpc",
+          "total_cost": 390049.6845719827,
+          "runtime_seconds": 37.73085275013
+        },
+        {
+          "kind": "q4_3",
+          "candidate": "sddp_markov",
+          "total_cost": 378803.5592766406,
+          "runtime_seconds": 36.70027945796028
+        }
+      ],
+      "seed": null,
+      "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+      "source_hashes": {
+        "continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+        "verify_workbooks.py": "0d30e015cb745321fc24f6cbb64ccb92a97ffd2e5b97b1e93675bfc75127c1ce",
+        "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+        "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+        "dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+        "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+        "select_model.py": "c3ee7adec341c176e75c3ab90c2df74147cde199e2141e4f77ad05e5e5be9a62",
+        "freeze_evidence.py": "ea29c47fa1e00050227ba01aaf8aba2d9fbd1964f624ec1c6236a8e06ac7f2aa",
+        "validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+        "export_results.py": "7ce544846851b447bd119e483b790cf7f962987274669bfc7f7985d5320fa467",
+        "check_terminal.py": "82f4ef60d0b67b5905dfc7644987fe6bc7eac589689cd9ab4c7cdef1baaa7046",
+        "package_when_ready.py": "ce1697cc52c3e1c792973bdc8de4591e0746398a5481cee1756fe45e1b0d89fe",
+        "finish.py": "7f6accd20a77be4ac6fb60ba41b9395feb93bd87c04289ab70ef6c1a1b83d120",
+        "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+      }
+    },
+    "execution-train-D1.json": {
+      "command": "python3 题解/C题_跨日随机控制/src/run.py --phase train --cutoffs 14 334 --tail-days 1 --iterations 500 --workers 2",
+      "exit_code": 0,
+      "runtime_seconds": 288.76417066692375,
+      "environment": {
+        "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+        "numpy": "2.4.1",
+        "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+      },
+      "results": [
+        {
+          "kind": "q2",
+          "cutoff": 14,
+          "runtime_seconds": 70.58144233399071,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 60328.1329092251,
+            "standard_error": 598.5462109148467,
+            "normal_approximation_95_interval": [
+              59154.982335832006,
+              61501.2834826182
+            ],
+            "root_lower_bound": 60378.40137916111,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q2",
+          "cutoff": 334,
+          "runtime_seconds": 70.90212308405899,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 47610.98679280463,
+            "standard_error": 638.9206656549561,
+            "normal_approximation_95_interval": [
+              46358.70228812091,
+              48863.27129748835
+            ],
+            "root_lower_bound": 47666.58191740416,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 334,
+          "runtime_seconds": 71.925334374886,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 45778.95713577373,
+            "standard_error": 485.2973949311165,
+            "normal_approximation_95_interval": [
+              44827.77424170874,
+              46730.140029838716
+            ],
+            "root_lower_bound": 45856.74237300966,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q3",
+          "cutoff": 14,
+          "runtime_seconds": 73.33791100000963,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 58666.808395589454,
+            "standard_error": 485.03759128885594,
+            "normal_approximation_95_interval": [
+              57716.1347166633,
+              59617.48207451561
+            ],
+            "root_lower_bound": 58567.40542857463,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 14,
+          "runtime_seconds": 71.64875791687518,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 67483.85328093571,
+            "standard_error": 850.0196862961002,
+            "normal_approximation_95_interval": [
+              65817.81469579536,
+              69149.89186607607
+            ],
+            "root_lower_bound": 67566.26341176959,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_2",
+          "cutoff": 334,
+          "runtime_seconds": 71.83136383397505,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 47370.064588412635,
+            "standard_error": 710.4844079391181,
+            "normal_approximation_95_interval": [
+              45977.51514885196,
+              48762.61402797331
+            ],
+            "root_lower_bound": 47391.4954154297,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 14,
+          "runtime_seconds": 73.2947825838346,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 65484.02740927727,
+            "standard_error": 800.0924489138376,
+            "normal_approximation_95_interval": [
+              63915.84620940615,
+              67052.2086091484
+            ],
+            "root_lower_bound": 65040.69957961302,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        },
+        {
+          "kind": "q4_3",
+          "cutoff": 334,
+          "runtime_seconds": 72.16423924989067,
+          "evaluation": {
+            "samples": 64,
+            "seed": 9182,
+            "mean_policy_cost": 45534.49240077113,
+            "standard_error": 628.8105211477434,
+            "normal_approximation_95_interval": [
+              44302.02377932156,
+              46766.961022220705
+            ],
+            "root_lower_bound": 45430.63630725384,
+            "note": "Monte Carlo estimate, not a deterministic upper bound."
+          }
+        }
+      ],
+      "seed": 20260911,
+      "deterministic_reason": null,
+      "source_hashes": {
+        "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+        "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+        "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51",
+        "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+        "validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+        "export_results.py": "e1ed32c49f3525be0c7a84788f769020bac342974c68e05e6934075446b87ee6",
+        "check_terminal.py": "38bdcb945ca5ae2fa9dc70c6db880c00c2d056c7146c6b271f31008584163d28",
+        "finish.py": "266e425a701f0a6d2cc86d6a85f491d7b948e18b3cc05b0365a52faeb1025d47",
+        "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+      }
+    }
+  },
+  "library_versions": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "libraries": {
+      "numpy": "2.4.1",
+      "scipy": "1.17.0",
+      "matplotlib": "3.10.8",
+      "highspy": "1.15.1"
+    },
+    "scope": "Captured from the native computation environment at packaging time."
+  },
+  "source_versions": {
+    "v1": {
+      "files": {
+        "run.py": "1c91e38d91b3d5760c5bfd158f416ff99e877ad2a6ce3bc54bb3e40c4cb9aa5d",
+        "control.py": "a31e570b4046fddbd829c819bdd7aea63b934d909fc29d906d01e89112e0501f",
+        "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+        "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51"
+      },
+      "directory": "artifacts/source-v1",
+      "verified_against_selection_time_hashes": true,
+      "commands_already_running": [
+        "annual non-SDDP pool",
+        "500-iteration three-day tail training",
+        "short validation pool"
+      ]
+    },
+    "v2_change": "Added optional incoming SOC (default unchanged) and truncated SDDP auxiliary tails to remaining evaluation days. Ordinary linear-tail numerical defaults are unchanged. Corrected DP finite-terminal-penalty comment. Q1 was rerun after removing its 1e-7 turnover regularizer; annual settlement is unchanged."
+  },
+  "source_hash_semantics": "Early command source_hashes were sampled from disk at completion, not a snapshot of modules already loaded in workers. The hash-verified source-v1 archive binds the original annual non-SDDP, three-day tail and short-validation workers. Later SDPP comparisons use the finite-end v2 correction. Q1 was rerun with zero turnover regularization; settlement code was unchanged. Current sources reproduce the non-SDDP numerical defaults.",
+  "full_reproduction": "复现.sh; exact run records retain historical command spelling. Reviews and visual acceptance must be repeated after regeneration."
+}

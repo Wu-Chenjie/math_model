@@ -1,0 +1,35 @@
+{
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "scope": "static_and_small_mathematical_control_review_only",
+  "decision": "bounded_checks_pass",
+  "unresolved": [],
+  "resolved": [
+    {
+      "id": "NM-1",
+      "description": "Support-point Bellman update and online probability kernel made consistent.",
+      "evidence": "review/origin-math-checks.json",
+      "previous_evidence": "review/history/origin-math-checks-before-NM1-fix.json"
+    }
+  ],
+  "not_certified": [
+    "annual_performance",
+    "model_adoption_gate",
+    "global_optimality",
+    "causal_lower_bound",
+    "complete_contract_continuation_value"
+  ],
+  "source_hashes": {
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "src/nextgen_run.py": "0beb60045672e170ddd99788e9d07b0d6b9a1a246e867627af52ed74b27824c0"
+  },
+  "evidence_hashes": {
+    "review/check_origin_math.py": "37f2c6b8321d85465bdce71ecda3dbeb3a715ad2d0abef658f4c2dfbb377a971",
+    "review/origin-math-checks.json": "8f11016adcb73b2a67fbb1fff5fe823d87e50ea569a6977e46c89ff5ec8f6c64",
+    "review/下一代数学控制静态审查.md": "c1e44b6ad8712e956912379890c85876a673299454b3fe0b56456e1a3a92d1b1",
+    "review/history/check_origin_math-before-NM1-fix.py": "6d2c611714c8fb2db026118c89965ac95b9d025f8d9c8b56e3eb4744c23b0f76",
+    "review/history/origin-math-checks-before-NM1-fix.json": "b30ca197de727eb934b9f274098dc92ed0c0803974ed29a31a6206412baf117e"
+  },
+  "evidence_refresh": "All unchanged mathematical checks rerun after adding explicit PASS status to the producer output; no check or tolerance changed."
+}

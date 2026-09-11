@@ -1,0 +1,1191 @@
+{
+  "scope": "controller_implementation_and_development_trajectories_only",
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "annual_execution_review": "pending",
+  "checks": {
+    "future_actual_and_release_mutation": {
+      "passed": true,
+      "cases": 100,
+      "cases_detail": [
+        {
+          "asof": 4464,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 0,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 4464,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 0,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 4464,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 0,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 4464,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 0,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 4500,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 36,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 4500,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 36,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 4500,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 36,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 4500,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 36,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 4536,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 72,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 4536,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 72,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 4536,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 72,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 4536,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 72,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 4572,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 108,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 4572,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 108,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 4572,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 108,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 4572,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 108,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 4584,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 120,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 4584,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 120,
+          "official_covered_slots": 132
+        },
+        {
+          "asof": 4584,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 120,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 4584,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 120,
+          "official_covered_slots": 132
+        },
+        {
+          "asof": 8496,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 0,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8496,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 0,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8496,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 0,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8496,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 0,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8532,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 36,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8532,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 36,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8532,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 36,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8532,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 36,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8568,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 72,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8568,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 72,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8568,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 72,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8568,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 72,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8604,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 108,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8604,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 108,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8604,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 108,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8604,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 108,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8616,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 120,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8616,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 120,
+          "official_covered_slots": 132
+        },
+        {
+          "asof": 8616,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 120,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8616,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 120,
+          "official_covered_slots": 132
+        },
+        {
+          "asof": 8640,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 0,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8640,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 0,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8640,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 0,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8640,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 0,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8676,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 36,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8676,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 36,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8676,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 36,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8676,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 36,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8712,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 72,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8712,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 72,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8712,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 72,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8712,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 72,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8748,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 108,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8748,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 108,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8748,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 108,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8748,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 108,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 8760,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 120,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8760,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 120,
+          "official_covered_slots": 132
+        },
+        {
+          "asof": 8760,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 120,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 8760,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 120,
+          "official_covered_slots": 132
+        },
+        {
+          "asof": 21600,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 0,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 21600,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 0,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 21600,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 0,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 21600,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 0,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 21636,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 36,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 21636,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 36,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 21636,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 36,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 21636,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 36,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 21672,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 72,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 21672,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 72,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 21672,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 72,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 21672,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 72,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 21708,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 108,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 21708,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 108,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 21708,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 108,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 21708,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 108,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 21720,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 120,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 21720,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 120,
+          "official_covered_slots": 132
+        },
+        {
+          "asof": 21720,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 120,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 21720,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 120,
+          "official_covered_slots": 132
+        },
+        {
+          "asof": 47952,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 0,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 47952,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 0,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 47952,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 0,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 47952,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 0,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 47988,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 36,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 47988,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 36,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 47988,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 36,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 47988,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 36,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 48024,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 72,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 48024,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 72,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 48024,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 72,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 48024,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 72,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 48060,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 108,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 48060,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 108,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 48060,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 108,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 48060,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 108,
+          "official_covered_slots": 144
+        },
+        {
+          "asof": 48072,
+          "official": false,
+          "variable": false,
+          "maturity_slack": 120,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 48072,
+          "official": true,
+          "variable": false,
+          "maturity_slack": 120,
+          "official_covered_slots": 132
+        },
+        {
+          "asof": 48072,
+          "official": false,
+          "variable": true,
+          "maturity_slack": 120,
+          "official_covered_slots": 0
+        },
+        {
+          "asof": 48072,
+          "official": true,
+          "variable": true,
+          "maturity_slack": 120,
+          "official_covered_slots": 132
+        }
+      ],
+      "root_lp_checks": [
+        {
+          "asof": 8640,
+          "q_error": 0.0,
+          "r_error": 0.0
+        },
+        {
+          "asof": 8748,
+          "q_error": 0.0,
+          "r_error": 0.0
+        }
+      ]
+    },
+    "pre_release_nonanticipation": {
+      "passed": true,
+      "cases": [
+        {
+          "asof": 34,
+          "lp_violation": 4.547473508864641e-13,
+          "objective_gap": 1.7053025658242404e-12
+        },
+        {
+          "asof": 142,
+          "lp_violation": 6.821210263296962e-13,
+          "objective_gap": 2.5011104298755527e-12
+        },
+        {
+          "asof": 144,
+          "lp_violation": 1.0231815394945443e-12,
+          "objective_gap": 4.547473508864641e-13
+        }
+      ],
+      "test": "Identical pre-release prefixes with different current/future observations have identical node contracts; current battery actions share identical observed prefixes."
+    },
+    "convex_dp_independent_bus_lp": {
+      "passed": true,
+      "inf_convolution_cases": 156,
+      "max_inf_convolution_error": 1.318767317570746e-11,
+      "max_bellman_recursion_error": 4.547473508864641e-12,
+      "max_action_objective_error": 1.3642420526593924e-12,
+      "scope": "Exact subproblem comparison for the implemented convex PL grid model; not an exact original stochastic control result."
+    },
+    "tail_cut_envelope_all_breakpoints": {
+      "passed": true,
+      "line_sets": 30,
+      "probes": 8276,
+      "max_error": 0.0
+    },
+    "development_replay_and_contract_reconstruction": {
+      "passed": true,
+      "trajectories": [
+        {
+          "file": "artifacts/calibrate/q2_affine_mpc.npz",
+          "days": 7,
+          "cost_error": 5.820766091346741e-11,
+          "midnight_final": [
+            8918.690592908928,
+            8038.237345114914,
+            8149.608774252765,
+            7916.440867643174,
+            8644.351261319862,
+            8197.233630737825,
+            1328.2759162400414
+          ],
+          "closed": false,
+          "sha256": "d712d04fb15afa7b97a0dca0e41deca03f697f5fe9f6e2b5036df57f07b1afd3"
+        },
+        {
+          "file": "artifacts/calibrate/q2_cross_baseline.npz",
+          "days": 7,
+          "cost_error": 5.820766091346741e-11,
+          "midnight_final": [
+            9188.300531296287,
+            8993.21786822751,
+            9211.892753650794,
+            8882.558169629627,
+            9599.44684198413,
+            8873.473958174603,
+            2136.8869952910063
+          ],
+          "closed": false,
+          "sha256": "2a072339262eb102e925a3e236ca73f7422e4fcec203254e9b96692ff9f462f6"
+        },
+        {
+          "file": "artifacts/calibrate/q2_markov_mpc.npz",
+          "days": 7,
+          "cost_error": 5.820766091346741e-11,
+          "midnight_final": [
+            8643.348559015532,
+            8364.382012045948,
+            8453.851404259518,
+            8114.758303445787,
+            8948.95118862042,
+            8344.570033089589,
+            1200.0
+          ],
+          "closed": false,
+          "sha256": "30f6b3d6045007e566758ab3831c9fb2550cbac67e463b1c2a973b8a16615571"
+        },
+        {
+          "file": "artifacts/calibrate/q3_affine_mpc.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            8330.814425525323,
+            8093.515249565831,
+            8149.12343302496,
+            7972.611169304893,
+            8350.239022256412,
+            8042.027426726548,
+            1321.1519520896186
+          ],
+          "closed": false,
+          "sha256": "21520445cdb8e433e9365e790fd45509122d6abd5a23e454231dfe7347c1ea17"
+        },
+        {
+          "file": "artifacts/calibrate/q3_cross_baseline.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            9188.082085223656,
+            9122.11803962963,
+            9120.704606503257,
+            8912.440227684028,
+            9599.446974259265,
+            8873.477003148148,
+            2200.1457792639103
+          ],
+          "closed": false,
+          "sha256": "c5bcdffdd2128afec8d9c8c38ca493ec15ba2083daae949445cbde3afbf47508"
+        },
+        {
+          "file": "artifacts/calibrate/q3_markov_mpc.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            8591.251478847616,
+            8459.422156781637,
+            8723.350197588143,
+            8092.494554186076,
+            9149.719083198559,
+            8230.610399714375,
+            1200.0
+          ],
+          "closed": false,
+          "sha256": "77844fba56ddd7b35e7b461f4509d6042cf6374eb1d78364f12868e184d775d4"
+        },
+        {
+          "file": "artifacts/calibrate/q4_2_affine_mpc.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            10569.32299992513,
+            6122.380202394397,
+            7032.524963722448,
+            8261.327383008593,
+            8046.290595429995,
+            2102.758433802451,
+            1326.5463978880034
+          ],
+          "closed": false,
+          "sha256": "d6709e026ad67809dafe3c0e3980994668d8673e07f11d7ba057166461bf5d00"
+        },
+        {
+          "file": "artifacts/calibrate/q4_2_cross_baseline.npz",
+          "days": 7,
+          "cost_error": 5.820766091346741e-11,
+          "midnight_final": [
+            10704.007421296294,
+            6742.275087248677,
+            7746.882221798944,
+            8876.689762962964,
+            8876.924816428565,
+            2636.5955520634943,
+            2211.2028344444434
+          ],
+          "closed": false,
+          "sha256": "a5ab89f408311fa5174d94fd67517e68368c138a37993684e602d2091ee729ac"
+        },
+        {
+          "file": "artifacts/calibrate/q4_2_markov_mpc.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            10295.858005189511,
+            6398.798075437547,
+            7351.924184876996,
+            8460.38245239852,
+            8461.479286142789,
+            2258.7227255626585,
+            1200.0
+          ],
+          "closed": false,
+          "sha256": "ccd3b4bc5b114857813c995c03799eb4a0a33171e8e77a8a0e1bf0f38907648a"
+        },
+        {
+          "file": "artifacts/calibrate/q4_3_affine_mpc.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            10012.402267750285,
+            6142.650858791487,
+            7024.262193873379,
+            8322.390020656045,
+            7612.495615637883,
+            1945.4027426801092,
+            1321.667332709228
+          ],
+          "closed": false,
+          "sha256": "becdf7b16443679f1c6c649fe9edbd8b12d3714a701f54b48e1d16ed364b1369"
+        },
+        {
+          "file": "artifacts/calibrate/q4_3_cross_baseline.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            10703.788975223655,
+            7040.947716728311,
+            7879.120089097134,
+            9020.834901303415,
+            8876.924948703698,
+            2636.5985970370402,
+            2239.1520634845515
+          ],
+          "closed": false,
+          "sha256": "f8d592ae71a384d30a20037fec7acd32864199acffec74e7afe164f5d212b12c"
+        },
+        {
+          "file": "artifacts/calibrate/q4_3_markov_mpc.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            10280.570414202044,
+            6566.46618287514,
+            7379.653281756315,
+            8488.559795243744,
+            8481.89023273173,
+            2145.0084817416523,
+            1200.0
+          ],
+          "closed": false,
+          "sha256": "deff72092c240539b575e4447f4a4a28e60d7aff23dbc0928404b4bf357f96ed"
+        },
+        {
+          "file": "artifacts/calibrate_closed/q2_closed_affine.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0
+          ],
+          "closed": true,
+          "sha256": "c10565ad22ae26cc080f3fc09638eb7308ce6f1337b70ac2ac04a70da6b4c83b"
+        },
+        {
+          "file": "artifacts/calibrate_closed/q2_closed_baseline.npz",
+          "days": 7,
+          "cost_error": 5.820766091346741e-11,
+          "midnight_final": [
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0
+          ],
+          "closed": true,
+          "sha256": "444236a2ccd154e8b3b03fc78544524fde6c4ce9e937e9501857f60f3dc149b5"
+        },
+        {
+          "file": "artifacts/calibrate_closed/q3_closed_affine.npz",
+          "days": 7,
+          "cost_error": 5.820766091346741e-11,
+          "midnight_final": [
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0
+          ],
+          "closed": true,
+          "sha256": "adc96f4d1d53c68bff3ba3c65c69a5d9ce55b37f782e329e1909917371b96711"
+        },
+        {
+          "file": "artifacts/calibrate_closed/q3_closed_baseline.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0
+          ],
+          "closed": true,
+          "sha256": "862f8be258370756b8901c0fa55a7fc8bb42a40d1faf2214a65a849b844c2688"
+        },
+        {
+          "file": "artifacts/calibrate_closed/q4_2_closed_affine.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0
+          ],
+          "closed": true,
+          "sha256": "832ec34409a5390fb1dca539a87589250cda3b63d1d6237c83509dce9c5445a8"
+        },
+        {
+          "file": "artifacts/calibrate_closed/q4_2_closed_baseline.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0
+          ],
+          "closed": true,
+          "sha256": "b4dc0a5d97c451dba722cf51779cf597326e00700d37eb00d021ce49ebb9b6c1"
+        },
+        {
+          "file": "artifacts/calibrate_closed/q4_3_closed_affine.npz",
+          "days": 7,
+          "cost_error": 0.0,
+          "midnight_final": [
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0
+          ],
+          "closed": true,
+          "sha256": "9818e9584d247b19af4a888abecbb5a5e911874e021277ffa0c4e91aaf3ca3fa"
+        },
+        {
+          "file": "artifacts/calibrate_closed/q4_3_closed_baseline.npz",
+          "days": 7,
+          "cost_error": 5.820766091346741e-11,
+          "midnight_final": [
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0
+          ],
+          "closed": true,
+          "sha256": "0f6eb1fe973f0e607f14d2514ecb5d35d921a1723c3430afb82985b3e305c055"
+        }
+      ]
+    },
+    "physical_cross_day_free_fixed_terminal": {
+      "passed": true,
+      "synthetic_execution": [
+        {
+          "daily_closed": false,
+          "global_final": null,
+          "midnight": 10800.0,
+          "end": 1200.0
+        },
+        {
+          "daily_closed": false,
+          "global_final": 6000.0,
+          "midnight": 10800.0,
+          "end": 5999.999999999999
+        },
+        {
+          "daily_closed": true,
+          "global_final": 6000.0,
+          "midnight": 6000.0,
+          "end": 5999.999999999999
+        }
+      ]
+    },
+    "actual_three_day_free_fixed_and_month_version": {
+      "passed": true,
+      "runs": [
+        {
+          "file": "review/short-free.npz",
+          "days": 3,
+          "cost_error": 0.0,
+          "midnight_final": [
+            6060.150639212417,
+            8255.828516142656,
+            1200.0
+          ],
+          "closed": false,
+          "sha256": "4b99b571c80a5d85feee4e447b525997c50c26a7dd6c99189f0178299241aea4",
+          "first_decision": {
+            "as_of": 8352,
+            "end": 8640,
+            "history_days": [
+              29,
+              43,
+              56
+            ],
+            "latest_training_target_exclusive": 8352,
+            "official_covered_slots": 0,
+            "date": "2025-02-28",
+            "release": 0,
+            "inventory": 6000.0,
+            "tail_price": 0.0,
+            "tail_model_cutoff": 31,
+            "tail_model_days": 1,
+            "tail_cut_count": 5
+          },
+          "final_requested": null
+        },
+        {
+          "file": "review/short-fixed.npz",
+          "days": 3,
+          "cost_error": 1.4551915228366852e-11,
+          "midnight_final": [
+            6060.150639212417,
+            8261.206447370238,
+            6000.0
+          ],
+          "closed": false,
+          "sha256": "9f9b709f2e2aa89b5a176aeff182976c87740bdfcdbb4940efa3b0abdeabf7cb",
+          "first_decision": {
+            "as_of": 8352,
+            "end": 8640,
+            "history_days": [
+              29,
+              43,
+              56
+            ],
+            "latest_training_target_exclusive": 8352,
+            "official_covered_slots": 0,
+            "date": "2025-02-28",
+            "release": 0,
+            "inventory": 6000.0,
+            "tail_price": 0.0,
+            "tail_model_cutoff": 31,
+            "tail_model_days": 1,
+            "tail_cut_count": 5
+          },
+          "final_requested": 6000.0
+        }
+      ],
+      "tail_model": "artifacts/tails/q2_31_D1.json",
+      "tail_model_sha256": "78ee2fe3fd172c51f9319dbc5a4c1d27007d18462a892029253e31dc446c4aa5",
+      "scope": "February 28 to March 2, original data, 3-scenario mechanism check; not annual performance evidence."
+    }
+  },
+  "source_hashes": {
+    "src/forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+    "src/control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+    "src/run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510"
+  },
+  "execution": {
+    "command": "python3 review/check-controllers.py",
+    "exit_code": 0,
+    "runtime_seconds": 3.96110116597265,
+    "seed": 742031
+  },
+  "passed": true
+}

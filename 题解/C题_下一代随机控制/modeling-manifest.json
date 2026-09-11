@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "project": {
+    "competition": "CUMCM",
+    "year": 2026,
+    "problem_id": "C",
+    "stage": "frozen_334day_evaluation",
+    "status": "in_progress"
+  },
+  "source": {
+    "statement_files": [
+      "inputs/C题.pdf"
+    ],
+    "data_files": [
+      "inputs/附件/附件1.xlsx",
+      "inputs/附件/附件2.xlsx",
+      "inputs/附件/附件3.xlsx",
+      "inputs/附件/附件4.xlsx"
+    ],
+    "input_hashes": {
+      "inputs/C题.pdf": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+      "inputs/论文格式规范2026.pdf": "cece4bb3a900a0435160032b98ea26e03b0f2d7eca58424b0d023e26085aed26",
+      "inputs/附件/附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+      "inputs/附件/附件2.xlsx": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+      "inputs/附件/附件3.xlsx": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843",
+      "inputs/附件/附件4.xlsx": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71",
+      "inputs/附件/附件5/result1.xlsx": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688",
+      "inputs/附件/附件5/result2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+      "inputs/附件/附件5/result3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+      "inputs/附件/附件5/result4-2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+      "inputs/附件/附件5/result4-3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+    },
+    "data_audit_file": "artifacts/data-audit.json",
+    "official_rules": {
+      "status": "verified",
+      "url": "https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html",
+      "version": "2026 official archive downloaded 2026-09-11",
+      "reason": "Ten C-problem statement/data/template files match official archive byte-for-byte; see artifacts/source-verification/official-input-comparison.json. Formatting PDF is a separately supplied local reference."
+    }
+  },
+  "framing": {
+    "objectives": [
+      "Minimize actual bill under unchanged contract settlement and causal information",
+      "Compare frozen policies over334days with initial/final inventory6000",
+      "Prefer verifiable simpler modules when added complexity lacks stable benefit"
+    ],
+    "decision_variables": [
+      "day-original q",
+      "legal revised r",
+      "battery c/d and inventory E",
+      "emergency purchase e and spill s"
+    ],
+    "constraints": [
+      "bus energy balance",
+      "E recurrence with each-way efficiency0.9",
+      "1200<=E<=10800",
+      "charge and discharge power<=5000kW",
+      "no simultaneous charge/discharge",
+      "midnight inventory continuity",
+      "true global terminal6000",
+      "original/adjusted contract release measurability",
+      "current floating price hidden until after action"
+    ],
+    "constraint_justification": null,
+    "ambiguities": [
+      "Return-credit interpretation preserved from baseline: half-price net refund",
+      "Price-disclosure timestamps absent: preserve previous-ended-slot availability assumption",
+      "Core nonmidnight tail ignores explicitly completed residual-contract delivery costs"
+    ],
+    "assumptions": [
+      "No unprovided degradation/self-discharge/grid-cap parameters in primary results",
+      "Finite empirical mature-block model is an approximation, not the true process law",
+      "January development only; February-December does not choose hyperparameters"
+    ]
+  },
+  "models": {
+    "candidates": [
+      {
+        "name": "legacy_affine_M0",
+        "target_output": "Frozen two-midnight causal affine contracts and three-bin inventory feedback",
+        "failure_mode": "Horizon truncation and coarse external state",
+        "diagnostic": "Matched-endpoint annual bills and reproduction gate",
+        "assumptions": [
+          "Same physical system and declared information structure"
+        ],
+        "data_requirements": [
+          "Original data",
+          "Only fully mature residual trajectories",
+          "Already published PV forecasts"
+        ]
+      },
+      {
+        "name": "conditional_affine_M0",
+        "target_output": "Weighted mature trajectories with existing convex Markov feedback",
+        "failure_mode": "Small conditional sample and scenario smoothing sensitivity",
+        "diagnostic": "January staged choices, full annual negative results and paired intervals",
+        "assumptions": [
+          "Same physical system and declared information structure"
+        ],
+        "data_requirements": [
+          "Original data",
+          "Only fully mature residual trajectories",
+          "Already published PV forecasts"
+        ]
+      },
+      {
+        "name": "conditional_affine_M1",
+        "target_output": "Empirical VAR innovation and probability-projected external state with convex inventory",
+        "failure_mode": "Approximate state sufficiency and fixed future nominal contracts",
+        "diagnostic": "Explicit-LP Bellman equivalence and final matched M0/M1 comparison",
+        "assumptions": [
+          "Same physical system and declared information structure"
+        ],
+        "data_requirements": [
+          "Original data",
+          "Only fully mature residual trajectories",
+          "Already published PV forecasts"
+        ]
+      },
+      {
+        "name": "auxiliary_SDDP_tail",
+        "target_output": "Verified midnight inventory cuts used as a tail alternative",
+        "failure_mode": "Auxiliary distribution/horizon lower bound is not true-process causal bound",
+        "diagnostic": "Common two-midnight tail comparison and existing independent cut checks",
+        "assumptions": [
+          "Same physical system and declared information structure"
+        ],
+        "data_requirements": [
+          "Original data",
+          "Only fully mature residual trajectories",
+          "Already published PV forecasts"
+        ]
+      }
+    ],
+    "candidate_set_justification": null,
+    "selected": null,
+    "selection_rationale": {
+      "objective_fit": "All primary policies minimize the same actual settlement ledger",
+      "constraint_fit": "Original physical executor and independent validator are shared",
+      "data_fit": "Conditional net/price trajectories preserve jointly observed mature blocks",
+      "baseline": "Frozen accepted causal affine plus M0 policy, fixed actual year end for comparison",
+      "risks": [
+        "One seasonal evaluation year",
+        "January W28/W56 may not be distinguishable",
+        "Finite scenario and projected Markov approximation",
+        "Nonmidnight inventory-tail truncation"
+      ],
+      "fallback_trigger": "Reject January-frozen challenger unless preregistered annual stability and independent evidence gates pass; M1 also requires final matched-M0 direct contribution"
+    },
+    "baseline": {
+      "status": "completed",
+      "name": "Frozen legacy causal affine planning plus convex Markov feedback",
+      "command": "python3 tools/reproduce_baseline.py",
+      "exit_code": 0,
+      "runtime_seconds": 11629.777580082882,
+      "output": "artifacts/baseline-metrics.json",
+      "metric_ids": [],
+      "reason": null
+    }
+  },
+  "execution": {
+    "status": "pending",
+    "command": null,
+    "exit_code": null,
+    "runtime_seconds": null,
+    "environment": {},
+    "seed": null,
+    "deterministic_reason": null,
+    "metrics_file": "artifacts/metrics.json",
+    "metric_ids": [],
+    "figures": []
+  },
+  "validation": {
+    "status": "pending",
+    "checks": [],
+    "sensitivity": [],
+    "sensitivity_not_applicable_reason": null,
+    "robustness": [],
+    "robustness_not_applicable_reason": null,
+    "falsification": []
+  },
+  "results": {
+    "registry_file": "artifacts/result-registry.json",
+    "paper_file": "paper/main.tex",
+    "claims_file": "paper/result-claims.json"
+  },
+  "reproducibility_file": "artifacts/reproducibility.json",
+  "review": {
+    "status": "pending",
+    "independent": false,
+    "reviewer_id": null,
+    "findings_file": "review/findings.json"
+  },
+  "pending": [
+    "Matched fixed-terminal334-day closed-loop experiments",
+    "Independent control and code reviews",
+    "LaTeX manuscript, rendered PDF QA and strict competition review"
+  ],
+  "violations": []
+}

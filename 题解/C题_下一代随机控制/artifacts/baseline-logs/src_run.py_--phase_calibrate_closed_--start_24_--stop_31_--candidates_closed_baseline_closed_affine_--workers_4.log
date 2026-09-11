@@ -1,0 +1,8 @@
+{"kind": "q2", "candidate": "closed_baseline", "total_cost": 350805.6997589162, "runtime_seconds": 3.865205166861415}
+{"kind": "q4_2", "candidate": "closed_baseline", "total_cost": 389533.5806111224, "runtime_seconds": 3.715807707980275}
+{"kind": "q3", "candidate": "closed_baseline", "total_cost": 349847.2970562334, "runtime_seconds": 7.959664209047332}
+{"kind": "q4_3", "candidate": "closed_baseline", "total_cost": 390343.7388867648, "runtime_seconds": 7.48245883313939}
+{"kind": "q2", "candidate": "closed_affine", "total_cost": 364716.1369887103, "runtime_seconds": 19.91653341590427}
+{"kind": "q4_2", "candidate": "closed_affine", "total_cost": 406249.72463006905, "runtime_seconds": 19.196447959169745}
+{"kind": "q3", "candidate": "closed_affine", "total_cost": 357986.73860758735, "runtime_seconds": 38.98925395892002}
+{"kind": "q4_3", "candidate": "closed_affine", "total_cost": 398477.6238616379, "runtime_seconds": 36.30877958284691}

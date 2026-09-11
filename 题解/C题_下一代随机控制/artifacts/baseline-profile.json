@@ -1,0 +1,326 @@
+{
+  "purpose": "January-only performance profile of unchanged code; no model selection or upgrade results",
+  "days": [
+    24,
+    25
+  ],
+  "runtime_seconds": 12.424740916816518,
+  "profiled_cost": 84212.53281061872,
+  "functions": [
+    {
+      "file": "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u4e0b\u4e00\u4ee3\u57fa\u7ebf\u590d\u73b0/src/control.py",
+      "line": 138,
+      "function": "__init__",
+      "primitive_calls": 8,
+      "calls": 8,
+      "self_seconds": 0.245312565,
+      "cumulative_seconds": 3.035757958
+    },
+    {
+      "file": "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u4e0b\u4e00\u4ee3\u57fa\u7ebf\u590d\u73b0/src/control.py",
+      "line": 118,
+      "function": "inf_convolution",
+      "primitive_calls": 9072,
+      "calls": 9072,
+      "self_seconds": 0.581115689,
+      "cumulative_seconds": 2.420409953
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/lib/_index_tricks_impl.py",
+      "line": 343,
+      "function": "__getitem__",
+      "primitive_calls": 36590,
+      "calls": 36590,
+      "self_seconds": 0.6084849910000001,
+      "cumulative_seconds": 0.834981959
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py",
+      "line": 1402,
+      "function": "diff",
+      "primitive_calls": 54433,
+      "calls": 54433,
+      "self_seconds": 0.360511903,
+      "cumulative_seconds": 0.416105017
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py",
+      "line": 48,
+      "function": "_wrapfunc",
+      "primitive_calls": 50128,
+      "calls": 50128,
+      "self_seconds": 0.08345538300000001,
+      "cumulative_seconds": 0.39817304000000003
+    },
+    {
+      "file": "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u4e0b\u4e00\u4ee3\u57fa\u7ebf\u590d\u73b0/vendor/highspy/highs.py",
+      "line": 99,
+      "function": "__init__",
+      "primitive_calls": 8,
+      "calls": 8,
+      "self_seconds": 0.011308332,
+      "cumulative_seconds": 0.38317541800000005
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_methods.py",
+      "line": 115,
+      "function": "_mean",
+      "primitive_calls": 9376,
+      "calls": 9376,
+      "self_seconds": 0.064654774,
+      "cumulative_seconds": 0.221753739
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py",
+      "line": 2207,
+      "function": "clip",
+      "primitive_calls": 18720,
+      "calls": 18720,
+      "self_seconds": 0.045662718000000005,
+      "cumulative_seconds": 0.18833912800000002
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py",
+      "line": 2838,
+      "function": "cumsum",
+      "primitive_calls": 18152,
+      "calls": 18152,
+      "self_seconds": 0.022307606,
+      "cumulative_seconds": 0.18208701600000002
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py",
+      "line": 3699,
+      "function": "mean",
+      "primitive_calls": 3896,
+      "calls": 3896,
+      "self_seconds": 0.036112491000000004,
+      "cumulative_seconds": 0.158449592
+    },
+    {
+      "file": "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u4e0b\u4e00\u4ee3\u57fa\u7ebf\u590d\u73b0/src/control.py",
+      "line": 40,
+      "function": "expr",
+      "primitive_calls": 16,
+      "calls": 16,
+      "self_seconds": 0.082142185,
+      "cumulative_seconds": 0.153094121
+    },
+    {
+      "file": "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u4e0b\u4e00\u4ee3\u57fa\u7ebf\u590d\u73b0/vendor/highspy/highs.py",
+      "line": 1525,
+      "function": "enableCallbacks",
+      "primitive_calls": 8,
+      "calls": 8,
+      "self_seconds": 0.138593412,
+      "cumulative_seconds": 0.144689291
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'cumsum' of 'numpy.ndarray' objects>",
+      "primitive_calls": 18152,
+      "calls": 18152,
+      "self_seconds": 0.116331497,
+      "cumulative_seconds": 0.116331497
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'mean' of 'numpy.ndarray' objects>",
+      "primitive_calls": 5480,
+      "calls": 5480,
+      "self_seconds": 0.014392055,
+      "cumulative_seconds": 0.113808693
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'append' of 'list' objects>",
+      "primitive_calls": 326115,
+      "calls": 326115,
+      "self_seconds": 0.10221632700000001,
+      "cumulative_seconds": 0.10221632700000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'clip' of 'numpy.generic' objects>",
+      "primitive_calls": 18144,
+      "calls": 18144,
+      "self_seconds": 0.031013810000000003,
+      "cumulative_seconds": 0.09978687900000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.array>",
+      "primitive_calls": 138712,
+      "calls": 138712,
+      "self_seconds": 0.09904291400000001,
+      "cumulative_seconds": 0.09904291400000001
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py",
+      "line": 1538,
+      "function": "interp",
+      "primitive_calls": 9360,
+      "calls": 9360,
+      "self_seconds": 0.027844143000000002,
+      "cumulative_seconds": 0.09112780100000001
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py",
+      "line": 1100,
+      "function": "argsort",
+      "primitive_calls": 9072,
+      "calls": 9072,
+      "self_seconds": 0.011662175,
+      "cumulative_seconds": 0.091098776
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+      "primitive_calls": 11126,
+      "calls": 11126,
+      "self_seconds": 0.079843484,
+      "cumulative_seconds": 0.079843484
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/numeric.py",
+      "line": 679,
+      "function": "flatnonzero",
+      "primitive_calls": 3888,
+      "calls": 3888,
+      "self_seconds": 0.027394916000000002,
+      "cumulative_seconds": 0.075636829
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_methods.py",
+      "line": 96,
+      "function": "_clip",
+      "primitive_calls": 18720,
+      "calls": 18720,
+      "self_seconds": 0.070553564,
+      "cumulative_seconds": 0.070553564
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.isinstance>",
+      "primitive_calls": 241952,
+      "calls": 241952,
+      "self_seconds": 0.068032611,
+      "cumulative_seconds": 0.069177715
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'argsort' of 'numpy.ndarray' objects>",
+      "primitive_calls": 9072,
+      "calls": 9072,
+      "self_seconds": 0.063706756,
+      "cumulative_seconds": 0.063706756
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_methods.py",
+      "line": 73,
+      "function": "_count_reduce_items",
+      "primitive_calls": 9376,
+      "calls": 9376,
+      "self_seconds": 0.056192085,
+      "cumulative_seconds": 0.060503552
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy.asanyarray>",
+      "primitive_calls": 68425,
+      "calls": 68425,
+      "self_seconds": 0.045524352000000004,
+      "cumulative_seconds": 0.045524352000000004
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method numpy._core._multiarray_umath.interp>",
+      "primitive_calls": 9360,
+      "calls": 9360,
+      "self_seconds": 0.042877526000000006,
+      "cumulative_seconds": 0.042877526000000006
+    },
+    {
+      "file": "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u4e0b\u4e00\u4ee3\u57fa\u7ebf\u590d\u73b0/src/control.py",
+      "line": 161,
+      "function": "action",
+      "primitive_calls": 288,
+      "calls": 288,
+      "self_seconds": 0.010789445,
+      "cumulative_seconds": 0.036665545
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py",
+      "line": 1879,
+      "function": "ravel",
+      "primitive_calls": 3896,
+      "calls": 3896,
+      "self_seconds": 0.007510175000000001,
+      "cumulative_seconds": 0.028787256
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/scipy/sparse/_coo.py",
+      "line": 32,
+      "function": "__init__",
+      "primitive_calls": 40,
+      "calls": 40,
+      "self_seconds": 0.0007297,
+      "cumulative_seconds": 0.028658543
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.len>",
+      "primitive_calls": 102017,
+      "calls": 102017,
+      "self_seconds": 0.025806376000000002,
+      "cumulative_seconds": 0.025806376000000002
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/scipy/sparse/_base.py",
+      "line": 1525,
+      "function": "_get_index_dtype",
+      "primitive_calls": 445,
+      "calls": 445,
+      "self_seconds": 0.001311529,
+      "cumulative_seconds": 0.023113956
+    },
+    {
+      "file": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/scipy/sparse/_compressed.py",
+      "line": 30,
+      "function": "__init__",
+      "primitive_calls": 312,
+      "calls": 312,
+      "self_seconds": 0.0021907370000000003,
+      "cumulative_seconds": 0.022671004
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.getattr>",
+      "primitive_calls": 51165,
+      "calls": 51165,
+      "self_seconds": 0.022185546,
+      "cumulative_seconds": 0.022185546
+    },
+    {
+      "file": "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u4e0b\u4e00\u4ee3\u57fa\u7ebf\u590d\u73b0/src/control.py",
+      "line": 22,
+      "function": "features",
+      "primitive_calls": 8,
+      "calls": 8,
+      "self_seconds": 0.006316941,
+      "cumulative_seconds": 0.022153624
+    }
+  ]
+}

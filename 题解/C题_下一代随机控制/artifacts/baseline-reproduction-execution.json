@@ -1,0 +1,327 @@
+{
+  "status": "running",
+  "elapsed_seconds": 11629.777580082882,
+  "records": [
+    {
+      "command": [
+        "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "src/prepare_data.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 0.5407819577958435,
+      "log": "artifacts/baseline-logs/src_prepare_data.py.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/run.py",
+        "--phase",
+        "initialize"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 1.3292262500617653,
+      "log": "artifacts/baseline-logs/src_run.py_--phase_initialize.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/run.py",
+        "--phase",
+        "calibrate",
+        "--start",
+        "24",
+        "--stop",
+        "31",
+        "--candidates",
+        "cross_baseline",
+        "affine_mpc",
+        "markov_mpc",
+        "--workers",
+        "4"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 77.82936741691083,
+      "log": "artifacts/baseline-logs/src_run.py_--phase_calibrate_--start_24_--stop_31_--candidates_cross_baseline_affine_mpc_markov_mpc_--workers_4.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/run.py",
+        "--phase",
+        "calibrate_closed",
+        "--start",
+        "24",
+        "--stop",
+        "31",
+        "--candidates",
+        "closed_baseline",
+        "closed_affine",
+        "--workers",
+        "4"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 53.33431316586211,
+      "log": "artifacts/baseline-logs/src_run.py_--phase_calibrate_closed_--start_24_--stop_31_--candidates_closed_baseline_closed_affine_--workers_4.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/run.py",
+        "--phase",
+        "train",
+        "--iterations",
+        "500",
+        "--workers",
+        "4"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 3567.530526207993,
+      "log": "artifacts/baseline-logs/src_run.py_--phase_train_--iterations_500_--workers_4.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/run.py",
+        "--phase",
+        "train",
+        "--cutoffs",
+        "14",
+        "334",
+        "--tail-days",
+        "1",
+        "--iterations",
+        "500",
+        "--workers",
+        "4"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 139.49003854114562,
+      "log": "artifacts/baseline-logs/src_run.py_--phase_train_--cutoffs_14_334_--tail-days_1_--iterations_500_--workers_4.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/run.py",
+        "--phase",
+        "train",
+        "--cutoffs",
+        "14",
+        "334",
+        "--tail-days",
+        "2",
+        "--iterations",
+        "500",
+        "--workers",
+        "4"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 291.25524620804936,
+      "log": "artifacts/baseline-logs/src_run.py_--phase_train_--cutoffs_14_334_--tail-days_2_--iterations_500_--workers_4.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/sddp.py",
+        "--cutoff",
+        "31",
+        "--days",
+        "1",
+        "--iterations",
+        "500",
+        "--output",
+        "tails/q2_31_D1.json"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 49.226446458138525,
+      "log": "artifacts/baseline-logs/src_sddp.py_--cutoff_31_--days_1_--iterations_500_--output_tails_q2_31_D1.json.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/run.py",
+        "--phase",
+        "calibrate_sddp_v2",
+        "--start",
+        "24",
+        "--stop",
+        "31",
+        "--candidates",
+        "sddp_mpc",
+        "sddp_markov",
+        "--workers",
+        "4"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 85.71130245784298,
+      "log": "artifacts/baseline-logs/src_run.py_--phase_calibrate_sddp_v2_--start_24_--stop_31_--candidates_sddp_mpc_sddp_markov_--workers_4.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/run.py",
+        "--phase",
+        "annual_sddp",
+        "--start",
+        "31",
+        "--stop",
+        "365",
+        "--candidates",
+        "sddp_markov",
+        "--workers",
+        "4"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 4064.3840134590864,
+      "log": "artifacts/baseline-logs/src_run.py_--phase_annual_sddp_--start_31_--stop_365_--candidates_sddp_markov_--workers_4.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/run.py",
+        "--phase",
+        "annual",
+        "--candidates",
+        "closed_baseline",
+        "cross_baseline",
+        "affine_mpc",
+        "markov_mpc",
+        "closed_affine",
+        "--workers",
+        "4"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 8888.260420958046,
+      "log": "artifacts/baseline-logs/src_run.py_--phase_annual_--candidates_closed_baseline_cross_baseline_affine_mpc_markov_mpc_closed_affine_--workers_4.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/validate.py",
+        "--scope",
+        "short",
+        "--workers",
+        "4"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 242.6297628749162,
+      "log": "artifacts/baseline-logs/src_validate.py_--scope_short_--workers_4.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/validate.py",
+        "--scope",
+        "annual-releases",
+        "--workers",
+        "4"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 2286.4020305830054,
+      "log": "artifacts/baseline-logs/src_validate.py_--scope_annual-releases_--workers_4.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/check_terminal.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 21.638394125038758,
+      "log": "artifacts/baseline-logs/src_check_terminal.py.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/select_model.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 0.02509949984960258,
+      "log": "artifacts/baseline-logs/src_select_model.py.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check-sddp.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 1.2284661249723285,
+      "log": "artifacts/baseline-logs/review_check-sddp.py.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check-controllers.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 4.235073207877576,
+      "log": "artifacts/baseline-logs/review_check-controllers.py.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check-global-oracle.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 22.988801583182067,
+      "log": "artifacts/baseline-logs/review_check-global-oracle.py.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check-v2-boundaries.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 25.033631999976933,
+      "log": "artifacts/baseline-logs/review_check-v2-boundaries.py.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check-production.py",
+        "--require-complete"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 1.8383992919698358,
+      "log": "artifacts/baseline-logs/review_check-production.py_--require-complete.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/finish.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 1.1359465001150966,
+      "log": "artifacts/baseline-logs/src_finish.py.log"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "src/export_results.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 1.3173353341408074,
+      "log": "artifacts/baseline-logs/src_export_results.py.log"
+    }
+  ]
+}

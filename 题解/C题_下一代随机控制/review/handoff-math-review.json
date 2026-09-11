@@ -1,0 +1,45 @@
+{
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "scope": "handoff_document_math_consistency_only",
+  "decision": "documentation_consistency_pass",
+  "new_numerical_model_error": false,
+  "missing_annual_results_treated_as_defect": false,
+  "source_hashes": {
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "src/nextgen_run.py": "0beb60045672e170ddd99788e9d07b0d6b9a1a246e867627af52ed74b27824c0"
+  },
+  "document_sha256": "4a5c926a8bc62785eba131ceb29935c902932bde8cb911ed15591dc5f5b9aec2",
+  "protocol_sha256": "9164dc1592026e4a1e29b116e51488f9378f69e6bad5fe3b0b75615522ffab34",
+  "review_note_sha256": "6a193b2dabf986ee659504deec6abbca904803ca003edfd63bac953f31f7bd46",
+  "resolved": [
+    {
+      "id": "ND-1",
+      "topic": "Settlement and price disclosure assumptions",
+      "status": "closed_after_document_revision"
+    },
+    {
+      "id": "ND-2",
+      "topic": "Linear proposal versus clipped-price state transition",
+      "status": "closed_after_document_revision"
+    },
+    {
+      "id": "ND-3",
+      "topic": "Projected conditional price and inventory-grid Bellman domain",
+      "status": "closed_after_document_revision"
+    },
+    {
+      "id": "ND-4",
+      "topic": "Finite DP terminal penalty and linear-tail parameter definition",
+      "status": "closed_after_document_revision"
+    },
+    {
+      "id": "ND-5",
+      "topic": "Protocol-v4 final-tail-matched feedback gate",
+      "status": "closed_after_document_revision"
+    }
+  ],
+  "unresolved": [],
+  "status": "PASS"
+}

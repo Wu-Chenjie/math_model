@@ -1,0 +1,1 @@
+{"status": "PASS", "cases": [["weighted_affine_vs_independent_explicit_LP", "PASS"], ["future_contract_shared_prefix_and_cutoff", "PASS"], ["M1_EMA_matrix_clipped_price_expectation_convexity", "PASS"], ["action_before_hidden_price_not_branchwise_min", "PASS"], ["true_endpoint_reachable_projection", "PASS"], ["actual_replay_first_action_hides_current_price_with_fusion", "PASS"]]}

@@ -1,0 +1,69 @@
+{
+  "selection_period": [
+    24,
+    30
+  ],
+  "evaluation_period": [
+    31,
+    364
+  ],
+  "relative_tie_tolerance": 0.0001,
+  "policy": "Choose minimum January development cost; within 0.01% prefer Markov feedback with linear tail. This script never reads annual costs.",
+  "selected": {
+    "q2": "markov_mpc",
+    "q3": "markov_mpc",
+    "q4_2": "markov_mpc",
+    "q4_3": "markov_mpc"
+  },
+  "development_costs": {
+    "q2": {
+      "cross_baseline": 347193.94010315835,
+      "affine_mpc": 358491.1563306534,
+      "markov_mpc": 344539.22891725734,
+      "sddp_mpc": 358497.88773318595,
+      "sddp_markov": 344539.2289057616
+    },
+    "q3": {
+      "cross_baseline": 346059.9831381737,
+      "affine_mpc": 349365.400499225,
+      "markov_mpc": 339412.43942864065,
+      "sddp_mpc": 349359.97573698143,
+      "sddp_markov": 339437.65936127875
+    },
+    "q4_2": {
+      "cross_baseline": 385581.89539562917,
+      "affine_mpc": 399952.64893016627,
+      "markov_mpc": 384378.43811770633,
+      "sddp_mpc": 399902.9456533601,
+      "sddp_markov": 384378.3982923654
+    },
+    "q4_3": {
+      "cross_baseline": 386054.3675103319,
+      "affine_mpc": 390049.68457198277,
+      "markov_mpc": 378803.55927664065,
+      "sddp_mpc": 390049.6845719827,
+      "sddp_markov": 378803.5592766406
+    }
+  },
+  "sddp_training_iterations_development": 500,
+  "sddp_training_iterations_evaluation": 500,
+  "source_hashes": {
+    "continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+    "verify_workbooks.py": "c08289f66e183a22d2489f79b22b915758586b8940fc4c65b5c8b70c1802550a",
+    "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+    "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+    "dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+    "select_model.py": "4038e873c1d77e525ba1c2d591c0441dd93e527b8214acebb6c604196648b2f7",
+    "analyze_tail.py": "7c7c9dd491d21707eef4771d92f31ca03471d96d5a5c33f1df20b9758efb7ae0",
+    "freeze_evidence.py": "57562c3f701f071b261b8a962b88b484422896d496104a72a173208883b7ff75",
+    "validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+    "export_results.py": "8467bdbda3c39ec8afa6eee6adfa6b0bf081c963dec4f8f719c2dd8ed40c5f87",
+    "check_terminal.py": "801e8a1c7c4c98d1d0285d8e195c31874322c5996b37760ce5e1588c047fdf34",
+    "package_when_ready.py": "20c8fce64211887745ac62670d91fc62b7d644d826252e2a9e0bd77a5532c8eb",
+    "finish.py": "5b60a3808504711ad903b5356f1d1281685e07a7b814f31e028ea45bfd5d9c4b",
+    "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+  },
+  "sddp_training_note": "Corrected development and annual auxiliary models both use500iterations, with finite-end1/2day truncation. Older development results remain archived."
+}

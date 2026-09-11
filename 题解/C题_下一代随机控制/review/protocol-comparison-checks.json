@@ -1,0 +1,90 @@
+{
+  "reviewer_id": "/root/upgrade_code_review",
+  "independent": true,
+  "status": "PASS_WITHIN_SCOPE",
+  "scope": "Temporary fixtures only; no actual optimization or model selection was run or changed. Guard failures are demonstrated vulnerabilities, not allegations of observed formal-period retuning.",
+  "tests": [
+    {
+      "name": "paired_non_circular_moving_block_bootstrap",
+      "status": "PASS",
+      "details": {
+        "index_shape": [
+          10000,
+          334
+        ],
+        "block_internal_continuity": true,
+        "constant_annual_saving_and_CI": 668,
+        "serial_fixture_quantile_max_error": 0.0,
+        "mismatched_terminal_rejected": true
+      }
+    },
+    {
+      "name": "four_component_delivery_bill",
+      "status": "PASS",
+      "details": {
+        "independently_computed_bill": 292.0,
+        "code_bill": 292.0
+      }
+    },
+    {
+      "name": "selection_ignores_formal_bills",
+      "status": "PASS",
+      "details": {
+        "formal_bill_mutation_has_no_effect": true,
+        "chosen_H": 72
+      }
+    },
+    {
+      "name": "annual_protocol_digest_guard",
+      "status": "PASS",
+      "details": {
+        "bad_protocol_hash_rejected_before_dispatch": true,
+        "bad_integrity_rejected_before_dispatch": true,
+        "fake_annual_dispatch_called": false
+      }
+    },
+    {
+      "name": "staged_dependencies_final_gain_and_immutable_freeze",
+      "status": "PASS",
+      "details": {
+        "guards_independently_rejected": [
+          "formal-directory",
+          "formal-start.json",
+          "execution-formal.json"
+        ],
+        "registered_configurations": 43,
+        "all_stage_configurations_registered": true,
+        "final_gain_hit_ratio": 0.0,
+        "final_gain_bound": 20.0,
+        "redevelopment_after_formal_start_rejected": true
+      }
+    },
+    {
+      "name": "M1_tail_change_requires_matched_recheck_and_downgrade",
+      "status": "PASS",
+      "details": {
+        "initial_M1_pass": true,
+        "final_matched_M1_pass": false,
+        "frozen_lower": "M0",
+        "final_tail_scale": 0,
+        "matched_pair_registered": true
+      }
+    },
+    {
+      "name": "S5_S14_cannot_enter_main_even_if_cheapest",
+      "status": "PASS",
+      "details": {
+        "S5_cost": 1.0,
+        "S14_cost": 2.0,
+        "allowed_S10_cost": 645.0,
+        "selected_scenarios": 10,
+        "all_sensitivity_counts_annual_registered": true
+      }
+    }
+  ],
+  "issues": [],
+  "source_hashes": {
+    "tools/run_incremental_experiments.py": "ed0c310f145a3f56899cecafeaea41899a1085a0107189ec4409c83a36c50da1",
+    "tools/compare_incremental_results.py": "a3eaa12e512284628ecfb1e146dd195ee4ea58f69be1ac761e4ea2067d95c340"
+  }
+}

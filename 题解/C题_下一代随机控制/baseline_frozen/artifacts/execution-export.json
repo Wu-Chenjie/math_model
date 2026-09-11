@@ -1,0 +1,11 @@
+{
+  "command": "python3 src/export_results.py",
+  "exit_code": 0,
+  "runtime_seconds": 1.2561149578541517,
+  "selected": {
+    "q2": "markov_mpc",
+    "q3": "markov_mpc",
+    "q4_2": "markov_mpc",
+    "q4_3": "markov_mpc"
+  }
+}

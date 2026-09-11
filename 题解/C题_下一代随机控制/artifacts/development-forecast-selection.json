@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "fusion_weight": 1.0,
+      "official_correction": 0.0,
+      "january_pv_mae_kw": 52.037019548611106
+    },
+    {
+      "fusion_weight": 0.0,
+      "official_correction": 0.0,
+      "january_pv_mae_kw": 96.6839053726913
+    },
+    {
+      "fusion_weight": 0.0,
+      "official_correction": 0.4,
+      "january_pv_mae_kw": 96.6839053726913
+    },
+    {
+      "fusion_weight": 0.0,
+      "official_correction": 0.8,
+      "january_pv_mae_kw": 96.6839053726913
+    },
+    {
+      "fusion_weight": 0.25,
+      "official_correction": 0.0,
+      "january_pv_mae_kw": 75.89307490407931
+    },
+    {
+      "fusion_weight": 0.25,
+      "official_correction": 0.4,
+      "january_pv_mae_kw": 76.35362146692779
+    },
+    {
+      "fusion_weight": 0.25,
+      "official_correction": 0.8,
+      "january_pv_mae_kw": 76.86545208488806
+    },
+    {
+      "fusion_weight": 0.5,
+      "official_correction": 0.0,
+      "january_pv_mae_kw": 59.41574618973966
+    },
+    {
+      "fusion_weight": 0.5,
+      "official_correction": 0.4,
+      "january_pv_mae_kw": 60.41095864678472
+    },
+    {
+      "fusion_weight": 0.5,
+      "official_correction": 0.8,
+      "january_pv_mae_kw": 61.624864655322625
+    },
+    {
+      "fusion_weight": 0.75,
+      "official_correction": 0.0,
+      "january_pv_mae_kw": 50.501081114599856
+    },
+    {
+      "fusion_weight": 0.75,
+      "official_correction": 0.4,
+      "january_pv_mae_kw": 52.07509748902246
+    },
+    {
+      "fusion_weight": 0.75,
+      "official_correction": 0.8,
+      "january_pv_mae_kw": 54.172061591013055
+    },
+    {
+      "fusion_weight": 1.0,
+      "official_correction": 0.4,
+      "january_pv_mae_kw": 53.88367675299261
+    },
+    {
+      "fusion_weight": 1.0,
+      "official_correction": 0.8,
+      "january_pv_mae_kw": 56.52128877709878
+    }
+  ],
+  "selected": {
+    "fusion_weight": 0.75,
+    "official_correction": 0.0,
+    "january_pv_mae_kw": 50.501081114599856
+  },
+  "data_cutoff_exclusive": 4464
+}

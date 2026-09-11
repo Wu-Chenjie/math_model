@@ -1,0 +1,8 @@
+{"kind": "q2", "candidate": "affine_mpc", "fixed_total_cost": 14579795.71030043, "terminal_constraint_increment": 3059.0723999105394}
+{"kind": "q2", "candidate": "markov_mpc", "fixed_total_cost": 13844170.061859095, "terminal_constraint_increment": 2489.5417157318443}
+{"kind": "q3", "candidate": "affine_mpc", "fixed_total_cost": 14047627.45452197, "terminal_constraint_increment": 2995.1628090441227}
+{"kind": "q3", "candidate": "markov_mpc", "fixed_total_cost": 13461842.350947868, "terminal_constraint_increment": 2673.341252444312}
+{"kind": "q4_2", "candidate": "affine_mpc", "fixed_total_cost": 15417329.116721783, "terminal_constraint_increment": 2977.2876166086644}
+{"kind": "q4_2", "candidate": "markov_mpc", "fixed_total_cost": 14654611.381238637, "terminal_constraint_increment": 2483.9788788557053}
+{"kind": "q4_3", "candidate": "affine_mpc", "fixed_total_cost": 14848008.860857561, "terminal_constraint_increment": 3036.8378606773913}
+{"kind": "q4_3", "candidate": "markov_mpc", "fixed_total_cost": 14252083.025399217, "terminal_constraint_increment": 2720.5302581507713}

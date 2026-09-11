@@ -1,0 +1,9 @@
+Solving fixed_free
+{"label": "fixed_free", "cost": 12228166.562874481, "gap": -1.862645149230957e-09, "seconds": 5.449454375077039}
+Solving fixed_fixed6000
+{"label": "fixed_fixed6000", "cost": 12230383.646207815, "gap": 0.0, "seconds": 5.482256749877706}
+Solving variable_free
+{"label": "variable_free", "cost": 12780883.287952024, "gap": 0.0, "seconds": 5.943718916969374}
+Solving variable_fixed6000
+{"label": "variable_fixed6000", "cost": 12783021.73868496, "gap": 0.0, "seconds": 5.876121208071709}
+{"passed": true, "total_seconds": 22.824308708077297}

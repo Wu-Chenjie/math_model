@@ -1,0 +1,31 @@
+{
+  "scope": "narrative_and_producer_logic_only",
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "status": "no_unresolved_substantive_narrative_findings",
+  "annual_final_acceptance": "pending",
+  "resolved": [
+    {
+      "id": "N1",
+      "issue": "Release ablation fixed Markov controller was compared against possibly different selected main controller.",
+      "resolution": "finish.py now always subtracts Q3 Markov full-release cost, with matching table label."
+    },
+    {
+      "id": "N2",
+      "issue": "Transition counts described as raw historical counts instead of current SAA path labels.",
+      "resolution": "Model section7 now specifies per-time SAA quantiles, adjacent labels, total-one pseudocount and empty-bin fallback."
+    },
+    {
+      "id": "N3",
+      "issue": "Q2 internal six-hour clock could be mistaken for official forecast releases.",
+      "resolution": "Model section6 distinguishes chosen Q2 internal replanning and Q3 official releases; no error-threshold event-trigger claim."
+    }
+  ],
+  "reviewed_source_hashes": {
+    "模型与推导.md": "5a5683db3597ebebfdf14b590a2754e434fd2976c96d3b299b7ffcbe4305a27e",
+    "src/finish.py": "60b976901e49126625d15a14e66fbed55744ac975f9d2c8d11b7ea5309f422e7",
+    "src/validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+    "src/select_model.py": "c3ee7adec341c176e75c3ab90c2df74147cde199e2141e4f77ad05e5e5be9a62",
+    "src/continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e"
+  }
+}

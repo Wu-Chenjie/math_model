@@ -1,0 +1,58 @@
+{
+  "command": "python3 题解/C题_跨日随机控制/src/run.py --phase pilot --candidates cross_baseline affine_mpc markov_mpc --kinds q2 q3 --workers 4",
+  "exit_code": 0,
+  "runtime_seconds": 1.389398125000298,
+  "environment": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "numpy": "2.4.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+  },
+  "results": [
+    {
+      "kind": "q2",
+      "candidate": "cross_baseline",
+      "total_cost": 22562.459979671723,
+      "runtime_seconds": 0.11765441694296896
+    },
+    {
+      "kind": "q3",
+      "candidate": "cross_baseline",
+      "total_cost": 22567.706750740734,
+      "runtime_seconds": 0.18651304207742214
+    },
+    {
+      "kind": "q2",
+      "candidate": "affine_mpc",
+      "total_cost": 22399.034275218764,
+      "runtime_seconds": 0.36424183403141797
+    },
+    {
+      "kind": "q2",
+      "candidate": "markov_mpc",
+      "total_cost": 21294.81268328482,
+      "runtime_seconds": 0.45013816677965224
+    },
+    {
+      "kind": "q3",
+      "candidate": "affine_mpc",
+      "total_cost": 23226.976276542104,
+      "runtime_seconds": 0.6950776251032948
+    },
+    {
+      "kind": "q3",
+      "candidate": "markov_mpc",
+      "total_cost": 21412.21804480402,
+      "runtime_seconds": 0.7604340419638902
+    }
+  ],
+  "seed": null,
+  "deterministic_reason": "Deterministic chronological scenario selection, LP and convex DP.",
+  "source_hashes": {
+    "run.py": "9e7d4e07e5d38b882d24706fa551440d2605a7551a8e63a65e80253944c1ff2c",
+    "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+    "dispatch.py": "34ba2fc7fad6c848c2721ae0bce0e8e16030a41739138bf4ba554c28596e7a51",
+    "control.py": "b03b1021fcb82da8a8ef7350647c6c07b0b1871047fa4de380b63f569f7ac621",
+    "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+  }
+}

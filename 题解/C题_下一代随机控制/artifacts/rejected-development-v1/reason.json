@@ -1,0 +1,4 @@
+{
+  "reason": "M1 backward support collocation must use the same smoothed transition and price coefficients as online action. No M1 economic sweep or formal year had run; incomplete M0 development rerun under a clean source version.",
+  "accepted_for_selection": false
+}

@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "results": [
+    {
+      "name": "without6",
+      "total_cost_yuan": 13533796.504697384,
+      "source": "artifacts/information-terminal/q3_without6",
+      "validation": "review/information-terminal/without6.json",
+      "validation_sha256": "c3465f2e1ff7a93b47a1a479f3ff028e295f877c8b8825c7c45d95f9ab61a16f"
+    },
+    {
+      "name": "0only",
+      "total_cost_yuan": 13778691.435360128,
+      "source": "artifacts/information-terminal/q3_0only",
+      "validation": "review/information-terminal/0only.json",
+      "validation_sha256": "ad2e30b43f1f57e64ea5f2cc526062c2b3196c19aa101045a964cafa9d6e0090"
+    },
+    {
+      "name": "without12",
+      "total_cost_yuan": 13641121.929365885,
+      "source": "artifacts/information-terminal/q3_without12",
+      "validation": "review/information-terminal/without12.json",
+      "validation_sha256": "4da507fb63e2b4193e186728c249384cbabb8c4a894b46411451cb0cef9fd65a"
+    },
+    {
+      "name": "without18",
+      "total_cost_yuan": 13462799.983597416,
+      "source": "artifacts/information-terminal/q3_without18",
+      "validation": "review/information-terminal/without18.json",
+      "validation_sha256": "c0ef0a8f520f1c81660f897d55ab93bdd0adc312224ab1228f9ffe6dad77a66f"
+    }
+  ],
+  "source": "Reproduced full334day original information ablations with exact terminal suffix replacement",
+  "execution": {
+    "command": [
+      "tools/match_information_ablation_endpoints.py"
+    ],
+    "exit_code": 0,
+    "runtime_seconds": 40.40989483310841
+  }
+}
