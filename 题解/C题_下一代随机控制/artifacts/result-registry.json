@@ -1,4 +1,2519 @@
 {
   "schema_version": 1,
-  "results": []
+  "scope": "frozen audited paper",
+  "results": [
+    {
+      "id": "frozen-paper.evaluation_period.days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/evaluation_period/days",
+      "value": 334,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.evaluation_period.initial_inventory_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/evaluation_period/initial_inventory_kwh",
+      "value": 6000.0,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.evaluation_period.terminal_inventory_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/evaluation_period/terminal_inventory_kwh",
+      "value": 6000.0,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.q1.expected_cost",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/q1/expected_cost",
+      "value": 35126.948589289634,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.q1.lp_objective",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/q1/lp_objective",
+      "value": 35126.94858928964,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.q1.eq_residual",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/q1/eq_residual",
+      "value": 9.094947017729282e-13,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.q1.ineq_violation",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/q1/ineq_violation",
+      "value": 1.1368683772161603e-13,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.q1.duality_gap",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/q1/duality_gap",
+      "value": 7.275957614183426e-12,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.q1.purchased_energy_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/q1/purchased_energy_kwh",
+      "value": 59482.698998353924,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.q1.charged_bus_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/q1/charged_bus_kwh",
+      "value": 20740.66613168725,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.q1.discharged_bus_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/q1/discharged_bus_kwh",
+      "value": 16799.939566666668,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.q1.inventory_min_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/q1/inventory_min_kwh",
+      "value": 1200.0000000000064,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.q1.inventory_max_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/q1/inventory_max_kwh",
+      "value": 10800.000000000007,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/candidate_cost_yuan",
+      "value": 13844170.061859094,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/baseline_cost_yuan",
+      "value": 14181955.664783094,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/saving_yuan",
+      "value": 337785.60292399966,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.saving_percent",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/saving_percent",
+      "value": 2.3817984691828884,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.positive_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/positive_days",
+      "value": 268,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.negative_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/negative_days",
+      "value": 66,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.candidate_emergency_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/candidate_emergency_kwh",
+      "value": 151764.07688902435,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.candidate_spill_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/candidate_spill_kwh",
+      "value": 2336748.172034976,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.candidate_min_inventory_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/candidate_min_inventory_kwh",
+      "value": 1200.0,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.candidate_max_inventory_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/candidate_max_inventory_kwh",
+      "value": 10800.0,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.3.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/3/block_days",
+      "value": 3,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.3.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/3/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.3.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/3/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.3.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/3/lower_yuan",
+      "value": 272298.8030022865,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.3.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/3/upper_yuan",
+      "value": 410754.0192010927,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.7.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/7/block_days",
+      "value": 7,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.7.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/7/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.7.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/7/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.7.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/7/lower_yuan",
+      "value": 276912.77078157174,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.7.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/7/upper_yuan",
+      "value": 406410.5475778359,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.14.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/14/block_days",
+      "value": 14,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.14.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/14/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.14.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/14/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.14.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/14/lower_yuan",
+      "value": 273801.64206787123,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.bootstrap.14.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/bootstrap/14/upper_yuan",
+      "value": 406726.4214044596,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.free_terminal_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/free_terminal_cost_yuan",
+      "value": 13841680.520143364,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q2.fixed_terminal_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q2/fixed_terminal_cost_yuan",
+      "value": 13844170.061859095,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/candidate_cost_yuan",
+      "value": 13461842.350947868,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/baseline_cost_yuan",
+      "value": 13828014.100518633,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/saving_yuan",
+      "value": 366171.74957076507,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.saving_percent",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/saving_percent",
+      "value": 2.64804292871694,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.positive_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/positive_days",
+      "value": 284,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.negative_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/negative_days",
+      "value": 50,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.candidate_emergency_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/candidate_emergency_kwh",
+      "value": 37821.56931429688,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.candidate_spill_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/candidate_spill_kwh",
+      "value": 1738320.5163277145,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.candidate_min_inventory_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/candidate_min_inventory_kwh",
+      "value": 1200.0,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.candidate_max_inventory_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/candidate_max_inventory_kwh",
+      "value": 10800.0,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.3.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/3/block_days",
+      "value": 3,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.3.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/3/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.3.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/3/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.3.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/3/lower_yuan",
+      "value": 313757.1313066514,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.3.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/3/upper_yuan",
+      "value": 417129.63151093037,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.7.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/7/block_days",
+      "value": 7,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.7.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/7/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.7.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/7/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.7.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/7/lower_yuan",
+      "value": 313534.5765845383,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.7.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/7/upper_yuan",
+      "value": 417831.86052820063,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.14.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/14/block_days",
+      "value": 14,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.14.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/14/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.14.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/14/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.14.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/14/lower_yuan",
+      "value": 304410.63243874663,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.bootstrap.14.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/bootstrap/14/upper_yuan",
+      "value": 429506.2818022119,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.free_terminal_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/free_terminal_cost_yuan",
+      "value": 13459169.009695424,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q3.fixed_terminal_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q3/fixed_terminal_cost_yuan",
+      "value": 13461842.350947868,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/candidate_cost_yuan",
+      "value": 14654611.38123864,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/baseline_cost_yuan",
+      "value": 15010601.458628617,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/saving_yuan",
+      "value": 355990.0773899766,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.saving_percent",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/saving_percent",
+      "value": 2.371591027655598,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.positive_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/positive_days",
+      "value": 229,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.negative_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/negative_days",
+      "value": 105,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.candidate_emergency_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/candidate_emergency_kwh",
+      "value": 139989.68954028297,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.candidate_spill_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/candidate_spill_kwh",
+      "value": 2373217.794892113,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.candidate_min_inventory_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/candidate_min_inventory_kwh",
+      "value": 1200.0,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.candidate_max_inventory_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/candidate_max_inventory_kwh",
+      "value": 10800.0,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.3.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/3/block_days",
+      "value": 3,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.3.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/3/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.3.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/3/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.3.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/3/lower_yuan",
+      "value": 290749.28689079336,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.3.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/3/upper_yuan",
+      "value": 423403.6816451972,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.7.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/7/block_days",
+      "value": 7,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.7.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/7/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.7.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/7/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.7.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/7/lower_yuan",
+      "value": 295236.40010357625,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.7.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/7/upper_yuan",
+      "value": 417351.79094480607,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.14.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/14/block_days",
+      "value": 14,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.14.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/14/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.14.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/14/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.14.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/14/lower_yuan",
+      "value": 287021.3886168286,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.bootstrap.14.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/bootstrap/14/upper_yuan",
+      "value": 429369.3389919107,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.free_terminal_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/free_terminal_cost_yuan",
+      "value": 14652127.402359782,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_2.fixed_terminal_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_2/fixed_terminal_cost_yuan",
+      "value": 14654611.381238637,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/candidate_cost_yuan",
+      "value": 14252083.025399216,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/baseline_cost_yuan",
+      "value": 14681668.450043777,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/saving_yuan",
+      "value": 429585.42464456125,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.saving_percent",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/saving_percent",
+      "value": 2.9259986772367164,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.positive_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/positive_days",
+      "value": 241,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.negative_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/negative_days",
+      "value": 93,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.candidate_emergency_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/candidate_emergency_kwh",
+      "value": 37930.268467347865,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.candidate_spill_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/candidate_spill_kwh",
+      "value": 1746588.1004165576,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.candidate_min_inventory_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/candidate_min_inventory_kwh",
+      "value": 1200.0,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.candidate_max_inventory_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/candidate_max_inventory_kwh",
+      "value": 10800.0,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.3.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/3/block_days",
+      "value": 3,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.3.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/3/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.3.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/3/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.3.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/3/lower_yuan",
+      "value": 370490.24530935124,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.3.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/3/upper_yuan",
+      "value": 490203.32836346317,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.7.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/7/block_days",
+      "value": 7,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.7.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/7/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.7.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/7/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.7.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/7/lower_yuan",
+      "value": 363235.991041116,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.7.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/7/upper_yuan",
+      "value": 495036.61784567765,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.14.block_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/14/block_days",
+      "value": 14,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.14.replicates",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/14/replicates",
+      "value": 10000,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.14.seed",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/14/seed",
+      "value": 20260911,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.14.lower_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/14/lower_yuan",
+      "value": 351137.7307892044,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.bootstrap.14.upper_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/bootstrap/14/upper_yuan",
+      "value": 509161.2214718028,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.free_terminal_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/free_terminal_cost_yuan",
+      "value": 14249362.495141067,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.questions.q4_3.fixed_terminal_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/questions/q4_3/fixed_terminal_cost_yuan",
+      "value": 14252083.025399217,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.0only.cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/0only/cost_yuan",
+      "value": 13778691.435360128,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.0only.increment_vs_all_releases_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/0only/increment_vs_all_releases_yuan",
+      "value": 316849.08441226,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.0only.increment_percent",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/0only/increment_percent",
+      "value": 2.3536829220849564,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.0only.emergency_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/0only/emergency_kwh",
+      "value": 73820.76457842757,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without6.cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without6/cost_yuan",
+      "value": 13533796.504697384,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without6.increment_vs_all_releases_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without6/increment_vs_all_releases_yuan",
+      "value": 71954.15374951623,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without6.increment_percent",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without6/increment_percent",
+      "value": 0.5345045044629411,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without6.emergency_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without6/emergency_kwh",
+      "value": 43020.400388564594,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without12.cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without12/cost_yuan",
+      "value": 13641121.929365885,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without12.increment_vs_all_releases_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without12/increment_vs_all_releases_yuan",
+      "value": 179279.57841801643,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without12.increment_percent",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without12/increment_percent",
+      "value": 1.3317610899327839,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without12.emergency_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without12/emergency_kwh",
+      "value": 47518.31257141922,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without18.cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without18/cost_yuan",
+      "value": 13462799.983597416,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without18.increment_vs_all_releases_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without18/increment_vs_all_releases_yuan",
+      "value": 957.6326495483518,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without18.increment_percent",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without18/increment_percent",
+      "value": 0.00711368195067983,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.information_ablations.without18.emergency_kwh",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/information_ablations/without18/emergency_kwh",
+      "value": 37961.34515708401,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.0.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/0/candidate_cost_yuan",
+      "value": 1187754.7869531058,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.0.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/0/baseline_cost_yuan",
+      "value": 1210941.8893175616,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.0.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/0/saving_yuan",
+      "value": 23187.10236445575,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.0.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/0/saving_days",
+      "value": 26,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.0.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/0/loss_days",
+      "value": 2,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.1.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/1/candidate_cost_yuan",
+      "value": 1118461.289171975,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.1.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/1/baseline_cost_yuan",
+      "value": 1143430.4326965732,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.1.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/1/saving_yuan",
+      "value": 24969.143524598105,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.1.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/1/saving_days",
+      "value": 24,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.1.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/1/loss_days",
+      "value": 7,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.2.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/2/candidate_cost_yuan",
+      "value": 945382.9166622034,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.2.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/2/baseline_cost_yuan",
+      "value": 974931.2699889528,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.2.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/2/saving_yuan",
+      "value": 29548.3533267494,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.2.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/2/saving_days",
+      "value": 23,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.2.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/2/loss_days",
+      "value": 7,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.3.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/3/candidate_cost_yuan",
+      "value": 1014628.5214632064,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.3.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/3/baseline_cost_yuan",
+      "value": 1039554.4941033841,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.3.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/3/saving_yuan",
+      "value": 24925.97264017761,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.3.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/3/saving_days",
+      "value": 23,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.3.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/3/loss_days",
+      "value": 8,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.4.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/4/candidate_cost_yuan",
+      "value": 1499304.99179658,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.4.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/4/baseline_cost_yuan",
+      "value": 1549228.580087792,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.4.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/4/saving_yuan",
+      "value": 49923.58829121175,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.4.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/4/saving_days",
+      "value": 21,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.4.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/4/loss_days",
+      "value": 9,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.5.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/5/candidate_cost_yuan",
+      "value": 1556487.309238071,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.5.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/5/baseline_cost_yuan",
+      "value": 1607958.7160858628,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.5.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/5/saving_yuan",
+      "value": 51471.40684779136,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.5.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/5/saving_days",
+      "value": 25,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.5.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/5/loss_days",
+      "value": 6,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.6.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/6/candidate_cost_yuan",
+      "value": 1273557.7966036636,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.6.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/6/baseline_cost_yuan",
+      "value": 1306198.0879602747,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.6.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/6/saving_yuan",
+      "value": 32640.29135661137,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.6.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/6/saving_days",
+      "value": 23,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.6.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/6/loss_days",
+      "value": 8,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.7.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/7/candidate_cost_yuan",
+      "value": 1129750.7009564366,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.7.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/7/baseline_cost_yuan",
+      "value": 1157919.476370397,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.7.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/7/saving_yuan",
+      "value": 28168.775413960528,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.7.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/7/saving_days",
+      "value": 24,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.7.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/7/loss_days",
+      "value": 6,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.8.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/8/candidate_cost_yuan",
+      "value": 1118087.419511877,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.8.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/8/baseline_cost_yuan",
+      "value": 1149745.7561488724,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.8.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/8/saving_yuan",
+      "value": 31658.336636995555,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.8.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/8/saving_days",
+      "value": 26,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.8.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/8/loss_days",
+      "value": 5,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.9.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/9/candidate_cost_yuan",
+      "value": 1246161.6157470383,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.9.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/9/baseline_cost_yuan",
+      "value": 1269698.823403292,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.9.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/9/saving_yuan",
+      "value": 23537.207656253755,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.9.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/9/saving_days",
+      "value": 26,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.9.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/9/loss_days",
+      "value": 4,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.10.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/10/candidate_cost_yuan",
+      "value": 1754592.7137549382,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.10.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/10/baseline_cost_yuan",
+      "value": 1772348.138620133,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.10.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/10/saving_yuan",
+      "value": 17755.42486519444,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.10.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/10/saving_days",
+      "value": 27,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q2.10.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q2/10/loss_days",
+      "value": 4,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.0.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/0/candidate_cost_yuan",
+      "value": 1193082.806049739,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.0.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/0/baseline_cost_yuan",
+      "value": 1220220.57849273,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.0.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/0/saving_yuan",
+      "value": 27137.77244299097,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.0.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/0/saving_days",
+      "value": 26,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.0.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/0/loss_days",
+      "value": 2,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.1.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/1/candidate_cost_yuan",
+      "value": 1110815.2207224297,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.1.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/1/baseline_cost_yuan",
+      "value": 1130976.8750602128,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.1.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/1/saving_yuan",
+      "value": 20161.654337782926,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.1.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/1/saving_days",
+      "value": 25,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.1.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/1/loss_days",
+      "value": 6,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.2.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/2/candidate_cost_yuan",
+      "value": 918805.1967279557,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.2.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/2/baseline_cost_yuan",
+      "value": 940395.641158854,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.2.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/2/saving_yuan",
+      "value": 21590.444430898377,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.2.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/2/saving_days",
+      "value": 25,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.2.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/2/loss_days",
+      "value": 5,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.3.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/3/candidate_cost_yuan",
+      "value": 975307.2737940956,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.3.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/3/baseline_cost_yuan",
+      "value": 1011497.8484754721,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.3.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/3/saving_yuan",
+      "value": 36190.5746813766,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.3.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/3/saving_days",
+      "value": 26,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.3.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/3/loss_days",
+      "value": 5,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.4.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/4/candidate_cost_yuan",
+      "value": 1317963.4662267214,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.4.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/4/baseline_cost_yuan",
+      "value": 1357418.0763472228,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.4.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/4/saving_yuan",
+      "value": 39454.610120501355,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.4.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/4/saving_days",
+      "value": 23,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.4.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/4/loss_days",
+      "value": 7,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.5.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/5/candidate_cost_yuan",
+      "value": 1515279.6119137213,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.5.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/5/baseline_cost_yuan",
+      "value": 1564940.3383761696,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.5.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/5/saving_yuan",
+      "value": 49660.72646244814,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.5.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/5/saving_days",
+      "value": 25,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.5.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/5/loss_days",
+      "value": 6,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.6.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/6/candidate_cost_yuan",
+      "value": 1266365.0781017153,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.6.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/6/baseline_cost_yuan",
+      "value": 1314611.4062390607,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.6.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/6/saving_yuan",
+      "value": 48246.32813734537,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.6.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/6/saving_days",
+      "value": 26,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.6.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/6/loss_days",
+      "value": 5,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.7.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/7/candidate_cost_yuan",
+      "value": 1109645.6066058772,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.7.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/7/baseline_cost_yuan",
+      "value": 1148490.085254478,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.7.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/7/saving_yuan",
+      "value": 38844.47864860079,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.7.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/7/saving_days",
+      "value": 26,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.7.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/7/loss_days",
+      "value": 4,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.8.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/8/candidate_cost_yuan",
+      "value": 1117333.1154363349,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.8.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/8/baseline_cost_yuan",
+      "value": 1147876.673083206,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.8.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/8/saving_yuan",
+      "value": 30543.5576468709,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.8.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/8/saving_days",
+      "value": 27,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.8.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/8/loss_days",
+      "value": 4,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.9.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/9/candidate_cost_yuan",
+      "value": 1255166.7273030467,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.9.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/9/baseline_cost_yuan",
+      "value": 1282199.523419115,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.9.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/9/saving_yuan",
+      "value": 27032.796116068526,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.9.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/9/saving_days",
+      "value": 29,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.9.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/9/loss_days",
+      "value": 1,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.10.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/10/candidate_cost_yuan",
+      "value": 1682078.2480662316,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.10.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/10/baseline_cost_yuan",
+      "value": 1709387.054612113,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.10.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/10/saving_yuan",
+      "value": 27308.806545881074,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.10.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/10/saving_days",
+      "value": 26,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q3.10.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q3/10/loss_days",
+      "value": 5,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.0.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/0/candidate_cost_yuan",
+      "value": 1254590.7446913356,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.0.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/0/baseline_cost_yuan",
+      "value": 1281880.1580294652,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.0.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/0/saving_yuan",
+      "value": 27289.413338129638,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.0.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/0/saving_days",
+      "value": 21,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.0.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/0/loss_days",
+      "value": 7,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.1.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/1/candidate_cost_yuan",
+      "value": 1125702.5272868283,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.1.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/1/baseline_cost_yuan",
+      "value": 1146350.0094154272,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.1.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/1/saving_yuan",
+      "value": 20647.482128598916,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.1.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/1/saving_days",
+      "value": 19,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.1.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/1/loss_days",
+      "value": 12,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.2.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/2/candidate_cost_yuan",
+      "value": 928066.2480467975,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.2.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/2/baseline_cost_yuan",
+      "value": 948700.0682993055,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.2.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/2/saving_yuan",
+      "value": 20633.82025250798,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.2.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/2/saving_days",
+      "value": 18,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.2.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/2/loss_days",
+      "value": 12,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.3.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/3/candidate_cost_yuan",
+      "value": 1000494.989790566,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.3.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/3/baseline_cost_yuan",
+      "value": 1022695.4883984257,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.3.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/3/saving_yuan",
+      "value": 22200.498607859565,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.3.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/3/saving_days",
+      "value": 18,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.3.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/3/loss_days",
+      "value": 13,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.4.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/4/candidate_cost_yuan",
+      "value": 1572682.9078922605,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.4.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/4/baseline_cost_yuan",
+      "value": 1617513.8218009435,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.4.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/4/saving_yuan",
+      "value": 44830.91390868312,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.4.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/4/saving_days",
+      "value": 20,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.4.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/4/loss_days",
+      "value": 10,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.5.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/5/candidate_cost_yuan",
+      "value": 1786935.0153895316,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.5.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/5/baseline_cost_yuan",
+      "value": 1853055.4135340431,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.5.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/5/saving_yuan",
+      "value": 66120.39814451158,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.5.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/5/saving_days",
+      "value": 25,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.5.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/5/loss_days",
+      "value": 6,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.6.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/6/candidate_cost_yuan",
+      "value": 1411834.615037463,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.6.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/6/baseline_cost_yuan",
+      "value": 1456825.0828984152,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.6.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/6/saving_yuan",
+      "value": 44990.46786095191,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.6.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/6/saving_days",
+      "value": 22,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.6.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/6/loss_days",
+      "value": 9,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.7.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/7/candidate_cost_yuan",
+      "value": 1143117.2113607125,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.7.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/7/baseline_cost_yuan",
+      "value": 1174477.3117241804,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.7.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/7/saving_yuan",
+      "value": 31360.100363467667,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.7.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/7/saving_days",
+      "value": 23,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.7.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/7/loss_days",
+      "value": 7,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.8.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/8/candidate_cost_yuan",
+      "value": 1120113.8295618002,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.8.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/8/baseline_cost_yuan",
+      "value": 1149528.7623434844,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.8.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/8/saving_yuan",
+      "value": 29414.93278168392,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.8.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/8/saving_days",
+      "value": 22,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.8.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/8/loss_days",
+      "value": 9,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.9.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/9/candidate_cost_yuan",
+      "value": 1301458.5854580912,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.9.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/9/baseline_cost_yuan",
+      "value": 1331733.4081573167,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.9.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/9/saving_yuan",
+      "value": 30274.82269922546,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.9.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/9/saving_days",
+      "value": 20,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.9.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/9/loss_days",
+      "value": 10,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.10.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/10/candidate_cost_yuan",
+      "value": 2009614.7067232516,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.10.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/10/baseline_cost_yuan",
+      "value": 2027841.9340276083,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.10.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/10/saving_yuan",
+      "value": 18227.227304356846,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.10.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/10/saving_days",
+      "value": 21,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_2.10.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_2/10/loss_days",
+      "value": 10,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.0.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/0/candidate_cost_yuan",
+      "value": 1261385.2602594506,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.0.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/0/baseline_cost_yuan",
+      "value": 1294935.7850848963,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.0.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/0/saving_yuan",
+      "value": 33550.52482544574,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.0.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/0/saving_days",
+      "value": 21,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.0.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/0/loss_days",
+      "value": 7,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.1.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/1/candidate_cost_yuan",
+      "value": 1112932.744809736,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.1.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/1/baseline_cost_yuan",
+      "value": 1137661.1146275948,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.1.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/1/saving_yuan",
+      "value": 24728.369817858904,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.1.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/1/saving_days",
+      "value": 19,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.1.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/1/loss_days",
+      "value": 12,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.2.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/2/candidate_cost_yuan",
+      "value": 902551.637966458,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.2.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/2/baseline_cost_yuan",
+      "value": 925819.5363616034,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.2.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/2/saving_yuan",
+      "value": 23267.898395145396,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.2.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/2/saving_days",
+      "value": 19,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.2.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/2/loss_days",
+      "value": 11,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.3.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/3/candidate_cost_yuan",
+      "value": 962787.0682381317,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.3.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/3/baseline_cost_yuan",
+      "value": 996148.393802751,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.3.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/3/saving_yuan",
+      "value": 33361.32556461926,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.3.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/3/saving_days",
+      "value": 23,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.3.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/3/loss_days",
+      "value": 8,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.4.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/4/candidate_cost_yuan",
+      "value": 1406332.3796889659,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.4.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/4/baseline_cost_yuan",
+      "value": 1456050.8658683393,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.4.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/4/saving_yuan",
+      "value": 49718.48617937322,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.4.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/4/saving_days",
+      "value": 23,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.4.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/4/loss_days",
+      "value": 7,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.5.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/5/candidate_cost_yuan",
+      "value": 1733157.3802794064,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.5.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/5/baseline_cost_yuan",
+      "value": 1790744.37239352,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.5.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/5/saving_yuan",
+      "value": 57586.99211411385,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.5.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/5/saving_days",
+      "value": 22,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.5.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/5/loss_days",
+      "value": 9,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.6.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/6/candidate_cost_yuan",
+      "value": 1405302.5826428914,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.6.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/6/baseline_cost_yuan",
+      "value": 1466185.4260329378,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.6.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/6/saving_yuan",
+      "value": 60882.84339004656,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.6.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/6/saving_days",
+      "value": 26,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.6.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/6/loss_days",
+      "value": 5,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.7.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/7/candidate_cost_yuan",
+      "value": 1124048.387294113,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.7.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/7/baseline_cost_yuan",
+      "value": 1170007.238222316,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.7.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/7/saving_yuan",
+      "value": 45958.85092820297,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.7.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/7/saving_days",
+      "value": 24,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.7.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/7/loss_days",
+      "value": 6,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.8.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/8/candidate_cost_yuan",
+      "value": 1119046.5546586625,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.8.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/8/baseline_cost_yuan",
+      "value": 1150145.6716948848,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.8.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/8/saving_yuan",
+      "value": 31099.117036222004,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.8.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/8/saving_days",
+      "value": 21,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.8.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/8/loss_days",
+      "value": 10,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.9.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/9/candidate_cost_yuan",
+      "value": 1309598.1351014113,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.9.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/9/baseline_cost_yuan",
+      "value": 1345714.36883445,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.9.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/9/saving_yuan",
+      "value": 36116.23373303865,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.9.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/9/saving_days",
+      "value": 20,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.9.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/9/loss_days",
+      "value": 10,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.10.candidate_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/10/candidate_cost_yuan",
+      "value": 1914940.8944599903,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.10.baseline_cost_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/10/baseline_cost_yuan",
+      "value": 1948255.677120485,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.10.saving_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/10/saving_yuan",
+      "value": 33314.782660494704,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.10.saving_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/10/saving_days",
+      "value": 23,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.monthly.q4_3.10.loss_days",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/monthly/q4_3/10/loss_days",
+      "value": 8,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.perfect_information_reference.fixed_price_fixed_terminal_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/perfect_information_reference/fixed_price_fixed_terminal_yuan",
+      "value": 12230383.646207815,
+      "status": "verified"
+    },
+    {
+      "id": "frozen-paper.perfect_information_reference.variable_price_fixed_terminal_yuan",
+      "source_artifact": "artifacts/frozen-paper-evidence.json",
+      "source_path": "/perfect_information_reference/variable_price_fixed_terminal_yuan",
+      "value": 12783021.73868496,
+      "status": "verified"
+    }
+  ]
 }

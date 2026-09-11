@@ -1,4 +1,1441 @@
 {
   "schema_version": 1,
-  "claims": []
+  "claims": [
+    {
+      "result_id": "frozen-paper.evaluation_period.days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.evaluation_period.initial_inventory_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.evaluation_period.terminal_inventory_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.q1.expected_cost",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.q1.lp_objective",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.q1.eq_residual",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.q1.ineq_violation",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.q1.duality_gap",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.q1.purchased_energy_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.q1.charged_bus_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.q1.discharged_bus_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.q1.inventory_min_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.q1.inventory_max_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.saving_percent",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.positive_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.negative_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.candidate_emergency_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.candidate_spill_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.candidate_min_inventory_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.candidate_max_inventory_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.3.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.3.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.3.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.3.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.3.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.7.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.7.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.7.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.7.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.7.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.14.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.14.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.14.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.14.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.bootstrap.14.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.free_terminal_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q2.fixed_terminal_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.saving_percent",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.positive_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.negative_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.candidate_emergency_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.candidate_spill_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.candidate_min_inventory_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.candidate_max_inventory_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.3.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.3.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.3.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.3.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.3.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.7.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.7.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.7.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.7.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.7.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.14.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.14.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.14.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.14.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.bootstrap.14.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.free_terminal_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q3.fixed_terminal_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.saving_percent",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.positive_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.negative_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.candidate_emergency_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.candidate_spill_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.candidate_min_inventory_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.candidate_max_inventory_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.3.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.3.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.3.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.3.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.3.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.7.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.7.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.7.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.7.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.7.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.14.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.14.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.14.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.14.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.bootstrap.14.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.free_terminal_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_2.fixed_terminal_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.saving_percent",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.positive_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.negative_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.candidate_emergency_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.candidate_spill_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.candidate_min_inventory_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.candidate_max_inventory_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.3.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.3.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.3.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.3.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.3.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.7.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.7.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.7.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.7.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.7.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.14.block_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.14.replicates",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.14.seed",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.14.lower_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.bootstrap.14.upper_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.free_terminal_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.questions.q4_3.fixed_terminal_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.0only.cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.0only.increment_vs_all_releases_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.0only.increment_percent",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.0only.emergency_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without6.cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without6.increment_vs_all_releases_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without6.increment_percent",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without6.emergency_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without12.cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without12.increment_vs_all_releases_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without12.increment_percent",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without12.emergency_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without18.cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without18.increment_vs_all_releases_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without18.increment_percent",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.information_ablations.without18.emergency_kwh",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.0.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.0.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.0.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.0.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.0.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.1.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.1.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.1.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.1.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.1.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.2.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.2.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.2.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.2.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.2.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.3.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.3.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.3.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.3.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.3.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.4.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.4.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.4.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.4.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.4.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.5.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.5.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.5.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.5.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.5.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.6.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.6.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.6.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.6.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.6.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.7.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.7.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.7.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.7.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.7.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.8.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.8.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.8.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.8.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.8.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.9.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.9.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.9.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.9.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.9.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.10.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.10.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.10.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.10.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q2.10.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.0.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.0.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.0.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.0.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.0.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.1.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.1.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.1.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.1.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.1.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.2.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.2.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.2.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.2.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.2.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.3.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.3.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.3.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.3.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.3.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.4.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.4.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.4.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.4.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.4.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.5.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.5.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.5.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.5.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.5.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.6.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.6.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.6.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.6.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.6.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.7.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.7.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.7.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.7.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.7.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.8.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.8.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.8.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.8.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.8.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.9.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.9.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.9.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.9.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.9.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.10.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.10.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.10.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.10.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q3.10.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.0.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.0.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.0.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.0.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.0.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.1.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.1.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.1.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.1.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.1.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.2.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.2.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.2.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.2.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.2.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.3.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.3.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.3.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.3.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.3.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.4.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.4.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.4.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.4.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.4.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.5.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.5.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.5.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.5.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.5.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.6.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.6.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.6.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.6.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.6.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.7.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.7.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.7.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.7.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.7.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.8.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.8.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.8.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.8.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.8.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.9.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.9.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.9.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.9.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.9.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.10.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.10.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.10.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.10.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_2.10.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.0.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.0.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.0.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.0.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.0.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.1.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.1.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.1.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.1.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.1.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.2.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.2.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.2.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.2.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.2.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.3.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.3.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.3.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.3.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.3.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.4.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.4.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.4.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.4.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.4.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.5.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.5.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.5.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.5.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.5.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.6.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.6.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.6.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.6.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.6.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.7.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.7.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.7.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.7.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.7.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.8.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.8.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.8.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.8.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.8.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.9.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.9.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.9.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.9.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.9.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.10.candidate_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.10.baseline_cost_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.10.saving_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.10.saving_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.monthly.q4_3.10.loss_days",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.perfect_information_reference.fixed_price_fixed_terminal_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    },
+    {
+      "result_id": "frozen-paper.perfect_information_reference.variable_price_fixed_terminal_yuan",
+      "usage": "Frozen-baseline final paper, tables, figures or reproducibility appendix."
+    }
+  ]
 }

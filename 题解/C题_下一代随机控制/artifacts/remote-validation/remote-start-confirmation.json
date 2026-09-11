@@ -1,0 +1,73 @@
+{
+  "status": "RUNNING_CONFIRMED",
+  "jobs": 113,
+  "workers": [
+    {
+      "id": "q2_8c3a9abb4b0b1129",
+      "status": "running",
+      "pid": 21596,
+      "alive": true,
+      "cpu_seconds": 36.09375,
+      "memory_bytes": 133349376
+    },
+    {
+      "id": "q3_8c3a9abb4b0b1129",
+      "status": "running",
+      "pid": 14796,
+      "alive": true,
+      "cpu_seconds": 36,
+      "memory_bytes": 138162176
+    },
+    {
+      "id": "q4_2_8c3a9abb4b0b1129",
+      "status": "running",
+      "pid": 49736,
+      "alive": true,
+      "cpu_seconds": 35.921875,
+      "memory_bytes": 135290880
+    },
+    {
+      "id": "q4_3_8c3a9abb4b0b1129",
+      "status": "running",
+      "pid": 51084,
+      "alive": true,
+      "cpu_seconds": 35.734375,
+      "memory_bytes": 136642560
+    },
+    {
+      "id": "q2_7bc4bc3e62f01705",
+      "status": "running",
+      "pid": 45032,
+      "alive": true,
+      "cpu_seconds": 35.84375,
+      "memory_bytes": 128905216
+    },
+    {
+      "id": "q3_7bc4bc3e62f01705",
+      "status": "running",
+      "pid": 34204,
+      "alive": true,
+      "cpu_seconds": 35.8125,
+      "memory_bytes": 138280960
+    },
+    {
+      "id": "q4_2_7bc4bc3e62f01705",
+      "status": "running",
+      "pid": 48932,
+      "alive": true,
+      "cpu_seconds": 35.8125,
+      "memory_bytes": 99246080
+    },
+    {
+      "id": "q4_3_7bc4bc3e62f01705",
+      "status": "running",
+      "pid": 33292,
+      "alive": true,
+      "cpu_seconds": 35.828125,
+      "memory_bytes": 135774208
+    }
+  ],
+  "launch_method": "Win32_Process.Create detached from SSH",
+  "remote_root": "G:\\math__model\\题解\\C_remote_verify\\annual\\C题_下一代随机控制",
+  "note": "Remote outputs segregated; no automatic annual adoption."
+}

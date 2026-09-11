@@ -1,0 +1,14 @@
+{
+  "status": "running",
+  "pid": 51252,
+  "workers": 8,
+  "total_jobs": 113,
+  "started_at": 1789099108.761722,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.4.1",
+  "scipy": "1.17.1",
+  "highs": "1.15.1",
+  "comparability": "Separate Windows results; short-replay action differences unresolved. No automatic adoption or mixing with Mac baseline.",
+  "results": []
+}
