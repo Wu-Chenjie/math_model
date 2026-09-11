@@ -1,0 +1,80 @@
+{
+  "test_main.csv": {
+    "rows": 400,
+    "all_cleared": true,
+    "max_accounting_residual_s": 4.7620000259485096e-05,
+    "3": {
+      "avg_s": 349.866826244565,
+      "pooled_s": 345.2805891065637
+    },
+    "4": {
+      "avg_s": 868.17264735717,
+      "pooled_s": 844.8544919563707
+    }
+  },
+  "test_static.csv": {
+    "rows": 400,
+    "all_cleared": true,
+    "max_accounting_residual_s": 4.166000144323334e-05
+  },
+  "test_square.csv": {
+    "rows": 400,
+    "all_cleared": true,
+    "max_accounting_residual_s": 5.695999971067067e-05
+  },
+  "test_strict.csv": {
+    "rows": 400,
+    "all_cleared": true,
+    "max_accounting_residual_s": 4.859999899053946e-05
+  },
+  "stress_boundary.csv": {
+    "rows": 200,
+    "all_cleared": true,
+    "max_accounting_residual_s": 4.720001015812159e-06
+  },
+  "stress_collinear.csv": {
+    "rows": 200,
+    "all_cleared": true,
+    "max_accounting_residual_s": 5.879999662283808e-06
+  },
+  "stress_correlated.csv": {
+    "rows": 200,
+    "all_cleared": true,
+    "max_accounting_residual_s": 5.464000059873797e-05
+  },
+  "stress_endpoint.csv": {
+    "rows": 200,
+    "all_cleared": true,
+    "max_accounting_residual_s": 5.2379999033291824e-05
+  },
+  "stress_degenerate.csv": {
+    "rows": 200,
+    "all_cleared": true,
+    "max_accounting_residual_s": 0.00012177999906270998
+  },
+  "original_mock_layers": {
+    "original_kernel": 60,
+    "local_HTTP": 6
+  },
+  "geometry": {
+    "triangle_vertices": [
+      [
+        40.00000000000004,
+        0.0
+      ],
+      [
+        1.9688138852888052e-13,
+        0.0
+      ],
+      [
+        20.000000000000117,
+        34.64101615137742
+      ]
+    ],
+    "diameter_m": 39.99999999999986,
+    "triangle_mec_radius_m": 23.094010767585033,
+    "q2_max_m": 950.7089792300624,
+    "seven_point_cover_radius_m": 968.9015717043836,
+    "virtual_bound_s": 315757.6
+  }
+}

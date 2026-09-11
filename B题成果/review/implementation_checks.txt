@@ -1,0 +1,5 @@
+MEC cases=100000 mismatches=0 max_absolute_excess=6.3664629124105e-12
+Conservative-set boundary cases=100000 excludes=0
+Optical width=1500 height=52.6270743368746 nx=54 ny=2 calls=108 max_cover_radius=19.1311733604237
+Coverage points P3=7 P4=31
+Known-feasible bounded halfplane cases=10000 failures=0

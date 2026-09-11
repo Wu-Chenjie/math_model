@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "pdf_pages": 22,
+  "docx_math_objects": 132,
+  "docx_drawings": 5,
+  "main_cases": 400,
+  "stress_cases": 1000,
+  "original_mock_cases": 66,
+  "official_formal_cases": 0,
+  "final_solver_smoke_matches_frozen_cases": true,
+  "markdown_pdf_docx_and_results_consistent": true
+}

@@ -1,0 +1,153 @@
+
+[1] 接口未开放 / 测试未开始 (附件2 §5.3: 连接可能直接关闭)
+  [PASS] /measure before /enter closes the connection
+  [PASS] interface opens and /enter succeeds
+
+[2] HTTP 方法 / 路径 (附件2 §5.3: 404, 405)
+  [PASS] trailing slash -> 404
+  [PASS] query string -> 404
+  [PASS] unknown path -> 404
+  [PASS] GET on known path -> 405
+
+[3] Content-Type / Content-Encoding (附件2 §5.1: 415)
+  [PASS] wrong media type -> 415
+  [PASS] charset=gbk -> 415
+  [PASS] extra contentType param -> 415
+  [PASS] Content-Encoding: gzip -> 415
+
+[4] JSON 语法 / 重复键 / 深度 (附件2 §5.1: 400)
+  [PASS] invalid JSON -> 400
+  [PASS] duplicate key -> 400
+  [PASS] UTF-8 BOM -> 400
+  [PASS] nesting > 16 -> 400
+  [PASS] non-object top level -> 400
+
+[5] /enter 成功路径 (附件2 §6.2)
+  [PASS] /enter -> 200
+  [PASS] accepted true
+  [PASS] max_virtual_duration_s default
+  [PASS] max_real_duration_s default
+  [PASS] remaining_real_duration_s in 0..1200
+  [PASS] virtual_time_s unchanged by /enter
+  [PASS] real_timestamp_ms looks like epoch ms
+
+[6] 未知字段 -> 200 accepted=false (附件2 §5.1/§5.3)
+  [PASS] typo field -> HTTP 200
+  [PASS] typo field -> accepted false
+  [PASS] accepted=false -> virtual_time_s 0
+  [PASS] accepted=false body has only the 3 base fields
+  [PASS] unknown position field -> accepted false
+
+[7] arena_id / robot_id 不匹配 -> 200 accepted=false (附件2 §5.1)
+  [PASS] arena_id != default -> accepted false
+  [PASS] robot_id mismatch -> accepted false
+
+[8] 字段类型 / 取值 -> 400 (附件2 §5.1, §7.1)
+  [PASS] channel 0 -> 400
+  [PASS] channel 21 -> 400
+  [PASS] channel 1.5 -> 400
+  [PASS] channel 1.0 -> accepted
+  [PASS] missing channel -> 400
+  [PASS] x over 2e6 -> 400
+  [PASS] x == 2e6 accepted
+    (x == 2e6 消耗 4e5 s 虚拟时间并触发虚拟超时, 属预期行为)
+  [PASS] virtual-time cap ends the run
+
+[8b] 标识符与坐标合法性 -> 400 (附件2 §5.1)
+  [PASS] NaN coordinate -> 400
+  [PASS] Infinity coordinate -> 400
+  [PASS] empty robot_id -> 400
+  [PASS] robot_id with control char -> 400
+  [PASS] request_id of 129 bytes -> 400
+  [PASS] request_id of 128 bytes is within the limit
+  [PASS] int position accepted
+
+[9] 请求体大小 -> 413 (附件2 §5.1)
+  [PASS] body > 65536 bytes -> 413
+
+[10] 虚拟计时 (附件2 §10 完整计时示例)
+  [PASS] measure ch1 virtual_time_s
+  [PASS] measure ch1 move_s
+  [PASS] measure ch1 switch_s
+  [PASS] measure ch1 action_s
+  [PASS] measure ch2 virtual_time_s
+  [PASS] measure ch2 move_s
+  [PASS] measure ch2 switch_s
+  [PASS] measure ch2 action_s
+  [PASS] clear ch3 virtual_time_s
+  [PASS] clear ch3 move_s
+  [PASS] clear ch3 switch_s
+  [PASS] clear ch3 action_s
+  [PASS] measure ch2 virtual_time_s
+  [PASS] measure ch2 move_s
+  [PASS] measure ch2 switch_s
+  [PASS] measure ch2 action_s
+
+[11] 幂等规则 (附件2 §5.3)
+  [PASS] retry of identical action -> 200
+  [PASS] retry replays the first response
+  [PASS] same request_id, different content -> 409
+  [PASS] 400 does not consume request_id (reusable)
+  [PASS] accepted=false does not consume request_id
+  [PASS] /exit -> exit_reason user_exit
+  [PASS] after /exit the interface is closed
+
+[12] 物理与统计规则 (附录1/附录2)
+  [PASS] svd_deg within +/-1 deg of true bearing
+  [PASS] svd_deg has 2 decimals
+  [PASS] svd_deg in [0,360)
+  [PASS] same location -> identical svd_deg
+  [PASS] omni jammer detectable from all 4 sides
+  [PASS] point in front of the beam is covered
+  [PASS] point behind the beam is not covered
+  [PASS] directional jammer behind its beam -> no_signal
+  [PASS] directional jammer inside its beam -> direction
+  [PASS] beyond 1500 m -> no_signal
+  [PASS] distance <= 5 m -> near
+  [PASS] clear at 20 m -> success
+  [PASS] clearing the same jammer twice -> no_target_in_range
+  [PASS] clear at 20.01 m -> no_target_in_range
+  [PASS] /clear does not change the receiver channel
+  [PASS] jammer count within 10..16
+  [PASS] channels unique and within 1..20
+  [PASS] effective radius within 1000..1500 m
+  [PASS] all jammers inside the 1800 m arena
+  [PASS] problem 4 case contains both omni and directional jammers
+  [PASS] problem 3 case is all-omni
+  [PASS] svd error inside [-1,1]
+  [PASS] svd error spans most of [-1,1]
+  [PASS] svd error mean near 0
+
+[13] 现实时间约束 (附件2 §4.5, §6.2)
+  [PASS] /enter accepted under a short real limit
+  [PASS] remaining_real_duration_s <= 1200 and >= 0
+  [PASS] remaining respects the configured 2 s program limit
+  [PASS] after the real deadline the interface closes
+  [PASS] end reason recorded as program_timeout
+  [PASS] completion summary reports the reason
+
+==============================================================
+conformance: 98 passed, 0 failed
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60148)
+Traceback (most recent call last):
+  File "C:\Python314\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 487, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\server.py", line 453, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Python314\Lib\socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
