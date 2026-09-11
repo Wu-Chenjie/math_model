@@ -1,0 +1,35 @@
+name: Conditional Markov pinned snapshot
+on:
+  push:
+    branches: [upgrade/conditional-affine-markov]
+    paths: [.github/workflows/conditional-markov-snapshot.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 033dbd2eba5609fdce46f0b1777c2d6e6ac61fed
+      - name: Package exact baseline and C++ solver
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p export/baseline export/toolchain
+          cp -a '题解/C题_跨日随机控制/.' export/baseline/
+          git rev-parse HEAD > export/BASELINE_COMMIT.txt
+          find export/baseline -type d -name __pycache__ -prune -exec rm -rf {} +
+          python -m pip download --no-deps highspy==1.15.1 -d export/toolchain || python -m pip download --no-deps highspy -d export/toolchain
+          git clone --depth 1 --branch v1.15.1 https://github.com/ERGO-Code/HiGHS.git highs-src || git clone --depth 1 https://github.com/ERGO-Code/HiGHS.git highs-src
+          git -C highs-src rev-parse HEAD > export/toolchain/HIGHS_COMMIT.txt
+          cmake -S highs-src -B highs-build -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX="$PWD/export/toolchain/highs" -DBUILD_TESTING=OFF
+          cmake --build highs-build -j 2
+          cmake --install highs-build
+          tar -czf export/toolchain/highs-source.tar.gz --exclude=.git highs-src
+      - uses: actions/upload-artifact@v4
+        with:
+          name: conditional-markov-baseline
+          path: export/
+          retention-days: 7
