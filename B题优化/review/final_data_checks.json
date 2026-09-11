@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checked_rows": 3400,
+  "max_cost_residual_s": 6.580000081157777e-05,
+  "q2_nodes": 166,
+  "layout_points": 25,
+  "mock_cases": 66,
+  "official_formal_cases": 0
+}

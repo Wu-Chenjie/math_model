@@ -11,3 +11,11 @@ __pycache__/
 /题解/C题_下一代随机控制/artifacts/remote-validation/*.zip
 !B题成果/
 !B题成果/**
+!B题优化/
+!B题优化/**
+!B题深化/
+!B题深化/**
+B题优化/**/__pycache__/
+B题优化/**/*.pyc
+B题深化/**/__pycache__/
+B题深化/**/*.pyc
