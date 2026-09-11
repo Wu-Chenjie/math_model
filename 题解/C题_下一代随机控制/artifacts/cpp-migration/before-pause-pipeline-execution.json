@@ -1,0 +1,106 @@
+{
+  "status": "running",
+  "stage": "registered_334day_replays",
+  "pid": 50131,
+  "updated_utc": "2026-09-11T03:59:01.755170+00:00",
+  "elapsed_seconds": 3415.350925124949,
+  "records": [
+    {
+      "stage": "xlsx_authoring_marker",
+      "command": [
+        "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/spreadsheets/skills/spreadsheets/container_tools/mark_artifact_operation_started.mjs",
+        "--operation-kind",
+        "create",
+        "--expected-output-count",
+        "10",
+        "--output-format",
+        "xlsx"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代随机控制",
+      "exit_code": 0,
+      "runtime_seconds": 0.12629199982620776,
+      "log": "artifacts/pipeline-logs/xlsx_authoring_marker.log"
+    },
+    {
+      "stage": "baseline_workbooks",
+      "command": [
+        "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "src/build_workbooks.mjs"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 26.755070875165984,
+      "log": "artifacts/pipeline-logs/baseline_workbooks.log"
+    },
+    {
+      "stage": "baseline_workbook_readback",
+      "command": [
+        "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "src/verify_workbooks.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 2.8744046250358224,
+      "log": "artifacts/pipeline-logs/baseline_workbook_readback.log"
+    },
+    {
+      "stage": "baseline_final_numeric_review",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "review/check-final-supplement.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 0.34319283394142985,
+      "log": "artifacts/pipeline-logs/baseline_final_numeric_review.log"
+    },
+    {
+      "stage": "baseline_final_workbook_review",
+      "command": [
+        "/Users/wuchenjie/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "review/check-final-supplement.py",
+        "--workbooks"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代基线复现",
+      "exit_code": 0,
+      "runtime_seconds": 0.8779596250969917,
+      "log": "artifacts/pipeline-logs/baseline_final_workbook_review.log"
+    },
+    {
+      "stage": "baseline_full_comparison",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "tools/check_baseline_reproduction.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代随机控制",
+      "exit_code": 0,
+      "runtime_seconds": 4.235576416132972,
+      "log": "artifacts/pipeline-logs/baseline_full_comparison.log"
+    },
+    {
+      "stage": "independent_model_checks_before_formal",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "tools/certify_model_checks.py"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代随机控制",
+      "exit_code": 0,
+      "runtime_seconds": 7.450085541931912,
+      "log": "artifacts/pipeline-logs/independent_model_checks_before_formal.log"
+    },
+    {
+      "stage": "independent_development_validation",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "tools/validate_formal_results.py",
+        "--phase",
+        "development"
+      ],
+      "cwd": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代随机控制",
+      "exit_code": 0,
+      "runtime_seconds": 0.46427699993364513,
+      "log": "artifacts/pipeline-logs/independent_development_validation.log"
+    }
+  ]
+}

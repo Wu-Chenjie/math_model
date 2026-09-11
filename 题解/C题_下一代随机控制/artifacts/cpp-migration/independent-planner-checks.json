@@ -1,0 +1,1729 @@
+{
+  "status": "PASS_WITHIN_SCOPE",
+  "independent": true,
+  "reviewer_id": "/root/upgrade_code_review",
+  "scope": "Four original January LPs with cached solutions plus 32 algebraic boundary cases. No solver called; synthetic solutions are arbitrary vectors for algebraic identity, not feasible policy claims. ctypes boundary probes stop before the native call; hash mutations use temporary copies.",
+  "captured_cases": [
+    {
+      "case": "q4_3_legacy_72h_7a7d9f1f5f762810",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "asof": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        30240,
+        7398
+      ],
+      "nnz": 139692,
+      "saved_contract_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true
+      }
+    },
+    {
+      "case": "q4_3_legacy_96h_d21be844de2de2b1",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "asof": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        40320,
+        9864
+      ],
+      "nnz": 188804,
+      "saved_contract_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true
+      }
+    },
+    {
+      "case": "q4_3_state_72h_c4458f2f6fb06e54",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        30240,
+        7452
+      ],
+      "nnz": 214396,
+      "saved_contract_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true
+      }
+    },
+    {
+      "case": "q4_3_state_96h_ed9ad47fbc78a703",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        40320,
+        9936
+      ],
+      "nnz": 290892,
+      "saved_contract_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true
+      }
+    }
+  ],
+  "synthetic_cases": [
+    {
+      "case": "legacy_uniform_False_one_slot",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "asof": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        30,
+        15
+      ],
+      "nnz": 84
+    },
+    {
+      "case": "legacy_uniform_False_nonmidnight_terminal",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "asof": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        3246,
+        986
+      ],
+      "nnz": 8478
+    },
+    {
+      "case": "legacy_uniform_False_cross_midnight_base",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "asof": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        6480,
+        1972
+      ],
+      "nnz": 22788
+    },
+    {
+      "case": "legacy_uniform_False_midnight_tail_cuts",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "asof": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        7569,
+        2303
+      ],
+      "nnz": 27591
+    },
+    {
+      "case": "legacy_uniform_True_one_slot",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "asof": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        30,
+        15
+      ],
+      "nnz": 84
+    },
+    {
+      "case": "legacy_uniform_True_nonmidnight_terminal",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "asof": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        3246,
+        986
+      ],
+      "nnz": 12258
+    },
+    {
+      "case": "legacy_uniform_True_cross_midnight_base",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "asof": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        6480,
+        1972
+      ],
+      "nnz": 27864
+    },
+    {
+      "case": "legacy_uniform_True_midnight_tail_cuts",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "a": true,
+        "g": true,
+        "center": true,
+        "asof": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "forecast_contract_gain": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        7569,
+        2303
+      ],
+      "nnz": 33315
+    },
+    {
+      "case": "legacy_weighted_False_one_slot",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        30,
+        15
+      ],
+      "nnz": 84
+    },
+    {
+      "case": "legacy_weighted_False_nonmidnight_terminal",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        3246,
+        986
+      ],
+      "nnz": 8478
+    },
+    {
+      "case": "legacy_weighted_False_cross_midnight_base",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        6480,
+        1972
+      ],
+      "nnz": 22788
+    },
+    {
+      "case": "legacy_weighted_False_midnight_tail_cuts",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        7569,
+        2303
+      ],
+      "nnz": 27591
+    },
+    {
+      "case": "legacy_weighted_True_one_slot",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        30,
+        15
+      ],
+      "nnz": 84
+    },
+    {
+      "case": "legacy_weighted_True_nonmidnight_terminal",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        3246,
+        986
+      ],
+      "nnz": 12258
+    },
+    {
+      "case": "legacy_weighted_True_cross_midnight_base",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        6480,
+        1972
+      ],
+      "nnz": 27864
+    },
+    {
+      "case": "legacy_weighted_True_midnight_tail_cuts",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        7569,
+        2303
+      ],
+      "nnz": 33315
+    },
+    {
+      "case": "state2_False_one_slot",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        30,
+        15
+      ],
+      "nnz": 84
+    },
+    {
+      "case": "state2_False_nonmidnight_terminal",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        3246,
+        986
+      ],
+      "nnz": 8478
+    },
+    {
+      "case": "state2_False_cross_midnight_base",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        6480,
+        1972
+      ],
+      "nnz": 22788
+    },
+    {
+      "case": "state2_False_midnight_tail_cuts",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        7569,
+        2303
+      ],
+      "nnz": 27591
+    },
+    {
+      "case": "state2_True_one_slot",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        30,
+        15
+      ],
+      "nnz": 84
+    },
+    {
+      "case": "state2_True_nonmidnight_terminal",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        3246,
+        986
+      ],
+      "nnz": 12258
+    },
+    {
+      "case": "state2_True_cross_midnight_base",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        6480,
+        1972
+      ],
+      "nnz": 27864
+    },
+    {
+      "case": "state2_True_midnight_tail_cuts",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        7569,
+        2303
+      ],
+      "nnz": 33315
+    },
+    {
+      "case": "state4_False_one_slot",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        30,
+        21
+      ],
+      "nnz": 120
+    },
+    {
+      "case": "state4_False_nonmidnight_terminal",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        3246,
+        1000
+      ],
+      "nnz": 12426
+    },
+    {
+      "case": "state4_False_cross_midnight_base",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        6480,
+        2000
+      ],
+      "nnz": 34572
+    },
+    {
+      "case": "state4_False_midnight_tail_cuts",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        7569,
+        2335
+      ],
+      "nnz": 42003
+    },
+    {
+      "case": "state4_True_one_slot",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        30,
+        21
+      ],
+      "nnz": 120
+    },
+    {
+      "case": "state4_True_nonmidnight_terminal",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        3246,
+        1000
+      ],
+      "nnz": 18366
+    },
+    {
+      "case": "state4_True_cross_midnight_base",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        6480,
+        2000
+      ],
+      "nnz": 42672
+    },
+    {
+      "case": "state4_True_midnight_tail_cuts",
+      "LP_exact": {
+        "obj": true,
+        "rhs": true,
+        "bounds": true,
+        "indptr": true,
+        "indices": true,
+        "values": true,
+        "shape": true
+      },
+      "output_exact": {
+        "q": true,
+        "r": true,
+        "scenario_q": true,
+        "scenario_r": true,
+        "scenario_state": true,
+        "lp_violation": true,
+        "objective_gap": true,
+        "objective": true,
+        "gain_active_count": true,
+        "gain_bound_hit_count": true,
+        "gain_max_abs": true,
+        "contract_information_cutoffs": true,
+        "future_partial_contract_completion": true
+      },
+      "saved_LP_exact": {},
+      "max_abs_differences": {
+        "obj": 0.0,
+        "rhs": 0.0,
+        "bounds": 0.0,
+        "indptr": 0.0,
+        "indices": 0.0,
+        "values": 0.0,
+        "shape": 0.0
+      },
+      "dimensions": [
+        7569,
+        2335
+      ],
+      "nnz": 51183
+    }
+  ],
+  "input_guards": [
+    {
+      "case": "control",
+      "outcome": "native_dispatched"
+    },
+    {
+      "case": "zero_scenarios",
+      "outcome": "rejected:Expression domain violation"
+    },
+    {
+      "case": "zero_times",
+      "outcome": "rejected:Expression domain violation"
+    },
+    {
+      "case": "zero_features",
+      "outcome": "rejected:Expression domain violation"
+    },
+    {
+      "case": "negative_origin",
+      "outcome": "rejected:Expression domain violation"
+    },
+    {
+      "case": "negative_intercept",
+      "outcome": "rejected:Expression domain violation"
+    },
+    {
+      "case": "negative_gain",
+      "outcome": "rejected:Expression domain violation"
+    },
+    {
+      "case": "column_overflow",
+      "outcome": "rejected:Expression column outside LP bounds"
+    },
+    {
+      "case": "int32_column_overflow",
+      "outcome": "rejected:Expression index capacity exceeded"
+    },
+    {
+      "case": "numpy_int64_origin_overflow",
+      "outcome": "rejected:Expression index capacity exceeded"
+    }
+  ],
+  "import_binding": [
+    {
+      "case": "control",
+      "imported": true,
+      "error": null
+    },
+    {
+      "case": "stale_kernel",
+      "imported": false,
+      "error": "RuntimeError: Native binary/source mismatch: kernels.cpp"
+    },
+    {
+      "case": "stale_binary",
+      "imported": false,
+      "error": "RuntimeError: Native binary/source mismatch: libmicrogrid.dylib"
+    },
+    {
+      "case": "stale_reference",
+      "imported": false,
+      "error": "RuntimeError: Stale generated adapter: src/control.py"
+    },
+    {
+      "case": "stale_adapter",
+      "imported": false,
+      "error": "RuntimeError: Stale generated adapter: cpp/native_planner.py"
+    },
+    {
+      "case": "empty_adapter_binding",
+      "imported": false,
+      "error": "RuntimeError: Incomplete adapter-source manifest"
+    },
+    {
+      "case": "missing_reference_binding",
+      "imported": false,
+      "error": "RuntimeError: Incomplete adapter-source manifest"
+    },
+    {
+      "case": "loaded_binary_replaced",
+      "imported": false,
+      "error": "RuntimeError: Loaded native library changed; start a new process"
+    }
+  ],
+  "issues": [],
+  "source_hashes": {
+    "cpp/native.py": "07679e5aee30e5357c5afeb255c9c3979b4aee7731dc4bde56f4b0d89301f9f9",
+    "cpp/native_planner.py": "c380e77f78ef86a82b1f8ed23b9b6711802dbb8f324be2383c717cb2b1526ed5",
+    "cpp/native_feedback.py": "189455181e66d48ac1b379466dae8f72b0c89365cb29c3c8ac6f7044973a9a8f",
+    "cpp/native_enhanced.py": "25039f90295fbc78ed2f137bc2bdc4aefcd0e3bbe5994e589e7fa17f2fd15f86",
+    "cpp/kernels.cpp": "176d39bb50d15044746b59a5a44ee82de18a00e11a9f6145f2da7fe6abd77877",
+    "cpp/libmicrogrid.dylib": "12de83292cf537660b4173507d4ac6b27d195a8015cc3c96ef242a39fab75b92",
+    "cpp/adapter-sources.json": "b5d1ef3805875125a05a32d7a12784fa5206321389ea2626b4453277f435bfc7",
+    "cpp/build.json": "42e44decccd79e227b0bc71aadab75a2cfa4c0592646e9119a06e4d2541d9fb5",
+    "cpp/run_case.py": "b2c0ee5f7973d43652fe12ca5715b3cce26570800deb79a9a1d7f311a3cb4510",
+    "src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "review/check_cpp_planner.py": "b9abb951412da48165752315593c31d48b3e35bf2d0940969614743fe74614ff"
+  }
+}

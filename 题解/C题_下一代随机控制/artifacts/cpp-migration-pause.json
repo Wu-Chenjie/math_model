@@ -1,0 +1,21 @@
+{
+  "status": "paused_by_user",
+  "mechanism": "SIGSTOP; process memory and locks retained",
+  "pids": [
+    50131,
+    72512,
+    9940,
+    9951,
+    9952,
+    9953,
+    9954,
+    9955,
+    9956,
+    9957,
+    9958,
+    9959
+  ],
+  "time": "2026-09-11T16:32:43.715124+08:00",
+  "completed_npz": 15,
+  "reason": "User requested pause and C++ acceleration; do not resume old processes after code changes without compatibility review."
+}

@@ -1,0 +1,401 @@
+{
+  "status": "MEASURED_WITHIN_SCOPE",
+  "independent": true,
+  "reviewer_id": "/root/upgrade_code_review",
+  "source_hashes": {
+    "src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "src/forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+    "artifacts/data.npz": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+    "artifacts/forecast-selection.json": "eb6277a072175fe845b87b5eb55e042e562659f8d55cb5e94ea4222b0146ee71",
+    "artifacts/frozen-development-selection.json": "046fe0d378a130b1d7dcb5ba8178e823ca2ef8f407c7e8066f1e95ccb279ab1f"
+  },
+  "environment": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+  },
+  "scope": "January origin; unchanged original Python equations and HiGHS options, no feedback construction or closed-loop annual replay. Timing proxies only; fixture writes occur after timings.",
+  "results": [
+    {
+      "status": "measured",
+      "kind": "q4_3",
+      "configuration": {
+        "horizon_hours": 72,
+        "window": 14,
+        "scenarios": 7,
+        "alpha": 0.1,
+        "gain_bound": 10.0,
+        "grid": 641,
+        "bins": 3,
+        "scenario_method": "conditional",
+        "upper": "state",
+        "lower": "M0",
+        "tail_scale": 1.0,
+        "tail": "linear",
+        "horizon_mode": "fixed",
+        "final": 6000.0,
+        "ridge": 0.0001,
+        "innovation_count": 10,
+        "fusion_weight": 1.0,
+        "official_correction": 0.0
+      },
+      "origin_slot": 3456,
+      "origin_date": "2025-01-25",
+      "inventory": 6000.0,
+      "tail_price": 0.5655881208007084,
+      "terminal": null,
+      "scenario_metadata": {
+        "forecast": {
+          "official_covered_slots": 144
+        },
+        "meta": {
+          "as_of": 3456,
+          "end": 3888,
+          "horizon_slots": 432,
+          "history_origins": [
+            1152,
+            1296,
+            1440,
+            1584,
+            1728,
+            1872,
+            2016,
+            2160,
+            2304,
+            2448,
+            2592,
+            2736,
+            2880,
+            3024
+          ],
+          "history_days": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "latest_training_target_exclusive": 3456,
+          "maturity_end": 3456,
+          "requested_window": 14,
+          "effective_window": 14,
+          "requested_scenarios": 7,
+          "effective_scenarios": 7,
+          "representative_origins": [
+            1152,
+            1440,
+            2016,
+            2160,
+            2448,
+            2880,
+            3024
+          ],
+          "candidate_weights": [
+            0.08702357665614864,
+            0.06783619301599628,
+            0.1359601825581027,
+            0.03075220399335871,
+            0.018659534173411724,
+            0.07307995328409031,
+            0.07741741793906137,
+            0.08086866555406128,
+            0.07700999556993599,
+            0.1370597635138749,
+            0.03304098048191675,
+            0.017320197407687192,
+            0.08645973815588606,
+            0.07751159769646819
+          ],
+          "scenario_weights": [
+            0.1640335722260846,
+            0.1359601825581027,
+            0.11045839842097813,
+            0.09818886296174847,
+            0.1678119675072336,
+            0.17295546534529405,
+            0.1505915509805585
+          ],
+          "weight_ess": 11.183339999065609,
+          "bandwidth": 2.58771406025475,
+          "state_seed": [
+            6.591666666666697,
+            -175.5531524281786,
+            -0.05149999999999999,
+            -0.11613863340911929
+          ],
+          "state_seed_observation_cutoff": 3455,
+          "seed_reference": "previous-day same-slot forecast, EMA initialized at first valid error",
+          "state_reference": "fixed current forecast origin; deterministic restart at next planning origin",
+          "scenario_method": "conditional",
+          "tail95_representative_retained": true,
+          "max_net_residual_retained": true,
+          "max_price_residual_retained": false,
+          "official_covered_slots": 144,
+          "transport_distance": 0.40874347336192196,
+          "pam_swaps": 0,
+          "outside_core_original_contract_completion": {
+            "start": 3888,
+            "end": 3888,
+            "forecast_information_cutoff": 3456,
+            "scheduled_release": null,
+            "q_kwh": [],
+            "feedback_gain": 0.0,
+            "rule": "common nonnegative current-origin forecast; suffix is a causal extension, not optimized delivery",
+            "delivery_cost_in_core_objective": false
+          }
+        }
+      },
+      "factory_init_seconds": 0.02786508295685053,
+      "scenario_generation_seconds": 0.008895416045561433,
+      "lp_size": {
+        "scenarios": 7,
+        "delivery_slots": 432,
+        "variables": 7452,
+        "inequality_rows": 30240,
+        "nonzeros": 214396,
+        "csr_bytes": 2693716
+      },
+      "timing": {
+        "pre_solver_features_sparse_assembly_seconds": 0.016693125013262033,
+        "solver_options": {
+          "output_flag": false,
+          "threads": 1,
+          "solver": "ipm"
+        },
+        "highs_pass_model_seconds": 0.0018173749558627605,
+        "highs_run_seconds": 2.2871034170966595,
+        "highs_runtime_reported_seconds": 2.286754666827619,
+        "solver_info": {
+          "ipm_iteration_count": 37,
+          "simplex_iteration_count": 0,
+          "crossover_iteration_count": 266,
+          "max_primal_infeasibility": 4.547473508864641e-13,
+          "max_dual_infeasibility": 0.0
+        },
+        "solver_version": "1.15.1",
+        "lp_wrapper_seconds": 2.3051472078077495,
+        "lp_objective": 157027.21593975232,
+        "lp_violation": 3.865352482534945e-12,
+        "planning_total_seconds": 2.323856041068211,
+        "post_solver_result_reconstruction_seconds": 0.0020157082471996546,
+        "lp_wrapper_other_seconds": 0.016226415755227208
+      },
+      "diagnostics": {
+        "objective_recompute_gap": 5.820766091346741e-11,
+        "gain_max_abs": 10.0
+      },
+      "migration_bound": {
+        "pre_solver_assembly_fraction": 0.007183373117032101,
+        "highs_run_fraction": 0.9841846382383233,
+        "max_contract_speedup_if_pre_solver_work_free": 1.0072353473164375,
+        "max_contract_speedup_if_all_non_highs_work_free": 1.016069506825453,
+        "scope": "Amdahl limits for this measured LP only; unchanged solver and LP. No annual speedup prediction."
+      },
+      "fixtures": {
+        "scenario-bundle.npz": "57c635ad6390e128e856e8d20d975b518eef482383efc8087e4d36593b258ee8",
+        "linear-program.npz": "bee0a8d1f9af060b783204383d0d51c8f4a0bcdb9d15c20d3eb4dc95767a53e4",
+        "contract-result.npz": "6baee54444ca1ce1fa7957c34d62c698e9ec20b5842b59518f0e3c7cbf9444d7"
+      }
+    },
+    {
+      "status": "measured",
+      "kind": "q4_3",
+      "configuration": {
+        "horizon_hours": 96,
+        "window": 14,
+        "scenarios": 7,
+        "alpha": 0.1,
+        "gain_bound": 10.0,
+        "grid": 641,
+        "bins": 3,
+        "scenario_method": "conditional",
+        "upper": "state",
+        "lower": "M0",
+        "tail_scale": 1.0,
+        "tail": "linear",
+        "horizon_mode": "fixed",
+        "final": 6000.0,
+        "ridge": 0.0001,
+        "innovation_count": 10,
+        "fusion_weight": 1.0,
+        "official_correction": 0.0
+      },
+      "origin_slot": 3456,
+      "origin_date": "2025-01-25",
+      "inventory": 6000.0,
+      "tail_price": 0.5456666666666666,
+      "terminal": null,
+      "scenario_metadata": {
+        "forecast": {
+          "official_covered_slots": 144
+        },
+        "meta": {
+          "as_of": 3456,
+          "end": 4032,
+          "horizon_slots": 576,
+          "history_origins": [
+            1008,
+            1152,
+            1296,
+            1440,
+            1584,
+            1728,
+            1872,
+            2016,
+            2160,
+            2304,
+            2448,
+            2592,
+            2736,
+            2880
+          ],
+          "history_days": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "latest_training_target_exclusive": 3456,
+          "maturity_end": 3456,
+          "requested_window": 14,
+          "effective_window": 14,
+          "requested_scenarios": 7,
+          "effective_scenarios": 7,
+          "representative_origins": [
+            1152,
+            1440,
+            2016,
+            2160,
+            2304,
+            2448,
+            2880
+          ],
+          "candidate_weights": [
+            0.06931465694562416,
+            0.08754128503710636,
+            0.06875187652023665,
+            0.13582987169034166,
+            0.032043712002299794,
+            0.01925590497016081,
+            0.07379755212762557,
+            0.0781246195012001,
+            0.0814756515906369,
+            0.0776691121307239,
+            0.13689911910919964,
+            0.034407483245245646,
+            0.017907128999663464,
+            0.08698202612993537
+          ],
+          "scenario_weights": [
+            0.11958499703940614,
+            0.13582987169034166,
+            0.11253210274644575,
+            0.17318033271792593,
+            0.09692501710088472,
+            0.13689911910919964,
+            0.22504855959579617
+          ],
+          "weight_ess": 11.226588841096675,
+          "bandwidth": 2.6083039943152433,
+          "state_seed": [
+            6.591666666666697,
+            -175.5531524281786,
+            -0.05149999999999999,
+            -0.11613863340911929
+          ],
+          "state_seed_observation_cutoff": 3455,
+          "seed_reference": "previous-day same-slot forecast, EMA initialized at first valid error",
+          "state_reference": "fixed current forecast origin; deterministic restart at next planning origin",
+          "scenario_method": "conditional",
+          "tail95_representative_retained": true,
+          "max_net_residual_retained": true,
+          "max_price_residual_retained": true,
+          "official_covered_slots": 144,
+          "transport_distance": 0.4156680420171952,
+          "pam_swaps": 0,
+          "outside_core_original_contract_completion": {
+            "start": 4032,
+            "end": 4032,
+            "forecast_information_cutoff": 3456,
+            "scheduled_release": null,
+            "q_kwh": [],
+            "feedback_gain": 0.0,
+            "rule": "common nonnegative current-origin forecast; suffix is a causal extension, not optimized delivery",
+            "delivery_cost_in_core_objective": false
+          }
+        }
+      },
+      "factory_init_seconds": 0.024349916959181428,
+      "scenario_generation_seconds": 0.010475958930328488,
+      "lp_size": {
+        "scenarios": 7,
+        "delivery_slots": 576,
+        "variables": 9936,
+        "inequality_rows": 40320,
+        "nonzeros": 290892,
+        "csr_bytes": 3651988
+      },
+      "timing": {
+        "pre_solver_features_sparse_assembly_seconds": 0.021427083993330598,
+        "solver_options": {
+          "output_flag": false,
+          "threads": 1,
+          "solver": "ipm"
+        },
+        "highs_pass_model_seconds": 0.0023724171333014965,
+        "highs_run_seconds": 4.040621916996315,
+        "highs_runtime_reported_seconds": 4.040181582793593,
+        "solver_info": {
+          "ipm_iteration_count": 36,
+          "simplex_iteration_count": 0,
+          "crossover_iteration_count": 368,
+          "max_primal_infeasibility": 9.094947017729282e-13,
+          "max_dual_infeasibility": 0.0
+        },
+        "solver_version": "1.15.1",
+        "lp_wrapper_seconds": 4.063780040945858,
+        "lp_objective": 223833.91051361107,
+        "lp_violation": 4.661160346586257e-12,
+        "planning_total_seconds": 4.087615667143837,
+        "post_solver_result_reconstruction_seconds": 0.0024085422046482563,
+        "lp_wrapper_other_seconds": 0.020785706816241145
+      },
+      "diagnostics": {
+        "objective_recompute_gap": 2.9103830456733704e-10,
+        "gain_max_abs": 10.0
+      },
+      "migration_bound": {
+        "pre_solver_assembly_fraction": 0.005241951723974693,
+        "highs_run_fraction": 0.9885033833965223,
+        "max_contract_speedup_if_pre_solver_work_free": 1.0052695745795264,
+        "max_contract_speedup_if_all_non_highs_work_free": 1.011630326002502,
+        "scope": "Amdahl limits for this measured LP only; unchanged solver and LP. No annual speedup prediction."
+      },
+      "fixtures": {
+        "scenario-bundle.npz": "879c2d5ea4e096d26c7dd738d3734c7bc57865a01c075341ca1f8d64c36788fc",
+        "linear-program.npz": "d1ae1a22567cb8901427ebd83471110f08132f45d9aa086f71c8d84edd66cb6b",
+        "contract-result.npz": "4d403256414a51656a13a7f38489cee5cfca214e396a6d29e81b19230906489b"
+      }
+    }
+  ]
+}

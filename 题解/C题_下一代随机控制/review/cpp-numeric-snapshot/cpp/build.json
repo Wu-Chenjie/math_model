@@ -1,0 +1,17 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O3",
+    "-ffp-contract=off",
+    "-fno-fast-math",
+    "-dynamiclib",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u4e0b\u4e00\u4ee3\u968f\u673a\u63a7\u5236/cpp/kernels.cpp",
+    "-o",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u4e0b\u4e00\u4ee3\u968f\u673a\u63a7\u5236/cpp/libmicrogrid.dylib"
+  ],
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin25.5.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "source_sha256": "176d39bb50d15044746b59a5a44ee82de18a00e11a9f6145f2da7fe6abd77877",
+  "binary_sha256": "12de83292cf537660b4173507d4ac6b27d195a8015cc3c96ef242a39fab75b92"
+}

@@ -1,9 +1,9 @@
 {
   "kind": "q4_3",
   "configuration_id": "d21be844de2de2b1",
-  "completed_days": 252,
+  "completed_days": 259,
   "requested_days": 334,
-  "last_date": "2025-10-10",
-  "elapsed_seconds": 11366.607107583899,
-  "status": "running"
+  "last_date": "2025-10-17",
+  "elapsed_seconds": 11786.865900249919,
+  "status": "paused_by_user"
 }

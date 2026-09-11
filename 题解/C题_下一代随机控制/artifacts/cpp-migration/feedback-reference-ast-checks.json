@@ -1,0 +1,32 @@
+{
+  "status": "PASS_WITHIN_SCOPE",
+  "independent": true,
+  "reviewer_id": "/root/upgrade_code_review",
+  "scope": "Default feedback class bodies preserve reference NumPy/BLAS reduction and tie selection exactly; imported inf_convolution is the explicit native substitution. Static AST check, no claim of full closed-loop equivalence.",
+  "cases": [
+    {
+      "class": "MarkovDP",
+      "reference": "src/control.py",
+      "adapter": "cpp/native_feedback.py",
+      "class_AST_exact": true,
+      "reference_sha256": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+      "adapter_sha256": "189455181e66d48ac1b379466dae8f72b0c89365cb29c3c8ac6f7044973a9a8f"
+    },
+    {
+      "class": "WeightedMarkovDP",
+      "reference": "src/nextgen_control.py",
+      "adapter": "cpp/native_feedback.py",
+      "class_AST_exact": true,
+      "reference_sha256": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+      "adapter_sha256": "189455181e66d48ac1b379466dae8f72b0c89365cb29c3c8ac6f7044973a9a8f"
+    },
+    {
+      "class": "EnhancedMarkovDP",
+      "reference": "src/nextgen_control.py",
+      "adapter": "cpp/native_enhanced.py",
+      "class_AST_exact": true,
+      "reference_sha256": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+      "adapter_sha256": "25039f90295fbc78ed2f137bc2bdc4aefcd0e3bbe5994e589e7fa17f2fd15f86"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "status": "PASS_COMPATIBLE_BACKEND",
+  "environment_fingerprint": {
+    "python_version": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "python_executable": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "numpy_version": "2.4.1",
+    "numpy_core": "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_multiarray_umath.cpython-313-darwin.so",
+    "numpy_cpu_features": {
+      "MMX": false,
+      "SSE": false,
+      "SSE2": false,
+      "SSE3": false,
+      "SSSE3": false,
+      "SSE41": false,
+      "POPCNT": false,
+      "SSE42": false,
+      "X86_V2": false,
+      "AVX": false,
+      "F16C": false,
+      "XOP": false,
+      "FMA4": false,
+      "FMA3": false,
+      "AVX2": false,
+      "LAHF": false,
+      "CX16": false,
+      "MOVBE": false,
+      "BMI": false,
+      "BMI2": false,
+      "LZCNT": false,
+      "GFNI": false,
+      "VPCLMULQDQ": false,
+      "VAES": false,
+      "X86_V3": false,
+      "AVX512F": false,
+      "AVX512CD": false,
+      "AVX512ER": false,
+      "AVX512PF": false,
+      "AVX5124FMAPS": false,
+      "AVX5124VNNIW": false,
+      "AVX512VPOPCNTDQ": false,
+      "AVX512VL": false,
+      "AVX512BW": false,
+      "AVX512DQ": false,
+      "AVX512VNNI": false,
+      "AVX512IFMA": false,
+      "AVX512VBMI": false,
+      "AVX512VBMI2": false,
+      "AVX512BITALG": false,
+      "AVX512FP16": false,
+      "AVX512BF16": false,
+      "AVX512_KNL": false,
+      "AVX512_KNM": false,
+      "AVX512_SKX": false,
+      "X86_V4": false,
+      "AVX512_CLX": false,
+      "AVX512_CNL": false,
+      "AVX512_ICL": false,
+      "AVX512_SPR": false,
+      "VSX": false,
+      "VSX2": false,
+      "VSX3": false,
+      "VSX4": false,
+      "VX": false,
+      "VXE": false,
+      "VXE2": false,
+      "NEON": true,
+      "NEON_FP16": true,
+      "NEON_VFPV4": true,
+      "ASIMD": true,
+      "FPHP": true,
+      "ASIMDHP": true,
+      "ASIMDDP": true,
+      "ASIMDFHM": false,
+      "SVE": false,
+      "RVV": false,
+      "LSX": false
+    },
+    "numpy_configuration": {
+      "Compilers": {
+        "c": {
+          "name": "clang",
+          "linker": "ld64",
+          "version": "15.0.0",
+          "commands": "cc"
+        },
+        "cython": {
+          "name": "cython",
+          "linker": "cython",
+          "version": "3.2.4",
+          "commands": "cython"
+        },
+        "c++": {
+          "name": "clang",
+          "linker": "ld64",
+          "version": "15.0.0",
+          "commands": "c++"
+        }
+      },
+      "Machine Information": {
+        "host": {
+          "cpu": "aarch64",
+          "family": "aarch64",
+          "endian": "little",
+          "system": "darwin"
+        },
+        "build": {
+          "cpu": "aarch64",
+          "family": "aarch64",
+          "endian": "little",
+          "system": "darwin"
+        }
+      },
+      "Build Dependencies": {
+        "blas": {
+          "name": "accelerate",
+          "found": true,
+          "version": "unknown",
+          "detection method": "system",
+          "include directory": "unknown",
+          "lib directory": "unknown",
+          "openblas configuration": "unknown",
+          "pc file directory": "unknown"
+        },
+        "lapack": {
+          "name": "accelerate",
+          "found": true,
+          "version": "unknown",
+          "detection method": "system",
+          "include directory": "unknown",
+          "lib directory": "unknown",
+          "openblas configuration": "unknown",
+          "pc file directory": "unknown"
+        }
+      },
+      "Python Information": {
+        "path": "/private/var/folders/pr/_3h4tm913_l56k6hrhpm89z00000gn/T/build-env-vzb0a20x/bin/python",
+        "version": "3.13"
+      },
+      "SIMD Extensions": {
+        "baseline": [
+          "NEON",
+          "NEON_FP16",
+          "NEON_VFPV4",
+          "ASIMD"
+        ],
+        "found": [
+          "ASIMDHP",
+          "ASIMDDP"
+        ],
+        "not found": [
+          "ASIMDFHM"
+        ]
+      }
+    },
+    "highs_version": "1.15.1",
+    "highs_core": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代随机控制/vendor/highspy/_core.cpython-313-darwin.so",
+    "binary_sha256": {
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13": "8116faf25ab40b24bc5cd512ba42e6186464892a6d5d696954f18bc2be4f1072",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_multiarray_tests.cpython-313-darwin.so": "6a426414b95616aa49a554913c67a6543fdf74b3ddce2eff2bb5859a47a3363b",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_multiarray_umath.cpython-313-darwin.so": "5f492e980e70fda5478b3bb97df0e1d3ac042c57a320c26e6f32057ba209c9d5",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_operand_flag_tests.cpython-313-darwin.so": "ff905d47875df39b07513452c15c890c85652c9268ccba492a2afbbca607ad7a",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_rational_tests.cpython-313-darwin.so": "2587a9a78e4d76c459d6a0b2827bf2f20fa3bb0e7c1d44a8b7ddcc34a3a8c373",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_simd.cpython-313-darwin.so": "1722a129bc4cc6c214eb28f77b4bc5d1d6f69bd1ed27ffbce9c23f1bd6b87b4f",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_struct_ufunc_tests.cpython-313-darwin.so": "e3594258cc92f58d85212b6ca9aa32a856fff41602ead15b31bfb1b8b569d508",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_umath_tests.cpython-313-darwin.so": "d54765565e534f455237224ae85cd98aae69bc72923eebf84008616d95770236",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/fft/_pocketfft_umath.cpython-313-darwin.so": "6a8b90a94f709e69ca577b2315c7928a4e41bf6f61064a275cbbe8a10869e7c8",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/linalg/_umath_linalg.cpython-313-darwin.so": "368dfbc47eb280d5d7114c2b3ffbb4c1ae3089f66db1c7284975cf96474ce2d4",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/linalg/lapack_lite.cpython-313-darwin.so": "cf8ee18c35599a60a5bc74b353078e6a873a766b8cf25de77ed4b56c9973f89a",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/random/_bounded_integers.cpython-313-darwin.so": "ed486d45035e17c35ee9457474cbcf3db327e6e191d1eb2db0a6eedc88024413",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/random/_common.cpython-313-darwin.so": "205d3b5eae3adc8c622a89e563c091044a721d244abc210976e1abcdf457d2ad",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/random/_generator.cpython-313-darwin.so": "cb613e462f43d98e4c99379240e27a084260da37e5340176b5d6d7022ac670d7",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/random/_mt19937.cpython-313-darwin.so": "f82b2354599b54b84c05ebea2d6da75b20c83aa18e5c8ee23a2ac38909700421",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/random/_pcg64.cpython-313-darwin.so": "8654b027cc491aebfdcde3e5286dba0b130276445f104c456b91561b4954c6f2",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/random/_philox.cpython-313-darwin.so": "4a58fb1a0787cf421d2f872bc5df36fc4cacd3b2c6c1e265bbcbd05486b2854c",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/random/_sfc64.cpython-313-darwin.so": "73e9c95c94b3e2f5c90b95ec422a39be4972531a819e39caabd15397b2da0076",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/random/bit_generator.cpython-313-darwin.so": "2123c93f5958ec653bf20989e62d0a293f2378efad983bdeae87516f8cdde9c7",
+      "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/random/mtrand.cpython-313-darwin.so": "b964940385cb78e07a121182e49e2cce50199d634ac477e1bbd057a7ab8eb3e2",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代随机控制/vendor/highspy/_core.cpython-313-darwin.so": "c6882c174834f6a0b4378d0ef7bf91f834abec7ba9c81d359ebfb8a79e0f48d2",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代随机控制/vendor/highspy/libhighs.1.15.dylib": "e05b4c054f6f90f026b397183a6a94a18ab4ee11bb49209b6d0b5c12fefab2b8",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代随机控制/vendor/highspy/libhighs.1.dylib": "e05b4c054f6f90f026b397183a6a94a18ab4ee11bb49209b6d0b5c12fefab2b8"
+    }
+  },
+  "backend_hashes": {
+    "cpp/build.py": "5707388b0b0b16eeb8a528e90ba81807c3d526d86b67a2c35530fed92ec56179",
+    "cpp/generate_adapters.py": "4440866517e9a4066ff959377f6f0f60f01e0681e5536e2ddb5fbcc2cebaae9c",
+    "cpp/kernels.cpp": "176d39bb50d15044746b59a5a44ee82de18a00e11a9f6145f2da7fe6abd77877",
+    "cpp/libmicrogrid.dylib": "12de83292cf537660b4173507d4ac6b27d195a8015cc3c96ef242a39fab75b92",
+    "cpp/native.py": "07679e5aee30e5357c5afeb255c9c3979b4aee7731dc4bde56f4b0d89301f9f9",
+    "cpp/native_enhanced.py": "25039f90295fbc78ed2f137bc2bdc4aefcd0e3bbe5994e589e7fa17f2fd15f86",
+    "cpp/native_feedback.py": "189455181e66d48ac1b379466dae8f72b0c89365cb29c3c8ac6f7044973a9a8f",
+    "cpp/native_planner.py": "c380e77f78ef86a82b1f8ed23b9b6711802dbb8f324be2383c717cb2b1526ed5",
+    "cpp/run_case.py": "b2c0ee5f7973d43652fe12ca5715b3cce26570800deb79a9a1d7f311a3cb4510",
+    "cpp/test_equivalence.py": "7da5929343fafcb11cd5d70fe9f1c021af01411f1d94e4abdfde8c767387cdeb"
+  },
+  "metadata_hashes": {
+    "cpp/adapter-sources.json": "b5d1ef3805875125a05a32d7a12784fa5206321389ea2626b4453277f435bfc7",
+    "cpp/build.json": "42e44decccd79e227b0bc71aadab75a2cfa4c0592646e9119a06e4d2541d9fb5"
+  },
+  "frozen_selection_sha256": "046fe0d378a130b1d7dcb5ba8178e823ca2ef8f407c7e8066f1e95ccb279ab1f",
+  "source_hashes": {
+    "artifacts/data.npz": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+    "artifacts/development-forecast-selection.json": "5886a5c4139c89e516a45aa7dcab7674baa39ca965c09ca8a9ec3b49cb9b4d54",
+    "artifacts/experiment-protocol.json": "b6cbc2b08a3518759c5775fdcae546b1659b8b18dcccb5610d6f860500a513d8",
+    "artifacts/forecast-selection.json": "eb6277a072175fe845b87b5eb55e042e562659f8d55cb5e94ea4222b0146ee71",
+    "review/check_cpp_runner.py": "c5687a37e2e3d4b0455f77fcc58db8b79e19767c7a08291bcfd5c1d9da77b60d",
+    "review/check_nextgen_physics.py": "d7f93eac6dc07d6f810629a2eec260cf5119aff6e836babcb5394a99d67984f0",
+    "src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+    "src/dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "src/forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "src/nextgen_run.py": "0beb60045672e170ddd99788e9d07b0d6b9a1a246e867627af52ed74b27824c0",
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "src/sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+    "tools/certify_cpp_backend.py": "b8c70bca4bddbdbcff23a17a81e99740ab5b2c8704a278afa9cdccda74a839a6",
+    "tools/run_cpp_registered.py": "968fc515133819d09cb16bd176b3d1b5dc9b06cc50b8fcd41bcc65f03f32c082",
+    "tools/run_incremental_experiments.py": "ed0c310f145a3f56899cecafeaea41899a1085a0107189ec4409c83a36c50da1",
+    "tools/verify_cpp_closed_loop.py": "0a4c0e9a583c4b3a70a7a5dc65aace32afad0983d73af005c21dee2a29ba1a70"
+  },
+  "evidence_hashes": {
+    "artifacts/cpp-migration/closed-loop-equivalence.json": "e60068841089d46b778044f452057f285b7d721b3b7bda7a2d2a196904545c3d",
+    "review/cpp-math-independent.json": "add260a6e9ca1c2203fdea8cc0c37fe3b047e18d635199217a2d5baced07ec03",
+    "artifacts/cpp-migration/independent-planner-checks.json": "e22d35b2951ca71de3f3ee7b596b35a9ed5593ae4b203c6a6d3b9eba284dd1e1",
+    "artifacts/cpp-migration/feedback-reference-ast-checks.json": "71fffd44adb3fc6faca99b12bf7d301b72fcadd15b0ecb2d874aa40df6b265b9",
+    "review/cpp-runner-checks.json": "2511e0e54f835e7c8e4e87baf9b31fe02ff54d0ef500fdf10775933ee1f84964"
+  },
+  "scope": "Compatible native CSR/convolution implementation of frozen policies; does not certify full-native Markov reduction or authorize resuming the stopped Python processes."
+}

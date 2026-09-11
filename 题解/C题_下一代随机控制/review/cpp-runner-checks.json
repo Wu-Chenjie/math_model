@@ -1,0 +1,122 @@
+{
+  "status": "PASS_WITHIN_SCOPE",
+  "independent": true,
+  "reviewer_id": "/root/upgrade_code_review",
+  "issues": [],
+  "cases": [
+    {
+      "case": "control",
+      "accepted": true,
+      "error": null
+    },
+    {
+      "case": "status_shell",
+      "accepted": false,
+      "error": "Numerical runtime environment changed"
+    },
+    {
+      "case": "empty_evidence",
+      "accepted": false,
+      "error": "CPP acceptance evidence changed or incomplete"
+    },
+    {
+      "case": "stale_source",
+      "accepted": false,
+      "error": "CPP acceptance source/input changed"
+    },
+    {
+      "case": "stale_input",
+      "accepted": false,
+      "error": "CPP acceptance source/input changed"
+    },
+    {
+      "case": "stale_protocol",
+      "accepted": false,
+      "error": "CPP acceptance source/input changed"
+    },
+    {
+      "case": "stale_metadata",
+      "accepted": false,
+      "error": "Native backend/metadata changed"
+    },
+    {
+      "case": "changed_numpy_version",
+      "accepted": false,
+      "error": "Numerical runtime environment changed"
+    },
+    {
+      "case": "changed_numpy_cpu_features",
+      "accepted": false,
+      "error": "Numerical runtime environment changed"
+    },
+    {
+      "case": "changed_numpy_binary",
+      "accepted": false,
+      "error": "Numerical runtime environment changed"
+    },
+    {
+      "case": "changed_highs_binary",
+      "accepted": false,
+      "error": "Numerical runtime environment changed"
+    },
+    {
+      "case": "changed_python_platform",
+      "accepted": false,
+      "error": "Numerical runtime environment changed"
+    },
+    {
+      "case": "stale_closed_loop_array",
+      "accepted": false,
+      "error": "Stale evidence: artifacts/cpp-development/q4_3_592bc8462bb5cae5.npz"
+    },
+    {
+      "case": "missing_closed_loop_case",
+      "accepted": false,
+      "error": "Incomplete closed-loop settings"
+    },
+    {
+      "case": "missing_closed_loop_array",
+      "accepted": false,
+      "error": "Closed-loop array coverage incomplete"
+    },
+    {
+      "case": "false_exact_flag",
+      "accepted": false,
+      "error": ""
+    },
+    {
+      "case": "empty_math_binding",
+      "accepted": false,
+      "error": "Empty bound evidence"
+    },
+    {
+      "case": "planner_failed",
+      "accepted": false,
+      "error": "CPP evidence has not passed: artifacts/cpp-migration/independent-planner-checks.json"
+    },
+    {
+      "case": "runner_empty",
+      "accepted": false,
+      "error": ""
+    },
+    {
+      "case": "default_dry_run",
+      "passed": true
+    },
+    {
+      "case": "duplicate_writer",
+      "passed": true
+    },
+    {
+      "case": "spawn_pool_orphan_lock",
+      "passed": true,
+      "lock_acquired_after_parent_exit": false
+    }
+  ],
+  "scope": "Temporary inert acceptance records test structure/freshness, not genuine model approval. Actual spawned worker uses production DupFd lifetime while numerics/audit are inert. Only own temporary parent/worker are terminated; no original PID resumed or annual optimization invoked.",
+  "source_hashes": {
+    "tools/run_cpp_registered.py": "968fc515133819d09cb16bd176b3d1b5dc9b06cc50b8fcd41bcc65f03f32c082",
+    "tools/certify_cpp_backend.py": "b8c70bca4bddbdbcff23a17a81e99740ab5b2c8704a278afa9cdccda74a839a6",
+    "review/check_cpp_runner.py": "c5687a37e2e3d4b0455f77fcc58db8b79e19767c7a08291bcfd5c1d9da77b60d"
+  }
+}

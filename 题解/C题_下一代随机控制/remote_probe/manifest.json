@@ -1,0 +1,10 @@
+{
+  "scope": "Four legal January LP fixtures for hardware/solver measurement only",
+  "files": {
+    "benchmark.py": "53f6e427552c8537cf45868e18f6cee7a68fe189cf1f4b059d11a738cd8af58f",
+    "fixtures/q4_3_legacy_96h_d21be844de2de2b1/linear-program.npz": "2f4901f449faa76163408f33585cf3c59ffbaa5bd7625ce24d7204b38c9945ce",
+    "fixtures/q4_3_state_96h_ed9ad47fbc78a703/linear-program.npz": "d1ae1a22567cb8901427ebd83471110f08132f45d9aa086f71c8d84edd66cb6b",
+    "fixtures/q4_3_legacy_72h_7a7d9f1f5f762810/linear-program.npz": "6f7216ba3760d8014c5d900e6a07bdb0569a511d0575035828d5fe605aef7b13",
+    "fixtures/q4_3_state_72h_c4458f2f6fb06e54/linear-program.npz": "bee0a8d1f9af060b783204383d0d51c8f4a0bcdb9d15c20d3eb4dc95767a53e4"
+  }
+}

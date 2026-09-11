@@ -1,0 +1,43 @@
+{
+  "status": "PASS_FIXED_LP_NUMERICAL_TOLERANCE",
+  "closed_loop_status": "REVIEW_REQUIRED",
+  "objective_tolerance": 1e-07,
+  "primal_tolerance": 1e-05,
+  "max_objective_difference": 5.820766091346741e-11,
+  "max_solution_difference": 6.230038707144558e-11,
+  "all_primal_violations_below_1e_5": true,
+  "all_fixture_hashes_match_local": true,
+  "local_parallel_batch_seconds": 6.565215124981478,
+  "remote_parallel_batch_seconds": 6.51951310000004,
+  "serial_comparison": [
+    {
+      "fixture": "q4_3_legacy_72h_7a7d9f1f5f762810",
+      "local_median_seconds": 1.576267542084679,
+      "remote_median_seconds": 1.7528485000002547,
+      "local_over_remote": 0.8992605704853842
+    },
+    {
+      "fixture": "q4_3_legacy_96h_d21be844de2de2b1",
+      "local_median_seconds": 2.5741202500648797,
+      "remote_median_seconds": 2.76875850000215,
+      "local_over_remote": 0.9297019765584037
+    },
+    {
+      "fixture": "q4_3_state_72h_c4458f2f6fb06e54",
+      "local_median_seconds": 2.1592257090378553,
+      "remote_median_seconds": 2.2360433999965608,
+      "local_over_remote": 0.9656457066267928
+    },
+    {
+      "fixture": "q4_3_state_96h_ed9ad47fbc78a703",
+      "local_median_seconds": 3.868979874998331,
+      "remote_median_seconds": 3.860434099999111,
+      "local_over_remote": 1.0022136823937033
+    }
+  ],
+  "report_hashes": {
+    "remote_probe/benchmark-arm64-8workers.json": "63e70d7052b885647f3e3c0b1391b9c8cab184a99a32c27b4d307a34be396dcb",
+    "artifacts/remote-validation/benchmark-AMD64-8workers.json": "11b48f293d4f6d76ef3cf969268ea36843d58e045ecf392aaedeaca17bb50019"
+  },
+  "scope": "Four fixed January LPs; warm-up excluded; 3 repeats per serial fixture, 8 parallel solves. No annual speedup or Windows C++ equivalence claim."
+}

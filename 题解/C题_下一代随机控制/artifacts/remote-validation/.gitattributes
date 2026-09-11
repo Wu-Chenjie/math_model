@@ -1,0 +1,2 @@
+# Preserve exact bytes of hash-bound validation evidence.
+*.json -text

@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "scope": "Feedback build only, same machine, warm-up excluded, alternating order. Not an annual/end-to-end speedup claim.",
+  "rows": [
+    {
+      "fixture": "q4_3_legacy_72h_7a7d9f1f5f762810",
+      "reference_seconds": 0.0952671249397099,
+      "compatible_seconds": 0.06149845779873431,
+      "feedback_speedup": 1.5490977879720194,
+      "measurements": {
+        "reference": [
+          0.09476920799352229,
+          0.0952671249397099,
+          0.09603933314792812
+        ],
+        "compatible": [
+          0.0599049162119627,
+          0.0684109169524163,
+          0.06149845779873431
+        ]
+      }
+    },
+    {
+      "fixture": "q4_3_legacy_96h_d21be844de2de2b1",
+      "reference_seconds": 0.13627341692335904,
+      "compatible_seconds": 0.08371666702441871,
+      "feedback_speedup": 1.6277931476131322,
+      "measurements": {
+        "reference": [
+          0.13483833288773894,
+          0.13627341692335904,
+          0.15179841592907906
+        ],
+        "compatible": [
+          0.082138333003968,
+          0.08371666702441871,
+          0.09248583298176527
+        ]
+      }
+    },
+    {
+      "fixture": "q4_3_state_72h_c4458f2f6fb06e54",
+      "reference_seconds": 0.15910175000317395,
+      "compatible_seconds": 0.1444310420192778,
+      "feedback_speedup": 1.1015758647087652,
+      "measurements": {
+        "reference": [
+          0.15910175000317395,
+          0.15823254198767245,
+          0.20541783282533288
+        ],
+        "compatible": [
+          0.12881262484006584,
+          0.1444310420192778,
+          0.15880708303302526
+        ]
+      }
+    },
+    {
+      "fixture": "q4_3_state_96h_ed9ad47fbc78a703",
+      "reference_seconds": 0.2199542501475662,
+      "compatible_seconds": 0.1682772501371801,
+      "feedback_speedup": 1.307094393141431,
+      "measurements": {
+        "reference": [
+          0.22930033295415342,
+          0.2199542501475662,
+          0.20698549994267523
+        ],
+        "compatible": [
+          0.20704595814459026,
+          0.1682772501371801,
+          0.16651158407330513
+        ]
+      }
+    }
+  ],
+  "median_feedback_speedup": 1.4280960905567253,
+  "backend_hashes": {
+    "cpp/build.py": "5707388b0b0b16eeb8a528e90ba81807c3d526d86b67a2c35530fed92ec56179",
+    "cpp/generate_adapters.py": "4440866517e9a4066ff959377f6f0f60f01e0681e5536e2ddb5fbcc2cebaae9c",
+    "cpp/kernels.cpp": "176d39bb50d15044746b59a5a44ee82de18a00e11a9f6145f2da7fe6abd77877",
+    "cpp/libmicrogrid.dylib": "12de83292cf537660b4173507d4ac6b27d195a8015cc3c96ef242a39fab75b92",
+    "cpp/native.py": "07679e5aee30e5357c5afeb255c9c3979b4aee7731dc4bde56f4b0d89301f9f9",
+    "cpp/native_enhanced.py": "25039f90295fbc78ed2f137bc2bdc4aefcd0e3bbe5994e589e7fa17f2fd15f86",
+    "cpp/native_feedback.py": "189455181e66d48ac1b379466dae8f72b0c89365cb29c3c8ac6f7044973a9a8f",
+    "cpp/native_planner.py": "c380e77f78ef86a82b1f8ed23b9b6711802dbb8f324be2383c717cb2b1526ed5",
+    "cpp/run_case.py": "b2c0ee5f7973d43652fe12ca5715b3cce26570800deb79a9a1d7f311a3cb4510",
+    "cpp/test_equivalence.py": "7da5929343fafcb11cd5d70fe9f1c021af01411f1d94e4abdfde8c767387cdeb"
+  },
+  "fixture_hashes": {
+    "artifacts/cpp-migration/q4_3_legacy_72h_7a7d9f1f5f762810/profile.json": "413c9be1f083e061e05647d5dafa597ee60d35e46e8367114c9c881e6658bd5b",
+    "artifacts/cpp-migration/q4_3_legacy_72h_7a7d9f1f5f762810/scenario-bundle.npz": "e48f191d74942df4e9a410b4ad4595a9c3b87fad3a9465d60c3837de2a6b50d5",
+    "artifacts/cpp-migration/q4_3_legacy_72h_7a7d9f1f5f762810/contract-result.npz": "ac5939c858060fb57ca4e0b56f94511b97ce5f2a2dcf532ad45ad3629b9632ec",
+    "artifacts/cpp-migration/q4_3_legacy_96h_d21be844de2de2b1/profile.json": "287171444cda2e7ee31bf3a035d288c6e596de673432471f203724e82b910ba2",
+    "artifacts/cpp-migration/q4_3_legacy_96h_d21be844de2de2b1/scenario-bundle.npz": "b40caeb475ab8ce39f5615a1dcb5b41d53bef6409163eb8413ec203e211a8044",
+    "artifacts/cpp-migration/q4_3_legacy_96h_d21be844de2de2b1/contract-result.npz": "e7148a89250adf8acdf4cfe66eb642d3db5673d15b7af7da9665ad8647404343",
+    "artifacts/cpp-migration/q4_3_state_72h_c4458f2f6fb06e54/profile.json": "2206a9d20fa0c5157db0f01ab86762a70ed704c675a1b9aaca7df6640595c110",
+    "artifacts/cpp-migration/q4_3_state_72h_c4458f2f6fb06e54/scenario-bundle.npz": "57c635ad6390e128e856e8d20d975b518eef482383efc8087e4d36593b258ee8",
+    "artifacts/cpp-migration/q4_3_state_72h_c4458f2f6fb06e54/contract-result.npz": "6baee54444ca1ce1fa7957c34d62c698e9ec20b5842b59518f0e3c7cbf9444d7",
+    "artifacts/cpp-migration/q4_3_state_96h_ed9ad47fbc78a703/profile.json": "e2f7a1a82cc52feeeef435182226aa4bd54d15919da453323d29b2ce87272b7f",
+    "artifacts/cpp-migration/q4_3_state_96h_ed9ad47fbc78a703/scenario-bundle.npz": "879c2d5ea4e096d26c7dd738d3734c7bc57865a01c075341ca1f8d64c36788fc",
+    "artifacts/cpp-migration/q4_3_state_96h_ed9ad47fbc78a703/contract-result.npz": "4d403256414a51656a13a7f38489cee5cfca214e396a6d29e81b19230906489b"
+  }
+}

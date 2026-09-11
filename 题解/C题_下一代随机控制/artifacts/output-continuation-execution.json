@@ -1,8 +1,10 @@
 {
-  "status": "running",
-  "stage": "waiting_for_registered_numerical_pipeline",
+  "status": "paused_by_user",
+  "stage": "paused_for_cpp_migration",
   "pid": 72512,
   "updated_utc": "2026-09-11T05:14:44.443748+00:00",
   "elapsed_seconds": 0.0004863748326897621,
-  "records": []
+  "records": [],
+  "previous_stage": "waiting_for_registered_numerical_pipeline",
+  "paused_at": "2026-09-11T16:49:04.913228+08:00"
 }

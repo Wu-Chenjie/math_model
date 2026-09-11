@@ -1,0 +1,1302 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "scope": "Two January25–31 Q4-3 closed-loop trajectories; does not certify annual replay or Windows C++ backend. Original Python reference backend.",
+  "results": [
+    {
+      "configuration_id": "7a7d9f1f5f762810",
+      "kind": "q4_3",
+      "exact_arrays": {
+        "q": false,
+        "r": false,
+        "c": false,
+        "d": false,
+        "emergency": false,
+        "spill": false,
+        "price": true,
+        "projection": true,
+        "state": false,
+        "releases": false,
+        "days": true,
+        "dates": true
+      },
+      "max_absolute_differences": {
+        "q": 7.02584657119587e-11,
+        "r": 7.02584657119587e-11,
+        "c": 66.66666666666663,
+        "d": 4.172306944383308e-11,
+        "emergency": 4.092726157978177e-12,
+        "spill": 66.66666666666777,
+        "price": 0.0,
+        "projection": 0.0,
+        "state": 60.0,
+        "releases": 7.02584657119587e-11
+      },
+      "source_hashes_match": true,
+      "cost_difference_yuan": -5.820766091346741e-11,
+      "remote_runtime_seconds": 65.50739740000063,
+      "reference_runtime_seconds": 89.23007087502629,
+      "physical": {
+        "passed": true,
+        "checks": {
+          "evaluation_day_indices": {
+            "passed": true
+          },
+          "January_development_only": {
+            "passed": true
+          },
+          "dates_align_input": {
+            "passed": true
+          },
+          "state_shape": {
+            "passed": true
+          },
+          "release_shape": {
+            "passed": true
+          },
+          "shape:q": {
+            "passed": true
+          },
+          "finite:q": {
+            "passed": true
+          },
+          "shape:r": {
+            "passed": true
+          },
+          "finite:r": {
+            "passed": true
+          },
+          "shape:c": {
+            "passed": true
+          },
+          "finite:c": {
+            "passed": true
+          },
+          "shape:d": {
+            "passed": true
+          },
+          "finite:d": {
+            "passed": true
+          },
+          "shape:emergency": {
+            "passed": true
+          },
+          "finite:emergency": {
+            "passed": true
+          },
+          "shape:spill": {
+            "passed": true
+          },
+          "finite:spill": {
+            "passed": true
+          },
+          "shape:price": {
+            "passed": true
+          },
+          "finite:price": {
+            "passed": true
+          },
+          "finite:state": {
+            "passed": true
+          },
+          "official_physics_only": {
+            "passed": true
+          },
+          "bus_balance_max_abs": {
+            "value": 1.1368683772161603e-13,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "soc_recurrence_max_abs": {
+            "value": 1.1368683772161603e-13,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "inventory_bound_violation": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "charge_power_excess_kw": {
+            "value": 5.4569682106375694e-12,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "discharge_power_excess_kw": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "simultaneous_energy_max": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "negative_energy_max": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "midnight_jump_max_abs": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "initial_inventory_declared": {
+            "passed": true
+          },
+          "initial_inventory_agreement": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "hard_terminal_declared": {
+            "passed": true
+          },
+          "true_terminal6000": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "unaltered_actual_scoring_price": {
+            "value": 0.0,
+            "tolerance": 1e-12,
+            "passed": true
+          },
+          "root_original_contract_finite": {
+            "passed": true
+          },
+          "original_q_release": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "release1_past_delivery_unset": {
+            "passed": true
+          },
+          "release1_future_finite": {
+            "passed": true
+          },
+          "release2_past_delivery_unset": {
+            "passed": true
+          },
+          "release2_future_finite": {
+            "passed": true
+          },
+          "release3_past_delivery_unset": {
+            "passed": true
+          },
+          "release3_future_finite": {
+            "passed": true
+          },
+          "effective_r_reconstructed": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "first_six_hours_unchanged": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "daily_log_count": {
+            "passed": true
+          },
+          "daily_log_dates": {
+            "passed": true
+          },
+          "aggregate:planned_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:planned_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:increase_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:increase_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:reduction_net_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:reduction_net_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:emergency_cost": {
+            "value": 5.684341886080802e-14,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:emergency_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:total_cost": {
+            "value": 5.820766091346741e-11,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:total_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:emergency_energy": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:emergency_energy": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:spill_energy": {
+            "value": 1.8189894035458565e-12,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:spill_energy": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily_ending_inventory": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "decision_log_complete": {
+            "passed": true
+          },
+          "decision_clock": {
+            "passed": true
+          },
+          "known_horizon_mode:3456": {
+            "passed": true
+          },
+          "fixed_horizon:3456": {
+            "passed": true
+          },
+          "mature_whole_blocks:3456": {
+            "passed": true
+          },
+          "recorded_maturity:3456": {
+            "passed": true
+          },
+          "known_horizon_mode:3492": {
+            "passed": true
+          },
+          "fixed_horizon:3492": {
+            "passed": true
+          },
+          "mature_whole_blocks:3492": {
+            "passed": true
+          },
+          "recorded_maturity:3492": {
+            "passed": true
+          },
+          "known_horizon_mode:3528": {
+            "passed": true
+          },
+          "fixed_horizon:3528": {
+            "passed": true
+          },
+          "mature_whole_blocks:3528": {
+            "passed": true
+          },
+          "recorded_maturity:3528": {
+            "passed": true
+          },
+          "known_horizon_mode:3564": {
+            "passed": true
+          },
+          "fixed_horizon:3564": {
+            "passed": true
+          },
+          "mature_whole_blocks:3564": {
+            "passed": true
+          },
+          "recorded_maturity:3564": {
+            "passed": true
+          },
+          "known_horizon_mode:3600": {
+            "passed": true
+          },
+          "fixed_horizon:3600": {
+            "passed": true
+          },
+          "mature_whole_blocks:3600": {
+            "passed": true
+          },
+          "recorded_maturity:3600": {
+            "passed": true
+          },
+          "known_horizon_mode:3636": {
+            "passed": true
+          },
+          "fixed_horizon:3636": {
+            "passed": true
+          },
+          "mature_whole_blocks:3636": {
+            "passed": true
+          },
+          "recorded_maturity:3636": {
+            "passed": true
+          },
+          "known_horizon_mode:3672": {
+            "passed": true
+          },
+          "fixed_horizon:3672": {
+            "passed": true
+          },
+          "mature_whole_blocks:3672": {
+            "passed": true
+          },
+          "recorded_maturity:3672": {
+            "passed": true
+          },
+          "known_horizon_mode:3708": {
+            "passed": true
+          },
+          "fixed_horizon:3708": {
+            "passed": true
+          },
+          "mature_whole_blocks:3708": {
+            "passed": true
+          },
+          "recorded_maturity:3708": {
+            "passed": true
+          },
+          "known_horizon_mode:3744": {
+            "passed": true
+          },
+          "fixed_horizon:3744": {
+            "passed": true
+          },
+          "mature_whole_blocks:3744": {
+            "passed": true
+          },
+          "recorded_maturity:3744": {
+            "passed": true
+          },
+          "known_horizon_mode:3780": {
+            "passed": true
+          },
+          "fixed_horizon:3780": {
+            "passed": true
+          },
+          "mature_whole_blocks:3780": {
+            "passed": true
+          },
+          "recorded_maturity:3780": {
+            "passed": true
+          },
+          "known_horizon_mode:3816": {
+            "passed": true
+          },
+          "fixed_horizon:3816": {
+            "passed": true
+          },
+          "mature_whole_blocks:3816": {
+            "passed": true
+          },
+          "recorded_maturity:3816": {
+            "passed": true
+          },
+          "known_horizon_mode:3852": {
+            "passed": true
+          },
+          "fixed_horizon:3852": {
+            "passed": true
+          },
+          "mature_whole_blocks:3852": {
+            "passed": true
+          },
+          "recorded_maturity:3852": {
+            "passed": true
+          },
+          "known_horizon_mode:3888": {
+            "passed": true
+          },
+          "fixed_horizon:3888": {
+            "passed": true
+          },
+          "mature_whole_blocks:3888": {
+            "passed": true
+          },
+          "recorded_maturity:3888": {
+            "passed": true
+          },
+          "known_horizon_mode:3924": {
+            "passed": true
+          },
+          "fixed_horizon:3924": {
+            "passed": true
+          },
+          "mature_whole_blocks:3924": {
+            "passed": true
+          },
+          "recorded_maturity:3924": {
+            "passed": true
+          },
+          "known_horizon_mode:3960": {
+            "passed": true
+          },
+          "fixed_horizon:3960": {
+            "passed": true
+          },
+          "mature_whole_blocks:3960": {
+            "passed": true
+          },
+          "recorded_maturity:3960": {
+            "passed": true
+          },
+          "known_horizon_mode:3996": {
+            "passed": true
+          },
+          "fixed_horizon:3996": {
+            "passed": true
+          },
+          "mature_whole_blocks:3996": {
+            "passed": true
+          },
+          "recorded_maturity:3996": {
+            "passed": true
+          },
+          "known_horizon_mode:4032": {
+            "passed": true
+          },
+          "fixed_horizon:4032": {
+            "passed": true
+          },
+          "mature_whole_blocks:4032": {
+            "passed": true
+          },
+          "recorded_maturity:4032": {
+            "passed": true
+          },
+          "known_horizon_mode:4068": {
+            "passed": true
+          },
+          "fixed_horizon:4068": {
+            "passed": true
+          },
+          "mature_whole_blocks:4068": {
+            "passed": true
+          },
+          "recorded_maturity:4068": {
+            "passed": true
+          },
+          "known_horizon_mode:4104": {
+            "passed": true
+          },
+          "fixed_horizon:4104": {
+            "passed": true
+          },
+          "mature_whole_blocks:4104": {
+            "passed": true
+          },
+          "recorded_maturity:4104": {
+            "passed": true
+          },
+          "known_horizon_mode:4140": {
+            "passed": true
+          },
+          "fixed_horizon:4140": {
+            "passed": true
+          },
+          "mature_whole_blocks:4140": {
+            "passed": true
+          },
+          "recorded_maturity:4140": {
+            "passed": true
+          },
+          "known_horizon_mode:4176": {
+            "passed": true
+          },
+          "fixed_horizon:4176": {
+            "passed": true
+          },
+          "mature_whole_blocks:4176": {
+            "passed": true
+          },
+          "recorded_maturity:4176": {
+            "passed": true
+          },
+          "known_horizon_mode:4212": {
+            "passed": true
+          },
+          "fixed_horizon:4212": {
+            "passed": true
+          },
+          "mature_whole_blocks:4212": {
+            "passed": true
+          },
+          "recorded_maturity:4212": {
+            "passed": true
+          },
+          "known_horizon_mode:4248": {
+            "passed": true
+          },
+          "fixed_horizon:4248": {
+            "passed": true
+          },
+          "mature_whole_blocks:4248": {
+            "passed": true
+          },
+          "recorded_maturity:4248": {
+            "passed": true
+          },
+          "known_horizon_mode:4284": {
+            "passed": true
+          },
+          "fixed_horizon:4284": {
+            "passed": true
+          },
+          "mature_whole_blocks:4284": {
+            "passed": true
+          },
+          "recorded_maturity:4284": {
+            "passed": true
+          },
+          "known_horizon_mode:4320": {
+            "passed": true
+          },
+          "fixed_horizon:4320": {
+            "passed": true
+          },
+          "mature_whole_blocks:4320": {
+            "passed": true
+          },
+          "recorded_maturity:4320": {
+            "passed": true
+          },
+          "known_horizon_mode:4356": {
+            "passed": true
+          },
+          "fixed_horizon:4356": {
+            "passed": true
+          },
+          "mature_whole_blocks:4356": {
+            "passed": true
+          },
+          "recorded_maturity:4356": {
+            "passed": true
+          },
+          "known_horizon_mode:4392": {
+            "passed": true
+          },
+          "fixed_horizon:4392": {
+            "passed": true
+          },
+          "mature_whole_blocks:4392": {
+            "passed": true
+          },
+          "recorded_maturity:4392": {
+            "passed": true
+          },
+          "known_horizon_mode:4428": {
+            "passed": true
+          },
+          "fixed_horizon:4428": {
+            "passed": true
+          },
+          "mature_whole_blocks:4428": {
+            "passed": true
+          },
+          "recorded_maturity:4428": {
+            "passed": true
+          }
+        },
+        "errors": [],
+        "independent_totals": {
+          "planned_cost": 378676.3864559035,
+          "increase_cost": 5251.398423711426,
+          "reduction_net_cost": -4650.446923694268,
+          "emergency_cost": 290.0066657566866,
+          "total_cost": 379567.3446216774,
+          "emergency_energy": 43.720420103717686,
+          "spill_energy": 11592.903665452868
+        },
+        "independent_daily_total_cost": [
+          22074.601146765002,
+          72436.24681792108,
+          65413.66244672735,
+          69570.57873209353,
+          64382.56105817894,
+          63456.79641025619,
+          22232.898009735276
+        ],
+        "scope_notes": []
+      },
+      "files_sha256": {
+        "artifacts/development/q4_3_7a7d9f1f5f762810.npz": "dcd0f0e0ac84253286e3297648204f5b7783fbf80c175f53f951229dd5eb29ce",
+        "artifacts/development/q4_3_7a7d9f1f5f762810.json": "8d9d5d65853ecf9d0e01942b9350be80fd920729d9389a27c10c5e1e6b5fee10",
+        "artifacts/remote-validation/q4_3_7a7d9f1f5f762810.npz": "52a57d6fd306d73b30cbce1d611438f79efcf6c5c9f5f8711e98607af80bec01",
+        "artifacts/remote-validation/q4_3_7a7d9f1f5f762810.json": "3664b00e3034d2fef79ea08471c9db880e2fa155f3f954ac19284459a89543d7"
+      }
+    },
+    {
+      "configuration_id": "c4458f2f6fb06e54",
+      "kind": "q4_3",
+      "exact_arrays": {
+        "q": false,
+        "r": false,
+        "c": false,
+        "d": false,
+        "emergency": false,
+        "spill": false,
+        "price": true,
+        "projection": true,
+        "state": false,
+        "releases": false,
+        "days": true,
+        "dates": true
+      },
+      "max_absolute_differences": {
+        "q": 7.469225238310173e-11,
+        "r": 7.787548383930698e-11,
+        "c": 2.114341588599018,
+        "d": 1.7126166867652035,
+        "emergency": 1.3642420526593924e-12,
+        "spill": 2.1143415885991317,
+        "price": 0.0,
+        "projection": 0.0,
+        "state": 1.9029074297391162,
+        "releases": 7.787548383930698e-11
+      },
+      "source_hashes_match": true,
+      "cost_difference_yuan": 2.9103830456733704e-10,
+      "remote_runtime_seconds": 81.3390404999991,
+      "reference_runtime_seconds": 132.4358170419,
+      "physical": {
+        "passed": true,
+        "checks": {
+          "evaluation_day_indices": {
+            "passed": true
+          },
+          "January_development_only": {
+            "passed": true
+          },
+          "dates_align_input": {
+            "passed": true
+          },
+          "state_shape": {
+            "passed": true
+          },
+          "release_shape": {
+            "passed": true
+          },
+          "shape:q": {
+            "passed": true
+          },
+          "finite:q": {
+            "passed": true
+          },
+          "shape:r": {
+            "passed": true
+          },
+          "finite:r": {
+            "passed": true
+          },
+          "shape:c": {
+            "passed": true
+          },
+          "finite:c": {
+            "passed": true
+          },
+          "shape:d": {
+            "passed": true
+          },
+          "finite:d": {
+            "passed": true
+          },
+          "shape:emergency": {
+            "passed": true
+          },
+          "finite:emergency": {
+            "passed": true
+          },
+          "shape:spill": {
+            "passed": true
+          },
+          "finite:spill": {
+            "passed": true
+          },
+          "shape:price": {
+            "passed": true
+          },
+          "finite:price": {
+            "passed": true
+          },
+          "finite:state": {
+            "passed": true
+          },
+          "official_physics_only": {
+            "passed": true
+          },
+          "bus_balance_max_abs": {
+            "value": 1.1368683772161603e-13,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "soc_recurrence_max_abs": {
+            "value": 1.1368683772161603e-13,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "inventory_bound_violation": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "charge_power_excess_kw": {
+            "value": 5.4569682106375694e-12,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "discharge_power_excess_kw": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "simultaneous_energy_max": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "negative_energy_max": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "midnight_jump_max_abs": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "initial_inventory_declared": {
+            "passed": true
+          },
+          "initial_inventory_agreement": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "hard_terminal_declared": {
+            "passed": true
+          },
+          "true_terminal6000": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "unaltered_actual_scoring_price": {
+            "value": 0.0,
+            "tolerance": 1e-12,
+            "passed": true
+          },
+          "root_original_contract_finite": {
+            "passed": true
+          },
+          "original_q_release": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "release1_past_delivery_unset": {
+            "passed": true
+          },
+          "release1_future_finite": {
+            "passed": true
+          },
+          "release2_past_delivery_unset": {
+            "passed": true
+          },
+          "release2_future_finite": {
+            "passed": true
+          },
+          "release3_past_delivery_unset": {
+            "passed": true
+          },
+          "release3_future_finite": {
+            "passed": true
+          },
+          "effective_r_reconstructed": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "first_six_hours_unchanged": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "daily_log_count": {
+            "passed": true
+          },
+          "daily_log_dates": {
+            "passed": true
+          },
+          "aggregate:planned_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:planned_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:increase_cost": {
+            "value": 9.094947017729282e-13,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:increase_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:reduction_net_cost": {
+            "value": 9.094947017729282e-13,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:reduction_net_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:emergency_cost": {
+            "value": 5.684341886080802e-14,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:emergency_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:total_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:total_cost": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:emergency_energy": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:emergency_energy": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "aggregate:spill_energy": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily:spill_energy": {
+            "value": 0.0,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          "daily_ending_inventory": {
+            "value": 0.0,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          "decision_log_complete": {
+            "passed": true
+          },
+          "decision_clock": {
+            "passed": true
+          },
+          "known_horizon_mode:3456": {
+            "passed": true
+          },
+          "fixed_horizon:3456": {
+            "passed": true
+          },
+          "mature_whole_blocks:3456": {
+            "passed": true
+          },
+          "recorded_maturity:3456": {
+            "passed": true
+          },
+          "known_horizon_mode:3492": {
+            "passed": true
+          },
+          "fixed_horizon:3492": {
+            "passed": true
+          },
+          "mature_whole_blocks:3492": {
+            "passed": true
+          },
+          "recorded_maturity:3492": {
+            "passed": true
+          },
+          "known_horizon_mode:3528": {
+            "passed": true
+          },
+          "fixed_horizon:3528": {
+            "passed": true
+          },
+          "mature_whole_blocks:3528": {
+            "passed": true
+          },
+          "recorded_maturity:3528": {
+            "passed": true
+          },
+          "known_horizon_mode:3564": {
+            "passed": true
+          },
+          "fixed_horizon:3564": {
+            "passed": true
+          },
+          "mature_whole_blocks:3564": {
+            "passed": true
+          },
+          "recorded_maturity:3564": {
+            "passed": true
+          },
+          "known_horizon_mode:3600": {
+            "passed": true
+          },
+          "fixed_horizon:3600": {
+            "passed": true
+          },
+          "mature_whole_blocks:3600": {
+            "passed": true
+          },
+          "recorded_maturity:3600": {
+            "passed": true
+          },
+          "known_horizon_mode:3636": {
+            "passed": true
+          },
+          "fixed_horizon:3636": {
+            "passed": true
+          },
+          "mature_whole_blocks:3636": {
+            "passed": true
+          },
+          "recorded_maturity:3636": {
+            "passed": true
+          },
+          "known_horizon_mode:3672": {
+            "passed": true
+          },
+          "fixed_horizon:3672": {
+            "passed": true
+          },
+          "mature_whole_blocks:3672": {
+            "passed": true
+          },
+          "recorded_maturity:3672": {
+            "passed": true
+          },
+          "known_horizon_mode:3708": {
+            "passed": true
+          },
+          "fixed_horizon:3708": {
+            "passed": true
+          },
+          "mature_whole_blocks:3708": {
+            "passed": true
+          },
+          "recorded_maturity:3708": {
+            "passed": true
+          },
+          "known_horizon_mode:3744": {
+            "passed": true
+          },
+          "fixed_horizon:3744": {
+            "passed": true
+          },
+          "mature_whole_blocks:3744": {
+            "passed": true
+          },
+          "recorded_maturity:3744": {
+            "passed": true
+          },
+          "known_horizon_mode:3780": {
+            "passed": true
+          },
+          "fixed_horizon:3780": {
+            "passed": true
+          },
+          "mature_whole_blocks:3780": {
+            "passed": true
+          },
+          "recorded_maturity:3780": {
+            "passed": true
+          },
+          "known_horizon_mode:3816": {
+            "passed": true
+          },
+          "fixed_horizon:3816": {
+            "passed": true
+          },
+          "mature_whole_blocks:3816": {
+            "passed": true
+          },
+          "recorded_maturity:3816": {
+            "passed": true
+          },
+          "known_horizon_mode:3852": {
+            "passed": true
+          },
+          "fixed_horizon:3852": {
+            "passed": true
+          },
+          "mature_whole_blocks:3852": {
+            "passed": true
+          },
+          "recorded_maturity:3852": {
+            "passed": true
+          },
+          "known_horizon_mode:3888": {
+            "passed": true
+          },
+          "fixed_horizon:3888": {
+            "passed": true
+          },
+          "mature_whole_blocks:3888": {
+            "passed": true
+          },
+          "recorded_maturity:3888": {
+            "passed": true
+          },
+          "known_horizon_mode:3924": {
+            "passed": true
+          },
+          "fixed_horizon:3924": {
+            "passed": true
+          },
+          "mature_whole_blocks:3924": {
+            "passed": true
+          },
+          "recorded_maturity:3924": {
+            "passed": true
+          },
+          "known_horizon_mode:3960": {
+            "passed": true
+          },
+          "fixed_horizon:3960": {
+            "passed": true
+          },
+          "mature_whole_blocks:3960": {
+            "passed": true
+          },
+          "recorded_maturity:3960": {
+            "passed": true
+          },
+          "known_horizon_mode:3996": {
+            "passed": true
+          },
+          "fixed_horizon:3996": {
+            "passed": true
+          },
+          "mature_whole_blocks:3996": {
+            "passed": true
+          },
+          "recorded_maturity:3996": {
+            "passed": true
+          },
+          "known_horizon_mode:4032": {
+            "passed": true
+          },
+          "fixed_horizon:4032": {
+            "passed": true
+          },
+          "mature_whole_blocks:4032": {
+            "passed": true
+          },
+          "recorded_maturity:4032": {
+            "passed": true
+          },
+          "known_horizon_mode:4068": {
+            "passed": true
+          },
+          "fixed_horizon:4068": {
+            "passed": true
+          },
+          "mature_whole_blocks:4068": {
+            "passed": true
+          },
+          "recorded_maturity:4068": {
+            "passed": true
+          },
+          "known_horizon_mode:4104": {
+            "passed": true
+          },
+          "fixed_horizon:4104": {
+            "passed": true
+          },
+          "mature_whole_blocks:4104": {
+            "passed": true
+          },
+          "recorded_maturity:4104": {
+            "passed": true
+          },
+          "known_horizon_mode:4140": {
+            "passed": true
+          },
+          "fixed_horizon:4140": {
+            "passed": true
+          },
+          "mature_whole_blocks:4140": {
+            "passed": true
+          },
+          "recorded_maturity:4140": {
+            "passed": true
+          },
+          "known_horizon_mode:4176": {
+            "passed": true
+          },
+          "fixed_horizon:4176": {
+            "passed": true
+          },
+          "mature_whole_blocks:4176": {
+            "passed": true
+          },
+          "recorded_maturity:4176": {
+            "passed": true
+          },
+          "known_horizon_mode:4212": {
+            "passed": true
+          },
+          "fixed_horizon:4212": {
+            "passed": true
+          },
+          "mature_whole_blocks:4212": {
+            "passed": true
+          },
+          "recorded_maturity:4212": {
+            "passed": true
+          },
+          "known_horizon_mode:4248": {
+            "passed": true
+          },
+          "fixed_horizon:4248": {
+            "passed": true
+          },
+          "mature_whole_blocks:4248": {
+            "passed": true
+          },
+          "recorded_maturity:4248": {
+            "passed": true
+          },
+          "known_horizon_mode:4284": {
+            "passed": true
+          },
+          "fixed_horizon:4284": {
+            "passed": true
+          },
+          "mature_whole_blocks:4284": {
+            "passed": true
+          },
+          "recorded_maturity:4284": {
+            "passed": true
+          },
+          "known_horizon_mode:4320": {
+            "passed": true
+          },
+          "fixed_horizon:4320": {
+            "passed": true
+          },
+          "mature_whole_blocks:4320": {
+            "passed": true
+          },
+          "recorded_maturity:4320": {
+            "passed": true
+          },
+          "known_horizon_mode:4356": {
+            "passed": true
+          },
+          "fixed_horizon:4356": {
+            "passed": true
+          },
+          "mature_whole_blocks:4356": {
+            "passed": true
+          },
+          "recorded_maturity:4356": {
+            "passed": true
+          },
+          "known_horizon_mode:4392": {
+            "passed": true
+          },
+          "fixed_horizon:4392": {
+            "passed": true
+          },
+          "mature_whole_blocks:4392": {
+            "passed": true
+          },
+          "recorded_maturity:4392": {
+            "passed": true
+          },
+          "known_horizon_mode:4428": {
+            "passed": true
+          },
+          "fixed_horizon:4428": {
+            "passed": true
+          },
+          "mature_whole_blocks:4428": {
+            "passed": true
+          },
+          "recorded_maturity:4428": {
+            "passed": true
+          }
+        },
+        "errors": [],
+        "independent_totals": {
+          "planned_cost": 380410.35681753466,
+          "increase_cost": 4448.246863334724,
+          "reduction_net_cost": -6067.7588773710195,
+          "emergency_cost": 341.5981117411102,
+          "total_cost": 379132.4429152395,
+          "emergency_energy": 49.063267686452406,
+          "spill_energy": 7635.494096456885
+        },
+        "independent_daily_total_cost": [
+          21607.6472522709,
+          71630.4051662131,
+          66788.50001846682,
+          69471.69080932435,
+          63056.68367966734,
+          64040.14444929379,
+          22537.37154000317
+        ],
+        "scope_notes": []
+      },
+      "files_sha256": {
+        "artifacts/development/q4_3_c4458f2f6fb06e54.npz": "630b5cab5c4090df0a2a437baaaf30bbcebc237234d861d99450330a2a9b7ed0",
+        "artifacts/development/q4_3_c4458f2f6fb06e54.json": "bf40dfffb10447d48c0d5948c313cbbc98eb61ed3c5179c1a4a207b1aa553758",
+        "artifacts/remote-validation/q4_3_c4458f2f6fb06e54.npz": "8ac5b806957b3c29a1905aaf6196612cae5ef2b5e2565f63b5caa3f6d662bdc2",
+        "artifacts/remote-validation/q4_3_c4458f2f6fb06e54.json": "71558edc64ef44d309a9f6dc5f4acf6a4b6da03ccf221d15397eea1f1a69512d"
+      }
+    }
+  ]
+}

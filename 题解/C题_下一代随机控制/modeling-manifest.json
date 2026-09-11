@@ -4,7 +4,7 @@
     "competition": "CUMCM",
     "year": 2026,
     "problem_id": "C",
-    "stage": "frozen_334day_evaluation",
+    "stage": "paused_for_cpp_migration",
     "status": "in_progress"
   },
   "source": {
@@ -192,9 +192,9 @@
     "findings_file": "review/findings.json"
   },
   "pending": [
-    "Matched fixed-terminal334-day closed-loop experiments",
-    "Independent control and code reviews",
-    "LaTeX manuscript, rendered PDF QA and strict competition review"
+    "Formal experiments and automatic exports are paused at user request.",
+    "Validate the compatible C++ backend; keep all registered statistical parameters frozen.",
+    "Resume formal evaluation only upon instruction, then finish paper and final independent reviews."
   ],
   "violations": []
 }

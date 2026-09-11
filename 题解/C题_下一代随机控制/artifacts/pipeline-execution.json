@@ -1,6 +1,6 @@
 {
-  "status": "running",
-  "stage": "registered_334day_replays",
+  "status": "paused_by_user",
+  "stage": "paused_for_cpp_migration",
   "pid": 50131,
   "updated_utc": "2026-09-11T03:59:01.755170+00:00",
   "elapsed_seconds": 3415.350925124949,
@@ -102,5 +102,7 @@
       "runtime_seconds": 0.46427699993364513,
       "log": "artifacts/pipeline-logs/independent_development_validation.log"
     }
-  ]
+  ],
+  "previous_stage": "registered_334day_replays",
+  "paused_at": "2026-09-11T16:49:04.913228+08:00"
 }

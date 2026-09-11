@@ -1,0 +1,931 @@
+{
+  "reviewer_id": "/root/independent_review",
+  "independent": true,
+  "scope": "bounded_Cpp_PL_and_feedback_math_parity_only",
+  "annual_optimization_executed": false,
+  "native_snapshot_build": {
+    "command": [
+      "clang++",
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "-fno-fast-math",
+      "-dynamiclib",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代随机控制/cpp/kernels.cpp",
+      "-o",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代随机控制/cpp/libmicrogrid.dylib"
+    ],
+    "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin25.5.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "source_sha256": "176d39bb50d15044746b59a5a44ee82de18a00e11a9f6145f2da7fe6abd77877",
+    "binary_sha256": "12de83292cf537660b4173507d4ac6b27d195a8015cc3c96ef242a39fab75b92"
+  },
+  "numpy_version": "2.4.1",
+  "checks": {
+    "compatibility_class_ast_identical_except_imported_convolution": true,
+    "convolution": {
+      "cases": 70,
+      "all_bit_equal": true,
+      "max_error": 0.0,
+      "records": [
+        {
+          "G": 2,
+          "case": 0,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 1,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 2,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 3,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 4,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 5,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 6,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 7,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 8,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 9,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 10,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 11,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 12,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 2,
+          "case": 13,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 0,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 1,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 2,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 3,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 4,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 5,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 6,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 7,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 8,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 9,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 10,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 11,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 12,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 17,
+          "case": 13,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 0,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 1,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 2,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 3,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 4,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 5,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 6,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 7,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 8,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 9,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 10,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 11,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 12,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 161,
+          "case": 13,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 0,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 1,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 2,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 3,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 4,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 5,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 6,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 7,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 8,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 9,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 10,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 11,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 12,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 321,
+          "case": 13,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 0,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 1,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 2,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 3,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 4,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 5,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 6,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 7,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 8,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 9,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 10,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 11,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 12,
+          "bit_equal": true,
+          "max_error": 0.0
+        },
+        {
+          "G": 641,
+          "case": 13,
+          "bit_equal": true,
+          "max_error": 0.0
+        }
+      ],
+      "independent_explicit_LP_cases": 48,
+      "independent_LP_max_error": 2.7939677238464355e-09
+    },
+    "M0": [
+      {
+        "case": 0,
+        "S": 1,
+        "T": 1,
+        "G": 41,
+        "B": 3,
+        "terminal": 6000.0,
+        "cuts": null,
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 0.0,
+          "price": 0.0,
+          "initial_values": 0.0
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 1,
+        "S": 2,
+        "T": 5,
+        "G": 161,
+        "B": 5,
+        "terminal": null,
+        "cuts": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -1000.0,
+            0.2
+          ]
+        ],
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 1.0231815394945443e-12,
+          "price": 0.0,
+          "initial_values": 4.547473508864641e-13
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 2,
+        "S": 7,
+        "T": 36,
+        "G": 321,
+        "B": 3,
+        "terminal": null,
+        "cuts": null,
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 2.000888343900442e-11,
+          "price": 0.0,
+          "initial_values": 2.1827872842550278e-11
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 3,
+        "S": 14,
+        "T": 144,
+        "G": 41,
+        "B": 5,
+        "terminal": null,
+        "cuts": null,
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 1.000444171950221e-11,
+          "price": 1.1102230246251565e-16,
+          "initial_values": 4.547473508864641e-12
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 4,
+        "S": 1,
+        "T": 576,
+        "G": 161,
+        "B": 3,
+        "terminal": 6000.0,
+        "cuts": null,
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 4.656683927350969e-10,
+          "price": 0.0,
+          "initial_values": 5.002220859751105e-11
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 5,
+        "S": 2,
+        "T": 1,
+        "G": 321,
+        "B": 5,
+        "terminal": null,
+        "cuts": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -1000.0,
+            0.2
+          ]
+        ],
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 2.2737367544323206e-13,
+          "price": 0.0,
+          "initial_values": 3.183231456205249e-12
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 6,
+        "S": 7,
+        "T": 5,
+        "G": 41,
+        "B": 3,
+        "terminal": null,
+        "cuts": null,
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 4.547473508864641e-12,
+          "price": 0.0,
+          "initial_values": 5.002220859751105e-12
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 7,
+        "S": 14,
+        "T": 36,
+        "G": 161,
+        "B": 5,
+        "terminal": null,
+        "cuts": null,
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 2.5920599000528455e-11,
+          "price": 2.220446049250313e-16,
+          "initial_values": 1.864464138634503e-11
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 8,
+        "S": 1,
+        "T": 144,
+        "G": 321,
+        "B": 3,
+        "terminal": 6000.0,
+        "cuts": null,
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 9.313225746154785e-10,
+          "price": 0.0,
+          "initial_values": 1.4733814168721437e-10
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 9,
+        "S": 2,
+        "T": 576,
+        "G": 41,
+        "B": 5,
+        "terminal": null,
+        "cuts": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -1000.0,
+            0.2
+          ]
+        ],
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 1.44298184512337e-11,
+          "price": 0.0,
+          "initial_values": 1.2685685835123195e-11
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 10,
+        "S": 7,
+        "T": 1,
+        "G": 161,
+        "B": 3,
+        "terminal": null,
+        "cuts": null,
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 4.547473508864641e-13,
+          "price": 0.0,
+          "initial_values": 9.094947017729282e-13
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 11,
+        "S": 14,
+        "T": 5,
+        "G": 321,
+        "B": 5,
+        "terminal": null,
+        "cuts": null,
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 1.2278178473934531e-11,
+          "price": 1.1102230246251565e-16,
+          "initial_values": 2.2737367544323206e-11
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 12,
+        "S": 1,
+        "T": 36,
+        "G": 41,
+        "B": 3,
+        "terminal": 6000.0,
+        "cuts": null,
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 9.313225746154785e-10,
+          "price": 0.0,
+          "initial_values": 5.82986103836447e-10
+        },
+        "experimental_cpp_max_action_gap": 0.0,
+        "experimental_cpp_reference_objective_gap": 0.0
+      },
+      {
+        "case": 13,
+        "S": 2,
+        "T": 144,
+        "G": 161,
+        "B": 5,
+        "terminal": null,
+        "cuts": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -1000.0,
+            0.2
+          ]
+        ],
+        "compatibility_bit_equal": {
+          "cuts": true,
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "compatibility_max_action_gap": 0.0,
+        "experimental_cpp_full_dp_errors": {
+          "cuts": 0.0,
+          "future": 3.820943561549939e-12,
+          "price": 0.0,
+          "initial_values": 1.1368683772161603e-12
+        },
+        "experimental_cpp_max_action_gap": 925.9259259259252,
+        "experimental_cpp_reference_objective_gap": 2.0194839173657902e-28
+      }
+    ],
+    "M1": [
+      {
+        "case": 0,
+        "variable_price": false,
+        "T": 9,
+        "G": 41,
+        "bit_equal": {
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "max_action_gap": 0.0
+      },
+      {
+        "case": 1,
+        "variable_price": true,
+        "T": 9,
+        "G": 41,
+        "bit_equal": {
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "max_action_gap": 0.0
+      },
+      {
+        "case": 2,
+        "variable_price": false,
+        "T": 36,
+        "G": 161,
+        "bit_equal": {
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "max_action_gap": 0.0
+      },
+      {
+        "case": 3,
+        "variable_price": true,
+        "T": 36,
+        "G": 161,
+        "bit_equal": {
+          "future": true,
+          "price": true,
+          "initial_values": true
+        },
+        "max_action_gap": 0.0
+      }
+    ],
+    "compatible_M1_all_arrays_and_actions_equal": true,
+    "compatible_M0_all_arrays_and_actions_equal": true,
+    "analytic_tie_counterexample": {
+      "feasible_interval": [
+        5074.074074074074,
+        6750.0
+      ],
+      "first_cost": "identically zero with smallest-candidate argmin",
+      "second_cost": "epsilon * (hi-E_next)/(hi-lo)",
+      "sup_objective_difference": 1e-12,
+      "argmin_action_difference_kwh": 1675.925925925926,
+      "implication": "Value/objective agreement does not certify deterministic policy agreement."
+    }
+  },
+  "unresolved": [],
+  "status": "PASS",
+  "decision": "bounded_checks_only_not_permission_to_resume_experiments",
+  "replacement_gate": {
+    "experimental_full_cpp_M0": "REJECTED_AS_STRICT_POLICY_EQUIVALENT",
+    "compatible_cpp_convolution_feedback": "BOUNDED_SYNTHETIC_CHECKS_PASS_REAL_CLOSED_LOOP_GATE_SEPARATE",
+    "resume_authorization": false
+  },
+  "current_cpp_matches_reviewed_snapshot": true,
+  "reviewed_artifact_hashes": {
+    "review/cpp-numeric-snapshot/cpp/build.py": "5707388b0b0b16eeb8a528e90ba81807c3d526d86b67a2c35530fed92ec56179",
+    "review/cpp-numeric-snapshot/cpp/native_feedback.py": "189455181e66d48ac1b379466dae8f72b0c89365cb29c3c8ac6f7044973a9a8f",
+    "review/cpp-numeric-snapshot/cpp/adapter-sources.json": "b5d1ef3805875125a05a32d7a12784fa5206321389ea2626b4453277f435bfc7",
+    "review/cpp-numeric-snapshot/cpp/libmicrogrid.dylib": "12de83292cf537660b4173507d4ac6b27d195a8015cc3c96ef242a39fab75b92",
+    "review/cpp-numeric-snapshot/cpp/native.py": "07679e5aee30e5357c5afeb255c9c3979b4aee7731dc4bde56f4b0d89301f9f9",
+    "review/cpp-numeric-snapshot/cpp/native_planner.py": "c380e77f78ef86a82b1f8ed23b9b6711802dbb8f324be2383c717cb2b1526ed5",
+    "review/cpp-numeric-snapshot/cpp/kernels.cpp": "176d39bb50d15044746b59a5a44ee82de18a00e11a9f6145f2da7fe6abd77877",
+    "review/cpp-numeric-snapshot/cpp/generate_adapters.py": "4440866517e9a4066ff959377f6f0f60f01e0681e5536e2ddb5fbcc2cebaae9c",
+    "review/cpp-numeric-snapshot/cpp/native_enhanced.py": "25039f90295fbc78ed2f137bc2bdc4aefcd0e3bbe5994e589e7fa17f2fd15f86",
+    "review/cpp-numeric-snapshot/cpp/build.json": "42e44decccd79e227b0bc71aadab75a2cfa4c0592646e9119a06e4d2541d9fb5",
+    "review/cpp-numeric-snapshot/src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+    "review/cpp-numeric-snapshot/src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "cpp/build.py": "5707388b0b0b16eeb8a528e90ba81807c3d526d86b67a2c35530fed92ec56179",
+    "cpp/native_feedback.py": "189455181e66d48ac1b379466dae8f72b0c89365cb29c3c8ac6f7044973a9a8f",
+    "cpp/adapter-sources.json": "b5d1ef3805875125a05a32d7a12784fa5206321389ea2626b4453277f435bfc7",
+    "cpp/libmicrogrid.dylib": "12de83292cf537660b4173507d4ac6b27d195a8015cc3c96ef242a39fab75b92",
+    "cpp/native.py": "07679e5aee30e5357c5afeb255c9c3979b4aee7731dc4bde56f4b0d89301f9f9",
+    "cpp/native_planner.py": "c380e77f78ef86a82b1f8ed23b9b6711802dbb8f324be2383c717cb2b1526ed5",
+    "cpp/kernels.cpp": "176d39bb50d15044746b59a5a44ee82de18a00e11a9f6145f2da7fe6abd77877",
+    "cpp/generate_adapters.py": "4440866517e9a4066ff959377f6f0f60f01e0681e5536e2ddb5fbcc2cebaae9c",
+    "cpp/native_enhanced.py": "25039f90295fbc78ed2f137bc2bdc4aefcd0e3bbe5994e589e7fa17f2fd15f86",
+    "cpp/build.json": "42e44decccd79e227b0bc71aadab75a2cfa4c0592646e9119a06e4d2541d9fb5",
+    "src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+    "src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+    "review/C++数值兼容与严格替换门槛.md": "833b6dc3739a5f661fc8a1f94d969920838813f92dfc9fece0dd1c8f561c1408",
+    "src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+    "review/check_cpp_math_independent.py": "9ad4d3c6f6d18a2d116f51a0ebf706c4bf857d7feeb4276bb7c18cb212005320"
+  }
+}
