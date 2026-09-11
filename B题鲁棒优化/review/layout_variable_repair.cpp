@@ -1,0 +1,8 @@
+#define main variable_search_main
+#include "layout_variable_search.cpp"
+#undef main
+#include <sstream>
+#include <cstdlib>
+V read(const std::string&fn){std::ifstream f(fn);std::string s((std::istreambuf_iterator<char>(f)),{});std::vector<double> v;const char*c=s.c_str();while(*c){if((*c>='0'&&*c<='9')||*c=='-'){char*end;v.push_back(strtod(c,&end));c=end;}else++c;}V p;for(size_t i=0;i+1<v.size();i+=2)p.push_back({v[i],v[i+1]});return p;}
+int main(int argc,char**argv){std::string dir=argv[1];auto g=grid(720,true);double best=2500;V bp;int bn=0,bno=0;double bi=0,bo=0;auto begin=std::chrono::steady_clock::now();std::ofstream f(dir+"/variable_layout_repair.csv");f<<"n,outer,inner_offset,outer_offset,dense_radius\n";for(int n:{20,19,18})for(int no:{11,12,10}){auto p=read(dir+"/candidate"+std::to_string(n)+"_outer"+std::to_string(no)+".json");int ni=n-no-1;double local=2500;for(double oi:{0.,5.,10.,15.,20.,30.,40.})for(double ii:{0.,-10.,10.,-20.,20.}){auto q=p;for(int k=1;k<n;++k){double r=hypot(q[k].x,q[k].y),a=atan2(q[k].y,q[k].x);q[k]=polar(r+(k<=ni?ii:oi),a);}double worst=0;for(P z:g){worst=std::max(worst,required(z,q));if(worst>=local)break;}if(worst<local){local=worst;f<<n<<","<<no<<","<<ii<<","<<oi<<","<<worst<<"\n";}if(worst<best){best=worst;bp=q;bn=n;bno=no;bi=ii;bo=oi;}if(std::chrono::duration<double>(std::chrono::steady_clock::now()-begin).count()>15)goto done;}}
+done:save(bp,dir+"/candidate_repaired_best.json");std::cout<<std::setprecision(12)<<"best_n="<<bn<<" outer="<<bno<<" dense_radius="<<best<<" inner_offset="<<bi<<" outer_offset="<<bo<<" elapsed="<<std::chrono::duration<double>(std::chrono::steady_clock::now()-begin).count()<<std::endl;}

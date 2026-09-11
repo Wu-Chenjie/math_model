@@ -1,0 +1,321 @@
+problem,seed,disturbance,aware,total,cleared,time_s,status,reason
+3,610001,0,0,10,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610001,0,1,10,10,4600.424532,ok,
+3,610001,1,0,10,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610001,1,1,10,10,4615.260625,ok,
+3,610001,2,0,10,0,424.04001,diagnostic_interruption,truth excluded from conservative polygon
+3,610001,2,1,10,10,4606.338851,ok,
+3,610001,3,0,10,0,645.738333,diagnostic_interruption,truth excluded from conservative polygon
+3,610001,3,1,10,10,4610.219309,ok,
+3,610002,0,0,15,0,29.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610002,0,1,15,15,4942.146804,ok,
+3,610002,1,0,15,0,29.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610002,1,1,15,15,4941.064617,ok,
+3,610002,2,0,15,0,23.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610002,2,1,15,15,4978.189297,ok,
+3,610002,3,0,15,0,29.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610002,3,1,15,15,4417.539229,ok,
+3,610003,0,0,13,2,1410.775424,diagnostic_interruption,truth excluded from conservative polygon
+3,610003,0,1,13,13,4883.98554,ok,
+3,610003,1,0,13,2,1405.524753,diagnostic_interruption,truth excluded from conservative polygon
+3,610003,1,1,13,13,4845.04071,ok,
+3,610003,2,0,13,0,466.04001,diagnostic_interruption,truth excluded from conservative polygon
+3,610003,2,1,13,13,4887.604031,ok,
+3,610003,3,0,13,0,442.128042,diagnostic_interruption,truth excluded from conservative polygon
+3,610003,3,1,13,13,4835.357916,ok,
+3,610004,0,0,16,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610004,0,1,16,16,4256.031628,ok,
+3,610004,1,0,16,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610004,1,1,16,16,4401.877066,ok,
+3,610004,2,0,16,0,41.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610004,2,1,16,16,4255.423867,ok,
+3,610004,3,0,16,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610004,3,1,16,16,4391.99154,ok,
+3,610005,0,0,16,0,987.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610005,0,1,16,16,4920.980426,ok,
+3,610005,1,0,16,0,987.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610005,1,1,16,16,4939.976554,ok,
+3,610005,2,0,16,0,406.04001,diagnostic_interruption,truth excluded from conservative polygon
+3,610005,2,1,16,16,4916.874795,ok,
+3,610005,3,0,16,0,406.122646,diagnostic_interruption,truth excluded from conservative polygon
+3,610005,3,1,16,16,4944.86015,ok,
+3,610006,0,0,15,0,11.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610006,0,1,15,15,3917.117129,ok,
+3,610006,1,0,15,0,11.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610006,1,1,15,15,3853.458351,ok,
+3,610006,2,0,15,0,23.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610006,2,1,15,15,3909.242081,ok,
+3,610006,3,0,15,0,11.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610006,3,1,15,15,3921.512293,ok,
+3,610007,0,0,15,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610007,0,1,15,15,4902.763145,ok,
+3,610007,1,0,15,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610007,1,1,15,15,4937.789107,ok,
+3,610007,2,0,15,0,442.04001,diagnostic_interruption,truth excluded from conservative polygon
+3,610007,2,1,15,15,4908.225555,ok,
+3,610007,3,0,15,0,429.996385,diagnostic_interruption,truth excluded from conservative polygon
+3,610007,3,1,15,15,4938.219803,ok,
+3,610008,0,0,14,0,23.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610008,0,1,14,14,3749.300219,ok,
+3,610008,1,0,14,0,23.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610008,1,1,14,14,3662.101488,ok,
+3,610008,2,0,14,0,29.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610008,2,1,14,14,3748.822234,ok,
+3,610008,3,0,14,0,29.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610008,3,1,14,14,3627.755024,ok,
+3,610009,0,0,11,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610009,0,1,11,11,4936.602964,ok,
+3,610009,1,0,11,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610009,1,1,11,11,4894.325324,ok,
+3,610009,2,0,11,0,645.591903,diagnostic_interruption,empty feasible region
+3,610009,2,1,11,11,4939.243579,ok,
+3,610009,3,0,11,0,645.764702,diagnostic_interruption,truth excluded from conservative polygon
+3,610009,3,1,11,11,4913.493105,ok,
+3,610010,0,0,10,0,23.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610010,0,1,10,10,3431.51538,ok,
+3,610010,1,0,10,0,23.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610010,1,1,10,10,3456.972843,ok,
+3,610010,2,0,10,0,5.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610010,2,1,10,10,3431.249479,ok,
+3,610010,3,0,10,0,71.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610010,3,1,10,10,3468.078816,ok,
+3,610011,0,0,15,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610011,0,1,15,15,4901.763145,ok,
+3,610011,1,0,15,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610011,1,1,15,15,4936.789107,ok,
+3,610011,2,0,15,0,418.04001,diagnostic_interruption,truth excluded from conservative polygon
+3,610011,2,1,15,15,4907.225555,ok,
+3,610011,3,0,15,0,645.637509,diagnostic_interruption,truth excluded from conservative polygon
+3,610011,3,1,15,15,4937.675835,ok,
+3,610012,0,0,11,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610012,0,1,11,11,3495.124686,ok,
+3,610012,1,0,11,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610012,1,1,11,11,3478.159989,ok,
+3,610012,2,0,11,0,35.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610012,2,1,11,11,3469.88777,ok,
+3,610012,3,0,11,0,11.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610012,3,1,11,11,3479.273834,ok,
+3,610013,0,0,15,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610013,0,1,15,15,4902.763145,ok,
+3,610013,1,0,15,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610013,1,1,15,15,4937.789107,ok,
+3,610013,2,0,15,0,454.04001,diagnostic_interruption,truth excluded from conservative polygon
+3,610013,2,1,15,15,4908.225555,ok,
+3,610013,3,0,15,0,454.146614,diagnostic_interruption,truth excluded from conservative polygon
+3,610013,3,1,15,15,4937.327552,ok,
+3,610014,0,0,14,0,5.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610014,0,1,14,14,4235.94329,ok,
+3,610014,1,0,14,0,5.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610014,1,1,14,14,4096.154049,ok,
+3,610014,2,0,14,0,47.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610014,2,1,14,14,4047.530586,ok,
+3,610014,3,0,14,0,89.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610014,3,1,14,14,4222.177724,ok,
+3,610015,0,0,11,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610015,0,1,11,11,4936.602964,ok,
+3,610015,1,0,11,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610015,1,1,11,11,4894.325324,ok,
+3,610015,2,0,11,0,645.591903,diagnostic_interruption,empty feasible region
+3,610015,2,1,11,11,4939.243579,ok,
+3,610015,3,0,11,0,645.678271,diagnostic_interruption,truth excluded from conservative polygon
+3,610015,3,1,11,11,4893.80408,ok,
+3,610016,0,0,14,0,41.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610016,0,1,14,14,3804.125425,ok,
+3,610016,1,0,14,0,41.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610016,1,1,14,14,3823.213962,ok,
+3,610016,2,0,14,0,29.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610016,2,1,14,14,3807.199618,ok,
+3,610016,3,0,14,0,41.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610016,3,1,14,14,3823.828799,ok,
+3,610017,0,0,10,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610017,0,1,10,10,4600.424532,ok,
+3,610017,1,0,10,0,645.634944,diagnostic_interruption,truth excluded from conservative polygon
+3,610017,1,1,10,10,4615.260625,ok,
+3,610017,2,0,10,0,388.04001,diagnostic_interruption,truth excluded from conservative polygon
+3,610017,2,1,10,10,4606.338851,ok,
+3,610017,3,0,10,0,376.020344,diagnostic_interruption,truth excluded from conservative polygon
+3,610017,3,1,10,10,4612.882402,ok,
+3,610018,0,0,10,0,11.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610018,0,1,10,10,3184.803507,ok,
+3,610018,1,0,10,0,11.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610018,1,1,10,10,3213.7577,ok,
+3,610018,2,0,10,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610018,2,1,10,10,3204.376805,ok,
+3,610018,3,0,10,0,53.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610018,3,1,10,10,3156.712323,ok,
+3,610019,0,0,13,2,1410.775424,diagnostic_interruption,truth excluded from conservative polygon
+3,610019,0,1,13,13,4882.98554,ok,
+3,610019,1,0,13,2,1405.524753,diagnostic_interruption,truth excluded from conservative polygon
+3,610019,1,1,13,13,4844.04071,ok,
+3,610019,2,0,13,0,412.04001,diagnostic_interruption,truth excluded from conservative polygon
+3,610019,2,1,13,13,4886.604031,ok,
+3,610019,3,0,13,0,376.13158,diagnostic_interruption,truth excluded from conservative polygon
+3,610019,3,1,13,13,4838.997308,ok,
+3,610020,0,0,16,0,59.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610020,0,1,16,16,3651.009115,ok,
+3,610020,1,0,16,0,59.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610020,1,1,16,16,4038.976531,ok,
+3,610020,2,0,16,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610020,2,1,16,16,3653.267151,ok,
+3,610020,3,0,16,0,71.08,diagnostic_interruption,truth excluded from conservative polygon
+3,610020,3,1,16,16,4034.020164,ok,
+4,610001,0,0,10,0,2875.011522,diagnostic_interruption,truth excluded from conservative polygon
+4,610001,0,1,10,10,9132.239172,ok,
+4,610001,1,0,10,1,3317.686219,diagnostic_interruption,truth excluded from conservative polygon
+4,610001,1,1,10,10,9126.006263,ok,
+4,610001,2,0,10,0,2574.584016,diagnostic_interruption,truth excluded from conservative polygon
+4,610001,2,1,10,10,9005.035152,ok,
+4,610001,3,0,10,0,931.649973,diagnostic_interruption,truth excluded from conservative polygon
+4,610001,3,1,10,10,9376.220316,ok,
+4,610002,0,0,15,1,1287.801193,diagnostic_interruption,truth excluded from conservative polygon
+4,610002,0,1,15,15,7023.170451,ok,
+4,610002,1,0,15,0,661.175582,diagnostic_interruption,truth excluded from conservative polygon
+4,610002,1,1,15,15,7749.081039,ok,
+4,610002,2,0,15,0,23.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610002,2,1,15,15,7022.273784,ok,
+4,610002,3,0,15,0,524.907434,diagnostic_interruption,truth excluded from conservative polygon
+4,610002,3,1,15,15,7797.333197,ok,
+4,610003,0,0,13,2,3961.589071,diagnostic_interruption,truth excluded from conservative polygon
+4,610003,0,1,13,13,10454.872345,ok,
+4,610003,1,0,13,0,2864.011522,diagnostic_interruption,truth excluded from conservative polygon
+4,610003,1,1,13,13,9942.646867,ok,
+4,610003,2,0,13,0,672.303354,diagnostic_interruption,truth excluded from conservative polygon
+4,610003,2,1,13,13,10325.832313,ok,
+4,610003,3,0,13,0,2587.184091,diagnostic_interruption,truth excluded from conservative polygon
+4,610003,3,1,13,13,10244.081997,ok,
+4,610004,0,0,16,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610004,0,1,16,16,6972.677138,ok,
+4,610004,1,0,16,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610004,1,1,16,16,7007.137985,ok,
+4,610004,2,0,16,0,77.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610004,2,1,16,16,7096.335656,ok,
+4,610004,3,0,16,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610004,3,1,16,16,6995.918535,ok,
+4,610005,0,0,16,1,3246.084679,diagnostic_interruption,truth excluded from conservative polygon
+4,610005,0,1,16,16,11589.07371,ok,
+4,610005,1,0,16,1,3243.823424,diagnostic_interruption,truth excluded from conservative polygon
+4,610005,1,1,16,16,11492.510768,ok,
+4,610005,2,0,16,0,624.303354,diagnostic_interruption,truth excluded from conservative polygon
+4,610005,2,1,16,16,11544.109669,ok,
+4,610005,3,0,16,0,624.280132,diagnostic_interruption,truth excluded from conservative polygon
+4,610005,3,1,16,16,11740.710436,ok,
+4,610006,0,0,15,0,11.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610006,0,1,15,15,6245.557484,ok,
+4,610006,1,0,15,0,11.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610006,1,1,15,15,6059.023534,ok,
+4,610006,2,0,15,0,23.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610006,2,1,15,15,6245.020373,ok,
+4,610006,3,0,15,0,11.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610006,3,1,15,15,6111.920881,ok,
+4,610007,0,0,15,2,3911.941729,diagnostic_interruption,truth excluded from conservative polygon
+4,610007,0,1,15,15,11177.275208,ok,
+4,610007,1,0,15,2,3847.635815,diagnostic_interruption,truth excluded from conservative polygon
+4,610007,1,1,15,15,11084.161204,ok,
+4,610007,2,0,15,0,702.303354,diagnostic_interruption,truth excluded from conservative polygon
+4,610007,2,1,15,15,10920.186187,ok,
+4,610007,3,0,15,0,2496.970267,diagnostic_interruption,truth excluded from conservative polygon
+4,610007,3,1,15,15,10967.909007,ok,
+4,610008,0,0,14,0,23.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610008,0,1,14,14,5847.632714,ok,
+4,610008,1,0,14,0,23.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610008,1,1,14,14,5889.179435,ok,
+4,610008,2,0,14,0,29.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610008,2,1,14,14,5846.728909,ok,
+4,610008,3,0,14,0,29.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610008,3,1,14,14,5836.895856,ok,
+4,610009,0,0,11,1,3552.33746,diagnostic_interruption,empty feasible region
+4,610009,0,1,11,11,9508.629549,ok,
+4,610009,1,0,11,1,3485.155827,diagnostic_interruption,truth excluded from conservative polygon
+4,610009,1,1,11,11,9697.480213,ok,
+4,610009,2,0,11,0,2885.107295,diagnostic_interruption,truth excluded from conservative polygon
+4,610009,2,1,11,11,9381.876347,ok,
+4,610009,3,0,11,0,2514.840115,diagnostic_interruption,truth excluded from conservative polygon
+4,610009,3,1,11,11,9820.690712,ok,
+4,610010,0,0,10,0,286.634944,diagnostic_interruption,truth excluded from conservative polygon
+4,610010,0,1,10,10,6528.142587,ok,
+4,610010,1,0,10,1,738.40974,diagnostic_interruption,truth excluded from conservative polygon
+4,610010,1,1,10,10,6494.398619,ok,
+4,610010,2,0,10,0,71.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610010,2,1,10,10,6532.664315,ok,
+4,610010,3,0,10,0,71.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610010,3,1,10,10,6523.542414,ok,
+4,610011,0,0,15,2,3899.941729,diagnostic_interruption,truth excluded from conservative polygon
+4,610011,0,1,15,15,11178.275208,ok,
+4,610011,1,0,15,2,3835.635815,diagnostic_interruption,truth excluded from conservative polygon
+4,610011,1,1,15,15,11085.161204,ok,
+4,610011,2,0,15,0,702.303354,diagnostic_interruption,truth excluded from conservative polygon
+4,610011,2,1,15,15,10921.186187,ok,
+4,610011,3,0,15,0,2478.910937,diagnostic_interruption,truth excluded from conservative polygon
+4,610011,3,1,15,15,11278.729775,ok,
+4,610012,0,0,11,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610012,0,1,11,11,8544.091512,ok,
+4,610012,1,0,11,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610012,1,1,11,11,8214.989522,ok,
+4,610012,2,0,11,0,35.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610012,2,1,11,11,8542.054109,ok,
+4,610012,3,0,11,0,107.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610012,3,1,11,11,8197.423045,ok,
+4,610013,0,0,15,2,3965.941729,diagnostic_interruption,truth excluded from conservative polygon
+4,610013,0,1,15,15,11177.275208,ok,
+4,610013,1,0,15,2,3901.635815,diagnostic_interruption,truth excluded from conservative polygon
+4,610013,1,1,15,15,11084.161204,ok,
+4,610013,2,0,15,0,654.303354,diagnostic_interruption,truth excluded from conservative polygon
+4,610013,2,1,15,15,10920.186187,ok,
+4,610013,3,0,15,0,2586.985787,diagnostic_interruption,truth excluded from conservative polygon
+4,610013,3,1,15,15,10991.356935,ok,
+4,610014,0,0,14,0,5.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610014,0,1,14,14,5958.45539,ok,
+4,610014,1,0,14,0,5.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610014,1,1,14,14,5977.438044,ok,
+4,610014,2,0,14,0,47.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610014,2,1,14,14,5957.486995,ok,
+4,610014,3,0,14,0,89.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610014,3,1,14,14,5949.310852,ok,
+4,610015,0,0,11,1,3516.33746,diagnostic_interruption,empty feasible region
+4,610015,0,1,11,11,9508.629549,ok,
+4,610015,1,0,11,1,3449.155827,diagnostic_interruption,truth excluded from conservative polygon
+4,610015,1,1,11,11,9697.480213,ok,
+4,610015,2,0,11,0,2885.107295,diagnostic_interruption,truth excluded from conservative polygon
+4,610015,2,1,11,11,9381.876347,ok,
+4,610015,3,0,11,0,919.674578,diagnostic_interruption,truth excluded from conservative polygon
+4,610015,3,1,11,11,9850.754553,ok,
+4,610016,0,0,14,0,41.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610016,0,1,14,14,6218.849652,ok,
+4,610016,1,0,14,0,41.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610016,1,1,14,14,6412.991528,ok,
+4,610016,2,0,14,0,29.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610016,2,1,14,14,6217.193057,ok,
+4,610016,3,0,14,0,41.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610016,3,1,14,14,6537.903799,ok,
+4,610017,0,0,10,0,2851.011522,diagnostic_interruption,truth excluded from conservative polygon
+4,610017,0,1,10,10,9131.239172,ok,
+4,610017,1,0,10,1,3383.686219,diagnostic_interruption,truth excluded from conservative polygon
+4,610017,1,1,10,10,9125.006263,ok,
+4,610017,2,0,10,0,2556.584016,diagnostic_interruption,truth excluded from conservative polygon
+4,610017,2,1,10,10,9004.035152,ok,
+4,610017,3,0,10,0,889.535361,diagnostic_interruption,truth excluded from conservative polygon
+4,610017,3,1,10,10,9374.895296,ok,
+4,610018,0,0,10,0,11.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610018,0,1,10,10,6357.635797,ok,
+4,610018,1,0,10,0,11.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610018,1,1,10,10,6513.164999,ok,
+4,610018,2,0,10,0,871.550131,diagnostic_interruption,truth excluded from conservative polygon
+4,610018,2,1,10,10,6356.491825,ok,
+4,610018,3,0,10,0,413.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610018,3,1,10,10,6512.586591,ok,
+4,610019,0,0,13,2,4016.589071,diagnostic_interruption,truth excluded from conservative polygon
+4,610019,0,1,13,13,10454.872345,ok,
+4,610019,1,0,13,0,2857.011522,diagnostic_interruption,truth excluded from conservative polygon
+4,610019,1,1,13,13,9941.646867,ok,
+4,610019,2,0,13,0,660.303354,diagnostic_interruption,truth excluded from conservative polygon
+4,610019,2,1,13,13,10325.832313,ok,
+4,610019,3,0,13,0,2497.105314,diagnostic_interruption,truth excluded from conservative polygon
+4,610019,3,1,13,13,10118.46533,ok,
+4,610020,0,0,16,0,59.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610020,0,1,16,16,4753.539601,ok,
+4,610020,1,0,16,0,59.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610020,1,1,16,16,5847.695164,ok,
+4,610020,2,0,16,0,17.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610020,2,1,16,16,4721.836531,ok,
+4,610020,3,0,16,0,71.08,diagnostic_interruption,truth excluded from conservative polygon
+4,610020,3,1,16,16,5822.720747,ok,
