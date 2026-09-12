@@ -1,0 +1,182 @@
+[
+  {
+    "layer": "original_kernel",
+    "problem": 3,
+    "seed": 1610001,
+    "strategy": "baseline",
+    "planner_depth": 2,
+    "case_code": "P3-0000000000189111",
+    "jammer_total": 12,
+    "cleared_count": 12,
+    "cleared_ratio": 1.0,
+    "total_locate_clear_time_s": 3424.897101,
+    "avg_locate_clear_time_s": 285.40809175,
+    "program_runtime_s": 0.08291680000547785,
+    "measure_count": 110,
+    "clear_count": 18,
+    "clear_miss_count": 6,
+    "certificate": "seven_point_per_channel"
+  },
+  {
+    "layer": "original_kernel",
+    "problem": 3,
+    "seed": 1610002,
+    "strategy": "baseline",
+    "planner_depth": 2,
+    "case_code": "P3-0000000000189112",
+    "jammer_total": 14,
+    "cleared_count": 14,
+    "cleared_ratio": 1.0,
+    "total_locate_clear_time_s": 2965.863346,
+    "avg_locate_clear_time_s": 211.84738185714286,
+    "program_runtime_s": 0.07951039999898057,
+    "measure_count": 87,
+    "clear_count": 16,
+    "clear_miss_count": 2,
+    "certificate": "seven_point_per_channel"
+  },
+  {
+    "layer": "local_HTTP",
+    "problem": 3,
+    "seed": 1620001,
+    "total": 12,
+    "cleared": 12,
+    "certificate": "seven_point_per_channel",
+    "planner_depth": 2,
+    "strategy": "baseline",
+    "virtual_time_s": 2952.605405,
+    "runtime_s": 0.42875989999447484,
+    "response": {
+      "accepted": true,
+      "real_timestamp_ms": 1789179388089,
+      "virtual_time_s": 2952.605405,
+      "exit_reason": "user_exit"
+    }
+  },
+  {
+    "layer": "local_HTTP",
+    "problem": 3,
+    "seed": 1620002,
+    "total": 11,
+    "cleared": 11,
+    "certificate": "seven_point_per_channel",
+    "planner_depth": 2,
+    "strategy": "baseline",
+    "virtual_time_s": 3241.949136,
+    "runtime_s": 0.33346850000089034,
+    "response": {
+      "accepted": true,
+      "real_timestamp_ms": 1789179388957,
+      "virtual_time_s": 3241.949136,
+      "exit_reason": "user_exit"
+    }
+  },
+  {
+    "layer": "local_HTTP",
+    "problem": 3,
+    "seed": 1620003,
+    "total": 14,
+    "cleared": 14,
+    "certificate": "seven_point_per_channel",
+    "planner_depth": 2,
+    "strategy": "baseline",
+    "virtual_time_s": 3034.732128,
+    "runtime_s": 0.25850519999221433,
+    "response": {
+      "accepted": true,
+      "real_timestamp_ms": 1789179389746,
+      "virtual_time_s": 3034.732128,
+      "exit_reason": "user_exit"
+    }
+  },
+  {
+    "layer": "original_kernel",
+    "problem": 4,
+    "seed": 1610001,
+    "strategy": "baseline",
+    "planner_depth": 2,
+    "case_code": "P4-0000000000189111",
+    "jammer_total": 12,
+    "cleared_count": 12,
+    "cleared_ratio": 1.0,
+    "total_locate_clear_time_s": 5867.103273,
+    "avg_locate_clear_time_s": 488.92527275,
+    "program_runtime_s": 0.14950500000850298,
+    "measure_count": 292,
+    "clear_count": 18,
+    "clear_miss_count": 6,
+    "certificate": "convex_mesh_per_channel"
+  },
+  {
+    "layer": "original_kernel",
+    "problem": 4,
+    "seed": 1610002,
+    "strategy": "baseline",
+    "planner_depth": 2,
+    "case_code": "P4-0000000000189112",
+    "jammer_total": 14,
+    "cleared_count": 14,
+    "cleared_ratio": 1.0,
+    "total_locate_clear_time_s": 5781.464979,
+    "avg_locate_clear_time_s": 412.96178421428573,
+    "program_runtime_s": 0.11875870000221767,
+    "measure_count": 190,
+    "clear_count": 16,
+    "clear_miss_count": 2,
+    "certificate": "convex_mesh_per_channel"
+  },
+  {
+    "layer": "local_HTTP",
+    "problem": 4,
+    "seed": 1620001,
+    "total": 12,
+    "cleared": 12,
+    "certificate": "convex_mesh_per_channel",
+    "planner_depth": 2,
+    "strategy": "baseline",
+    "virtual_time_s": 7440.171462,
+    "runtime_s": 0.8563163000071654,
+    "response": {
+      "accepted": true,
+      "real_timestamp_ms": 1789179391403,
+      "virtual_time_s": 7440.171462,
+      "exit_reason": "user_exit"
+    }
+  },
+  {
+    "layer": "local_HTTP",
+    "problem": 4,
+    "seed": 1620002,
+    "total": 11,
+    "cleared": 11,
+    "certificate": "convex_mesh_per_channel",
+    "planner_depth": 2,
+    "strategy": "baseline",
+    "virtual_time_s": 5741.470635,
+    "runtime_s": 0.7441245000081835,
+    "response": {
+      "accepted": true,
+      "real_timestamp_ms": 1789179392683,
+      "virtual_time_s": 5741.470635,
+      "exit_reason": "user_exit"
+    }
+  },
+  {
+    "layer": "local_HTTP",
+    "problem": 4,
+    "seed": 1620003,
+    "total": 14,
+    "cleared": 14,
+    "certificate": "convex_mesh_per_channel",
+    "planner_depth": 2,
+    "strategy": "baseline",
+    "virtual_time_s": 5749.266536,
+    "runtime_s": 0.7135111000097822,
+    "response": {
+      "accepted": true,
+      "real_timestamp_ms": 1789179393932,
+      "virtual_time_s": 5749.266536,
+      "exit_reason": "user_exit"
+    }
+  }
+]

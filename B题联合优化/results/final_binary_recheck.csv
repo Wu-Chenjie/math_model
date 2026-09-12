@@ -1,0 +1,3 @@
+problem,seed,method,stress,n,cleared,time_s,avg_s,move_m,measures,switches,miss,fallbacks,dp_calls,dp_actions,dp_fallbacks,dp_expanded,dp_budget_hits,aux_calls,aux_positive,joint_steps,runtime_s,certificate
+3,1910001,56,0,10,10,2700.744305,270.0744305,9913.721523208,111,104,3,0,98,14,3,21507,0,15,15,24,0.0893179,seven_point_per_channel
+4,1910001,56,0,10,10,5380.560055,538.0560055,19377.80027835,243,228,4,2,180,23,2,51815,0,0,0,46,0.4485395,convex_mesh_per_channel
