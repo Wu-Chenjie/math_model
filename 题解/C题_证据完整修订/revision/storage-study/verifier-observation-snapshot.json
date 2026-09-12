@@ -1,0 +1,17 @@
+{
+  "observed_utc": "2026-09-12T14:07:14.227416+00:00",
+  "scope": "Observed after annual launch; compared to producer-recorded hashes and completion state; not claimed to be launch-time instrumentation",
+  "hashes": {
+    "producer_sha256": "9590a4c85145402ca2454e3c623b319e23ca29344db15db47bc14dfc364d3d15",
+    "source_hashes": {
+      "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+      "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+      "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+      "dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233"
+    },
+    "input_hashes": {
+      "data.npz": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+      "forecast-selection.json": "eb6277a072175fe845b87b5eb55e042e562659f8d55cb5e94ea4222b0146ee71"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "horizon_hours": 72,
+  "window": 28,
+  "scenarios": 7,
+  "alpha": 0.2,
+  "gain_bound": 10.0,
+  "grid": 321,
+  "bins": 3,
+  "scenario_method": "legacy",
+  "upper": "legacy",
+  "lower": "M0",
+  "tail_scale": 1.0,
+  "tail": "linear",
+  "horizon_mode": "fixed",
+  "final": 6000.0,
+  "ridge": 0.0001,
+  "innovation_count": 10,
+  "fusion_weight": 0.75,
+  "official_correction": 0.0
+}

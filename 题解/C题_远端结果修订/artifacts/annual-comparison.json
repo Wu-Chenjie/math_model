@@ -1,0 +1,30 @@
+{
+  "q2": {
+    "old": 13844170.061859,
+    "new": 13817945.063203,
+    "difference": 26224.998656000942,
+    "percent": 0.1894299083211308,
+    "source_evidence": "locally_recomputed"
+  },
+  "q3": {
+    "old": 13461842.350948,
+    "new": 13352415.05,
+    "difference": 109427.30094799958,
+    "percent": 0.8128701710750131,
+    "source_evidence": "remote_reported_summary"
+  },
+  "q4_2": {
+    "old": 14654611.381239,
+    "new": 14592399.02,
+    "difference": 62212.361239001155,
+    "percent": 0.4245241284163026,
+    "source_evidence": "remote_reported_summary"
+  },
+  "q4_3": {
+    "old": 14252083.025399,
+    "new": 14117278.06,
+    "difference": 134804.96539899893,
+    "percent": 0.9458614937813622,
+    "source_evidence": "remote_reported_summary"
+  }
+}

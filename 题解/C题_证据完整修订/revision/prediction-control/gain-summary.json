@@ -1,0 +1,468 @@
+{
+  "status": "PASS_JANUARY_DIAGNOSTIC",
+  "notes": "Frozen historical predictor selected on January15-31. This is a retrospective development-window diagnostic; no claim that January selection was known at January25. No formal-result-based tuning or adoption. Zero column means exactly zero coefficient in objective and all constraints, verified in assembled LP. Annual raw bound ratios cannot be corrected from old scalar counts without replay; do not extrapolate these January ratios to whole year.",
+  "comparisons": [
+    {
+      "kind": "q2",
+      "cost_gain10": 347089.6285341512,
+      "cost_gain20": 347089.6285341512,
+      "saving_gain20": 0.0,
+      "saving_percent": 0.0,
+      "gain10_active_touch": {
+        "gain_count": 768,
+        "touch_count": 388,
+        "zero_columns": 388,
+        "zero_columns_touch": 388,
+        "active_columns": 380,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.5052083333333334
+      },
+      "gain20_active_touch": {
+        "gain_count": 768,
+        "touch_count": 388,
+        "zero_columns": 388,
+        "zero_columns_touch": 388,
+        "active_columns": 380,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.5052083333333334
+      }
+    },
+    {
+      "kind": "q3",
+      "cost_gain10": 341917.12227747927,
+      "cost_gain20": 341902.6510727499,
+      "saving_gain20": 14.471204729343299,
+      "saving_percent": 0.004232372053482406,
+      "gain10_active_touch": {
+        "gain_count": 768,
+        "touch_count": 160,
+        "zero_columns": 160,
+        "zero_columns_touch": 160,
+        "active_columns": 608,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.20833333333333334
+      },
+      "gain20_active_touch": {
+        "gain_count": 768,
+        "touch_count": 160,
+        "zero_columns": 160,
+        "zero_columns_touch": 160,
+        "active_columns": 608,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.20833333333333334
+      }
+    },
+    {
+      "kind": "q4_2",
+      "cost_gain10": 386128.80034346593,
+      "cost_gain20": 386128.80034346593,
+      "saving_gain20": 0.0,
+      "saving_percent": 0.0,
+      "gain10_active_touch": {
+        "gain_count": 768,
+        "touch_count": 388,
+        "zero_columns": 388,
+        "zero_columns_touch": 388,
+        "active_columns": 380,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.5052083333333334
+      },
+      "gain20_active_touch": {
+        "gain_count": 768,
+        "touch_count": 388,
+        "zero_columns": 388,
+        "zero_columns_touch": 388,
+        "active_columns": 380,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.5052083333333334
+      }
+    },
+    {
+      "kind": "q4_3",
+      "cost_gain10": 380647.0446500028,
+      "cost_gain20": 380647.0446500028,
+      "saving_gain20": 0.0,
+      "saving_percent": 0.0,
+      "gain10_active_touch": {
+        "gain_count": 768,
+        "touch_count": 160,
+        "zero_columns": 160,
+        "zero_columns_touch": 160,
+        "active_columns": 608,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.20833333333333334
+      },
+      "gain20_active_touch": {
+        "gain_count": 768,
+        "touch_count": 160,
+        "zero_columns": 160,
+        "zero_columns_touch": 160,
+        "active_columns": 608,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.20833333333333334
+      }
+    }
+  ],
+  "results": [
+    {
+      "kind": "q2",
+      "gain_bound": 10,
+      "dates": "2025-01-25 through 2025-01-31",
+      "initial": 6000,
+      "final": 6000,
+      "status": "POST_REVIEW_DIAGNOSTIC_NOT_MODEL_SELECTION",
+      "total_cost": 347089.6285341512,
+      "totals": {
+        "planned_cost": 342043.1726785756,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 5046.455855575615,
+        "total_cost": 347089.6285341512,
+        "emergency_energy": 1328.896471499857,
+        "spill_energy": 21576.108666372373,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 7.73070496506989e-12,
+        "lp_objective_recompute_gap": 3.055902197957039e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "column_statistics": {
+        "gain_count": 768,
+        "touch_count": 388,
+        "zero_columns": 388,
+        "zero_columns_touch": 388,
+        "active_columns": 380,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.5052083333333334
+      },
+      "runtime_seconds": 18.040787040954456
+    },
+    {
+      "kind": "q2",
+      "gain_bound": 20,
+      "dates": "2025-01-25 through 2025-01-31",
+      "initial": 6000,
+      "final": 6000,
+      "status": "POST_REVIEW_DIAGNOSTIC_NOT_MODEL_SELECTION",
+      "total_cost": 347089.6285341512,
+      "totals": {
+        "planned_cost": 342043.17267857556,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 5046.455855575614,
+        "total_cost": 347089.6285341512,
+        "emergency_energy": 1328.8964714998565,
+        "spill_energy": 21582.44199970568,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 1.2278178473934531e-11,
+        "lp_objective_recompute_gap": 3.055902197957039e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "column_statistics": {
+        "gain_count": 768,
+        "touch_count": 388,
+        "zero_columns": 388,
+        "zero_columns_touch": 388,
+        "active_columns": 380,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.5052083333333334
+      },
+      "runtime_seconds": 18.289217749843374
+    },
+    {
+      "kind": "q3",
+      "gain_bound": 10,
+      "dates": "2025-01-25 through 2025-01-31",
+      "initial": 6000,
+      "final": 6000,
+      "status": "POST_REVIEW_DIAGNOSTIC_NOT_MODEL_SELECTION",
+      "total_cost": 341917.12227747927,
+      "totals": {
+        "planned_cost": 340290.59175867005,
+        "increase_cost": 5632.348087470495,
+        "reduction_net_cost": -4313.8752279260025,
+        "emergency_cost": 308.0576592647584,
+        "total_cost": 341917.12227747927,
+        "emergency_energy": 51.929647523232425,
+        "spill_energy": 10478.679186951136,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.6803518518518,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 2.319211489520967e-11,
+        "lp_objective_recompute_gap": 3.92901711165905e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "column_statistics": {
+        "gain_count": 768,
+        "touch_count": 160,
+        "zero_columns": 160,
+        "zero_columns_touch": 160,
+        "active_columns": 608,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.20833333333333334
+      },
+      "runtime_seconds": 40.26513725006953
+    },
+    {
+      "kind": "q3",
+      "gain_bound": 20,
+      "dates": "2025-01-25 through 2025-01-31",
+      "initial": 6000,
+      "final": 6000,
+      "status": "POST_REVIEW_DIAGNOSTIC_NOT_MODEL_SELECTION",
+      "total_cost": 341902.6510727499,
+      "totals": {
+        "planned_cost": 340285.0377444888,
+        "increase_cost": 5632.348087470437,
+        "reduction_net_cost": -4322.792418474083,
+        "emergency_cost": 308.0576592647441,
+        "total_cost": 341902.6510727499,
+        "emergency_energy": 51.929647523229804,
+        "spill_energy": 10423.115859854895,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.6803518518518,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 2.637534635141492e-11,
+        "lp_objective_recompute_gap": 3.055902197957039e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "column_statistics": {
+        "gain_count": 768,
+        "touch_count": 160,
+        "zero_columns": 160,
+        "zero_columns_touch": 160,
+        "active_columns": 608,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.20833333333333334
+      },
+      "runtime_seconds": 41.400941542116925
+    },
+    {
+      "kind": "q4_2",
+      "gain_bound": 10,
+      "dates": "2025-01-25 through 2025-01-31",
+      "initial": 6000,
+      "final": 6000,
+      "status": "POST_REVIEW_DIAGNOSTIC_NOT_MODEL_SELECTION",
+      "total_cost": 386128.80034346593,
+      "totals": {
+        "planned_cost": 379183.2647625625,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 6945.535580903411,
+        "total_cost": 386128.80034346593,
+        "emergency_energy": 1368.4067376482851,
+        "spill_energy": 21905.72340435765,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 2.3874235921539366e-11,
+        "lp_objective_recompute_gap": 2.9103830456733704e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "column_statistics": {
+        "gain_count": 768,
+        "touch_count": 388,
+        "zero_columns": 388,
+        "zero_columns_touch": 388,
+        "active_columns": 380,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.5052083333333334
+      },
+      "runtime_seconds": 27.934156000148505
+    },
+    {
+      "kind": "q4_2",
+      "gain_bound": 20,
+      "dates": "2025-01-25 through 2025-01-31",
+      "initial": 6000,
+      "final": 6000,
+      "status": "POST_REVIEW_DIAGNOSTIC_NOT_MODEL_SELECTION",
+      "total_cost": 386128.80034346593,
+      "totals": {
+        "planned_cost": 379183.2647625625,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 6945.535580903432,
+        "total_cost": 386128.80034346593,
+        "emergency_energy": 1368.4067376482908,
+        "spill_energy": 21894.39366135354,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 2.432898327242583e-11,
+        "lp_objective_recompute_gap": 2.9103830456733704e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "column_statistics": {
+        "gain_count": 768,
+        "touch_count": 388,
+        "zero_columns": 388,
+        "zero_columns_touch": 388,
+        "active_columns": 380,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.5052083333333334
+      },
+      "runtime_seconds": 27.94887433294207
+    },
+    {
+      "kind": "q4_3",
+      "gain_bound": 10,
+      "dates": "2025-01-25 through 2025-01-31",
+      "initial": 6000,
+      "final": 6000,
+      "status": "POST_REVIEW_DIAGNOSTIC_NOT_MODEL_SELECTION",
+      "total_cost": 380647.0446500028,
+      "totals": {
+        "planned_cost": 378843.77634593553,
+        "increase_cost": 6658.08759194241,
+        "reduction_net_cost": -5168.8697958926105,
+        "emergency_cost": 314.0505080174404,
+        "total_cost": 380647.0446500028,
+        "emergency_energy": 45.3928608828207,
+        "spill_energy": 11782.366451270818,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1247.382457969055,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 2.205524651799351e-11,
+        "lp_objective_recompute_gap": 2.6193447411060333e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "column_statistics": {
+        "gain_count": 768,
+        "touch_count": 160,
+        "zero_columns": 160,
+        "zero_columns_touch": 160,
+        "active_columns": 608,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.20833333333333334
+      },
+      "runtime_seconds": 36.65725770802237
+    },
+    {
+      "kind": "q4_3",
+      "gain_bound": 20,
+      "dates": "2025-01-25 through 2025-01-31",
+      "initial": 6000,
+      "final": 6000,
+      "status": "POST_REVIEW_DIAGNOSTIC_NOT_MODEL_SELECTION",
+      "total_cost": 380647.0446500028,
+      "totals": {
+        "planned_cost": 378843.77634593553,
+        "increase_cost": 6658.087591942387,
+        "reduction_net_cost": -5168.869795892595,
+        "emergency_cost": 314.05050801744045,
+        "total_cost": 380647.0446500028,
+        "emergency_energy": 45.392860882821815,
+        "spill_energy": 11776.0331179375,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1247.3824579690531,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 2.2282620193436742e-11,
+        "lp_objective_recompute_gap": 2.764863893389702e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "column_statistics": {
+        "gain_count": 768,
+        "touch_count": 160,
+        "zero_columns": 160,
+        "zero_columns_touch": 160,
+        "active_columns": 608,
+        "active_touch": 0,
+        "active_touch_fraction": 0.0,
+        "raw_touch_fraction": 0.20833333333333334
+      },
+      "runtime_seconds": 36.653223499888554
+    }
+  ]
+}

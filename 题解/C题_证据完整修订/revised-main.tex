@@ -1,0 +1,504 @@
+\documentclass[UTF8,a4paper,zihao=-4,fontset=mac]{ctexart}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.7cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,graphicx,longtable,array,enumitem}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage{fancyvrb,fvextra}
+\usepackage[hidelinks]{hyperref}
+\usepackage{caption,float}
+\captionsetup{font=small,labelsep=quad}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.15em}
+\linespread{1.14}\clubpenalty=10000\widowpenalty=10000
+\setlength{\emergencystretch}{2em}
+\setlist{nosep,leftmargin=2em}
+\ctexset{section={format=\large\bfseries},subsection={format=\normalsize\bfseries}}
+\newcommand{\R}{\mathbb R}
+\newcommand{\E}{\mathbb E}
+\newcommand{\I}{\mathcal I}
+\newcommand{\pp}[2]{\par\noindent\textbf{命题 #1（#2）}\quad}
+\newcommand{\scope}{\par\noindent\textbf{适用范围}\quad}
+\newcommand{\fig}[3]{\begin{figure}[htbp]\centering\includegraphics[width=#3\linewidth]{figures/#1.png}\caption{#2}\end{figure}}
+\newcommand{\figfixed}[3]{\begin{figure}[H]\centering\includegraphics[width=#3\linewidth]{figures/#1.png}\caption{#2}\end{figure}}
+\begin{document}
+\pagestyle{plain}
+\thispagestyle{plain}
+\begin{center}
+{\LARGE\bfseries 基于跨日随机控制与价值反馈的\\微网购电和储能协同调度}\par\vspace{1em}
+{\large\bfseries 摘\quad 要}
+\end{center}
+微网调度同时受到光伏和负荷预测误差、合同提前确定、紧急购电价格较高以及储能跨日库存价值的影响。午夜库存连接次日供需，合同承诺与实时动作又遵守不同的信息截止时刻。本文把四问统一为一个带合同、库存和实时反馈的随机动态系统，构造“成熟历史残差场景—因果合同规划—凸Markov动态规划反馈—滚动重规划—真实闭环结算”的控制框架。
+
+\textbf{针对问题一，}证明合同费用与库存变化的紧急供能费用均为凸分段线性函数，通过同时充放电消元建立确定性线性规划。典型日购电量为\textbf{59,482.70 kWh}，费用为\textbf{35,126.95元}，首末库存均为6,000 kWh。
+
+\textbf{针对问题二，}在中间午夜连续、真实年末统一为6,000 kWh的条件下，从成熟历史残差块中按时间覆盖选取7条等权轨迹，在因果仿射策略类内规划购电，并以有限状态Markov近似递推连续库存价值。2025年2月至12月334日实际费用为\textbf{1,384.42万元}，较同样允许跨日的贪心基线节省\textbf{20.24万元}。
+
+\textbf{针对问题三，}在合法发布节点融入光伏预报并重订剩余合同，费用为\textbf{1,346.18万元}，较对应跨日贪心基线节省\textbf{23.13万元}。保持策略框架和调约权限，删除12时预报使当年回放费用增加\textbf{17.93万元}。
+
+\textbf{针对问题四，}将净需求和价格的历史误差成对用于规划，实际电价在执行后结算。日前、日内机制费用分别为\textbf{1,465.46万元、1,425.21万元}，较各自跨日贪心基线节省\textbf{15.29万元、22.89万元}。
+
+四种机制均保持真实初末库存6,000 kWh。相同仿射框架下，解除中间午夜复位带来\textbf{22.66至33.36万元}的闭环节省；库存价值反馈相对跨日仿射节省\textbf{58.58至76.27万元}。相对跨日贪心，三种块长的配对重采样区间均位于正值侧，11个评价月份均累计节省。理论保证对应声明的凸模型和信息条件，实验支持当前单年度回放。
+
+\noindent\textbf{关键词：}微网调度；跨日储能；因果合同；凸动态规划；滚动优化
+\clearpage
+\section{问题重述与控制视角}
+微网的费用同时落在三个时间尺度上。日前要把交付合同定下来；日内只能在题目允许的时刻，根据已经发布的预测去改尚未交付的承诺；电池则按十分钟响应眼前的真实净需求。电池可以跨时段转移富余电量，转移规模受效率、容量和功率限制。若今晚剩下的电要支撑次日早晨，或低价补能要等到明天，午夜库存就是连接两天的状态。
+
+四问共用同一套物理和计费规则，差别只在当时知道什么、允许改什么。问题一给定典型日完整负荷、光伏和电价，求逐段购电与电池动作，并且当天首末库存相同。问题二在固定分时电价下，必须在0时确定当天不可调整的合同，用历史信息应对尚未发生的净需求误差。问题三增加每日0、6、12、18时发布的光伏预报，并允许在这些节点修订尚未交付的合同。问题四再引入交付电价不确定，分别考察日前和日内两种权限。题目要求的指定日期和时段结果从实际轨迹直接读出，电量一律在交流母线侧计量。
+
+据此，策略被拆成两层：上层承诺必须对签约时刻的信息可测；下层电池在观测当前净需求后，权衡即时供能与未来库存价值。除整年首末固定为6,000 kWh外，中间午夜不另加复位。微网滚动调度与储能多阶段随机规划已有实验和算法基础\cite{parisio2014,parisio2016,bhattacharya2018}；本文把合同限制在仿射扰动反馈策略类中\cite{bental2004,goulart2006}，用经验场景平均近似期望费用\cite{kleywegt2002,shapiro2014}，下层则以有限状态Markov决策的值函数近似电池动作\cite{puterman1994,powell2011}。后文先写能量和计费的凸结构，再写信息如何约束策略，最后给出价值递推与四问账单。理论命题采用结论类型标记：A表示数学性质，B表示所声明近似模型内的最优性或下界；实验结果和适用范围直接用文字说明。
+
+
+\begin{figure}[H]\centering
+\begin{tikzpicture}[node distance=5mm,box/.style={draw=teal!65!black,rounded corners,align=center,text width=11.2cm,minimum height=8mm,font=\small},>=Stealth]
+\node[box] (a) {已实现历史与已发布光伏预报：构造合法预测};
+\node[box,below=of a] (b) {完整成熟残差：生成净需求与价格的联合场景};
+\node[box,below=of b] (c) {上层场景LP：签订或调整合同，保持信息因果性};
+\node[box,below=of c] (d) {下层Markov/Bellman递推：估计未来库存价值};
+\node[box,below=of d] (e) {每十分钟：观测净需求，选择并执行可行电池动作};
+\node[box,below=of e] (f) {计算紧急购电与真实账单，库存连续传至下一时段};
+\draw[->] (a)--(b);\draw[->] (b)--(c);\draw[->] (c)--(d);\draw[->] (d)--(e);\draw[->] (e)--(f);
+\draw[->] (f.east)--++(.6,0)|-(a.east);
+\end{tikzpicture}
+\caption{预测、合同规划、实时价值反馈与闭环结算的总体框架}
+\end{figure}
+
+\section{假设、符号与信息结构}
+\subsection{模型假设}
+\begin{enumerate}
+\item 附件功率按对应十分钟区间均值积分；电量统一在交流母线侧计量，内部库存单独递推。
+\item 将题给90\%解释为充电和放电各自的转换效率；不额外引入题面未给的自放电、线路损耗和循环退化参数。
+\item 不向外网售电，允许免费弃置母线富余；紧急购电无题外容量上限。
+\item 采用退购退款后支付50\%违约费的主口径；另报告不退款口径的账单敏感性。
+\item 合同只使用签约前已知信息；电池可观测本时段净需求，实际浮动电价在动作后用于结算。
+\item 问题一主方案选定周期初值6000 kWh，并补充自由周期初值对照；问题二至四正式比较统一真实初末库存6000 kWh。
+\end{enumerate}
+\subsection{物理参数、时间计量与符号}
+容量、功率与库存上下界取自题目。将每十分钟作为一个交付时段，时段长度为六分之一小时。输入的00:10至24:00数值解释为此前十分钟的区间均值，输出从00:00--00:10标记至23:50--24:00。负荷与光伏功率除以6得到时段电量。单向效率0.9采用上文对题给90\%的解释。于是
+\begin{equation}
+ \eta=0.9,\qquad M=5000/6,\qquad E_{\min}=1200,\quad E_{\max}=10800.
+\end{equation}
+额定充放电功率为5,000 kW，允许库存为1,200至10,800 kWh。系统允许以规定价格从外网补电，无额外外网容量限制；不向外网售电，母线富余可免费弃置且不设弃电上限。当前模型无循环奖励、启停时间和电池退化费用，价格非负。这些条件对应给定调度模型，也是后文消元及可达性命题的条件。弃电变量表示母线总富余，不能直接换算为纯光伏弃电率。合同必须先定，电池动作可以后做，真实电价只用于结算。
+
+\begin{table}[htbp]\centering\small
+\caption{主要符号及计量口径}
+\begin{tabular}{lp{10.2cm}}\toprule
+符号 & 含义 \\ \midrule
+$E_t,\delta_t$ & 时段初库存及本段库存增量，kWh \\
+$q_t,r_t$ & 原始合同及最终有效交付合同，kWh \\
+$c_t,d_t,e_t,w_t$ & 充电、放电、紧急购电、母线弃电，kWh \\
+$n_t,p_t$ & 净需求电量及实际交付价格，kWh、元/kWh \\
+$\xi_t$ & 外生扰动，包括净需求、价格误差及预报创新 \\
+$a,H,S$ & 当前规划时段、该次时域长度、经验轨迹数 \\
+$K_t,V_{t,k}$ & 净需求箱标签、该标签下的库存继续费用函数 \\
+$\mathcal F_t^-,\mathcal F_t$ & 合同可用信息及当前净需求实现后的控制信息 \\
+\bottomrule\end{tabular}\end{table}
+
+\subsection{严格的观测与行动次序}
+先签约，再观察当前净需求并操作电池，最后按实际交付价格结算。
+\begin{equation}\label{eq:info}
+ \mathcal F_t^-\subseteq\mathcal F_t,\qquad
+ (q_t,r_t)\in L^0(\mathcal F_t^-),\qquad
+ (c_t,d_t,e_t,w_t)\in L^0(\mathcal F_t).
+\end{equation}
+其中，原始合同还须对所属日签约时刻的信息可测，修订合同须对最后合法修订节点的信息可测；式\eqref{eq:info}是共同必要条件，并不赋予逐时重新签约权。净需求实现后新增的观测不能倒流进入该时段合同。变动价机制的当段真实电价不作为动作输入，控制使用此前可得的预测价格，真实价格留在结算环节。
+
+库存是物理状态，但一般不是完整随机控制状态。一个充分的状态表述须包含库存、未交付合同和足以更新条件分布的历史或预测器状态；也可以直接以完整合法历史定义策略，不预设有限维马尔可夫性。后文的二元状态是\textbf{冻结本次名义合同后的经验近似状态}，不是对原始随机过程充分状态性的证明。
+
+\section{统一凸能量模型}
+在题目的计费规则和电池约束下，合同费用是凸的；电价不为负时，存在不同时充放电的最优解，因而不必给电池加0-1开关。紧急购电关于库存变化同样是凸分段线性。若年末要回到6,000 kWh，每一步就只能走到还来得及抵达终点的区间里。四问的差别不在这些等式，而在合同权限和信息集。
+
+\subsection{状态方程和随机控制目标}
+令净需求等于负荷电量减光伏电量，则电池递推与母线平衡为
+\begin{align}
+ E_{t+1}&=E_t+\eta c_t-d_t/\eta,\label{eq:state}\\
+ r_t+e_t+d_t-c_t-w_t&=n_t.\label{eq:balance}
+\end{align}
+同时满足非负电量、容量边界及单段充放电量不超过M。对遵守各机制合同权限、信息约束和真正初末条件的策略集合，统一目标为
+\begin{equation}\label{eq:mother}
+ J^*=\inf_{\pi\in\Pi}\E\!\left[\sum_{t=0}^{T-1}p_t
+ \left\{\phi(q_t,r_t)+5e_t\right\}\right].
+\end{equation}
+这里的期望对应声明的外生过程分布。实际计算以有限经验场景上的样本平均近似该目标\cite{kleywegt2002,shapiro2014}，并作滚动执行。问题一为确定性且无紧急购电的特例；问题二固定价格并约束最终合同等于原合同；问题三放开合法修订并增加已发布预报；问题四使用随机价格结算。
+
+\subsection{合同结算凸性}
+采用题解中已经实现的退购解释：退购部分原电费由50\%违约费替代，因此相对日初合同退回50\%的减少部分电费。对每个交付段，计费相对原合同与最终合同净额计算，不把多次发布的变化绝对值重复累加。当最终合同增大时，费用对应原合同加1.5倍增购；减小时，原合同扣除0.5倍退购。因而
+\begin{align}
+ \phi(q,r)&=q+1.5(r-q)^+-0.5(q-r)^+\notag\\
+ &=\begin{cases}1.5r-0.5q,&r\ge q,\\0.5r+0.5q,&r<q,\end{cases}\label{eq:phi}\\
+ &=\max\{1.5r-0.5q,\ 0.5r+0.5q\}=r+0.5|r-q|.\notag
+\end{align}
+\pp{1}{A：合同费用的凸性}函数关于两个合同变量联合凸且分段线性。
+\begin{proof}
+两仿射表达式之差为最终合同减原合同，故在各自区间恰由较大者取值；仿射函数的逐点最大值为凸分段线性函数。
+\end{proof}
+因此可用上图变量F及两条线性不等式表示合同费用。非负价格保证最小化上图费用与原目标的最优值一致；价格为零时不要求所有上图变量均紧。合同修订没有引入新的非凸项，且与库存价值的凸结构兼容。若采用不同的退购结算解释，则须改变目标并重新计算，除另行标明的计费敏感性外，主结果均对应式\eqref{eq:phi}。
+
+\input{tables/billing-revision.tex}
+\subsection{同时充放电消元与紧急电量}
+\pp{2}{A：存在单向最优解}在上述免费无上限弃电、非负价格、无循环奖励条件下，若原问题最优解存在，则存在逐时不同时充放电的最优解。
+\begin{proof}
+对任一同时充放电时段，构造
+\begin{equation}
+ u=\min\{c,d/\eta^2\},\qquad c'=c-u,\quad d'=d-\eta^2u.
+\end{equation}
+二者保持非负且不超过原值，至少一者为零。进一步有
+\begin{equation}
+ \eta c'-d'/\eta=\eta c-d/\eta,\qquad
+ (c'-d')-(c-d)=-(1-\eta^2)u.
+\end{equation}
+令弃电增加同样的母线富余量，保持合同和紧急电量不变，即可保持平衡、库存与成本。逐时施加该变换得到单向最优解。该证明是存在性结论，并不要求所有最优解均单向。
+\end{proof}
+以库存增量代替两个动作变量，单向恢复公式为
+\begin{equation}\label{eq:canonical}
+ \delta=E_{t+1}-E_t,\quad c=\delta^+/\eta,\quad
+ d=\eta(-\delta)^+,\quad -M/\eta\le\delta\le\eta M.
+\end{equation}
+其母线净耗电为两个仿射式的最大值，最小紧急电量及相应弃电为
+\begin{align}
+ g(\delta)&=\max\{\eta\delta,\delta/\eta\},\notag\\
+ e(r,\delta;n)&=\max\{0,n-r+\eta\delta,n-r+\delta/\eta\},\label{eq:emergency}\\
+ w&=r+e-g(\delta)-n.\notag
+\end{align}
+\pp{3}{A：即时费用的凸性}对固定净需求、合同及非负价格，紧急费用关于库存增量为凸分段线性函数。
+\begin{proof}
+式\eqref{eq:emergency}是三个仿射函数的最大值，乘以非负系数保持凸性及分段线性。
+\end{proof}
+这一消元把功率方向与供需追索压缩进一个库存变量。模型采用母线聚合平衡，没有增加紧急电不得流向电池等分源约束；相关结论均基于这一实际实现。
+
+\subsection{一步可达域与真正终点}
+\pp{4}{A：单步可达闭区间}给定当前库存，下一库存的物理可达域为
+\begin{equation}\label{eq:reachable}
+ \mathcal X(E)=[E_{\min},E_{\max}]\cap[E-M/\eta,E+\eta M].
+\end{equation}
+\begin{proof}
+式\eqref{eq:canonical}的增量上下界分别来自最大放电和充电；加入容量界即得必要条件。区间中任一点均可由式\eqref{eq:canonical}恢复合规单向动作，并由紧急购电和免费弃电完成母线平衡，故也充分。
+\end{proof}
+图中斜带随当前库存平移，对角线表示不动作，上下斜边表示最大充放电，容量边界在两端截断可行带。
+\fig{reachable}{容量与功率共同决定的单步库存可达域}{0.67}
+
+\pp{5}{A：真正终点的可达性}本次动作后若还剩N步，终点目标位于容量区间，则下一库存必须且只须位于下列剩余可达区间；实际执行再与单步可达域相交：
+\begin{equation}\label{eq:terminal}
+ \mathcal R_N=[E_{\min},E_{\max}]\cap[E_T^*-N\eta M,E_T^*+NM/\eta],\qquad
+ E_{t+1}\in\mathcal X(E_t)\cap\mathcal R_N.
+\end{equation}
+\begin{proof}
+必要性来自剩余N步累计充、放电能力。充分性方面，当N为正且下一库存低于目标时，将差值均匀分配到剩余N次充电；高于目标时均匀分配到放电。区间条件保证每步不越功率界，单调趋近目标保证中间库存不越容量界。外网追索与弃电保证供需可行。N为零时区间退化为目标单点。
+\end{proof}
+本稿主口径的真实评价终点为12月31日24时，目标6,000 kWh。除每日闭合对照外，中间午夜不是终点；滚动规划域的末点也不自动施加真实终点等式。执行器把目标库存投影到式\eqref{eq:terminal}的交集后恢复动作，从而保证真实末端可达。
+
+\section{确定性问题一：凸模型的基准验证}
+题目要求日初与日末库存相同，并未对该典型日另行固定周期库存。主方案参照附录的初始状态，选择两端均为6000 kWh；该值是本文的实施口径。另令周期初值参与优化，以检验这一选择的费用影响。
+
+问题一没有预测，也没有跨日：典型日的负荷、光伏和分时电价全部已知，当天首末库存均为6,000 kWh，并禁止紧急购电。它用来核对凸模型能否给出题目要求的指定时段结果，也给后面的随机机制提供一个可对照的确定性基准。
+
+典型日共144个交付段，供需和分时电价已知，原合同与最终合同相等，并禁止紧急电。模型可直接写为
+\begin{equation}\label{eq:q1}
+\begin{aligned}
+ \min\quad &\sum_{t=0}^{143}p_tq_t,\\
+ &q_t+d_t-c_t-w_t=n_t,\\
+ &E_{t+1}=E_t+\eta c_t-d_t/\eta,\\
+ &0\le c_t,d_t\le M,\quad q_t,w_t\ge0,\\
+ &E_{\min}\le E_t\le E_{\max},\quad E_0=E_{144}=6000.
+\end{aligned}
+\end{equation}
+命题2允许保留连续松弛并恢复单向动作。所有约束线性，目标线性，使用HiGHS求解\cite{highs}。\textbf{模型内结论：}求解器返回最优状态；独立线性规划与对偶账单在数值容差内相符。\textbf{结果：}全天购电59,482.70 kWh，充电20,740.67 kWh，放电16,799.94 kWh，费用35,126.95元；原始对偶差约为$7.28\times10^{-12}$元。该数值证书对应本确定性模型和浮点精度。
+\input{tables/q1buy.tex}
+\input{tables/q1bat.tex}
+\input{tables/q1-cycle-revision.tex}
+全天首末库存相同，故由状态递推求和，总放电量等于总充电量的效率平方倍，即81\%。图示库存随电价和供需共同变化：低价时段补能，高价值用电时段放能，最终回到规定库存。费用目标与外购电量目标不同，效率损耗并不妨碍低价向高价转移形成费用收益。
+\fig{q1}{典型日库存与分时电价：解释跨时段移能机制}{0.86}
+
+\section{跨日随机规划：在合法信息中安排承诺}
+问题二至四的合同必须在真实净需求揭晓之前确定。规划只用当时已经允许看到的历史和预报，把已经走完的残差接到当前预测后面，作为若干条可能的后续轨迹；文件里尚未发生的数不得进入场景。电池如何响应当前缺口，留到下一节。
+
+\subsection{成熟残差与等权经验场景}
+预测族在1月15日至31日按MAE比较前一日、前一周、近七日均值和趋势四种候选；负荷选前一周、光伏选七日均值、价格选前一周。日内利用此前已观测的近36段误差作衰减修正。设当前绝对时段为a，规划长度为H，历史块起点为h，目标采用半开区间，则成熟条件为
+\begin{equation}\label{eq:mature}
+ [h,h+H)\subseteq[0,a),\qquad h+H\le a.
+\end{equation}
+\pp{6}{A：成熟场景的非预见性}若历史块满足式\eqref{eq:mature}，且预测器参数、残差重建和轨迹选取均由当前已知信息确定，则当前场景不依赖当前之后的真实目标。
+\begin{proof}
+历史块中的最后一个目标发生于a之前，所有真实目标均属于当前信息。历史原点预测的输入前缀按该原点截断；用当前已确定的预测族进行重建及残差运算，仍是当前已知数据的可测函数。按时间下标选取轨迹也不引入未来目标。只要求历史起点早于当前时点不足以保证这一结论。
+\end{proof}
+历史残差的重建使用冻结预测族，并非声称这些预测族在每个更早历史原点已经被实际选中。1月开发段与预测族选择区间重叠，因而该段是内部开发比较；2月至12月才是冻结选择之后的时间顺序评价。
+
+实际场景来自最近最多28个完整成熟残差块，按下标等距覆盖选取最多7条，赋予等权。净需求场景构造为当前预测加历史残差，价格场景使用同一历史块的价格残差：
+\begin{equation}\label{eq:scenario}
+ n_{a+j}^{s}=\widehat n_{a+j\mid a}+n_{h_s+j}-\widehat n_{h_s+j\mid h_s},\quad
+ p_{a+j}^{s}=\max\{10^{-3},\widehat p_{a+j\mid a}+p_{h_s+j}-\widehat p_{h_s+j\mid h_s}\}.
+\end{equation}
+变动价格预测作正值截断；固定价机制直接使用给定分时价。此设计保留历史块内的联合时间结构，属于确定性时间覆盖的经验分布，不是独立同分布抽样，也没有采用概率度量下的最优场景缩减\cite{dupacova2003,kaut2007}。场景是否适应当前规划，最终由同终点闭环账单判断。
+
+\input{tables/prediction-revision.tex}
+\subsection{有限维因果扰动反馈}
+合同与库存请求写成对已实现扰动特征的仿射反馈。仿射扰动反馈把策略搜索变成凸规划，是可调鲁棒优化与约束鲁棒控制中的标准参数化\cite{bental2004,goulart2006}；本文把它用在经验场景的期望费用上，并按题目的签约时刻截断特征，而不是对任意扰动集合求最坏情形。场景误差以该次场景中心为基准，构造当前误差、EMA和近36段均误差。EMA递推及一般反馈形式为
+\begin{align}
+ z_j^s&=0.8z_{j-1}^s+0.2\varepsilon_j^s,\qquad z_{-1}^s=0,\label{eq:ema}\\
+ q_j^s&=a_j^q+G_{\nu_q(j)}^q\psi_{\rho_q(j)}^s,\qquad
+ r_j^s=a_j^r+G_{\nu_r(j)}^r\psi_{\rho_r(j)}^s,\label{eq:affine}\\
+ E_{j+1}^s&=a_j^E+G_{\nu_E(j)}^E(\varepsilon_j^s,z_j^s)^\top.\notag
+\end{align}
+截止下标由决策权限决定：未来原合同使用所属日开始前的误差特征，修订合同使用所属六小时块开始前的特征，库存请求可使用当前段误差及EMA。合同特征按近36段均误差、EMA的顺序组成二维列向量；日或块内共享两个增益，增益逐分量限定在负10至10。当前已锁定的合同不是自由变量。
+
+\pp{7}{A：仿射策略的因果性}给定规划根节点可测的系数，若特征仅由其合法截止时刻的信息构成，则该策略满足非预见性。
+\begin{proof}
+相同历史前缀给出相同特征，根节点拟合系数已经确定，所以对应决策一致；可测函数的仿射组合仍可测。库存特征可以比合同特征多含当前净需求，实现先承诺后响应的权限区分。
+\end{proof}
+该策略类没有纳入未来尚未发布的官方预报创新，后者在实际发布后由重新规划使用。\textbf{模型内定位（B）：}上层最优性对应给定经验轨迹、特征和增益界内的受限仿射类；场景内可行不直接推出全部外样本可行，实际供需由执行器追索保证。
+
+\subsection{上层场景线性规划及继续价值}
+将式\eqref{eq:affine}代入各场景，以合同上图和紧急电量上图表示费用。目标是有限等权场景上的样本平均近似\cite{kleywegt2002,shapiro2014}：
+\begin{equation}\label{eq:saa}
+\begin{aligned}
+\min\quad&\frac1S\sum_{s=1}^S\left[\sum_{j=0}^{H-1}p_j^s(F_j^s+5e_j^s)+\Psi_a(E_H^s)\right],\\
+&F_j^s\ge1.5r_j^s-0.5q_j^s,\quad F_j^s\ge0.5r_j^s+0.5q_j^s,\\
+&e_j^s\ge0,\quad e_j^s\ge n_j^s-r_j^s+\eta(E_{j+1}^s-E_j^s),\\
+&e_j^s\ge n_j^s-r_j^s+(E_{j+1}^s-E_j^s)/\eta,\\
+&E_{j+1}^s\in\mathcal X(E_j^s),\quad E_0^s=E_a,\quad q_j^s,r_j^s\ge0,\\
+&-10\le G^q,G^r,G^E\le10.
+\end{aligned}
+\end{equation}
+还须加入机制规定的合同固定等式、式\eqref{eq:affine}及已抵达真实终点时的库存等式。日前机制始终保持最终合同等于原合同。选择线性末值时，继续费用取
+\begin{equation}\label{eq:tail}
+ \Psi_a(E)=-\lambda_a E,\qquad
+ \lambda_a=Q_{0.25}(p_{H-\min(144,H):H}^{1:S})/\eta.
+\end{equation}
+这一近似按未来低价补能的边际费用给库存估值，用于抑制短时域末点的过度放电倾向。滚动域到达真正评价终点时令末值系数归零，并由上层硬等式和实际执行可达集合管理末端。该目标是规划评分，正式账单始终按真实交付费逐段求和，不把虚拟末值记入现金节省。
+
+每日0、6、12、18时重规划，时域覆盖至第二个午夜并在真正终点截断。这与微网模型预测控制的滚动时域一致\cite{parisio2014,parisio2016}，但合同变量始终受式\eqref{eq:info}约束，不会在十分钟尺度上重新签约。0时落实当日原合同，合法修订节点落实剩余日内合同，未来场景动作作为价值计算参考。问题二和问题四日前机制的六小时重算不产生额外签约权限。
+
+\section{凸Markov动态规划：用库存价值响应当前净需求}
+合同按上一节锁定之后，电池看见眼前缺口，需要判断当前库存中的单位电量是现在用来少买紧急电，还是留到后面。下层把该子问题写成有限状态Markov决策过程\cite{puterman1994}，并以凸分段线性值函数作近似动态规划\cite{powell2011}。斜率合并用来计算下确界卷积，而不必对每个库存点另解一次线性规划。
+
+\subsection{状态压缩和固定名义合同}
+每次上层求解后，以其未来名义合同作为本次下层计算的固定序列。将该次经验场景在每段按净需求三分位分成三箱，当前观测经相同阈值映射为标签。于是下层近似状态为
+\begin{equation}
+ (E_t,K_t),\qquad K_t\in\{0,1,2\}.
+\end{equation}
+相邻场景标签的计数形成时变转移矩阵。每个单元加三分之一伪计数，每行总伪计数为1：
+\begin{equation}\label{eq:transition}
+ P_j(k,k')=\frac{N_j(k,k')+1/3}{\sum_{\ell=0}^2N_j(k,\ell)+1}.
+\end{equation}
+箱内净需求采用该箱场景经验分布，空箱退回全部场景；价格使用箱内条件均价。这是每次规划重建的经验Markov近似，并非从全年资料拟合的固定平稳链。箱内价格压缩不保留剩余净需求与价格相关性的全部信息。到下一合法节点，重新求上层LP、更新名义合同和经验链。
+
+\subsection{Bellman方程与观测顺序}
+用下一段转移概率组合继续费用，令容量域之外的值为正无穷。固定合同费用与当前库存选择无关，可从该次电池子问题中略去。箱内净需求先被观察，电池再决策，因此值函数采用先最小化再组内平均：
+\begin{align}
+ W_{j,k}(x)&=\sum_{k'=0}^2P_j(k,k')V_{j+1,k'}(x),\label{eq:w}\\
+ V_{j,k}(E)&=\frac1{|B_{j,k}|}\sum_{s\in B_{j,k}}
+ \min_{x\in\mathcal X(E)}\left\{5\bar p_{j,k}e(r_j,x-E;n_j^s)+W_{j,k}(x)\right\}.
+ \label{eq:bellman}
+\end{align}
+空箱时使用全部场景作为组内集合。将净需求先取均值再最小化会改变信息顺序，并非式\eqref{eq:bellman}。终端函数在一般滚动末点采用线性末值或凸割包络；本次DP遇到给定终点时，源码使用有限绝对值罚
+\begin{equation}\label{eq:penalty}
+ V_{H,k}(E)=1000|E-6000|.
+\end{equation}
+本文没有把1000证明为精确罚系数；真正末端由执行器的硬可达集合保证。该区别将价值引导与物理执行保证分开。
+
+\subsection{Bellman凸性保持定理}
+令库存消耗量为当前库存减下一库存，定义扩展实值即时函数
+\begin{equation}\label{eq:convolution}
+\begin{aligned}
+ h_{j,k,n}(y)&=5\bar p_{j,k}\max\{0,n-r_j-\eta y,n-r_j-y/\eta\}
+             +\I_{[-\eta M,M/\eta]}(y),\\
+ (W\square h)(E)&=\inf_{x+y=E}\{W(x)+h(y)\}.
+\end{aligned}
+\end{equation}
+指标函数在集合内为0、集合外为正无穷；在W中同样加入容量域指标。于是每个组内最小化都是下确界卷积。
+
+\noindent\textbf{定理1（A：凸分段线性保持）}\quad
+若继续函数和即时函数在各自非空有限闭区间上为有限凸分段线性函数，并在域外取正无穷，则其下确界卷积在可行域上为闭凸分段线性函数；有限非负概率平均仍保持该结构。因此式\eqref{eq:bellman}从声明的凸终端函数向后递推时保持凸分段线性。
+\begin{proof}
+即时成本凸性由命题3及区间指标得到。对两个可行库存及其最优分配，取相同权重的凸组合仍满足总量等式和区间约束；函数凸性给出组合分配成本不超过原最优成本的加权和，因此最优值凸。有限闭区间保证可行最小值达到；PWL函数的上图为多面体，将联合上图按总量等式投影仍是多面体，故值函数闭且PWL。最后，有限个这样的函数按非负概率求和仍凸且PWL。完整域条件及归纳见附录。
+\end{proof}
+该论证也可由凸分析中部分最小化与下确界卷积的上图投影性质理解\cite{rockafellar,boyd}。\textbf{推论：}值函数斜率随库存单调不减；把额外库存带来的继续费用减少称为边际收益时，其值为负斜率，单调不增。这里不要求严格单调，也不宣称整个域上库存收益始终为正，特别是终点惩罚附近。
+
+\subsection{斜率合并与连续动作}
+\pp{8}{A：斜率合并算法}对有限区间凸PWL函数，下确界卷积可由两组非降斜率作有序合并，同时保留每段横向长度构造。
+两函数从左端点开始分配总增量。先使用边际费用较低的线段；凸性保证各函数内部斜率有序，全局合并仍遵守各自前缀。附录以小量交换给出完整证明。该方法把逐库存重复求LP化为线段合并，是下层计算的结构依据。
+
+实现把值函数存储在321个库存节点上，卷积后回到网格作分段线性插值。凸函数的弦插值在节点间位于被插值函数上方，但这一局部关系不构成原随机问题的成本界。执行时，用当前净需求对应箱的价格均值，比较价值折点、即时缺口折点和物理边界，得到连续库存请求：
+\begin{equation}\label{eq:action}
+ x^{\rm req}\in\arg\min_{x\in\mathcal X(E)}
+ \{5\bar p_{j,k}e(r,x-E;n)+\widetilde W_{j,k}(x)\}.
+\end{equation}
+实际候选包括网格节点、当前库存和两个缺口折点，控制输入不限制为321个离散值。随后执行器施加真正终点可达投影；投影后的动作不宣称仍是带收缩区间目标的重新精确最小解。321是数值存储参数，数学凸性来自函数结构。
+
+\section{信息更新、价格不确定性与理论边界}
+问题三把已经发布的光伏预报送进剩余合同，问题四再让电价随历史残差一起波动；二者都不改物理模型和合同结算式。精确模型里，信息变多或拿掉中间午夜复位，最优值都不会变差。实际闭环还经过场景、压缩和滚动近似，省多少钱仍以同终点回放为准。
+
+\subsection{预报如何进入问题三}
+每次实际发布后，将24个未来小时预测与发布前已观测起点拼成25个插值节点，再插值到十分钟段，并与历史预测衔接。控制使用已发布版本，当前时刻之后的新预报尚不可得。净需求预测变化首先改变剩余合同，再经继续费用影响电池留电量。图示3月20日原合同、最终合同和紧急购电的差异，用于说明合同修订与即时追索承担不同职责。
+\fig{contracts-revision}{问题三2025年3月20日：合同更新与09:20--10:00紧急补购}{0.94}
+
+\noindent\textbf{信息价值结论}\quad
+若两个精确优化问题除嵌套信息集外，控制权限、费用、物理条件和真正初末约束完全相同，而且较丰富信息下可以忽略新增信息，则
+\begin{equation}\label{eq:voi}
+ \mathcal I_1\subseteq\mathcal I_2\ \Longrightarrow\
+ \Pi(\mathcal I_1)\subseteq\Pi(\mathcal I_2)\ \Longrightarrow\
+ J^*(\mathcal I_2)\le J^*(\mathcal I_1).
+\end{equation}
+证明是将少信息策略原样嵌入多信息策略集合，再比较下确界。\scope
+实际预报删减是冻结闭环框架的年度配对回放，重新构建经验场景及价值函数，并非分别求两种信息集下的精确总体最优解；其费用差表示本策略对已有信息的使用效果。
+
+\subsection{问题四的联合价格场景}
+问题四保持物理结构和相应合同权限，把净需求残差与价格残差按同一历史块加入当前预测。上层采用每条轨迹的费用，能够反映历史净需求与价格的成对变化。下层再压缩为净需求箱条件均价，以减小有限样本状态规模。实际账单始终使用交付电价，价格预测失准的影响自然进入评价结果。日前与日内机制分别与拥有相同权限的基线比较，不把信息、调约权利和算法三个因素混合解释成单一收益。
+
+\subsection{跨日策略集合包含关系}
+\pp{9}{A：解除中间复位约束的模型关系}对同一精确模型、同一信息结构和同一真实初末条件，若每日闭合策略集合是在跨日策略集合中增加各午夜固定库存约束得到，则
+\begin{equation}\label{eq:cross}
+ \Pi_{\rm daily}\subseteq\Pi_{\rm cross},\qquad
+ J_{\rm cross}^*\le J_{\rm daily}^*.
+\end{equation}
+\begin{proof}
+任一满足额外午夜等式的策略也满足原跨日模型全部约束，故前者可行集合被包含；对包含关系取同一目标的下确界得到结论。
+\end{proof}
+\scope
+已实施的仿射请求、Markov压缩和滚动重规划属于近似闭环。不同近似策略的实际账单并不由式\eqref{eq:cross}排序；下节用同初末库存的配对轨迹量化跨日机制。
+
+\section{实验与机制验证}
+主表同时列出每日闭合贪心、同样允许跨日的贪心，以及主策略。主结果以跨日贪心为对照；每日闭合贪心作为附加参照，午夜复位的单因素作用由同一仿射框架的配对消融识别。机制表再把「中间午夜是否复位」和「电池是否按库存价值动作」分开比较。各列对照对象不同，节省不宜叠加。
+
+\subsection{统一时间范围与主结果}
+正式评价为2025年2月1日至12月31日，共334日48,096段。1月用于开发与公共初始化，不纳入正式评价。所有正式主策略与基线从6,000 kWh开始并在真实年末回到6,000 kWh，避免借用不同末库存形成账面差。
+
+\input{tables/main.tex}
+\textbf{主结果：}四种机制较同样允许跨日的贪心基线节省15.29至23.13万元，降幅1.03\%至1.69\%，七日块重采样区间下界均为正。该基线使用场景共同合同与即时电量平衡，中间午夜连续，仅在真实年末回到6,000 kWh。相对每日闭合贪心的总节省为33.78至42.96万元，该对照同时包含跨日权限与控制策略差异。跨日权限的单因素作用另由同一仿射框架的午夜复位消融衡量。不同对照的节省不能相加。两类策略均全额满足实际净需求，库存递推、跨午夜衔接和5,000 kW功率边界逐段核验。附录完整列出四个指定日期的购电表、全天电量与费用、六个四小时充放电块、首末库存及紧急购电区间；工作簿提供逐时明细。
+
+\subsection{跨日与价值反馈分别承担什么论证}
+第一项对照固定仿射策略框架，只改变中间午夜库存等式，衡量跨日状态连续的闭环效果。第二项对照保留跨日和线性末值，将仿射库存响应换为Markov价值反馈，衡量反馈架构的闭环效果。
+\input{tables/mechanisms.tex}
+\textbf{结果：}跨日仿射相对每日闭合仿射节省22.66至33.36万元，Markov反馈相对跨日仿射节省58.58至76.27万元。该比较表明，所实施Markov反馈闭环优于仿射库存响应闭环。各对照的上层合同在真实状态下重规划，因此第二项是完整反馈闭环的差异，不是固定所有合同后的电池动作净效应。两个机制对照与主结果的跨日贪心基线不同，不能将其节省叠加到主结果上。
+
+
+\input{revision/storage-study/capacity-section.tex}
+
+\subsection{全年库存如何连接日内调节与跨日承接}\label{sec:annualinventory}
+图\ref{fig:annualinventory}按日期和日内时刻展开四机制的365日库存。每格对应一个十分钟区间的段末值，统一色标显示1.2至10.8 MWh的运行边界。1月为共同因果初始化，2月至12月为主结果的334日连续执行；两部分在2月1日00:00以6.0 MWh衔接。
+\figfixed{annual-inventory-heatmap}{全年十分钟段末库存：日内补能与释放的时间结构\label{fig:annualinventory}}{1.0}
+\textbf{运行特征：}正式期四机制日内最大与最小库存之差，日均为9.20至9.32 MWh，说明9.60 MWh可用区间被广泛用于日内调节。相邻午夜库存的日均绝对变化，固定价日前、日内分别为1.36、1.38 MWh，变动价日前、日内分别为2.64、2.55 MWh。这里的变化是一天运行累积形成的库存转移；前一日末与后一日初的衔接误差在保存轨迹中均为零，并非午夜发生库存跳变。全年午夜折线及日内范围见附录图\ref{fig:annualenvelope}，真实年末库存均为6.0 MWh。容量消融度量费用影响，库存图解释这些可用能量如何在时间上使用。
+
+\subsection{已有预报的实际使用效果}
+\input{tables/ablation.tex}
+预报删减实验保留0、6、12、18时的计算和调约权限，只改变可读取的预报版本，并统一真实终点。该设计将预报内容与合同调整权限的作用分离。\textbf{结果：}删除12时预报增加17.93万元，删除6时增加7.20万元，删除18时增加约0.10万元；只保留0时增加31.68万元。完整预报总体费用最低，但各发布贡献不能相加，因为信息更新通过库存、合同与后续动作相互作用。结论支持保留题目已提供的预报接口，不据此给出新增未提供时点的预测价值。
+
+\subsection{费用分解：节省来自哪些账目}
+将总费逐项分解为原计划、增购、退购净额和紧急电。退购净费用按负值记账，与式\eqref{eq:phi}保持一致。图中的分项变化均以各自跨日贪心基线为参照，负值表示减少支出，四项相加恰等于总费变化。
+\figfixed{decomposition-primary}{两个日内机制相对基线的费用变化：逐项核对节省来源}{0.99}
+原计划减少不必单独追求最大，因为减少承诺可能提高紧急购电；增购与退购同样应按净账单评价。以问题三为例，原合同费用减少25.63万元，增购和退购净额合计再减少1.48万元，紧急费用增加3.98万元，净节省23.13万元。该策略通过联合安排合同与库存降低总账单；紧急费增支是已计入净收益的成本。
+
+\subsection{配对移动块重采样与月度稳定性}
+以跨日贪心账单减主策略账单定义每日配对差，两者均保持相同真实初末库存和中间午夜连续：
+\begin{equation}\label{eq:bootstrap}
+ \Delta_d=C_d^{\rm base}-C_d^{\rm main},\quad
+ A=\sum_{d=1}^{334}\Delta_d,\quad\bar\Delta=A/334.
+\end{equation}
+同一年的连续天气与跨日库存可能产生时间依赖，采用移动块重采样保留块内短期结构\cite{kunsch}。从重叠的3、7、14日块中有放回抽取、拼接并截断至334日，每种配置重复10,000次，以日均差的2.5\%和97.5\%分位数形成区间。种子和累计区间由同一统计登记文件保存。
+\input{tables/bootstrap-primary.tex}
+\input{tables/stability-primary.tex}
+\figfixed{bootstrap-primary}{7日块区间说明单年度配对节省的时间稳定性}{0.9}
+\textbf{结果：}三种块长下四机制日均节省区间均位于正值侧，11个月的累计节省均为正。日表同时报告节省与增支日期；连续库存允许在某日补能以服务后日，月度累计与运行期总账单衡量这种跨日安排的整体效果。一阶相关系数用于报告依赖的方向与程度，不把它称为正式显著性检验。\scope
+这些区间用于本年度时间稳定性诊断，跨年度效果需由新增年份的顺序回放评价。
+
+\subsection{完美信息参照与可解释的性能边界}
+\noindent\textbf{完美信息关系}\quad
+令事后参照已知整条路径，以普通电价购电并保持相同电池条件、时间范围与真实初末库存。对任意可行因果策略，保留其电池和弃电，令参照普通购电为
+\begin{equation}\label{eq:oracle}
+ q_t^{\rm PI}=r_t+e_t,\qquad
+ p_t(r_t+e_t)\le p_t\{\phi(q_t,r_t)+5e_t\}.
+\end{equation}
+不等式由非负电价、非负紧急电和合同恒等式直接得到，因此逐路径有
+\begin{equation}\label{eq:pathbound}
+ L_{\rm PI}(\omega)\le C_\pi(\omega).
+\end{equation}
+同一分布下取期望并对全部因果策略取下确界，得到
+\begin{equation}\label{eq:expectedbound}
+ \E[L_{\rm PI}]\le J_{\rm causal}^*\le\E[C_\pi].
+\end{equation}
+单条2025路径不能替代式\eqref{eq:expectedbound}中的总体期望。数值参照采用全48,096段线性规划，并独立修复、计算对偶下界以检查浮点误差。
+\input{tables/oracle.tex}
+表中相对参照距离以费用差除以参照费用计算。固定价两种机制的相对参照距离约为13.19\%和10.07\%，变动价两种机制约为14.64\%和11.49\%。\scope
+这同时放松未来信息和成交渠道，并与有限场景、状态压缩、策略类限制、滚动时域及末值近似有关，不能称为算法最优性gap，不能将差额承诺为在线可实现节省。
+
+\section{参数、辅助SDDP与模型边界}
+末端库存估价服务于滚动执行，候选的取舍依据闭环实际账单。随机对偶动态规划通过阶段LP的对偶信息构造继续费用下界\cite{pereira,bhattacharya2018}。本节用同口径对照说明线性末值的选取依据，并通过数值敏感性确定主模型的计算精度。
+
+\subsection{按闭环实际账单选择模型}
+开发期比较场景共同合同贪心、仿射反馈、Markov反馈及两类SDDP末值候选。原选型脚本只读取1月25至31日自由终点开发费用，规则为最小费用，若线性末值Markov费用处于最小值的0.01\%以内则优先选择它：
+\begin{equation}\label{eq:selection}
+ J_{\min}=\min_mJ_{\rm dev}(m),\qquad
+ \widehat m=\begin{cases}m_{\rm ML},&J_{\rm dev}(m_{\rm ML})\le1.0001J_{\min},\\
+ \arg\min_mJ_{\rm dev}(m),&\text{otherwise}.
+ \end{cases}
+\end{equation}
+选择过程不读取2月至12月费用。正式论文统一固定真实终点后，补做同初末6,000 kWh的开发期复核，四机制按原规则仍选择线性末值Markov。这是事后的口径一致性增强证据，不倒置为先于评价结果的全新预注册。完整费用见附录。
+
+评价目标是实际闭环账单，而不是对某个辅助继续值模型逼近得更精细。简单末值通过相同开发规则被保留，SDDP承担候选价值代理的论证职责。
+
+\subsection{末值的模型选择作用}
+辅助SDDP的状态包含库存和未交付合同，按两小时聚合、有限阶段独立噪声训练；其割的下界性质仅针对该辅助模型，证明置于附录。按已冻结的开发期账单规则，主策略采用线性末值；既有自由终点同口径全年SDDP对照未降低真实账单，两者分别承担选型和补充评价职责。局部窗口的末值倍率敏感性说明，当前控制账单对这一价格代理较稳定；据此采用线性末值，把计算资源用于合同重规划和库存价值反馈。零末值、倍率变化及SDDP的完整对照均保留在附录。 
+
+\subsection{参数的作用及诊断}
+\begin{table}[htbp]\centering\small
+\caption{参数的数学角色及解释范围}
+\begin{tabular}{lp{10.2cm}}\toprule
+参数 & 作用与诊断 \\ \midrule
+321个库存节点 & 值函数存储、插值的数值参数；以161和641节点作局部敏感性核对。 \\
+7条场景 & 时间覆盖下的计算预算与有限样本表示，未声明为最优场景数。 \\
+28日窗口 & 近期分布适应和历史样本量之间的经验折中。 \\
+EMA系数0.2 & 短期误差记忆的经验收缩系数。 \\
+增益界$[-10,10]$ & 限定仿射策略类的正则化约束；单独采集全年规划解检查触边。 \\
+三状态 & 在少量场景下平衡状态表达与转移稀疏，采用显式伪计数。 \\
+末值价格四分位 & 近似未来低价补能价值；用零末值和两倍末值核对敏感性。 \\
+\bottomrule\end{tabular}\end{table}
+既有3月14至20日七日实验在自由末端口径下，161、321、641节点账单分别为242,988.81、243,002.90、243,028.94元；相对321节点变化约负14.09、正26.03元。数值变化较小，支持该局部窗口的网格稳定性，未声称账单单调收敛。零末值与基准费用在数值精度内相同，两倍末值增加6.20元，说明该窗口对精确末值倍率不敏感；三日视野在该窗口减少2,158.03元。它们是既有局部诊断，不用于重新选择正式评价配置，也不混入固定终点主表。
+\input{tables/gains.tex}
+\input{tables/gain-revision.tex}
+全年主轨迹的规划LP在保存的真实状态处独立重解，检查所有具有增益界的变量，并核对生效合同重放一致性。总触边统计包括结构性未激活或退化的增益列，这些列可以在不改变策略输出时触边，因此该比例是求解器变量层面的诊断，不能直接认定有效反馈饱和。它也不能单独证明扩大增益会改善闭环账单，或证明增益限制不影响结果。完整比例、重放误差和容差保留在核验文件中。
+
+
+\subsection{规划时域与预报融合的独立诊断}
+延长前瞻会增加纳入规划的未来供需时段，但也改变成熟历史池、末值取价区间及规划边界，因此应由相同结算和真实终点下的闭环对照评价。保持场景生成方法、反馈结构与预报权重不变，分别比较第二个午夜、固定48小时、固定72小时三种视域，完整费用见附录。48小时延长至72小时，四种机制费用分别变化为节省2.57万元、增支1.13万元、节省6.12万元及节省0.81万元。时域作用随合同权限和电价机制而变；问题二相对两午夜视域的增量日均节省78.52元，七日块区间为$[-101.14,288.44]$元/日，尚不足以支持稳定正增益。该组事后诊断保留完整正负结果，不据评价期账单重新选择主配置。
+
+对光伏官方预报与历史预测，进一步以配对误差二阶矩解释融合权重。两个一月窗口的样本MSE最优权重分别为0.8341和0.7617；0.75在预设离散候选中取得最低开发期MAE。其依据是预测层的内部开发比较，年度经济评价还需同时计入合同调整与紧急购电。相关推导、误差矩和选择范围见附录；主结果、预报删减实验及结果工作簿统一采用两午夜视域；日内机制使用已发布官方预报，融合权重为1。
+
+\section{模型评价与推广}
+\subsection{模型优点}
+模型用连续库存连接相邻日期，分别约束合同与实时动作的信息权限；利用费用凸性和一维库存值函数减少计算复杂度。全部费用依据逐时执行轨迹重算，并通过相同初末库存的对照分离跨日效应。在共同允许跨日的条件下，主策略节省15.29至23.13万元，量化了合同规划与库存价值反馈的联合收益。
+\subsection{适用条件与推广}
+在已比较候选中，因果合同规划与Markov库存价值反馈的组合取得主表费用优势：单独执行仿射库存响应的账单高于贪心，加入Markov反馈后形成主表收益。模型采用历史预测、有限经验场景、状态分箱和固定名义合同下的库存价值近似，结论对应这些信息与计算条件。增益约束及退购解释分别通过独立对照检查；完美信息差额衡量同时放宽信息与成交条件的整体费用空间。
+如获得新的带发布时间戳预报或多年度样本，可在开发期比较条件场景和增强状态；电池退化、自放电及并网容量仅在参数有依据时作为独立扩展。新增模块须通过同终点闭环对照，而不能仅以预测误差或辅助优化目标的改善代替费用验证。
+\section{结论}
+四问以同一能量平衡和信息因果约束组织。问题一采用确定性LP，典型日费用35,126.95元。问题二至四把同一套凸能量模型接到场景合同与库存价值反馈上。334日固定初末库存下，四种机制费用分别为1,384.42、1,346.18、1,465.46、1,425.21万元，较跨日贪心基线分别少花20.24、23.13、15.29、22.89万元。11个评价月份均实现累计节省。跨日连续使库存服务于后续供需，价值反馈使当段放电服从未来边际价值；两者共同构成费用改善的控制机制。
+
+\section*{AI工具使用声明}
+本参赛队在竞赛过程中使用了生成式人工智能工具，主要用于语言润色、代码辅助和文稿核验；全部报告数值由本地程序根据题目附件计算，并由独立脚本复核。工具名称、使用方式与生成内容范围见支撑材料。
+
+{\footnotesize
+\begin{thebibliography}{19}
+\setlength{\itemsep}{0.2em}
+\bibitem{parisio2014} Parisio A, Rikos E, Glielmo L. A model predictive control approach to microgrid operation optimization[J]. IEEE Transactions on Control Systems Technology, 2014, 22(5): 1813--1827. DOI:10.1109/TCST.2013.2295737.
+\bibitem{parisio2016} Parisio A, Rikos E, Glielmo L. Stochastic model predictive control for economic/environmental operation management of microgrids: An experimental case study[J]. Journal of Process Control, 2016, 43: 24--37. DOI:10.1016/j.jprocont.2016.04.008.
+\bibitem{bhattacharya2018} Bhattacharya A, Kharoufeh J P, Zeng B. Managing energy storage in microgrids: A multistage stochastic programming approach[J]. IEEE Transactions on Smart Grid, 2018, 9(1): 483--496. DOI:10.1109/TSG.2016.2618621.
+\bibitem{bental2004} Ben-Tal A, Goryashko A, Guslitzer E, Nemirovski A. Adjustable robust solutions of uncertain linear programs[J]. Mathematical Programming, 2004, 99(2): 351--376. DOI:10.1007/s10107-003-0454-y.
+\bibitem{goulart2006} Goulart P J, Kerrigan E C, Maciejowski J M. Optimization over state feedback policies for robust control with constraints[J]. Automatica, 2006, 42(4): 523--533. DOI:10.1016/j.automatica.2005.08.023.
+\bibitem{kleywegt2002} Kleywegt A J, Shapiro A, Homem-de-Mello T. The sample average approximation method for stochastic discrete optimization[J]. SIAM Journal on Optimization, 2002, 12(2): 479--502. DOI:10.1137/S1052623499363220.
+\bibitem{shapiro2014} Shapiro A, Dentcheva D, Ruszczyński A. Lectures on Stochastic Programming: Modeling and Theory[M]. 2nd ed. Philadelphia: SIAM, 2014.
+\bibitem{dupacova2003} Dupačová J, Gröwe-Kuska N, Römisch W. Scenario reduction in stochastic programming: An approach using probability metrics[J]. Mathematical Programming, 2003, 95(3): 493--511. DOI:10.1007/s10107-002-0331-0.
+\bibitem{kaut2007} Kaut M, Wallace S W. Evaluation of scenario-generation methods for stochastic programming[J]. Pacific Journal of Optimization, 2007, 3(2): 257--271.
+\bibitem{puterman1994} Puterman M L. Markov Decision Processes: Discrete Stochastic Dynamic Programming[M]. New York: Wiley, 1994.
+\bibitem{powell2011} Powell W B. Approximate Dynamic Programming: Solving the Curses of Dimensionality[M]. 2nd ed. Hoboken: Wiley, 2011.
+\bibitem{rockafellar} Rockafellar R T. Convex Analysis[M]. Princeton: Princeton University Press, 1970.
+\bibitem{boyd} Boyd S, Vandenberghe L. Convex Optimization[M]. Cambridge: Cambridge University Press, 2004. \url{https://web.stanford.edu/~boyd/cvxbook/}.
+\bibitem{pereira} Pereira M V F, Pinto L M V G. Multi-stage stochastic optimization applied to energy planning[J]. Mathematical Programming, 1991, 52: 359--375.
+\bibitem{highs} HiGHS Development Team. HiGHS: High performance software for linear optimization[EB/OL]. \url{https://highs.dev/}, 2026-09-11.
+\bibitem{kunsch} Künsch H R. The jackknife and the bootstrap for general stationary observations[J]. Annals of Statistics, 1989, 17(3): 1217--1241. DOI:10.1214/aos/1176347265.
+\bibitem{sddp} SDDP.jl Documentation. Words of warning[EB/OL]. \url{https://sddp.dev/stable/tutorial/warnings/}, 2026-09-11.
+\end{thebibliography}
+}
+\label{bodyend}
+\clearpage
+\appendix
+\input{technical-appendix.tex}
+\end{document}

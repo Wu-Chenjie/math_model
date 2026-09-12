@@ -1,0 +1,62 @@
+{
+  "q2": {
+    "january_to_february_jump_kwh": 0.0,
+    "year_initial_kwh": 6000.0,
+    "year_final_kwh": 6000.0,
+    "formal_lower_endpoint_hits": 1891,
+    "formal_upper_endpoint_hits": 4395,
+    "formal_lower_endpoint_fraction": 0.03931719893546241,
+    "formal_upper_endpoint_fraction": 0.09137974051896208,
+    "formal_daily_range_mean_kwh": 9211.031147439804,
+    "formal_daily_range_median_kwh": 9420.439550124507,
+    "formal_daily_range_max_kwh": 9600.0,
+    "formal_midnight_change_mean_abs_kwh": 1356.9057540392166,
+    "formal_midnight_change_max_abs_kwh": 7616.1584464997795,
+    "formal_midnight_change_sum_kwh": 2.7284841053187847e-12
+  },
+  "q3": {
+    "january_to_february_jump_kwh": 0.0,
+    "year_initial_kwh": 6000.0,
+    "year_final_kwh": 6000.0,
+    "formal_lower_endpoint_hits": 1858,
+    "formal_upper_endpoint_hits": 3894,
+    "formal_lower_endpoint_fraction": 0.03863107119095143,
+    "formal_upper_endpoint_fraction": 0.08096307385229541,
+    "formal_daily_range_mean_kwh": 9315.618223907806,
+    "formal_daily_range_median_kwh": 9426.716277604279,
+    "formal_daily_range_max_kwh": 9600.0,
+    "formal_midnight_change_mean_abs_kwh": 1376.4020135771632,
+    "formal_midnight_change_max_abs_kwh": 7191.7663811483935,
+    "formal_midnight_change_sum_kwh": 0.0
+  },
+  "q4_2": {
+    "january_to_february_jump_kwh": 0.0,
+    "year_initial_kwh": 6000.0,
+    "year_final_kwh": 6000.0,
+    "formal_lower_endpoint_hits": 1893,
+    "formal_upper_endpoint_hits": 4546,
+    "formal_lower_endpoint_fraction": 0.03935878243512974,
+    "formal_upper_endpoint_fraction": 0.09451929474384564,
+    "formal_daily_range_mean_kwh": 9197.32868315008,
+    "formal_daily_range_median_kwh": 9400.80614412469,
+    "formal_daily_range_max_kwh": 9600.0,
+    "formal_midnight_change_mean_abs_kwh": 2640.0589893099623,
+    "formal_midnight_change_max_abs_kwh": 7819.908118966258,
+    "formal_midnight_change_sum_kwh": -3.183231456205249e-12
+  },
+  "q4_3": {
+    "january_to_february_jump_kwh": 0.0,
+    "year_initial_kwh": 6000.0,
+    "year_final_kwh": 6000.0,
+    "formal_lower_endpoint_hits": 1940,
+    "formal_upper_endpoint_hits": 4185,
+    "formal_lower_endpoint_fraction": 0.04033599467731204,
+    "formal_upper_endpoint_fraction": 0.08701347305389222,
+    "formal_daily_range_mean_kwh": 9283.170786400238,
+    "formal_daily_range_median_kwh": 9400.557269706806,
+    "formal_daily_range_max_kwh": 9600.0,
+    "formal_midnight_change_mean_abs_kwh": 2554.770835538948,
+    "formal_midnight_change_max_abs_kwh": 7786.779915899556,
+    "formal_midnight_change_sum_kwh": -8.640199666842818e-12
+  }
+}

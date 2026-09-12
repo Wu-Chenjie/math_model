@@ -1,0 +1,365 @@
+{
+  "pages": 58,
+  "abstract_pages": 1,
+  "body_pages_including_references": 16,
+  "appendix_pages": 41,
+  "page_size": "A4",
+  "declared_margins_mm": 25,
+  "page_numbering": "plain footer center",
+  "pdf_bytes": 872636,
+  "pdf_sha256": "b273ee7acb2a335a5b3630dabe0a3103d7fa47f3355784b1ba309d8740c9039d",
+  "math_chinese_hits": [],
+  "latex_issues": [],
+  "anonymity_path_checks": "passed",
+  "page_text_counts": [
+    {
+      "page": 1,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 941
+    },
+    {
+      "page": 2,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1151
+    },
+    {
+      "page": 3,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1026
+    },
+    {
+      "page": 4,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 900
+    },
+    {
+      "page": 5,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 654
+    },
+    {
+      "page": 6,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 889
+    },
+    {
+      "page": 7,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 815
+    },
+    {
+      "page": 8,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1188
+    },
+    {
+      "page": 9,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1099
+    },
+    {
+      "page": 10,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1132
+    },
+    {
+      "page": 11,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 809
+    },
+    {
+      "page": 12,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1172
+    },
+    {
+      "page": 13,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 735
+    },
+    {
+      "page": 14,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 470
+    },
+    {
+      "page": 15,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1074
+    },
+    {
+      "page": 16,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1261
+    },
+    {
+      "page": 17,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1319
+    },
+    {
+      "page": 18,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1070
+    },
+    {
+      "page": 19,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1244
+    },
+    {
+      "page": 20,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1085
+    },
+    {
+      "page": 21,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1073
+    },
+    {
+      "page": 22,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1058
+    },
+    {
+      "page": 23,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 882
+    },
+    {
+      "page": 24,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 879
+    },
+    {
+      "page": 25,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 882
+    },
+    {
+      "page": 26,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 883
+    },
+    {
+      "page": 27,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 1037
+    },
+    {
+      "page": 28,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 2208
+    },
+    {
+      "page": 29,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3877
+    },
+    {
+      "page": 30,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3421
+    },
+    {
+      "page": 31,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3223
+    },
+    {
+      "page": 32,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3922
+    },
+    {
+      "page": 33,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3733
+    },
+    {
+      "page": 34,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3076
+    },
+    {
+      "page": 35,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 4049
+    },
+    {
+      "page": 36,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 2978
+    },
+    {
+      "page": 37,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 4032
+    },
+    {
+      "page": 38,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3757
+    },
+    {
+      "page": 39,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 4856
+    },
+    {
+      "page": 40,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3672
+    },
+    {
+      "page": 41,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 4353
+    },
+    {
+      "page": 42,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3905
+    },
+    {
+      "page": 43,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 4170
+    },
+    {
+      "page": 44,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 4468
+    },
+    {
+      "page": 45,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 5077
+    },
+    {
+      "page": 46,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3607
+    },
+    {
+      "page": 47,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3885
+    },
+    {
+      "page": 48,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 5420
+    },
+    {
+      "page": 49,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 4317
+    },
+    {
+      "page": 50,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3186
+    },
+    {
+      "page": 51,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3420
+    },
+    {
+      "page": 52,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3725
+    },
+    {
+      "page": 53,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3655
+    },
+    {
+      "page": 54,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 2598
+    },
+    {
+      "page": 55,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3977
+    },
+    {
+      "page": 56,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 3269
+    },
+    {
+      "page": 57,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 4459
+    },
+    {
+      "page": 58,
+      "width": 595.28,
+      "height": 841.89,
+      "text_chars": 2485
+    }
+  ],
+  "visual_review": "Final PNG pages and workbook views reviewed separately; see final-review.md"
+}

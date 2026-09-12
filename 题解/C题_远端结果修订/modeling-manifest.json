@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "project": {
+    "competition": "CUMCM",
+    "year": 2026,
+    "problem_id": "C",
+    "stage": "paper_rewritten_with_partial_remote_evidence",
+    "status": "limited"
+  },
+  "source": {
+    "statement_files": [
+      "inputs/C题.pdf"
+    ],
+    "data_files": [
+      "artifacts/remote-reported-summary.json"
+    ],
+    "input_hashes": {
+      "inputs/C题.pdf": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+      "inputs/论文格式规范2026.pdf": "cece4bb3a900a0435160032b98ea26e03b0f2d7eca58424b0d023e26085aed26",
+      "artifacts/remote-reported-summary.json": "dd5b4047c62086138630b512333ee0d0242279476e3015f9342d9225f654426c"
+    },
+    "data_audit_file": "artifacts/data-audit.json",
+    "official_rules": {
+      "status": "verified",
+      "url": "https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html",
+      "version": "User-supplied 2026 revised formatting PDF; upstream official-input-comparison retained",
+      "reason": "Local PDF read; abstract first, A4, 2.5cm margins, body <=30, source appendix. This is not a claim of full submission readiness."
+    }
+  },
+  "framing": {
+    "objectives": [
+      "Reconstruct a truthful, derivation-complete manuscript in the supplied style",
+      "Compare current annual candidate with old same-task Markov policy"
+    ],
+    "decision_variables": [
+      "q",
+      "r",
+      "E",
+      "c",
+      "d",
+      "emergency",
+      "spill"
+    ],
+    "constraints": [
+      "energy balance",
+      "capacity and power",
+      "causal contracts",
+      "true terminal inventory"
+    ],
+    "constraint_justification": null,
+    "ambiguities": [
+      "Remote Q3/Q4 original caches absent",
+      "Unified annual candidate differs from January-final challenger"
+    ],
+    "assumptions": [
+      "nonnegative prices",
+      "free unlimited spill",
+      "continuous single battery",
+      "per-direction efficiency0.9",
+      "actual price after action"
+    ]
+  },
+  "models": {
+    "candidates": [
+      {
+        "name": "registered_72h_legacy_M0_fusion075",
+        "target_output": "same-task annual bill",
+        "assumptions": [
+          "declared information timing"
+        ],
+        "data_requirements": [
+          "full daily trajectories"
+        ],
+        "failure_mode": "annual candidate selection is post-hoc",
+        "diagnostic": "independent replay audit"
+      }
+    ],
+    "candidate_set_justification": "Paper revision of registered candidates; no new selection experiment or annual replay performed.",
+    "selected": "registered_72h_legacy_M0_fusion075",
+    "selection_rationale": {
+      "objective_fit": null,
+      "constraint_fit": null,
+      "data_fit": null,
+      "baseline": null,
+      "risks": [],
+      "fallback_trigger": null
+    },
+    "baseline": {
+      "status": "pending",
+      "name": null,
+      "command": null,
+      "exit_code": null,
+      "runtime_seconds": null,
+      "output": "artifacts/baseline-metrics.json",
+      "metric_ids": [],
+      "reason": null
+    }
+  },
+  "execution": {
+    "status": "completed",
+    "command": "python3 src/build_evidence.py",
+    "exit_code": 0,
+    "runtime_seconds": null,
+    "environment": {
+      "python": "3.13.9",
+      "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+    },
+    "seed": 20260912,
+    "deterministic_reason": null,
+    "metrics_file": "artifacts/q2-new-analysis.json",
+    "metric_ids": [],
+    "figures": [
+      "figures/annual-comparison.png",
+      "figures/horizon.png",
+      "figures/q1.png",
+      "figures/q2-stability.png",
+      "figures/q2-waterfall.png",
+      "figures/reachable.png"
+    ],
+    "note": "Executed Q2 reanalysis and figure production only. No claim of rerunning the 113 remote cases."
+  },
+  "validation": {
+    "status": "pending",
+    "checks": [
+      {
+        "name": "Q2 bill, physics and dates",
+        "status": "pass",
+        "artifact": "artifacts/q2-new-analysis.json"
+      },
+      {
+        "name": "registry pointer equality",
+        "status": "pass",
+        "artifact": "artifacts/claim-integrity-check.json"
+      }
+    ],
+    "sensitivity": [
+      {
+        "name": "MBB block3/7/14",
+        "artifact": "artifacts/q2-new-analysis.json"
+      }
+    ],
+    "sensitivity_not_applicable_reason": null,
+    "robustness": [
+      {
+        "name": "Q2 monthly and daily variation",
+        "artifact": "artifacts/q2-new-analysis.json"
+      }
+    ],
+    "robustness_not_applicable_reason": null,
+    "falsification": []
+  },
+  "results": {
+    "registry_file": "artifacts/result-registry.json",
+    "paper_file": "revised-main.tex",
+    "claims_file": "paper/result-claims.json"
+  },
+  "reproducibility_file": "artifacts/reproducibility.json",
+  "review": {
+    "status": "completed",
+    "independent": true,
+    "reviewer_id": "four_role_reviewers",
+    "findings_file": "review/findings.json"
+  },
+  "pending": [
+    "Obtain original Q3/q4_2/q4_3 candidate6cf JSON/NPZ and audit source hashes, physical trajectories and bills.",
+    "Rebuild missing three-task specified-date tables, uncertainty analyses and complete submission workbooks from those trajectories.",
+    "Synchronize full formal validation and model-adoption record; do not relabel post-hoc unified candidate as January-final selected."
+  ],
+  "violations": []
+}

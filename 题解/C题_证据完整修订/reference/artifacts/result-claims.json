@@ -1,0 +1,1051 @@
+{
+  "source_commit": "59af4e054e079f18484889b6bc899bd83cc1527f",
+  "evaluation": [
+    "2025-02-01",
+    "2025-12-31"
+  ],
+  "days": 334,
+  "initial_final_kwh": [
+    6000,
+    6000
+  ],
+  "claim_classes": {
+    "A": "mathematical result under stated assumptions",
+    "B": "model-specific optimum or bound",
+    "C": "finite-sample numerical finding",
+    "D": "scope or extrapolation boundary"
+  },
+  "models": {
+    "q2": {
+      "class": "C",
+      "main": {
+        "planned_cost": 13197126.215670994,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 647043.8461881,
+        "total_cost": 13844170.061859094,
+        "emergency_energy": 151764.07688902435,
+        "spill_energy": 2336748.172034976,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0
+      },
+      "baseline_daily_greedy": {
+        "planned_cost": 13525231.071578983,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 656724.5932041093,
+        "total_cost": 14181955.664783094,
+        "emergency_energy": 116781.79758789127,
+        "spill_energy": 3098819.7845197846,
+        "projection_count": 15109.0
+      },
+      "cross_affine": {
+        "planned_cost": 13267414.761460178,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1312380.9488402535,
+        "total_cost": 14579795.71030043,
+        "emergency_energy": 332559.6647141245,
+        "spill_energy": 2584472.749692864,
+        "projection_count": 1506.0
+      },
+      "closed_affine": {
+        "planned_cost": 13377982.746087933,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1428366.172021641,
+        "total_cost": 14806348.918109573,
+        "emergency_energy": 362894.64922787214,
+        "spill_energy": 2809836.082019424,
+        "projection_count": 1069.0
+      },
+      "cross_saving_yuan": 226553.20780914277,
+      "feedback_saving_yuan": 735625.648441337,
+      "paired_vs_daily_greedy": {
+        "cumulative_yuan": 337785.60292399954,
+        "mean_yuan": 1011.3341404910166,
+        "positive_days": 268,
+        "negative_days": 66,
+        "zero_days": 0,
+        "lag1_correlation": 0.07697295699160918,
+        "bootstrap": {
+          "3": {
+            "mean_95_percentile_yuan": [
+              817.9786026154418,
+              1231.1903369357567
+            ],
+            "cumulative_95_percentile_yuan": [
+              273204.85327355756,
+              411217.5725365427
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609110,
+              3
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          },
+          "7": {
+            "mean_95_percentile_yuan": [
+              825.5302075337631,
+              1218.052506194391
+            ],
+            "cumulative_95_percentile_yuan": [
+              275727.0893162769,
+              406829.5370689266
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609110,
+              7
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          },
+          "14": {
+            "mean_95_percentile_yuan": [
+              820.0148935542265,
+              1212.5073936385616
+            ],
+            "cumulative_95_percentile_yuan": [
+              273884.97444711166,
+              404977.46947527956
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609110,
+              14
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          }
+        },
+        "monthly_yuan": {
+          "2025-02": 23187.10236445577,
+          "2025-03": 24969.143524598076,
+          "2025-04": 29548.353326749377,
+          "2025-05": 24925.972640177613,
+          "2025-06": 49923.588291211716,
+          "2025-07": 51471.406847791346,
+          "2025-08": 32640.29135661129,
+          "2025-09": 28168.775413960564,
+          "2025-10": 31658.33663699551,
+          "2025-11": 23537.207656253868,
+          "2025-12": 17755.424865194447
+        },
+        "positive_months": 11
+      },
+      "perfect_information_cost_yuan": 12230383.646207815,
+      "optimistic_distance_percent": 13.194896107381336
+    },
+    "q3": {
+      "class": "C",
+      "main": {
+        "planned_cost": 13340682.098085783,
+        "increase_cost": 252177.40668422976,
+        "reduction_net_cost": -305683.3310681213,
+        "emergency_cost": 174666.1772459749,
+        "total_cost": 13461842.350947868,
+        "emergency_energy": 37821.56931429688,
+        "spill_energy": 1738320.5163277145,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0
+      },
+      "baseline_daily_greedy": {
+        "planned_cost": 13709555.578467485,
+        "increase_cost": 254184.01491470725,
+        "reduction_net_cost": -292300.8949004199,
+        "emergency_cost": 156575.40203686175,
+        "total_cost": 13828014.100518633,
+        "emergency_energy": 33659.112929641604,
+        "spill_energy": 2509457.6635972084,
+        "projection_count": 14506.0
+      },
+      "cross_affine": {
+        "planned_cost": 13412957.379777346,
+        "increase_cost": 245297.63018124975,
+        "reduction_net_cost": -262318.9313320345,
+        "emergency_cost": 651691.3758954087,
+        "total_cost": 14047627.454521969,
+        "emergency_energy": 177471.4566315786,
+        "spill_energy": 2061065.476517132,
+        "projection_count": 1737.0
+      },
+      "closed_affine": {
+        "planned_cost": 13495829.632056177,
+        "increase_cost": 232605.35148538434,
+        "reduction_net_cost": -239238.07871141142,
+        "emergency_cost": 862596.90189431,
+        "total_cost": 14351793.80672446,
+        "emergency_energy": 227099.86394379448,
+        "spill_energy": 2311140.9102725796,
+        "projection_count": 1185.0
+      },
+      "cross_saving_yuan": 304166.35220249183,
+      "feedback_saving_yuan": 585785.1035741009,
+      "paired_vs_daily_greedy": {
+        "cumulative_yuan": 366171.7495707649,
+        "mean_yuan": 1096.3226035052842,
+        "positive_days": 284,
+        "negative_days": 50,
+        "zero_days": 0,
+        "lag1_correlation": 0.13464109334572452,
+        "bootstrap": {
+          "3": {
+            "mean_95_percentile_yuan": [
+              941.4350823811665,
+              1248.2377898147602
+            ],
+            "cumulative_95_percentile_yuan": [
+              314439.3175153096,
+              416911.4217981299
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609111,
+              3
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          },
+          "7": {
+            "mean_95_percentile_yuan": [
+              935.4187537521428,
+              1250.2048871319503
+            ],
+            "cumulative_95_percentile_yuan": [
+              312429.8637532157,
+              417568.43230207136
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609111,
+              7
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          },
+          "14": {
+            "mean_95_percentile_yuan": [
+              909.4238779022385,
+              1283.3918556148535
+            ],
+            "cumulative_95_percentile_yuan": [
+              303747.57521934767,
+              428652.8797753611
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609111,
+              14
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          }
+        },
+        "monthly_yuan": {
+          "2025-02": 27137.772442991092,
+          "2025-03": 20161.654337782944,
+          "2025-04": 21590.44443089834,
+          "2025-05": 36190.57468137657,
+          "2025-06": 39454.61012050131,
+          "2025-07": 49660.726462448176,
+          "2025-08": 48246.328137345336,
+          "2025-09": 38844.47864860082,
+          "2025-10": 30543.5576468708,
+          "2025-11": 27032.79611606845,
+          "2025-12": 27308.80654588105
+        },
+        "positive_months": 11
+      },
+      "perfect_information_cost_yuan": 12230383.646207815,
+      "optimistic_distance_percent": 10.06884771862314
+    },
+    "q4_2": {
+      "class": "C",
+      "main": {
+        "planned_cost": 13999788.76539036,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 654822.6158482771,
+        "total_cost": 14654611.38123864,
+        "emergency_energy": 139989.68954028297,
+        "spill_energy": 2373217.794892113,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0
+      },
+      "baseline_daily_greedy": {
+        "planned_cost": 14395300.275784008,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 615301.1828446062,
+        "total_cost": 15010601.458628617,
+        "emergency_energy": 102050.0906031138,
+        "spill_energy": 3205017.8343492155,
+        "projection_count": 14906.0
+      },
+      "cross_affine": {
+        "planned_cost": 14078161.63463767,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1339167.4820841118,
+        "total_cost": 15417329.116721783,
+        "emergency_energy": 322393.38715043664,
+        "spill_energy": 2635519.341905809,
+        "projection_count": 1475.0
+      },
+      "closed_affine": {
+        "planned_cost": 14232600.209941834,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1457688.7546561675,
+        "total_cost": 15690288.964598,
+        "emergency_energy": 350156.81578101753,
+        "spill_energy": 2878514.127506833,
+        "projection_count": 1015.0
+      },
+      "cross_saving_yuan": 272959.8478762172,
+      "feedback_saving_yuan": 762717.7354831435,
+      "paired_vs_daily_greedy": {
+        "cumulative_yuan": 355990.07738997665,
+        "mean_yuan": 1065.8385550598102,
+        "positive_days": 229,
+        "negative_days": 105,
+        "zero_days": 0,
+        "lag1_correlation": -0.1387512891199919,
+        "bootstrap": {
+          "3": {
+            "mean_95_percentile_yuan": [
+              877.0427847640647,
+              1266.878740730413
+            ],
+            "cumulative_95_percentile_yuan": [
+              292932.2901111976,
+              423137.499403958
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609112,
+              3
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          },
+          "7": {
+            "mean_95_percentile_yuan": [
+              878.3972086103929,
+              1254.5973303150097
+            ],
+            "cumulative_95_percentile_yuan": [
+              293384.6676758712,
+              419035.5083252132
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609112,
+              7
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          },
+          "14": {
+            "mean_95_percentile_yuan": [
+              856.7043250099437,
+              1279.402214794281
+            ],
+            "cumulative_95_percentile_yuan": [
+              286139.24455332116,
+              427320.33974128985
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609112,
+              14
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          }
+        },
+        "monthly_yuan": {
+          "2025-02": 27289.41333812959,
+          "2025-03": 20647.482128598924,
+          "2025-04": 20633.820252507976,
+          "2025-05": 22200.498607859525,
+          "2025-06": 44830.913908683135,
+          "2025-07": 66120.39814451156,
+          "2025-08": 44990.46786095193,
+          "2025-09": 31360.100363467656,
+          "2025-10": 29414.93278168391,
+          "2025-11": 30274.822699225522,
+          "2025-12": 18227.227304356875
+        },
+        "positive_months": 11
+      },
+      "perfect_information_cost_yuan": 12783021.73868496,
+      "optimistic_distance_percent": 14.64121457988084
+    },
+    "q4_3": {
+      "class": "C",
+      "main": {
+        "planned_cost": 14117677.518234555,
+        "increase_cost": 287303.4413616986,
+        "reduction_net_cost": -327716.22921499296,
+        "emergency_cost": 174818.29501795504,
+        "total_cost": 14252083.025399216,
+        "emergency_energy": 37930.268467347865,
+        "spill_energy": 1746588.1004165576,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0
+      },
+      "baseline_daily_greedy": {
+        "planned_cost": 14570685.045163691,
+        "increase_cost": 294746.16306958866,
+        "reduction_net_cost": -327240.3344314168,
+        "emergency_cost": 143477.57624191476,
+        "total_cost": 14681668.450043777,
+        "emergency_energy": 27930.99519235816,
+        "spill_energy": 2549881.5955247227,
+        "projection_count": 14292.0
+      },
+      "cross_affine": {
+        "planned_cost": 14194358.352097873,
+        "increase_cost": 289234.18344801036,
+        "reduction_net_cost": -277914.02461394726,
+        "emergency_cost": 642330.3499256249,
+        "total_cost": 14848008.860857561,
+        "emergency_energy": 170369.40398156282,
+        "spill_energy": 2081946.338920874,
+        "projection_count": 1645.0
+      },
+      "closed_affine": {
+        "planned_cost": 14323092.566385347,
+        "increase_cost": 284563.7956626995,
+        "reduction_net_cost": -256700.8141731571,
+        "emergency_cost": 830688.2706538363,
+        "total_cost": 15181643.818528729,
+        "emergency_energy": 211260.02613710007,
+        "spill_energy": 2339734.2658450813,
+        "projection_count": 1101.0
+      },
+      "cross_saving_yuan": 333634.9576711673,
+      "feedback_saving_yuan": 595925.8354583457,
+      "paired_vs_daily_greedy": {
+        "cumulative_yuan": 429585.42464456125,
+        "mean_yuan": 1286.183906121441,
+        "positive_days": 241,
+        "negative_days": 93,
+        "zero_days": 0,
+        "lag1_correlation": -0.08346317512890943,
+        "bootstrap": {
+          "3": {
+            "mean_95_percentile_yuan": [
+              1108.96485276656,
+              1465.7669428772454
+            ],
+            "cumulative_95_percentile_yuan": [
+              370394.260824031,
+              489566.15892099997
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609113,
+              3
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          },
+          "7": {
+            "mean_95_percentile_yuan": [
+              1078.8686753974534,
+              1476.2751930407746
+            ],
+            "cumulative_95_percentile_yuan": [
+              360342.1375827495,
+              493075.91447561875
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609113,
+              7
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          },
+          "14": {
+            "mean_95_percentile_yuan": [
+              1050.5742219699164,
+              1518.4234835581533
+            ],
+            "cumulative_95_percentile_yuan": [
+              350891.7901379521,
+              507153.4435084232
+            ],
+            "replicates": 10000,
+            "seed_sequence": [
+              202609113,
+              14
+            ],
+            "method": "overlapping noncircular moving blocks, concatenate then truncate to 334"
+          }
+        },
+        "monthly_yuan": {
+          "2025-02": 33550.524825445726,
+          "2025-03": 24728.369817858875,
+          "2025-04": 23267.89839514538,
+          "2025-05": 33361.325564619285,
+          "2025-06": 49718.48617937316,
+          "2025-07": 57586.99211411387,
+          "2025-08": 60882.84339004661,
+          "2025-09": 45958.85092820298,
+          "2025-10": 31099.11703622195,
+          "2025-11": 36116.23373303868,
+          "2025-12": 33314.78266049472
+        },
+        "positive_months": 11
+      },
+      "perfect_information_cost_yuan": 12783021.73868496,
+      "optimistic_distance_percent": 11.492284975691389
+    }
+  },
+  "ablation": {
+    "0only": {
+      "class": "C",
+      "full_fixed_totals": {
+        "planned_cost": 13341787.50227465,
+        "increase_cost": 191228.33162867057,
+        "reduction_net_cost": -68923.51005685178,
+        "emergency_cost": 314599.11151365953,
+        "total_cost": 13778691.435360126,
+        "emergency_energy": 73820.76457842757,
+        "spill_energy": 2391572.102219262,
+        "projection_count": 0.0
+      },
+      "extra_cost_yuan": 316849.0844122581,
+      "validation": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0
+      }
+    },
+    "without6": {
+      "class": "C",
+      "full_fixed_totals": {
+        "planned_cost": 13340854.475185633,
+        "increase_cost": 230446.83076733776,
+        "reduction_net_cost": -233670.36581922282,
+        "emergency_cost": 196165.5645636387,
+        "total_cost": 13533796.504697384,
+        "emergency_energy": 43020.400388564594,
+        "spill_energy": 1933307.11152264,
+        "projection_count": 0.0
+      },
+      "extra_cost_yuan": 71954.15374951623,
+      "validation": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0
+      }
+    },
+    "without12": {
+      "class": "C",
+      "full_fixed_totals": {
+        "planned_cost": 13341696.416093502,
+        "increase_cost": 338179.7747703976,
+        "reduction_net_cost": -251372.776738212,
+        "emergency_cost": 212618.51524019544,
+        "total_cost": 13641121.929365885,
+        "emergency_energy": 47518.31257141922,
+        "spill_energy": 1982261.3489638702,
+        "projection_count": 0.0
+      },
+      "extra_cost_yuan": 179279.57841801643,
+      "validation": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0
+      }
+    },
+    "without18": {
+      "class": "C",
+      "full_fixed_totals": {
+        "planned_cost": 13341109.28973692,
+        "increase_cost": 252051.38573139108,
+        "reduction_net_cost": -305607.9117042123,
+        "emergency_cost": 175247.219833318,
+        "total_cost": 13462799.983597416,
+        "emergency_energy": 37961.34515708401,
+        "spill_energy": 1739376.359000917,
+        "projection_count": 0.0
+      },
+      "extra_cost_yuan": 957.6326495483518,
+      "validation": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0
+      }
+    }
+  },
+  "development": {
+    "q2": {
+      "costs_yuan": {
+        "cross_baseline": 349411.02343649167,
+        "affine_mpc": 361685.60275596584,
+        "markov_mpc": 347089.6285341512,
+        "sddp_mpc": 361692.3341584984,
+        "sddp_markov": 347089.6285226554
+      },
+      "selected": "markov_mpc",
+      "retrospective_terminal_consistency_check": true
+    },
+    "q3": {
+      "costs_yuan": {
+        "cross_baseline": 348277.53206133255,
+        "affine_mpc": 352670.7845393938,
+        "markov_mpc": 341917.12227747927,
+        "sddp_mpc": 352665.3597771503,
+        "sddp_markov": 341942.3422101174
+      },
+      "selected": "markov_mpc",
+      "retrospective_terminal_consistency_check": true
+    },
+    "q4_2": {
+      "costs_yuan": {
+        "cross_baseline": 387150.6727209208,
+        "affine_mpc": 402363.19528091577,
+        "markov_mpc": 386128.80034346593,
+        "sddp_mpc": 402313.4920041096,
+        "sddp_markov": 386128.760518125
+      },
+      "selected": "markov_mpc",
+      "retrospective_terminal_consistency_check": true
+    },
+    "q4_3": {
+      "costs_yuan": {
+        "cross_baseline": 387623.50819957844,
+        "affine_mpc": 392636.0316495033,
+        "markov_mpc": 380647.0446500028,
+        "sddp_mpc": 392636.03164950316,
+        "sddp_markov": 380647.04465000273
+      },
+      "selected": "markov_mpc",
+      "retrospective_terminal_consistency_check": true
+    }
+  },
+  "sensitivity": {
+    "reference": {
+      "source": "artifacts/experiments/reference.json",
+      "configuration": {
+        "count": 7,
+        "horizon_days": 2,
+        "tail_scale": 1.0,
+        "grid": 321,
+        "final": null,
+        "closed_daily": false,
+        "start_day": 72,
+        "end_day": 78
+      },
+      "totals": {
+        "planned_cost": 241968.37771637147,
+        "increase_cost": 7234.468163782732,
+        "reduction_net_cost": -6272.40388977934,
+        "emergency_cost": 72.46166198384832,
+        "total_cost": 243002.9036523587,
+        "emergency_energy": 15.577015293772316,
+        "spill_energy": 26791.77377583466,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.000000000003,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 1.48929757415317e-11,
+        "lp_objective_recompute_gap": 2.6193447411060333e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      }
+    },
+    "grid161": {
+      "source": "artifacts/experiments/grid161.json",
+      "configuration": {
+        "count": 7,
+        "horizon_days": 2,
+        "tail_scale": 1.0,
+        "grid": 161,
+        "final": null,
+        "closed_daily": false,
+        "start_day": 72,
+        "end_day": 78
+      },
+      "totals": {
+        "planned_cost": 241968.37771637147,
+        "increase_cost": 7234.468163782732,
+        "reduction_net_cost": -6283.136035343642,
+        "emergency_cost": 69.0997069838549,
+        "total_cost": 242988.8095517944,
+        "emergency_energy": 14.795165293773564,
+        "spill_energy": 26738.630954334443,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.000000000003,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 1.48929757415317e-11,
+        "lp_objective_recompute_gap": 2.6193447411060333e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      }
+    },
+    "grid641": {
+      "source": "artifacts/experiments/grid641.json",
+      "configuration": {
+        "count": 7,
+        "horizon_days": 2,
+        "tail_scale": 1.0,
+        "grid": 641,
+        "final": null,
+        "closed_daily": false,
+        "start_day": 72,
+        "end_day": 78
+      },
+      "totals": {
+        "planned_cost": 241968.37771637147,
+        "increase_cost": 7234.468163782732,
+        "reduction_net_cost": -6246.369723112674,
+        "emergency_cost": 72.46166198384547,
+        "total_cost": 243028.93781902536,
+        "emergency_energy": 15.577015293771936,
+        "spill_energy": 26879.092176673697,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.000000000003,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 1.48929757415317e-11,
+        "lp_objective_recompute_gap": 2.6193447411060333e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      }
+    },
+    "scenarios14": {
+      "source": "artifacts/experiments/scenarios14.json",
+      "configuration": {
+        "count": 14,
+        "horizon_days": 2,
+        "tail_scale": 1.0,
+        "grid": 321,
+        "final": null,
+        "closed_daily": false,
+        "start_day": 72,
+        "end_day": 78
+      },
+      "totals": {
+        "planned_cost": 245523.5958725701,
+        "increase_cost": 3406.223552738899,
+        "reduction_net_cost": -6520.385890060964,
+        "emergency_cost": 382.99986145293485,
+        "total_cost": 242792.43339670094,
+        "emergency_energy": 78.20315946349203,
+        "spill_energy": 26981.054281185243,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.000000000003,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 6.245670647331281e-12,
+        "lp_objective_recompute_gap": 2.3283064365386963e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      }
+    },
+    "horizon3": {
+      "source": "artifacts/experiments/horizon3.json",
+      "configuration": {
+        "count": 7,
+        "horizon_days": 3,
+        "tail_scale": 1.0,
+        "grid": 321,
+        "final": null,
+        "closed_daily": false,
+        "start_day": 72,
+        "end_day": 78
+      },
+      "totals": {
+        "planned_cost": 241687.86747972522,
+        "increase_cost": 4592.157060046821,
+        "reduction_net_cost": -5442.61661581973,
+        "emergency_cost": 7.461180000419768,
+        "total_cost": 240844.86910395272,
+        "emergency_energy": 1.640000000120376,
+        "spill_energy": 26629.457921839577,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.000000000003,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 7.844391802791506e-12,
+        "lp_objective_recompute_gap": 3.346940502524376e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      }
+    },
+    "tail_zero": {
+      "source": "artifacts/experiments/tail_zero.json",
+      "configuration": {
+        "count": 7,
+        "horizon_days": 2,
+        "tail_scale": 0.0,
+        "grid": 321,
+        "final": null,
+        "closed_daily": false,
+        "start_day": 72,
+        "end_day": 78
+      },
+      "totals": {
+        "planned_cost": 241968.3772990481,
+        "increase_cost": 7234.4681637827125,
+        "reduction_net_cost": -6272.40388977935,
+        "emergency_cost": 72.46166198383025,
+        "total_cost": 243002.90323503528,
+        "emergency_energy": 15.577015293767683,
+        "spill_energy": 26791.773775834627,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.000000000001,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 1.48929757415317e-11,
+        "lp_objective_recompute_gap": 2.3283064365386963e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      }
+    },
+    "tail_double": {
+      "source": "artifacts/experiments/tail_double.json",
+      "configuration": {
+        "count": 7,
+        "horizon_days": 2,
+        "tail_scale": 2.0,
+        "grid": 321,
+        "final": null,
+        "closed_daily": false,
+        "start_day": 72,
+        "end_day": 78
+      },
+      "totals": {
+        "planned_cost": 241966.12098980256,
+        "increase_cost": 7234.467549609439,
+        "reduction_net_cost": -6263.949284670015,
+        "emergency_cost": 72.46166198382875,
+        "total_cost": 243009.1009167258,
+        "emergency_energy": 15.5770152937698,
+        "spill_energy": 26828.563633957252,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.000000000003,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 1.48929757415317e-11,
+        "lp_objective_recompute_gap": 2.9103830456733704e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      }
+    },
+    "stress_load_up_pv_down": {
+      "source": "artifacts/experiments/stress_load_up_pv_down.json",
+      "configuration": {
+        "count": 7,
+        "horizon_days": 2,
+        "tail_scale": 1.0,
+        "grid": 321,
+        "final": null,
+        "closed_daily": false,
+        "start_day": 72,
+        "end_day": 78
+      },
+      "totals": {
+        "planned_cost": 256708.96442147775,
+        "increase_cost": 53448.25435775905,
+        "reduction_net_cost": -409.25122533575177,
+        "emergency_cost": 219031.62262466043,
+        "total_cost": 528779.5901785615,
+        "emergency_energy": 55554.374998439605,
+        "spill_energy": 3338.8629680449767,
+        "projection_count": 0.0
+      },
+      "validation": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10435.120169682636,
+        "power_max_kw": 5000.000000000001,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 1.3244516594568267e-11,
+        "lp_objective_recompute_gap": 2.0372681319713593e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 1200.0,
+        "negative_energy_violation": 0.0
+      }
+    }
+  },
+  "q1": {
+    "expected_cost": 35126.948589289634,
+    "lp_objective": 35126.94858928964,
+    "eq_residual": 9.094947017729282e-13,
+    "ineq_violation": 1.1368683772161603e-13,
+    "duality_gap": 7.275957614183426e-12
+  },
+  "warmup": {
+    "policy": "Zero planned purchase and no battery operation; current shortages covered by emergency purchase.",
+    "initial_energy": 6000.0,
+    "february_initial_energy": 6000.0,
+    "days": 31,
+    "fixed_price_cost": 9456363.67146881,
+    "variable_price_cost": 10641987.876804242,
+    "note": "Same causal initialization for every candidate. January cost reported separately; no inventory transfer benefit hidden."
+  },
+  "gain_diagnostic": {
+    "q2": {
+      "kind": "q2",
+      "scope": "all 1336 planning LPs on saved fixed-terminal main trajectory",
+      "gain_entries": 40008,
+      "near_bound_entries": 20010,
+      "max_contract_replay_error": 0.0,
+      "near_bound_fraction": 0.5001499700059988
+    },
+    "q3": {
+      "kind": "q3",
+      "scope": "all 1336 planning LPs on saved fixed-terminal main trajectory",
+      "gain_entries": 40008,
+      "near_bound_entries": 8009,
+      "max_contract_replay_error": 3.516768988930067e-14,
+      "near_bound_fraction": 0.20018496300739852
+    },
+    "q4_2": {
+      "kind": "q4_2",
+      "scope": "all 1336 planning LPs on saved fixed-terminal main trajectory",
+      "gain_entries": 40008,
+      "near_bound_entries": 20010,
+      "max_contract_replay_error": 0.0,
+      "near_bound_fraction": 0.5001499700059988
+    },
+    "q4_3": {
+      "kind": "q4_3",
+      "scope": "all 1336 planning LPs on saved fixed-terminal main trajectory",
+      "gain_entries": 40008,
+      "near_bound_entries": 8009,
+      "max_contract_replay_error": 8.036708166341909e-14,
+      "near_bound_fraction": 0.20018496300739852
+    }
+  },
+  "gain_scope_note": "All bounded gain variables, including structurally unused or degenerate columns. Boundary frequency is not effective feedback saturation.",
+  "provenance": {
+    "C题_跨日随机控制/artifacts/global-terminal/q2_affine_mpc.npz": "dd4402fc64ebb728fa0e45a632ee383da0bda6a7ad59fb82390956b6afe96773",
+    "C题_跨日随机控制/artifacts/global-terminal/q4_2_affine_mpc.npz": "b92e5a5d09f0e3e0b1ef58493d504720f4983cbf47de688ceddbd699f46716f7",
+    "C题_跨日随机控制/artifacts/global-terminal/q4_3_affine_mpc.npz": "f3ed5b75dfa0aa64cd7dd91eb5d9e429d3e0ccf606d2a61f1067dff870139550",
+    "C题_跨日随机控制/artifacts/global-terminal/q3_affine_mpc.npz": "d4f30646dbdeeed78b65aa13b2dcbb7f20dc64f815791693d97c9d16665dcf96",
+    "C题_跨日随机控制/artifacts/global-terminal/q4_3_markov_mpc.npz": "d9d2ae9736751c534f11322d834f42987bd35d2e8b24d1a402276a8e2508a205",
+    "C题_跨日随机控制/artifacts/global-terminal/q3_markov_mpc.npz": "5d3083a543e143623dde5f964f302b693ca378218d7c88bc34ebd8633161723f",
+    "C题_跨日随机控制/artifacts/global-terminal/q2_markov_mpc.npz": "8b4df5f97f7d0cd887a0c690eb8c2f93980f9fb9f24be105369514ebc6fb9ff6",
+    "C题_跨日随机控制/artifacts/global-terminal/q4_2_markov_mpc.npz": "44a073ea8b20935f6221eabad299fca56c2f7a5c76e79889d662b33005fc4461",
+    "C题_证据完整修订/reference/artifacts/ablation_fixed/q3_without18.npz": "24029d0f85745c4d2f84b8962e53420262461b173a090f2dc6d67b003628bcce",
+    "C题_证据完整修订/reference/artifacts/ablation_fixed/q3_without6.npz": "c6bec3c73d0516e3518ad07f79177e3de824852c2141cf7c4d938c5fe9afd2a9",
+    "C题_证据完整修订/reference/artifacts/ablation_fixed/q3_0only.npz": "b1d465b5dd8444ef3fb91ea9b78d7fd387ee307ea53492da525bf4b0ad86b7d9",
+    "C题_证据完整修订/reference/artifacts/ablation_fixed/q3_without12.npz": "b3466a0f3a9ecf97c4d1857a89c1b9d1b3b408c8201b789d8f3ef14a19479afe"
+  }
+}

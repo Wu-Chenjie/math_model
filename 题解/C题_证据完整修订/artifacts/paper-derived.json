@@ -1,0 +1,44 @@
+{
+  "bootstrap": {
+    "seed": 20260911,
+    "replicates": 10000,
+    "method": "non-circular moving blocks, length 7, sampled to 334 days",
+    "comparison": "free terminal main vs daily closed baseline",
+    "results": [
+      {
+        "setting": "q2",
+        "mean": 1018.787858202784,
+        "low": 827.3580638997016,
+        "high": 1215.5542178899693,
+        "days": 334
+      },
+      {
+        "setting": "q3",
+        "mean": 1104.3266192311644,
+        "low": 931.3547954254773,
+        "high": 1253.3107802093807,
+        "days": 334
+      },
+      {
+        "setting": "q4_2",
+        "mean": 1073.2756175713548,
+        "low": 881.6401806925181,
+        "high": 1252.110504234551,
+        "days": 334
+      },
+      {
+        "setting": "q4_3",
+        "mean": 1294.329206295545,
+        "low": 1077.2798217946806,
+        "high": 1485.6393591204946,
+        "days": 334
+      }
+    ]
+  },
+  "q3_cost_deltas": {
+    "planned_cost": -371401.0351294335,
+    "increase_cost": -2006.608230477519,
+    "reduction_net_cost": -13525.575443174283,
+    "emergency_cost": 18088.12797987598
+  }
+}

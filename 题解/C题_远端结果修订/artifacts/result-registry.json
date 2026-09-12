@@ -1,0 +1,2265 @@
+{
+  "status": "limited",
+  "results": [
+    {
+      "id": "annual.q2.old",
+      "value": 13844170.061859,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q2/old",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q2.new",
+      "value": 13817945.063203,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q2/new",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q2.difference",
+      "value": 26224.998656000942,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q2/difference",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q2.percent",
+      "value": 0.1894299083211308,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q2/percent",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q3.old",
+      "value": 13461842.350948,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q3/old",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q3.new",
+      "value": 13352415.05,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q3/new",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q3.difference",
+      "value": 109427.30094799958,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q3/difference",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q3.percent",
+      "value": 0.8128701710750131,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q3/percent",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q4_2.old",
+      "value": 14654611.381239,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q4_2/old",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q4_2.new",
+      "value": 14592399.02,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q4_2/new",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q4_2.difference",
+      "value": 62212.361239001155,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q4_2/difference",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q4_2.percent",
+      "value": 0.4245241284163026,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q4_2/percent",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q4_3.old",
+      "value": 14252083.025399,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q4_3/old",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q4_3.new",
+      "value": 14117278.06,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q4_3/new",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q4_3.difference",
+      "value": 134804.96539899893,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q4_3/difference",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "annual.q4_3.percent",
+      "value": 0.9458614937813622,
+      "source_artifact": "artifacts/annual-comparison.json",
+      "source_path": "/q4_3/percent",
+      "status": "verified",
+      "evidence_level": "verified_transcription_of_remote_report",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.expected_cost",
+      "value": 35126.948589289634,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/expected_cost",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.lp_objective",
+      "value": 35126.94858928964,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/lp_objective",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.eq_residual",
+      "value": 9.094947017729282e-13,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/eq_residual",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.ineq_violation",
+      "value": 1.1368683772161603e-13,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/ineq_violation",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.duality_gap",
+      "value": 7.275957614183426e-12,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/duality_gap",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.buy_kwh",
+      "value": 59482.698998353924,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/buy_kwh",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.charge_kwh",
+      "value": 20740.66613168725,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/charge_kwh",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.discharge_kwh",
+      "value": 16799.939566666668,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/discharge_kwh",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.specified_buy_kwh.0",
+      "value": 0.0,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/specified_buy_kwh/0",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.specified_buy_kwh.1",
+      "value": 480.41245,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/specified_buy_kwh/1",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.specified_buy_kwh.2",
+      "value": 0.0,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/specified_buy_kwh/2",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.specified_buy_kwh.3",
+      "value": 445.43165000000005,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/specified_buy_kwh/3",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.specified_buy_kwh.4",
+      "value": 531.8940499999999,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/specified_buy_kwh/4",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.specified_buy_kwh.5",
+      "value": 0.0,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/specified_buy_kwh/5",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.charge_4h_kwh.0",
+      "value": 4500.0,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/charge_4h_kwh/0",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.charge_4h_kwh.1",
+      "value": 833.3333333333334,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/charge_4h_kwh/1",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.charge_4h_kwh.2",
+      "value": 4787.964288065849,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/charge_4h_kwh/2",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.charge_4h_kwh.3",
+      "value": 5286.035176954732,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/charge_4h_kwh/3",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.charge_4h_kwh.4",
+      "value": 0.0,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/charge_4h_kwh/4",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.charge_4h_kwh.5",
+      "value": 5333.333333333334,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/charge_4h_kwh/5",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.discharge_4h_kwh.0",
+      "value": 0.0,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/discharge_4h_kwh/0",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.discharge_4h_kwh.1",
+      "value": 6365.8412,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/discharge_4h_kwh/1",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.discharge_4h_kwh.2",
+      "value": 1702.9969833333334,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/discharge_4h_kwh/2",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.discharge_4h_kwh.3",
+      "value": 91.10138333333347,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/discharge_4h_kwh/3",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.discharge_4h_kwh.4",
+      "value": 5780.1318833333335,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/discharge_4h_kwh/4",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.discharge_4h_kwh.5",
+      "value": 2859.868116666667,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/discharge_4h_kwh/5",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.initial_kwh",
+      "value": 6000.0,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/initial_kwh",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q1.terminal_kwh",
+      "value": 6000.000000000006,
+      "source_artifact": "artifacts/q1-evidence.json",
+      "source_path": "/terminal_kwh",
+      "status": "verified",
+      "evidence_level": "existing_verified_deterministic_result",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.new_total",
+      "value": 13817945.063203087,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/new_total",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.old_total",
+      "value": 13844170.061859095,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/old_total",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.saving",
+      "value": 26224.998656007854,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/saving",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.mean_saving",
+      "value": 78.5179600479277,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/mean_saving",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.new_parts.planned_cost",
+      "value": 13197422.827546481,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/new_parts/planned_cost",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.new_parts.adjustment_cost",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/new_parts/adjustment_cost",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.new_parts.emergency_cost",
+      "value": 620522.2356566049,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/new_parts/emergency_cost",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.old_parts.planned_cost",
+      "value": 13197126.215670995,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/old_parts/planned_cost",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.old_parts.adjustment_cost",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/old_parts/adjustment_cost",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.old_parts.emergency_cost",
+      "value": 647043.8461881,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/old_parts/emergency_cost",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.validation.balance_max",
+      "value": 2.2737367544323206e-13,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/validation/balance_max",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.validation.state_residual",
+      "value": 1.1368683772161603e-13,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/validation/state_residual",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.validation.midnight_jump",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/validation/midnight_jump",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.validation.soc_min",
+      "value": 1200.0,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/validation/soc_min",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.validation.soc_max",
+      "value": 10800.0,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/validation/soc_max",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.validation.power_max_kw",
+      "value": 5000.0000000000055,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/validation/power_max_kw",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.validation.simultaneous_kwh",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/validation/simultaneous_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.validation.initial",
+      "value": 6000.0,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/validation/initial",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.validation.final",
+      "value": 6000.0,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/validation/final",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.positive_days",
+      "value": 156,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/positive_days",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.negative_days",
+      "value": 177,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/negative_days",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.tie_days",
+      "value": 1,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/tie_days",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.positive_months",
+      "value": 5,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/positive_months",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.monthly.2025-02",
+      "value": -457.96627169444037,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/monthly/2025-02",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.monthly.2025-03",
+      "value": -4272.524860074409,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/monthly/2025-03",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.monthly.2025-04",
+      "value": 6273.393070545517,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/monthly/2025-04",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.monthly.2025-05",
+      "value": 1006.6981016729387,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/monthly/2025-05",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.monthly.2025-06",
+      "value": 139.7513075129973,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/monthly/2025-06",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.monthly.2025-07",
+      "value": 31208.27509903069,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/monthly/2025-07",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.monthly.2025-08",
+      "value": -2389.5165144922576,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/monthly/2025-08",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.monthly.2025-09",
+      "value": -3903.7793945346275,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/monthly/2025-09",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.monthly.2025-10",
+      "value": -2997.2978074946914,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/monthly/2025-10",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.monthly.2025-11",
+      "value": 4479.70371121963,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/monthly/2025-11",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.monthly.2025-12",
+      "value": -2861.7377856834864,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/monthly/2025-12",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.3.mean_ci95.0",
+      "value": -122.81143368221798,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/3/mean_ci95/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.3.mean_ci95.1",
+      "value": 295.6432557646391,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/3/mean_ci95/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.3.total_ci95.0",
+      "value": -41019.018849860804,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/3/total_ci95/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.3.total_ci95.1",
+      "value": 98744.84742538945,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/3/total_ci95/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.7.mean_ci95.0",
+      "value": -101.1414870604753,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/7/mean_ci95/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.7.mean_ci95.1",
+      "value": 288.43619461028766,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/7/mean_ci95/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.7.total_ci95.0",
+      "value": -33781.25667819875,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/7/total_ci95/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.7.total_ci95.1",
+      "value": 96337.68899983607,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/7/total_ci95/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.14.mean_ci95.0",
+      "value": -74.1442621059468,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/14/mean_ci95/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.14.mean_ci95.1",
+      "value": 285.4157211887118,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/14/mean_ci95/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.14.total_ci95.0",
+      "value": -24764.18354338623,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/14/total_ci95/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap.14.total_ci95.1",
+      "value": 95328.85087702975,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap/14/total_ci95/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap_seed",
+      "value": 20260912,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap_seed",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2.bootstrap_repetitions",
+      "value": 10000,
+      "source_artifact": "artifacts/q2-new-analysis.json",
+      "source_path": "/bootstrap_repetitions",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.buy.0",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/buy/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.buy.1",
+      "value": 570.0660017831207,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/buy/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.buy.2",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/buy/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.buy.3",
+      "value": 510.45874576527694,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/buy/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.buy.4",
+      "value": 697.514578532877,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/buy/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.buy.5",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/buy/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.daily_contract",
+      "value": 62542.206831666896,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/daily_contract",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.daily_cost",
+      "value": 39136.97603485569,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/daily_cost",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.charge_4h.0",
+      "value": 1789.6714756856209,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/charge_4h/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.charge_4h.1",
+      "value": 1231.5024164308973,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/charge_4h/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.charge_4h.2",
+      "value": 5461.699345338351,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/charge_4h/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.charge_4h.3",
+      "value": 5082.702924942959,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/charge_4h/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.charge_4h.4",
+      "value": 246.21522535944473,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/charge_4h/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.charge_4h.5",
+      "value": 3362.586879894046,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/charge_4h/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.discharge_4h.0",
+      "value": 136.83023053534052,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/discharge_4h/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.discharge_4h.1",
+      "value": 5482.331295712406,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/discharge_4h/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.discharge_4h.2",
+      "value": 2777.3772166666668,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/discharge_4h/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.discharge_4h.3",
+      "value": 531.4591507749776,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/discharge_4h/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.discharge_4h.4",
+      "value": 5484.523727489438,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/discharge_4h/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.discharge_4h.5",
+      "value": 3042.0938077601377,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/discharge_4h/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.initial",
+      "value": 8340.46894596908,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/initial",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.end",
+      "value": 4403.392243589749,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/end",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-03-20.emergency_kwh",
+      "value": 33.829476862604785,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-03-20/emergency_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.buy.0",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/buy/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.buy.1",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/buy/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.buy.2",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/buy/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.buy.3",
+      "value": 258.65427487979923,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/buy/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.buy.4",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/buy/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.buy.5",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/buy/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.daily_contract",
+      "value": 41479.70630330186,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/daily_contract",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.daily_cost",
+      "value": 23549.686351521403,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/daily_cost",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.charge_4h.0",
+      "value": 559.1648565626247,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/charge_4h/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.charge_4h.1",
+      "value": 805.9519104145247,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/charge_4h/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.charge_4h.2",
+      "value": 5673.765858899452,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/charge_4h/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.charge_4h.3",
+      "value": 4000.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/charge_4h/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.charge_4h.4",
+      "value": 217.53276365356822,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/charge_4h/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.charge_4h.5",
+      "value": 7927.927760637774,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/charge_4h/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.discharge_4h.0",
+      "value": 256.6958697107125,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/discharge_4h/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.discharge_4h.1",
+      "value": 1809.8284694687961,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/discharge_4h/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.discharge_4h.2",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/discharge_4h/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.discharge_4h.3",
+      "value": 567.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/discharge_4h/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.discharge_4h.4",
+      "value": 5157.720566666667,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/discharge_4h/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.discharge_4h.5",
+      "value": 2633.4545031946236,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/discharge_4h/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.initial",
+      "value": 3761.143791354957,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/initial",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.end",
+      "value": 9444.053283127441,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/end",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-06-21.emergency_kwh",
+      "value": 5.9614535530272406e-12,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-06-21/emergency_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.buy.0",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/buy/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.buy.1",
+      "value": 155.19301891309934,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/buy/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.buy.2",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/buy/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.buy.3",
+      "value": 485.35097343430976,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/buy/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.buy.4",
+      "value": 733.2738996530978,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/buy/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.buy.5",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/buy/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.daily_contract",
+      "value": 67544.31918315265,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/daily_contract",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.daily_cost",
+      "value": 43248.325325797865,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/daily_cost",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.charge_4h.0",
+      "value": 2074.826761671413,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/charge_4h/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.charge_4h.1",
+      "value": 1052.1974825831307,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/charge_4h/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.charge_4h.2",
+      "value": 5121.419276721896,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/charge_4h/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.charge_4h.3",
+      "value": 3800.9764809712337,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/charge_4h/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.charge_4h.4",
+      "value": 310.84610251994997,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/charge_4h/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.charge_4h.5",
+      "value": 7906.1294599007015,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/charge_4h/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.discharge_4h.0",
+      "value": 17.46408333333311,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/discharge_4h/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.discharge_4h.1",
+      "value": 5666.492464883322,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/discharge_4h/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.discharge_4h.2",
+      "value": 1896.6157166666671,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/discharge_4h/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.discharge_4h.3",
+      "value": 671.6687997519979,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/discharge_4h/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.discharge_4h.4",
+      "value": 5793.591500815002,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/discharge_4h/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.discharge_4h.5",
+      "value": 2517.181175048177,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/discharge_4h/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.initial",
+      "value": 8417.816677156887,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/initial",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.end",
+      "value": 8254.224084534491,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/end",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-09-23.emergency_kwh",
+      "value": 70.56414445214017,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-09-23/emergency_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.buy.0",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/buy/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.buy.1",
+      "value": 919.9869666666664,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/buy/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.buy.2",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/buy/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.buy.3",
+      "value": 810.9005546735597,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/buy/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.buy.4",
+      "value": 704.0656391111296,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/buy/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.buy.5",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/buy/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.daily_contract",
+      "value": 97471.34068299904,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/daily_contract",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.daily_cost",
+      "value": 63036.509153105166,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/daily_cost",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.charge_4h.0",
+      "value": 2259.092594717164,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/charge_4h/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.charge_4h.1",
+      "value": 2178.130941189518,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/charge_4h/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.charge_4h.2",
+      "value": 5422.057871300259,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/charge_4h/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.charge_4h.3",
+      "value": 7282.847431243329,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/charge_4h/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.charge_4h.4",
+      "value": 7.909758965314621,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/charge_4h/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.charge_4h.5",
+      "value": 7883.89477594239,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/charge_4h/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.discharge_4h.0",
+      "value": 92.52704485042796,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/discharge_4h/0",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.discharge_4h.1",
+      "value": 1925.872847458094,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/discharge_4h/1",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.discharge_4h.2",
+      "value": 6716.568949822213,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/discharge_4h/2",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.discharge_4h.3",
+      "value": 2754.0,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/discharge_4h/3",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.discharge_4h.4",
+      "value": 5721.117773531337,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/discharge_4h/4",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.discharge_4h.5",
+      "value": 2873.492930236274,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/discharge_4h/5",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.initial",
+      "value": 8137.604981095571,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/initial",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.end",
+      "value": 8353.056632786256,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/end",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_specified.2025-12-21.emergency_kwh",
+      "value": 1.5376144801848568e-11,
+      "source_artifact": "artifacts/q2-specified.json",
+      "source_path": "/2025-12-21/emergency_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.positive_tolerance_kwh",
+      "value": 1e-06,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/positive_tolerance_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.intervals.0.start_slot",
+      "value": 96,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/intervals/0/start_slot",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.intervals.0.end_slot_exclusive",
+      "value": 98,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/intervals/0/end_slot_exclusive",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.intervals.0.energy_kwh",
+      "value": 23.806454577871932,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/intervals/0/energy_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.intervals.1.start_slot",
+      "value": 99,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/intervals/1/start_slot",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.intervals.1.end_slot_exclusive",
+      "value": 100,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/intervals/1/end_slot_exclusive",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.intervals.1.energy_kwh",
+      "value": 8.558886297960498,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/intervals/1/energy_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.intervals.2.start_slot",
+      "value": 103,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/intervals/2/start_slot",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.intervals.2.end_slot_exclusive",
+      "value": 104,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/intervals/2/end_slot_exclusive",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.intervals.2.energy_kwh",
+      "value": 1.4641359867572419,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/intervals/2/energy_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.daily_total_kwh",
+      "value": 33.829476862604785,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/daily_total_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.merged_interval_total_kwh",
+      "value": 33.82947686258967,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/merged_interval_total_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-03-20.subthreshold_residual_kwh",
+      "value": 1.511324398961733e-11,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-03-20/subthreshold_residual_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-06-21.daily_total_kwh",
+      "value": 5.9614535530272406e-12,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-06-21/daily_total_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-06-21.merged_interval_total_kwh",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-06-21/merged_interval_total_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-06-21.subthreshold_residual_kwh",
+      "value": 5.9614535530272406e-12,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-06-21/subthreshold_residual_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-09-23.intervals.0.start_slot",
+      "value": 123,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-09-23/intervals/0/start_slot",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-09-23.intervals.0.end_slot_exclusive",
+      "value": 124,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-09-23/intervals/0/end_slot_exclusive",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-09-23.intervals.0.energy_kwh",
+      "value": 6.443917556766792,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-09-23/intervals/0/energy_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-09-23.intervals.1.start_slot",
+      "value": 125,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-09-23/intervals/1/start_slot",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-09-23.intervals.1.end_slot_exclusive",
+      "value": 127,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-09-23/intervals/1/end_slot_exclusive",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-09-23.intervals.1.energy_kwh",
+      "value": 64.12022689535286,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-09-23/intervals/1/energy_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-09-23.daily_total_kwh",
+      "value": 70.56414445214017,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-09-23/daily_total_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-09-23.merged_interval_total_kwh",
+      "value": 70.56414445211965,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-09-23/merged_interval_total_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-09-23.subthreshold_residual_kwh",
+      "value": 2.0520474208751693e-11,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-09-23/subthreshold_residual_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-12-21.daily_total_kwh",
+      "value": 1.5376144801848568e-11,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-12-21/daily_total_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-12-21.merged_interval_total_kwh",
+      "value": 0.0,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-12-21/merged_interval_total_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "q2_emergency.dates.2025-12-21.subthreshold_residual_kwh",
+      "value": 1.5376144801848568e-11,
+      "source_artifact": "artifacts/q2-emergency.json",
+      "source_path": "/dates/2025-12-21/subthreshold_residual_kwh",
+      "status": "verified",
+      "evidence_level": "locally_recomputed",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.horizon_hours",
+      "value": 72,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/horizon_hours",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.window_days",
+      "value": 28,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/window_days",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.scenarios",
+      "value": 7,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/scenarios",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.alpha",
+      "value": 0.2,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/alpha",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.gain_bound",
+      "value": 10.0,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/gain_bound",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.grid",
+      "value": 321,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/grid",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.bins",
+      "value": 3,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/bins",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.tail_scale",
+      "value": 1.0,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/tail_scale",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.final_inventory_kwh",
+      "value": 6000.0,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/final_inventory_kwh",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.fusion_weight",
+      "value": 0.75,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/fusion_weight",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.official_correction",
+      "value": 0.0,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/official_correction",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.eta",
+      "value": 0.9,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/eta",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.capacity_kwh",
+      "value": 12000,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/capacity_kwh",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.minimum_kwh",
+      "value": 1200,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/minimum_kwh",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.maximum_kwh",
+      "value": 10800,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/maximum_kwh",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.power_kw",
+      "value": 5000,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/power_kw",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.slot_minutes",
+      "value": 10,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/slot_minutes",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.initial_kwh",
+      "value": 6000,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/initial_kwh",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.terminal_kwh",
+      "value": 6000,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/terminal_kwh",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.slots_per_day",
+      "value": 144,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/slots_per_day",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.evaluation_days",
+      "value": 334,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/evaluation_days",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.evaluation_slots",
+      "value": 48096,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/evaluation_slots",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.bootstrap_repetitions",
+      "value": 10000,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/bootstrap_repetitions",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.bootstrap_seed",
+      "value": 20260912,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/bootstrap_seed",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.pseudo_count_per_cell",
+      "value": 0.3333333333333333,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/pseudo_count_per_cell",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.terminal_penalty_coefficient",
+      "value": 1000,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/terminal_penalty_coefficient",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.tail_price_quantile",
+      "value": 0.25,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/tail_price_quantile",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.historical_weight",
+      "value": 0.25,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/historical_weight",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.price_floor",
+      "value": 0.001,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/price_floor",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.legacy_horizons_hours.0",
+      "value": 48,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/legacy_horizons_hours/0",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.legacy_horizons_hours.1",
+      "value": 42,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/legacy_horizons_hours/1",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.legacy_horizons_hours.2",
+      "value": 36,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/legacy_horizons_hours/2",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.legacy_horizons_hours.3",
+      "value": 30,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/legacy_horizons_hours/3",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.core_slots",
+      "value": 432,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/core_slots",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.replan_slots",
+      "value": 36,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/replan_slots",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.official_forecast_hours",
+      "value": 24,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/official_forecast_hours",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.interpolation_nodes",
+      "value": 25,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/interpolation_nodes",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.intraday_history_correction_shrinkage",
+      "value": 0.8,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/intraday_history_correction_shrinkage",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    },
+    {
+      "id": "configuration.roundtrip_efficiency",
+      "value": 0.81,
+      "source_artifact": "artifacts/paper-configuration.json",
+      "source_path": "/roundtrip_efficiency",
+      "status": "verified",
+      "evidence_level": "source_code_and_problem_parameters",
+      "verification_scope": "Value matches identified source; remote summary entries are reported claims, not local replay certification."
+    }
+  ],
+  "scope": "Q2 statistics independently recomputed; Q3 and Q4 reported totals transcribed and explicitly attributed."
+}

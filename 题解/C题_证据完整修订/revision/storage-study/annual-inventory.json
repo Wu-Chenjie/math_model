@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "evidence_role": "Show physical continuity across midnight and seasonal use of the same bounded battery; this is not an additional cost-saving experiment.",
+  "initialization": "January is a shared causal-greedy initialization, excluded from the formal February–December 334-day bill.",
+  "definitions": {
+    "heatmap": "Each cell represents a ten-minute interval (start,end] and displays its end inventory, rather than a point at its pixel center; kWh arrays and MWh axes.",
+    "envelope": "Daily minimum/maximum across 145 boundary states shown over the entire day as a post-step band; line connects 366 midnight inventories including 2026-01-01 00:00 true terminal.",
+    "boundary_hits": "Formal-period end states only, abs(E-bound)<=1e-6 kWh; count/48096 is sampled-endpoint frequency, not continuous time at a bound.",
+    "daily_range": "max minus min over 145 boundary states in each formal day.",
+    "midnight_change": "E[d,144]-E[d,0], signed daily change between midnight inventories.",
+    "formal_days": 334,
+    "formal_end_samples": 48096
+  },
+  "source_hashes": {
+    "revision/prediction-control/january-causal-greedy.npz": "8b700866e87d9781fe6f482b22c5c275c4fbeb526fc39f122e8e735d1371e40d",
+    "artifacts/data.npz": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+    "revision/base-artifacts/q2.npz": "8b4df5f97f7d0cd887a0c690eb8c2f93980f9fb9f24be105369514ebc6fb9ff6",
+    "revision/base-artifacts/q3.npz": "5d3083a543e143623dde5f964f302b693ca378218d7c88bc34ebd8633161723f",
+    "revision/base-artifacts/q4_2.npz": "44a073ea8b20935f6221eabad299fca56c2f7a5c76e79889d662b33005fc4461",
+    "revision/base-artifacts/q4_3.npz": "d9d2ae9736751c534f11322d834f42987bd35d2e8b24d1a402276a8e2508a205"
+  },
+  "january_validation": {
+    "balance_max_abs_kwh": 2.2737367544323206e-13,
+    "state_recurrence_max_abs_kwh": 1.1368683772161603e-13,
+    "midnight_jump_max_abs_kwh": 0.0,
+    "state_min_kwh": 1200.0,
+    "state_max_kwh": 10800.0,
+    "power_max_kw": 5000.0000000000055,
+    "simultaneous_charge_discharge_max_kwh": 0.0,
+    "negative_energy_violation_kwh": 0.0
+  },
+  "models": {
+    "q2": {
+      "full_year_validation": {
+        "balance_max_abs_kwh": 2.2737367544323206e-13,
+        "state_recurrence_max_abs_kwh": 1.1368683772161603e-13,
+        "midnight_jump_max_abs_kwh": 0.0,
+        "state_min_kwh": 1200.0,
+        "state_max_kwh": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_charge_discharge_max_kwh": 0.0,
+        "negative_energy_violation_kwh": 0.0
+      },
+      "january_to_february_jump_kwh": 0.0,
+      "year_initial_kwh": 6000.0,
+      "year_final_kwh": 6000.0,
+      "formal_lower_endpoint_hits": 1891,
+      "formal_upper_endpoint_hits": 4395,
+      "formal_lower_endpoint_fraction": 0.03931719893546241,
+      "formal_upper_endpoint_fraction": 0.09137974051896208,
+      "formal_daily_range_mean_kwh": 9211.031147439804,
+      "formal_daily_range_median_kwh": 9420.439550124507,
+      "formal_daily_range_max_kwh": 9600.0,
+      "formal_midnight_change_mean_abs_kwh": 1356.9057540392166,
+      "formal_midnight_change_max_abs_kwh": 7616.1584464997795,
+      "formal_midnight_change_sum_kwh": 2.7284841053187847e-12
+    },
+    "q3": {
+      "full_year_validation": {
+        "balance_max_abs_kwh": 2.2737367544323206e-13,
+        "state_recurrence_max_abs_kwh": 1.1368683772161603e-13,
+        "midnight_jump_max_abs_kwh": 0.0,
+        "state_min_kwh": 1200.0,
+        "state_max_kwh": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_charge_discharge_max_kwh": 0.0,
+        "negative_energy_violation_kwh": 0.0
+      },
+      "january_to_february_jump_kwh": 0.0,
+      "year_initial_kwh": 6000.0,
+      "year_final_kwh": 6000.0,
+      "formal_lower_endpoint_hits": 1858,
+      "formal_upper_endpoint_hits": 3894,
+      "formal_lower_endpoint_fraction": 0.03863107119095143,
+      "formal_upper_endpoint_fraction": 0.08096307385229541,
+      "formal_daily_range_mean_kwh": 9315.618223907806,
+      "formal_daily_range_median_kwh": 9426.716277604279,
+      "formal_daily_range_max_kwh": 9600.0,
+      "formal_midnight_change_mean_abs_kwh": 1376.4020135771632,
+      "formal_midnight_change_max_abs_kwh": 7191.7663811483935,
+      "formal_midnight_change_sum_kwh": 0.0
+    },
+    "q4_2": {
+      "full_year_validation": {
+        "balance_max_abs_kwh": 2.2737367544323206e-13,
+        "state_recurrence_max_abs_kwh": 1.1368683772161603e-13,
+        "midnight_jump_max_abs_kwh": 0.0,
+        "state_min_kwh": 1200.0,
+        "state_max_kwh": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_charge_discharge_max_kwh": 0.0,
+        "negative_energy_violation_kwh": 0.0
+      },
+      "january_to_february_jump_kwh": 0.0,
+      "year_initial_kwh": 6000.0,
+      "year_final_kwh": 6000.0,
+      "formal_lower_endpoint_hits": 1893,
+      "formal_upper_endpoint_hits": 4546,
+      "formal_lower_endpoint_fraction": 0.03935878243512974,
+      "formal_upper_endpoint_fraction": 0.09451929474384564,
+      "formal_daily_range_mean_kwh": 9197.32868315008,
+      "formal_daily_range_median_kwh": 9400.80614412469,
+      "formal_daily_range_max_kwh": 9600.0,
+      "formal_midnight_change_mean_abs_kwh": 2640.0589893099623,
+      "formal_midnight_change_max_abs_kwh": 7819.908118966258,
+      "formal_midnight_change_sum_kwh": -3.183231456205249e-12
+    },
+    "q4_3": {
+      "full_year_validation": {
+        "balance_max_abs_kwh": 2.2737367544323206e-13,
+        "state_recurrence_max_abs_kwh": 1.1368683772161603e-13,
+        "midnight_jump_max_abs_kwh": 0.0,
+        "state_min_kwh": 1200.0,
+        "state_max_kwh": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_charge_discharge_max_kwh": 0.0,
+        "negative_energy_violation_kwh": 0.0
+      },
+      "january_to_february_jump_kwh": 0.0,
+      "year_initial_kwh": 6000.0,
+      "year_final_kwh": 6000.0,
+      "formal_lower_endpoint_hits": 1940,
+      "formal_upper_endpoint_hits": 4185,
+      "formal_lower_endpoint_fraction": 0.04033599467731204,
+      "formal_upper_endpoint_fraction": 0.08701347305389222,
+      "formal_daily_range_mean_kwh": 9283.170786400238,
+      "formal_daily_range_median_kwh": 9400.557269706806,
+      "formal_daily_range_max_kwh": 9600.0,
+      "formal_midnight_change_mean_abs_kwh": 2554.770835538948,
+      "formal_midnight_change_max_abs_kwh": 7786.779915899556,
+      "formal_midnight_change_sum_kwh": -8.640199666842818e-12
+    }
+  },
+  "jan1_feb1_true_end_6000_passed": true
+}

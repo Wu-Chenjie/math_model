@@ -1,0 +1,234 @@
+{
+  "schema_version": 2,
+  "reviewer_id": "/root/reviewer4_code",
+  "independent": true,
+  "decision": "pass",
+  "scope": "Final storage-capacity and inventory code/manuscript/table/evidence binding; all12 capacity cash traces and all8 paired7day CIs independently recalculated read-only. Prior restored primary/xlsx review preserved in backup. Final style rebuild bindings refreshed; PDF visual QA excluded.",
+  "unresolved": [],
+  "resolved": [
+    {
+      "id": "R1",
+      "issue": "Free-terminal root artifacts could be confused with fixed-terminal primary evidence.",
+      "resolution": "README identifies revision/base-artifacts and adjacent fixed-terminal regeneration source."
+    },
+    {
+      "id": "R2",
+      "issue": "Main savings and intervals must use the same strong cross-day greedy baseline.",
+      "resolution": "Primary evidence matches independent same-endpoint three-block audit to max3.73e-9; all primary table labels and abstract use same baseline."
+    },
+    {
+      "id": "R3",
+      "issue": "Three reported remote fees lack complete local trajectories.",
+      "resolution": "Restored paper excludes these remote aggregate values and instead uses complete four-mechanism original evidence."
+    },
+    {
+      "id": "R4",
+      "issue": "72h/fusion diagnostic must not replace January-selected primary policy or overidentify boundary loss.",
+      "resolution": "Complete local fixed48/fixed72 bills are diagnostic; appendix says boundary approximation is not identified; January moment overlap and sample-vs-population distinction explicit."
+    },
+    {
+      "id": "R5",
+      "issue": "Single-directory package not self-contained.",
+      "resolution": "README explicitly retains neighboring model dependencies; new listed scripts no user absolute paths."
+    },
+    {
+      "id": "S1",
+      "issue": "Missing capacity evidence returned exit0 and builder could accept stale PASS.",
+      "resolution": "verify exits2 when incomplete; builder checks verifier/producer/source/input plus all12 trajectory and metadata hashes. Current hashes independently verified."
+    }
+  ],
+  "checks": {
+    "capacity_runs": 12,
+    "capacity_period_days": 334,
+    "independent_bill_max_abs_difference_yuan": 3.725290298461914e-09,
+    "bootstrap_pairs": 8,
+    "bootstrap_replicates_each": 10000,
+    "independent_ci_max_abs_difference_yuan_per_day": 3.637978807091713e-12,
+    "exact_formatted_table_rows_verified": 24,
+    "summary_csv_verified": true,
+    "paper_evidence_verified": true,
+    "zero_quantile_json_tex_and_trace_hashes_verified": true,
+    "inventory_prior_full_verification_retained": true,
+    "inventory_current_source_hashes_verified": true,
+    "inventory_365_days_366_midnights_6000_endpoints_verified": true,
+    "capacity_not_hardware_sizing_or_algorithm_gain": true,
+    "figure_series_order_and_unit_mapping_verified": true,
+    "final_style_rebuild_numeric_identity_verified": true,
+    "final_artifact_hashes_refreshed": true
+  },
+  "capacity_results": {
+    "q2": {
+      "costs_yuan": [
+        18810253.812640335,
+        15571408.093710896,
+        13844170.061859094
+      ],
+      "comparisons": {
+        "0": {
+          "saving_yuan": 4966083.750781242,
+          "saving_percent": 26.40093961647702,
+          "daily_mean_ci95_yuan": [
+            14464.033956061596,
+            15266.46467458516
+          ],
+          "counts": [
+            334,
+            0,
+            0
+          ]
+        },
+        "4800": {
+          "saving_yuan": 1727238.0318518018,
+          "saving_percent": 11.092368920376652,
+          "daily_mean_ci95_yuan": [
+            5062.543240633978,
+            5281.571429086411
+          ],
+          "counts": [
+            334,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "q3": {
+      "costs_yuan": [
+        18641953.622674115,
+        15224191.070471607,
+        13461842.350947868
+      ],
+      "comparisons": {
+        "0": {
+          "saving_yuan": 5180111.271726247,
+          "saving_percent": 27.787384179658638,
+          "daily_mean_ci95_yuan": [
+            15296.67302784925,
+            15775.945244606586
+          ],
+          "counts": [
+            334,
+            0,
+            0
+          ]
+        },
+        "4800": {
+          "saving_yuan": 1762348.7195237377,
+          "saving_percent": 11.57597609860492,
+          "daily_mean_ci95_yuan": [
+            5197.989511696638,
+            5360.378376623951
+          ],
+          "counts": [
+            334,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "q4_2": {
+      "costs_yuan": [
+        19524691.691457063,
+        16385587.100180766,
+        14654611.38123864
+      ],
+      "comparisons": {
+        "0": {
+          "saving_yuan": 4870080.310218424,
+          "saving_percent": 24.943186746192282,
+          "daily_mean_ci95_yuan": [
+            14092.411593595943,
+            15089.539649287432
+          ],
+          "counts": [
+            333,
+            1,
+            0
+          ]
+        },
+        "4800": {
+          "saving_yuan": 1730975.7189421284,
+          "saving_percent": 10.564014022561524,
+          "daily_mean_ci95_yuan": [
+            5027.947776503125,
+            5330.6101316668655
+          ],
+          "counts": [
+            334,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "q4_3": {
+      "costs_yuan": [
+        19349811.654991493,
+        16016574.291101944,
+        14252083.025399216
+      ],
+      "comparisons": {
+        "0": {
+          "saving_yuan": 5097728.629592274,
+          "saving_percent": 26.345107231455973,
+          "daily_mean_ci95_yuan": [
+            14859.610663371386,
+            15716.021648549533
+          ],
+          "counts": [
+            334,
+            0,
+            0
+          ]
+        },
+        "4800": {
+          "saving_yuan": 1764491.2657027282,
+          "saving_percent": 11.016658329259563,
+          "daily_mean_ci95_yuan": [
+            5124.986137220403,
+            5433.47707693169
+          ],
+          "counts": [
+            334,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "prior_findings_backup": "revision/storage-study/before/findings-before-storage.json",
+  "hashes": {
+    "main.tex": "03cde30ee0b87c46cf899c39d254c9ce3bfeb1fe5f4073c0b7c819398150a12b",
+    "technical-appendix.tex": "97d7294f56431a0e95152fa537785d1da6639e3cbaa356dfed82f52a06a9d391",
+    "reproduce.sh": "cd919833bc24c2a05540451aca963d22e9bafc32029636da31e2e3b60d5bd352",
+    "revision/storage-study/capacity-section.tex": "72caf89e2a344d6d722f0f064bc6647cf1fae59020216aeb614642083deaadb1",
+    "revision/storage-study/capacity-appendix.tex": "c4235d03a8c10a8406e743e5aa9a870e2f43737babefc7fd9a330eeae4bed8d5",
+    "revision/storage-study/build_storage_evidence.py": "c00e09fdb2cd10c80ba1270cf524d8ce17b09d57122678f2d729e2feb1d49d58",
+    "revision/storage-study/zero_window_quantile.py": "c9191dfea81c1ffd929b59b9065284c0cc09a51e355f4b2a8d6d2e4e7c1224d2",
+    "revision/storage-study/verify_capacity.py": "9674a83b3d1cf0d416b421a8f31c5df48d7369c07b8d6f8a6d8ea7feaa5958da",
+    "revision/storage-study/run_capacity.py": "9590a4c85145402ca2454e3c623b319e23ca29344db15db47bc14dfc364d3d15",
+    "revision/storage-study/capacity-audit.json": "d534bbd6c28d66326ee001ecac3fc15762a4bf4e4689b8965e97e4c431d71cd5",
+    "revision/storage-study/paper-evidence.json": "1f056095bfaa07ef8f68aff941819e51b0ecb877fa5470652a9175a774be07e6",
+    "revision/storage-study/zero-window-quantile.json": "fbbde6394f907d1d240afb335a8d2e8a2bc6c9fb0d984686dd41224ef6f04197",
+    "revision/storage-study/annual-inventory.json": "216cf26b2f0aa05fb007cfcb4192eb319729f19ecd14160bce15b6e430febe51",
+    "revision/storage-study/annual-inventory.npz": "443ddef2f8e219c6e9190ed98ca1da488a70e70385f54b6c10f212f01df9aef8",
+    "revision/storage-study/inventory_figures.py": "49676b81141e73dc8bc2705487700a8423b314b7badd3da05a38a7eaf6635a57",
+    "figures/storage-capacity.png": "fae98db77a1d362d88bc5f440461866939f3c6ea46267476728291cb06e5200b",
+    "figures/annual-inventory-heatmap.png": "05b087f17d3c5f7c09d8e5769383471e56437b1922fa1fa025f5780747060e96",
+    "figures/annual-inventory-envelope.png": "019c953ee5bca1dcfc751cf29f90f4b83643f6b039f968607254f9b300e025bb",
+    "tables/inventory-metrics.tex": "fadb2b3578065cab39354798cbc36d8ced90337a50228d58bab202166a273268",
+    "tables/storage-capacity.tex": "3e7be41f0c682a3b02a172e07e43374641b4e18a61f58e925a2b5fee2ccd67c6",
+    "tables/storage-capacity-parts.tex": "42bcdf9823cedda477359a0f361d2e043b57d8e66b697531192b5c438a1d6958",
+    "tables/storage-capacity-ci.tex": "a474ddb6f473f204a68dd9f3f089e168973f7b6c414df201b8cc5fc6a87c038a",
+    "tables/storage-capacity-results-text.tex": "3c4ab9606aa15dd79d3c6dcda5237abb31d6a95c36d597ed72bfd4ba52130ca9",
+    "tables/storage-zero-quantile-text.tex": "d08f05548d42dea9d239d815badd7e7f089dcfeafaa86483c4dd2ed3650fa5d6",
+    "tables/storage-capacity-validation-text.tex": "09b22e3dc651818015fdf1e741a70a34a806a6a65dfc92f1313549ab89a4e8c0"
+  },
+  "limitations": [
+    "No controller rerun performed; calculations read existing full traces.",
+    "Zero-window analytic check prior produced values were bound by trace/script hash; no producer script rerun.",
+    "Final PDF visual QA is handled independently by root."
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "reviewer": "independent revision_compliance_review agent",
+  "created_at": "2026-09-11T15:40:22.948292+00:00",
+  "status": "PASS_WITHIN_TEXT_CODE_NUMERIC_SCOPE",
+  "scope": "Final TeX, PDF text extraction, full specified-date numeric rendering check and source-appendix audit. Visual page review belongs to parent; no visual PASS claimed.",
+  "checklist": [
+    {
+      "id": 1,
+      "status": "PASS_PDF_TEXT_VISUAL_EXTERNAL",
+      "subject": "指定日期表完整",
+      "assessment": "原题表1/2/3字段均补齐，32日表＋4紧急表，同终点轨迹已独立重算；只待PDF宽度和跨页核验。"
+    },
+    {
+      "id": 2,
+      "status": "PASS_SOURCE_AND_PDF",
+      "subject": "全部源代码附录",
+      "assessment": "44份完整自编源码包含全部src、原数值生产与新增计算及运行入口；全部路径存在于最终PDF，Python语法检查通过；原统计重现、1336行新配对CSV逐值一致。"
+    },
+    {
+      "id": 3,
+      "status": "RESOLVED",
+      "subject": "Q1周期初值",
+      "assessment": "清楚区分题面周期相等与选择6000。独立LP新增自由周期库存8550的一组最优解，节省8.35元，不声称唯一或免费调整真实库存。"
+    },
+    {
+      "id": 4,
+      "status": "RESOLVED_WITH_SCOPE",
+      "subject": "另一退购解释",
+      "assessment": "补同轨迹全年重计费和1月同首末状态重新规划，明确前者非重新优化全年值；不退购支配性论证具有非负价、免费不限弃电条件。"
+    },
+    {
+      "id": 5,
+      "status": "RESOLVED",
+      "subject": "跨日贪心强基线",
+      "assessment": "已加入4组同终点全年强基线，净收益1.03%—1.69%，7日块区间下界均正。明确是上层与反馈整体收益，未冒充单层贡献。"
+    },
+    {
+      "id": 6,
+      "status": "RESOLVED_WITH_LIMITATION",
+      "subject": "预测量化",
+      "assessment": "四候选开发期和正式期MAE/RMSE、合法6小时运行预测误差与两日曲线齐备；简单预测族及17日开发窗依然是诚实披露的模型局限，不能因此声称先进预测。"
+    },
+    {
+      "id": 7,
+      "status": "PARTIAL_SCOPE_EXPLICIT",
+      "subject": "增益去零列与20界限",
+      "assessment": "1月4组去结构零列后触边均0，并有10/20对照，Q3差14.47元。全年有效列触边比例仍未补算；当前明确不外推，足以消除误导，但不能写全年50%全由退化导致或全年不会触边。"
+    },
+    {
+      "id": 8,
+      "status": "RESOLVED",
+      "subject": "重复值",
+      "assessment": "重新求解相关LP确认真实相等；正确指出当日待签合同未启用反馈增益，因此不采纳未经证实的共享增益解释。"
+    },
+    {
+      "id": 9,
+      "status": "RESOLVED",
+      "subject": "压缩末值设计",
+      "assessment": "末值表述已改为设计目的，SDDP全年对照明确自由终点；保留原负结果并压缩而不挑有利窗口，处理妥当。"
+    },
+    {
+      "id": 10,
+      "status": "RESOLVED",
+      "subject": "图3选日",
+      "assessment": "已核对最终TeX：日期一致，非命题分类标签已清除，明显口语已改学术表述。附录proper为技术术语，不构成正确性问题。"
+    },
+    {
+      "id": 11,
+      "status": "RESOLVED",
+      "subject": "一月初始化",
+      "assessment": "1月2日起只用前一完整日预测、每日闭合贪心；首日无历史仍应急。新初始化全程因果，2月1库存相同且外生历史不受策略影响，故正式334日无需重算。"
+    },
+    {
+      "id": 12,
+      "status": "PASS_PDF_TEXT_VISUAL_EXTERNAL",
+      "subject": "摘要",
+      "assessment": "已按每问方法—核心数字—对照收益写作。末段边界较简短，仍有负结果术语但不再主导摘要；一页限制待PDF。"
+    },
+    {
+      "id": 13,
+      "status": "PASS_PDF_TEXT_VISUAL_EXTERNAL",
+      "subject": "框架图",
+      "assessment": "新增预测、成熟场景、上层LP、下层DP、执行、结算带回路图；最终字号/宽度待PDF。"
+    },
+    {
+      "id": 14,
+      "status": "RESOLVED",
+      "subject": "常规章节",
+      "assessment": "模型假设、模型优缺点与推广均独立列出。"
+    },
+    {
+      "id": 15,
+      "status": "RESOLVED",
+      "subject": "标签体系",
+      "assessment": "已核对最终TeX：日期一致，非命题分类标签已清除，明显口语已改学术表述。附录proper为技术术语，不构成正确性问题。"
+    },
+    {
+      "id": 16,
+      "status": "RESOLVED",
+      "subject": "学术文风",
+      "assessment": "已核对最终TeX：日期一致，非命题分类标签已清除，明显口语已改学术表述。附录proper为技术术语，不构成正确性问题。"
+    },
+    {
+      "id": 17,
+      "status": "PASS_PDF_TEXT_VISUAL_EXTERNAL",
+      "subject": "排版",
+      "assessment": "文件名下划线已规范转义，表后被切分句已改为完整句；表宽、公式中文、源码换行、正文30页及摘要1页待编译后核验。"
+    }
+  ],
+  "findings": [
+    {
+      "id": "J1",
+      "severity": "medium",
+      "status": "resolved",
+      "file": "main.tex",
+      "line": 335,
+      "issue": "图前正文日期9月23日与3月20日图题不一致。",
+      "fix": "统一为3月20日，并保留其真实紧急购电区间。"
+    },
+    {
+      "id": "J2",
+      "severity": "medium",
+      "status": "resolved",
+      "file": "main.tex / tables/*.tex",
+      "issue": "A/B说明与B/D、B/C/D、C等残留标签冲突。",
+      "fix": "清理全部非命题分类标签，避免定义不全。"
+    },
+    {
+      "id": "J3",
+      "severity": "low",
+      "status": "resolved",
+      "file": "main.tex",
+      "lines": [
+        44,
+        46,
+        275
+      ],
+      "issue": "原意见要求统一学术文体，仍残留多处口语。",
+      "fix": "改为电能跨时段转移、确定当日合同、权衡即时与未来费用。"
+    },
+    {
+      "id": "J4",
+      "severity": "high",
+      "status": "resolved",
+      "file": "source-code.tex",
+      "issue": "37-file appendix omits original numeric producers revision/base-scripts/register_results.py (3/7/14-day bootstrap/monthly statistics), gain_replay.py (annual gain bound statistics), run_supplement.py (terminal matched information ablation and January controls).",
+      "fix": "Include these complete scripts and needed export/helpers in the source appendix, ensure their directory-based data references match the delivered package, regenerate PDF.",
+      "resolution": "Five complete numerical producer scripts added under reference/scripts; computation identical after source/provenance path normalization; resulting original statistics exactly reproduced."
+    },
+    {
+      "id": "J5",
+      "severity": "low",
+      "status": "resolved",
+      "file": "main.tex",
+      "line": 270,
+      "issue": "末值“避免每个滚动末点把电耗尽”写成保证效果，现有负结果不支持。",
+      "fix": "改为“旨在抑制滚动末端耗尽偏差；具体账单作用由敏感性检验评价”。"
+    },
+    {
+      "id": "J6",
+      "severity": "low",
+      "status": "resolved",
+      "file": "main.tex",
+      "lines": [
+        421,
+        436
+      ],
+      "issue": "现有全年SDDP候选比较来自自由终点表，主文语境以固定终点为主，需明确所用口径。",
+      "fix": "称“既有自由终点全年候选对照”并指出未并入固定终点主表。"
+    },
+    {
+      "id": "J7",
+      "severity": "low",
+      "status": "resolved",
+      "file": "technical-appendix.tex",
+      "issue": "“每一机制和块长均有独立声明的SeedSequence”不覆盖新增强基线代码，它对4机制均使用default_rng(20260911)生成同一抽样索引。",
+      "fix": "限定这句指原闭合基线统计；新增强基线用同一固定种子与共同抽样索引。这不改变区间数值有效性。"
+    }
+  ],
+  "model_assessment": "No newly discovered physics, billing or terminal-fairness error in reviewed outputs. Strong baseline closes main substantive comparison gap. Benefits remain empirical and single-year, not original stochastic global optimality.",
+  "tail_decision": "Compressing tail treatment and preserving negative evidence is appropriate; do not select a favorable test window after seeing results. Keep the frozen simple tail for reproducibility and avoid treating its precision as a proven contribution.",
+  "provisional_score": {
+    "range": [
+      84,
+      90
+    ],
+    "scale": 100,
+    "condition": "Only a qualitative simulated score after correction of listed text issues, completion of source appendix and PDF gates; not an official rubric or award forecast.",
+    "current_eligibility": "All textual/code findings closed. PDF extracted numerics, complete source listings and body/abstract page counts verified. Final visual QA belongs to parent."
+  },
+  "hashes": {
+    "main.tex": "bdf07aa3f3c46b349c22630f9e81af73e6d3034e98128670b680a4505b1c6971",
+    "technical-appendix.tex": "d2786ffcfc5d774e103113ca1b085454682a211584056712c20bc420b8ee9f0e",
+    "source-code.tex": "e5294b742bb961b3c1427e7dcf86048f47d06c7ffff200d12ab2feeb26b88f57",
+    "support-files.tex": "4a50a3d8df7c4ddf67e0f0912ca58cffb7671b4363bb5ae348f04061bd37d7e8",
+    "main.pdf": "ef9431b1ba76db4c9d7e6adf011eb9c1b7b455eb862c444b83f5b3343ae35fb1",
+    "output/pdf/基于跨日随机控制与价值反馈的微网购电和储能协同调度_修订稿.pdf": "ef9431b1ba76db4c9d7e6adf011eb9c1b7b455eb862c444b83f5b3343ae35fb1",
+    "reproduce.sh": "b137da17597dab8352a31d00f4c50f25c61258f1adcb02e421e556fb0ce84e82",
+    "revision/strong_baseline.py": "a67a023ad0b334b7404c6b9d4550a999935f317ad758a4ab7af8dc9c3a287fe5",
+    "revision/results/daily-paired-costs.csv": "53fc0cf5cfddb1d09a6194f19208cad169b911e48a7dad1329f65abc3117535a",
+    "tables/ablation.tex": "b3ce5226fe71ca20f66a25f5708a10d54b44e1371a5536e8ef4d6754c98c6f9f",
+    "tables/annual.tex": "b5c1400581e41297b3e2d73640b372a15bbc6b075089055ca0920b2c10f92b91",
+    "tables/billing-revision.tex": "34fcd1d626243026254a87e2d1bdcee123d1d391eb2b26a95dcd31585099cdf3",
+    "tables/bootstrap.tex": "9f3bc6831517823d825fdc310348dd15955c13e9683bf258f55ff91928cdde47",
+    "tables/candidates.tex": "579c49f7500144af80409c7f4c01208745c2566fc25953f6782552ac2ee4c898",
+    "tables/dates.tex": "23b1388de7cb44ca10beb525355815d21e9055536e46489cc8bdf523ebf8e3c1",
+    "tables/dev.tex": "3a9d797a75aad7b0982223335f72732cd784cb2eb05113feeb2206bcd50bba20",
+    "tables/fixedend.tex": "bded898b55a1f83e7663f56daca2219b551bd98379cd466f48a2880642eb9c3d",
+    "tables/gain-revision.tex": "a40756edfef9a99d86448758c62cc0d59ff5a907a3646702c04ee9f7ba3fc680",
+    "tables/gains.tex": "1fde5ac9383893dae525bc63f17d18d6a534681c5e74ca01c5e9aabc2d61b3fd",
+    "tables/main.tex": "ce01c05ac8c752f5358b9878fcd19610754aed2bedf2978796e745ef3b6bd650",
+    "tables/mechanisms.tex": "79c1cb2c51cdd632567411b4d6e0c93362ef4c597fc544d151cecb5fbe4d0af6",
+    "tables/monthly.tex": "7321b64bcf6219a3f331d65c0362399b3acf66d9e43a2fbda276eaca38bc4899",
+    "tables/operations.tex": "89fc71d31b960f705057f300b27ef0e00c80e90967159d404a11ba302a22e216",
+    "tables/oracle.tex": "6253083f915055bd0c0a8ede75e8c4ba2dac6e04a374e219e6cb85ebec4087e4",
+    "tables/prediction-revision.tex": "d3a75367614c7863bc4d42e9be53f3304599cf7e31106dcb9e7510a3c1d7005f",
+    "tables/q1-cycle-revision.tex": "980bbdc24296f28300368d0b848c3aa2c4e56d33c39a461449b6c88f8e650d7d",
+    "tables/q1b.tex": "082de06593136cd8d5b32aef27468000488141d87bc796230b774aea20cdf552",
+    "tables/q1bat.tex": "fd8ea79ff8419336374f2f9c5c96c0f29859ef9161f3d379b2b3fb016a0c4071",
+    "tables/q1buy.tex": "dacbd013aaedfe92dff1ed3fd76a7338f7d6f61757d5b68978e99e2f643fdfb9",
+    "tables/q1p.tex": "23c594692c2baac5b70ac45c65f47acb44d7d1e431b3aa2c4005eb180d17f348",
+    "tables/q220250320b.tex": "7b70e078fe5b681d63349295d05bd716eb0dc8c8f15f0a4c19c2726fa7699f8c",
+    "tables/q220250320p.tex": "c23380333642b3d6b4b557f02d5868b5e3c6c6e3d9b3d6cc30ff5e716d86fc6e",
+    "tables/q220250621b.tex": "bfc2513c746ec18359c7b244f7c22ae6bb3b9734be3a229f234ef7a2f27e0a3d",
+    "tables/q220250621p.tex": "9425951a4d4f618ad3b456fa5658a7da3ac35e02f0833465fd3d0904330336eb",
+    "tables/q220250923b.tex": "6243a099aef47657ac8c23d5dda4de0ef25878b7f38cae23a86db9a5b8159e62",
+    "tables/q220250923p.tex": "535c112b40610732afa233e175fda7cc5321245424232572f7d03382ff593592",
+    "tables/q220251221b.tex": "fdc5cd84f47632107ecad04621031325c17ad8af53dc3f2e12ef09dc932b5093",
+    "tables/q220251221p.tex": "3efaaf82259f6e221e6c3890d97f76c3b287d5608cd5a8c1e9c110638aa3ba89",
+    "tables/q2e.tex": "dfa683665df6d9bf7a7b6b436b01ca342b1f8ffc4f6bb978640e738bf86c7190",
+    "tables/q320250320b.tex": "ddeb61041c820ad1e54ce27e4b44106d34206df2e4989544f129bb4607919006",
+    "tables/q320250320p.tex": "412d128db56fd58b30173f76aa091ccf15383671dea80cc43dc783f3e4240748",
+    "tables/q320250621b.tex": "221557fd7464e0edc9094842b5808585c6c7e803326ab535dd868abfef581f0f",
+    "tables/q320250621p.tex": "58fb6f9df3e5f09e1ec9708c7e44f8fffc5546ad52e2f504bc6c6be10a2ab6f3",
+    "tables/q320250923b.tex": "449bf5d340c2314a467db2def28f8ff093b839224062db3756f26986cf526597",
+    "tables/q320250923p.tex": "f6bb6764b1a05e574e23a4fe744d1cc7d2c164511a84446e9d4e2438563b4932",
+    "tables/q320251221b.tex": "96bd495de3446e0e3ae1b360022c5fc198c701b8bad15b75c8131810e65d50bf",
+    "tables/q320251221p.tex": "220d378bfeac01fbdf05c863ea83acd08c1ca2b3f5bd788f36a43b43f17169f0",
+    "tables/q3e.tex": "8cad8b9254c9b560aa097db6eb92158e77345e50d95fbcb728637d6dab10c7e3",
+    "tables/q4_220250320b.tex": "7da294f52dd17185799e2c6e32b4825599e19d8501eba90350572beac1cf1328",
+    "tables/q4_220250320p.tex": "e8116984c43dee76e7a2484d6951a9f861e2045f6a4d2e264d0d64a04d0942be",
+    "tables/q4_220250621b.tex": "9dfe96b83c6dc1053a04caefd1fe09bc8f815c3587aeed16610a7893d5dcfcb3",
+    "tables/q4_220250621p.tex": "e8f33fc15b0d56836a7ff4231ad4d1436027c9c80e49a3951f85f4ef80e11d7a",
+    "tables/q4_220250923b.tex": "ea04e809ea4438558d27a2dd96de9b27bd6f8b1e3d5d87dbfed5e7bc1bbbca81",
+    "tables/q4_220250923p.tex": "2851c475c8b4058ede41752fdb14d0d6d213749cd2cda927b1c7198f3af5d840",
+    "tables/q4_220251221b.tex": "7e8ba03a9aebda6dfccc7fefa03871f05893404817f259146f0bc029f43b7966",
+    "tables/q4_220251221p.tex": "1a6fcd0583ce958d46f1dfcc5f346bf93299040dca5e580c880879845c4f021f",
+    "tables/q4_2e.tex": "1329c0b64c17d0b521fc61b1b8cf335de01217c81cee4ad7b7f1fb79b0344b99",
+    "tables/q4_320250320b.tex": "20427adc5620a505641beb7dd6ba05c8eaa857d983402d79d2209208b55498d1",
+    "tables/q4_320250320p.tex": "ef0bcdb6ae7c6efbf0cdc28c0808c37a87e9ea4be2b058a38f146fce30d2409c",
+    "tables/q4_320250621b.tex": "c8a6c1cf4540267e90348fa617754f21e7eb7d7dd97cde62d60c9cf4b98609dd",
+    "tables/q4_320250621p.tex": "038550a57031a2aa5cc46a9c9416b96432cb0309e3fd186b8fec7b65f52504df",
+    "tables/q4_320250923b.tex": "7e1225a2f8667c202ad90ab53b36a3fd5c07f9eeb096a1ed174b9e4fe8bfca6b",
+    "tables/q4_320250923p.tex": "50c1b83c9be682eb66fb8b15bcc0af4e1e310f0732e091aad64b3606f95a4a28",
+    "tables/q4_320251221b.tex": "c1310a6e1ac09dacc3634fd3a34f2d01933fa6f831fb11ad824b3a7d9440e752",
+    "tables/q4_320251221p.tex": "76b781b9561b24d03c4fe6e52491594f1a96324a46aecacccfc7e3bc36400db6",
+    "tables/q4_3e.tex": "0e8dd26bd11ece71515c7f815eb5aaaa4f19b019fa41c366ebfdf9e45bdd8ffd",
+    "tables/repetition-revision.tex": "0443c4baec195f8985252e6af82d3ac7a59755a2f92f7c9a90fe66b91d258cb6",
+    "tables/sensitivity.tex": "050af2464d59a87fdf0a20270c23114aeb5ece47bd9175b930681dad2c74d49c",
+    "tables/specified-q2.tex": "6c5fdcf4a549a10b805f4b4b487e943e85b00f110d7f8a8c9d262daaae20d7cb",
+    "tables/specified-q3.tex": "c25ee318408cb7b407c863d681b0c0dec556e60de7c18c7204ce79da30028e36",
+    "tables/specified-q4_2.tex": "e34396c3131ab84285e181f5bbc7e87baddb33f5c1ae71657472f1e1859c0e7c",
+    "tables/specified-q4_3.tex": "0785edc793de027939d81a78d77efe9302259643160426bcbb962363abe155ce",
+    "tables/stability.tex": "df39646a5f3c0a07e87b626bbd17f0f112e8e47c78f14e0464dd2e5e71279ecc",
+    "tables/strong-baseline.tex": "9d83317e95005414179011e606badb519fcc883e65e194536bd19cc3c4713226",
+    "tables/terminal.tex": "bc0d39875beefb6182e455fbe485a974fc561f4c6ffc689b3b64ca16c11262e5"
+  },
+  "final_pdf_text_checks": {
+    "status": "PASS_TEXT_EXTRACTION_NO_VISUAL_CLAIM",
+    "pdf_sha256": "ef9431b1ba76db4c9d7e6adf011eb9c1b7b455eb862c444b83f5b3343ae35fb1",
+    "delivered_pdf_identical": true,
+    "pdf_page_count": 107,
+    "bodyend_page": 23,
+    "abstract_pages": 1,
+    "tables": [
+      {
+        "kind": "q2",
+        "date": "2025-03-20",
+        "purchase_table": 21,
+        "storage_table": 22,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q2",
+        "date": "2025-06-21",
+        "purchase_table": 23,
+        "storage_table": 24,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q2",
+        "date": "2025-09-23",
+        "purchase_table": 25,
+        "storage_table": 26,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q2",
+        "date": "2025-12-21",
+        "purchase_table": 27,
+        "storage_table": 28,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q3",
+        "date": "2025-03-20",
+        "purchase_table": 30,
+        "storage_table": 31,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q3",
+        "date": "2025-06-21",
+        "purchase_table": 32,
+        "storage_table": 33,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q3",
+        "date": "2025-09-23",
+        "purchase_table": 34,
+        "storage_table": 35,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q3",
+        "date": "2025-12-21",
+        "purchase_table": 36,
+        "storage_table": 37,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q4_2",
+        "date": "2025-03-20",
+        "purchase_table": 39,
+        "storage_table": 40,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q4_2",
+        "date": "2025-06-21",
+        "purchase_table": 41,
+        "storage_table": 42,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q4_2",
+        "date": "2025-09-23",
+        "purchase_table": 43,
+        "storage_table": 44,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q4_2",
+        "date": "2025-12-21",
+        "purchase_table": 45,
+        "storage_table": 46,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q4_3",
+        "date": "2025-03-20",
+        "purchase_table": 48,
+        "storage_table": 49,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q4_3",
+        "date": "2025-06-21",
+        "purchase_table": 50,
+        "storage_table": 51,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q4_3",
+        "date": "2025-09-23",
+        "purchase_table": 52,
+        "storage_table": 53,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      },
+      {
+        "kind": "q4_3",
+        "date": "2025-12-21",
+        "purchase_table": 54,
+        "storage_table": 55,
+        "status": "PASS_PDF_EXTRACTED_VALUES"
+      }
+    ],
+    "emergency_table_count": 4,
+    "source_files": [
+      {
+        "path": "src/analyze_tail.py",
+        "lines": 22,
+        "sha256": "7c7c9dd491d21707eef4771d92f31ca03471d96d5a5c33f1df20b9758efb7ae0",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/check_terminal.py",
+        "lines": 49,
+        "sha256": "801e8a1c7c4c98d1d0285d8e195c31874322c5996b37760ce5e1588c047fdf34",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/continue_pipeline.py",
+        "lines": 55,
+        "sha256": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/control.py",
+        "lines": 167,
+        "sha256": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/dispatch.py",
+        "lines": 74,
+        "sha256": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/export_results.py",
+        "lines": 101,
+        "sha256": "8467bdbda3c39ec8afa6eee6adfa6b0bf081c963dec4f8f719c2dd8ed40c5f87",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/finish.py",
+        "lines": 147,
+        "sha256": "5b60a3808504711ad903b5356f1d1281685e07a7b814f31e028ea45bfd5d9c4b",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/forecasting.py",
+        "lines": 68,
+        "sha256": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/freeze_evidence.py",
+        "lines": 85,
+        "sha256": "57562c3f701f071b261b8a962b88b484422896d496104a72a173208883b7ff75",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/package_when_ready.py",
+        "lines": 29,
+        "sha256": "a45b848e7608da57bee7110812406744ce49fa70ecaba788f947faee8e443096",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/prepare_data.py",
+        "lines": 81,
+        "sha256": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/run.py",
+        "lines": 151,
+        "sha256": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/sddp.py",
+        "lines": 175,
+        "sha256": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/select_model.py",
+        "lines": 24,
+        "sha256": "4038e873c1d77e525ba1c2d591c0441dd93e527b8214acebb6c604196648b2f7",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/validate.py",
+        "lines": 58,
+        "sha256": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/verify_workbooks.py",
+        "lines": 56,
+        "sha256": "c08289f66e183a22d2489f79b22b915758586b8940fc4c65b5c8b70c1802550a",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "src/build_workbooks.mjs",
+        "lines": 79,
+        "sha256": "f692b14a614d30bcf49cdd8601d4aabde0f98d60a4418c7fe215145fb2c4f02f",
+        "path_in_pdf": true,
+        "syntax_check": "not_python"
+      },
+      {
+        "path": "src/preview_saved.mjs",
+        "lines": 10,
+        "sha256": "7bc010d1fd9b099be6f79c4929b21bbe26e19b714fec772ea1e191d3ea0ef397",
+        "path_in_pdf": true,
+        "syntax_check": "not_python"
+      },
+      {
+        "path": "src/preview_templates.mjs",
+        "lines": 12,
+        "sha256": "91aac107b2f73f7334bbc3ace80b4cba7efef94cc5c003ec6fb1911540c831cc",
+        "path_in_pdf": true,
+        "syntax_check": "not_python"
+      },
+      {
+        "path": "review/check-controllers.py",
+        "lines": 265,
+        "sha256": "aa43252bddd7a2d6bf815e141432f979cb32f6ef62c21a06802053682ec22d4c",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "review/check-final-integrity.py",
+        "lines": 72,
+        "sha256": "d01b3e0569e7abd83226c46405e4664b501ef7fede0254f6e8b2b71951ef3d92",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "review/check-final-supplement.py",
+        "lines": 156,
+        "sha256": "fb12907f08cc00619c432a61c2de7f3491831e28612ffd1555fbb5247080072d",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "review/check-global-oracle.py",
+        "lines": 158,
+        "sha256": "521236fd8bdca2ab116deb70d89471c5511bcad98b396272280fb8367734e266",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "review/check-production.py",
+        "lines": 304,
+        "sha256": "f1bb57fdb7f358b56d1b35f29efbd8eb60e83b742938e4d0995f3c16d7f696e7",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "review/check-sddp.py",
+        "lines": 131,
+        "sha256": "91287e64836e988b4a10a69d98271fb91068c7f645e64740afb70d186199199e",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "review/check-v2-boundaries.py",
+        "lines": 156,
+        "sha256": "b2e3a4aff44f4a3dd642ea82c8828628c4117d24209f34e50b8047c489b2a9c2",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "revision/q1_and_billing.py",
+        "lines": 59,
+        "sha256": "8b777c4227f421bd7d1367c429ef306cfcc35f600a7c2595d929db73832374d1",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "revision/billing_january_replan.py",
+        "lines": 41,
+        "sha256": "fea7fcee6381108496e1648ddc0775f48f7670d730d0702c4f60b08b6224d132",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "revision/verify_billing_january.py",
+        "lines": 29,
+        "sha256": "3d65d1f3c6746c8e7c106acbfb0beb9e6acde499796a0740db2e9c8991fcbe62",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "revision/strong_baseline.py",
+        "lines": 35,
+        "sha256": "a67a023ad0b334b7404c6b9d4550a999935f317ad758a4ab7af8dc9c3a287fe5",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "revision/build_required_tables.py",
+        "lines": 57,
+        "sha256": "a63a06ef322c846061f326ac4bd979fa1cbd61d745767b1d494ccbd62a88be7d",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "revision/revision_figures.py",
+        "lines": 18,
+        "sha256": "26693cdf4a0724225e85e8097bcf1a773c449dd560840864035b30b8cfde4055",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "revision/base_figures.py",
+        "lines": 47,
+        "sha256": "80ec10f5f63cb15acd3428ba97bba3289bd7c742b43b5a0672da0becd40913b9",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "revision/prediction-control/audit.py",
+        "lines": 111,
+        "sha256": "c6b6c4929c3d8247d3e02f850fe543911efbcd5d498dab25c3e933925d6ba613",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "revision/prediction-control/duplicate_lp_probe.py",
+        "lines": 23,
+        "sha256": "535207c8cf16f621af98bb74597a80040c1bbb97ff5f33fc01cdf03c9f36e7ef",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "revision/prediction-control/gain_sensitivity.py",
+        "lines": 41,
+        "sha256": "a3945c3d1f076141e605d209774f2853f63162708b5a51389d1e3b4a4e3a01e9",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "revision/prediction-control/verify_outputs.py",
+        "lines": 20,
+        "sha256": "1aafc3271f5d86639af0e70914d24f48d30d8b8031e1534395e6fb93db61f242",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "reference/scripts/register_results.py",
+        "lines": 54,
+        "sha256": "ef1565fb4408d6a26a80f73b435c7c0e49525b6b1d9103179224d4a361bd5cee",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "reference/scripts/gain_replay.py",
+        "lines": 37,
+        "sha256": "559919f801388fb8b42250d811301a55b706c0c46657b0f77c85e9f47686f90c",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "reference/scripts/run_supplement.py",
+        "lines": 50,
+        "sha256": "5f87fa836ba74892938859c0e4b24e9f2c6eecd967f45bddb4251b355f7841a2",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "reference/scripts/export_fixed.py",
+        "lines": 98,
+        "sha256": "7262e5e14b7fd0c189608ed7eb2609cc900b932c12e3a3158977be9e9da5054e",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "reference/scripts/paper_assets.py",
+        "lines": 46,
+        "sha256": "fcbba952d55a6a1e0036d48d6e68c9e47fb0931dc75c6a749e0e43ad715f9453",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      },
+      {
+        "path": "reproduce.sh",
+        "lines": 27,
+        "sha256": "b137da17597dab8352a31d00f4c50f25c61258f1adcb02e421e556fb0ce84e82",
+        "path_in_pdf": true,
+        "syntax_check": "not_python"
+      },
+      {
+        "path": "revision/final_math_review.py",
+        "lines": 52,
+        "sha256": "ecb04963ce4e8f474b45aeccc78021461cdfb301570eacd7a1ff52f4bc88a91d",
+        "path_in_pdf": true,
+        "syntax_check": "PASS"
+      }
+    ],
+    "source_lines": 3530,
+    "daily_pair_rows": 1336,
+    "daily_pair_csv_sha256": "53fc0cf5cfddb1d09a6194f19208cad169b911e48a7dad1329f65abc3117535a",
+    "daily_pair_values_exact": true,
+    "log_errors": []
+  },
+  "reference_producer_audit": {
+    "status": "PASS",
+    "files": [
+      {
+        "file": "reference/scripts/paper_assets.py",
+        "syntax": "PASS",
+        "same_as_original_except_source_and_provenance_paths": true,
+        "sha256": "fcbba952d55a6a1e0036d48d6e68c9e47fb0931dc75c6a749e0e43ad715f9453"
+      },
+      {
+        "file": "reference/scripts/run_supplement.py",
+        "syntax": "PASS",
+        "same_as_original_except_source_and_provenance_paths": true,
+        "sha256": "5f87fa836ba74892938859c0e4b24e9f2c6eecd967f45bddb4251b355f7841a2"
+      },
+      {
+        "file": "reference/scripts/export_fixed.py",
+        "syntax": "PASS",
+        "same_as_original_except_source_and_provenance_paths": true,
+        "sha256": "7262e5e14b7fd0c189608ed7eb2609cc900b932c12e3a3158977be9e9da5054e"
+      },
+      {
+        "file": "reference/scripts/register_results.py",
+        "syntax": "PASS",
+        "same_as_original_except_source_and_provenance_paths": true,
+        "sha256": "ef1565fb4408d6a26a80f73b435c7c0e49525b6b1d9103179224d4a361bd5cee"
+      },
+      {
+        "file": "reference/scripts/gain_replay.py",
+        "syntax": "PASS",
+        "same_as_original_except_source_and_provenance_paths": true,
+        "sha256": "559919f801388fb8b42250d811301a55b706c0c46657b0f77c85e9f47686f90c"
+      }
+    ],
+    "all_5_complete_in_source_appendix": true,
+    "source_paths": "Relative paired folders: C题_论文修订/reference reads sibling C题_跨日随机控制, outputs only in reference tree. Original data/model files read-only.",
+    "numeric_reproduction": "models/ablation/development/sensitivity/q1/warmup/gain_diagnostic exactly equal to original result-claims.json after local register_results run",
+    "platform_limit": "paper_assets uses macOS system font; this is a local macOS workflow, not a claim of arbitrary-OS portability."
+  },
+  "unresolved_findings": [],
+  "visual_review": "NOT_PERFORMED_BY_THIS_REVIEWER; parent checks all 107 rendered pages"
+}

@@ -1,0 +1,15 @@
+\begin{table}[htbp]\centering\small
+\caption{问题二四个指定日期的连续紧急购电区间（kWh）}\label{tab:q2-emergency}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrlrlrlr}\toprule
+\multicolumn{2}{c}{2025-03-20} & \multicolumn{2}{c}{2025-06-21} & \multicolumn{2}{c}{2025-09-23} & \multicolumn{2}{c}{2025-12-21} \\
+时间段 & 电量 & 时间段 & 电量 & 时间段 & 电量 & 时间段 & 电量 \\\midrule
+16:00--16:20 & 23.81 & 无 & 0.00 & 20:30--20:40 & 6.44 & 无 & 0.00 \\
+16:30--16:40 & 8.56 & -- & -- & 20:50--21:10 & 64.12 & -- & -- \\
+17:10--17:20 & 1.46 & -- & -- & -- & -- & -- & -- \\
+\midrule
+全天合计 & 33.83 & 全天合计 & 0.00 & 全天合计 & 70.56 & 全天合计 & 0.00 \\
+\bottomrule\end{tabular}
+\par\vspace{1mm}\begin{minipage}{.97\linewidth}\footnotesize
+逐段紧急购电量大于$10^{-6}$ kWh时计入区间；仅合并连续十分钟段。区间量与原轨迹全天总量之差均小于$10^{-6}$ kWh，差额为低于阈值的数值残差。
+\end{minipage}\end{table}

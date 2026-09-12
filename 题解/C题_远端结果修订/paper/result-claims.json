@@ -1,0 +1,1511 @@
+{
+  "claims": [
+    {
+      "result_id": "annual.q2.old",
+      "value": 13844170.061859,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "annual.q2.new",
+      "value": 13817945.063203,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "annual.q2.difference",
+      "value": 26224.998656000942,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "annual.q2.percent",
+      "value": 0.1894299083211308,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "annual.q3.old",
+      "value": 13461842.350948,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "annual.q3.new",
+      "value": 13352415.05,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "annual.q3.difference",
+      "value": 109427.30094799958,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "annual.q3.percent",
+      "value": 0.8128701710750131,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "annual.q4_2.old",
+      "value": 14654611.381239,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "annual.q4_2.new",
+      "value": 14592399.02,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "annual.q4_2.difference",
+      "value": 62212.361239001155,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "annual.q4_2.percent",
+      "value": 0.4245241284163026,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "annual.q4_3.old",
+      "value": 14252083.025399,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "annual.q4_3.new",
+      "value": 14117278.06,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "annual.q4_3.difference",
+      "value": 134804.96539899893,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "annual.q4_3.percent",
+      "value": 0.9458614937813622,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "verified_transcription_of_remote_report"
+    },
+    {
+      "result_id": "q1.expected_cost",
+      "value": 35126.948589289634,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.lp_objective",
+      "value": 35126.94858928964,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.eq_residual",
+      "value": 9.094947017729282e-13,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.ineq_violation",
+      "value": 1.1368683772161603e-13,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.duality_gap",
+      "value": 7.275957614183426e-12,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.buy_kwh",
+      "value": 59482.698998353924,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.charge_kwh",
+      "value": 20740.66613168725,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.discharge_kwh",
+      "value": 16799.939566666668,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.specified_buy_kwh.0",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.specified_buy_kwh.1",
+      "value": 480.41245,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.specified_buy_kwh.2",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.specified_buy_kwh.3",
+      "value": 445.43165000000005,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.specified_buy_kwh.4",
+      "value": 531.8940499999999,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.specified_buy_kwh.5",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.charge_4h_kwh.0",
+      "value": 4500.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.charge_4h_kwh.1",
+      "value": 833.3333333333334,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.charge_4h_kwh.2",
+      "value": 4787.964288065849,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.charge_4h_kwh.3",
+      "value": 5286.035176954732,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.charge_4h_kwh.4",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.charge_4h_kwh.5",
+      "value": 5333.333333333334,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.discharge_4h_kwh.0",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.discharge_4h_kwh.1",
+      "value": 6365.8412,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.discharge_4h_kwh.2",
+      "value": 1702.9969833333334,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.discharge_4h_kwh.3",
+      "value": 91.10138333333347,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.discharge_4h_kwh.4",
+      "value": 5780.1318833333335,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.discharge_4h_kwh.5",
+      "value": 2859.868116666667,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.initial_kwh",
+      "value": 6000.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q1.terminal_kwh",
+      "value": 6000.000000000006,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "existing_verified_deterministic_result"
+    },
+    {
+      "result_id": "q2.new_total",
+      "value": 13817945.063203087,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.old_total",
+      "value": 13844170.061859095,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.saving",
+      "value": 26224.998656007854,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.mean_saving",
+      "value": 78.5179600479277,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.new_parts.planned_cost",
+      "value": 13197422.827546481,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.new_parts.adjustment_cost",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.new_parts.emergency_cost",
+      "value": 620522.2356566049,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.old_parts.planned_cost",
+      "value": 13197126.215670995,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.old_parts.adjustment_cost",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.old_parts.emergency_cost",
+      "value": 647043.8461881,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.validation.balance_max",
+      "value": 2.2737367544323206e-13,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.validation.state_residual",
+      "value": 1.1368683772161603e-13,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.validation.midnight_jump",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.validation.soc_min",
+      "value": 1200.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.validation.soc_max",
+      "value": 10800.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.validation.power_max_kw",
+      "value": 5000.0000000000055,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.validation.simultaneous_kwh",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.validation.initial",
+      "value": 6000.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.validation.final",
+      "value": 6000.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.positive_days",
+      "value": 156,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.negative_days",
+      "value": 177,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.tie_days",
+      "value": 1,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.positive_months",
+      "value": 5,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.monthly.2025-02",
+      "value": -457.96627169444037,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.monthly.2025-03",
+      "value": -4272.524860074409,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.monthly.2025-04",
+      "value": 6273.393070545517,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.monthly.2025-05",
+      "value": 1006.6981016729387,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.monthly.2025-06",
+      "value": 139.7513075129973,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.monthly.2025-07",
+      "value": 31208.27509903069,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.monthly.2025-08",
+      "value": -2389.5165144922576,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.monthly.2025-09",
+      "value": -3903.7793945346275,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.monthly.2025-10",
+      "value": -2997.2978074946914,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.monthly.2025-11",
+      "value": 4479.70371121963,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.monthly.2025-12",
+      "value": -2861.7377856834864,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.3.mean_ci95.0",
+      "value": -122.81143368221798,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.3.mean_ci95.1",
+      "value": 295.6432557646391,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.3.total_ci95.0",
+      "value": -41019.018849860804,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.3.total_ci95.1",
+      "value": 98744.84742538945,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.7.mean_ci95.0",
+      "value": -101.1414870604753,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.7.mean_ci95.1",
+      "value": 288.43619461028766,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.7.total_ci95.0",
+      "value": -33781.25667819875,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.7.total_ci95.1",
+      "value": 96337.68899983607,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.14.mean_ci95.0",
+      "value": -74.1442621059468,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.14.mean_ci95.1",
+      "value": 285.4157211887118,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.14.total_ci95.0",
+      "value": -24764.18354338623,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap.14.total_ci95.1",
+      "value": 95328.85087702975,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap_seed",
+      "value": 20260912,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2.bootstrap_repetitions",
+      "value": 10000,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.buy.0",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.buy.1",
+      "value": 570.0660017831207,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.buy.2",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.buy.3",
+      "value": 510.45874576527694,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.buy.4",
+      "value": 697.514578532877,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.buy.5",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.daily_contract",
+      "value": 62542.206831666896,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.daily_cost",
+      "value": 39136.97603485569,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.charge_4h.0",
+      "value": 1789.6714756856209,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.charge_4h.1",
+      "value": 1231.5024164308973,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.charge_4h.2",
+      "value": 5461.699345338351,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.charge_4h.3",
+      "value": 5082.702924942959,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.charge_4h.4",
+      "value": 246.21522535944473,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.charge_4h.5",
+      "value": 3362.586879894046,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.discharge_4h.0",
+      "value": 136.83023053534052,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.discharge_4h.1",
+      "value": 5482.331295712406,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.discharge_4h.2",
+      "value": 2777.3772166666668,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.discharge_4h.3",
+      "value": 531.4591507749776,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.discharge_4h.4",
+      "value": 5484.523727489438,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.discharge_4h.5",
+      "value": 3042.0938077601377,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.initial",
+      "value": 8340.46894596908,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.end",
+      "value": 4403.392243589749,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-03-20.emergency_kwh",
+      "value": 33.829476862604785,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.buy.0",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.buy.1",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.buy.2",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.buy.3",
+      "value": 258.65427487979923,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.buy.4",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.buy.5",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.daily_contract",
+      "value": 41479.70630330186,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.daily_cost",
+      "value": 23549.686351521403,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.charge_4h.0",
+      "value": 559.1648565626247,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.charge_4h.1",
+      "value": 805.9519104145247,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.charge_4h.2",
+      "value": 5673.765858899452,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.charge_4h.3",
+      "value": 4000.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.charge_4h.4",
+      "value": 217.53276365356822,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.charge_4h.5",
+      "value": 7927.927760637774,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.discharge_4h.0",
+      "value": 256.6958697107125,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.discharge_4h.1",
+      "value": 1809.8284694687961,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.discharge_4h.2",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.discharge_4h.3",
+      "value": 567.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.discharge_4h.4",
+      "value": 5157.720566666667,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.discharge_4h.5",
+      "value": 2633.4545031946236,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.initial",
+      "value": 3761.143791354957,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.end",
+      "value": 9444.053283127441,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-06-21.emergency_kwh",
+      "value": 5.9614535530272406e-12,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.buy.0",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.buy.1",
+      "value": 155.19301891309934,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.buy.2",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.buy.3",
+      "value": 485.35097343430976,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.buy.4",
+      "value": 733.2738996530978,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.buy.5",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.daily_contract",
+      "value": 67544.31918315265,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.daily_cost",
+      "value": 43248.325325797865,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.charge_4h.0",
+      "value": 2074.826761671413,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.charge_4h.1",
+      "value": 1052.1974825831307,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.charge_4h.2",
+      "value": 5121.419276721896,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.charge_4h.3",
+      "value": 3800.9764809712337,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.charge_4h.4",
+      "value": 310.84610251994997,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.charge_4h.5",
+      "value": 7906.1294599007015,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.discharge_4h.0",
+      "value": 17.46408333333311,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.discharge_4h.1",
+      "value": 5666.492464883322,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.discharge_4h.2",
+      "value": 1896.6157166666671,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.discharge_4h.3",
+      "value": 671.6687997519979,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.discharge_4h.4",
+      "value": 5793.591500815002,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.discharge_4h.5",
+      "value": 2517.181175048177,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.initial",
+      "value": 8417.816677156887,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.end",
+      "value": 8254.224084534491,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-09-23.emergency_kwh",
+      "value": 70.56414445214017,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.buy.0",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.buy.1",
+      "value": 919.9869666666664,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.buy.2",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.buy.3",
+      "value": 810.9005546735597,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.buy.4",
+      "value": 704.0656391111296,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.buy.5",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.daily_contract",
+      "value": 97471.34068299904,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.daily_cost",
+      "value": 63036.509153105166,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.charge_4h.0",
+      "value": 2259.092594717164,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.charge_4h.1",
+      "value": 2178.130941189518,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.charge_4h.2",
+      "value": 5422.057871300259,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.charge_4h.3",
+      "value": 7282.847431243329,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.charge_4h.4",
+      "value": 7.909758965314621,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.charge_4h.5",
+      "value": 7883.89477594239,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.discharge_4h.0",
+      "value": 92.52704485042796,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.discharge_4h.1",
+      "value": 1925.872847458094,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.discharge_4h.2",
+      "value": 6716.568949822213,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.discharge_4h.3",
+      "value": 2754.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.discharge_4h.4",
+      "value": 5721.117773531337,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.discharge_4h.5",
+      "value": 2873.492930236274,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.initial",
+      "value": 8137.604981095571,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.end",
+      "value": 8353.056632786256,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_specified.2025-12-21.emergency_kwh",
+      "value": 1.5376144801848568e-11,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.positive_tolerance_kwh",
+      "value": 1e-06,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.intervals.0.start_slot",
+      "value": 96,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.intervals.0.end_slot_exclusive",
+      "value": 98,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.intervals.0.energy_kwh",
+      "value": 23.806454577871932,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.intervals.1.start_slot",
+      "value": 99,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.intervals.1.end_slot_exclusive",
+      "value": 100,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.intervals.1.energy_kwh",
+      "value": 8.558886297960498,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.intervals.2.start_slot",
+      "value": 103,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.intervals.2.end_slot_exclusive",
+      "value": 104,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.intervals.2.energy_kwh",
+      "value": 1.4641359867572419,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.daily_total_kwh",
+      "value": 33.829476862604785,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.merged_interval_total_kwh",
+      "value": 33.82947686258967,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-03-20.subthreshold_residual_kwh",
+      "value": 1.511324398961733e-11,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-06-21.daily_total_kwh",
+      "value": 5.9614535530272406e-12,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-06-21.merged_interval_total_kwh",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-06-21.subthreshold_residual_kwh",
+      "value": 5.9614535530272406e-12,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-09-23.intervals.0.start_slot",
+      "value": 123,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-09-23.intervals.0.end_slot_exclusive",
+      "value": 124,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-09-23.intervals.0.energy_kwh",
+      "value": 6.443917556766792,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-09-23.intervals.1.start_slot",
+      "value": 125,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-09-23.intervals.1.end_slot_exclusive",
+      "value": 127,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-09-23.intervals.1.energy_kwh",
+      "value": 64.12022689535286,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-09-23.daily_total_kwh",
+      "value": 70.56414445214017,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-09-23.merged_interval_total_kwh",
+      "value": 70.56414445211965,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-09-23.subthreshold_residual_kwh",
+      "value": 2.0520474208751693e-11,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-12-21.daily_total_kwh",
+      "value": 1.5376144801848568e-11,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-12-21.merged_interval_total_kwh",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "q2_emergency.dates.2025-12-21.subthreshold_residual_kwh",
+      "value": 1.5376144801848568e-11,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "locally_recomputed"
+    },
+    {
+      "result_id": "configuration.horizon_hours",
+      "value": 72,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.window_days",
+      "value": 28,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.scenarios",
+      "value": 7,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.alpha",
+      "value": 0.2,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.gain_bound",
+      "value": 10.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.grid",
+      "value": 321,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.bins",
+      "value": 3,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.tail_scale",
+      "value": 1.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.final_inventory_kwh",
+      "value": 6000.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.fusion_weight",
+      "value": 0.75,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.official_correction",
+      "value": 0.0,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.eta",
+      "value": 0.9,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.capacity_kwh",
+      "value": 12000,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.minimum_kwh",
+      "value": 1200,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.maximum_kwh",
+      "value": 10800,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.power_kw",
+      "value": 5000,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.slot_minutes",
+      "value": 10,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.initial_kwh",
+      "value": 6000,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.terminal_kwh",
+      "value": 6000,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.slots_per_day",
+      "value": 144,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.evaluation_days",
+      "value": 334,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.evaluation_slots",
+      "value": 48096,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.bootstrap_repetitions",
+      "value": 10000,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.bootstrap_seed",
+      "value": 20260912,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.pseudo_count_per_cell",
+      "value": 0.3333333333333333,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.terminal_penalty_coefficient",
+      "value": 1000,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.tail_price_quantile",
+      "value": 0.25,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.historical_weight",
+      "value": 0.25,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.price_floor",
+      "value": 0.001,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.legacy_horizons_hours.0",
+      "value": 48,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.legacy_horizons_hours.1",
+      "value": 42,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.legacy_horizons_hours.2",
+      "value": 36,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.legacy_horizons_hours.3",
+      "value": 30,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.core_slots",
+      "value": 432,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.replan_slots",
+      "value": 36,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.official_forecast_hours",
+      "value": 24,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.interpolation_nodes",
+      "value": 25,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.intraday_history_correction_shrinkage",
+      "value": 0.8,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    },
+    {
+      "result_id": "configuration.roundtrip_efficiency",
+      "value": 0.81,
+      "usage": "revised-main.tex / tables / figures / technical-appendix.tex",
+      "evidence_level": "source_code_and_problem_parameters"
+    }
+  ],
+  "rounding": "Yuan rounded to cents; ten-thousand-yuan tables rounded to two decimals; exact values retained above."
+}

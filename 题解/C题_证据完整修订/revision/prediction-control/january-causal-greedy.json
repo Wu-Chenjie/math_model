@@ -1,0 +1,548 @@
+{
+  "status": "PASS",
+  "policy": "January1 no battery use/no contract because no prior day exists; January2-31 one previous complete day forecast, deterministic daily-closed LP contract and physically projected greedy battery. Same contract schedule in all tasks; daily given tariff used as fixed planning price. No January15-31 selector or future data used.",
+  "daily": [
+    {
+      "date": "2025-01-01",
+      "fixed": {
+        "planned_cost": 0.0,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 366613.56615685835,
+        "total_cost": 366613.56615685835
+      },
+      "variable": {
+        "planned_cost": 0.0,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 432888.7998430083,
+        "total_cost": 432888.7998430083
+      }
+    },
+    {
+      "date": "2025-01-02",
+      "fixed": {
+        "planned_cost": 61778.2123831795,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 6670.95915094399,
+        "total_cost": 68449.1715341235
+      },
+      "variable": {
+        "planned_cost": 73585.07904377987,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 9060.016456775169,
+        "total_cost": 82645.09550055505
+      }
+    },
+    {
+      "date": "2025-01-03",
+      "fixed": {
+        "planned_cost": 62514.1874347,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 4.5060840392352474e-11,
+        "total_cost": 62514.18743470005
+      },
+      "variable": {
+        "planned_cost": 58180.44009257667,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 4.557390553827645e-11,
+        "total_cost": 58180.44009257671
+      }
+    },
+    {
+      "date": "2025-01-04",
+      "fixed": {
+        "planned_cost": 25862.56847470259,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 3121.284381174902,
+        "total_cost": 28983.852855877496
+      },
+      "variable": {
+        "planned_cost": 22638.08519252648,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 3000.437354427277,
+        "total_cost": 25638.52254695376
+      }
+    },
+    {
+      "date": "2025-01-05",
+      "fixed": {
+        "planned_cost": 25639.923802645986,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 227424.68899293657,
+        "total_cost": 253064.61279558254
+      },
+      "variable": {
+        "planned_cost": 29642.48228643529,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 270361.46006240335,
+        "total_cost": 300003.9423488386
+      }
+    },
+    {
+      "date": "2025-01-06",
+      "fixed": {
+        "planned_cost": 61265.91007510397,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 3305.72704900006,
+        "total_cost": 64571.63712410403
+      },
+      "variable": {
+        "planned_cost": 73073.66421835616,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 4657.947064733406,
+        "total_cost": 77731.61128308956
+      }
+    },
+    {
+      "date": "2025-01-07",
+      "fixed": {
+        "planned_cost": 60953.209080675,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 15273.546312083407,
+        "total_cost": 76226.75539275841
+      },
+      "variable": {
+        "planned_cost": 72818.15086075,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 16984.564609436085,
+        "total_cost": 89802.71547018609
+      }
+    },
+    {
+      "date": "2025-01-08",
+      "fixed": {
+        "planned_cost": 62182.65356800331,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 4383.288672180397,
+        "total_cost": 66565.94224018371
+      },
+      "variable": {
+        "planned_cost": 73715.36224203679,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 6017.870307833074,
+        "total_cost": 79733.23254986986
+      }
+    },
+    {
+      "date": "2025-01-09",
+      "fixed": {
+        "planned_cost": 60205.65231981755,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 12097.938191285759,
+        "total_cost": 72303.5905111033
+      },
+      "variable": {
+        "planned_cost": 71174.88686409124,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 13517.602267339907,
+        "total_cost": 84692.48913143114
+      }
+    },
+    {
+      "date": "2025-01-10",
+      "fixed": {
+        "planned_cost": 61262.86531657871,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 3.74923878609934e-11,
+        "total_cost": 61262.86531657874
+      },
+      "variable": {
+        "planned_cost": 55556.350059753146,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 3.6266314396016246e-11,
+        "total_cost": 55556.35005975318
+      }
+    },
+    {
+      "date": "2025-01-11",
+      "fixed": {
+        "planned_cost": 25846.82928575784,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 3140.951651458687,
+        "total_cost": 28987.78093721653
+      },
+      "variable": {
+        "planned_cost": 22446.646839931527,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 3136.941339191037,
+        "total_cost": 25583.588179122562
+      }
+    },
+    {
+      "date": "2025-01-12",
+      "fixed": {
+        "planned_cost": 25510.1466050463,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 226032.2138725486,
+        "total_cost": 251542.36047759492
+      },
+      "variable": {
+        "planned_cost": 29566.532230240988,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 269678.290470809,
+        "total_cost": 299244.8227010499
+      }
+    },
+    {
+      "date": "2025-01-13",
+      "fixed": {
+        "planned_cost": 60914.190581497576,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1341.5892147351708,
+        "total_cost": 62255.779796232746
+      },
+      "variable": {
+        "planned_cost": 72187.17267972049,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 1393.5111202319065,
+        "total_cost": 73580.68379995241
+      }
+    },
+    {
+      "date": "2025-01-14",
+      "fixed": {
+        "planned_cost": 58935.87735745247,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 8674.898117667002,
+        "total_cost": 67610.77547511947
+      },
+      "variable": {
+        "planned_cost": 69278.61014712877,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 10748.354607779766,
+        "total_cost": 80026.96475490853
+      }
+    },
+    {
+      "date": "2025-01-15",
+      "fixed": {
+        "planned_cost": 59821.843956504745,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 11111.757961621,
+        "total_cost": 70933.60191812576
+      },
+      "variable": {
+        "planned_cost": 70640.62292954931,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 12724.452458509597,
+        "total_cost": 83365.07538805892
+      }
+    },
+    {
+      "date": "2025-01-16",
+      "fixed": {
+        "planned_cost": 60654.52225891403,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 5052.684779246636,
+        "total_cost": 65707.20703816066
+      },
+      "variable": {
+        "planned_cost": 71136.22914516607,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 6911.189743875129,
+        "total_cost": 78047.4188890412
+      }
+    },
+    {
+      "date": "2025-01-17",
+      "fixed": {
+        "planned_cost": 59897.964642736115,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 3.6028618310979257e-11,
+        "total_cost": 59897.964642736144
+      },
+      "variable": {
+        "planned_cost": 54489.09348905679,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 3.5218373106715715e-11,
+        "total_cost": 54489.09348905683
+      }
+    },
+    {
+      "date": "2025-01-18",
+      "fixed": {
+        "planned_cost": 24151.477066522777,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 4020.446557189861,
+        "total_cost": 28171.923623712642
+      },
+      "variable": {
+        "planned_cost": 21200.50791659704,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 4033.3601479058766,
+        "total_cost": 25233.868064502916
+      }
+    },
+    {
+      "date": "2025-01-19",
+      "fixed": {
+        "planned_cost": 24499.984406913518,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 224299.18736319797,
+        "total_cost": 248799.1717701115
+      },
+      "variable": {
+        "planned_cost": 27897.379591147925,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 264383.69448984717,
+        "total_cost": 292281.0740809951
+      }
+    },
+    {
+      "date": "2025-01-20",
+      "fixed": {
+        "planned_cost": 59564.853651013414,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 5525.60580880797,
+        "total_cost": 65090.45945982138
+      },
+      "variable": {
+        "planned_cost": 69789.02202421977,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 7578.806207219286,
+        "total_cost": 77367.82823143905
+      }
+    },
+    {
+      "date": "2025-01-21",
+      "fixed": {
+        "planned_cost": 59077.187688723214,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 7.172049265591341e-11,
+        "total_cost": 59077.18768872328
+      },
+      "variable": {
+        "planned_cost": 67881.81912898352,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 8.339077339769573e-11,
+        "total_cost": 67881.81912898361
+      }
+    },
+    {
+      "date": "2025-01-22",
+      "fixed": {
+        "planned_cost": 55609.72611034741,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 32341.064457772998,
+        "total_cost": 87950.7905681204
+      },
+      "variable": {
+        "planned_cost": 64557.21752445201,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 38049.07362999186,
+        "total_cost": 102606.29115444387
+      }
+    },
+    {
+      "date": "2025-01-23",
+      "fixed": {
+        "planned_cost": 59545.65556482129,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 5913.927711058402,
+        "total_cost": 65459.583275879704
+      },
+      "variable": {
+        "planned_cost": 70726.68414601462,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 7383.450497685912,
+        "total_cost": 78110.13464370054
+      }
+    },
+    {
+      "date": "2025-01-24",
+      "fixed": {
+        "planned_cost": 59864.32411290874,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 2.7525558721208655e-11,
+        "total_cost": 59864.32411290877
+      },
+      "variable": {
+        "planned_cost": 52703.518124328366,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 2.604767246339179e-11,
+        "total_cost": 52703.5181243284
+      }
+    },
+    {
+      "date": "2025-01-25",
+      "fixed": {
+        "planned_cost": 22620.42142709167,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 2226.9398309210987,
+        "total_cost": 24847.361258012766
+      },
+      "variable": {
+        "planned_cost": 19033.829798335002,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 2152.6983179309973,
+        "total_cost": 21186.528116266003
+      }
+    },
+    {
+      "date": "2025-01-26",
+      "fixed": {
+        "planned_cost": 22026.390199955844,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 235094.0363974538,
+        "total_cost": 257120.42659740965
+      },
+      "variable": {
+        "planned_cost": 23926.99797181957,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 280168.03216456145,
+        "total_cost": 304095.03013638104
+      }
+    },
+    {
+      "date": "2025-01-27",
+      "fixed": {
+        "planned_cost": 58327.18367996648,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 641.7577579082619,
+        "total_cost": 58968.94143787474
+      },
+      "variable": {
+        "planned_cost": 67393.381877525,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 676.8250370832079,
+        "total_cost": 68070.2069146082
+      }
+    },
+    {
+      "date": "2025-01-28",
+      "fixed": {
+        "planned_cost": 55757.13674214333,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 18155.52155007281,
+        "total_cost": 73912.65829221615
+      },
+      "variable": {
+        "planned_cost": 64068.37283480999,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 22175.10119290224,
+        "total_cost": 86243.47402771223
+      }
+    },
+    {
+      "date": "2025-01-29",
+      "fixed": {
+        "planned_cost": 57885.75753343834,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 4.774715023359022e-11,
+        "total_cost": 57885.75753343838
+      },
+      "variable": {
+        "planned_cost": 65775.19571969,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 5.5364381523759215e-11,
+        "total_cost": 65775.19571969006
+      }
+    },
+    {
+      "date": "2025-01-30",
+      "fixed": {
+        "planned_cost": 53480.99203729097,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 16822.80469056801,
+        "total_cost": 70303.79672785898
+      },
+      "variable": {
+        "planned_cost": 61111.405286605186,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 20538.344777410523,
+        "total_cost": 81649.75006401571
+      }
+    },
+    {
+      "date": "2025-01-31",
+      "fixed": {
+        "planned_cost": 55776.294636459075,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 4.649051277283434e-11,
+        "total_cost": 55776.29463645912
+      },
+      "variable": {
+        "planned_cost": 49377.605339617796,
+        "increase_cost": 0.0,
+        "reduction_net_cost": 0.0,
+        "emergency_cost": 4.4261518894472836e-11,
+        "total_cost": 49377.60533961784
+      }
+    }
+  ],
+  "cost_fixed": 2940720.3286296036,
+  "cost_variable": 3353793.1697741374,
+  "validation": {
+    "bus": 2.2737367544323206e-13,
+    "soc": 1.1368683772161603e-13,
+    "midnight": 0.0,
+    "closure": 0.0,
+    "minimum": 1200.0,
+    "maximum": 10800.0,
+    "power_kw": 5000.0000000000055,
+    "simultaneous": 0.0
+  },
+  "formal_evaluation_unchanged": true,
+  "february1_inventory": 6000.0,
+  "input_sha256": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+}

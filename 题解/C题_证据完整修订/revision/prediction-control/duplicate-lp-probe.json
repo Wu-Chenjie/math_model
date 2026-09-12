@@ -1,0 +1,76 @@
+{
+  "records": [
+    {
+      "kind": "q3",
+      "date": "2025-06-21",
+      "slots": [
+        108,
+        120
+      ],
+      "contract_replay_max_abs": 0.0,
+      "original_pair_difference": 0.0,
+      "optimal_difference_min": -1.1137988025211598e-06,
+      "optimal_difference_max": 6.243473518452447e-05,
+      "objective_allowance_yuan": 1e-07,
+      "primary_objective_yuan": 80738.44598573606,
+      "min_solution_primary_increase": 1.00000761449337e-07,
+      "max_solution_primary_increase": 9.997165761888027e-08,
+      "primary_gain_columns_for_current_q": "identically zero by release/asof restriction; current q has independent per-slot intercept",
+      "interpretation": "secondary LP over near-optimal face, not physical re-execution or adopted strategy"
+    },
+    {
+      "kind": "q3",
+      "date": "2025-09-23",
+      "slots": [
+        72,
+        84
+      ],
+      "contract_replay_max_abs": 0.0,
+      "original_pair_difference": -3.552713678800501e-15,
+      "optimal_difference_min": -3.1822447610352356e-06,
+      "optimal_difference_max": 3.179991686863559e-06,
+      "objective_allowance_yuan": 1e-07,
+      "primary_objective_yuan": 86570.0885203386,
+      "min_solution_primary_increase": 1.0014628060162067e-07,
+      "max_solution_primary_increase": 1.0008807294070721e-07,
+      "primary_gain_columns_for_current_q": "identically zero by release/asof restriction; current q has independent per-slot intercept",
+      "interpretation": "secondary LP over near-optimal face, not physical re-execution or adopted strategy"
+    },
+    {
+      "kind": "q4_3",
+      "date": "2025-06-21",
+      "slots": [
+        108,
+        120
+      ],
+      "contract_replay_max_abs": 0.0,
+      "original_pair_difference": 0.0,
+      "optimal_difference_min": -1.6327172005503598e-06,
+      "optimal_difference_max": 5.337998246091047e-06,
+      "objective_allowance_yuan": 1e-07,
+      "primary_objective_yuan": 85283.62099861671,
+      "min_solution_primary_increase": 1.0008807294070721e-07,
+      "max_solution_primary_increase": 1.0011717677116394e-07,
+      "primary_gain_columns_for_current_q": "identically zero by release/asof restriction; current q has independent per-slot intercept",
+      "interpretation": "secondary LP over near-optimal face, not physical re-execution or adopted strategy"
+    },
+    {
+      "kind": "q4_3",
+      "date": "2025-09-23",
+      "slots": [
+        72,
+        84
+      ],
+      "contract_replay_max_abs": 0.0,
+      "original_pair_difference": 0.0,
+      "optimal_difference_min": -2.679923743365009e-06,
+      "optimal_difference_max": 3.668706341386496e-06,
+      "objective_allowance_yuan": 1e-07,
+      "primary_objective_yuan": 90945.27974142991,
+      "min_solution_primary_increase": 9.984069038182497e-08,
+      "max_solution_primary_increase": 9.979703463613987e-08,
+      "primary_gain_columns_for_current_q": "identically zero by release/asof restriction; current q has independent per-slot intercept",
+      "interpretation": "secondary LP over near-optimal face, not physical re-execution or adopted strategy"
+    }
+  ]
+}

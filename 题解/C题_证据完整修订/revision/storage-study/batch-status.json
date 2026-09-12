@@ -1,0 +1,122 @@
+[
+  {
+    "kind": "q4_2",
+    "width": 0,
+    "exit_code": 0,
+    "runtime_seconds": 1219.2092026658356,
+    "log": "q4_2_W0.log",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u8bc1\u636e\u5b8c\u6574\u4fee\u8ba2/revision/storage-study/run_capacity.py",
+      "--kind",
+      "q4_2",
+      "--width",
+      "0"
+    ]
+  },
+  {
+    "kind": "q2",
+    "width": 0,
+    "exit_code": 0,
+    "runtime_seconds": 1233.3706593748648,
+    "log": "q2_W0.log",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u8bc1\u636e\u5b8c\u6574\u4fee\u8ba2/revision/storage-study/run_capacity.py",
+      "--kind",
+      "q2",
+      "--width",
+      "0"
+    ]
+  },
+  {
+    "kind": "q3",
+    "width": 0,
+    "exit_code": 0,
+    "runtime_seconds": 1805.6691690420266,
+    "log": "q3_W0.log",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u8bc1\u636e\u5b8c\u6574\u4fee\u8ba2/revision/storage-study/run_capacity.py",
+      "--kind",
+      "q3",
+      "--width",
+      "0"
+    ]
+  },
+  {
+    "kind": "q4_3",
+    "width": 0,
+    "exit_code": 0,
+    "runtime_seconds": 1816.2853126670234,
+    "log": "q4_3_W0.log",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u8bc1\u636e\u5b8c\u6574\u4fee\u8ba2/revision/storage-study/run_capacity.py",
+      "--kind",
+      "q4_3",
+      "--width",
+      "0"
+    ]
+  },
+  {
+    "kind": "q4_2",
+    "width": 4800,
+    "exit_code": 0,
+    "runtime_seconds": 2460.8014065001626,
+    "log": "q4_2_W4800.log",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u8bc1\u636e\u5b8c\u6574\u4fee\u8ba2/revision/storage-study/run_capacity.py",
+      "--kind",
+      "q4_2",
+      "--width",
+      "4800"
+    ]
+  },
+  {
+    "kind": "q2",
+    "width": 4800,
+    "exit_code": 0,
+    "runtime_seconds": 2526.9306915840134,
+    "log": "q2_W4800.log",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u8bc1\u636e\u5b8c\u6574\u4fee\u8ba2/revision/storage-study/run_capacity.py",
+      "--kind",
+      "q2",
+      "--width",
+      "4800"
+    ]
+  },
+  {
+    "kind": "q4_3",
+    "width": 4800,
+    "exit_code": 0,
+    "runtime_seconds": 3442.6798785000574,
+    "log": "q4_3_W4800.log",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u8bc1\u636e\u5b8c\u6574\u4fee\u8ba2/revision/storage-study/run_capacity.py",
+      "--kind",
+      "q4_3",
+      "--width",
+      "4800"
+    ]
+  },
+  {
+    "kind": "q3",
+    "width": 4800,
+    "exit_code": 0,
+    "runtime_seconds": 3475.53727874998,
+    "log": "q3_W4800.log",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/\u9898\u89e3/C\u9898_\u8bc1\u636e\u5b8c\u6574\u4fee\u8ba2/revision/storage-study/run_capacity.py",
+      "--kind",
+      "q3",
+      "--width",
+      "4800"
+    ]
+  }
+]

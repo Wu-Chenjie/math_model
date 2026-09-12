@@ -1,0 +1,414 @@
+{
+  "completed": 24,
+  "total": 24,
+  "results": [
+    {
+      "job": [
+        "development",
+        "q2",
+        "cross_baseline"
+      ],
+      "runtime_seconds": 3.3571651668753475,
+      "cost": 349411.02343649167,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 0,
+        "near_bound_entries": 0,
+        "max_abs": 0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q2",
+        "sddp_mpc"
+      ],
+      "runtime_seconds": 15.190789749845862,
+      "cost": 361692.3341584984,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 388,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q2",
+        "affine_mpc"
+      ],
+      "runtime_seconds": 15.380280750105157,
+      "cost": 361685.60275596584,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 388,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q2",
+        "markov_mpc"
+      ],
+      "runtime_seconds": 17.29195091710426,
+      "cost": 347089.6285341512,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 388,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q2",
+        "sddp_markov"
+      ],
+      "runtime_seconds": 16.378230541944504,
+      "cost": 347089.6285226554,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 388,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q3",
+        "cross_baseline"
+      ],
+      "runtime_seconds": 4.8931439579464495,
+      "cost": 348277.53206133255,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 0,
+        "near_bound_entries": 0,
+        "max_abs": 0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q3",
+        "affine_mpc"
+      ],
+      "runtime_seconds": 31.39967241603881,
+      "cost": 352670.7845393938,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 160,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q4_2",
+        "cross_baseline"
+      ],
+      "runtime_seconds": 3.17443154216744,
+      "cost": 387150.6727209208,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 0,
+        "near_bound_entries": 0,
+        "max_abs": 0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q3",
+        "markov_mpc"
+      ],
+      "runtime_seconds": 34.80759041686542,
+      "cost": 341917.12227747927,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 160,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q3",
+        "sddp_mpc"
+      ],
+      "runtime_seconds": 32.460827874951065,
+      "cost": 352665.3597771503,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 160,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q3",
+        "sddp_markov"
+      ],
+      "runtime_seconds": 34.85483391606249,
+      "cost": 341942.3422101174,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 160,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q4_2",
+        "affine_mpc"
+      ],
+      "runtime_seconds": 14.035373583203182,
+      "cost": 402363.19528091577,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 388,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q4_2",
+        "sddp_mpc"
+      ],
+      "runtime_seconds": 13.5448459580075,
+      "cost": 402313.4920041096,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 388,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q4_2",
+        "markov_mpc"
+      ],
+      "runtime_seconds": 15.26775495801121,
+      "cost": 386128.80034346593,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 388,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q4_3",
+        "cross_baseline"
+      ],
+      "runtime_seconds": 4.2861800419632345,
+      "cost": 387623.50819957844,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 0,
+        "near_bound_entries": 0,
+        "max_abs": 0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q4_2",
+        "sddp_markov"
+      ],
+      "runtime_seconds": 14.834205999970436,
+      "cost": 386128.760518125,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 388,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q4_3",
+        "affine_mpc"
+      ],
+      "runtime_seconds": 28.70803049998358,
+      "cost": 392636.0316495033,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 160,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q4_3",
+        "sddp_mpc"
+      ],
+      "runtime_seconds": 27.85595454205759,
+      "cost": 392636.03164950316,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 160,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q4_3",
+        "markov_mpc"
+      ],
+      "runtime_seconds": 30.523676875047386,
+      "cost": 380647.0446500028,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 160,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "development",
+        "q4_3",
+        "sddp_markov"
+      ],
+      "runtime_seconds": 29.564411834115162,
+      "cost": 380647.04465000273,
+      "gain_probe": {
+        "scope": "development",
+        "lp_calls": 28,
+        "gain_entries": 768,
+        "near_bound_entries": 160,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "ablation",
+        "q3",
+        "0only"
+      ],
+      "runtime_seconds": 9.769642665982246,
+      "cost": 125750.90260206802,
+      "gain_probe": {
+        "scope": "ablation",
+        "lp_calls": 16,
+        "gain_entries": 336,
+        "near_bound_entries": 80,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "ablation",
+        "q3",
+        "without6"
+      ],
+      "runtime_seconds": 9.321624750038609,
+      "cost": 124153.70272793915,
+      "gain_probe": {
+        "scope": "ablation",
+        "lp_calls": 16,
+        "gain_entries": 336,
+        "near_bound_entries": 80,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "ablation",
+        "q3",
+        "without12"
+      ],
+      "runtime_seconds": 8.736183958128095,
+      "cost": 125324.35968553356,
+      "gain_probe": {
+        "scope": "ablation",
+        "lp_calls": 16,
+        "gain_entries": 336,
+        "near_bound_entries": 80,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    },
+    {
+      "job": [
+        "ablation",
+        "q3",
+        "without18"
+      ],
+      "runtime_seconds": 8.535529667045921,
+      "cost": 124213.55149039156,
+      "gain_probe": {
+        "scope": "ablation",
+        "lp_calls": 16,
+        "gain_entries": 336,
+        "near_bound_entries": 80,
+        "max_abs": 10.0,
+        "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+      }
+    }
+  ]
+}

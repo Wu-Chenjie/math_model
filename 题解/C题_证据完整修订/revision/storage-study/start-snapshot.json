@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-09-12T14:04:52.222858+00:00",
+  "note": "Snapshot during execution, before full-year results were available; not a claim of formal preregistration.",
+  "sha256": {
+    "题解/C题_跨日随机控制/src/control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+    "题解/C题_跨日随机控制/src/run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+    "题解/C题_跨日随机控制/src/forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+    "题解/C题_跨日随机控制/src/dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+    "题解/C题_跨日随机控制/artifacts/data.npz": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+    "题解/C题_跨日随机控制/artifacts/forecast-selection.json": "eb6277a072175fe845b87b5eb55e042e562659f8d55cb5e94ea4222b0146ee71",
+    "题解/C题_证据完整修订/revision/storage-study/run_capacity.py": "9590a4c85145402ca2454e3c623b319e23ca29344db15db47bc14dfc364d3d15",
+    "题解/C题_证据完整修订/revision/storage-study/run_batch.py": "a3f480ecf88e099c560b88a4c2ef608d3cd4b42cf6959b85bc6096c6d063da3a",
+    "题解/C题_证据完整修订/计算结果/result4-2.xlsx": "05d455a4a5076ff751c50bfcccd29cda32885adc085d28a0af34b80813c7579e",
+    "题解/C题_证据完整修订/计算结果/result4-3.xlsx": "9ee039dcf0f5af4d0054dcea635a992c6c83c101811b9d25354c11bde9200bac",
+    "题解/C题_证据完整修订/计算结果/result2.xlsx": "f80a8da9e8a75dd512679c6f738b7fe735b6b9d5a04ceb43910072cd0bc0c567",
+    "题解/C题_证据完整修订/计算结果/result3.xlsx": "3e9c9fb78215ea394f474d30e4e5a37849d4212f1c0e72ed5f8f0f05a748ff0a",
+    "题解/C题_证据完整修订/计算结果/result1.xlsx": "12bb2dfa8350ca8b1ee440606b0424eb6f0ed55632fb4cb5a7b6405d6fb51cb5"
+  }
+}

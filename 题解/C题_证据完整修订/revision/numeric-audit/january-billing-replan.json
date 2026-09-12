@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "kind": "q4_3",
+      "variant": "additive_penalty",
+      "total_cost": 384732.76231240324,
+      "retreated_kwh": 9.425793479067579e-12,
+      "validation": {
+        "balance_max_abs": 2.2737367544323206e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.000000000003,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 2.0236257114447653e-11,
+        "lp_objective_recompute_gap": 2.3283064365386963e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "runtime_seconds": 45.681255124974996
+    },
+    {
+      "kind": "q3",
+      "variant": "additive_penalty",
+      "total_cost": 345349.6010905106,
+      "retreated_kwh": 1.1971830949284948e-11,
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.0,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 2.523847797419876e-11,
+        "lp_objective_recompute_gap": 3.92901711165905e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "runtime_seconds": 46.33066416694783
+    },
+    {
+      "kind": "q4_3",
+      "variant": "replacement_refund",
+      "total_cost": 380647.0446500028,
+      "retreated_kwh": 12712.626514017033,
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1247.382457969055,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 2.205524651799351e-11,
+        "lp_objective_recompute_gap": 2.6193447411060333e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "runtime_seconds": 46.42587979207747
+    },
+    {
+      "kind": "q3",
+      "variant": "replacement_refund",
+      "total_cost": 341917.12227747927,
+      "retreated_kwh": 13121.341441046157,
+      "validation": {
+        "balance_max_abs": 1.1368683772161603e-13,
+        "soc_recurrence_max_abs": 1.1368683772161603e-13,
+        "midnight_jump_max_abs": 0.0,
+        "soc_min": 1200.6803518518518,
+        "soc_max": 10800.0,
+        "power_max_kw": 5000.0000000000055,
+        "simultaneous_max": 0.0,
+        "lp_violation_max": 2.319211489520967e-11,
+        "lp_objective_recompute_gap": 3.92901711165905e-10,
+        "initial_inventory": 6000.0,
+        "final_inventory": 6000.0,
+        "negative_energy_violation": 0.0
+      },
+      "runtime_seconds": 46.910622833063826
+    }
+  ],
+  "scope": "January 25-31 only; unchanged pre-existing parameters; no formal-period tuning. Not full-year optimal values.",
+  "script_sha256": "fea7fcee6381108496e1648ddc0775f48f7670d730d0702c4f60b08b6224d132"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "FAIL",
+  "project_root": "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_远端结果修订",
+  "errors": [
+    "project_not_complete:limited"
+  ],
+  "warnings": [],
+  "error_count": 1,
+  "warning_count": 0,
+  "exit_code": 1
+}

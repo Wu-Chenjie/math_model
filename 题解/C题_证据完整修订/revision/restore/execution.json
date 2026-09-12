@@ -1,0 +1,10 @@
+{
+  "command": "sh reproduce.sh check",
+  "exit_code": 0,
+  "runtime_seconds": 22.557903541019186,
+  "environment": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+  },
+  "scope": "Saved full-trajectory verification and numerical diagnostics; no annual controller re-solve"
+}

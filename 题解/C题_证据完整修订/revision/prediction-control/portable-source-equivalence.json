@@ -1,0 +1,228 @@
+{
+  "status": "PASS_COMPUTATION_INPUTS",
+  "scope": "All directly read input data, all Python src and executable vendor files match; pip installation RECORD metadata differs and is not read by these computations.",
+  "files": [
+    {
+      "file": "artifacts/data.npz",
+      "original_sha256": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+      "relative_source_sha256": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+      "match": true
+    },
+    {
+      "file": "artifacts/forecast-selection.json",
+      "original_sha256": "eb6277a072175fe845b87b5eb55e042e562659f8d55cb5e94ea4222b0146ee71",
+      "relative_source_sha256": "eb6277a072175fe845b87b5eb55e042e562659f8d55cb5e94ea4222b0146ee71",
+      "match": true
+    },
+    {
+      "file": "artifacts/global-terminal/q3_markov_mpc.npz",
+      "original_sha256": "5d3083a543e143623dde5f964f302b693ca378218d7c88bc34ebd8633161723f",
+      "relative_source_sha256": "5d3083a543e143623dde5f964f302b693ca378218d7c88bc34ebd8633161723f",
+      "match": true
+    },
+    {
+      "file": "artifacts/global-terminal/q4_3_markov_mpc.npz",
+      "original_sha256": "d9d2ae9736751c534f11322d834f42987bd35d2e8b24d1a402276a8e2508a205",
+      "relative_source_sha256": "d9d2ae9736751c534f11322d834f42987bd35d2e8b24d1a402276a8e2508a205",
+      "match": true
+    },
+    {
+      "file": "src/continue_pipeline.py",
+      "original_sha256": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+      "relative_source_sha256": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+      "match": true
+    },
+    {
+      "file": "src/verify_workbooks.py",
+      "original_sha256": "c08289f66e183a22d2489f79b22b915758586b8940fc4c65b5c8b70c1802550a",
+      "relative_source_sha256": "c08289f66e183a22d2489f79b22b915758586b8940fc4c65b5c8b70c1802550a",
+      "match": true
+    },
+    {
+      "file": "src/run.py",
+      "original_sha256": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+      "relative_source_sha256": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+      "match": true
+    },
+    {
+      "file": "src/sddp.py",
+      "original_sha256": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+      "relative_source_sha256": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+      "match": true
+    },
+    {
+      "file": "src/prepare_data.py",
+      "original_sha256": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+      "relative_source_sha256": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+      "match": true
+    },
+    {
+      "file": "src/dispatch.py",
+      "original_sha256": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+      "relative_source_sha256": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+      "match": true
+    },
+    {
+      "file": "src/control.py",
+      "original_sha256": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+      "relative_source_sha256": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+      "match": true
+    },
+    {
+      "file": "src/select_model.py",
+      "original_sha256": "4038e873c1d77e525ba1c2d591c0441dd93e527b8214acebb6c604196648b2f7",
+      "relative_source_sha256": "4038e873c1d77e525ba1c2d591c0441dd93e527b8214acebb6c604196648b2f7",
+      "match": true
+    },
+    {
+      "file": "src/analyze_tail.py",
+      "original_sha256": "7c7c9dd491d21707eef4771d92f31ca03471d96d5a5c33f1df20b9758efb7ae0",
+      "relative_source_sha256": "7c7c9dd491d21707eef4771d92f31ca03471d96d5a5c33f1df20b9758efb7ae0",
+      "match": true
+    },
+    {
+      "file": "src/freeze_evidence.py",
+      "original_sha256": "57562c3f701f071b261b8a962b88b484422896d496104a72a173208883b7ff75",
+      "relative_source_sha256": "57562c3f701f071b261b8a962b88b484422896d496104a72a173208883b7ff75",
+      "match": true
+    },
+    {
+      "file": "src/validate.py",
+      "original_sha256": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+      "relative_source_sha256": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+      "match": true
+    },
+    {
+      "file": "src/export_results.py",
+      "original_sha256": "8467bdbda3c39ec8afa6eee6adfa6b0bf081c963dec4f8f719c2dd8ed40c5f87",
+      "relative_source_sha256": "8467bdbda3c39ec8afa6eee6adfa6b0bf081c963dec4f8f719c2dd8ed40c5f87",
+      "match": true
+    },
+    {
+      "file": "src/check_terminal.py",
+      "original_sha256": "801e8a1c7c4c98d1d0285d8e195c31874322c5996b37760ce5e1588c047fdf34",
+      "relative_source_sha256": "801e8a1c7c4c98d1d0285d8e195c31874322c5996b37760ce5e1588c047fdf34",
+      "match": true
+    },
+    {
+      "file": "src/package_when_ready.py",
+      "original_sha256": "20c8fce64211887745ac62670d91fc62b7d644d826252e2a9e0bd77a5532c8eb",
+      "relative_source_sha256": "20c8fce64211887745ac62670d91fc62b7d644d826252e2a9e0bd77a5532c8eb",
+      "match": true
+    },
+    {
+      "file": "src/finish.py",
+      "original_sha256": "5b60a3808504711ad903b5356f1d1281685e07a7b814f31e028ea45bfd5d9c4b",
+      "relative_source_sha256": "5b60a3808504711ad903b5356f1d1281685e07a7b814f31e028ea45bfd5d9c4b",
+      "match": true
+    },
+    {
+      "file": "src/forecasting.py",
+      "original_sha256": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+      "relative_source_sha256": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy-1.15.1.dist-info/RECORD",
+      "original_sha256": "a0344a0d2d2325fd2f06a3f0786ae55199bfe189128bcf316e325c155f59b216",
+      "relative_source_sha256": "07b9b3ce7b05f102c3f8340bd8acda087d93fdaade696c274ab826e10f3f3b67",
+      "match": false
+    },
+    {
+      "file": "vendor/highspy-1.15.1.dist-info/WHEEL",
+      "original_sha256": "d32abc68ddd0bbaae41891217ab0d9576dbcc79d5bff55a7e27693e9a2b8ee90",
+      "relative_source_sha256": "d32abc68ddd0bbaae41891217ab0d9576dbcc79d5bff55a7e27693e9a2b8ee90",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy-1.15.1.dist-info/REQUESTED",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "relative_source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy-1.15.1.dist-info/INSTALLER",
+      "original_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "relative_source_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy-1.15.1.dist-info/METADATA",
+      "original_sha256": "cc09b9d5bf93d8cd79be21bede4e72b686d79cdc75f6524e0e0a1af3e9487a8d",
+      "relative_source_sha256": "cc09b9d5bf93d8cd79be21bede4e72b686d79cdc75f6524e0e0a1af3e9487a8d",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy/libhighs.1.15.dylib",
+      "original_sha256": "e05b4c054f6f90f026b397183a6a94a18ab4ee11bb49209b6d0b5c12fefab2b8",
+      "relative_source_sha256": "e05b4c054f6f90f026b397183a6a94a18ab4ee11bb49209b6d0b5c12fefab2b8",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy/_core.cpython-313-darwin.so",
+      "original_sha256": "c6882c174834f6a0b4378d0ef7bf91f834abec7ba9c81d359ebfb8a79e0f48d2",
+      "relative_source_sha256": "c6882c174834f6a0b4378d0ef7bf91f834abec7ba9c81d359ebfb8a79e0f48d2",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy/__init__.pyi",
+      "original_sha256": "5a43987074a2ac30f17fd7a7cbf2cf6ff72528a5fcac94153d0660a5cefb573a",
+      "relative_source_sha256": "5a43987074a2ac30f17fd7a7cbf2cf6ff72528a5fcac94153d0660a5cefb573a",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy/__init__.py",
+      "original_sha256": "152eab96c80668ff98d8447bdca93d1bd6253aebaf1df3e455872a05e7dbd0c2",
+      "relative_source_sha256": "152eab96c80668ff98d8447bdca93d1bd6253aebaf1df3e455872a05e7dbd0c2",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy/highs.py",
+      "original_sha256": "5310ab9947289b49de9e8f650bec7aa24e058cdfcd45bdc57fdf80e0fb5a270a",
+      "relative_source_sha256": "5310ab9947289b49de9e8f650bec7aa24e058cdfcd45bdc57fdf80e0fb5a270a",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy/libhighs.1.dylib",
+      "original_sha256": "e05b4c054f6f90f026b397183a6a94a18ab4ee11bb49209b6d0b5c12fefab2b8",
+      "relative_source_sha256": "e05b4c054f6f90f026b397183a6a94a18ab4ee11bb49209b6d0b5c12fefab2b8",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy/py.typed",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "relative_source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy/_core/__init__.pyi",
+      "original_sha256": "7829eb02030e75a2922a0aae93e71d4bbde3e404658dc8cf533f983af5716241",
+      "relative_source_sha256": "7829eb02030e75a2922a0aae93e71d4bbde3e404658dc8cf533f983af5716241",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy/_core/cb.pyi",
+      "original_sha256": "cc1068bb7bfdea56fbd3ed188b51816e01dd498afcae4705ab0c1b23bd6d6739",
+      "relative_source_sha256": "cc1068bb7bfdea56fbd3ed188b51816e01dd498afcae4705ab0c1b23bd6d6739",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy/_core/simplex_constants.pyi",
+      "original_sha256": "320666630bc598afa7039facec938c28b58ebdce7ff2c0640e6bde66e2557dc5",
+      "relative_source_sha256": "320666630bc598afa7039facec938c28b58ebdce7ff2c0640e6bde66e2557dc5",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy-1.15.1.dist-info/licenses/THIRD_PARTY_NOTICES.md",
+      "original_sha256": "a93082ab82d5f0a01c86b48a142ccea2ed2175f7dccb9e95a04770f4e2ae39a2",
+      "relative_source_sha256": "a93082ab82d5f0a01c86b48a142ccea2ed2175f7dccb9e95a04770f4e2ae39a2",
+      "match": true
+    },
+    {
+      "file": "vendor/highspy-1.15.1.dist-info/licenses/LICENSE.txt",
+      "original_sha256": "795e6090936bcf2e1a0bfb339053de0c5bb6f3102035ead0ecc0ed4a7c41f1b7",
+      "relative_source_sha256": "795e6090936bcf2e1a0bfb339053de0c5bb6f3102035ead0ecc0ed4a7c41f1b7",
+      "match": true
+    }
+  ]
+}

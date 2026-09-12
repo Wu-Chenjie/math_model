@@ -1,0 +1,11 @@
+{
+  "command": "sh reproduce.sh check",
+  "exit_code": 0,
+  "runtime_seconds": 34.23605241603218,
+  "environment": {
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "numpy": "2.4.1"
+  },
+  "scope": "Independently recheck12 saved capacity trajectories, rebuild capacity/inventory figures and tables, reproduce prior paper checks and compile current PDF. Eight new annual solves separately recorded in batch-status.json."
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "pdf_sha256": "58ed5783616cc5cb0aae28fa1541b1cda18a9f999ba45ff6d3466fcbecb4d6fa",
+  "pages": 144,
+  "abstract_pages": 1,
+  "body_and_references_pages": 24,
+  "appendix_starts_page": 26,
+  "a4": true,
+  "pdf_bytes": 3196114,
+  "geometry_cm": {
+    "left": 2.5,
+    "right": 2.5,
+    "top": 2.5,
+    "bottom": 2.7
+  },
+  "all_pages_rendered": true,
+  "visual_review": "All 144 final rendered pages visually checked across 12 contact sheets. New capacity figure, annual heatmap, inventory envelope, capacity tables and inventory metrics additionally inspected at page resolution (pages17,18,29,30,31,32). No clipping or overlapping elements observed.",
+  "log_no_overfull_missing_glyphs_or_unresolved_references": true,
+  "source_listings": 56,
+  "source_python_syntax_checked": true,
+  "no_identifying_user_path_in_pdf_text": true,
+  "raster_margin_findings": [],
+  "figure_duties": [
+    "energy feasible domain",
+    "Q1 price and inventory mechanism",
+    "official forecast timeline",
+    "usable-capacity ablation",
+    "365-day ten-minute inventory heatmap",
+    "primary cash waterfall",
+    "primary block intervals",
+    "daily inventory envelope and366 midnight states"
+  ],
+  "scope": "PDF visual and source-listing layout; numerical and theoretical review separately documented."
+}

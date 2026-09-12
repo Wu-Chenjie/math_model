@@ -1,0 +1,16 @@
+{
+  "C题_下一代随机控制/results/remote-formal-20260912/remote_formal_summary.json": "dd5b4047c62086138630b512333ee0d0242279476e3015f9342d9225f654426c",
+  "C题_下一代随机控制/src/control.py": "da3e000100ca53f0ebe538b1f94c431394ad58acacefc731320e773fc07b8c0f",
+  "C题_下一代随机控制/src/dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+  "C题_下一代随机控制/src/forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9",
+  "C题_下一代随机控制/src/nextgen_scenarios.py": "7ed7f6623228aeeb5635a3aff62257a9b0acb39ce43c08c9597f13c3836b6efb",
+  "C题_下一代随机控制/src/nextgen_control.py": "590b06c6f8a403a94a81787c9cc841190dd7135f12c07706214a9f434382a72d",
+  "C题_下一代随机控制/src/nextgen_run.py": "0beb60045672e170ddd99788e9d07b0d6b9a1a246e867627af52ed74b27824c0",
+  "C题_下一代随机控制/src/sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+  "C题_下一代随机控制/baseline_frozen/artifacts/q1.json": "58b44384ce56a222ab6d8884facd7a1cb0ce8cda5b8db3a0a911a388f5568492",
+  "C题_下一代随机控制/baseline_frozen/artifacts/q1.npz": "1fc008af9ea7d469787ff572fbb5deccf1f2067ac7285dfeced15ea6211f8929",
+  "C题_下一代随机控制/artifacts/formal/q2_6cfbc0fe34fd0999.npz": "c72656fd3e28d92c3a04995c4ce51e55b8767850a19e55afe50de1d1b9131904",
+  "C题_下一代随机控制/baseline_frozen/artifacts/global-terminal/q2_markov_mpc.npz": "8b4df5f97f7d0cd887a0c690eb8c2f93980f9fb9f24be105369514ebc6fb9ff6",
+  "C题_下一代随机控制/artifacts/formal/q2_6cfbc0fe34fd0999.json": "efb9d38deeec81f2418663dc54005ba9e4d46fd36475829aff34c474adf797d4",
+  "C题_下一代随机控制/artifacts/data.npz": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+}

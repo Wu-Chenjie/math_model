@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "method": "actual rendered raster ink; centered footer excluded; 3px sampling tolerance at 1000px height",
+  "source": "raster-margins.json",
+  "pages": 130,
+  "outliers": []
+}

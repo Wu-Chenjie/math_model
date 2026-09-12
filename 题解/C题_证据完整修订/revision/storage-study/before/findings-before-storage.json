@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/reviewer4_code",
+  "independent": true,
+  "decision": "pass",
+  "scope": "Latest restored manuscript numeric binding, primary baseline statistics, causal attribution and diagnostic boundaries; PDF visual QA excluded.",
+  "unresolved": [],
+  "resolved": [
+    {
+      "id": "R1",
+      "issue": "Free-terminal root artifacts could be confused with fixed-terminal primary evidence.",
+      "resolution": "README identifies revision/base-artifacts and adjacent fixed-terminal regeneration source."
+    },
+    {
+      "id": "R2",
+      "issue": "Main savings and intervals must use the same strong cross-day greedy baseline.",
+      "resolution": "Primary evidence matches independent same-endpoint three-block audit to max3.73e-9; all primary table labels and abstract use same baseline."
+    },
+    {
+      "id": "R3",
+      "issue": "Three reported remote fees lack complete local trajectories.",
+      "resolution": "Restored paper excludes these remote aggregate values and instead uses complete four-mechanism original evidence."
+    },
+    {
+      "id": "R4",
+      "issue": "72h/fusion diagnostic must not replace January-selected primary policy or overidentify boundary loss.",
+      "resolution": "Complete local fixed48/fixed72 bills are diagnostic; appendix says boundary approximation is not identified; January moment overlap and sample-vs-population distinction explicit."
+    },
+    {
+      "id": "R5",
+      "issue": "Single-directory package not self-contained.",
+      "resolution": "README explicitly retains neighboring model dependencies; new listed scripts no user absolute paths."
+    }
+  ],
+  "checks": {
+    "primary_all_value_comparison_max_abs": 3.725290298461914e-09,
+    "independent_horizon_cash_recompute": true,
+    "four_primary_mechanisms": true,
+    "three_blocks_per_mechanism": true,
+    "positive_months_each": 11,
+    "xlsx_full_audit_reused": "C题_远端结果修订/review/restoration-evidence-audit.json",
+    "current_xlsx_full_rerun": false
+  },
+  "hashes": {
+    "main.tex": "bffdf73f29708954c26bb03c3aafabd94c767522fe59c32174abae980b0c2137",
+    "tables/bootstrap-primary.tex": "4265710f82240716d711ee2cf24c8ceed2f83177b74cf4bf6bbd9ffbe92e208f",
+    "tables/stability-primary.tex": "73e292e14311d47905cc419c8a5395a8ae4dcb2a9665acd87dcf2cde489215ba",
+    "tables/monthly-primary.tex": "fba6d4f04f71a0c16966183ee30c0c9f98566b958035b26ae59e6efd2bd99923",
+    "tables/nextgen-diagnostics.tex": "f54276af9acfa4a7cdc85918fa7c4ef401828c7010697861b2cc650df61b3c80",
+    "revision/restore/primary-evidence.json": "2db2a38cec09e434a75d40bf1c3031e2544d305c419f0981ed9a2644737b66ce",
+    "README.md": "870842bc6e50aa4cbfa595c4611987bebfd8a6541e87b64a50da232556126fdf"
+  },
+  "limitations": [
+    "Not a new full-year controller rerun.",
+    "PDF rendering/visual acceptance is a separate review.",
+    "January moment numerical calculations refer to the separately executed independent control diagnostics, while this audit checks table binding and scope."
+  ]
+}

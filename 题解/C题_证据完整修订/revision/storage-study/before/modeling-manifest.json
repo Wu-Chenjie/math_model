@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "project": {
+    "competition": "CUMCM",
+    "year": 2026,
+    "problem_id": "C",
+    "stage": "paper_revision_verified",
+    "status": "complete",
+    "scope": "Restore auditable four-question manuscript with complete existing workbooks and append independently recomputed next-generation diagnostics; no new annual candidate adoption."
+  },
+  "source": {
+    "statement_files": [
+      "inputs/C题.pdf",
+      "inputs/论文格式规范2026.pdf"
+    ],
+    "data_files": [
+      "artifacts/data.npz"
+    ],
+    "input_hashes": {
+      "inputs/C题.pdf": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+      "inputs/论文格式规范2026.pdf": "cece4bb3a900a0435160032b98ea26e03b0f2d7eca58424b0d023e26085aed26",
+      "artifacts/data.npz": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649"
+    },
+    "data_audit_file": "artifacts/data-audit.json",
+    "official_rules": {
+      "status": "verified",
+      "url": "inputs/论文格式规范2026.pdf",
+      "version": "用户提供的2026年修订稿；本次按PDF全文核对电子稿格式",
+      "reason": "Verification concerns the supplied rule document, not an independent authenticity claim."
+    }
+  },
+  "framing": {
+    "objectives": [
+      "Minimize actual purchased-energy bill under four contract mechanisms; supply all realized demand and satisfy true endpoint."
+    ],
+    "decision_variables": [
+      "original and revised contracts",
+      "charge/discharge",
+      "emergency/spill",
+      "inventory"
+    ],
+    "constraints": [
+      "per-slot bus balance",
+      "battery recurrence and efficiency .9",
+      "1200..10800 capacity; 5000kW power",
+      "information adapted contracts and current-net-load feedback",
+      "initial/final 6000 for 334 day comparison"
+    ],
+    "constraint_justification": null,
+    "ambiguities": [
+      "90% efficiency interpreted each way",
+      "refund then 50% cancellation penalty main convention, alternative billing examined"
+    ],
+    "assumptions": [
+      "free unlimited bus spill, no sales, nonnegative prices",
+      "no degradation/self-discharge parameter supplied"
+    ]
+  },
+  "models": {
+    "candidates": [
+      {
+        "name": "cross_day_greedy",
+        "target_output": "full-day energy contracts and feasible inventory trajectory with cash bill",
+        "assumptions": [
+          "same physical and billing model",
+          "causal information"
+        ],
+        "data_requirements": [
+          "timestamped load, PV, prices, official forecasts"
+        ],
+        "failure_mode": "myopic use of inventory",
+        "diagnostic": "fixed-end paired annual bills"
+      },
+      {
+        "name": "affine_feedback",
+        "target_output": "full-day energy contracts and feasible inventory trajectory with cash bill",
+        "assumptions": [
+          "same physical and billing model",
+          "causal information"
+        ],
+        "data_requirements": [
+          "timestamped load, PV, prices, official forecasts"
+        ],
+        "failure_mode": "restricted response class may incur higher bills",
+        "diagnostic": "same-endpoint cross/day and feedback ablations"
+      },
+      {
+        "name": "markov_value_feedback",
+        "target_output": "full-day energy contracts and feasible inventory trajectory with cash bill",
+        "assumptions": [
+          "same physical and billing model",
+          "causal information"
+        ],
+        "data_requirements": [
+          "timestamped load, PV, prices, official forecasts"
+        ],
+        "failure_mode": "compressed conditional state and interpolated future values",
+        "diagnostic": "feasibility, convexity checks, sensitivity and paired blocks"
+      }
+    ],
+    "candidate_set_justification": null,
+    "selected": "markov_value_feedback",
+    "selection_rationale": {
+      "objective_fit": "January actual closed-loop bill rule retained; no selection from new annual diagnostics",
+      "constraint_fit": "LP and reachable executor enforce stated planning and physical conditions",
+      "data_fit": "mature equal-weight historical blocks and legal forecast releases",
+      "baseline": "cross_day_greedy with same 6000 endpoints",
+      "risks": [
+        "one-year replay",
+        "Markov and frozen-contract continuation approximation",
+        "January development overlap stated for new fusion moments"
+      ],
+      "fallback_trigger": "Do not promote unverified or statistically unsupported next-generation candidates into primary results"
+    },
+    "baseline": {
+      "status": "completed",
+      "name": "cross_day_greedy",
+      "command": "sh reproduce.sh check",
+      "exit_code": 0,
+      "runtime_seconds": 22.557903541019186,
+      "output": "artifacts/baseline-metrics.json",
+      "metric_ids": [
+        "q2",
+        "q3",
+        "q4_2",
+        "q4_3"
+      ],
+      "reason": "Full stored baseline trajectory independently re-evaluated, not annual solver rerun."
+    }
+  },
+  "execution": {
+    "status": "completed",
+    "command": "sh reproduce.sh check",
+    "exit_code": 0,
+    "runtime_seconds": 22.557903541019186,
+    "environment": {
+      "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O"
+    },
+    "seed": 20260911,
+    "deterministic_reason": null,
+    "metrics_file": "artifacts/metrics.json",
+    "metric_ids": [
+      "q2",
+      "q3",
+      "q4_2",
+      "q4_3"
+    ],
+    "figures": [
+      "figures/bootstrap-primary.png",
+      "figures/bootstrap.png",
+      "figures/contracts-revision.png",
+      "figures/contracts.png",
+      "figures/decomposition-primary.png",
+      "figures/decomposition.png",
+      "figures/q1.png",
+      "figures/reachable.png"
+    ],
+    "scope": "Saved full-trajectory verification and numerical diagnostics; no annual controller re-solve"
+  },
+  "validation": {
+    "status": "completed",
+    "checks": [
+      {
+        "name": "all four fixed endpoint physical and cash ledgers",
+        "status": "pass",
+        "source": "review/restoration-evidence-audit.json"
+      },
+      {
+        "name": "all five workbooks and 16 date blocks match",
+        "status": "pass",
+        "source": "review/restoration-evidence-audit.json"
+      },
+      {
+        "name": "three block lengths against crossday greedy",
+        "status": "pass",
+        "source": "revision/restore/primary-evidence.json"
+      },
+      {
+        "name": "matched horizon configuration and paired forecast moments",
+        "status": "pass",
+        "source": "review/restoration-control-diagnostics.json"
+      },
+      {
+        "name": "independent theory review",
+        "status": "pass",
+        "source": "review/restoration-proof-review.md"
+      },
+      {
+        "name": "latest PDF visual and margin verification",
+        "status": "pass",
+        "source": "review/pdf-qa.json"
+      }
+    ],
+    "sensitivity": [
+      "reference/artifacts/result-claims.json",
+      "revision/prediction-control/gain-summary.json"
+    ],
+    "sensitivity_not_applicable_reason": null,
+    "robustness": [
+      "revision/restore/primary-evidence.json"
+    ],
+    "robustness_not_applicable_reason": null,
+    "falsification": [
+      "negative horizon result in Q3 preserved",
+      "Q2 incremental CI crosses zero, not promoted",
+      "unverified remote totals excluded from manuscript",
+      "beta MSE diagnostics not held-out or bill optimal"
+    ]
+  },
+  "results": {
+    "registry_file": "artifacts/result-registry.json",
+    "paper_file": "main.tex",
+    "claims_file": "paper/result-claims.json"
+  },
+  "reproducibility_file": "artifacts/reproducibility.json",
+  "review": {
+    "status": "completed",
+    "independent": true,
+    "reviewer_id": "/root/reviewer4_code",
+    "findings_file": "review/findings.json"
+  },
+  "pending": [],
+  "violations": []
+}

@@ -1,0 +1,17 @@
+{
+  "reviewer_id": "four_role_reviewers",
+  "independent": true,
+  "decision": "limited",
+  "reports": [
+    "theorem-check.md",
+    "code-consistency-review.md",
+    "review/final-control-review.md",
+    "final-review.md"
+  ],
+  "content_review": "PASS within declared evidence scope",
+  "unresolved": [
+    "Obtain original Q3/q4_2/q4_3 candidate6cf JSON/NPZ and audit source hashes, physical trajectories and bills.",
+    "Rebuild missing three-task specified-date tables, uncertainty analyses and complete submission workbooks from those trajectories.",
+    "Synchronize full formal validation and model-adoption record; do not relabel post-hoc unified candidate as January-final selected."
+  ]
+}

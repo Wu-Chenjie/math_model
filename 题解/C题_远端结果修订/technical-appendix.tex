@@ -1,0 +1,149 @@
+\section{凸结构与可达性的完整证明}
+\subsection{合同上图与单向消元的等价性}
+式\eqref{eq:phi}的两分支在合同相等处连续。引入F满足两条上图不等式后，对任意原可行解可令F等于两仿射式最大值，得到同费用的LP可行解；反向对任一LP可行解，将F降至其最大值不会破坏约束，非负价格下费用不增。因此两个问题的最优值相同。价格为零时LP可能返回松弛F，但账单重新计算仍按原合同函数。
+
+命题2的母线构造也可逐项验证。保持外网合同与紧急电不变，令
+\begin{equation}
+ w'=w+(1-\eta^2)u.
+\end{equation}
+则
+\begin{equation}
+ r+e+d'-c'-w'=r+e+d-c-w=n.
+\end{equation}
+若弃电另有限制，上式新增富余未必能被消纳；若存在循环奖励，去除循环未必维持目标值。因此本文的单向存在性以正文条件为边界。对单向动作，净母线耗电在正增量为增量除效率，在负增量为效率乘增量，得到凸折线g。给定g后，最小非负紧急电等于净需求加g减合同的正部，弃电由平衡恢复，分别得到式\eqref{eq:emergency}。其关于库存增量的凸性无需净需求非负。
+
+\subsection{终点区间的充要构造及递归可行性}
+假设下一库存为x，目标为z，尚余N步。若N为正且x不高于z，取每次库存增加量为
+\begin{equation}
+ \delta_i=(z-x)/N,\qquad i=1,\ldots,N.
+\end{equation}
+区间左界保证此值不超过最大充电库存增量；所有中间点位于x与z之间。若x高于z，取同样等步长的负增量，区间右界保证其绝对值不超过最大放电库存减量。恢复母线动作并加入必要外网补电或弃电，构造了满足所有当前约束的完整后缀。
+
+执行器每步将下一库存置于剩余可达域，所以选定动作后仍存在到达目标的后缀。以剩余步数递减归纳，可得真实终点的递归可行性。初始状态本身必须可达，才有非空交集；本文6,000至6,000的初末设置显然具有保持库存的可行路径。对中间午夜实施同样目标是每日闭合对照的额外约束，不是实际电池的物理必需条件。
+
+\section{Bellman与斜率合并的完整证明}
+\subsection{真性、闭性和分段线性的域条件}
+设两个函数分别在有限闭区间上有限、连续、凸PWL，区间外为正无穷。它们均为真函数，即不取负无穷且不恒为正无穷，并具有多面体上图。可行总量域为两区间的Minkowski和，对可行总量，分配集合是非空紧集，连续目标在其上达到最小值。设上图变量为z，则卷积上图可表示为
+\begin{equation}
+ \{(E,z):\exists x,y,u,v,\ E=x+y,\ u\ge W(x),\ v\ge h(y),\ z\ge u+v\}.
+\end{equation}
+这是有限多条线性不等式和等式描述的多面体的线性投影，故仍是多面体。它是闭凸函数的上图，因此卷积为闭凸PWL。若只给一般真凸函数而没有这里的紧域和PWL条件，则不应跳过闭性及最小值达到的讨论。
+
+在Bellman中，W是下一标签值函数的有限概率平均，加入容量区间指标后保留上述性质；h的有限域是单步放能变量区间。每个当前标签组内的函数对所有物理库存均可行，因为外网追索无上限，库存可保持不变。有限平均后的共同域仍是容量区间。线性末值、最大仿射割与有限绝对值罚均为凸PWL，故向后归纳成立。
+
+若对精确理论DP采用硬终端单点指标，须按扩展实值函数限制有效域，并处理逐步扩展的可达区间。本稿实现采用有限罚和独立执行投影，正文没有将二者混称为硬终端精确DP。
+
+\subsection{斜率合并的资源交换证明}
+设f在区间$[a,A]$、g在$[b,B]$上为凸PWL。f各线段斜率、长度依次为
+\begin{equation}
+ (s_i,\ell_i)_{i=1}^{m},\qquad s_1\le\cdots\le s_m,\quad \ell_i>0,
+\end{equation}
+g对应斜率长度为
+\begin{equation}
+ (t_j,d_j)_{j=1}^{n},\qquad t_1\le\cdots\le t_n,\quad d_j>0.
+\end{equation}
+总量为a加b加L时，相当于分别给f和g分配非负横向增量，增量之和为L。函数增值等于其非降边际斜率沿前缀的积分。
+
+将两组斜率稳定有序合并，保留每段原长度；相同斜率任意交织，但保持各自原有次序。取合并序列前L长度，得到两函数各自的合法前缀：若某函数的后段被选择而更早段未被选择，则后段斜率不低于前段，有序选择可以把相同或更低斜率前段先纳入，且不增成本。
+
+为避免交换破坏原函数的前缀约束，先把各线段视为可独立取量、上限为该段长度的资源，暂时放松前缀约束。现设这一放松问题的另一分配在尚未使用较低边际成本片段时使用了较高片段。选择不超过两片段可用长度的正小量，从高边际片段移到低边际片段，保持总增量且不增费用；严格高低时费用严格降低。重复交换可得到放松问题的有序合并最优分配。前段已经证明该排序分配同时满足两函数各自的前缀约束，因此放松问题的最优解也在原问题可行，二者最优值相同。因而合并前L长度的成本达到最小值。
+
+令合并后第k段斜率、长度为v和h，则卷积折点与函数值从左端初值开始累计：
+\begin{equation}
+ z_0=a+b,\quad F_0=f(a)+g(b),\qquad
+ z_k=z_{k-1}+h_k,\quad F_k=F_{k-1}+v_kh_k.
+\end{equation}
+两组斜率已排序时合并复杂度与线段总数成正比；源码直接排序全部段，成本还包括排序。数学正确性来自有序边际资源分配，而不是网格点个数。
+
+\subsection{网格插值与动作折点}
+对凸函数，任意相邻网格节点的弦不低于真实函数。代码在每次递推后插值回网格，再把网格折线视为下一次卷积的输入，所以它对\emph{当前插值函数}执行斜率合并，而不是对原始完整随机过程进行精确运算。
+
+对固定当前净需求，即时成本折点来自以下三处（仅保留处于可行区间者）：
+\begin{equation}
+ x=E,\qquad x=E-(n-r)/\eta,\qquad x=E-\eta(n-r).
+\end{equation}
+与继续值折点和区间边界合并后，相邻候选之间目标为仿射，故最小值可在端点取得。这解释了动作候选为何允许连续值。终点可达投影使用新的收缩区间，源码未重新完整枚举该区间目标，因此不据此宣称投影动作具有精确Bellman最优性。
+
+\section{辅助SDDP割的有效性证明}
+固定两小时聚合模型、有限时域和阶段独立噪声分布。以下结论以阶段LP有限且满足强对偶、所需追索子问题可行、已有割包络为有效全局下界为条件。设真实下一阶段值为V，其已有割包络为下界。给定输入状态及一个有限噪声实现，替换下一值后得到近似阶段LP最优值。由于下界替换降低或保持目标，对所有可行输入状态有
+\begin{equation}
+ \underline Q_t(X,\xi)\le Q_t(X,\xi).
+\end{equation}
+在访问状态处，强对偶给出输入状态固定等式的对偶乘子。该乘子是近似阶段值的次梯度，因此
+\begin{equation}
+ \underline Q_t(\bar X,\xi)+\beta_t(\xi)^\top(X-\bar X)
+ \le\underline Q_t(X,\xi)\le Q_t(X,\xi).
+\end{equation}
+按固定有限噪声概率完整求和，形成期望阶段值的全局仿射下界：
+\begin{equation}
+ \sum_{\xi}p_\xi\left\{\underline Q_t(\bar X,\xi)+\beta_t(\xi)^\top(X-\bar X)\right\}
+ \le \sum_\xi p_\xi Q_t(X,\xi).
+\end{equation}
+辅助末端费用为零且阶段成本非负，零割有效；从终端向前归纳得到全部生成割的有效性。这里支撑的是\textbf{近似阶段值}，不能把访问点近似目标误当真实继续值。状态中尚未交付合同必须保留；根节点签约会重置合同，因此根割可以进一步仅依赖库存。
+
+阶段独立性使固定噪声概率无需再依赖被省略的历史状态；若用于历史相关的正式预测过程，必须扩充状态或改变模型，不能沿用本证明直接获得原问题下界。当前SDDP割作为末值代理的效果由开发期实际闭环账单判断。
+
+
+\section{固定时域执行与统计复核}
+\subsection{完整闭环算法}
+\begin{enumerate}
+\item 声明真实评价区间和初末库存，加载已确定的预测族及当前候选配置，保持1月公共初始化与2月期初衔接。
+\item 在0、6、12、18时确定核心末点，取当前绝对时段加432与真正终点中的较小值；截断可见实际数据与未来未发布预报。
+\item 在合法官方覆盖内按0.75与0.25融合预测；以相同预测方法重建成熟历史残差，按时间覆盖选取最多7条并赋予等权。
+\item 解因果仿射场景LP。0时落实完整当日原合同；日内官方机制在合法节点更新剩余有效合同，日前机制保持原承诺。
+\item 以当次名义合同构造三箱Markov转移。未来函数按概率平均，箱内成本作下确界卷积，插值回321个库存节点。
+\item 每十分钟先观察净需求，求连续库存请求，再投影到物理与真实终点可达交集；恢复单向电池动作、紧急购电和弃电。
+\item 电池动作确定后按实际交付价格结算。库存传至下一段与下一日，评价终点回到6,000 kWh。
+\item 保存全部合同、发布记录、电池动作、库存和费用；按日期对齐比较轨迹，重算账单与统计，登记图表来源。
+\end{enumerate}
+
+\subsection{问题二移动块重采样}
+给定334个日费用差，对块长b使用全部$334-b+1$个非环绕连续块。每次等概率抽取足够多的块，拼接并保留前334日，计算均值；重复10,000次。三种块长分别以随机种子20260912初始化，块内保留原日期顺序。均值百分位区间乘334给出累计区间，数据文件同时保存日差、月差及正负日数。该方法近似保留短期依赖，对候选后验选择和跨年度分布变化不提供额外修正。
+
+\subsection{源码与证据的一致性检查}
+当前候选在源码中满足等权场景、EMA为0.2、增益界10及三箱条件，实际调用原上层仿射规划与三状态Markov反馈分支。新场景工厂提供固定时域和融合预测；增强状态分支属于其他候选。每次运行的源文件哈希、配置、实际日期和末端约束应与结果一起保存。
+
+问题二的年度成本、月差、费用分解和指定日期表均从同一完整NPZ重算。问题三及问题四当前保留汇总证据层级，完整缓存复核时须检查：原合同未被后续发布覆盖、最终合同按相对原计划计费、各段母线平衡和库存递推、充放电功率与互斥、午夜连续、真实年末库存，以及新旧轨迹日期和价格相同。检查通过后再生成对应日期表与移动块统计。
+
+\clearpage
+\section{问题二指定日期结果}
+下列四个指定日期均来自固定72小时候选的完整轨迹。购电量列为当段合同电量，紧急购电单列；年度费用包含两者按规定倍率的结算。中间各日首末库存按跨日状态自然衔接，只有真正评价首末固定为6,000 kWh。
+\input{tables/q2-specified.tex}
+\input{tables/q2-emergency.tex}
+\clearpage
+\section{支撑文件列表与完整调度程序}
+\begin{longtable}{p{5.5cm}p{9cm}}\toprule
+文件&职责\\\midrule\endhead
+revised-main.tex&竞赛正文、年度比较及结果解释。\\
+technical-appendix.tex&完整证明、执行流程与问题二指定结果。\\
+artifacts/remote-reported-summary.json&同步的远端四机制汇总，保留原证据身份。\\
+artifacts/q2-new-analysis.json&由完整轨迹重算的费用分解、月差与配对区间。\\
+artifacts/result-registry.json&数值来源与证据等级登记。\\
+paper/result-claims.json&正文数值与登记项对应。\\
+src/build\_evidence.py&重算统计、生成表格与图形。\\
+src/write\_paper.py&生成正文与证明附录。\\
+model-source/&与当前仓库一致的完整调度源程序，全文如下。\\
+review/&独立控制、凸优化、证明与代码审查。\\\bottomrule
+\end{longtable}
+模型源程序与数据的原始位置由支撑包README说明。复算采用固定配置、既定预测选择文件和原始数据；独立检验按已保存轨迹重新计费。以下按模块列出完整调度代码，第三方线性规划求解器作为运行依赖安装。
+
+\clearpage\subsection{费用结算与确定性调度}
+\VerbatimInput[fontsize=\fontsize{7.3}{8.5}\selectfont,breaklines=true,breakanywhere=true,numbers=left,numbersep=4pt,xleftmargin=14pt]{model-source/dispatch.py}
+
+\clearpage\subsection{合法信息预测}
+\VerbatimInput[fontsize=\fontsize{7.3}{8.5}\selectfont,breaklines=true,breakanywhere=true,numbers=left,numbersep=4pt,xleftmargin=14pt]{model-source/forecasting.py}
+
+\clearpage\subsection{因果仿射规划与凸库存反馈}
+\VerbatimInput[fontsize=\fontsize{7.3}{8.5}\selectfont,breaklines=true,breakanywhere=true,numbers=left,numbersep=4pt,xleftmargin=14pt]{model-source/control.py}
+
+\clearpage\subsection{固定配置与场景生成}
+\VerbatimInput[fontsize=\fontsize{7.3}{8.5}\selectfont,breaklines=true,breakanywhere=true,numbers=left,numbersep=4pt,xleftmargin=14pt]{model-source/nextgen_scenarios.py}
+
+\clearpage\subsection{候选控制接口}
+\VerbatimInput[fontsize=\fontsize{7.3}{8.5}\selectfont,breaklines=true,breakanywhere=true,numbers=left,numbersep=4pt,xleftmargin=14pt]{model-source/nextgen_control.py}
+
+\clearpage\subsection{年度逐段执行}
+\VerbatimInput[fontsize=\fontsize{7.3}{8.5}\selectfont,breaklines=true,breakanywhere=true,numbers=left,numbersep=4pt,xleftmargin=14pt]{model-source/nextgen_run.py}
+
+\clearpage\subsection{辅助继续值模块}
+\VerbatimInput[fontsize=\fontsize{7.3}{8.5}\selectfont,breaklines=true,breakanywhere=true,numbers=left,numbersep=4pt,xleftmargin=14pt]{model-source/sddp.py}

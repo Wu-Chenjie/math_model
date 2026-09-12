@@ -1,0 +1,17 @@
+\subsection{可用容量消融的账单与实施核验}\label{app:capacity}
+三档窗口保持初末6,000 kWh与5,000 kW功率一致；对0和4,800 kWh窗口的四机制均从2月1日起重新执行完整334日。9,600 kWh窗口使用与主表、工作簿相同的固定终点轨迹，并用同一入口从保存的12月30日库存重算真实末端两日；四机制的原合同、最终合同、充放电、紧急电、弃电、库存及结算电价逐项与主轨迹一致。
+
+计算中，窗口边界同时进入合同LP、库存价值递推与可达执行器；每个窗口在独立进程中运行。零窗口的物理动作由停用分支固定为零，单点状态无需构造差分斜率。半窗口与全窗口保持30 kWh节点间距，其余主参数不重新选择。每次预报场景的训练目标截止时刻不晚于规划时刻；新增窗口沿用主策略的信息权限。
+\input{tables/storage-capacity.tex}
+\input{tables/storage-capacity-parts.tex}
+日差按较窄窗口费用减较宽窗口费用计算。下表使用全部重叠、非环绕7日块，有放回抽取并拼接至334日，重复10,000次。种子序列为$[20260912,k,p]$：机制索引$k=0,1,2,3$，停用至全窗口比较的$p=1$，半窗口至全窗口的$p=2$。每日正负差与月度累计均保存在对应逐日账单和核验文件中；不将重采样重复解释为独立运行年份。
+\input{tables/storage-capacity-ci.tex}
+\input{tables/storage-capacity-validation-text.tex}
+
+\paragraph{零窗口日前合同的解析复核}
+在每日0时，两个日前机制满足$r_t=q_t$，当前日合同变量彼此独立；零库存增量使状态不再连接各段购电。当段有限场景目标为
+\begin{equation}\label{eq:zeroquantile}
+ f_t(q)=\frac1S\sum_{s=1}^S p_t^s\{q+5(n_t^s-q)_+\},\qquad q\ge0.
+\end{equation}
+在正场景电价下，令$\omega_s=p_t^s/\sum_i p_t^i$，对应净需求的加权分布函数为$F_\omega$。$f_t$的左右导数分别为$(\sum_s p_t^s-5\sum_{n_t^s\ge q}p_t^s)/S$和$(\sum_s p_t^s-5\sum_{n_t^s>q}p_t^s)/S$，故无非负边界时最优条件为$F_\omega(q^-)\le0.8\le F_\omega(q)$。取一个加权0.8分位数并截断至非负，即得到可选最优合同。当前日的合同系数与未来日增益分组独立，零窗口的库存等式使未来段费用不再影响当段合同，因此可逐段检验。分位数最优解可能不唯一，核验以同场景目标差为准。
+\input{tables/storage-zero-quantile-text.tex}

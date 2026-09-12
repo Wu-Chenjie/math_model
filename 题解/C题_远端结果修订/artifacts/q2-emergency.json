@@ -1,0 +1,70 @@
+{
+  "source": "C题_下一代随机控制/artifacts/formal/q2_6cfbc0fe34fd0999.npz",
+  "source_sha256": "c72656fd3e28d92c3a04995c4ce51e55b8767850a19e55afe50de1d1b9131904",
+  "candidate": "6cfbc0fe34fd0999",
+  "units": "kWh",
+  "positive_tolerance_kwh": 1e-06,
+  "interval_convention": "Merge consecutive ten-minute slots strictly above tolerance; half-open start/end intervals.",
+  "dates": {
+    "2025-03-20": {
+      "intervals": [
+        {
+          "start_slot": 96,
+          "end_slot_exclusive": 98,
+          "interval": "16:00--16:20",
+          "energy_kwh": 23.806454577871932
+        },
+        {
+          "start_slot": 99,
+          "end_slot_exclusive": 100,
+          "interval": "16:30--16:40",
+          "energy_kwh": 8.558886297960498
+        },
+        {
+          "start_slot": 103,
+          "end_slot_exclusive": 104,
+          "interval": "17:10--17:20",
+          "energy_kwh": 1.4641359867572419
+        }
+      ],
+      "daily_total_kwh": 33.829476862604785,
+      "merged_interval_total_kwh": 33.82947686258967,
+      "subthreshold_residual_kwh": 1.511324398961733e-11,
+      "daily_reconciliation_passed": true
+    },
+    "2025-06-21": {
+      "intervals": [],
+      "daily_total_kwh": 5.9614535530272406e-12,
+      "merged_interval_total_kwh": 0.0,
+      "subthreshold_residual_kwh": 5.9614535530272406e-12,
+      "daily_reconciliation_passed": true
+    },
+    "2025-09-23": {
+      "intervals": [
+        {
+          "start_slot": 123,
+          "end_slot_exclusive": 124,
+          "interval": "20:30--20:40",
+          "energy_kwh": 6.443917556766792
+        },
+        {
+          "start_slot": 125,
+          "end_slot_exclusive": 127,
+          "interval": "20:50--21:10",
+          "energy_kwh": 64.12022689535286
+        }
+      ],
+      "daily_total_kwh": 70.56414445214017,
+      "merged_interval_total_kwh": 70.56414445211965,
+      "subthreshold_residual_kwh": 2.0520474208751693e-11,
+      "daily_reconciliation_passed": true
+    },
+    "2025-12-21": {
+      "intervals": [],
+      "daily_total_kwh": 1.5376144801848568e-11,
+      "merged_interval_total_kwh": 0.0,
+      "subthreshold_residual_kwh": 1.5376144801848568e-11,
+      "daily_reconciliation_passed": true
+    }
+  }
+}

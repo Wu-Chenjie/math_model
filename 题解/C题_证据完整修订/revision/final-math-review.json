@@ -1,0 +1,121 @@
+{
+  "status": "NEEDS_EDITORIAL_CORRECTION",
+  "review_scope": "Independent mathematics, causal/terminal/billing interpretation, recomputed strong-baseline trajectories/bills/bootstrap and numeric insertions. Does not approve unfinished source appendix or unrendered final PDF.",
+  "model_recompute_blockers": [],
+  "checks": [
+    {
+      "kind": "q2",
+      "status": "PASS",
+      "bill": 13844170.061859094,
+      "saving": 202445.33773069328,
+      "bootstrap_95ci": [
+        149420.2306868286,
+        258275.6014884119
+      ]
+    },
+    {
+      "kind": "q3",
+      "status": "PASS",
+      "bill": 13461842.350947868,
+      "saving": 231303.2103771287,
+      "bootstrap_95ci": [
+        178024.9007102759,
+        276064.69412298215
+      ]
+    },
+    {
+      "kind": "q4_2",
+      "status": "PASS",
+      "bill": 14654611.38123864,
+      "saving": 152859.0895717325,
+      "bootstrap_95ci": [
+        104978.08303201292,
+        196645.33791181943
+      ]
+    },
+    {
+      "kind": "q4_3",
+      "status": "PASS",
+      "bill": 14252083.025399216,
+      "saving": 228936.28545958927,
+      "bootstrap_95ci": [
+        176903.0385945796,
+        270941.81436297926
+      ]
+    }
+  ],
+  "pdf_numerical_text": {
+    "status": "PASS_NUMERICAL_TEXT_ONLY",
+    "abstract_values": [
+      "1,384.42",
+      "1,346.18",
+      "1,465.46",
+      "1,425.21",
+      "20.24",
+      "23.13",
+      "15.29",
+      "22.89",
+      "35,126.95",
+      "17.93"
+    ],
+    "body_values": [
+      "35118.60",
+      "14073209.01",
+      "14907515.48",
+      "345349.60",
+      "384732.76"
+    ],
+    "pdf_sha256": "58ed5783616cc5cb0aae28fa1541b1cda18a9f999ba45ff6d3466fcbecb4d6fa",
+    "visual_layout_checked": false
+  },
+  "findings": [
+    {
+      "id": "F5",
+      "location": "technical-appendix.tex:移动块实现",
+      "message": "新增强基线四问均default_rng(20260911)，与每机制独立SeedSequence笼统表述不符；区分原对照与新增对照，注明共同索引不影响各边际区间。",
+      "required": true
+    },
+    {
+      "id": "L1",
+      "location": "tables/gain-revision.tex",
+      "message": "有效列剔除和界限20测试只覆盖一月七日，不能视为已给出全年有效列触边比例。当前正文明确限制范围，属于可接受但应保留的局限。",
+      "required": false
+    }
+  ],
+  "seventeen_items": {
+    "1": "CONTENT_CHECKED_RENDER_PENDING",
+    "2": "SOURCE_APPENDIX_SEPARATE_REVIEW_PENDING",
+    "3": "ADDRESSED_IN_CONTENT",
+    "4": "ADDRESSED_IN_CONTENT",
+    "5": "ADDRESSED_IN_CONTENT",
+    "6": "ADDRESSED_IN_CONTENT",
+    "7": "DEVELOPMENT_SCOPE_ONLY_DISCLOSED",
+    "8": "ADDRESSED_IN_CONTENT",
+    "9": "ADDRESSED_IN_CONTENT",
+    "10": "ADDRESSED_IN_CONTENT",
+    "11": "ADDRESSED_IN_CONTENT",
+    "12": "ADDRESSED_IN_CONTENT",
+    "13": "ADDRESSED_IN_CONTENT",
+    "14": "ADDRESSED_IN_CONTENT",
+    "15": "ADDRESSED_IN_CONTENT",
+    "16": "ADDRESSED_IN_CONTENT",
+    "17": "PDF_RENDER_REVIEW_PENDING"
+  },
+  "pending": [
+    "Full source-code appendix completeness and executable packaging",
+    "Final PDF per-page rendering/layout verification"
+  ],
+  "hashes": {
+    "main.tex": "03cde30ee0b87c46cf899c39d254c9ce3bfeb1fe5f4073c0b7c819398150a12b",
+    "technical-appendix.tex": "97d7294f56431a0e95152fa537785d1da6639e3cbaa356dfed82f52a06a9d391",
+    "tables/billing-revision.tex": "34fcd1d626243026254a87e2d1bdcee123d1d391eb2b26a95dcd31585099cdf3",
+    "tables/gain-revision.tex": "a40756edfef9a99d86448758c62cc0d59ff5a907a3646702c04ee9f7ba3fc680",
+    "tables/prediction-revision.tex": "d3a75367614c7863bc4d42e9be53f3304599cf7e31106dcb9e7510a3c1d7005f",
+    "tables/q1-cycle-revision.tex": "980bbdc24296f28300368d0b848c3aa2c4e56d33c39a461449b6c88f8e650d7d",
+    "tables/repetition-revision.tex": "0443c4baec195f8985252e6af82d3ac7a59755a2f92f7c9a90fe66b91d258cb6",
+    "tables/strong-baseline.tex": "547e5e2b27ed1de90cfb3b84c007e68e86c2deb6f87121e834954e759abb981e",
+    "revision/results/strong-baseline.json": "066f2f1a96903fcaf2e2a48b8cefa5bdecb088e199c548fb9d72eca8802b42b7",
+    "revision/numeric-audit/q1-billing-audit.json": "f57ff542b3f9d8a5a72dff9fc76e84f64a99c01955618ffc3f7a11a88b9ebcd7",
+    "revision/numeric-audit/january-billing-independent.json": "bb330d6c3a7676b5d512f872736dd141df35dd762a3d57470ac16013b0d22ea9"
+  }
+}

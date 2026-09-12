@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "entries": 251,
+  "mismatches": 0,
+  "note": "Pointer/number consistency, not full validation of remote runs."
+}

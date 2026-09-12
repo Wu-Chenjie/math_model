@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "Only same-scenario zero-window day-ahead planning optimum; not real-distribution or annual causal optimality",
+  "quantile": 0.8,
+  "derivation": "min_q>=0 mean_s p_s[q+5(n_s-q)+]; weights proportional to scenario prices",
+  "tolerance_yuan_per_slot": 1e-05,
+  "results": {
+    "q2": {
+      "slots": 48096,
+      "max_abs_scenario_objective_gap_yuan": 3.6209257814334705e-10,
+      "sum_scenario_objective_gap_yuan": 1.6074720443626234e-08,
+      "max_abs_contract_difference_kwh": 6.265281626838259e-10,
+      "analytic_contract_min_kwh": 0.0,
+      "trace_sha256": "0cfc818ed9db4a39f3f07e4403ff27afb3b9e438befc95a853e348126a9994bd"
+    },
+    "q4_2": {
+      "slots": 48096,
+      "max_abs_scenario_objective_gap_yuan": 3.5936409403802827e-10,
+      "sum_scenario_objective_gap_yuan": 1.5991644730650734e-08,
+      "max_abs_contract_difference_kwh": 6.265281626838259e-10,
+      "analytic_contract_min_kwh": 0.0,
+      "trace_sha256": "a6c1b99b5c73e4ac87038b5b8df4a6e892613a4141043f288c065400fc372ad3"
+    }
+  },
+  "runtime_seconds": 0.14948550006374717,
+  "script_sha256": "c9191dfea81c1ffd929b59b9065284c0cc09a51e355f4b2a8d6d2e4e7c1224d2"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "scope": "Current supplied evidence, not absent remote caches",
+  "checks": [
+    {
+      "name": "Q2 contiguous334days and expected endpoint dates",
+      "status": "pass"
+    },
+    {
+      "name": "Q2 nonnegative electricity quantities and r=q",
+      "status": "pass"
+    },
+    {
+      "name": "Q2 physical feasibility and actual bill",
+      "status": "pass",
+      "source": "q2-new-analysis.json"
+    },
+    {
+      "name": "Three remote totals remain labelled as reported",
+      "status": "pass"
+    }
+  ],
+  "missing": [
+    "q3 original candidate trajectory",
+    "q4_2 original candidate trajectory",
+    "q4_3 original candidate trajectory"
+  ]
+}

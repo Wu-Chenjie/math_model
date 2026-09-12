@@ -1,0 +1,51 @@
+{
+  "audit_sha256": "d534bbd6c28d66326ee001ecac3fc15762a4bf4e4689b8965e97e4c431d71cd5",
+  "producer_sha256": "c00e09fdb2cd10c80ba1270cf524d8ce17b09d57122678f2d729e2feb1d49d58",
+  "figure_roles": {
+    "figures/storage-capacity.png": "actual closed-loop cost response at three usable inventory widths",
+    "figures/annual-inventory-heatmap.png": "ten-minute end-state pattern over the calendar year",
+    "figures/annual-inventory-envelope.png": "daily envelope and all366 midnight states including true endpoint"
+  },
+  "capacity_text_metrics": {
+    "q2": {
+      "costs_yuan": [
+        18810253.812640335,
+        15571408.093710896,
+        13844170.061859095
+      ],
+      "full_vs_zero_saving_yuan": 4966083.750781242,
+      "full_vs_zero_saving_percent": 26.40093961647702,
+      "full_vs_half_saving_yuan": 1727238.031851802
+    },
+    "q3": {
+      "costs_yuan": [
+        18641953.622674115,
+        15224191.070471607,
+        13461842.350947868
+      ],
+      "full_vs_zero_saving_yuan": 5180111.271726247,
+      "full_vs_zero_saving_percent": 27.787384179658638,
+      "full_vs_half_saving_yuan": 1762348.7195237377
+    },
+    "q4_2": {
+      "costs_yuan": [
+        19524691.691457063,
+        16385587.100180766,
+        14654611.38123864
+      ],
+      "full_vs_zero_saving_yuan": 4870080.310218424,
+      "full_vs_zero_saving_percent": 24.943186746192282,
+      "full_vs_half_saving_yuan": 1730975.7189421286
+    },
+    "q4_3": {
+      "costs_yuan": [
+        19349811.654991493,
+        16016574.291101947,
+        14252083.025399216
+      ],
+      "full_vs_zero_saving_yuan": 5097728.629592273,
+      "full_vs_zero_saving_percent": 26.345107231455966,
+      "full_vs_half_saving_yuan": 1764491.2657027284
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "head": "c695293",
+  "frozen_challenger_id": "c4458f2f6fb06e54",
+  "local_formal_complete_cases": [
+    {
+      "case": "q3_7a7d9f1f5f762810",
+      "cost": 13472619.965776566,
+      "bill_error": 0.0,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q2_5c5eb1d7988dccd0",
+      "cost": 13843597.725621978,
+      "bill_error": 0.0,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q4_3_5c5eb1d7988dccd0",
+      "cost": 14252101.502195751,
+      "bill_error": 1.862645149230957e-09,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q4_2_7a7d9f1f5f762810",
+      "cost": 14593105.445750773,
+      "bill_error": 1.862645149230957e-09,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q3_5c5eb1d7988dccd0",
+      "cost": 13461304.45382083,
+      "bill_error": 0.0,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q2_7a7d9f1f5f762810",
+      "cost": 13817945.063203087,
+      "bill_error": 0.0,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q4_3_7a7d9f1f5f762810",
+      "cost": 14244036.493450446,
+      "bill_error": 0.0,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q2_6cfbc0fe34fd0999",
+      "cost": 13817945.063203087,
+      "bill_error": 0.0,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q4_2_5c5eb1d7988dccd0",
+      "cost": 14654319.804457856,
+      "bill_error": 1.862645149230957e-09,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q2_cc3ebe6953b57007",
+      "cost": 13844170.061859094,
+      "bill_error": 1.862645149230957e-09,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q2_d21be844de2de2b1",
+      "cost": 13831654.714459017,
+      "bill_error": 0.0,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q4_3_cc3ebe6953b57007",
+      "cost": 14252083.025399216,
+      "bill_error": 1.862645149230957e-09,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q3_cc3ebe6953b57007",
+      "cost": 13461842.350947868,
+      "bill_error": 0.0,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q4_2_cc3ebe6953b57007",
+      "cost": 14654611.38123864,
+      "bill_error": 1.862645149230957e-09,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    },
+    {
+      "case": "q4_2_d21be844de2de2b1",
+      "cost": 14636544.132188916,
+      "bill_error": 0.0,
+      "balance_error": 1.4210854715202004e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    }
+  ],
+  "remote_candidate_local_cases": [
+    {
+      "case": "q2_6cfbc0fe34fd0999",
+      "cost": 13817945.063203087,
+      "bill_error": 0.0,
+      "balance_error": 2.2737367544323206e-13,
+      "recurrence_error": 1.1368683772161603e-13,
+      "initial": 6000,
+      "final": 6000,
+      "days": 334
+    }
+  ],
+  "unverified_remote_tasks": [
+    "q3",
+    "q4_2",
+    "q4_3"
+  ],
+  "remote_candidate_equals_challenger": false
+}
