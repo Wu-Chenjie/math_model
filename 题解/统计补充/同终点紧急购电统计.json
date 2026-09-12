@@ -1,0 +1,62 @@
+{
+  "scope": "2025-02-01 through 2025-12-31; E0=ET=6000; original Markov policy",
+  "threshold_daily_kwh": 1e-06,
+  "rows": [
+    {
+      "kind": "q2",
+      "days": 146,
+      "days_pct": 43.712574850299404,
+      "no_emergency_days": 188,
+      "total_kwh": 151764.07688902435,
+      "cost_yuan": 647043.8461881,
+      "bill_share_pct": 4.673764070341175,
+      "max_day": "2025-06-01",
+      "max_day_kwh": 12065.03478173989,
+      "longest_consecutive_days": 13,
+      "active_10min_slots": 1483,
+      "source_sha256": "8b4df5f97f7d0cd887a0c690eb8c2f93980f9fb9f24be105369514ebc6fb9ff6"
+    },
+    {
+      "kind": "q3",
+      "days": 104,
+      "days_pct": 31.137724550898206,
+      "no_emergency_days": 230,
+      "total_kwh": 37821.56931429688,
+      "cost_yuan": 174666.17724597486,
+      "bill_share_pct": 1.2974908834352554,
+      "max_day": "2025-12-01",
+      "max_day_kwh": 2694.5758378477776,
+      "longest_consecutive_days": 10,
+      "active_10min_slots": 614,
+      "source_sha256": "5d3083a543e143623dde5f964f302b693ca378218d7c88bc34ebd8633161723f"
+    },
+    {
+      "kind": "q4_2",
+      "days": 132,
+      "days_pct": 39.52095808383233,
+      "no_emergency_days": 202,
+      "total_kwh": 139989.68954028297,
+      "cost_yuan": 654822.6158482771,
+      "bill_share_pct": 4.468372437952225,
+      "max_day": "2025-06-01",
+      "max_day_kwh": 12198.322823574152,
+      "longest_consecutive_days": 10,
+      "active_10min_slots": 1276,
+      "source_sha256": "44a073ea8b20935f6221eabad299fca56c2f7a5c76e79889d662b33005fc4461"
+    },
+    {
+      "kind": "q4_3",
+      "days": 95,
+      "days_pct": 28.443113772455092,
+      "no_emergency_days": 239,
+      "total_kwh": 37930.268467347865,
+      "cost_yuan": 174818.29501795504,
+      "bill_share_pct": 1.2266157494760888,
+      "max_day": "2025-12-02",
+      "max_day_kwh": 2642.136606487895,
+      "longest_consecutive_days": 12,
+      "active_10min_slots": 596,
+      "source_sha256": "d9d2ae9736751c534f11322d834f42987bd35d2e8b24d1a402276a8e2508a205"
+    }
+  ]
+}

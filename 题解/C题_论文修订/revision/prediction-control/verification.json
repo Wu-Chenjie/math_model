@@ -1,0 +1,151 @@
+{
+  "status": "PASS_ARRAY_RECOMPUTATION",
+  "independence": "Separate algebraic validator; author-generated, not a substitute for external independent review.",
+  "cases": [
+    {
+      "output": "january-causal-greedy",
+      "checks": {
+        "bus": 2.2737367544323206e-13,
+        "soc": 1.1368683772161603e-13,
+        "midnight": 0.0,
+        "terminal": 0.0,
+        "initial": 0.0,
+        "simultaneous": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "power": 9.094947017729282e-13,
+        "bill_fixed": 4.656612873077393e-10,
+        "bill_variable": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "output": "gain-q2-10",
+      "checks": {
+        "bus": 1.1368683772161603e-13,
+        "soc": 1.1368683772161603e-13,
+        "midnight": 0.0,
+        "terminal": 0.0,
+        "initial": 0.0,
+        "simultaneous": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "power": 9.094947017729282e-13,
+        "bill_total": 5.820766091346741e-11
+      },
+      "status": "PASS"
+    },
+    {
+      "output": "gain-q2-20",
+      "checks": {
+        "bus": 1.1368683772161603e-13,
+        "soc": 1.1368683772161603e-13,
+        "midnight": 0.0,
+        "terminal": 0.0,
+        "initial": 0.0,
+        "simultaneous": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "power": 9.094947017729282e-13,
+        "bill_total": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "output": "gain-q3-10",
+      "checks": {
+        "bus": 1.1368683772161603e-13,
+        "soc": 1.1368683772161603e-13,
+        "midnight": 0.0,
+        "terminal": 0.0,
+        "initial": 0.0,
+        "simultaneous": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "power": 9.094947017729282e-13,
+        "bill_total": 5.820766091346741e-11
+      },
+      "status": "PASS"
+    },
+    {
+      "output": "gain-q3-20",
+      "checks": {
+        "bus": 1.1368683772161603e-13,
+        "soc": 1.1368683772161603e-13,
+        "midnight": 0.0,
+        "terminal": 0.0,
+        "initial": 0.0,
+        "simultaneous": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "power": 0.0,
+        "bill_total": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "output": "gain-q4_2-10",
+      "checks": {
+        "bus": 1.1368683772161603e-13,
+        "soc": 1.1368683772161603e-13,
+        "midnight": 0.0,
+        "terminal": 0.0,
+        "initial": 0.0,
+        "simultaneous": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "power": 0.0,
+        "bill_total": 0.0
+      },
+      "status": "PASS"
+    },
+    {
+      "output": "gain-q4_2-20",
+      "checks": {
+        "bus": 1.1368683772161603e-13,
+        "soc": 1.1368683772161603e-13,
+        "midnight": 0.0,
+        "terminal": 0.0,
+        "initial": 0.0,
+        "simultaneous": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "power": 0.0,
+        "bill_total": 5.820766091346741e-11
+      },
+      "status": "PASS"
+    },
+    {
+      "output": "gain-q4_3-10",
+      "checks": {
+        "bus": 1.1368683772161603e-13,
+        "soc": 1.1368683772161603e-13,
+        "midnight": 0.0,
+        "terminal": 0.0,
+        "initial": 0.0,
+        "simultaneous": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "power": 0.0,
+        "bill_total": 5.820766091346741e-11
+      },
+      "status": "PASS"
+    },
+    {
+      "output": "gain-q4_3-20",
+      "checks": {
+        "bus": 1.1368683772161603e-13,
+        "soc": 1.1368683772161603e-13,
+        "midnight": 0.0,
+        "terminal": 0.0,
+        "initial": 0.0,
+        "simultaneous": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "power": 9.094947017729282e-13,
+        "bill_total": 5.820766091346741e-11
+      },
+      "status": "PASS"
+    }
+  ]
+}

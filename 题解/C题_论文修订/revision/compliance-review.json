@@ -1,0 +1,230 @@
+{
+  "reviewer": "independent revision_compliance_review agent",
+  "status": "PASS_WITHIN_REQUESTED_NUMERIC_SCOPE",
+  "created_at": "2026-09-11T15:16:28.265558+00:00",
+  "scope": "Original statement table compliance; fixed-endpoint required-day source traceability; strong cross-day baseline prefix reuse and full-year output checks. Does not accept final PDF or full model globally.",
+  "findings": [],
+  "checks": [
+    {
+      "kind": "q2",
+      "status": "PASS",
+      "source_prefix_12_arrays_exact": true,
+      "required_slots_and_block_tex_strings": "PASS",
+      "dates": 4,
+      "daily_tables": 8,
+      "emergency_tables": 1,
+      "physical": {
+        "main": {
+          "balance_max": 2.2737367544323206e-13,
+          "soc_recurrence_max": 1.1368683772161603e-13,
+          "midnight_max": 0.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "power_max": 5000.0000000000055,
+          "simultaneous_max": 0.0,
+          "initial": 6000.0,
+          "final": 6000.0
+        },
+        "strong": {
+          "balance_max": 1.1368683772161603e-13,
+          "soc_recurrence_max": 1.1368683772161603e-13,
+          "midnight_max": 0.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "power_max": 5000.0000000000055,
+          "simultaneous_max": 0.0,
+          "initial": 6000.0,
+          "final": 6000.0
+        }
+      },
+      "baseline_total": 14046615.399589788,
+      "main_total": 13844170.061859094,
+      "saving": 202445.33773069328,
+      "saving_pct": 1.4412392734594657,
+      "bootstrap_95ci": [
+        149420.2306868286,
+        258275.6014884119
+      ]
+    },
+    {
+      "kind": "q3",
+      "status": "PASS",
+      "source_prefix_12_arrays_exact": true,
+      "required_slots_and_block_tex_strings": "PASS",
+      "dates": 4,
+      "daily_tables": 8,
+      "emergency_tables": 1,
+      "physical": {
+        "main": {
+          "balance_max": 2.2737367544323206e-13,
+          "soc_recurrence_max": 1.1368683772161603e-13,
+          "midnight_max": 0.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "power_max": 5000.0000000000055,
+          "simultaneous_max": 0.0,
+          "initial": 6000.0,
+          "final": 6000.0
+        },
+        "strong": {
+          "balance_max": 2.2737367544323206e-13,
+          "soc_recurrence_max": 1.1368683772161603e-13,
+          "midnight_max": 0.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "power_max": 5000.0000000000055,
+          "simultaneous_max": 0.0,
+          "initial": 6000.0,
+          "final": 6000.0
+        }
+      },
+      "baseline_total": 13693145.561324999,
+      "main_total": 13461842.350947868,
+      "saving": 231303.2103771287,
+      "saving_pct": 1.6891897434466983,
+      "bootstrap_95ci": [
+        178024.9007102759,
+        276064.69412298215
+      ]
+    },
+    {
+      "kind": "q4_2",
+      "status": "PASS",
+      "source_prefix_12_arrays_exact": true,
+      "required_slots_and_block_tex_strings": "PASS",
+      "dates": 4,
+      "daily_tables": 8,
+      "emergency_tables": 1,
+      "physical": {
+        "main": {
+          "balance_max": 2.2737367544323206e-13,
+          "soc_recurrence_max": 1.1368683772161603e-13,
+          "midnight_max": 0.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "power_max": 5000.0000000000055,
+          "simultaneous_max": 0.0,
+          "initial": 6000.0,
+          "final": 6000.0
+        },
+        "strong": {
+          "balance_max": 2.2737367544323206e-13,
+          "soc_recurrence_max": 1.1368683772161603e-13,
+          "midnight_max": 0.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "power_max": 5000.0000000000055,
+          "simultaneous_max": 0.0,
+          "initial": 6000.0,
+          "final": 6000.0
+        }
+      },
+      "baseline_total": 14807470.470810372,
+      "main_total": 14654611.38123864,
+      "saving": 152859.0895717325,
+      "saving_pct": 1.0323106155981208,
+      "bootstrap_95ci": [
+        104978.08303201292,
+        196645.33791181943
+      ]
+    },
+    {
+      "kind": "q4_3",
+      "status": "PASS",
+      "source_prefix_12_arrays_exact": true,
+      "required_slots_and_block_tex_strings": "PASS",
+      "dates": 4,
+      "daily_tables": 8,
+      "emergency_tables": 1,
+      "physical": {
+        "main": {
+          "balance_max": 2.2737367544323206e-13,
+          "soc_recurrence_max": 1.1368683772161603e-13,
+          "midnight_max": 0.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "power_max": 5000.0000000000055,
+          "simultaneous_max": 0.0,
+          "initial": 6000.0,
+          "final": 6000.0
+        },
+        "strong": {
+          "balance_max": 2.2737367544323206e-13,
+          "soc_recurrence_max": 1.1368683772161603e-13,
+          "midnight_max": 0.0,
+          "soc_min": 1200.0,
+          "soc_max": 10800.0,
+          "power_max": 5000.0000000000055,
+          "simultaneous_max": 0.0,
+          "initial": 6000.0,
+          "final": 6000.0
+        }
+      },
+      "baseline_total": 14481019.310858807,
+      "main_total": 14252083.025399216,
+      "saving": 228936.28545958927,
+      "saving_pct": 1.580940405817414,
+      "bootstrap_95ci": [
+        176903.0385945796,
+        270941.81436297926
+      ]
+    }
+  ],
+  "prefix_proof": {
+    "horizon_days": 2,
+    "unchanged_prefix_days": 332,
+    "first_replanned_day": "2025-12-30",
+    "reason": "For day index <=362, end=(day+2)*144<365*144, so the final parameter never enters affine_plan. Greedy target uses only current inventory, contract and current net demand. At every prefix slot remaining>=288, final reachability interval contains the full physical SOC range; therefore execute is unchanged. By induction the full prefix is identical. Dec30/31 suffix uses same evaluation_end and initial inventory; free suffix reproduces original exactly.",
+    "final_reachability_nonbinding_if_remaining_at_least": 7,
+    "source_invariants": [
+      "No cached DP state for cross_baseline",
+      "History scenario generator independent of replay start",
+      "Prefix uses unchanged forecasts/settings/data"
+    ]
+  },
+  "interpretation_limits": [
+    "Strong baseline uses shared contract planning plus greedy lower controller; main uses causal affine contract planning plus Markov DP. Difference measures whole-framework improvement, not isolated Markov marginal contribution.",
+    "7-day moving-block interval is a within-year dependence-aware sensitivity interval, not a guarantee for future years.",
+    "Q3/Q4-3 table slots report final contract with original contract in parentheses; daily totals distinguish ordinary contract purchase from actual purchase including emergency.",
+    "Complete source appendix and compiled final PDF/table width remain outside this numerical scope."
+  ],
+  "hashes": {
+    "revision/build_required_tables.py": "68b5073817f6a93946eab5c67b49f4df1e01ac27ec8c0a619fad98e58d365381",
+    "revision/strong_baseline.py": "8a59b891e35fc37115c13eaa1ed5878cfc162e076f5c60e6b84f99ee5adc40c5",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/src/run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/src/control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/inputs/C题.pdf": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/data.npz": "cdf3af873b8dc029f480597638a280aae6628fe1b2142da0bc35bdad9562a649",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/forecast-selection.json": "eb6277a072175fe845b87b5eb55e042e562659f8d55cb5e94ea4222b0146ee71",
+    "tables/specified-q2.tex": "346b1ff147f2561d6e18d44e9686e05149d8870eb4ef125d2ad912e698939497",
+    "tables/specified-q3.tex": "15bc993f10955a436d24e06829597cc84b9bd13565b95a0711afb715d95ad9b5",
+    "tables/specified-q4_2.tex": "4b7f906881a2ec79e305bc0ffb5684ae3fab45502f7f6803d4eef5e6fb536a41",
+    "tables/specified-q4_3.tex": "a45b9b6f88349156ef8fdfd84b167a761c0bb421f70b34996c23d5a78e3df087",
+    "revision/results/q3_strong_baseline.json": "7e3e46880f37f688df30c4d98d6fd2a780c97ddc0944fb2b8f50001cb4561a0f",
+    "revision/results/q4_2_strong_baseline.json": "21a3d1d68988cdd08b1c9a86d32b34a0d40df0434b98334ec68c1dc8a8b0de87",
+    "revision/results/q2_strong_baseline.json": "4a9dc9b66bfe38a434ea8d4a5b4116d41df33205c9ac18f569a4af2306d0c0c2",
+    "revision/results/q4_3_strong_baseline.json": "db5bbbb260367b04a3f85a38e4c496f230e5e6bd8f799c7ee2a92e967981b049",
+    "revision/results/q3_cross_baseline_fixed.npz": "36f4932d2827d4301bc16083df4fc4111551a9a58d782b1c20d54751c6984224",
+    "revision/results/q4_2_cross_baseline_fixed.npz": "b469fae67eb4c1b105a29794c754a027ea79d1da2386e634696e42e58add5f10",
+    "revision/results/q4_3_cross_baseline_fixed.npz": "76d97d1d5d952fc330e493892f2f9125ab1e3e330d17935c7c436f67f14b2c62",
+    "revision/results/q2_cross_baseline_fixed.npz": "ee9836bd475058e63c7ddf7ed2792e2c0b31c66da97e66594667aa9a9b5d0cf3",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_论文修订/revision/required-tables.json": "100b8e23bad187151d5c401c74067b757eff5bed7ee2ca4ff3c43a9a31646011",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_下一代随机控制/inputs/论文格式规范2026.pdf": "cece4bb3a900a0435160032b98ea26e03b0f2d7eca58424b0d023e26085aed26",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/global-terminal/q2_markov_mpc.npz": "8b4df5f97f7d0cd887a0c690eb8c2f93980f9fb9f24be105369514ebc6fb9ff6",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q2_cross_baseline.npz": "e6775b1d3911ca460e05dca952a9a59dc82847222e9959c9fca574d5da7d45cb",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q2_cross_baseline.json": "ccbd59ac97284dd28b53ff4c62f3f2fef894acaf43f28da36ff2a289bbfb2753",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q2_markov_mpc.json": "0847fa769b62f16b96fce3d0713f21ea0eadf1eeb5f0e3b99d67f6b8d17926cb",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/global-terminal/q3_markov_mpc.npz": "5d3083a543e143623dde5f964f302b693ca378218d7c88bc34ebd8633161723f",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q3_cross_baseline.npz": "3b686dc4757c16e4a308a2097f07c6c30ac144442fd21d22515743e353ecaf1f",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q3_cross_baseline.json": "e82274b0212f36ced81b634ab95140614fa021619a34ad3635e4357de9d08e21",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q3_markov_mpc.json": "26b7c8bdf5683614486a44469f55b5677c2c9bf6fd43cf552503f2b8a5b7f41a",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/global-terminal/q4_2_markov_mpc.npz": "44a073ea8b20935f6221eabad299fca56c2f7a5c76e79889d662b33005fc4461",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q4_2_cross_baseline.npz": "f101e6a978b626fd2725c18ebeae6c596987f257d2fbd41715494dc82d5544b9",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q4_2_cross_baseline.json": "1f6c700b1aa2c68388d208b4984d6260c285c67cee60530131fe001b9db930f4",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q4_2_markov_mpc.json": "2d600bc2c15c93fc9da5422df0149410e8b7b6bdf23c090507a6e1362a8da412",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/global-terminal/q4_3_markov_mpc.npz": "d9d2ae9736751c534f11322d834f42987bd35d2e8b24d1a402276a8e2508a205",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q4_3_cross_baseline.npz": "317a5eaa34b5f305cdd90eac133b017e6656e5fba89a465fc183ba4f222047b2",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q4_3_cross_baseline.json": "3d7dc6556667b232e2d23f407df8860e2af1b01e2ac72d7d78a3d5f6e14019d2",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/题解/C题_跨日随机控制/artifacts/annual/q4_3_markov_mpc.json": "895d1ac7ed61a81bc8f7d92ecbf9f3080285f7bc28ceb66988601d0b451a44f8"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "status": "VALUES_VERIFIED",
+  "records": [
+    {
+      "kind": "q3",
+      "date": "2025-06-21",
+      "slots": [
+        108,
+        120
+      ],
+      "original_contract_kwh": [
+        52.12259434381861,
+        52.12259434381861
+      ],
+      "exactly_equal": true,
+      "absolute_difference_kwh": 0.0,
+      "two_decimal_equal": true,
+      "source_sha256": "5d3083a543e143623dde5f964f302b693ca378218d7c88bc34ebd8633161723f"
+    },
+    {
+      "kind": "q3",
+      "date": "2025-09-23",
+      "slots": [
+        72,
+        84
+      ],
+      "original_contract_kwh": [
+        8.584216477366608,
+        8.584216477366612
+      ],
+      "exactly_equal": false,
+      "absolute_difference_kwh": 3.552713678800501e-15,
+      "two_decimal_equal": true,
+      "source_sha256": "5d3083a543e143623dde5f964f302b693ca378218d7c88bc34ebd8633161723f"
+    },
+    {
+      "kind": "q4_3",
+      "date": "2025-06-21",
+      "slots": [
+        108,
+        120
+      ],
+      "original_contract_kwh": [
+        50.73314517110099,
+        50.73314517110099
+      ],
+      "exactly_equal": true,
+      "absolute_difference_kwh": 0.0,
+      "two_decimal_equal": true,
+      "source_sha256": "d9d2ae9736751c534f11322d834f42987bd35d2e8b24d1a402276a8e2508a205"
+    },
+    {
+      "kind": "q4_3",
+      "date": "2025-09-23",
+      "slots": [
+        72,
+        84
+      ],
+      "original_contract_kwh": [
+        7.647872041861574,
+        7.647872041861574
+      ],
+      "exactly_equal": true,
+      "absolute_difference_kwh": 0.0,
+      "two_decimal_equal": true,
+      "source_sha256": "d9d2ae9736751c534f11322d834f42987bd35d2e8b24d1a402276a8e2508a205"
+    }
+  ],
+  "interpretation": "The requested values are executed original contracts q, read directly from full-precision NPZ. Equality alone cannot prove zero intercept or affine degeneracy; current-day q is an independent intercept for each slot, because release<=asof prevents a current-day gain term."
+}

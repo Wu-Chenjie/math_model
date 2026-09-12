@@ -1,0 +1,295 @@
+{
+  "kind": "q3",
+  "candidate": "markov_mpc",
+  "configuration": {
+    "count": 7,
+    "horizon_days": 2,
+    "tail_scale": 1.0,
+    "grid": 321,
+    "final": 6000.0,
+    "initial": 8249.564780791048,
+    "closed_daily": false,
+    "start_day": 363,
+    "end_day": 364
+  },
+  "totals": {
+    "planned_cost": 126018.00456734878,
+    "increase_cost": 62.30578029297817,
+    "reduction_net_cost": -1981.396769939954,
+    "emergency_cost": 114.63791268977263,
+    "total_cost": 124213.55149039156,
+    "emergency_energy": 47.361099921225204,
+    "spill_energy": 7917.7403367745765,
+    "projection_count": 0.0
+  },
+  "validation": {
+    "balance_max_abs": 1.1368683772161603e-13,
+    "soc_recurrence_max_abs": 1.1368683772161603e-13,
+    "midnight_jump_max_abs": 0.0,
+    "soc_min": 1250.3323361554676,
+    "soc_max": 10800.0,
+    "power_max_kw": 5000.0,
+    "simultaneous_max": 0.0,
+    "lp_violation_max": 5.030642569181509e-12,
+    "lp_objective_recompute_gap": 2.9103830456733704e-10,
+    "initial_inventory": 8249.564780791048,
+    "final_inventory": 6000.0,
+    "negative_energy_violation": 0.0
+  },
+  "daily": [
+    {
+      "date": "2025-12-30",
+      "planned_cost": 63034.78127637529,
+      "increase_cost": 62.30578029297733,
+      "reduction_net_cost": -1429.0900891386846,
+      "emergency_cost": 21.10397602303601,
+      "total_cost": 61689.10094355261,
+      "emergency_energy": 3.612766587875498,
+      "spill_energy": 3107.6417991093904,
+      "ending_inventory": 8579.664943998254,
+      "projection_count": 0
+    },
+    {
+      "date": "2025-12-31",
+      "planned_cost": 62983.22329097348,
+      "increase_cost": 8.399297257710715e-13,
+      "reduction_net_cost": -552.3066808012695,
+      "emergency_cost": 93.53393666673662,
+      "total_cost": 62524.450546838954,
+      "emergency_energy": 43.748333333349706,
+      "spill_energy": 4810.098537665186,
+      "ending_inventory": 6000.0,
+      "projection_count": 0
+    }
+  ],
+  "decisions": [
+    {
+      "as_of": 52272,
+      "end": 52560,
+      "history_days": [
+        334,
+        338,
+        343,
+        348,
+        352,
+        356,
+        361
+      ],
+      "latest_training_target_exclusive": 52272,
+      "official_covered_slots": 144,
+      "date": "2025-12-30",
+      "release": 0,
+      "inventory": 8249.564780791048,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_model_days": null,
+      "tail_cut_count": 0
+    },
+    {
+      "as_of": 52308,
+      "end": 52560,
+      "history_days": [
+        334,
+        338,
+        343,
+        348,
+        352,
+        356,
+        361
+      ],
+      "latest_training_target_exclusive": 52272,
+      "official_covered_slots": 144,
+      "date": "2025-12-30",
+      "release": 1,
+      "inventory": 10800.0,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_model_days": null,
+      "tail_cut_count": 0
+    },
+    {
+      "as_of": 52344,
+      "end": 52560,
+      "history_days": [
+        334,
+        338,
+        343,
+        348,
+        352,
+        356,
+        361
+      ],
+      "latest_training_target_exclusive": 52272,
+      "official_covered_slots": 144,
+      "date": "2025-12-30",
+      "release": 2,
+      "inventory": 6890.647812193149,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_model_days": null,
+      "tail_cut_count": 0
+    },
+    {
+      "as_of": 52380,
+      "end": 52560,
+      "history_days": [
+        334,
+        338,
+        343,
+        348,
+        352,
+        356,
+        361
+      ],
+      "latest_training_target_exclusive": 52272,
+      "official_covered_slots": 108,
+      "date": "2025-12-30",
+      "release": 3,
+      "inventory": 10800.0,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_model_days": null,
+      "tail_cut_count": 0
+    },
+    {
+      "as_of": 52416,
+      "end": 52560,
+      "history_days": [
+        336,
+        340,
+        345,
+        350,
+        354,
+        358,
+        363
+      ],
+      "latest_training_target_exclusive": 52416,
+      "official_covered_slots": 144,
+      "date": "2025-12-31",
+      "release": 0,
+      "inventory": 8579.664943998254,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_model_days": null,
+      "tail_cut_count": 0
+    },
+    {
+      "as_of": 52452,
+      "end": 52560,
+      "history_days": [
+        336,
+        340,
+        345,
+        350,
+        354,
+        358,
+        363
+      ],
+      "latest_training_target_exclusive": 52416,
+      "official_covered_slots": 108,
+      "date": "2025-12-31",
+      "release": 1,
+      "inventory": 10800.0,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_model_days": null,
+      "tail_cut_count": 0
+    },
+    {
+      "as_of": 52488,
+      "end": 52560,
+      "history_days": [
+        336,
+        340,
+        345,
+        350,
+        354,
+        358,
+        363
+      ],
+      "latest_training_target_exclusive": 52416,
+      "official_covered_slots": 72,
+      "date": "2025-12-31",
+      "release": 2,
+      "inventory": 7410.0,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_model_days": null,
+      "tail_cut_count": 0
+    },
+    {
+      "as_of": 52524,
+      "end": 52560,
+      "history_days": [
+        336,
+        340,
+        345,
+        350,
+        354,
+        358,
+        363
+      ],
+      "latest_training_target_exclusive": 52416,
+      "official_covered_slots": 36,
+      "date": "2025-12-31",
+      "release": 3,
+      "inventory": 10800.0,
+      "tail_price": 0.0,
+      "tail_model_cutoff": null,
+      "tail_model_days": null,
+      "tail_cut_count": 0
+    }
+  ],
+  "runtime_seconds": 3.8474300000816584,
+  "prefix_reuse": {
+    "days": 332,
+    "original_trajectory": "artifacts/experiments/annual_pv_without18.npz",
+    "sha256": "ced44a1fe78d57d1aa664af06df82d1964a0abfb8b04a3e9761d77f32969e7f4",
+    "free_suffix_max_differences": {
+      "q": 0.0,
+      "r": 0.0,
+      "c": 0.0,
+      "d": 0.0,
+      "emergency": 0.0,
+      "spill": 0.0,
+      "state": 0.0
+    },
+    "proof_scope": "unchanged two-midnight policy, no terminal-visible plan before Dec30 and inactive earlier terminal reachability"
+  },
+  "gain_probe": {
+    "scope": "ablation",
+    "lp_calls": 16,
+    "gain_entries": 336,
+    "near_bound_entries": 80,
+    "max_abs": 10.0,
+    "method": "read returned primal values for bounds exactly [-10,10], no objective/constraints/actions altered"
+  },
+  "execution": {
+    "job": [
+      "ablation",
+      "q3",
+      "without18"
+    ],
+    "exit_code": 0,
+    "runtime_seconds": 8.535529667045921,
+    "script_sha256": "3744f0d8711ccbac0733212a09cf69f23c6465397f80c1714466987bc66378ce",
+    "source_hashes": {
+      "continue_pipeline.py": "9e29a3b37c595294d5106b2ce625efdfaf28187a30fcbd5c65fbbe769e46a37e",
+      "verify_workbooks.py": "c08289f66e183a22d2489f79b22b915758586b8940fc4c65b5c8b70c1802550a",
+      "run.py": "94515e291908e8eb90e34c22323c57f75ef8f50027753740ab6d353a30c4d510",
+      "sddp.py": "9bc9b6b5510d289c492871c3e559d83c26705baa806377e684785b0b97ef8fc8",
+      "prepare_data.py": "6c04c50bc4ad30503bc889d84dabc3c25d7ae0fc62c437cadd1208ec3ecc578a",
+      "dispatch.py": "8f0dcd814ea79fabb34e224754dd7dad4ec58076ca3e480b25715831f3735233",
+      "control.py": "b47a9de87e3df40f243f725ed392a1aafad71ca2da662f5a4c24dcd626406283",
+      "select_model.py": "4038e873c1d77e525ba1c2d591c0441dd93e527b8214acebb6c604196648b2f7",
+      "analyze_tail.py": "7c7c9dd491d21707eef4771d92f31ca03471d96d5a5c33f1df20b9758efb7ae0",
+      "freeze_evidence.py": "57562c3f701f071b261b8a962b88b484422896d496104a72a173208883b7ff75",
+      "validate.py": "966f74fad9e05a1e4ac9845dd7df844146fad4f702d4ae8eb5245bcdf819f447",
+      "export_results.py": "8467bdbda3c39ec8afa6eee6adfa6b0bf081c963dec4f8f719c2dd8ed40c5f87",
+      "check_terminal.py": "801e8a1c7c4c98d1d0285d8e195c31874322c5996b37760ce5e1588c047fdf34",
+      "package_when_ready.py": "20c8fce64211887745ac62670d91fc62b7d644d826252e2a9e0bd77a5532c8eb",
+      "finish.py": "5b60a3808504711ad903b5356f1d1281685e07a7b814f31e028ea45bfd5d9c4b",
+      "forecasting.py": "12d3c0b7c69b13329d5fa249643fd38809e5c045a9f652c4d9ad23ef434eb7b9"
+    }
+  }
+}

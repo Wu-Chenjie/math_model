@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "q2",
+    "slots": 48096,
+    "both_strictly_positive": 0,
+    "both_above_1e_6": 0,
+    "max_min_kwh": 0.0
+  },
+  {
+    "kind": "q3",
+    "slots": 48096,
+    "both_strictly_positive": 0,
+    "both_above_1e_6": 0,
+    "max_min_kwh": 0.0
+  },
+  {
+    "kind": "q4_2",
+    "slots": 48096,
+    "both_strictly_positive": 0,
+    "both_above_1e_6": 0,
+    "max_min_kwh": 0.0
+  },
+  {
+    "kind": "q4_3",
+    "slots": 48096,
+    "both_strictly_positive": 0,
+    "both_above_1e_6": 0,
+    "max_min_kwh": 0.0
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "status": "PASS_RENDERING_WITH_DISCLOSED_WHITESPACE",
+  "sha256": "ef9431b1ba76db4c9d7e6adf011eb9c1b7b455eb862c444b83f5b3343ae35fb1",
+  "pages": 107,
+  "body_end_page": 23,
+  "abstract_pages": 1,
+  "rendered_pages": 107,
+  "visual_review": "All 107 pages inspected through 9 contact sheets; abstract, forecast, specified-date tables and core control source additionally inspected at 1700-1900 px. No clipping, overlap or missing glyphs observed.",
+  "log_errors": [],
+  "render_log": "",
+  "minor_layout_note": "Several appendix emergency-summary pages and the final sensitivity-table page retain whitespace to preserve section and same-date grouping; not missing content.",
+  "code_font_pt": 7.5,
+  "code_line_height_pt": 9,
+  "independent_reviews": [
+    "revision/final-math-review.json",
+    "revision/final-judge-review.json"
+  ],
+  "reproduce_check_exit_code": 0
+}
