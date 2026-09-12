@@ -1,0 +1,11 @@
+{
+  "baseline_method": 56,
+  "candidate_method": 78,
+  "selection": "Safe anchored execution shortcut only; no negative-ablation algorithm enabled.",
+  "development_seeds": [2110001,2110040],
+  "independent_iid": {"start":2310001,"count_per_problem":200},
+  "stress": {"starts":[2320001,2330001,2340001,2350001,2360001],"count_per_problem_per_group":40},
+  "promotion": "No incomplete clearance, no changed measurement/outcome trace in integration checks, positive held-out mean saving and no time regression beyond rounding tolerance. Do not claim 10 percent.",
+  "position_error": 0,
+  "forecast_model": "Original method56, unchanged. Finite DP is not a global optimum certificate."
+}
