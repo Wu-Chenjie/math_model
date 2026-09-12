@@ -1,0 +1,243 @@
+{
+  "configs": {
+    "旧最近邻": {
+      "rows": 400,
+      "max_csv_accounting_residual_s": 6.122000013419893e-05,
+      "3": {
+        "mean_time_s": 4483.27501566,
+        "mean_avg_s": 344.254197764735,
+        "saving_percent": 0.0,
+        "saving_ci95": [
+          0.0,
+          0.0
+        ],
+        "wins": 0
+      },
+      "4": {
+        "mean_time_s": 10939.40485714,
+        "mean_avg_s": 851.762380069565,
+        "saving_percent": 0.0,
+        "saving_ci95": [
+          0.0,
+          0.0
+        ],
+        "wins": 0
+      }
+    },
+    "分层2-opt": {
+      "rows": 400,
+      "max_csv_accounting_residual_s": 6.367999958456494e-05,
+      "3": {
+        "mean_time_s": 4423.562061155,
+        "mean_avg_s": 339.477046024565,
+        "saving_percent": 1.331904786041983,
+        "saving_ci95": [
+          33.52135781234526,
+          85.90455119765474
+        ],
+        "wins": 107
+      },
+      "4": {
+        "mean_time_s": 10503.0380433,
+        "mean_avg_s": 815.5267780742751,
+        "saving_percent": 3.9889447327218113,
+        "saving_ci95": [
+          312.2617846410584,
+          560.4718430389416
+        ],
+        "wins": 167
+      }
+    },
+    "联合31点": {
+      "rows": 400,
+      "max_csv_accounting_residual_s": 6.580000081157777e-05,
+      "3": {
+        "mean_time_s": 4151.71872392,
+        "mean_avg_s": 317.858167773835,
+        "saving_percent": 7.395403819348129,
+        "saving_ci95": [
+          292.5329910276564,
+          370.5795924523436
+        ],
+        "wins": 177
+      },
+      "4": {
+        "mean_time_s": 9803.989379995,
+        "mean_avg_s": 760.0620001573,
+        "saving_percent": 10.379133892315265,
+        "saving_ci95": [
+          967.3762881384861,
+          1303.454666151514
+        ],
+        "wins": 179
+      }
+    },
+    "25点最近邻": {
+      "rows": 400,
+      "max_csv_accounting_residual_s": 4.927999907522462e-05,
+      "3": {
+        "mean_time_s": 4483.27501566,
+        "mean_avg_s": 344.254197764735,
+        "saving_percent": 0.0,
+        "saving_ci95": [
+          0.0,
+          0.0
+        ],
+        "wins": 0
+      },
+      "4": {
+        "mean_time_s": 9912.2890564,
+        "mean_avg_s": 768.102421090105,
+        "saving_percent": 9.38913783842286,
+        "saving_ci95": [
+          876.1866159959487,
+          1178.0449854840513
+        ],
+        "wins": 175
+      }
+    },
+    "联合25点": {
+      "rows": 400,
+      "max_csv_accounting_residual_s": 5.720000081055332e-05,
+      "3": {
+        "mean_time_s": 4151.71872392,
+        "mean_avg_s": 317.858167773835,
+        "saving_percent": 7.395403819348129,
+        "saving_ci95": [
+          292.5329910276564,
+          370.5795924523436
+        ],
+        "wins": 177
+      },
+      "4": {
+        "mean_time_s": 8718.166131295,
+        "mean_avg_s": 674.10874703202,
+        "saving_percent": 20.30493207676858,
+        "saving_ci95": [
+          2037.1694132182372,
+          2405.3080384717623
+        ],
+        "wins": 188
+      }
+    },
+    "最终方案": {
+      "rows": 400,
+      "max_csv_accounting_residual_s": 5.751999924541451e-05,
+      "3": {
+        "mean_time_s": 3717.342838485,
+        "mean_avg_s": 285.28336414053,
+        "saving_percent": 17.084211307573426,
+        "saving_ci95": [
+          715.5420674004998,
+          816.3222869495002
+        ],
+        "wins": 196
+      },
+      "4": {
+        "mean_time_s": 8353.9524613,
+        "mean_avg_s": 646.75941466829,
+        "saving_percent": 23.63430579271879,
+        "saving_ci95": [
+          2401.255183970888,
+          2769.649607709112
+        ],
+        "wins": 189
+      }
+    }
+  },
+  "stress": {
+    "boundary": {
+      "rows": 200,
+      "all_cleared": true
+    },
+    "collinear": {
+      "rows": 200,
+      "all_cleared": true
+    },
+    "correlated": {
+      "rows": 200,
+      "all_cleared": true
+    },
+    "endpoint": {
+      "rows": 200,
+      "all_cleared": true
+    },
+    "degenerate": {
+      "rows": 200,
+      "all_cleared": true
+    }
+  },
+  "original_mock": {
+    "original_kernel": 60,
+    "local_HTTP": 6
+  },
+  "lower_bound": {
+    "outside_points": 7,
+    "fixed_points": 14
+  },
+  "q2_exact_rerun": {
+    "continuous_model_lower": {
+      "certified_floor_m": "64.47229",
+      "global_lower_m": [
+        64.47229342300993,
+        64.47229342300994
+      ],
+      "dt_da_numerator": [
+        10208.17945694307,
+        58683.71211077131
+      ],
+      "dt_db_numerator": [
+        30302.691829361007,
+        78778.22448318925
+      ],
+      "denominator": [
+        260.17240096350383,
+        470.4150396760772
+      ],
+      "t_min_m": [
+        1236.2598775170748,
+        1236.2598775170748
+      ],
+      "t_max_m": [
+        1381.353670463212,
+        1381.353670463212
+      ]
+    },
+    "physical_quantized_lower": {
+      "certified_floor_m": "64.38469",
+      "global_lower_m": [
+        64.38469003693496,
+        64.38469003693496
+      ],
+      "dt_da_numerator": [
+        10216.908055380054,
+        58497.88472248021
+      ],
+      "dt_db_numerator": [
+        30327.90415276253,
+        78608.88081986268
+      ],
+      "denominator": [
+        260.06122536587446,
+        470.27083860455053
+      ],
+      "t_min_m": [
+        1236.6074070113423,
+        1236.6074070113423
+      ],
+      "t_max_m": [
+        1381.545603700727,
+        1381.545603700727
+      ]
+    },
+    "continuous_and_quantized_upper": {
+      "q": [
+        850,
+        400
+      ],
+      "upper_m": "64473/1000",
+      "verified_by": "exact Fraction squared-distance checks",
+      "nodes": 166
+    }
+  }
+}

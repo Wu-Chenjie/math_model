@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "PDF_pages": 11,
+  "native_Word_pages": 9,
+  "native_math_objects": 74,
+  "Word_figures": 3,
+  "Word_renderer": "installed Microsoft Word native export; LibreOffice absent",
+  "no_raw_TeX_fallback": true
+}

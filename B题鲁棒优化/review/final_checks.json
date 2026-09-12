@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "nominal_rows": 8880,
+  "hardware_rows": 320,
+  "all_nominal_complete": true,
+  "aware_hardware_complete": 160,
+  "nominal_diagnostic_truth_excluded": 156,
+  "nominal_empty_feasible_set": 4,
+  "max_cost_residual_s": 0.00017115599803219084,
+  "previous_three_frozen_versions_unchanged": true,
+  "official_formal_cases": 0
+}

@@ -1,0 +1,18 @@
+{
+  "missing_leaf_rejected": true,
+  "inflated_eta_rejected": true,
+  "layout_perturbation_upper_bound_interval_m": [
+    "485740202823/1000000000000",
+    "60717525353/125000000000"
+  ],
+  "layout_perturbation_upper_bound_decimal_m": [
+    0.485740202823,
+    0.485740202824
+  ],
+  "robust_eta04_budget_if_actual_positions_known": {
+    "B": 2673,
+    "L": 1186634,
+    "time_s": 246070.8
+  },
+  "input_sha256": "6b33a655c552d49b6b5d3e467a665bb98aecfcf7c4a4e283262da328f5e888f9"
+}
