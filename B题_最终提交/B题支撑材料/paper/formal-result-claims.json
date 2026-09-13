@@ -1,0 +1,18 @@
+{
+  "source": "six official formal bridge logs and six simulator-exported encrypted jlog files",
+  "generated_on": "2026-09-13",
+  "interpretation_note": "Official formal tests do not reveal jammer_count; cleared_count is therefore not asserted as a full-clear ratio.",
+  "runs": [
+    {"problem": 3, "index": 1, "case_code": "42PD-EFKH-MB35-HUGM", "cleared_count": 11, "total_time_s": 2799.209049, "mean_time_per_cleared_s": 254.473550, "program_runtime_s": 2.074, "http_errors": 0, "exit_reason": "user_exit"},
+    {"problem": 3, "index": 2, "case_code": "64KQ-SEGG-VQCH-M8C8", "cleared_count": 14, "total_time_s": 3011.695801, "mean_time_per_cleared_s": 215.121129, "program_runtime_s": 1.624, "http_errors": 0, "exit_reason": "user_exit"},
+    {"problem": 3, "index": 3, "case_code": "B4WR-YVMD-JQQV-XFTP", "cleared_count": 14, "total_time_s": 3046.281382, "mean_time_per_cleared_s": 217.591527, "program_runtime_s": 2.089, "http_errors": 0, "exit_reason": "user_exit"},
+    {"problem": 4, "index": 1, "case_code": "ZHZN-TEBH-HMAG-FFDG", "cleared_count": 15, "total_time_s": 5495.166975, "mean_time_per_cleared_s": 366.344465, "program_runtime_s": 4.742, "http_errors": 0, "exit_reason": "user_exit"},
+    {"problem": 4, "index": 2, "case_code": "WMJX-EKTD-KPRD-786W", "cleared_count": 10, "total_time_s": 5751.922461, "mean_time_per_cleared_s": 575.192246, "program_runtime_s": 5.361, "http_errors": 0, "exit_reason": "user_exit"},
+    {"problem": 4, "index": 3, "case_code": "MTHU-N87U-YWR2-3RRK", "cleared_count": 10, "total_time_s": 5582.222286, "mean_time_per_cleared_s": 558.222229, "program_runtime_s": 4.908, "http_errors": 0, "exit_reason": "user_exit"}
+  ],
+  "aggregates": {
+    "problem_3": {"cleared_count": 39, "total_time_s": 8857.186232, "weighted_mean_time_per_cleared_s": 227.107339},
+    "problem_4": {"cleared_count": 35, "total_time_s": 16829.311722, "weighted_mean_time_per_cleared_s": 480.837478},
+    "all": {"cleared_count": 74, "http_errors": 0, "confirmed_runs": 6}
+  }
+}

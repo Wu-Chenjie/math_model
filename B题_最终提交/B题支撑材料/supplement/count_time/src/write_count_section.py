@@ -1,0 +1,53 @@
+import json
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];D=json.loads((R/'artifacts/count_time_results.json').read_text());q3=D['Q']['3']['models']['affine_step16'];q4=D['Q']['4']['models']['affine_step16']
+s='''% 可从现有 paper/main.tex 用 input 引入；图像路径以该文件所在目录为基准。
+@subsection{信号源数量与单源平均清除时长}
+设信号源数量为$N$，全部清除总时长为$T$，单源平均时长为$@tau=T/N$。以下研究默认方法78在$10@le N@le16$内的条件均值，不将源数量视为决定单局时长的唯一因素。
+
+总行走距离、换频数、测向数和失败清除数分别记为$L,S,M,F$，计时规则严格给出
+@begin{equation}T=L/5+S+5M+3F+5N.@end{equation}
+记实际发现点数为$m$，第$k$个源首次被发现的发现点序号为$J_k$。空频道在每一点检测，有源频道检测至首次发现，故
+@begin{equation}M_{@mathrm{disc}}=m(20-N)+@sum_{k=1}^N J_k.@end{equation}
+每一发现点的首次测量至多节省一次换频。记$d=M_{@mathrm{disc}}-S_{@mathrm{disc}}$，则$0@le d@le m$；其它检测和换频数记为$M_{@mathrm{loc}},S_{@mathrm{loc}}$。由此得到
+@begin{equation}@begin{aligned}
+@tau={}&@frac{L}{5N}+6m@left(@frac{20}{N}-1@right)+6@overline J+5\\
+&+@frac{5M_{@mathrm{loc}}+S_{@mathrm{loc}}+3F-d}{N},@qquad @overline J=@frac1N@sum_kJ_k.
+@end{aligned}@end{equation}
+源数增加会减少空频道重复扫描，并分摊共同开销。$N<16$时，Q3与Q4分别需完成7个和21个发现点；$N=16$时，已知数量上界允许提前结束发现。
+
+据此在有限数量范围内建立均值近似
+@begin{equation}
+@mathbb E[T@mid N]@approx A+BN+C@mathbf1_{@{N=16@}},@qquad
+@mu(N):=@mathbb E[@tau@mid N]@approx B+@frac A N+@frac C N@mathbf1_{@{N=16@}}.
+@end{equation}
+原独立集每问200局用于事后关系建模；冻结公式后，新增种子2710001至2710200、每问200局作验证，不用新样本重估参数。总时长最小二乘拟合得到（单位：秒）
+@begin{align}
+@widehat@mu_3(N)&=NUM_B3+@frac{NUM_A3}{N}-@frac{NUM_C3}{N}@mathbf1_{@{N=16@}},\\
+@widehat@mu_4(N)&=NUM_B4+@frac{NUM_A4}{N}-@frac{NUM_C4}{N}@mathbf1_{@{N=16@}}.
+@end{align}
+HC3异方差稳健标准误给出两问$A$的95@%近似区间分别为$[2014.89,2466.19]$、$[5889.35,6524.36]$，均为正；$C$的相应区间均为负。因而对$N=10,@ldots,14$，模型预测的相邻变化为
+@begin{equation}@widehat@mu(N+1)-@widehat@mu(N)=-@frac{@widehat A}{N(N+1)}<0.@end{equation}
+从15到16还包含$@widehat C/16$的修正。$B$是减少空频道检测后的净增量系数，不是独立单源的操作费用，因此可以为负。
+
+@begin{table}[H]@centering@small@caption{冻结的新200局验证，逐局计算误差}
+@begin{tabular}{lrr}@toprule 指标&Q3&Q4\\@midrule
+单源均时RMSE/秒&NUM_RMSE3&NUM_RMSE4\\
+单源均时$R^2$&NUM_R23&NUM_R24\\
+总时长$R^2$&NUM_TR23&NUM_TR24\\@bottomrule
+@end{tabular}@end{table}
+原400行结果逐行重现，800个剖析案例均通过计时及发现次数恒等式。公式主要解释每源平均时长的下降趋势；总时长解释力较低，空间位置、接收半径、朝向和误差仍造成较大变动。尤其16源分组存在可见预测误差，不能把公式当作单局精确预测或所有布局的单调性定理。结论限于含40米位置排斥规则的本地场景分布，不外推官方成绩或题设数量范围之外。
+
+@begin{figure}[H]@centering
+@includegraphics[width=@linewidth]{../补充分析/信号源数量与平均时长/figures/count_time_relation.pdf}
+@caption{源数量与每源均时。阴影为拟合均值HC3近似95@%区间，误差棒为新样本分组均值区间；16处方点包含停止规则修正。}
+@end{figure}
+'''
+for num,f in [('3',q3),('4',q4)]:
+ for k,v in zip(['A','B','C'],f['coefficients']):s=s.replace('NUM_'+k+num,f'{abs(v) if k=="C" else v:.2f}')
+ s=s.replace('NUM_RMSE'+num,f"{f['fresh_validation']['avg_RMSE_s']:.2f}").replace('NUM_R2'+num,f"{f['fresh_validation']['avg_R2']:.3f}").replace('NUM_TR2'+num,f"{f['fresh_validation']['total_R2']:.3f}")
+s=s.replace('@',chr(92))
+# In this template Python backslash escapes leave one slash at row endings;
+# restore the LaTeX row break tokens before a newline or table rule.
+s=s.replace(chr(92)+'\n',chr(92)*2+'\n').replace(chr(92)+chr(92)+'midrule',chr(92)*2+chr(92)+'midrule').replace(chr(92)+chr(92)+'bottomrule',chr(92)*2+chr(92)+'bottomrule')
+(R/'论文插入段落.tex').write_text(s)

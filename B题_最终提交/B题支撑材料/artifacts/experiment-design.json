@@ -1,0 +1,31 @@
+{
+  "baseline": 56,
+  "previous_default": 78,
+  "development": {
+    "start": 2110001,
+    "count": 40
+  },
+  "iid": {
+    "start": 2610001,
+    "count": 200
+  },
+  "stress": {
+    "starts": [
+      2620001,
+      2630001,
+      2640001,
+      2650001,
+      2660001
+    ],
+    "count": 40
+  },
+  "selection": "Development only; freeze config and hash before reading fresh iid. Reject incomplete clearance. Report Q3/Q4 separately, paired total time mean, 95% paired CI and regressions. No promised gain.",
+  "methods": {
+    "79": "worst radius with travel dominance",
+    "80": "nearest certified second region",
+    "81": "residual cover with continuous discovery replacement",
+    "82": "method56 single-source controller rollout",
+    "83": "certified optical and clear neighborhoods",
+    "84": "development-selected composition"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+    "run_all.py"
+  ],
+  "location": "fresh temporary directory named renamed_portable_solver",
+  "exit_code": 0,
+  "runtime_s": 33.11315083503723,
+  "summary_equal": true,
+  "fresh_witness_replay": true,
+  "scope": "Recompiled both binaries, all11 regression programs, Q2/Q3/Q4 certificates and CSV summary. Does not rerun2000 model cases or any official test."
+}

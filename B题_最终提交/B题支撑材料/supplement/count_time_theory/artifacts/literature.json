@@ -1,0 +1,51 @@
+{
+  "verified_on": "2026-09-13",
+  "primary_sources": [
+    {
+      "id": "bhh1959",
+      "authors": [
+        "Jillian Beardwood",
+        "J. H. Halton",
+        "J. M. Hammersley"
+      ],
+      "year": 1959,
+      "title": "The shortest path through many points",
+      "doi": "10.1017/S0305004100034095",
+      "url": "https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/shortest-path-through-many-points/F1C28B5730B94887F4659FCBF8A1F2BB",
+      "supports": "Random point-tour length scaling under stated iid assumptions, not unknown-source task time."
+    },
+    {
+      "id": "dumitrescu_mitchell2003",
+      "authors": [
+        "Adrian Dumitrescu",
+        "Joseph S. B. Mitchell"
+      ],
+      "year": 2003,
+      "title": "Approximation algorithms for TSP with neighborhoods in the plane",
+      "doi": "10.1016/S0196-6774(03)00047-6",
+      "url": "https://arxiv.org/abs/1703.01640",
+      "supports": "Neighborhood tour formulation; finite 2rn bound is separately proved in this note.",
+      "archive_upload_year": 2017
+    },
+    {
+      "id": "arlotto_steele2016",
+      "authors": [
+        "Alessandro Arlotto",
+        "J. Michael Steele"
+      ],
+      "year": 2016,
+      "title": "Beardwood-Halton-Hammersley theorem for stationary ergodic sequences: A counterexample",
+      "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/10/ArlottoSteele-AAP2016-NoBHH4Ergodic.pdf",
+      "supports": "Uniform one-point marginals and stationary ergodicity alone do not imply classical BHH scaling."
+    }
+  ],
+  "statement": {
+    "path": "../../inputs/B题.pdf",
+    "sha256": "81c992a9bee5376308c4768b58719b177f17d6ee1f9861577a851924c5a838ca",
+    "sections": [
+      "问题3统计定义",
+      "附录1频道与互不影响",
+      "附录2计时与20米邻域"
+    ]
+  }
+}

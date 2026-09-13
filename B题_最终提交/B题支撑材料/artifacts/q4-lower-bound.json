@@ -1,0 +1,85 @@
+{
+  "statement": "N >= 15 for every finite fixed universal directional-reception site set",
+  "source_disk_radius_m": 1800,
+  "minimum_reception_radius_m": 1000,
+  "k": "69/50",
+  "pi_lower": "11261049919582773845813359751628361458270406954312231081768693348539136529602810419465187869076/3584503518212377837365073128787432876238606665124518426108313207123501342721283435821533203125",
+  "riemann_step_m": 1,
+  "intervals": [
+    {
+      "r_interval_m": [
+        1800,
+        1900
+      ],
+      "overlap_area_upper_m2": 1385145.7353679936,
+      "deficit_lower": 0.559094418627051,
+      "delta_upper_rad": "163/500",
+      "verified_slack_lower": 0.10921441862705095,
+      "angle_method": "cos(upper)<=R/right_endpoint",
+      "exact_area_upper": "692572867683996759/500000000000"
+    },
+    {
+      "r_interval_m": [
+        1900,
+        1950
+      ],
+      "overlap_area_upper_m2": 1195591.7959930024,
+      "deficit_lower": 0.6194313114951936,
+      "delta_upper_rad": "79/200",
+      "verified_slack_lower": 0.07433131149519356,
+      "angle_method": "cos(upper)<=R/right_endpoint",
+      "exact_area_upper": "298897948998250571/250000000000"
+    },
+    {
+      "r_interval_m": [
+        1950,
+        2000
+      ],
+      "overlap_area_upper_m2": 1103078.2905855018,
+      "deficit_lower": 0.6488792748719185,
+      "delta_upper_rad": "113/250",
+      "verified_slack_lower": 0.025119274871918576,
+      "angle_method": "cos(upper)<=R/right_endpoint",
+      "exact_area_upper": "551539145292750859/500000000000"
+    },
+    {
+      "r_interval_m": [
+        2000,
+        2025
+      ],
+      "overlap_area_upper_m2": 1012301.700118909,
+      "deficit_lower": 0.6777743610514922,
+      "delta_upper_rad": "119/250",
+      "verified_slack_lower": 0.02089436105149227,
+      "angle_method": "cos(upper)<=R/right_endpoint",
+      "exact_area_upper": "12653771251486363/12500000000"
+    },
+    {
+      "r_interval_m": [
+        2025,
+        2050
+      ],
+      "overlap_area_upper_m2": 967619.7965069746,
+      "deficit_lower": 0.6919970527046823,
+      "delta_upper_rad": "4991/10000",
+      "verified_slack_lower": 0.003239052704682209,
+      "angle_method": "cos(upper)<=R/right_endpoint",
+      "exact_area_upper": "19352395930139493/20000000000"
+    },
+    {
+      "r_interval_m": [
+        2050,
+        2800
+      ],
+      "overlap_area_upper_m2": 923436.9199913507,
+      "deficit_lower": 0.706060899099643,
+      "delta_upper_rad": "127/250",
+      "verified_slack_lower": 0.005020899099642949,
+      "angle_method": "global delta<=atan(L/R)<upper",
+      "exact_area_upper": "92343691999135069/100000000000"
+    }
+  ],
+  "N_real_lower": 14.055397861953915,
+  "N_integer_lower": 15,
+  "scope": "All source positions in the radius-1800 disk and all closed 180-degree emission orientations; fixed finite sites; no optical fallback or adaptation counted as sites."
+}

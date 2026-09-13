@@ -1,0 +1,5301 @@
+{
+  "schema_version": 1,
+  "note": "Exact source values are recorded here; displayed tables round to the stated precision. Model dimensions, thresholds and analytic constants are in the supplied statement, frozen configuration or proof scripts. Entries cover paper, solution and numeric table dependencies.",
+  "claims": [
+    {
+      "result_id": "experiment.development.79.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.baseline_mean_s",
+      "value": 2971.5084474249998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.candidate_mean_s",
+      "value": 3137.3026617,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.saving_s",
+      "value": -165.79421427500006,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.saving_pct",
+      "value": -5.5794629969391885,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.ci95_s.0",
+      "value": -224.1693054089313,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.ci95_s.1",
+      "value": -107.41912314106881,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.faster",
+      "value": 7,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.slower",
+      "value": 33,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.max_regression_s",
+      "value": 523.4256170000003,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.max_saving_s",
+      "value": 233.5485139999996,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.mean_source_s",
+      "value": 252.75283201717,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.cpu_mean_s",
+      "value": 0.2890458948,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.cpu_max_s",
+      "value": 0.503653625,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.baseline_source_s",
+      "value": 239.540158308585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.decomposition_s.move",
+      "value": -188.969214604575,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.decomposition_s.measure",
+      "value": 16.5,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.decomposition_s.switch",
+      "value": 1.95,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.decomposition_s.failed_clear",
+      "value": 4.725,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.candidate_counts.move_m",
+      "value": 12094.2633103665,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.candidate_counts.measures",
+      "value": 109.175,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.candidate_counts.switches",
+      "value": 103.2,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.candidate_counts.miss",
+      "value": 2.125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.candidate_counts.fallbacks",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.baseline_mean_s",
+      "value": 5789.337768325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.candidate_mean_s",
+      "value": 5789.337768325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.saving_pct",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.ci95_s.0",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.ci95_s.1",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.faster",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.ties",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.max_regression_s",
+      "value": -0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.max_saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.mean_source_s",
+      "value": 470.16541898244,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.cpu_mean_s",
+      "value": 0.44438293954999997,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.cpu_max_s",
+      "value": 0.972817042,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.baseline_source_s",
+      "value": 470.16541898244,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.decomposition_s.move",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.candidate_counts.move_m",
+      "value": 21249.56384354125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.candidate_counts.measures",
+      "value": 241.325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.candidate_counts.switches",
+      "value": 228.55,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.candidate_counts.miss",
+      "value": 13.75,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.candidate_counts.fallbacks",
+      "value": 3.65,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.79.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.baseline_mean_s",
+      "value": 2971.5084474249998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.candidate_mean_s",
+      "value": 2971.5084474249998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.saving_pct",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.ci95_s.0",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.ci95_s.1",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.faster",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.ties",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.max_regression_s",
+      "value": -0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.max_saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.mean_source_s",
+      "value": 239.540158308585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.cpu_mean_s",
+      "value": 0.17461152597500001,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.cpu_max_s",
+      "value": 0.317516875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.baseline_source_s",
+      "value": 239.540158308585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.decomposition_s.move",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.candidate_counts.move_m",
+      "value": 11149.417237343625,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.candidate_counts.measures",
+      "value": 112.475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.candidate_counts.switches",
+      "value": 105.15,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.candidate_counts.miss",
+      "value": 3.7,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.candidate_counts.fallbacks",
+      "value": 0.1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.baseline_mean_s",
+      "value": 5789.337768325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.candidate_mean_s",
+      "value": 5789.337768325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.saving_pct",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.ci95_s.0",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.ci95_s.1",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.faster",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.ties",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.max_regression_s",
+      "value": -0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.max_saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.mean_source_s",
+      "value": 470.16541898244,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.cpu_mean_s",
+      "value": 0.44867657705,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.cpu_max_s",
+      "value": 0.980577791,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.baseline_source_s",
+      "value": 470.16541898244,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.decomposition_s.move",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.candidate_counts.move_m",
+      "value": 21249.56384354125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.candidate_counts.measures",
+      "value": 241.325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.candidate_counts.switches",
+      "value": 228.55,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.candidate_counts.miss",
+      "value": 13.75,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.candidate_counts.fallbacks",
+      "value": 3.65,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.80.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.baseline_mean_s",
+      "value": 2971.5084474249998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.candidate_mean_s",
+      "value": 2971.5084474249998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.saving_pct",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.ci95_s.0",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.ci95_s.1",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.faster",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.ties",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.max_regression_s",
+      "value": -0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.max_saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.mean_source_s",
+      "value": 239.540158308585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.cpu_mean_s",
+      "value": 0.08088326345,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.cpu_max_s",
+      "value": 0.138962125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.baseline_source_s",
+      "value": 239.540158308585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.decomposition_s.move",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.candidate_counts.move_m",
+      "value": 11149.417237343625,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.candidate_counts.measures",
+      "value": 112.475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.candidate_counts.switches",
+      "value": 105.15,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.candidate_counts.miss",
+      "value": 3.7,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.candidate_counts.fallbacks",
+      "value": 0.1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.baseline_mean_s",
+      "value": 5789.337768325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.candidate_mean_s",
+      "value": 5757.503350925,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.saving_s",
+      "value": 31.834417400000007,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.saving_pct",
+      "value": 0.5498801188311129,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.ci95_s.0",
+      "value": -9.465813785946509,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.ci95_s.1",
+      "value": 73.13464858594652,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.faster",
+      "value": 26,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.slower",
+      "value": 14,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.max_regression_s",
+      "value": 258.4138520000006,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.max_saving_s",
+      "value": 461.3689939999995,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.mean_source_s",
+      "value": 467.588251808345,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.cpu_mean_s",
+      "value": 1.249819838625,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.cpu_max_s",
+      "value": 1.735090375,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.baseline_source_s",
+      "value": 470.16541898244,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.decomposition_s.move",
+      "value": 24.134417492099963,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.decomposition_s.measure",
+      "value": 4.25,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.decomposition_s.switch",
+      "value": 1.125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.decomposition_s.failed_clear",
+      "value": 2.325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.candidate_counts.move_m",
+      "value": 21128.89175608075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.candidate_counts.measures",
+      "value": 240.475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.candidate_counts.switches",
+      "value": 227.425,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.candidate_counts.miss",
+      "value": 12.975,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.candidate_counts.fallbacks",
+      "value": 3.725,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.candidate_counts.residual_replaced",
+      "value": 5.45,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.81.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.baseline_mean_s",
+      "value": 2971.5084474249998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.candidate_mean_s",
+      "value": 2970.404919875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.saving_s",
+      "value": 1.1035275499999897,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.saving_pct",
+      "value": 0.037136948103118,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.ci95_s.0",
+      "value": -0.3744404316030143,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.ci95_s.1",
+      "value": 2.581495531602994,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.faster",
+      "value": 4,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.ties",
+      "value": 36,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.max_regression_s",
+      "value": -0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.max_saving_s",
+      "value": 25.28352599999971,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.mean_source_s",
+      "value": 239.4465733455825,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.cpu_mean_s",
+      "value": 0.9211713259750001,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.cpu_max_s",
+      "value": 1.619201083,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.baseline_source_s",
+      "value": 239.540158308585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.decomposition_s.move",
+      "value": -0.1464724235999893,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.decomposition_s.measure",
+      "value": 0.875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.decomposition_s.switch",
+      "value": 0.075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.decomposition_s.failed_clear",
+      "value": 0.3,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.candidate_counts.move_m",
+      "value": 11150.149599461625,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.candidate_counts.measures",
+      "value": 112.3,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.candidate_counts.switches",
+      "value": 105.075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.candidate_counts.miss",
+      "value": 3.6,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.candidate_counts.fallbacks",
+      "value": 0.1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.candidate_counts.rollout_calls",
+      "value": 865.6,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.3.candidate_counts.rollout_replaced",
+      "value": 0.55,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.baseline_mean_s",
+      "value": 5789.337768325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.candidate_mean_s",
+      "value": 5789.337768325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.saving_pct",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.ci95_s.0",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.ci95_s.1",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.faster",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.ties",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.max_regression_s",
+      "value": -0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.max_saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.mean_source_s",
+      "value": 470.16541898244,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.cpu_mean_s",
+      "value": 0.4549510239,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.cpu_max_s",
+      "value": 0.996064541,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.baseline_source_s",
+      "value": 470.16541898244,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.decomposition_s.move",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.candidate_counts.move_m",
+      "value": 21249.56384354125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.candidate_counts.measures",
+      "value": 241.325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.candidate_counts.switches",
+      "value": 228.55,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.candidate_counts.miss",
+      "value": 13.75,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.candidate_counts.fallbacks",
+      "value": 3.65,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.82.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.baseline_mean_s",
+      "value": 2971.5084474249998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.candidate_mean_s",
+      "value": 2969.78675435,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.saving_s",
+      "value": 1.721693074999962,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.saving_pct",
+      "value": 0.057940036364087004,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.ci95_s.0",
+      "value": -6.323452290688314,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.ci95_s.1",
+      "value": 9.766838440688238,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.faster",
+      "value": 27,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.slower",
+      "value": 13,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.max_regression_s",
+      "value": 120.57652600000029,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.max_saving_s",
+      "value": 62.74068899999975,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.mean_source_s",
+      "value": 239.32367795597,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.cpu_mean_s",
+      "value": 0.07846201665,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.cpu_max_s",
+      "value": 0.1360005,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.baseline_source_s",
+      "value": 239.540158308585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.decomposition_s.move",
+      "value": -0.4783069294899998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.decomposition_s.measure",
+      "value": 0.5,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.decomposition_s.switch",
+      "value": 0.2,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.decomposition_s.failed_clear",
+      "value": 1.5,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.candidate_counts.move_m",
+      "value": 11151.808771991075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.candidate_counts.measures",
+      "value": 112.375,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.candidate_counts.switches",
+      "value": 104.95,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.candidate_counts.miss",
+      "value": 3.2,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.candidate_counts.fallbacks",
+      "value": 0.1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.baseline_mean_s",
+      "value": 5789.337768325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.candidate_mean_s",
+      "value": 5794.547667275,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.saving_s",
+      "value": -5.209898949999956,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.saving_pct",
+      "value": -0.08999127635123819,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.ci95_s.0",
+      "value": -27.37123100167093,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.ci95_s.1",
+      "value": 16.951433101671018,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.faster",
+      "value": 32,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.slower",
+      "value": 8,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.max_regression_s",
+      "value": 405.09129200000007,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.max_saving_s",
+      "value": 93.92585099999997,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.mean_source_s",
+      "value": 470.48961823693253,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.cpu_mean_s",
+      "value": 0.442232957275,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.cpu_max_s",
+      "value": 0.9506315,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.baseline_source_s",
+      "value": 470.16541898244,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.decomposition_s.move",
+      "value": -5.609898803899979,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.decomposition_s.measure",
+      "value": 0.125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.decomposition_s.switch",
+      "value": 0.275,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.candidate_counts.move_m",
+      "value": 21277.61333756075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.candidate_counts.measures",
+      "value": 241.3,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.candidate_counts.switches",
+      "value": 228.275,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.candidate_counts.miss",
+      "value": 13.75,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.candidate_counts.fallbacks",
+      "value": 3.425,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.83.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.baseline_mean_s",
+      "value": 2971.5084474249998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.candidate_mean_s",
+      "value": 2969.601435175,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.saving_s",
+      "value": 1.9070122499999342,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.saving_pct",
+      "value": 0.06417657172243549,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.ci95_s.0",
+      "value": 1.164367882661283,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.ci95_s.1",
+      "value": 2.6496566173385854,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.faster",
+      "value": 37,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.ties",
+      "value": 3,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.max_regression_s",
+      "value": -0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.max_saving_s",
+      "value": 10.991079999999783,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.mean_source_s",
+      "value": 239.38864090548,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.cpu_mean_s",
+      "value": 0.080502226075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.cpu_max_s",
+      "value": 0.136652375,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.baseline_source_s",
+      "value": 239.540158308585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.decomposition_s.move",
+      "value": 1.9070123816850175,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.candidate_counts.move_m",
+      "value": 11139.8821754352,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.candidate_counts.measures",
+      "value": 112.475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.candidate_counts.switches",
+      "value": 105.15,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.candidate_counts.miss",
+      "value": 3.7,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.candidate_counts.fallbacks",
+      "value": 0.1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.baseline_mean_s",
+      "value": 5789.337768325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.candidate_mean_s",
+      "value": 5756.66833385,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.saving_s",
+      "value": 32.669434475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.saving_pct",
+      "value": 0.5643034796439609,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.ci95_s.0",
+      "value": -8.713841764110512,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.ci95_s.1",
+      "value": 74.05271071411052,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.faster",
+      "value": 26,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.slower",
+      "value": 14,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.max_regression_s",
+      "value": 258.413853,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.max_saving_s",
+      "value": 461.4051309999995,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.mean_source_s",
+      "value": 467.52200192911,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.cpu_mean_s",
+      "value": 1.213017076025,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.cpu_max_s",
+      "value": 1.610506167,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.baseline_source_s",
+      "value": 470.16541898244,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.decomposition_s.move",
+      "value": 24.969434707549993,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.decomposition_s.measure",
+      "value": 4.25,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.decomposition_s.switch",
+      "value": 1.125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.decomposition_s.failed_clear",
+      "value": 2.325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.candidate_counts.move_m",
+      "value": 21124.7166700035,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.candidate_counts.measures",
+      "value": 240.475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.candidate_counts.switches",
+      "value": 227.425,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.candidate_counts.miss",
+      "value": 12.975,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.candidate_counts.fallbacks",
+      "value": 3.725,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.candidate_counts.residual_replaced",
+      "value": 5.45,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.84.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.baseline_mean_s",
+      "value": 2971.5084474249998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.candidate_mean_s",
+      "value": 2971.5084474249998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.saving_pct",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.ci95_s.0",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.ci95_s.1",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.faster",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.ties",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.max_regression_s",
+      "value": -0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.max_saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.mean_source_s",
+      "value": 239.540158308585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.cpu_mean_s",
+      "value": 0.0901542072,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.cpu_max_s",
+      "value": 0.305832792,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.baseline_source_s",
+      "value": 239.540158308585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.decomposition_s.move",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.candidate_counts.move_m",
+      "value": 11149.417237343625,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.candidate_counts.measures",
+      "value": 112.475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.candidate_counts.switches",
+      "value": 105.15,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.candidate_counts.miss",
+      "value": 3.7,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.candidate_counts.fallbacks",
+      "value": 0.1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.baseline_mean_s",
+      "value": 5789.337768325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.candidate_mean_s",
+      "value": 5757.503350925,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.saving_s",
+      "value": 31.834417400000007,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.saving_pct",
+      "value": 0.5498801188311129,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.ci95_s.0",
+      "value": -9.465813785946509,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.ci95_s.1",
+      "value": 73.13464858594652,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.faster",
+      "value": 26,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.slower",
+      "value": 14,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.max_regression_s",
+      "value": 258.4138520000006,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.max_saving_s",
+      "value": 461.3689939999995,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.mean_source_s",
+      "value": 467.588251808345,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.cpu_mean_s",
+      "value": 2.340252500875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.cpu_max_s",
+      "value": 3.427278333,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.baseline_source_s",
+      "value": 470.16541898244,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.decomposition_s.move",
+      "value": 24.134417492099963,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.decomposition_s.measure",
+      "value": 4.25,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.decomposition_s.switch",
+      "value": 1.125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.decomposition_s.failed_clear",
+      "value": 2.325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.candidate_counts.move_m",
+      "value": 21128.89175608075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.candidate_counts.measures",
+      "value": 240.475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.candidate_counts.switches",
+      "value": 227.425,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.candidate_counts.miss",
+      "value": 12.975,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.candidate_counts.fallbacks",
+      "value": 3.725,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.candidate_counts.residual_replaced",
+      "value": 5.45,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.85.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.baseline_mean_s",
+      "value": 2971.5084474249998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.candidate_mean_s",
+      "value": 2969.78675435,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.saving_s",
+      "value": 1.721693074999962,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.saving_pct",
+      "value": 0.057940036364087004,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.ci95_s.0",
+      "value": -6.323452290688314,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.ci95_s.1",
+      "value": 9.766838440688238,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.faster",
+      "value": 27,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.slower",
+      "value": 13,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.max_regression_s",
+      "value": 120.57652600000029,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.max_saving_s",
+      "value": 62.74068899999975,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.mean_source_s",
+      "value": 239.32367795597,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.cpu_mean_s",
+      "value": 0.0879449895,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.cpu_max_s",
+      "value": 0.164196334,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.baseline_source_s",
+      "value": 239.540158308585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.decomposition_s.move",
+      "value": -0.4783069294899998,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.decomposition_s.measure",
+      "value": 0.5,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.decomposition_s.switch",
+      "value": 0.2,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.decomposition_s.failed_clear",
+      "value": 1.5,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.candidate_counts.move_m",
+      "value": 11151.808771991075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.candidate_counts.measures",
+      "value": 112.375,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.candidate_counts.switches",
+      "value": 104.95,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.candidate_counts.miss",
+      "value": 3.2,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.candidate_counts.fallbacks",
+      "value": 0.1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.baseline_mean_s",
+      "value": 5789.337768325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.candidate_mean_s",
+      "value": 5793.430217675,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.saving_s",
+      "value": -4.0924493499999475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.saving_pct",
+      "value": -0.07068942103172528,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.ci95_s.0",
+      "value": -26.403831465264503,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.ci95_s.1",
+      "value": 18.21893276526461,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.faster",
+      "value": 32,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.slower",
+      "value": 8,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.max_regression_s",
+      "value": 405.09129200000007,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.max_saving_s",
+      "value": 93.92585099999997,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.mean_source_s",
+      "value": 470.4099698585025,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.cpu_mean_s",
+      "value": 0.436376310475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.cpu_max_s",
+      "value": 0.966751542,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.baseline_source_s",
+      "value": 470.16541898244,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.decomposition_s.move",
+      "value": -5.84244929229999,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.decomposition_s.measure",
+      "value": 0.125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.decomposition_s.switch",
+      "value": 0.275,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.decomposition_s.failed_clear",
+      "value": 1.35,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.candidate_counts.move_m",
+      "value": 21278.77609000275,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.candidate_counts.measures",
+      "value": 241.3,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.candidate_counts.switches",
+      "value": 228.275,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.candidate_counts.miss",
+      "value": 13.3,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.candidate_counts.fallbacks",
+      "value": 3.425,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.development.86.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.n",
+      "value": 200,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.baseline_mean_s",
+      "value": 3004.8543406,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.candidate_mean_s",
+      "value": 3003.36935434,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.saving_s",
+      "value": 1.4849862600000143,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.saving_pct",
+      "value": 0.04941957551604637,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.ci95_s.0",
+      "value": 1.2115414727761318,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.ci95_s.1",
+      "value": 1.7584310472238969,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.faster",
+      "value": 185,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.ties",
+      "value": 15,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.max_regression_s",
+      "value": 9.99999883788405e-07,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.max_saving_s",
+      "value": 10.693355000000338,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.mean_source_s",
+      "value": 235.0026310105155,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.cpu_mean_s",
+      "value": 0.095882912305,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.cpu_max_s",
+      "value": 0.196961875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.baseline_source_s",
+      "value": 235.117184752936,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.decomposition_s.move",
+      "value": 1.4849862301370014,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.candidate_counts.move_m",
+      "value": 11334.696771949166,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.candidate_counts.measures",
+      "value": 111.055,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.candidate_counts.switches",
+      "value": 103.885,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.candidate_counts.miss",
+      "value": 4.04,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.candidate_counts.fallbacks",
+      "value": 0.035,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs56.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.n",
+      "value": 200,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.baseline_mean_s",
+      "value": 3003.36935434,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.candidate_mean_s",
+      "value": 3003.36935434,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.saving_pct",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.ci95_s.0",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.ci95_s.1",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.faster",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.ties",
+      "value": 200,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.max_regression_s",
+      "value": -0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.max_saving_s",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.mean_source_s",
+      "value": 235.0026310105155,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.cpu_mean_s",
+      "value": 0.095882912305,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.cpu_max_s",
+      "value": 0.196961875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.baseline_source_s",
+      "value": 235.0026310105155,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.decomposition_s.move",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.candidate_counts.move_m",
+      "value": 11334.696771949166,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.candidate_counts.measures",
+      "value": 111.055,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.candidate_counts.switches",
+      "value": 103.885,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.candidate_counts.miss",
+      "value": 4.04,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.candidate_counts.fallbacks",
+      "value": 0.035,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.3.vs78.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.n",
+      "value": 200,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.baseline_mean_s",
+      "value": 5734.60335481,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.candidate_mean_s",
+      "value": 5704.988258,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.saving_s",
+      "value": 29.61509681,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.saving_pct",
+      "value": 0.5164279894817801,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.ci95_s.0",
+      "value": -4.68827964710805,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.ci95_s.1",
+      "value": 63.918473267108055,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.faster",
+      "value": 119,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.slower",
+      "value": 81,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.max_regression_s",
+      "value": 707.8485890000002,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.max_saving_s",
+      "value": 1635.8193390000001,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.mean_source_s",
+      "value": 450.615805982293,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.cpu_mean_s",
+      "value": 1.48288173268,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.cpu_max_s",
+      "value": 2.681808667,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.baseline_source_s",
+      "value": 452.613257543657,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.decomposition_s.move",
+      "value": 27.81009774234001,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.decomposition_s.measure",
+      "value": 0.7,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.decomposition_s.switch",
+      "value": 0.175,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.decomposition_s.failed_clear",
+      "value": 0.93,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.candidate_counts.move_m",
+      "value": 21012.86629111915,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.candidate_counts.measures",
+      "value": 235.205,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.candidate_counts.switches",
+      "value": 222.33,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.candidate_counts.miss",
+      "value": 12.97,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.candidate_counts.fallbacks",
+      "value": 3.51,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.candidate_counts.residual_replaced",
+      "value": 5.585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs56.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.n",
+      "value": 200,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.baseline_mean_s",
+      "value": 5733.40267884,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.candidate_mean_s",
+      "value": 5704.988258,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.saving_s",
+      "value": 28.414420839999995,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.saving_pct",
+      "value": 0.49559436920186617,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.ci95_s.0",
+      "value": -5.916794817337827,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.ci95_s.1",
+      "value": 62.74563649733781,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.faster",
+      "value": 114,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.slower",
+      "value": 86,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.max_regression_s",
+      "value": 708.9565220000004,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.max_saving_s",
+      "value": 1635.8193390000001,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.mean_source_s",
+      "value": 450.615805982293,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.cpu_mean_s",
+      "value": 1.48288173268,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.cpu_max_s",
+      "value": 2.681808667,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.baseline_source_s",
+      "value": 452.519268645632,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.decomposition_s.move",
+      "value": 26.60942170328001,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.decomposition_s.measure",
+      "value": 0.7,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.decomposition_s.switch",
+      "value": 0.175,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.decomposition_s.failed_clear",
+      "value": 0.93,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.candidate_counts.move_m",
+      "value": 21012.86629111915,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.candidate_counts.measures",
+      "value": 235.205,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.candidate_counts.switches",
+      "value": 222.33,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.candidate_counts.miss",
+      "value": 12.97,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.candidate_counts.fallbacks",
+      "value": 3.51,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.candidate_counts.residual_replaced",
+      "value": 5.585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.iid.4.vs78.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.baseline_mean_s",
+      "value": 4596.030483875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.candidate_mean_s",
+      "value": 4584.138536225,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.saving_s",
+      "value": 11.891947650000066,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.saving_pct",
+      "value": 0.2587438810887464,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.ci95_s.0",
+      "value": 9.35804406594599,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.ci95_s.1",
+      "value": 14.425851234054143,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.faster",
+      "value": 39,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.ties",
+      "value": 1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.max_regression_s",
+      "value": -0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.max_saving_s",
+      "value": 31.17486800000006,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.mean_source_s",
+      "value": 352.3949129570775,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.cpu_mean_s",
+      "value": 0.042993316825,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.cpu_max_s",
+      "value": 0.074397667,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.baseline_source_s",
+      "value": 353.3263352314225,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.decomposition_s.move",
+      "value": 11.89194793530005,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.candidate_counts.move_m",
+      "value": 18223.9426804225,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.candidate_counts.measures",
+      "value": 140.275,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.candidate_counts.switches",
+      "value": 127.325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.candidate_counts.miss",
+      "value": 14.675,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.candidate_counts.fallbacks",
+      "value": 0.875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.baseline_mean_s",
+      "value": 7342.416750325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.candidate_mean_s",
+      "value": 7366.3968536,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.saving_s",
+      "value": -23.9801032750001,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.saving_pct",
+      "value": -0.32659686981045666,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.ci95_s.0",
+      "value": -63.57947414558869,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.ci95_s.1",
+      "value": 15.619267595588493,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.faster",
+      "value": 25,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.slower",
+      "value": 15,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.max_regression_s",
+      "value": 504.677404,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.max_saving_s",
+      "value": 251.83266600000024,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.mean_source_s",
+      "value": 566.7778057373974,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.cpu_mean_s",
+      "value": 1.208006374925,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.cpu_max_s",
+      "value": 1.421517292,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.baseline_source_s",
+      "value": 564.9026828137324,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.decomposition_s.move",
+      "value": -22.70510222335002,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.decomposition_s.measure",
+      "value": 7.25,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.decomposition_s.switch",
+      "value": 1.825,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.decomposition_s.failed_clear",
+      "value": -10.35,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.candidate_counts.move_m",
+      "value": 25730.73427902825,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.candidate_counts.measures",
+      "value": 329.75,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.candidate_counts.switches",
+      "value": 314.15,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.candidate_counts.miss",
+      "value": 63.575,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.candidate_counts.fallbacks",
+      "value": 7.9,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.candidate_counts.residual_replaced",
+      "value": 4.875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.1.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.baseline_mean_s",
+      "value": 3049.575824,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.candidate_mean_s",
+      "value": 3042.121801075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.saving_s",
+      "value": 7.454022924999981,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.saving_pct",
+      "value": 0.2444281878921395,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.ci95_s.0",
+      "value": 5.116705313658063,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.ci95_s.1",
+      "value": 9.791340536341899,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.faster",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.max_regression_s",
+      "value": -0.16072699999995166,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.max_saving_s",
+      "value": 35.241385000000264,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.mean_source_s",
+      "value": 248.2085640603125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.cpu_mean_s",
+      "value": 0.087215447925,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.cpu_max_s",
+      "value": 0.144045667,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.baseline_source_s",
+      "value": 248.7959555071725,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.decomposition_s.move",
+      "value": 7.454024422550028,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.candidate_counts.move_m",
+      "value": 11739.98400374275,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.candidate_counts.measures",
+      "value": 104.6,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.candidate_counts.switches",
+      "value": 91.175,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.candidate_counts.miss",
+      "value": 5.775,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.candidate_counts.fallbacks",
+      "value": 2.325,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.baseline_mean_s",
+      "value": 6418.74063185,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.candidate_mean_s",
+      "value": 6426.7557449,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.saving_s",
+      "value": -8.015113049999854,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.saving_pct",
+      "value": -0.12487049266687304,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.ci95_s.0",
+      "value": -193.6214632807862,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.ci95_s.1",
+      "value": 177.5912371807865,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.faster",
+      "value": 23,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.slower",
+      "value": 17,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.max_regression_s",
+      "value": 1085.9531859999997,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.max_saving_s",
+      "value": 749.231624,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.mean_source_s",
+      "value": 524.425496104075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.cpu_mean_s",
+      "value": 1.579193627075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.cpu_max_s",
+      "value": 2.00998425,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.baseline_source_s",
+      "value": 524.3498631625225,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.decomposition_s.move",
+      "value": 27.43488565999993,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.decomposition_s.measure",
+      "value": -19.875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.decomposition_s.switch",
+      "value": -3.725,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.decomposition_s.failed_clear",
+      "value": -11.85,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.candidate_counts.move_m",
+      "value": 23532.27874952075,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.candidate_counts.measures",
+      "value": 253.9,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.candidate_counts.switches",
+      "value": 238.1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.candidate_counts.miss",
+      "value": 50.025,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.candidate_counts.fallbacks",
+      "value": 5.775,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.candidate_counts.residual_replaced",
+      "value": 5.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.2.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.baseline_mean_s",
+      "value": 1604.534234475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.candidate_mean_s",
+      "value": 1604.36791255,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.saving_s",
+      "value": 0.16632192499999973,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.saving_pct",
+      "value": 0.010365744863924322,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.ci95_s.0",
+      "value": -0.10875770228476414,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.ci95_s.1",
+      "value": 0.44140155228476363,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.faster",
+      "value": 5,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.ties",
+      "value": 35,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.max_regression_s",
+      "value": -0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.max_saving_s",
+      "value": 5.408346000000165,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.mean_source_s",
+      "value": 131.1539486645575,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.cpu_mean_s",
+      "value": 0.035787681175,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.cpu_max_s",
+      "value": 0.078161708,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.baseline_source_s",
+      "value": 131.16834719607,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.decomposition_s.move",
+      "value": 0.1663218801130029,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.candidate_counts.move_m",
+      "value": 5804.589562870608,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.candidate_counts.measures",
+      "value": 61.875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.candidate_counts.switches",
+      "value": 56.7,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.candidate_counts.miss",
+      "value": 3.625,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.candidate_counts.fallbacks",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.baseline_mean_s",
+      "value": 4275.6190715,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.candidate_mean_s",
+      "value": 4275.9005392750005,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.saving_s",
+      "value": -0.28146777500012377,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.saving_pct",
+      "value": -0.006583088209992885,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.ci95_s.0",
+      "value": -12.889820776622974,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.ci95_s.1",
+      "value": 12.326885226622727,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.faster",
+      "value": 22,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.slower",
+      "value": 18,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.max_regression_s",
+      "value": 108.43805199999997,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.max_saving_s",
+      "value": 100.46712200000002,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.mean_source_s",
+      "value": 350.1373481593825,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.cpu_mean_s",
+      "value": 1.254795713625,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.cpu_max_s",
+      "value": 1.862840917,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.baseline_source_s",
+      "value": 350.28541692814,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.decomposition_s.move",
+      "value": 11.193532837199967,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.decomposition_s.measure",
+      "value": -4.75,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.decomposition_s.switch",
+      "value": -0.5,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.decomposition_s.failed_clear",
+      "value": -6.225,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.candidate_counts.move_m",
+      "value": 16015.2527072908,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.candidate_counts.measures",
+      "value": 159.975,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.candidate_counts.switches",
+      "value": 144.9,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.candidate_counts.miss",
+      "value": 20.525,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.candidate_counts.fallbacks",
+      "value": 5.65,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.candidate_counts.residual_replaced",
+      "value": 3.25,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.3.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.baseline_mean_s",
+      "value": 3006.127519725,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.candidate_mean_s",
+      "value": 3003.925440275,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.saving_s",
+      "value": 2.202079450000008,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.saving_pct",
+      "value": 0.07325302854090014,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.ci95_s.0",
+      "value": 1.3293641866532222,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.ci95_s.1",
+      "value": 3.0747947133467934,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.faster",
+      "value": 36,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.ties",
+      "value": 4,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.max_regression_s",
+      "value": 2.000000222324161e-06,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.max_saving_s",
+      "value": 10.99982399999999,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.mean_source_s",
+      "value": 242.18018328265,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.cpu_mean_s",
+      "value": 0.111789066575,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.cpu_max_s",
+      "value": 0.197051292,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.baseline_source_s",
+      "value": 242.356253399955,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.decomposition_s.move",
+      "value": 2.2020798699150057,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.candidate_counts.move_m",
+      "value": 11264.377202256375,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.candidate_counts.measures",
+      "value": 113.5,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.candidate_counts.switches",
+      "value": 106.425,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.candidate_counts.miss",
+      "value": 4.625,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.candidate_counts.fallbacks",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.baseline_mean_s",
+      "value": 5771.902697525,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.candidate_mean_s",
+      "value": 5757.451155225,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.saving_s",
+      "value": 14.451542300000051,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.saving_pct",
+      "value": 0.250377441501169,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.ci95_s.0",
+      "value": -18.359398847039536,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.ci95_s.1",
+      "value": 47.262483447039635,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.faster",
+      "value": 27,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.slower",
+      "value": 13,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.max_regression_s",
+      "value": 356.72372000000087,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.max_saving_s",
+      "value": 378.2692930000003,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.mean_source_s",
+      "value": 469.53947243863,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.cpu_mean_s",
+      "value": 1.739334111525,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.cpu_max_s",
+      "value": 2.745925417,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.baseline_source_s",
+      "value": 470.8527097411775,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.decomposition_s.move",
+      "value": 14.676542836900008,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.decomposition_s.measure",
+      "value": -1.875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.decomposition_s.switch",
+      "value": -0.375,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.decomposition_s.failed_clear",
+      "value": 2.025,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.candidate_counts.move_m",
+      "value": 20945.38077670475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.candidate_counts.measures",
+      "value": 247.525,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.candidate_counts.switches",
+      "value": 234.65,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.candidate_counts.miss",
+      "value": 10.95,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.candidate_counts.fallbacks",
+      "value": 3.625,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.candidate_counts.residual_replaced",
+      "value": 5.475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.4.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.baseline_mean_s",
+      "value": 3077.057236125,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.candidate_mean_s",
+      "value": 3072.76515265,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.saving_s",
+      "value": 4.292083474999981,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.saving_pct",
+      "value": 0.1394866310775905,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.ci95_s.0",
+      "value": 2.9808640126634733,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.ci95_s.1",
+      "value": 5.6033029373364895,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.faster",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.max_regression_s",
+      "value": -0.01203799999984767,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.max_saving_s",
+      "value": 16.854269000000386,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.mean_source_s",
+      "value": 240.4609566720475,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.cpu_mean_s",
+      "value": 0.139218722875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.cpu_max_s",
+      "value": 0.258797833,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.baseline_source_s",
+      "value": 240.79228892806,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.decomposition_s.move",
+      "value": 4.292083787960037,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.candidate_counts.move_m",
+      "value": 11526.825761641225,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.candidate_counts.measures",
+      "value": 113.775,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.candidate_counts.switches",
+      "value": 105.95,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.candidate_counts.miss",
+      "value": 9.15,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.candidate_counts.fallbacks",
+      "value": 0.1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.n",
+      "value": 40,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.baseline_mean_s",
+      "value": 5753.19505925,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.candidate_mean_s",
+      "value": 5692.9659006,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.saving_s",
+      "value": 60.22915864999995,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.saving_pct",
+      "value": 1.0468819156959293,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.ci95_s.0",
+      "value": -15.378677571380457,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.ci95_s.1",
+      "value": 135.83699487138037,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.faster",
+      "value": 25,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.slower",
+      "value": 15,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.max_regression_s",
+      "value": 224.02254899999934,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.max_saving_s",
+      "value": 1135.6505129999996,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.mean_source_s",
+      "value": 450.818202103005,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.cpu_mean_s",
+      "value": 1.655709090575,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.cpu_max_s",
+      "value": 2.609838833,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.baseline_source_s",
+      "value": 454.8429461217,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.decomposition_s.move",
+      "value": 48.80415859290002,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.decomposition_s.measure",
+      "value": 9.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.decomposition_s.switch",
+      "value": 2.05,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.decomposition_s.failed_clear",
+      "value": 0.375,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.candidate_counts.move_m",
+      "value": 20881.20450384725,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.candidate_counts.measures",
+      "value": 233.5,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.candidate_counts.switches",
+      "value": 220.8,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.candidate_counts.miss",
+      "value": 21.1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.candidate_counts.fallbacks",
+      "value": 4.85,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.candidate_counts.residual_replaced",
+      "value": 5.625,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "experiment.stress.5.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.reception.q.0",
+      "value": "4215589/5000",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.reception.q.1",
+      "value": "5454003/10000",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.reception.r1000_constraint_margin_m2.0",
+      "value": 658534.8205082546,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.reception.r1000_constraint_margin_m2.1",
+      "value": 658534.8205082546,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.reception.r5_constraint_margin_m2.0",
+      "value": 0.10774519592267746,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.reception.r5_constraint_margin_m2.1",
+      "value": 0.10774519592267788,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_model_lower.certified_floor_m",
+      "value": "55.73823",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_model_lower.global_lower_m.0",
+      "value": 55.738234284742134,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_model_lower.global_lower_m.1",
+      "value": 55.738234284742134,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_model_lower.t_upper_m",
+      "value": "1400.796371",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_model_lower.quadratic_max_upper",
+      "value": -0.00037212459999436055,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_model_lower.positive_denominator_lower",
+      "value": 52.29664500452822,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_model_lower.witness_r_lower_m",
+      "value": 8.579062920165821,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_model_lower.witness_second_distance_lower_m",
+      "value": 5.52161058605315,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_model_lower.small_b_witness_radius_m",
+      "value": 80,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.physical_quantized_lower.certified_floor_m",
+      "value": "55.6528",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.physical_quantized_lower.global_lower_m.0",
+      "value": 55.65289872437276,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.physical_quantized_lower.global_lower_m.1",
+      "value": 55.65289872437276,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.physical_quantized_lower.t_upper_m",
+      "value": "1400.99",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.physical_quantized_lower.quadratic_max_upper",
+      "value": -1.251711135833296,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.physical_quantized_lower.positive_denominator_lower",
+      "value": 52.210651734641274,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.physical_quantized_lower.witness_r_lower_m",
+      "value": 8.740313547231414,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.physical_quantized_lower.witness_second_distance_lower_m",
+      "value": 5.522865553765134,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.physical_quantized_lower.small_b_witness_radius_m",
+      "value": 80,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_and_quantized_upper.q.0",
+      "value": "4215589/5000",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_and_quantized_upper.q.1",
+      "value": "5454003/10000",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_and_quantized_upper.upper_m",
+      "value": "55739/1000",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q2.continuous_and_quantized_upper.nodes",
+      "value": 208,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.statement",
+      "value": "N >= 15 for every finite fixed universal directional-reception site set",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.source_disk_radius_m",
+      "value": 1800,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.minimum_reception_radius_m",
+      "value": 1000,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.k",
+      "value": "69/50",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.riemann_step_m",
+      "value": 1,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.0.r_interval_m.0",
+      "value": 1800,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.0.r_interval_m.1",
+      "value": 1900,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.0.overlap_area_upper_m2",
+      "value": 1385145.7353679936,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.0.deficit_lower",
+      "value": 0.559094418627051,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.0.delta_upper_rad",
+      "value": "163/500",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.0.verified_slack_lower",
+      "value": 0.10921441862705095,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.1.r_interval_m.0",
+      "value": 1900,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.1.r_interval_m.1",
+      "value": 1950,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.1.overlap_area_upper_m2",
+      "value": 1195591.7959930024,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.1.deficit_lower",
+      "value": 0.6194313114951936,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.1.delta_upper_rad",
+      "value": "79/200",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.1.verified_slack_lower",
+      "value": 0.07433131149519356,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.2.r_interval_m.0",
+      "value": 1950,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.2.r_interval_m.1",
+      "value": 2000,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.2.overlap_area_upper_m2",
+      "value": 1103078.2905855018,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.2.deficit_lower",
+      "value": 0.6488792748719185,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.2.delta_upper_rad",
+      "value": "113/250",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.2.verified_slack_lower",
+      "value": 0.025119274871918576,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.3.r_interval_m.0",
+      "value": 2000,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.3.r_interval_m.1",
+      "value": 2025,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.3.overlap_area_upper_m2",
+      "value": 1012301.700118909,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.3.deficit_lower",
+      "value": 0.6777743610514922,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.3.delta_upper_rad",
+      "value": "119/250",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.3.verified_slack_lower",
+      "value": 0.02089436105149227,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.4.r_interval_m.0",
+      "value": 2025,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.4.r_interval_m.1",
+      "value": 2050,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.4.overlap_area_upper_m2",
+      "value": 967619.7965069746,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.4.deficit_lower",
+      "value": 0.6919970527046823,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.4.delta_upper_rad",
+      "value": "4991/10000",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.4.verified_slack_lower",
+      "value": 0.003239052704682209,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.5.r_interval_m.0",
+      "value": 2050,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.5.r_interval_m.1",
+      "value": 2800,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.5.overlap_area_upper_m2",
+      "value": 923436.9199913507,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.5.deficit_lower",
+      "value": 0.706060899099643,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.5.delta_upper_rad",
+      "value": "127/250",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.intervals.5.verified_slack_lower",
+      "value": 0.005020899099642949,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.N_real_lower",
+      "value": 14.055397861953915,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q4lower.N_integer_lower",
+      "value": 15,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "geometry.angle_checks",
+      "value": 25005,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "geometry.max_upper_gap_m",
+      "value": 0.116463,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "geometry.optical_cells",
+      "value": 78,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "geometry.static_leaves",
+      "value": 4552,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "geometry.replacement_leaves",
+      "value": 4564,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "geometry.replacement_shift_m",
+      "value": 3.59481,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "fraction.sites",
+      "value": 21,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "fraction.verified_leaf_boxes",
+      "value": 4564,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "fraction.full_disk_partition",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "fraction.witness_sha256",
+      "value": "573c60ce537641efc0d9e71f31dce6d747646a400eb414656771d8b507da55ae",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q3cover.ring_radius",
+      "value": 1124,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q3cover.certified_ideal_cover_radius",
+      "value": "999.6",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q3cover.boundary_squared_upper",
+      "value": "2497727015316618649477/2500000000000000",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q3cover.inner_squared_upper",
+      "value": "395662227919581111671447/1250000000000000000",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q3cover.sqrt3_interval.0",
+      "value": "3464101615137754587/2000000000000000000",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q3cover.sqrt3_interval.1",
+      "value": "2165063509461096617/1250000000000000000",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q3cover.coordinate_perturbation_allowance_m",
+      "value": "0.4",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "q3cover.production_binary64_error_bound_m",
+      "value": "0.000000001",
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "baseline.method",
+      "value": 56,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "baseline.q3_total_mean_s",
+      "value": 3004.8543406,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "baseline.q4_total_mean_s",
+      "value": 5734.60335481,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "baseline.q3_per_source_mean_s",
+      "value": 235.117184752936,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "baseline.q4_per_source_mean_s",
+      "value": 452.613257543657,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.method",
+      "value": 78,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.q3_total_mean_s",
+      "value": 3003.36935434,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.q4_total_mean_s",
+      "value": 5733.40267884,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.q3_per_source_mean_s",
+      "value": 235.0026310105155,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.q4_per_source_mean_s",
+      "value": 452.519268645632,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.n",
+      "value": 200,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.baseline_mean_s",
+      "value": 3004.8543406,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.candidate_mean_s",
+      "value": 3003.36935434,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.saving_s",
+      "value": 1.4849862600000143,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.saving_pct",
+      "value": 0.04941957551604637,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.ci95_s.0",
+      "value": 1.2115414727761318,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.ci95_s.1",
+      "value": 1.7584310472238969,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.faster",
+      "value": 185,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.slower",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.ties",
+      "value": 15,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.max_regression_s",
+      "value": 9.99999883788405e-07,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.max_saving_s",
+      "value": 10.693355000000338,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.mean_source_s",
+      "value": 235.0026310105155,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.cpu_mean_s",
+      "value": 0.095882912305,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.cpu_max_s",
+      "value": 0.196961875,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.baseline_source_s",
+      "value": 235.117184752936,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.decomposition_s.move",
+      "value": 1.4849862301370014,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.decomposition_s.measure",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.decomposition_s.switch",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.decomposition_s.failed_clear",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.candidate_counts.move_m",
+      "value": 11334.696771949166,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.candidate_counts.measures",
+      "value": 111.055,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.candidate_counts.switches",
+      "value": 103.885,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.candidate_counts.miss",
+      "value": 4.04,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.candidate_counts.fallbacks",
+      "value": 0.035,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.candidate_counts.residual_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.3.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.n",
+      "value": 200,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.baseline_mean_s",
+      "value": 5734.60335481,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.candidate_mean_s",
+      "value": 5704.988258,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.saving_s",
+      "value": 29.61509681,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.saving_pct",
+      "value": 0.5164279894817801,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.ci95_s.0",
+      "value": -4.68827964710805,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.ci95_s.1",
+      "value": 63.918473267108055,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.faster",
+      "value": 119,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.slower",
+      "value": 81,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.ties",
+      "value": 0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.max_regression_s",
+      "value": 707.8485890000002,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.max_saving_s",
+      "value": 1635.8193390000001,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.all_cleared",
+      "value": true,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.mean_source_s",
+      "value": 450.615805982293,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.cpu_mean_s",
+      "value": 1.48288173268,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.cpu_max_s",
+      "value": 2.681808667,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.baseline_source_s",
+      "value": 452.613257543657,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.decomposition_s.move",
+      "value": 27.81009774234001,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.decomposition_s.measure",
+      "value": 0.7,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.decomposition_s.switch",
+      "value": 0.175,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.decomposition_s.failed_clear",
+      "value": 0.93,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.candidate_counts.move_m",
+      "value": 21012.86629111915,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.candidate_counts.measures",
+      "value": 235.205,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.candidate_counts.switches",
+      "value": 222.33,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.candidate_counts.miss",
+      "value": 12.97,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.candidate_counts.fallbacks",
+      "value": 3.51,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.candidate_counts.residual_replaced",
+      "value": 5.585,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.candidate_counts.residual_retired",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.candidate_counts.rollout_calls",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    },
+    {
+      "result_id": "recommended.experimental84.4.candidate_counts.rollout_replaced",
+      "value": 0.0,
+      "location": "paper/main.tex and generated tables; B题几何策略优化_题解.md"
+    }
+  ]
+}

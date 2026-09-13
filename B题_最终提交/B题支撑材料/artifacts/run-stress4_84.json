@@ -1,0 +1,18 @@
+{
+  "command": [
+    "PROJECT_ROOT/bin/benchmark_final",
+    "PROJECT_ROOT/results/stress4_84.csv",
+    "2650001",
+    "40",
+    "4",
+    "84",
+    "84"
+  ],
+  "exit_code": 0,
+  "started_unix": 1789231454.8120651,
+  "runtime_s": 74.05135679244995,
+  "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+  "stderr": "",
+  "output": "results/stress4_84.csv",
+  "output_sha256": "31324a7d1de87be7149f38bbb6383828e4a2ba6d6c2726b255e582179d0bad2e"
+}

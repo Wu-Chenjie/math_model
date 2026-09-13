@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "native_original_source_rows_matched": 80,
+  "original_source_hashes_unchanged": true,
+  "historical_csv_matches": false,
+  "cross_platform_limit": "Historical CSV differs at identical seed labels. All paired baseline and candidate experiments have been rerun using the same local compiler and standard library; historical numbers are not pooled."
+}

@@ -1,0 +1,22 @@
+{
+  "pages": 193,
+  "body_last_page": 25,
+  "abstract_one_page": true,
+  "source_count": 103,
+  "unlisted": [],
+  "missing_sources": [],
+  "protected_file_count": 91,
+  "changed_raw_csv_model_or_official_files": [],
+  "margin_failures": [],
+  "minimum_margin_cm": {
+    "left": 2.9031141666666667,
+    "right": 3.0725886111111103,
+    "top": 3.339041666666666,
+    "bottom": 3.3178749999999906
+  },
+  "core_checks": "run_all.py --paper passed; final typesetting rebuilt after layout changes",
+  "full_simulations_rerun": false,
+  "ai_statement_truth_checked": false,
+  "ai_factual_tex_unchanged": true,
+  "rendered_pages_reviewed": 193
+}
