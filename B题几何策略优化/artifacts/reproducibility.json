@@ -29,8 +29,8 @@
     "artifacts/data-audit.json": "0fc2173743f97e418360fc43f6cafbf7c175d3d9ef70bebe5ade0fb3cfcb367d",
     "artifacts/baseline-metrics.json": "f8e75c4b858023069f3e5921d0a866ac7cbe10b591b896e7071aa0c1a15d93f1",
     "artifacts/metrics.json": "43bdeac7af13bdffaea7c5d5f53fb9d89729dfe86df60997fa0878e84be70287",
-    "artifacts/result-registry.json": "859f79bfa9c5eb378bf13ae2637fc661a5c28df656dbb52af5f75878fa0a9102",
-    "paper/result-claims.json": "a3ef17d37de17d2b20e6247efeedd932b2cfef5d0fe08dfebf7dbead8f1fcd95",
+    "artifacts/result-registry.json": "ea6bea21d547b3c96c7eebe533dcf83cf39eef9c298655667f25c7f8f2ce2785",
+    "paper/result-claims.json": "315e1c73a98bfd74ae283a3cc8be46113ea7488471679abdc251a5b5f9db88d6",
     "figures/residual_geometry.pdf": "06474c09952603450369f17b9f44f3838595878301aa9e482b81959d119faac6",
     "figures/paired_results.pdf": "3ed9fe171a182622c78c068564ea9edfd7e3f0977c68bcd1e1c4fd8cc502fa1e",
     "figures/cost_components.pdf": "719e1442e2a7062c600ba385137cb7ef5d9869365e09aca5458fc799d493833c",
@@ -61,7 +61,12 @@
     "补充分析/信号源数量与平均时长/artifacts/count_time_results.json": "f812158f12c166a61234895450c81e6a47811c1779f3e412cef2b5bf163be6a7",
     "补充分析/信号源数量与平均时长/figures/count_time_relation.pdf": "9adb905751add72e0c75325539195f239183de212a33ac67beed4d7725d2748a",
     "补充分析/信号源数量与平均时长/信号源数量与平均时长_论文补充.md": "81a1690758462d604f2b76ca9b06295293a32c5ee5fdb53265e9a657f06c2cba",
-    "补充分析/信号源数量与平均时长/论文插入段落.tex": "e9d73373a669f3546f3c2e8615623a8709785aa2b6fe727c0a250c3bf7043be8"
+    "补充分析/信号源数量与平均时长/论文插入段落.tex": "e9d73373a669f3546f3c2e8615623a8709785aa2b6fe727c0a250c3bf7043be8",
+    "补充分析/源数量与时长_一般理论/一般理论与论文表述.md": "63e40d44dc25c5eb6aebbe0c7714667fe5e39979daa00fe048d31fe7f67eb24a",
+    "补充分析/源数量与时长_一般理论/论文一般理论段落.tex": "a95bc4221d2458887aeb3b523d77673a06af399aaf64b523ac2c8811986dcaaa",
+    "补充分析/源数量与时长_一般理论/artifacts/literature.json": "46fbfb54d45494f0d18b4f3c2c6854986ac4d12273cac63c4d1b222acd142695",
+    "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json": "58902e7928a483d4c74b22edd071b88c75387418c0490348436a7a3786a3ea9c",
+    "补充分析/源数量与时长_一般理论/artifacts/execution.json": "e1b5453e5a9b22b4eab310645f26151824090466a07362ecb5876355c9a0de0c"
   },
   "execution_records": [
     "artifacts/execution-iid.json",
@@ -76,5 +81,6 @@
       "reason": "Q3/Q4各三次官方正式成绩与原始加密日志不可得；当前仅交付有复核的本地研究稿。"
     }
   ],
-  "supplemental_execution": "补充分析/信号源数量与平均时长/artifacts/execution.json"
+  "supplemental_execution": "补充分析/信号源数量与平均时长/artifacts/execution.json",
+  "general_theory_execution": "补充分析/源数量与时长_一般理论/artifacts/execution.json"
 }

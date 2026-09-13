@@ -1,0 +1,42 @@
+% Requires amsmath. This fragment is not yet merged into the main PDF.
+\subsection{源数量与平均清除时长的一般关系}
+记源数量为 $N$，全部清除的总时间为 $T$。本文研究每源时间 $T/N$，而非各源完成时刻的平均值。对任意合法策略 $\pi$，题设计费规则给出
+\begin{equation}
+ T_\pi=\frac{L_\pi}{5}+S_\pi+5M_\pi+3F_\pi+5N,
+\end{equation}
+其中 $L_\pi$ 为米制路程，$S_\pi$、$M_\pi$、$F_\pi$ 分别为换频次数、测向次数和失败光学尝试次数。固定场景生成口径，令 $g_\pi(n)=\mathbb E[T_\pi\mid N=n]$，$\mu_\pi(n)=g_\pi(n)/n$，则严格有
+\begin{equation}
+ \mu_\pi(n+1)-\mu_\pi(n)
+ =\frac{n\{g_\pi(n+1)-g_\pi(n)\}-g_\pi(n)}{n(n+1)}.
+\end{equation}
+所以，每源均时下降当且仅当新增一源带来的期望总时间增量低于原来的每源均时。源数本身不能唯一决定总时间或平均时间。
+
+对于固定有界区域中的独立同分布位置，Beardwood--Halton--Hammersley定理给出最短点巡游长度的主要项
+$L_n^*\sim\beta_2\sqrt n\int_D\sqrt{f(x)}\,\mathrm dx$；均匀分布时为 $\beta_2\sqrt{An}$（Beardwood等，1959）。在共同搜索费用近似稳定、每源局部定位增量近似稳定且主要行走可由近最优点巡游描述的附加条件下，得到结构模型
+\begin{equation}
+ \mathbb E[T\mid N=n]\approx c+an+b\sqrt n,
+ \qquad
+ \mu(n)\approx a+\frac{b}{\sqrt n}+\frac cn.
+\end{equation}
+三项依次对应每源增量、共享巡游和共同搜索费用。若固定非负的 $b,c$ 不同时为零，该模型随源数增加而下降。其系数应在所比较的策略及场景分布下估计，不能沿用某一控制器的经验值作为普遍常数。
+
+本题可在20米邻域内清除，属于邻域旅行商问题（Dumitrescu和Mitchell，2003）。对同一固定起点、无需返回的最短点路径和圆盘路径，有
+\begin{equation}
+ \max\{0,L^*_{\mathrm{pt}}-2rn\}
+ \le L^*_{\mathrm{disk}}\le L^*_{\mathrm{pt}},\qquad r=20.
+\end{equation}
+左侧通过在每个圆盘访问处增加一次到圆心再返回的至多 $2r$ 行程得到，右侧来自访问圆心必然访问圆盘。因此任意全清除策略满足
+\begin{equation}
+ T_\pi\ge5n+\frac{L^*_{\mathrm{disk}}}{5}.
+\end{equation}
+固定正半径邻域下，还可用覆盖整个工作区的有限网点路径给出与源数无关的巡游长度上界，故不能把点TSP的平方根规律无条件外推到无限规模的邻域巡游。
+
+本题未指定独立均匀分布，源数仅为10至16，且包括未知总数、有限频道、方向性和定位误差；上述结构模型应与 $a+c/n$、$a+b/\sqrt n$ 等竞争模型进行独立检验，不能作为无条件定律。本文的一般结论为代数判据与几何下界，具体策略的数值关系另行报告。
+
+% Bibliography entries to merge into the existing bibliography:
+% Beardwood, J., Halton, J. H., Hammersley, J. M. (1959).
+% The shortest path through many points. 55(4), 299--327.
+% DOI: 10.1017/S0305004100034095.
+% Dumitrescu, A., Mitchell, J. S. B. (2003).
+% Approximation algorithms for TSP with neighborhoods in the plane.
+% Journal of Algorithms, 48(1), 135--159. DOI: 10.1016/S0196-6774(03)00047-6.

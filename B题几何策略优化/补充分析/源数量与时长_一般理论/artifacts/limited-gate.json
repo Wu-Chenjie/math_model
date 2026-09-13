@@ -1,0 +1,13 @@
+{
+  "status": "LIMITED",
+  "numeric_pointers": "PASS",
+  "output_hashes_verified": 41,
+  "theoretical_derivations": "author checked; proofs in note",
+  "validator_exit_code": 1,
+  "validator_errors": [
+    "project_not_complete:limited"
+  ],
+  "cross_policy_empirical_validation": "not_performed",
+  "independent_review": "not_performed",
+  "formal_logs": "still pending in parent project"
+}

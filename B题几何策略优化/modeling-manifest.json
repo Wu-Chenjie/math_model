@@ -283,6 +283,18 @@
       "fresh_cases_per_question": 200,
       "method": 78,
       "independent_review": "not performed for this supplemental note; parent project remains LIMITED"
+    },
+    {
+      "id": "count_time_general_theory",
+      "path": "补充分析/源数量与时长_一般理论",
+      "status": "completed_theoretical_note",
+      "scope": "Policy-independent accounting, marginal criterion, conditional BHH model, TSPN lower bound. Prior fitted coefficients are not generalized.",
+      "evidence": "补充分析/源数量与时长_一般理论/artifacts/literature.json",
+      "verification": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "cross_policy_empirical_validation": "not_performed",
+      "independent_review": "not_performed",
+      "main_pdf_and_archives": "unchanged",
+      "acceptance": "limited"
     }
   ]
 }

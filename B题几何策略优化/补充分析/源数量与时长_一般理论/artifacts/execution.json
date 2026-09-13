@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "B题几何策略优化/补充分析/源数量与时长_一般理论/src/check_algebra.py"
+  ],
+  "cwd": "WORKSPACE_ROOT",
+  "exit_code": 0,
+  "runtime_s": 0.03401962504722178,
+  "executed_at": "2026-09-13T07:41:34.539592+00:00",
+  "kind": "exact arithmetic only",
+  "source_sha256": "ba6914402651b0a4cfa5e00c50a01ad64d53e8155e2acb1a67eb669e6fdf36dd",
+  "output_sha256": "58902e7928a483d4c74b22edd071b88c75387418c0490348436a7a3786a3ea9c"
+}

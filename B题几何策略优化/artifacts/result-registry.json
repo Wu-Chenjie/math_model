@@ -11417,6 +11417,123 @@
       "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
       "source_path": "/analysis_runtime_s",
       "status": "verified"
+    },
+    {
+      "id": "count_theory.constants.speed_m_s",
+      "value": 5,
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/constants/speed_m_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.constants.clear_radius_m",
+      "value": 20,
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/constants/clear_radius_m",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.constants.successful_clear_s",
+      "value": 5,
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/constants/successful_clear_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.constants.switch_s",
+      "value": 1,
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/constants/switch_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.constants.bearing_s",
+      "value": 5,
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/constants/bearing_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.constants.failed_optical_s",
+      "value": 3,
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/constants/failed_optical_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.constants.sources_min",
+      "value": 10,
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/constants/sources_min",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.constants.sources_max",
+      "value": 16,
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/constants/sources_max",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.example.source_counts",
+      "value": [
+        10,
+        11
+      ],
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/example/source_counts",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.example.distance_m",
+      "value": 1800,
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/example/distance_m",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.example.added_route_m",
+      "value": 1780,
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/example/added_route_m",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.example.total_time_s",
+      "value": [
+        50.0,
+        411.0
+      ],
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/example/total_time_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.example.mean_time_s",
+      "value": [
+        5.0,
+        37.36363636363637
+      ],
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/example/mean_time_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.example.mean_time_exact",
+      "value": [
+        "5",
+        "411/11"
+      ],
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/example/mean_time_exact",
+      "status": "verified"
+    },
+    {
+      "id": "count_theory.example.marginal_identity_exact",
+      "value": true,
+      "source_artifact": "补充分析/源数量与时长_一般理论/artifacts/algebra-check.json",
+      "source_path": "/example/marginal_identity_exact",
+      "status": "verified"
     }
   ]
 }

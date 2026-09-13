@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "kind": "exact illustrative calculation, not simulation",
+  "constants": {
+    "speed_m_s": 5,
+    "clear_radius_m": 20,
+    "successful_clear_s": 5,
+    "switch_s": 1,
+    "bearing_s": 5,
+    "failed_optical_s": 3,
+    "sources_min": 10,
+    "sources_max": 16
+  },
+  "example": {
+    "source_counts": [
+      10,
+      11
+    ],
+    "distance_m": 1800,
+    "added_route_m": 1780,
+    "total_time_s": [
+      50.0,
+      411.0
+    ],
+    "mean_time_s": [
+      5.0,
+      37.36363636363637
+    ],
+    "mean_time_exact": [
+      "5",
+      "411/11"
+    ],
+    "marginal_identity_exact": true
+  },
+  "input_statement_sha256": "81c992a9bee5376308c4768b58719b177f17d6ee1f9861577a851924c5a838ca",
+  "source_sha256": "ba6914402651b0a4cfa5e00c50a01ad64d53e8155e2acb1a67eb669e6fdf36dd",
+  "runtime_s": 0.0003639578353613615,
+  "limitations": [
+    "No new cross-policy empirical validation.",
+    "No independent mathematical review."
+  ]
+}

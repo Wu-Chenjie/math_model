@@ -8156,6 +8156,108 @@
       "result_id": "count_time.analysis_runtime_s",
       "value": 0.03624296188354492,
       "location": "补充分析/信号源数量与平均时长/信号源数量与平均时长_论文补充.md"
+    },
+    {
+      "result_id": "count_theory.constants.speed_m_s",
+      "value": 5,
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.constants.clear_radius_m",
+      "value": 20,
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.constants.successful_clear_s",
+      "value": 5,
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.constants.switch_s",
+      "value": 1,
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.constants.bearing_s",
+      "value": 5,
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.constants.failed_optical_s",
+      "value": 3,
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.constants.sources_min",
+      "value": 10,
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.constants.sources_max",
+      "value": 16,
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.example.source_counts",
+      "value": [
+        10,
+        11
+      ],
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.example.distance_m",
+      "value": 1800,
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.example.added_route_m",
+      "value": 1780,
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.example.total_time_s",
+      "value": [
+        50.0,
+        411.0
+      ],
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.example.mean_time_s",
+      "value": [
+        5.0,
+        37.36363636363637
+      ],
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.example.mean_time_exact",
+      "value": [
+        "5",
+        "411/11"
+      ],
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
+    },
+    {
+      "result_id": "count_theory.example.marginal_identity_exact",
+      "value": true,
+      "location": "补充分析/源数量与时长_一般理论/一般理论与论文表述.md; 补充分析/源数量与时长_一般理论/论文一般理论段落.tex",
+      "note": "Task constants or exact constructed oracle example; not empirical strategy performance."
     }
   ]
 }
