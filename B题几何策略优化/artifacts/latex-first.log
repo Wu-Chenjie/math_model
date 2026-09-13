@@ -1,0 +1,145 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/ctexart.cls
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+ (/usr/local/texlive/2026basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/l3backend/l3backend-xetex.de
+f))
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+TEX)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/fix-cm.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/size12.clo))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/engine/ctex-engine-xete
+x.def (/usr/local/texlive/2026basic/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/l3packages/xtemplate/xtempla
+te.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2026basic/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chin
+ese-article.def
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.c
+fg)) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/ctex-cs4size.clo)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-ma
+c.def
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-ma
+cold.def)))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/caption/caption3.sty))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/listings/lstpatch.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/local/texlive/2026basic/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty)
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+ (/usr/local/texlive/2026basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+)) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty))) (./numbers.tex) (./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/caption/ltcaption.sty)
+(./main.out) (./main.out) [1]
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsb.fd) [2]
+[3] [4] [5] [6] [7] [8]
+Underfull \hbox (badness 1838) in paragraph at lines 212--214
+\TU/STSong(0)/m/n/12.045 被 积 函 数 随 $\OML/cmm/m/it/12.045 y$ \TU/STSong(0)/m/n/1
+2.045 单 调 下 降，| \TU/lmr/m/n/12.045 1 \TU/STSong(0)/m/n/12.045 米 步 长 左 矩 形 和 给 出
+ 面 积 上 界。|  脚 本 在 径 向 分 段
+[9] (./development_table.tex) (./iid_table.tex) [10] (./iid_interpretation.tex)
+(./stress_table.tex [11]) [12] (./conclusion_numeric.tex) [13]
+(./source_appendix.tex (../src/active.hpp [14]) (../src/adaptive_optical.hpp
+[15]) (../src/bearing_types.hpp) (../src/belief_dp.hpp [16])
+(../src/certified_route.hpp [17]) (../src/configurations.hpp) [18]
+(../src/continuous_points.hpp) (../src/discovery.hpp)
+(../src/dynamic_selection.hpp [19] [20] [21]) (../src/geometry.hpp [22]
+[23]) (../src/joint_config.hpp [24]) (../src/lns.hpp [25])
+(../src/neighborhood_tour.hpp) [26] (../src/optical_order.hpp [27])
+(../src/optical_portfolio.hpp) (../src/optical_terminal.hpp [28] [29])
+(../src/policy.hpp [30] [31] [32] [33] [34]) (../src/position_uncertainty.hpp)
+(../src/residual_cover.hpp [35]) (../src/robust_geometry.hpp [36]) [37]
+(../src/rollout_sensor.hpp) (../src/routing.hpp) (../src/shortcut_sensor.hpp
+[38]) (../src/simulator.hpp [39]) (../review/certified_layout21_hex.hpp)
+(../src/robot.cpp [40]) (../src/benchmark.cpp [41]) (../src/bridge.py [42]
+[43] [44]) (../src/q2_full_domain_certificate.py [45] [46] [47])
+(../src/q4_area_arc_certificate.py [48] [49]) (../src/run_experiments.py)
+(../src/analyze_revision.py [50]) (../tests/replay_residual_fraction.py
+[51]) (../tests/q3_coverage_bound.py) (../tests/test_geometry_revision.cpp
+[52]) (../tests/run_checks.py [53]) (../src/validate_mock.py [54])
+(../tests/test_bridge_deadline.py [55] [56]) [57] (../run_all.py)) [58]
+(./main.aux) )
+(see the transcript file for additional information)
+Output written on main.pdf (58 pages).
+Transcript written on main.log.

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "paper_pages": 58,
+  "paper_main_and_references_pages": 13,
+  "solution_pages": 6,
+  "a4": true,
+  "metadata_title_review": "Chinese titles name only the work, not an institution or author.",
+  "inspected": "All solution pages; main-body page renders and independent judge checks; 57-page contact sheet plus updated final appendix page.",
+  "post_review_delta": "Original repaired panel PDF57pages; final58pages only prints updated self-contained reproduction entry on its own page and says以上数字. No model/experimental result change.",
+  "paper_sha256": "de49c9d81bc1a9f5190b3ec875687b87fa56bd31163620274abbfa69d8467b49",
+  "solution_sha256": "ece9391114d7a5dc8efe186cd2c9074a844b37b1ef4ace3f63b0527a66a9b177",
+  "logs": [
+    "artifacts/pdf-qa.log",
+    "artifacts/solution-qa.log",
+    "artifacts/figure-qa.json"
+  ]
+}

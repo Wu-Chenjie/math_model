@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "archive": "B题几何策略优化_代码与数据.zip",
+  "sha256": "eff515e598a44e6ff3e17b28bf9f6a1e5ed46afbc7065fd72b9b49125330361f",
+  "bytes": 2225446,
+  "files": 205,
+  "source_only": true,
+  "path_normalized_files": [
+    "modeling-manifest.json",
+    "artifacts/run-stress4_84.json",
+    "artifacts/run-iid78.json",
+    "artifacts/run-stress5_84.json",
+    "artifacts/limited-gate.json",
+    "artifacts/completion-gate.json",
+    "artifacts/regression-tests.json",
+    "artifacts/reproduction-log.json",
+    "artifacts/run-stress5_56.json",
+    "artifacts/run-stress4_56.json",
+    "artifacts/execution-stress.json",
+    "artifacts/execution-iid.json",
+    "artifacts/run-iid84.json",
+    "artifacts/run-stress1_56.json",
+    "artifacts/run-stress3_84.json",
+    "artifacts/run-stress2_84.json",
+    "artifacts/run-stress2_56.json",
+    "artifacts/run-iid56.json",
+    "artifacts/run-stress1_84.json",
+    "artifacts/run-stress3_56.json",
+    "review/seat-C.md",
+    "review/seat-C-fix1.md"
+  ],
+  "formal_logs_present": false
+}

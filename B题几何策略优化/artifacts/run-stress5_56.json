@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/stress5_56.csv",
+    "2660001",
+    "40",
+    "5",
+    "56",
+    "56"
+  ],
+  "exit_code": 0,
+  "started_unix": 1789231459.652111,
+  "runtime_s": 32.327948808670044,
+  "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+  "stderr": "",
+  "output": "results/stress5_56.csv",
+  "output_sha256": "ae1a8d1a86c202adbe2ad8a8bc3d8d523624fc5c146aa9428a9bfd3a9023cf4b"
+}

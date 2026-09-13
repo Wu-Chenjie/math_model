@@ -1,0 +1,292 @@
+\documentclass[UTF8,a4paper,zihao=-4,fontset=mac]{ctexart}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,array,graphicx,float,caption,setspace,fancyhdr,enumitem,longtable,listings}
+\usepackage[hidelinks]{hyperref}
+\setstretch{1.12}\setlength{\parindent}{2em}\setlength{\parskip}{2pt}
+\setlist{nosep,leftmargin=2em}
+\ctexset{section={format=\large\bfseries,beforeskip=12pt,afterskip=6pt},subsection={format=\normalsize\bfseries,beforeskip=8pt,afterskip=4pt}}
+\captionsetup{font=small,labelfont=bf,skip=5pt}
+\pagestyle{fancy}\fancyhf{}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}
+\newcommand{\R}{\mathbb R}\newcommand{\eps}{\bar\varepsilon}\newcommand{\conv}{\operatorname{conv}}\newcommand{\mec}{\operatorname{MEC}}
+\newtheorem{proposition}{命题}\allowdisplaybreaks[2]\emergencystretch=2em
+\input{numbers.tex}
+\begin{document}
+\begin{center}{\zihao{3}\bfseries 有界测向误差下干扰源的连续几何规划与清除}\\[8pt]{\large\bfseries 摘\quad 要}\end{center}
+无线电干扰源的快速清除既需要保证发现全部目标，也需要控制测向与行走代价。本文以最坏角锥交的最小包围圆为定位判据，把集合估计、保证接收、剩余覆盖证书及真实控制器续跑连接起来，检验几何信息改善能否转化为实际时间收益。
+
+\textbf{问题一，}以前向角锥表示有界示向观测，以半平面交求多边形，以顶点对求区域直径。直径为40米的等边三角形不能被半径20米圆覆盖，故以最小包围圆半径不超过20米作为保证清除判据。
+
+\textbf{问题二，}首次收到信号还给出了接收半径下界。完整首扇区的保证接收域为四个圆盘的交；复核得到全域最坏后验半径上界55.739米、物理量化模型下界55.6528米。这直接说明，对完整首扇区，一次补测保证半径不超过35米的区域为空。被场地边界裁剪后的区域仍可另行搜索。
+
+\textbf{问题三，}沿用1124米七点环与有限测向加光学兜底，检验最坏半径连续选点及方法56的单源策略续跑。开发40局中，半径贪心平均增加165.79秒；真实续跑筛选后仅节省1.10秒，因此未作为默认策略。冻结配置保留安全提前停车，独立200局全部清除，总均时\QthreeMean{}秒，相对方法56节省\QthreeSave{}秒。
+
+\textbf{问题四，}以“历史全频道扫描点与剩余发现点共同覆盖所有位置和朝向”为不变量，采用向外舍入区间算术认证每一次连续点替换。独立有理数复核通过4564个空间单元。实验候选84独立200局全部清除，总均时\QfourMean{}秒，相对方法56节省\QfourSave{}秒，配对95\%区间为\QfourCI{}秒。五组压力测试均完成清除。动态整点删除在开发集中未触发，故不声称减少固定21点或达到新增10\%收益。
+
+\textbf{推荐默认保留方法78，候选84未推广。}默认策略Q4独立总均时5733.40秒；几何证书证明覆盖可行性，配对实验检验时间效果。本文全部成绩为本地模拟，六次官方正式测试及加密日志尚待补入。
+
+\noindent\textbf{关键词：}有界误差；主动测向；最小包围圆；剩余覆盖；策略续跑；邻域巡游
+\newpage
+\section{问题分析与统一目标}
+\subsection{物理约束及时间结构}
+目标位置固定在$\Omega=\{z:\|z\|\le1800\}$，总数为10至16，每个源独占一个频道。机器人从原点、频道1出发，移动速度5米/秒。每次换频1秒、检测5秒、失败光学3秒、成功光学与清除共5秒。移动时不能检测；在同一地点重复测向不能消除固定误差。真实接收半径在1000至1500米之间，定向源另有未知闭辐射半平面。任何合法源距均可能小于1000米；接收半径下界不等于源距下界。
+
+用$L,N_s,N_m,N_f,N_c$分别表示移动距离、换频数、检测数、失败清除数和成功清除数，任务总时间严格为
+\begin{equation}\label{eq:time}T=L/5+N_s+5N_m+3N_f+5N_c.\end{equation}
+研究目标是在全部清除约束下减小$T$。正式题设另要求报告$T/N_c$，本文同时提供该指标，比较策略时坚持同种子配对的\textbf{总时间均值}。先对每局计算$T/N_c$再取平均，不等于总体总时间除以总体源数。
+
+\subsection{文献的可迁移内容}
+Kaya\cite{kaya}用恒速运动的Fisher信息矩阵行列式作为目标，其局部最优路径并不保证最坏角锥交满足20米清除阈值。Vander Hook等\cite{hook}的谨慎贪心同时考虑移动与测量，但原文采用初始高斯位置假设和EKF高斯噪声，处理双向示向歧义；不能把该文直接称为本题的有界集合收缩定理。本文采用其重视不利观测与时间代价的思路，重新构造几何目标。
+
+Bayram等\cite{bayram}把保证定位精度的测点布置和巡游结合，其不确定度定义采用GDOP，28.9倍成本与5.5倍不确定度是双准则结论。本文只迁移“访问可行区域”的结构，不移植其常数。Dumitrescu--Mitchell\cite{dumitrescu}和Peng等\cite{peng}提供邻域巡游的建模背景；清除邻域须由本题覆盖约束重新推导。
+
+Hoffmann等\cite{rollout}通过策略续跑评价首个动作直至最终定位。本文将其落实为当前控制器的单源续跑。Sunberg--Kochenderfer\cite{pomcpow}指出，单纯双重渐进加宽会导致连续观测树的单粒子退化，并提出POMCPOW与PFT-DPW加以修正；该结论不是对全部POMCPOW的否定，也不证明旧连续搜索失败的因果原因。本文未实现完整POMDP搜索树。
+
+\section{集合状态及问题一的求解}
+\subsection{前向角锥与多边形交}
+设检测点$s$、示向度$\theta$，令$u=(\cos\theta,\sin\theta)$，$v=(-\sin\theta,\cos\theta)$。半角为$\eps$的前向角锥为
+\begin{equation}
+ W(s,\theta)=\{z:\ |v^\top(z-s)|\le \tan\eps\,u^\top(z-s)\}.
+\end{equation}
+两个线性不等式还隐含$u^\top(z-s)\ge0$，因此必须保留射线的前向性。理论物理误差为$\pm1^\circ$；本地公开协议模拟器保留0.01度读数，在线采用$\eps=1.005^\circ$包含四舍五入误差。若实际接口不量化，使用这一角度仍为保守外包。
+
+每个频道保存正常示向交形成的凸多边形$P_k$及全部历史响应。初始化包含$\Omega$的外切多边形；每次正常示向与$W(s,\theta)$、接收半径1500米的外切多边形相交，并加轴向上界。无信号不直接裁掉定向源的位置多边形，其位置与朝向耦合保留在历史状态和剩余覆盖逻辑中。有限假设用于排序，不能作为全清除的集合证据。
+
+若仅给出半平面、不额外给出场地边界，先判断空集、无界集或有界集。非空无界集直径为无穷大；空集提示观测不一致。退化点和线段分别按零直径和端点距处理。有界多边形可以用逐半平面裁剪得到，本文小规模实现扫描全部顶点对，计算
+\begin{equation}D(P)=\max_{i,j}\|p_i-p_j\|.\end{equation}
+凸函数在多面体上的最大值可取于极点，因此顶点对已覆盖区域内任意点对。该实现耗时$O(m^2)$；如顶点规模增大可换用旋转卡壳。
+
+\subsection{直径不足以判断单点清除}
+定义
+\begin{equation}\rho(P)=\min_c\max_{z\in P}\|z-c\|.\end{equation}
+等边三角形边长40米时，$D=40$米而$\rho=40/\sqrt3\approx23.094$米。因此半径$D/2$的圆未必能覆盖定位区域，不能以$D\le40$替代$\rho\le20$。最小包围圆由至多三个顶点支持：一个点、两个点的中点圆，或三个点的外接圆。通用几何库计算圆心后再次取全部顶点距离的最大值，返回的是普通浮点估计，并不构成严格向外舍入半径。连续候选模块另加数值余量，保证清除检查使用阈值裕量；这些工程处理不包含全部坐标裁剪误差的形式证明。精确有理数证书单独标明。
+
+保证清除区域实际上是
+\begin{equation}\label{eq:clearset}\mathcal C(P)=\bigcap_{p_i\in V(P)}\overline B(p_i,20),\end{equation}
+其非空当且仅当$\rho(P)\le20$。若最小包围圆为$(c,r)$，则$\overline B(c,20-r)\subseteq\mathcal C(P)$。这给出可供路径优化的邻域，而不是必须访问的唯一圆心。
+
+\section{问题二的保证接收域与第二测的能力边界}
+\subsection{四圆盘完整接收域}
+把首检测点和示向方向分别归一化为原点、$x$轴，源位置写成$z=ru_\phi$，其中$5<r\le1500$、$|\phi|\le\eps$。首次收到信号意味着其未知真实接收半径满足$R_s\ge\max(1000,r)$。第二测点$q$必能收到的充要条件是
+\begin{equation}\|q-ru_\phi\|\le\max(1000,r),\quad 5<r\le1500,\ |\phi|\le\eps.\end{equation}
+对$r\le1000$，距离平方关于$r$凸，只需检查闭包端点5、1000。对$r\ge1000$，约束化为$\|q\|^2\le2r q^\top u_\phi$，在$r=1000$成立后随$r$增大不再加严。由角端点取最坏方向，得到
+\begin{equation}\label{eq:G}
+G=\bigcap_{r\in\{5,1000\},\,\sigma\in\{-1,1\}}\overline B\big(r(\cos\eps,\sigma\sin\eps),1000\big).
+\end{equation}
+令$q=(a,b)$、$d=a\cos\eps-|b|\sin\eps$，等价代数式为
+\begin{equation}a^2+b^2\le2000d,\qquad a^2+b^2\le999975+10d.\end{equation}
+此前经验点$(750,\pm300)$具有良好接收裕量；它不是最优定位点。完整扇区的已证候选为$(843.1178,\pm545.4003)$，本轮再次运行精确有理数脚本，得到表\ref{tab:q2}。
+\begin{table}[H]\centering\caption{完整首扇区的第二测最坏半径证书，单位米}\label{tab:q2}
+\begin{tabular}{lrrr}\toprule 模型&全域下界&候选上界&差距上界\\\midrule
+连续保守半角1.005度&55.73823&55.739&0.00077\\
+物理误差及0.01度量化&55.6528&55.739&0.0862\\\bottomrule\end{tabular}\end{table}
+上界用第二读数区间的加宽角锥外包，并对外包顶点精确核验包围圆。下界分别用近共线区固定双点见证和其余区域的远端不可区分双点见证覆盖完整$G$。相关三角函数以有理区间界计算，接受判断不依赖浮点搜索结果。脚本与输出随支撑材料给出。
+
+全域下界的双点构造如下。由对称性只考虑$q=(a,b)$、$b\ge0$。当$b\le30$时，首轴上的$(1340,0)$与$(1500,0)$可产生相同的两次正常示向读数，给出80米半径下界。其余区域取$A=1500u_{-e_1}$，从$q$指向$A$的射线顺时针转$2e_2$后与首扇区上边界相交于$B=t u_{e_1}$。记$k=\sin(e_1+2e_2)$、$h=\cos(e_1+2e_2)$、$s=\sin(2e_2)$、$l=\sin(2e_1+2e_2)$，则
+\begin{equation}
+t=\frac{1500(ka+hb)-s(a^2+b^2)}{1500l-ka+hb}.
+\end{equation}
+证书先核验分母正、$t>5$、两次读数均不会触发近距响应，再将$t\le T$化成凹二次式在包含$G$的1000米圆盘上的最大值非正。两模型的$T$分别为1400.796371、1400.99，故不可区分双点的半距离至少为
+\begin{equation}
+\frac12\sqrt{1500^2+T^2-3000T\cos(2e_1)}.
+\end{equation}
+取$e_1=1.00499999^\circ$，连续模型的$e_2=1.00499999^\circ$、物理量化模型的$e_2=0.99999999^\circ$，保留严格读数余量，得到表中的两项下界。构造和区间余量均由有理数脚本逐项检查，而非只抽样验证$q$。
+
+\subsection{最近保证定位区域可以为空}
+欲以最近点代替固定坐标，可求
+\begin{equation}\label{eq:guarantee}
+\min_{q\in G(P)}\|q-x\|,\quad R(P,q):=\sup_{\theta\in\Theta(P,q)}\rho(P\cap W(q,\theta))\le\tau.
+\end{equation}
+阈值取20米时保证下一次正常示向后可清除；取35米时只允许尝试清除，不能保证成功。表\ref{tab:q2}表明，\textbf{完整首扇区在这两个阈值下均无可行点}。边界裁剪或已有更多测向可能使$P$变小，此时应重新求域；不能把完整域下界搬到裁剪域，也不能假定保证区域永远非空。
+
+本轮在线局部搜索使用更强的充分接收条件$\max_{z\in P}\|q-z\|\le950.7$米，以保持原经验接收余量。它并非式\eqref{eq:G}的完整域。最近保证域实验检查当前多边形的35米阈值，未找到被门槛采纳的替换动作；这一结果仅说明本次搜索未触发，不证明每个裁剪实例的完整域都为空。
+
+\section{可独立复现的联合控制流程}
+方法编号只是配置索引。默认策略由“有限深度动作规划、发现与定位联合调度、有限光学后备、安全提前停车”组成，比较基线为关闭提前停车的同一控制器。表\ref{tab:parameters}列出决定其行为的参数。
+\begin{table}[H]\centering\small\caption{默认控制器的主要参数与终止门槛}\label{tab:parameters}
+\begin{tabular}{p{5cm}p{4.6cm}p{4.6cm}}\toprule 参数&Q3&Q4\\\midrule
+发现点&原点及1124米六点环&认证21点双环\\
+单源决策深度/节点预算&2层/6000&2层/6000\\
+状态假设上限/局部动作上限&32/6&63/6\\
+机会补测上限&每源4次&关闭\\
+基线补测偏移&首示向坐标$(750,\pm300)$&动作菜单中保留同坐标\\
+主动阶段后备&至多3轮中心试探后光学&直接自适应条带光学\\
+尝试清除/保证清除&35米/20米&按规划动作/20米\\
+路由精确解阈值&节点数不超过12&节点数不超过12\\\bottomrule\end{tabular}\end{table}
+
+\begin{enumerate}
+\item 初始化20个频道的未知状态与发现点集。从当前频道开始循环扫描未知频道；正常示向建立保守多边形，近距响应立即在原地清除。成功后永久退出该频道。
+\item 对每个已发现未清除源，从与全部历史响应一致的有限位置、半径和朝向假设构造动作表。测点包括当前位置、包围圆心、首示向偏移点、长轴与横轴偏移点；清除动作包括圆心和长轴上的试探点，Q3还加入保证清除内域。排除历史同地点同类动作。
+\item 在深度2的有限状态树上比较“行走、换频、测量、成功或失败清除”总秒数。节点上限6000，叶端是有限假设的28米蛇形期望代价；它仅作基线排序，不提供覆盖或最优性证明。基线测向结果仍按2度分组，本轮不对这项旧代理进行连续加密。任何时候真实集合均用完整角锥更新。
+\item 把未访问发现点与各已知源的下一动作同时放入开放巡游问题。Q3允许同一源的若干候选服务入口，Q4使用选中的单个动作点。节点不超过12时用子集动态规划，否则多起点最近邻、2-opt和重定位，辅以最小生成树及指派松弛下界；下界只约束这一次路由代理。每次仅执行首个任务，响应后重建全部节点。
+\item 每源最多执行6次局部动作。Q3随后允许保证域中的第二测及至多3轮中心附近试探，35米半径时可以试清，失败继续；Q4转入自适应条带覆盖。光学把区域切成可被半径20米圆覆盖的有限子块，按有限假设命中时间选取巡游顺序；逐点发出清除命令，直到成功。
+\item Q3在已停车点可为其它已知源补测：每源最多4次，要求离估计圆心不超过1000米、相对首示向横向间距至少50米且未重复。它只增加信息，不参与全清除证明。发现数达到16后可跳过剩余发现点；否则完成证书要求的未知频道扫描，再清除所有已知源才退出。
+\end{enumerate}
+
+方法78在该控制器外包一层安全提前停车适配器：仅把已验证可成功的清除动作沿当前路段提前，控制器仍保留原路标，所有测向位置保持不变。实验候选84在Q3与78相同，在Q4才启用后文的连续发现点证书替换。局部动作和机会补测数都有上限，光学子块数有限；在理想几何、接口按题设响应且无传输故障时，全发现证书与逐块清除共同给出有限完成性。程序异常或超时会报告失败，不把它当成全清除。
+
+\section{问题三的最坏剩余半径规划}
+\subsection{对全部读数取最坏而非仅枚举无噪声顶点}
+若以$z\in V(P)$的真实方向直接切一次$\pm1^\circ$角锥，既遗漏测量误差偏移，也没有证明极值只在这些方向出现。本文覆盖全部可能示向区间$\Theta(P,q)$：当$q$在$P$外时，用顶点方位的最大圆周空隙确定可见角区间，再向两端扩张$\eps$；当$q\in P$时使用整个圆周。
+
+把读数区间分成$[\theta_j-\delta_j,\theta_j+\delta_j]$。只要$\eps+\delta_j<90^\circ$，有
+\begin{equation}
+\bigcup_{|\theta-\theta_j|\le\delta_j}W_{\eps}(q,\theta)
+\subseteq W_{\eps+\delta_j}(q,\theta_j).
+\end{equation}
+故
+\begin{equation}\label{eq:radiusbound}
+R(P,q)\le \max_j\rho\big(P\cap W_{\eps+\delta_j}(q,\theta_j)\big).
+\end{equation}
+优先二分当前半径上界最大的区间，直到预算或上下界间距阈值满足。近距响应的真实不确定度至多5米；将这些几何方向一并纳入角锥外包只会更保守。在线半平面与圆运算仍采用浮点加容差；角区间的连续覆盖论证不等于整个浮点几何库已获形式化验证。25005个密集读数检查未超过程序外包，另由问题二有理数证书复核关键理论阈值。
+
+候选点用确定性单纯形局部搜索，接收域由凸盘交投影构造。新候选仅保留一个；不使用旧2度粒子分箱目标，也不再进行八方向加密。半径目标的非凸性意味着这是局部候选搜索，而不是测点全域最优证书。
+
+\subsection{把支配门槛与时间保证分开}
+设原动作后半径上界为$r_0$，新点为$q$，其上界$r_q$。本轮筛选条件为
+\begin{equation}\frac{2(r_0-r_q)}5 > \frac{\max(0,\|x-q\|-\|x-q_0\|)}5+5,\quad r_q<0.85\rho(P).
+\end{equation}
+左侧是把直径收缩换算成行走秒数的启发式，右侧包含额外移动和一次检测。\textbf{这不是后续真实总时间的支配定理。}半径变小可能增加入口代价、改变联合调度，或延后一次本可成功的试清。开发实验的负结果证实仅靠该门槛不足以消除退步。
+
+\subsection{用当前单源控制器续跑筛选首动作}
+对通过几何门槛的连续候选与原动作，构造与已观测历史一致的有限场景，包括内部假设、可行边界点和$\pm1^\circ$误差。每个首动作均由同一单源控制器继续运行，直至真实模拟清除或执行实际的光学覆盖函数；没有把28米旧蛇形估价作为停止叶端。
+
+续跑时保留当前位置、频道、多边形、历史和已用动作预算，同地点响应复用原值。仅当场景平均剩余时间至少下降5秒且最大场景退步不超过5秒时才替换。这里的“最坏”只针对列出的有限续跑场景，不是对连续源位置的时间证明。它是单源控制器续跑，未模拟其它源的后续联合调度或机会补测，因此不能等同整局策略改进定理。开发集总共执行34624次场景续跑，仅采纳22次动作替换，均时改善仍很小。
+
+续跑中的“真实”专指调用同一单源控制器直至实际清除成功，未来观测仍由有限假设生成：每个场景固定取$+1$或$-1$度误差，不执行0.01度量化。它不复用评测内核完整的位置相关误差场；同位置历史读数则重放保存值。因此有限场景的门槛不能升级为连续误差场下的鲁棒保证，方法82没有推广。
+
+\subsection{全向发现与有限清除机制}
+七点集由原点和半径1124米的六等分环构成。原点覆盖半径999.6米圆域；其余源的方位距离最近环点角差至多30度。距离平方
+\begin{equation}d^2(r)=r^2+1124^2-2r\cdot1124\cos30^\circ\end{equation}
+关于$r$凸，在$[999.6,1800]$端点检查即可证明小于$999.6^2$。有理区间核验$\sqrt3$和实际二进制坐标，保证真实最小接收半径1000米下覆盖整个场地。
+
+每个正常发现源最多采用有限次局部试探；Q3随后进入原单源定位后备，Q4直接进入有限光学扫掠。每一光学子区域都有20米覆盖证据，因此逐个访问必有一个成功。若已发现16个源，可停止发现并处理已知剩余源；否则必须完成覆盖证书规定的各频道扫描。10至15个源的局不能凭“已有许多空频道”提前退出。
+
+\section{问题四的负信息与剩余覆盖}
+\subsection{未知朝向必须进入可能状态}
+未发现频道的状态应写为$\omega=(z,R,h,d)$，其中$d$表示是否定向，$h$为单位朝向。令$C(q)$表示测点$q$可收到的状态集合，则无信号更新为
+\begin{equation}\Omega_k^{t+1}=\Omega_k^t\setminus C(q_t).\end{equation}
+在不知道$R$的情况下，只能保证$R\ge1000$；定向源的必收状态还需$h^\top(q-z)\ge0$。单纯在位置平面切一个1000米圆盘对Q4不成立。
+
+一次正响应也不足以给出不同位置的普遍必收点。固定一个可能源位置$z$，已知$h^\top(s-z)\ge0$，若要求对所有这样的$h$都满足$h^\top(q-z)\ge0$，则$q-z$必须是$s-z$的非负倍数。当首角锥包含两个与$s$不共线的可能源位置时，两个必要射线的共同测点只有$s$。所以不能不加条件地把Q3保证第二测推广到Q4。多个正测点的凸包给出一个共同必收充分域，但它仍可能很小。
+
+\subsection{剩余覆盖不变量及证明}
+记$H_t$为截至当前对所有仍未发现频道都已完整扫描的实际点集，$F_t$为计划保留的未来发现点。对源位置$z$，定义保证距离内点集
+\begin{equation}S_t(z)=\{q\in H_t\cup F_t:\|q-z\|\le1000\}.
+\end{equation}
+\begin{proposition}\label{prop:residual}
+若对所有$z\in\Omega$有$z\in\conv S_t(z)$，则每个仍未发现频道的任意合法源状态都能在$F_t$中至少一个点被收到。
+\end{proposition}
+\begin{proof}
+对任意单位朝向$h$，若所有$q\in S_t(z)$都满足$h^\top(q-z)<0$，则其任何凸组合也具有负投影，与$z\in\conv S_t(z)$矛盾。因此至少一个点在距离1000米以内且投影非负，能接收该源。若这个点属于$H_t$，此前完整频道扫描就会发现它，与“仍未发现”矛盾，故必有可接收点在$F_t$。全向源不需要投影条件，结论同样成立。\end{proof}
+
+该命题等价于用连续几何充分条件认证$\Omega_k^t\subseteq\bigcup_{q\in F_t}C(q)$，不需要把四维状态离散成粒子。所有未发现频道共享完整扫描历史；频道一旦发现，退出剩余发现证书，转入已知源定位。假如将来加入只扫部分频道的机会扫描，必须分别保存$H_{k,t}$，不能套用共享历史。
+
+初始$F_0$使用已认证21点双环布局。每次欲删除一个点或将其移向当前位置，都先重新验证命题\ref{prop:residual}；失败或计算预算耗尽时保留原点。一次阴性响应只是把某点从未来集合移入历史集合，$H_t\cup F_t$并未变化，\textbf{不会自动让另一个本来必需的静态点变成冗余点}。真正的删除需要额外实测位置、已证覆盖冗余或其它合法先验。因此“21减到15”不是本题局内必然可实现的省时空间。
+
+\subsection{连续单元与向外舍入认证}
+从包围场地的正方形递归二分矩形单元$B$。若单元与场地无交则略去；否则令
+\begin{equation}I_B=\{q:\max_{v\in V(B)}\|q-v\|\le999.999\}.
+\end{equation}
+当$V(B)\subseteq\conv I_B$时，距离凸性保证$I_B$中的每一点对整个$B$都在1000米以内，凸包条件也延伸到整个$B$。未通过则沿长边二分，最多30层、100000次检查；未决即拒绝该修改。
+
+每个距离平方及叉积均使用向外舍入区间：只有距离上界小于阈值、叉积下界非负时才接受。凸包构造用于提出见证，其每条边及凸性再用区间检查；它本身的浮点排序不作为证明。实际二进制坐标通过17位有效数字传入接口，保证认证坐标与发送坐标一致。初始布局本轮认证4552个叶单元；一个实际接受的3.595米点替换产生4564个叶单元，独立Python有理数程序同时核验单元几何及整个场地分区无缺口。
+
+\begin{figure}[H]\centering\includegraphics[width=.88\linewidth]{../figures/residual_geometry.pdf}\caption{固定21点及一个连续替换的认证空间单元。细分密度反映距离和凸包边界的紧约束；放大图显示内环点允许移动的范围很小。}\end{figure}
+
+\subsection{实施范围及固定点数下界}
+方法81在已选中的下一发现点到当前位置的线段上寻找通过证书的较近点。七次二分是有可行性复核的局部搜索，不宣称该约束沿线单调，也不宣称找到了完整可行域的最近点。方法85进一步尝试在现有定位位置扫描后删除一个未来点，仍逐次认证；开发集没有成功删除整点，候选84关闭这一额外计算。
+
+固定通用布点下界的适用对象是出发前固定、对任意位置和朝向保证接收的有限点集，不包括适应性信息和光学扫描。下面补出面积与边界弧证书之间的分析连接。
+
+\begin{proposition}对半径$R=1800$米场地及最小接收半径$L=1000$米，任意固定通用定向发现点集至少含15点。\end{proposition}
+\begin{proof}
+设点$q_i$到原点距离为$r_i$，其接收圆盘在场地内的面积为$A_i$。全朝向可接收等价于源位置属于其距离$L$内测点的凸包；若仅有两个测点，则源必须落在两点连线上。有限条连线的面积为零，因此几乎处处至少有三重圆盘覆盖，积分得$\sum_i A_i\ge3\pi R^2$。
+
+再考虑位于场地边界且径向向外发射的源。内点$r_i<R$不可能接收，$r_i=R$只可能覆盖零长弧，$r_i>R+L$完全无效。其余点能覆盖的边界弧半角为
+\begin{equation}
+\delta_i=\min\left\{\arccos(R/r_i),\arccos\frac{R^2+r_i^2-L^2}{2Rr_i}\right\}.
+\end{equation}
+圆周全部覆盖要求$\sum_i\delta_i\ge\pi$。定义面积损失$d_i=1-A_i/(\pi L^2)$。对$r_i\ge R$，两圆交面积为
+\begin{equation}
+A(r_i)=2\int_0^L[\sqrt{R^2-y^2}+\sqrt{L^2-y^2}-r_i]_+\,dy.
+\end{equation}
+被积函数随$y$单调下降，1米步长左矩形和给出面积上界。脚本在径向分段$[1800,1900,1950,2000,2025,2050,2800]$上，以有理数平方根上界和余弦泰勒界逐段认证$d_i\ge K\delta_i$，其中$K=1.38$。内点的$\delta_i=0$且$d_i\ge0$，外于$R+L$的点也满足。因此
+\begin{equation}
+ N=\sum_i\frac{A_i}{\pi L^2}+\sum_i d_i
+ \ge\frac{3R^2}{L^2}+K\pi>14.0553>14,
+\end{equation}
+由整数性得到$N\ge15$。每段最小余量及有理数运算输出均在支撑材料中。
+\end{proof}
+当前关系为$15\le N^*\le21$，既不证明21最优，也不证明动态方案可省6次扫描。
+
+\section{光学覆盖和邻域巡游的严格转换}
+Fekete等\cite{lawn}的割草模型要求连续路径上的刀具覆盖区域；本题光学必须显式发出清除命令，不能把沿线经过算成自动光学成功。先将$P$分成有限凸子区域$P_i$，再为每一块选择清除位置，才能保留覆盖保证。
+
+若$P_i\subseteq B(c_i,r_i)$且$r_i\le20$，可行清除点是式\eqref{eq:clearset}给出的$\mathcal C(P_i)$，其内含$B(c_i,20-r_i)$。\textbf{不能仅要求路径碰到$B(c_i,20)$。}例如源在该圆右端、机器人在左端，二者相距40米。本文对每块全部顶点执行20米距离复核，交替优化访问坐标与2-opt顺序，并在整条扫掠长度和有限假设平均发现时间都改善时接受。
+
+原条带覆盖、可变条带覆盖和连续邻域巡游分别保留为方法83、86的消融。对多个已满足$\rho\le20$的源，实验实现沿全局访问顺序联合调整清除位置；该实现并未求解所有排列上的全局CETSP。某一固定扫掠全长缩短，也不保证每个未知源的首次命中时间缩短。开发集Q4仍出现净退步，因而没有启用这些模块。
+
+推荐默认方法78保留的安全提前停车只修改已经保证成功的清除动作，在原路段上找到最早能覆盖全部$P$的位置，未来测向路标保持不变。其路程不变量为$L+\|x-a\|\le L_0$，其中$a$为原计划路标、$x$为真实位置。由线段关系与三角不等式可归纳证明。该机制不会产生本轮声称的结构性规划收益。
+
+\section{配对实验及策略选择}
+\subsection{开发与独立验证严格隔离}
+开发使用种子2110001至2110040，每问40局。历史CSV在本机同种子标签下未能逐行重现，因此本轮重新编译原始未修改方法56，并与新代码重跑的80行开发基线逐行核对一致；所有比较均使用本轮同一编译器和标准库。历史CSV不参与配对或合并，不能据种子标签相同声称跨平台场景相同。冻结后使用2610001至2610200，每问200局，比较方法56、上一轮默认78和本轮候选84。压力五组分别为边界外向、共线端点、近重合、相关角误差、分区端点误差，各40局/问，起始种子2620001至2660001，步长10000。独立集不用于继续调整参数。
+
+本地各局独立生成10至16个源及不重复频道；局内位置在圆内按面积均匀提议，但拒绝任意两源距离小于40米的位置，故位置间不独立。接收半径在1000至1500米、朝向在整圆均匀提议；Q4定向源数在1至源数减1之间生成。默认误差由厘米舍入位置和种子的散列映射到[-1,1]度，再把读数量化至0.01度；同位置误差固定。统计均值仅适用于这一公开的本地场景分布。不同方法可走不同位置，配对共享环境和误差场，而非强行共享一串独立测量噪声。压力组合用于暴露失效结构，其分布与IID不同，不与IID合并估计总体均值。
+
+\input{development_table.tex}
+方法79的Q3表现为7局更快、33局更慢，明显偏向不利；因跨平台历史样本不可逐行对齐，不把这一胜负结构与旧67--69作严格同场景比较。不能据半径目标更贴物理，就断言时间必然改善。方法82用真实单源续跑后将平均退步消除，但仅节省1.10秒；Q3最后选择方法78的安全执行优化。Q4开发平均节省约32.67秒的候选84由连续发现点替换和提前停车组成，其它模块关闭。方法81与85的动作结果相同，后者仅增加无效认证计算。
+
+\subsection{独立同种子配对结果}
+\input{iid_table.tex}
+对每局配对差$d_i=T_{56,i}-T_{84,i}$，以$\bar d\pm t_{0.975,n-1}s_d/\sqrt n$报告均值区间。收益率是$100\bar d/\bar T_{56}$，不是各局百分比的平均值。退步局以$10^{-4}$秒容差判定，避开微秒级累计舍入。以上数字来自完整CSV，保持失败或不利结果可追踪。
+
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{../figures/paired_results.pdf}\caption{冻结独立集每问200个环境的配对时间差。正值为候选84节省，横线为零；异常值与负收益全部保留。}\end{figure}
+
+\input{iid_interpretation.tex}
+
+\subsection{成本分解及压力测试}
+式\eqref{eq:time}使配对节省分成移动、测向、换频和失败清除四项；同局成功清除数相同，其成本相消。这是计时恒等分解，不是各模块的独立因果贡献。
+\begin{figure}[H]\centering\includegraphics[width=.95\linewidth]{../figures/cost_components.pdf}\caption{独立集平均节省的计时分解。几何点的小幅移动可改变后续响应和控制分支，不能把全部差异直接归为移动量。}\end{figure}
+\input{stress_table.tex}
+五组均全部清除并不能推出每组都更快。最大CPU时间是本机本地计算观测值，不能据此证明官方网络下20分钟最坏墙钟约束；桥接器另设真实截止计时并在请求结果不确定时停止发送新动作。
+
+\subsection{公开协议内核和HTTP验证}
+候选84通过10个本地Python物理核案例和6个本地HTTP案例，逐局检查清除数。该内核由队内按照公开协议实现，\textbf{不是官方模拟器}。另执行9个C++几何与控制回归程序、有理数剩余覆盖复核及传输超时测试。Q2精确证书、Q3七点覆盖证书和Q4固定点数下界均重新运行。在线机器人只链接传感器接口，不链接快速模拟器的真值结构。
+
+\subsection{官方正式结果的独立证据栏}
+题目要求Q3和Q4各三次官方正式测试及原始加密日志。当前目录中没有可核验的这些日志，故表\ref{tab:formal}不填入本地种子或本地运行时间。正式运行应在官方界面就绪后使用桥接器进入；有限正式机会不由本地复现脚本触发。
+\begin{table}[H]\centering\small\caption{官方正式结果栏，当前尚无可核验记录}\label{tab:formal}
+\begin{tabular}{lllll}\toprule 问题及次数&测试案例编码&清除数&单源均时&程序时间\\\midrule
+Q3 第1次&待正式日志&待填&待填&待填\\Q3 第2次&待正式日志&待填&待填&待填\\Q3 第3次&待正式日志&待填&待填&待填\\
+Q4 第1次&待正式日志&待填&待填&待填\\Q4 第2次&待正式日志&待填&待填&待填\\Q4 第3次&待正式日志&待填&待填&待填\\\bottomrule\end{tabular}\end{table}
+
+\section{模型评价与结论}
+本轮贡献主要是把连续几何目标与时间目标的差别落实为可执行检验：全部可能读数的角区间外包，揭示保证第二测邻域的空集边界，建立含历史负信息的连续覆盖不变量，以及把光学巡游邻域正确写成覆盖子区域的清除位置交集。
+
+这些结构并未产生预期的两位数时间下降。半径贪心、有限续跑和光学邻域巡游均有明确负结果或微小收益；动态删除整点尚未成功。\input{conclusion_numeric.tex}覆盖证书只证明安全可行；时间效率仍取决于观测场、发现顺序与后续联合控制。当前论文的可复现数值为本地研究结果，正式测试栏完成前不构成可直接提交的最终正式成绩版本。
+
+\begin{thebibliography}{99}\small
+\bibitem{hook} Vander Hook J, Tokekar P, Isler V. Cautious Greedy Strategy for Bearing-Only Active Localization: Analysis and Field Experiments[J]. Journal of Field Robotics, 2014, 31:296--318. \url{https://josh.vanderhook.info/media/pdf/JoshV_JFR_2013_Localization.pdf}.
+\bibitem{bayram} Bayram H, Vander Hook J, Isler V. Gathering Bearing Data for Target Localization[J]. IEEE Robotics and Automation Letters, 2016, 1(1):369--374. doi:10.1109/LRA.2016.2521387.
+\bibitem{kaya} Kaya C Y. Observer Path Planning for Maximum Information[J]. Optimization, 2021. doi:10.1080/02331934.2021.2011868. \url{https://arxiv.org/abs/2103.02059}.
+\bibitem{rollout} Hoffmann F, Schily H, Krestel M, et al. Non-myopic Sensor Path Planning for Emitter Localization with a UAV[C]//FUSION 2023. doi:10.23919/FUSION52260.2023.10224174.
+\bibitem{pomcpow} Sunberg Z, Kochenderfer M. Online algorithms for POMDPs with continuous state, action, and observation spaces[C]//ICAPS, 2018. Extended version: \url{https://arxiv.org/abs/1709.06196}.
+\bibitem{lawn} Fekete S P, Krupke D, Perk M, et al. The Lawn Mowing Problem: From Algebra to Algorithms[C]//ESA, 2023, LIPIcs 274:45:1--45:18. doi:10.4230/LIPIcs.ESA.2023.45.
+\bibitem{peng} Peng C, Wei M, Isler V. Stochastic Traveling Salesperson Problem with Neighborhoods for Object Detection[C]//ICRA, 2023. Author archive deposited 2024: \url{https://arxiv.org/abs/2407.06366}.
+\bibitem{dumitrescu} Dumitrescu A, Mitchell J S B. Approximation algorithms for TSP with neighborhoods in the plane[J]. Journal of Algorithms, 2003, 48(1):135--159. \url{https://arxiv.org/abs/1703.01640}.
+\end{thebibliography}
+\label{mainbodyend}
+\clearpage\appendix
+\section{支撑材料与复现}
+\begin{longtable}{p{4.4cm}p{10cm}}\toprule 文件位置&内容\\\midrule\endhead
+src/ 与 review/ & 可编译C++在线机器人、几何、规划、覆盖证书及验证脚本\\
+results/ & 每局开发、独立和压力CSV及本地HTTP动作日志\\
+artifacts/ & 冻结配置、执行命令、哈希、区间统计、几何证书及复核结果\\
+evidence/ & 文献核验、旧版本哈希与原数学推导\\
+paper/ 与 figures/ & 本文LaTeX源码、自动生成数表与独立科研图\\
+vendor/mocksim/ & 来自所给压缩包的非官方公开协议模拟内核\\
+run\_all.py & 重新编译、运行测试并重建实验汇总\\\bottomrule\end{longtable}
+编译使用C++17与优化级别O2，不允许fast-math；该选项会破坏向外舍入认证的前提。新会话由原点开始；非零位置误差采用旧后备策略。支撑包不包含官方正式日志，待正式测试导出后保持原文件名加入。
+\input{source_appendix.tex}
+\end{document}

@@ -1,0 +1,11 @@
+PASS /usr/bin/clang++ robot.exe
+PASS /usr/bin/clang++ bin/benchmark_final
+PASS /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 tests/run_checks.py
+PASS /usr/bin/clang++ bin/test_q3_radius
+PASS /private/var/folders/b2/gb8zx__s42xczygcsg17jk_m0000gn/T/b-delivery-giyu0rq5/renamed_portable_solver/bin/test_q3_radius /private/var/folders/b2/gb8zx__s42xczygcsg17jk_m0000gn/T/b-delivery-giyu0rq5/renamed_portable_solver/bin/test_q3_radius
+PASS /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 tests/q3_coverage_bound.py
+PASS /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 artifacts/q2-certificate.json
+PASS /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 artifacts/q4-lower-bound.json
+PASS /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 src/analyze_revision.py
+Frozen results reproduced; geometric=84 experimental, joint=78 recommended.
+

@@ -1,0 +1,97 @@
+{
+  "recorded_unix": 1789233386.431052,
+  "freeze_preserved": true,
+  "changes": [
+    {
+      "path": "src/bridge.py",
+      "old_sha256": "6407cac1b8a88a02f73386db756c9a1e5a54e31b4d3ccd75e99afc8d56ca8ebe",
+      "new_sha256": "e6c4ae39d47ec78ce0fe8728d2506c860212447b1801954f4c6313c5bd6d4046",
+      "reason": "Packaging only: bridge imports bundled nonofficial mocksim under vendor; solver selection unchanged."
+    },
+    {
+      "path": "src/bridge.py",
+      "old_sha256": "e6c4ae39d47ec78ce0fe8728d2506c860212447b1801954f4c6313c5bd6d4046",
+      "new_sha256": "1ebfd54549296e49f1de9f53151d7be6d0f7c89b5e02fc19bffe6f91240483a7",
+      "reason": "改为项目内 vendor/mocksim 路径，并将 geometric 策略透传；不改数值策略。",
+      "validation": [
+        "artifacts/http-default.log",
+        "artifacts/http-geometric.log",
+        "artifacts/regression-tests.json"
+      ],
+      "scope": "post-freeze packaging and strategy entry point; benchmark numeric methods unchanged"
+    },
+    {
+      "path": "src/robot.cpp",
+      "old_sha256": "7f5c80b16931d71edf61f10ae20a287c3fb12c53b1b616609d68c63cae2d6393",
+      "new_sha256": "b2233afb38a168b80d51d47bfb042ab184e006e988fd03ba64f40a4057c33fb7",
+      "reason": "按冻结推广规则恢复 joint→78，增加 geometric→84；previous→56。",
+      "validation": [
+        "artifacts/http-default.log",
+        "artifacts/http-geometric.log",
+        "artifacts/regression-tests.json"
+      ],
+      "scope": "post-freeze packaging and strategy entry point; benchmark numeric methods unchanged"
+    },
+    {
+      "path": "src/validate_mock.py",
+      "old_sha256": "c0ef2176289ff286f844cae00f8e95e8679ddaad833907564651ecdc807b048b",
+      "new_sha256": "5a4cd412ffc993519c74935e7ccf98855947b1456d95d963b1bfec29edd30b54",
+      "reason": "将测试矩阵的策略名参数化以分别验证 joint 和 geometric。",
+      "validation": [
+        "artifacts/http-default.log",
+        "artifacts/http-geometric.log",
+        "artifacts/regression-tests.json"
+      ],
+      "scope": "post-freeze packaging and strategy entry point; benchmark numeric methods unchanged"
+    }
+  ],
+  "frozen_core_unchanged": true,
+  "benchmark_sha256_matches_iid": true,
+  "current_source_sha256": {
+    "src/optical_terminal.hpp": "686c448addffff29257a95252887859239dd6dad86f80f854df207ec16548d2e",
+    "src/rollout_sensor.hpp": "1f82185604124a3da5a51852a7d5c0678ec961d1e095974a3a70eddba339e12f",
+    "src/analyze_stage2.py": "178308d6e21d49649c2cda69666ef4e5a79b2ac48c91184703fac50360aab3e9",
+    "src/policy.hpp": "dc54f3b430399f2d470b1c8f7862e77f790327a13768a3d3d3158e16855fe5f4",
+    "src/analyze_stage3.py": "6619658efeb0e29a78111a18c160cb6323fd2386433327af2abd7046b9d2e2ad",
+    "src/write_current_report.py": "243490697fc291bd13ff8de6de063d3849cc9753981108d3b9c1b168160c0a9f",
+    "src/adaptive_optical.hpp": "8fb47fd15d0374825a53b7faf20e7c278d6f064ceff5d11b77d1d1ec5b2c710b",
+    "src/q2_full_domain_certificate.py": "68be3204a27bb0b7b88f29a171426ede9ea6ae7c84a3656e2a4dd78dae315d14",
+    "src/neighborhood_tour.hpp": "25e85e4a632b136127ff3c7365059b01d7f10122c760d5da7c7084e679f9f33a",
+    "src/optical_order.hpp": "04c098c391f7b937b9195d46b13e6307f13ecb10c4b3a77bde1c80bd97875cff",
+    "src/continuous_points.hpp": "7a864999c494a1269dcad9b0ab22238811a7e588748e6a6b40c73d8f79f954e5",
+    "src/belief_dp.hpp": "cf6e786f33f440c7a5fb0a689bc3b4357cb5e291760c7deda9c3e4fc4fcd1323",
+    "src/bridge.py": "1ebfd54549296e49f1de9f53151d7be6d0f7c89b5e02fc19bffe6f91240483a7",
+    "src/benchmark.cpp": "42c394b8ae65ea98a62ebcf3690f8ead7776cdac04c99fe557f8ab8aa765e588",
+    "src/bearing_types.hpp": "f8ddc78dd6ef3feee8abf06d6bd6e404fa08d3cadccce50a3c085839d1aa5a32",
+    "src/position_uncertainty.hpp": "1493dbb057bf4e8acd9aa210a19fe97e22f8bd2c35467a6912ba65830b03a717",
+    "src/profile.cpp": "664bff138e28f6f665da6714664bc45f307aacade3c8b65e71534c5420168042",
+    "src/robot.cpp": "b2233afb38a168b80d51d47bfb042ab184e006e988fd03ba64f40a4057c33fb7",
+    "src/robust_geometry.hpp": "0d14ca60427fab35e924d80c92de831ac41718ae50020f13497a9b3bdc3f2776",
+    "src/pair_analysis.py": "3f5efc2d0848cf3fd53e1b0dbd0d052e14ebe29d2591bfa62d934afa0f51599c",
+    "src/discovery.hpp": "9b5e67be915a3e4f55f109e0dfc880b88cebc1a08e446bd33bce5c24b0460301",
+    "src/routing.hpp": "ca3bf4d6450c43f87e7a7641fa1d6aa9c9703a1915e5d462bd4ec4ecafd4361f",
+    "src/joint_config.hpp": "dab31a93931fdf0777f7c40c67775c358d799a29ce46af7c4a813efdb501bd95",
+    "src/dynamic_selection.hpp": "a3e89bde6dbd1162b0f8af44352af52aaa618267a2c32f2a3b225ddb13da0867",
+    "src/analyze_joint.py": "1fbf93ca80e6640ff005f57bec4bc976949ee5077165eddb9f8cf6f69a501bdc",
+    "src/configurations.hpp": "d0b80a24b46096effed78b0863e0e98a24289d9f289498a4ffefa7645d8e2ad7",
+    "src/certified_route.hpp": "93037386167c1c19b12cb2d8a53937bea47cc56103395f0d75d75afc111dc4c2",
+    "src/optical_portfolio.hpp": "9cc0b7323e5157943259f57766fef81f85ca3a775ab177b243777665ddf261f7",
+    "src/final_check_joint.py": "38c466182a3e33f22432b2eeaf16592675646c988edcd00b47fc0ee12e7bb033",
+    "src/geometry.hpp": "ab630c956de4ad23de1b9010b06dcc8c7e018777aa5072cffc15dfbf16444323",
+    "src/run_experiments.py": "1a2c4bdeb3b66ea32893548c764f2eddaad36cdc9675fd6e6d75987d183c1fd5",
+    "src/active.hpp": "d6257179b4df531c52220c5322556d5b590c7839fc53733b058848e04841aba4",
+    "src/validate_mock.py": "5a4cd412ffc993519c74935e7ccf98855947b1456d95d963b1bfec29edd30b54",
+    "src/shortcut_sensor.hpp": "cf13dd4c3abb7ff6464c80ef2c82cf20258b91a6a841d6e013e83e2ae3e87c0a",
+    "src/simulator.hpp": "f487248982d4361e63316255a6e7b42d120a77cc3beb59a5254963b887fb7f59",
+    "src/lns.hpp": "8abc305e534c87c103a6e50808eada1bb3345b506c8162b4c806441f55f53727",
+    "src/residual_cover.hpp": "de24b2585b372388036f58284c51cbe14fef6857167f9e5b1308e96cab547f14",
+    "src/write_report_stage3.py": "e2384a2a9a0473deec7da234d305d901ab7f429649e8191d0875c65a7ca744b3",
+    "src/write_report.py": "79a7d49913ec2066872af32499e569e105c27aa7615a58211962c9b119623de7"
+  },
+  "test_repairs": {
+    "tests/test_geometry_revision.cpp": "显式输出路径并检查写入失败",
+    "tests/run_checks.py": "新见证、哈希对齐及临时目录回归",
+    "tests/replay_residual_fraction.py": "记录所消费见证哈希"
+  },
+  "new_delivery_producers": "paper tables, documents, run_all and artifact ledger are post-freeze delivery producers; no model tuning"
+}

@@ -1,0 +1,26 @@
+{
+  "created_unix": 1789277958.677511,
+  "method": 78,
+  "training_csv": "../../results/iid78.csv",
+  "training_sha256": "6f762f42fceccafe19af44557ac82a112979a08f122bb9ce898a4d51190fd0cb",
+  "training_seeds": [
+    2610001,
+    2610200
+  ],
+  "new_validation_seeds": [
+    2710001,
+    2710200
+  ],
+  "cases_per_question_per_split": 200,
+  "model": "Fit total seconds T=a+b*N+c*I(N=16) on original200 each question only; derive mean per source as b+a/N+c*I(N=16)/N.",
+  "alternatives": [
+    "T=b*N",
+    "T=a+b*N",
+    "T=a+b*N+c*N^2"
+  ],
+  "uncertainty": "HC3 covariance and Student-t reference; prediction assessed on new seeds without refitting.",
+  "no_causal_claim": "Counts vary with scenes; no claim adding a source in every fixed scene helps.",
+  "measurement_identity": "M_disc=m*(20-N)+sum(J_k), S_disc=M_disc-d with0<=d<=m.",
+  "binary_sha256": "39f61f8ed085504090b95d955b8ae84e04044d7be26b46e07a28091bda2f023c",
+  "profile_source_sha256": "73890f0715e9b7021e4fba6c49d6855efe65d90b77132e63812f85afc52d056f"
+}

@@ -1,0 +1,8 @@
+pdf_qa: B题几何策略优化/B题几何策略优化_题解.pdf
+  info  pages: 6
+  PASS page-count
+  PASS captions: no 'Figure N' / 'Table N' / '图 N' / '表 N' prefixes found
+  WARN anonymity: Title metadata has CJK text -- confirm it names no school or person: 'B题几何策略优化题解与计算交接'
+  PASS anonymity: no identifying metadata and no page-1 identity leak
+  PASS blank-page: no near-uniform pages (median 37125B over 6 page(s))
+pdf_qa: PASS (B题几何策略优化/B题几何策略优化_题解.pdf)

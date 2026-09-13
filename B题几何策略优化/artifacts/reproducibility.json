@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "command": "python3 src/run_experiments.py --suite iid --workers 3",
+  "seed": {
+    "iid": 2610001,
+    "development": [
+      2110001,
+      2110040
+    ],
+    "stress": [
+      2620001,
+      2630001,
+      2640001,
+      2650001,
+      2660001
+    ]
+  },
+  "runtime": {
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "compiler": "clang++ 21, -O2 -std=c++17, no fast-math",
+    "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "benchmark_sha256": "cda9088fc5f1ab814eb9897a1027f6cfd83405ea2e51893688b30d921d412b01"
+  },
+  "input_hashes": {
+    "inputs/B题.pdf": "81c992a9bee5376308c4768b58719b177f17d6ee1f9861577a851924c5a838ca",
+    "inputs/论文格式规范.pdf": "cece4bb3a900a0435160032b98ea26e03b0f2d7eca58424b0d023e26085aed26"
+  },
+  "output_hashes": {
+    "artifacts/data-audit.json": "0fc2173743f97e418360fc43f6cafbf7c175d3d9ef70bebe5ade0fb3cfcb367d",
+    "artifacts/baseline-metrics.json": "f8e75c4b858023069f3e5921d0a866ac7cbe10b591b896e7071aa0c1a15d93f1",
+    "artifacts/metrics.json": "43bdeac7af13bdffaea7c5d5f53fb9d89729dfe86df60997fa0878e84be70287",
+    "artifacts/result-registry.json": "859f79bfa9c5eb378bf13ae2637fc661a5c28df656dbb52af5f75878fa0a9102",
+    "paper/result-claims.json": "a3ef17d37de17d2b20e6247efeedd932b2cfef5d0fe08dfebf7dbead8f1fcd95",
+    "figures/residual_geometry.pdf": "06474c09952603450369f17b9f44f3838595878301aa9e482b81959d119faac6",
+    "figures/paired_results.pdf": "3ed9fe171a182622c78c068564ea9edfd7e3f0977c68bcd1e1c4fd8cc502fa1e",
+    "figures/cost_components.pdf": "719e1442e2a7062c600ba385137cb7ef5d9869365e09aca5458fc799d493833c",
+    "B题几何策略优化_论文.pdf": "de49c9d81bc1a9f5190b3ec875687b87fa56bd31163620274abbfa69d8467b49",
+    "B题几何策略优化_题解.pdf": "ece9391114d7a5dc8efe186cd2c9074a844b37b1ef4ace3f63b0527a66a9b177",
+    "results/dev56.csv": "0a5f6ff4ed9e3b124066226d3a4d3e51cc750781f825946165b195202343cea6",
+    "results/dev79.csv": "fabd956f2bc9bcc064e2987527da359fb8d122eb93d222c54e06ee5c3e1994d6",
+    "results/dev80.csv": "0d345186b6aeca5757b164e1687ead7682cec1df01c3b844d18d10a7f13ffcd9",
+    "results/dev81b.csv": "e9c75e4073eab1a0a90c58af66ce25602430d3abed7035efccf2d7773316afd3",
+    "results/dev82.csv": "53df3f92f35626f100112a39d505876d212da10b410e4f4d815f1048afdd727d",
+    "results/dev83.csv": "e554e6dd73dbe96d303a3d33b555e3d3060802e00eaa7b98276782330b9fa9c5",
+    "results/dev84.csv": "940f3c2110468e830784335392c4ef35fe3bb02e2bfc3c6e449fb86ef58c14f6",
+    "results/dev85.csv": "fc58d97acd218b0600a9ef8e0557b7f91eaeb055320a98068771647a76acb3a0",
+    "results/dev86.csv": "a61cede03d5cabd040e42e62dfea4570de546a7fbb44604782b43028a79604b8",
+    "results/iid56.csv": "26a501d48f3a6cea3724e02fc488043a27cab78c52aca872546f35ea85db3202",
+    "results/iid78.csv": "6f762f42fceccafe19af44557ac82a112979a08f122bb9ce898a4d51190fd0cb",
+    "results/iid84.csv": "efc76037be305bd0f222c8b4df94906cdd60c6f8002c91723a8511dac04892e4",
+    "results/stress1_56.csv": "8b290c3dc0e356ad767047118db69494d053125e0c8360c296f906c67f840603",
+    "results/stress1_84.csv": "021c64e7785296e6cba6aca04f665abdf04a76fd38ee4f11070439ed740ec7e6",
+    "results/stress2_56.csv": "3d321deb050a635e79992d1ae8e153ae0b2ab89b2f7f5caef68c39e71c694188",
+    "results/stress2_84.csv": "63eab4862255850a74eb9bd0316e1acc0f016d725ae4f240cd953c9b98a79e23",
+    "results/stress3_56.csv": "0f6c6691f56628dfc58dc7f8ab12768e0efca9fffdb7b8d000826c79e0cc0ced",
+    "results/stress3_84.csv": "db22738060841578f1454ff5e48f136a29bd375418c17d2aa8c5af352b59fd72",
+    "results/stress4_56.csv": "954edb76be080e7a9f164cda4922921d369e2fdca03d84e019e25c68f59040cb",
+    "results/stress4_84.csv": "31324a7d1de87be7149f38bbb6383828e4a2ba6d6c2726b255e582179d0bad2e",
+    "results/stress5_56.csv": "ae1a8d1a86c202adbe2ad8a8bc3d8d523624fc5c146aa9428a9bfd3a9023cf4b",
+    "results/stress5_84.csv": "7ae266c483ba9e5bb73783d872ba11edfde5d7cf1aa05a3a5a2162170e0d0a27",
+    "补充分析/信号源数量与平均时长/artifacts/count_time_results.json": "f812158f12c166a61234895450c81e6a47811c1779f3e412cef2b5bf163be6a7",
+    "补充分析/信号源数量与平均时长/figures/count_time_relation.pdf": "9adb905751add72e0c75325539195f239183de212a33ac67beed4d7725d2748a",
+    "补充分析/信号源数量与平均时长/信号源数量与平均时长_论文补充.md": "81a1690758462d604f2b76ca9b06295293a32c5ee5fdb53265e9a657f06c2cba",
+    "补充分析/信号源数量与平均时长/论文插入段落.tex": "e9d73373a669f3546f3c2e8615623a8709785aa2b6fe727c0a250c3bf7043be8"
+  },
+  "execution_records": [
+    "artifacts/execution-iid.json",
+    "artifacts/execution-stress.json",
+    "artifacts/reproduction-log.json"
+  ],
+  "rerun_entry": "python3 run_all.py --full",
+  "limitations": [
+    {
+      "id": "official-six-logs",
+      "status": "pending",
+      "reason": "Q3/Q4各三次官方正式成绩与原始加密日志不可得；当前仅交付有复核的本地研究稿。"
+    }
+  ],
+  "supplemental_execution": "补充分析/信号源数量与平均时长/artifacts/execution.json"
+}

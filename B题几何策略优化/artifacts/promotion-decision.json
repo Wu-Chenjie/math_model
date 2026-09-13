@@ -1,0 +1,11 @@
+{
+  "time_unix": 1789232014.6561852,
+  "recommended_method": 78,
+  "experimental_candidate": 84,
+  "reason": "Frozen paired 95 percent CI crosses zero for Q4 vs both 56 and 78. Candidate is not promoted. No tuning on iid.",
+  "online_strategy_map": {
+    "joint": 78,
+    "geometric": 84,
+    "previous": 56
+  }
+}

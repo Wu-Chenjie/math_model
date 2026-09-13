@@ -1,0 +1,8 @@
+pdf_qa: B题几何策略优化/B题几何策略优化_论文.pdf
+  info  pages: 58
+  PASS page-count
+  PASS captions: no duplicate caption prefixes
+  WARN anonymity: Title metadata has CJK text -- confirm it names no school or person: '有界测向误差下干扰源的连续几何规划与清除'
+  PASS anonymity: no identifying metadata and no page-1 identity leak
+  PASS blank-page: no near-uniform pages (median 29540B over 58 page(s))
+pdf_qa: PASS (B题几何策略优化/B题几何策略优化_论文.pdf)

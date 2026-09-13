@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "producer": "src/build_count_report.py",
+  "gate": "assert_no_overlap",
+  "figure": "figures/count_time_relation.pdf"
+}

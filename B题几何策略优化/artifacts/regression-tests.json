@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "name": "test_geometry_revision",
+      "compile_command": [
+        "/usr/bin/clang++",
+        "-O2",
+        "-std=c++17",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/tests/test_geometry_revision.cpp",
+        "-o",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_geometry_revision"
+      ],
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_geometry_revision",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/artifacts/residual-witness.json"
+      ],
+      "exit_code": 0,
+      "runtime_s": 1.7443127632141113,
+      "stdout": "{\"status\":\"PASS\",\"angle_checks\":25005,\"max_upper_gap_m\":0.116463,\"optical_cells\":78,\"static_leaves\":4552,\"replacement_leaves\":4564,\"replacement_shift_m\":3.59481}\n",
+      "stderr": "",
+      "source_sha256": "148cdc3ccf8a4da18fc1f06bf9218b5695f225ac6809c9ae4f230b3ad63b3cc0",
+      "binary_sha256": "d666cf6a9acda8e5d9d28b65e2923f61af1fabacd15a2cbe98327c432466b64c",
+      "fresh_witness_sha256": "573c60ce537641efc0d9e71f31dce6d747646a400eb414656771d8b507da55ae",
+      "invalid_output_rejected": true,
+      "execution_cwd": "fresh temporary directory"
+    },
+    {
+      "name": "test_joint",
+      "compile_command": [
+        "/usr/bin/clang++",
+        "-O2",
+        "-std=c++17",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/tests/test_joint.cpp",
+        "-o",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_joint"
+      ],
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_joint"
+      ],
+      "exit_code": 0,
+      "runtime_s": 5.38262414932251,
+      "stdout": "PASS auxiliary/joint progress and action limits across ten complete scenarios\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_controller",
+      "compile_command": [
+        "/usr/bin/clang++",
+        "-O2",
+        "-std=c++17",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/tests/test_controller.cpp",
+        "-o",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_controller"
+      ],
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_controller"
+      ],
+      "exit_code": 0,
+      "runtime_s": 2.700469970703125,
+      "stdout": "PASS controller: eight nominal/boundary/collinear/dense cases, 257 replans and 224 actions; zero-budget fallback\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_adaptive_optical",
+      "compile_command": [
+        "/usr/bin/clang++",
+        "-O2",
+        "-std=c++17",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/tests/test_adaptive_optical.cpp",
+        "-o",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_adaptive_optical"
+      ],
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_adaptive_optical"
+      ],
+      "exit_code": 0,
+      "runtime_s": 0.8471601009368896,
+      "stdout": "PASS adaptive optical: 78 instead of108 centers; triangle coverage, rotation and singleton\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_shortcut_controller",
+      "compile_command": [
+        "/usr/bin/clang++",
+        "-O2",
+        "-std=c++17",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/tests/test_shortcut_controller.cpp",
+        "-o",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_shortcut_controller"
+      ],
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_shortcut_controller"
+      ],
+      "exit_code": 0,
+      "runtime_s": 6.987592935562134,
+      "stdout": "PASS shortcut controller: 12 matched nominal/stress traces; 30 shortcuts, 17.3066 seconds saved\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_action_budget",
+      "compile_command": [
+        "/usr/bin/clang++",
+        "-O2",
+        "-std=c++17",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/tests/test_action_budget.cpp",
+        "-o",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_action_budget"
+      ],
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_action_budget"
+      ],
+      "exit_code": 0,
+      "runtime_s": 2.696803092956543,
+      "stdout": "PASS per-source dynamic budget persists across global replans\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_scan_fee",
+      "compile_command": [
+        "/usr/bin/clang++",
+        "-O2",
+        "-std=c++17",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/tests/test_scan_fee.cpp",
+        "-o",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_scan_fee"
+      ],
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_scan_fee"
+      ],
+      "exit_code": 0,
+      "runtime_s": 1.1909151077270508,
+      "stdout": "PASS scanning charge equals simulator measurements plus actual switches\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_discovery",
+      "compile_command": [
+        "/usr/bin/clang++",
+        "-O2",
+        "-std=c++17",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/tests/test_discovery.cpp",
+        "-o",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_discovery"
+      ],
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_discovery"
+      ],
+      "exit_code": 0,
+      "runtime_s": 0.920464277267456,
+      "stdout": "PASS discovery model conditions only on completed common scans; empty finite support reports zero probability, not completion\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_variable_cover",
+      "compile_command": [
+        "/usr/bin/clang++",
+        "-O2",
+        "-std=c++17",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/tests/test_variable_cover.cpp",
+        "-o",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_variable_cover"
+      ],
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_variable_cover"
+      ],
+      "exit_code": 0,
+      "runtime_s": 0.9728779792785645,
+      "stdout": "PASS variable-width covering: 62 centers, certified convex cells and rotated coverage\n",
+      "stderr": ""
+    },
+    {
+      "name": "replay_residual_fraction.py",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/tests/replay_residual_fraction.py",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/artifacts/residual-witness.json"
+      ],
+      "exit_code": 0,
+      "runtime_s": 0.9013309478759766,
+      "stdout": "{\"status\": \"PASS\", \"arithmetic\": \"Python Fraction, independent of C++ interval code\", \"sites\": 21, \"verified_leaf_boxes\": 4564, \"full_disk_partition\": true, \"witness_sha256\": \"573c60ce537641efc0d9e71f31dce6d747646a400eb414656771d8b507da55ae\", \"runtime_s\": 0.8615347079467028}\n",
+      "stderr": ""
+    },
+    {
+      "name": "test_bridge_deadline.py",
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/tests/test_bridge_deadline.py"
+      ],
+      "exit_code": 0,
+      "runtime_s": 2.8775510787963867,
+      "stdout": "",
+      "stderr": "test_expired_transport_deadline_sends_nothing (__main__.DeadlineTests.test_expired_transport_deadline_sends_nothing) ... ok\ntest_non_200_success_status_is_rejected (__main__.DeadlineTests.test_non_200_success_status_is_rejected) ... ok\ntest_position_is_not_rounded_before_geometry_observation (__main__.DeadlineTests.test_position_is_not_rounded_before_geometry_observation) ... ok\ntest_rejected_action_never_counts_as_observation (__main__.DeadlineTests.test_rejected_action_never_counts_as_observation) ... ok\ntest_remaining_zero_starts_no_action (__main__.DeadlineTests.test_remaining_zero_starts_no_action) ... ok\ntest_retry_backoff_is_limited_by_remaining_duration (__main__.DeadlineTests.test_retry_backoff_is_limited_by_remaining_duration) ... ok\ntest_retry_reuses_identical_id_and_body (__main__.DeadlineTests.test_retry_reuses_identical_id_and_body) ... ok\ntest_slow_http_body_cannot_extend_total_deadline (__main__.DeadlineTests.test_slow_http_body_cannot_extend_total_deadline) ... ok\ntest_solver_without_stdout_honors_short_deadline (__main__.DeadlineTests.test_solver_without_stdout_honors_short_deadline) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 2.766s\n\nOK\n"
+    }
+  ]
+}

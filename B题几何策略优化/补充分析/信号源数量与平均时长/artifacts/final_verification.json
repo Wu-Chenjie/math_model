@@ -1,0 +1,28 @@
+{
+  "status": "PASS_LOCAL_VALIDATION",
+  "commands": [
+    "python3 src/run_profiles.py",
+    "python3 src/analyze_count_time.py",
+    "python3 src/build_count_report.py"
+  ],
+  "source_sha256": {
+    "src/count_profile.cpp": "73890f0715e9b7021e4fba6c49d6855efe65d90b77132e63812f85afc52d056f",
+    "src/analyze_count_time.py": "c66b4a5edc6f8e13c8762a7c56c1304bea15a8e53d5e42869a4c3f49565d0909",
+    "src/write_count_section.py": "b92266edc3213e9c1f75bb85d728884ed9236845aec0876ee43a359cdef535bf",
+    "src/build_count_report.py": "f7038f23ad7a1ad4e9eadbb4fc6ef799a176a7225a8d1d0162f6cbb5746a2593",
+    "src/run_profiles.py": "3692903659d440d18e8884c95763083c30de085049d8c221322c1f535901a8f2"
+  },
+  "output_sha256": {
+    "results/training_replay_q3.csv": "e7fcbe680ee610136737fccf4173afdc2cf2d98bb5c64fd933b5855c3e43330d",
+    "results/training_replay_q4.csv": "fd5d38641bd2b9c0895d4927fe1fd7a46d2526604a8d560758c39c7fe36f4526",
+    "results/validation_q3.csv": "2d9590a4a5229f220393a9ce5635d6b60a8fbb50a23050f1a5543c71b89d8836",
+    "results/validation_q4.csv": "ed0855a47089170e8db9316fa599718b03ef227469026fa393394c6aac768872",
+    "artifacts/count_time_results.json": "f812158f12c166a61234895450c81e6a47811c1779f3e412cef2b5bf163be6a7",
+    "figures/count_time_relation.png": "4d475fa6ca4db40d8da9be784cae246c8f1f3eb5f95b21e9770fda133a55f51d",
+    "figures/count_time_relation.pdf": "9adb905751add72e0c75325539195f239183de212a33ac67beed4d7725d2748a",
+    "论文插入段落.tex": "e9d73373a669f3546f3c2e8615623a8709785aa2b6fe727c0a250c3bf7043be8",
+    "信号源数量与平均时长_论文补充.md": "81a1690758462d604f2b76ca9b06295293a32c5ee5fdb53265e9a657f06c2cba"
+  },
+  "figure_visually_checked": true,
+  "scope": "New local data validation and author mathematical checks, no independent review of this supplement."
+}

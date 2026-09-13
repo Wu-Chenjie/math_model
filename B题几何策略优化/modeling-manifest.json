@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "project": {
+    "competition": "CUMCM",
+    "year": 2026,
+    "problem_id": "B",
+    "stage": "delivery",
+    "status": "limited"
+  },
+  "source": {
+    "statement_files": [
+      "inputs/B题.pdf"
+    ],
+    "data_files": [
+      "inputs/论文格式规范.pdf"
+    ],
+    "input_hashes": {
+      "inputs/B题.pdf": "81c992a9bee5376308c4768b58719b177f17d6ee1f9861577a851924c5a838ca",
+      "inputs/论文格式规范.pdf": "cece4bb3a900a0435160032b98ea26e03b0f2d7eca58424b0d023e26085aed26"
+    },
+    "data_audit_file": "artifacts/data-audit.json",
+    "official_rules": {
+      "status": "verified",
+      "url": "inputs/论文格式规范.pdf",
+      "version": "用户随题提供的2026竞赛题面与论文格式文件，按SHA256绑定",
+      "reason": "Read supplied PDFs directly; availability of official run data is tracked separately."
+    }
+  },
+  "framing": {
+    "objectives": [
+      "在全部源清除约束下最小化配对总任务时间，并报告题设每源均时。"
+    ],
+    "decision_variables": [
+      "下一测向/清除/发现点的连续位置",
+      "未知频道扫描集合",
+      "定位与发现任务次序"
+    ],
+    "constraints": [
+      "场地半径1800米，源数10至16，独占1至20频道",
+      "接收半径1000至1500米，Q4未知闭半平面方向",
+      "角误差正负1度；本地0.01度量化保守外包",
+      "速度5米每秒，换频1秒，测量5秒，光学失败3秒成功5秒",
+      "光学20米清除；发现布局修改必须通过连续证书"
+    ],
+    "constraint_justification": null,
+    "ambiguities": [
+      "官方运行环境与六次加密日志不可得",
+      "不以历史跨平台CSV当作当前种子场景"
+    ],
+    "assumptions": [
+      "理论几何取题设精确位置；生产浮点几何边界明确披露",
+      "统计结论限于已记录的40米排斥本地场景分布",
+      "续跑为有限固定端点误差的单源模型"
+    ]
+  },
+  "models": {
+    "candidates": [
+      {
+        "name": "默认联合控制78",
+        "target_output": "有限动作树和路由；有界后备清除",
+        "assumptions": [
+          "保留原控制器，安全提前停车"
+        ],
+        "data_requirements": [
+          "实时传感器历史及保守多边形；比较用本地生成场景"
+        ],
+        "failure_mode": "已有有限叶端启发式与浮点误差",
+        "diagnostic": "原方法56配对、全清除与路程不变量"
+      },
+      {
+        "name": "最坏半径与最近保证区79/80",
+        "target_output": "角锥交的最坏MEC及最近可行点",
+        "assumptions": [
+          "连续读数外包和强接收充分域"
+        ],
+        "data_requirements": [
+          "实时传感器历史及保守多边形；比较用本地生成场景"
+        ],
+        "failure_mode": "半径不等于剩余时间；完整首扇区35米域空",
+        "diagnostic": "开发40局退步、Q2有理下界"
+      },
+      {
+        "name": "剩余覆盖候选84",
+        "target_output": "覆盖证书下连续发现点替换",
+        "assumptions": [
+          "历史完整扫描与未来点联合凸包覆盖"
+        ],
+        "data_requirements": [
+          "实时传感器历史及保守多边形；比较用本地生成场景"
+        ],
+        "failure_mode": "局部可行位移小，整点未能删除",
+        "diagnostic": "冻结IID与五组压力、独立Fraction复放"
+      },
+      {
+        "name": "真实单源续跑82",
+        "target_output": "同控制器执行到清除的首动作比较",
+        "assumptions": [
+          "有限源假设及固定符号误差"
+        ],
+        "data_requirements": [
+          "实时传感器历史及保守多边形；比较用本地生成场景"
+        ],
+        "failure_mode": "非完整多源树且不复用完整误差场",
+        "diagnostic": "开发消融与真实光学终止"
+      },
+      {
+        "name": "光学邻域巡游83/86",
+        "target_output": "覆盖子区域清除域中的路径",
+        "assumptions": [
+          "全部顶点20米交集"
+        ],
+        "data_requirements": [
+          "实时传感器历史及保守多边形；比较用本地生成场景"
+        ],
+        "failure_mode": "全程更短未必更早命中真实目标",
+        "diagnostic": "开发配对及子块覆盖检查"
+      }
+    ],
+    "candidate_set_justification": null,
+    "selected": "默认联合控制78",
+    "selection_rationale": {
+      "objective_fit": "直接比较总任务秒数；不以FIM或半径代理冒充最终目标",
+      "constraint_fit": "发现与光学覆盖保留几何证书",
+      "data_fit": "预冻结独立本地场景，开发不合并",
+      "baseline": "在同一编译器环境重跑56和既有78",
+      "risks": [
+        "Q4候选84对78收益区间跨零",
+        "官方正式结果缺失",
+        "一般浮点裁剪未形式验证"
+      ],
+      "fallback_trigger": "预声明95%均值节省区间不全为正则不推广84；默认保留78"
+    },
+    "baseline": {
+      "status": "completed",
+      "name": "method56",
+      "command": "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final /Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/iid56.csv 2610001 200 0 56 56",
+      "exit_code": 0,
+      "runtime_seconds": 152.30888772010803,
+      "output": "artifacts/baseline-metrics.json",
+      "metric_ids": [
+        "q3_total_mean_s",
+        "q4_total_mean_s",
+        "q3_per_source_mean_s",
+        "q4_per_source_mean_s"
+      ],
+      "reason": null
+    }
+  },
+  "execution": {
+    "status": "completed",
+    "command": "python3 src/run_experiments.py --suite iid --workers 3",
+    "exit_code": 0,
+    "runtime_seconds": 315.7674398422241,
+    "environment": {
+      "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+      "compiler": "clang++ 21, -O2 -std=c++17, no fast-math",
+      "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "benchmark_sha256": "cda9088fc5f1ab814eb9897a1027f6cfd83405ea2e51893688b30d921d412b01"
+    },
+    "seed": {
+      "iid": 2610001,
+      "development": [
+        2110001,
+        2110040
+      ],
+      "stress": [
+        2620001,
+        2630001,
+        2640001,
+        2650001,
+        2660001
+      ]
+    },
+    "deterministic_reason": null,
+    "metrics_file": "artifacts/metrics.json",
+    "metric_ids": [
+      "q3_total_mean_s",
+      "q4_total_mean_s",
+      "q3_per_source_mean_s",
+      "q4_per_source_mean_s"
+    ],
+    "figures": [
+      "figures/residual_geometry.pdf",
+      "figures/paired_results.pdf",
+      "figures/cost_components.pdf"
+    ]
+  },
+  "validation": {
+    "status": "completed",
+    "checks": [
+      {
+        "name": "schema_missing_finiteness_duplicates",
+        "status": "pass",
+        "evidence": "Every reported CSV row has a unique problem/seed key within its method file and finite complete fields."
+      },
+      {
+        "name": "units_and_accounting",
+        "status": "pass",
+        "evidence": "Seconds/metres identity checked, max residual 2.217000019e-05 s < 0.001."
+      },
+      {
+        "name": "seed_separation",
+        "status": "pass",
+        "evidence": "Development, IID and pressure seed sets are disjoint."
+      },
+      {
+        "name": "execution_hashes",
+        "status": "pass",
+        "evidence": "All frozen IID/pressure output hashes and benchmark binary match executed records."
+      },
+      {
+        "name": "baseline_native_replay",
+        "status": "pass",
+        "evidence": "80 rows of recompiled unmodified original baseline match current method56."
+      },
+      {
+        "name": "coverage_and_completion",
+        "status": "pass",
+        "evidence": "All included local runs clear their actual source count; official outcomes remain unobserved."
+      },
+      {
+        "name": "outliers_retained",
+        "status": "pass",
+        "evidence": "No performance outlier or negative pair was discarded."
+      },
+      {
+        "name": "certificate_freshness",
+        "status": "pass",
+        "evidence": "Producer hash and newly generated witness hash match the Fraction consumer."
+      }
+    ],
+    "sensitivity": [
+      {
+        "artifact": "artifacts/summary.json",
+        "scope": "Development79-86 vary objective, rollout and optical/residual modules; no parameter tuning on IID."
+      }
+    ],
+    "sensitivity_not_applicable_reason": null,
+    "robustness": [
+      {
+        "artifact": "artifacts/execution-stress.json",
+        "scope": "Five groups x 40 per question; all clear, losses retained."
+      }
+    ],
+    "robustness_not_applicable_reason": null,
+    "falsification": [
+      {
+        "artifact": "artifacts/summary.json",
+        "result": "Radius-only79 strongly worsens Q3; candidate84 CI crosses zero."
+      },
+      {
+        "artifact": "artifacts/regression-tests.json",
+        "result": "Deleting an essential site is rejected; invalid witness output must fail."
+      }
+    ]
+  },
+  "results": {
+    "registry_file": "artifacts/result-registry.json",
+    "paper_file": "B题几何策略优化_论文.pdf",
+    "claims_file": "paper/result-claims.json"
+  },
+  "reproducibility_file": "artifacts/reproducibility.json",
+  "review": {
+    "status": "completed",
+    "independent": true,
+    "reviewer_id": "/root/judge_paper; /root/judge_evidence; /root/judge_math",
+    "findings_file": "review/findings.json"
+  },
+  "pending": [
+    {
+      "id": "official-six-logs",
+      "status": "pending",
+      "reason": "Q3/Q4各三次官方正式成绩与原始加密日志不可得；当前仅交付有复核的本地研究稿。"
+    }
+  ],
+  "violations": [],
+  "supplemental_analyses": [
+    {
+      "name": "source count and per-source mean time",
+      "path": "补充分析/信号源数量与平均时长",
+      "status": "completed_local_validation",
+      "original_cases_per_question": 200,
+      "fresh_cases_per_question": 200,
+      "method": 78,
+      "independent_review": "not performed for this supplemental note; parent project remains LIMITED"
+    }
+  ]
+}

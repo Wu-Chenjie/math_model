@@ -1,0 +1,187 @@
+{
+  "suite": "stress",
+  "environment": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "binary_sha256": "cda9088fc5f1ab814eb9897a1027f6cfd83405ea2e51893688b30d921d412b01",
+  "records": [
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/stress1_56.csv",
+        "2620001",
+        "40",
+        "1",
+        "56",
+        "56"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231381.315745,
+      "runtime_s": 6.832403898239136,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+      "stderr": "",
+      "output": "results/stress1_56.csv",
+      "output_sha256": "8b290c3dc0e356ad767047118db69494d053125e0c8360c296f906c67f840603"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/stress1_84.csv",
+        "2620001",
+        "40",
+        "1",
+        "84",
+        "84"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231381.317038,
+      "runtime_s": 50.04687786102295,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+      "stderr": "",
+      "output": "results/stress1_84.csv",
+      "output_sha256": "021c64e7785296e6cba6aca04f665abdf04a76fd38ee4f11070439ed740ec7e6"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/stress2_56.csv",
+        "2630001",
+        "40",
+        "2",
+        "56",
+        "56"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231381.317193,
+      "runtime_s": 16.15368390083313,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+      "stderr": "",
+      "output": "results/stress2_56.csv",
+      "output_sha256": "3d321deb050a635e79992d1ae8e153ae0b2ab89b2f7f5caef68c39e71c694188"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/stress2_84.csv",
+        "2630001",
+        "40",
+        "2",
+        "84",
+        "84"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231388.148918,
+      "runtime_s": 66.66238808631897,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+      "stderr": "",
+      "output": "results/stress2_84.csv",
+      "output_sha256": "63eab4862255850a74eb9bd0316e1acc0f016d725ae4f240cd953c9b98a79e23"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/stress3_56.csv",
+        "2640001",
+        "40",
+        "3",
+        "56",
+        "56"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231397.4718878,
+      "runtime_s": 14.59152626991272,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+      "stderr": "",
+      "output": "results/stress3_56.csv",
+      "output_sha256": "0f6c6691f56628dfc58dc7f8ab12768e0efca9fffdb7b8d000826c79e0cc0ced"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/stress3_84.csv",
+        "2640001",
+        "40",
+        "3",
+        "84",
+        "84"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231412.064173,
+      "runtime_s": 51.631426095962524,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+      "stderr": "",
+      "output": "results/stress3_84.csv",
+      "output_sha256": "db22738060841578f1454ff5e48f136a29bd375418c17d2aa8c5af352b59fd72"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/stress4_56.csv",
+        "2650001",
+        "40",
+        "4",
+        "56",
+        "56"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231431.364386,
+      "runtime_s": 28.28707194328308,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+      "stderr": "",
+      "output": "results/stress4_56.csv",
+      "output_sha256": "954edb76be080e7a9f164cda4922921d369e2fdca03d84e019e25c68f59040cb"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/stress4_84.csv",
+        "2650001",
+        "40",
+        "4",
+        "84",
+        "84"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231454.8120651,
+      "runtime_s": 74.05135679244995,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+      "stderr": "",
+      "output": "results/stress4_84.csv",
+      "output_sha256": "31324a7d1de87be7149f38bbb6383828e4a2ba6d6c2726b255e582179d0bad2e"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/stress5_56.csv",
+        "2660001",
+        "40",
+        "5",
+        "56",
+        "56"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231459.652111,
+      "runtime_s": 32.327948808670044,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+      "stderr": "",
+      "output": "results/stress5_56.csv",
+      "output_sha256": "ae1a8d1a86c202adbe2ad8a8bc3d8d523624fc5c146aa9428a9bfd3a9023cf4b"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/stress5_84.csv",
+        "2660001",
+        "40",
+        "5",
+        "84",
+        "84"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231463.6964421,
+      "runtime_s": 71.80401992797852,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\n",
+      "stderr": "",
+      "output": "results/stress5_84.csv",
+      "output_sha256": "7ae266c483ba9e5bb73783d872ba11edfde5d7cf1aa05a3a5a2162170e0d0a27"
+    }
+  ]
+}

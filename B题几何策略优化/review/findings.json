@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "independent": true,
+  "reviewer_id": "/root/judge_paper; /root/judge_evidence; /root/judge_math",
+  "decision": "changes_requested",
+  "scope": "Three blind independent reviews; one targeted repair verification, no rescore.",
+  "reports": [
+    "review/seat-A.md",
+    "review/seat-A-fix1.md",
+    "review/seat-C.md",
+    "review/seat-C-fix1.md",
+    "review/seat-B.md",
+    "review/seat-B-fix1.md"
+  ],
+  "resolved": [
+    "C-2 fresh witness export/replay",
+    "C-3 Q4 area plus boundary-arc proof",
+    "C-4 floating MEC accuracy wording",
+    "B-2/A-3 recommendation versus candidate presentation",
+    "B-3 post-freeze interface hashes",
+    "B-4 finite rollout error model disclosure",
+    "B-5 IID spacing and distribution",
+    "A-2 self-contained controller and parameters",
+    "A-4 readable lower proofs",
+    "A-7 appendix readability and blank-page removal"
+  ],
+  "unresolved": [
+    {
+      "id": "official-six-logs",
+      "severity": "blocker",
+      "scope": "formal contest submission only",
+      "evidence": "Paper formal-results table is pending; no official encrypted logs provided.",
+      "required_fix": "Obtain and verify three official Q3 and three official Q4 runs and unchanged encrypted logs."
+    }
+  ],
+  "accepted_limitations": [
+    {
+      "id": "A-6",
+      "severity": "medium",
+      "owner": "modeling lead",
+      "reason": "Raw all-pair results and maximum regressions are preserved; no causal explanation or official efficacy is claimed. Single-trajectory causal analysis is future work, not evidence used to promote84."
+    },
+    {
+      "id": "A-5",
+      "severity": "medium",
+      "owner": "delivery lead",
+      "reason": "The final root bundle is the runnable unit; work/ is a read-only review snapshot. Compiler/library sensitivity is explicitly disclosed; relocated root smoke verification is included at packaging."
+    }
+  ],
+  "scores_unchanged": {
+    "A": 74.7,
+    "B": 79.4,
+    "C": 81.8
+  },
+  "acceptance": "LIMITED research delivery; no award or formal-submission acceptance claim"
+}

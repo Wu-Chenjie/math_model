@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "angle_checks": 25005,
+  "max_upper_gap_m": 0.116463,
+  "optical_cells": 78,
+  "static_leaves": 4552,
+  "replacement_leaves": 4564,
+  "replacement_shift_m": 3.59481
+}

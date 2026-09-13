@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "checks": [
+    {
+      "name": "schema_missing_finiteness_duplicates",
+      "status": "pass",
+      "evidence": "Every reported CSV row has a unique problem/seed key within its method file and finite complete fields."
+    },
+    {
+      "name": "units_and_accounting",
+      "status": "pass",
+      "evidence": "Seconds/metres identity checked, max residual 2.217000019e-05 s < 0.001."
+    },
+    {
+      "name": "seed_separation",
+      "status": "pass",
+      "evidence": "Development, IID and pressure seed sets are disjoint."
+    },
+    {
+      "name": "execution_hashes",
+      "status": "pass",
+      "evidence": "All frozen IID/pressure output hashes and benchmark binary match executed records."
+    },
+    {
+      "name": "baseline_native_replay",
+      "status": "pass",
+      "evidence": "80 rows of recompiled unmodified original baseline match current method56."
+    },
+    {
+      "name": "coverage_and_completion",
+      "status": "pass",
+      "evidence": "All included local runs clear their actual source count; official outcomes remain unobserved."
+    },
+    {
+      "name": "outliers_retained",
+      "status": "pass",
+      "evidence": "No performance outlier or negative pair was discarded."
+    },
+    {
+      "name": "certificate_freshness",
+      "status": "pass",
+      "evidence": "Producer hash and newly generated witness hash match the Fraction consumer."
+    }
+  ],
+  "files": [
+    {
+      "path": "results/dev56.csv",
+      "sha256": "0a5f6ff4ed9e3b124066226d3a4d3e51cc750781f825946165b195202343cea6",
+      "rows": 80,
+      "group": "development",
+      "all_cleared": true
+    },
+    {
+      "path": "results/dev79.csv",
+      "sha256": "fabd956f2bc9bcc064e2987527da359fb8d122eb93d222c54e06ee5c3e1994d6",
+      "rows": 80,
+      "group": "development",
+      "all_cleared": true
+    },
+    {
+      "path": "results/dev80.csv",
+      "sha256": "0d345186b6aeca5757b164e1687ead7682cec1df01c3b844d18d10a7f13ffcd9",
+      "rows": 80,
+      "group": "development",
+      "all_cleared": true
+    },
+    {
+      "path": "results/dev81b.csv",
+      "sha256": "e9c75e4073eab1a0a90c58af66ce25602430d3abed7035efccf2d7773316afd3",
+      "rows": 80,
+      "group": "development",
+      "all_cleared": true
+    },
+    {
+      "path": "results/dev82.csv",
+      "sha256": "53df3f92f35626f100112a39d505876d212da10b410e4f4d815f1048afdd727d",
+      "rows": 80,
+      "group": "development",
+      "all_cleared": true
+    },
+    {
+      "path": "results/dev83.csv",
+      "sha256": "e554e6dd73dbe96d303a3d33b555e3d3060802e00eaa7b98276782330b9fa9c5",
+      "rows": 80,
+      "group": "development",
+      "all_cleared": true
+    },
+    {
+      "path": "results/dev84.csv",
+      "sha256": "940f3c2110468e830784335392c4ef35fe3bb02e2bfc3c6e449fb86ef58c14f6",
+      "rows": 80,
+      "group": "development",
+      "all_cleared": true
+    },
+    {
+      "path": "results/dev85.csv",
+      "sha256": "fc58d97acd218b0600a9ef8e0557b7f91eaeb055320a98068771647a76acb3a0",
+      "rows": 80,
+      "group": "development",
+      "all_cleared": true
+    },
+    {
+      "path": "results/dev86.csv",
+      "sha256": "a61cede03d5cabd040e42e62dfea4570de546a7fbb44604782b43028a79604b8",
+      "rows": 80,
+      "group": "development",
+      "all_cleared": true
+    },
+    {
+      "path": "results/iid56.csv",
+      "sha256": "26a501d48f3a6cea3724e02fc488043a27cab78c52aca872546f35ea85db3202",
+      "rows": 400,
+      "group": "iid",
+      "all_cleared": true
+    },
+    {
+      "path": "results/iid78.csv",
+      "sha256": "6f762f42fceccafe19af44557ac82a112979a08f122bb9ce898a4d51190fd0cb",
+      "rows": 400,
+      "group": "iid",
+      "all_cleared": true
+    },
+    {
+      "path": "results/iid84.csv",
+      "sha256": "efc76037be305bd0f222c8b4df94906cdd60c6f8002c91723a8511dac04892e4",
+      "rows": 400,
+      "group": "iid",
+      "all_cleared": true
+    },
+    {
+      "path": "results/stress1_56.csv",
+      "sha256": "8b290c3dc0e356ad767047118db69494d053125e0c8360c296f906c67f840603",
+      "rows": 80,
+      "group": "stress",
+      "all_cleared": true
+    },
+    {
+      "path": "results/stress1_84.csv",
+      "sha256": "021c64e7785296e6cba6aca04f665abdf04a76fd38ee4f11070439ed740ec7e6",
+      "rows": 80,
+      "group": "stress",
+      "all_cleared": true
+    },
+    {
+      "path": "results/stress2_56.csv",
+      "sha256": "3d321deb050a635e79992d1ae8e153ae0b2ab89b2f7f5caef68c39e71c694188",
+      "rows": 80,
+      "group": "stress",
+      "all_cleared": true
+    },
+    {
+      "path": "results/stress2_84.csv",
+      "sha256": "63eab4862255850a74eb9bd0316e1acc0f016d725ae4f240cd953c9b98a79e23",
+      "rows": 80,
+      "group": "stress",
+      "all_cleared": true
+    },
+    {
+      "path": "results/stress3_56.csv",
+      "sha256": "0f6c6691f56628dfc58dc7f8ab12768e0efca9fffdb7b8d000826c79e0cc0ced",
+      "rows": 80,
+      "group": "stress",
+      "all_cleared": true
+    },
+    {
+      "path": "results/stress3_84.csv",
+      "sha256": "db22738060841578f1454ff5e48f136a29bd375418c17d2aa8c5af352b59fd72",
+      "rows": 80,
+      "group": "stress",
+      "all_cleared": true
+    },
+    {
+      "path": "results/stress4_56.csv",
+      "sha256": "954edb76be080e7a9f164cda4922921d369e2fdca03d84e019e25c68f59040cb",
+      "rows": 80,
+      "group": "stress",
+      "all_cleared": true
+    },
+    {
+      "path": "results/stress4_84.csv",
+      "sha256": "31324a7d1de87be7149f38bbb6383828e4a2ba6d6c2726b255e582179d0bad2e",
+      "rows": 80,
+      "group": "stress",
+      "all_cleared": true
+    },
+    {
+      "path": "results/stress5_56.csv",
+      "sha256": "ae1a8d1a86c202adbe2ad8a8bc3d8d523624fc5c146aa9428a9bfd3a9023cf4b",
+      "rows": 80,
+      "group": "stress",
+      "all_cleared": true
+    },
+    {
+      "path": "results/stress5_84.csv",
+      "sha256": "7ae266c483ba9e5bb73783d872ba11edfde5d7cf1aa05a3a5a2162170e0d0a27",
+      "rows": 80,
+      "group": "stress",
+      "all_cleared": true
+    }
+  ],
+  "max_time_identity_residual_s": 2.2170000193000305e-05,
+  "independent_unique_environments": 800,
+  "independent_method_runs": 2000,
+  "iid_cases_per_question": 200,
+  "stress_cases_per_group_question": 40,
+  "development_cases_per_question": 40,
+  "http": {
+    "joint": {
+      "all_cleared": true,
+      "kernel_cases": 10,
+      "http_cases": 6
+    },
+    "geometric": {
+      "all_cleared": true,
+      "kernel_cases": 10,
+      "http_cases": 6
+    }
+  },
+  "regression_programs": 11,
+  "limitations": [
+    "Six official encrypted logs unavailable.",
+    "IID source positions use 40 m rejection spacing; this is not arbitrary official distribution.",
+    "Same seed labels are not cross-platform environment identities; historical CSV not pooled.",
+    "All clear in finite local tests is not by itself a continuous proof."
+  ]
+}

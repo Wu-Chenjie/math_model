@@ -1,0 +1,61 @@
+{
+  "suite": "iid",
+  "environment": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "binary_sha256": "cda9088fc5f1ab814eb9897a1027f6cfd83405ea2e51893688b30d921d412b01",
+  "records": [
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/iid56.csv",
+        "2610001",
+        "200",
+        "0",
+        "56",
+        "56"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231352.2143621,
+      "runtime_s": 152.30888772010803,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=3 cases=50\np=3 cases=60\np=3 cases=70\np=3 cases=80\np=3 cases=90\np=3 cases=100\np=3 cases=110\np=3 cases=120\np=3 cases=130\np=3 cases=140\np=3 cases=150\np=3 cases=160\np=3 cases=170\np=3 cases=180\np=3 cases=190\np=3 cases=200\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\np=4 cases=50\np=4 cases=60\np=4 cases=70\np=4 cases=80\np=4 cases=90\np=4 cases=100\np=4 cases=110\np=4 cases=120\np=4 cases=130\np=4 cases=140\np=4 cases=150\np=4 cases=160\np=4 cases=170\np=4 cases=180\np=4 cases=190\np=4 cases=200\n",
+      "stderr": "",
+      "output": "results/iid56.csv",
+      "output_sha256": "26a501d48f3a6cea3724e02fc488043a27cab78c52aca872546f35ea85db3202"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/iid78.csv",
+        "2610001",
+        "200",
+        "0",
+        "78",
+        "78"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231352.21446,
+      "runtime_s": 151.9574010372162,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=3 cases=50\np=3 cases=60\np=3 cases=70\np=3 cases=80\np=3 cases=90\np=3 cases=100\np=3 cases=110\np=3 cases=120\np=3 cases=130\np=3 cases=140\np=3 cases=150\np=3 cases=160\np=3 cases=170\np=3 cases=180\np=3 cases=190\np=3 cases=200\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\np=4 cases=50\np=4 cases=60\np=4 cases=70\np=4 cases=80\np=4 cases=90\np=4 cases=100\np=4 cases=110\np=4 cases=120\np=4 cases=130\np=4 cases=140\np=4 cases=150\np=4 cases=160\np=4 cases=170\np=4 cases=180\np=4 cases=190\np=4 cases=200\n",
+      "stderr": "",
+      "output": "results/iid78.csv",
+      "output_sha256": "6f762f42fceccafe19af44557ac82a112979a08f122bb9ce898a4d51190fd0cb"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/benchmark_final",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/results/iid84.csv",
+        "2610001",
+        "200",
+        "0",
+        "84",
+        "84"
+      ],
+      "exit_code": 0,
+      "started_unix": 1789231352.2145321,
+      "runtime_s": 315.7672698497772,
+      "stdout": "p=3 cases=10\np=3 cases=20\np=3 cases=30\np=3 cases=40\np=3 cases=50\np=3 cases=60\np=3 cases=70\np=3 cases=80\np=3 cases=90\np=3 cases=100\np=3 cases=110\np=3 cases=120\np=3 cases=130\np=3 cases=140\np=3 cases=150\np=3 cases=160\np=3 cases=170\np=3 cases=180\np=3 cases=190\np=3 cases=200\np=4 cases=10\np=4 cases=20\np=4 cases=30\np=4 cases=40\np=4 cases=50\np=4 cases=60\np=4 cases=70\np=4 cases=80\np=4 cases=90\np=4 cases=100\np=4 cases=110\np=4 cases=120\np=4 cases=130\np=4 cases=140\np=4 cases=150\np=4 cases=160\np=4 cases=170\np=4 cases=180\np=4 cases=190\np=4 cases=200\n",
+      "stderr": "",
+      "output": "results/iid84.csv",
+      "output_sha256": "efc76037be305bd0f222c8b4df94906cdd60c6f8002c91723a8511dac04892e4"
+    }
+  ]
+}

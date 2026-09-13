@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hook",
+    "title": "Cautious Greedy Strategy for Bearing-Only Active Localization: Analysis and Field Experiments",
+    "authors": "Joshua Vander Hook; Pratap Tokekar; Volkan Isler",
+    "year": 2014,
+    "venue": "Journal of Field Robotics 31:296–318",
+    "url": "https://josh.vanderhook.info/media/pdf/JoshV_JFR_2013_Localization.pdf",
+    "verification": "verified full text: initial Gaussian state and EKF Gaussian noise on page 4; transfer time-aware cautious planning only, not bounded-set theorem"
+  },
+  {
+    "id": "bayram",
+    "title": "Gathering Bearing Data for Target Localization",
+    "authors": "Haluk Bayram; Joshua Vander Hook; Volkan Isler",
+    "year": 2016,
+    "venue": "IEEE Robotics and Automation Letters 1(1):369–374",
+    "url": "https://www-users.cse.umn.edu/~isler/p/bayram2016ral.pdf",
+    "verification": "verified full text DOI 10.1109/LRA.2016.2521387; GDOP bicriteria 28.9 cost and 5.5 uncertainty, not adopted here"
+  },
+  {
+    "id": "kaya",
+    "title": "Observer Path Planning for Maximum Information",
+    "authors": "C. Yalcin Kaya",
+    "year": 2021,
+    "venue": "Optimization, DOI 10.1080/02331934.2021.2011868",
+    "url": "https://arxiv.org/abs/2103.02059",
+    "verification": "verified primary arXiv record: constant speed, maximum determinant FIM; distinct stop objective"
+  },
+  {
+    "id": "rollout",
+    "title": "Non-myopic Sensor Path Planning for Emitter Localization with a UAV",
+    "authors": "F. Hoffmann; H. Schily; M. Krestel; A. Charlish; M. Ritchie; H. Griffiths",
+    "year": 2023,
+    "venue": "FUSION, DOI 10.23919/FUSION52260.2023.10224174",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10178826/",
+    "verification": "verified primary UCL record: policy rollout to terminal localization and flight trials"
+  },
+  {
+    "id": "pomcpow",
+    "title": "Online algorithms for POMDPs with continuous state, action, and observation spaces",
+    "authors": "Zachary Sunberg; Mykel Kochenderfer",
+    "year": 2018,
+    "venue": "ICAPS; extended arXiv 1709.06196v6",
+    "url": "https://arxiv.org/abs/1709.06196",
+    "verification": "verified primary record; DPW alone collapses, POMCPOW and PFT-DPW remedy this, not evidence all POMCPOW degenerates"
+  },
+  {
+    "id": "lawn",
+    "title": "The Lawn Mowing Problem: From Algebra to Algorithms",
+    "authors": "S. P. Fekete; D. Krupke; M. Perk; C. Rieck; C. Scheffer",
+    "year": 2023,
+    "venue": "ESA, LIPIcs 274,45:1–45:18",
+    "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESA.2023.45",
+    "verification": "verified publisher full record; continuous cutter coverage differs from stopped optical commands"
+  },
+  {
+    "id": "peng",
+    "title": "Stochastic Traveling Salesperson Problem with Neighborhoods for Object Detection",
+    "authors": "Cheng Peng; Minghan Wei; Volkan Isler",
+    "year": 2023,
+    "venue": "ICRA 2023; arXiv deposited 2024",
+    "url": "https://arxiv.org/abs/2407.06366",
+    "verification": "verified author arXiv record: perception plus tour neighborhoods; no approximation ratio imported"
+  },
+  {
+    "id": "dumitrescu",
+    "title": "Approximation algorithms for TSP with neighborhoods in the plane",
+    "authors": "Adrian Dumitrescu; Joseph S. B. Mitchell",
+    "year": 2003,
+    "venue": "Journal of Algorithms; arXiv archival record 1703.01640",
+    "url": "https://arxiv.org/abs/1703.01640",
+    "verification": "primary search record verified; only neighborhood formulation used"
+  }
+]

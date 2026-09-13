@@ -1,0 +1,114 @@
+[
+  {
+    "command": [
+      "/usr/bin/clang++",
+      "-O2",
+      "-std=c++17",
+      "src/robot.cpp",
+      "-o",
+      "robot.exe"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "runtime_s": 2.0743119716644287,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/clang++",
+      "-O2",
+      "-std=c++17",
+      "src/benchmark.cpp",
+      "-o",
+      "bin/benchmark_final"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "runtime_s": 2.0761051177978516,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "tests/run_checks.py"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "runtime_s": 27.257358074188232,
+    "stdout": "test_geometry_revision PASS\ntest_joint PASS\ntest_controller PASS\ntest_adaptive_optical PASS\ntest_shortcut_controller PASS\ntest_action_budget PASS\ntest_scan_fee PASS\ntest_discovery PASS\ntest_variable_cover PASS\nreplay_residual_fraction.py PASS\ntest_bridge_deadline.py PASS\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/clang++",
+      "-O2",
+      "-std=c++17",
+      "tests/test_q3_radius.cpp",
+      "-o",
+      "bin/test_q3_radius"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "runtime_s": 0.7708299160003662,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/bin/test_q3_radius"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "runtime_s": 0.4217381477355957,
+    "stdout": "PASS: seven shortened scan points; dense positive coverage check (analytic bound separate)\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "tests/q3_coverage_bound.py"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "runtime_s": 0.045395851135253906,
+    "stdout": "PASS rational radial/angular proof: 1124m seven-point ring covers the 1800m disk within 999.6m\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "src/q2_full_domain_certificate.py",
+      "artifacts/q2-certificate.json"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "runtime_s": 0.3601510524749756,
+    "stdout": "{\n  \"reception\": {\n    \"q\": [\n      \"4215589/5000\",\n      \"5454003/10000\"\n    ],\n    \"r1000_constraint_margin_m2\": [\n      658534.8205082546,\n      658534.8205082546\n    ],\n    \"r5_constraint_margin_m2\": [\n      0.10774519592267746,\n      0.10774519592267788\n    ]\n  },\n  \"continuous_model_lower\": {\n    \"certified_floor_m\": \"55.73823\",\n    \"global_lower_m\": [\n      55.738234284742134,\n      55.738234284742134\n    ],\n    \"t_upper_m\": \"1400.796371\",\n    \"quadratic_max_upper\": -0.00037212459999436055,\n    \"positive_denominator_lower\": 52.29664500452822,\n    \"witness_r_lower_m\": 8.579062920165821,\n    \"witness_second_distance_lower_m\": 5.52161058605315,\n    \"small_b_witness_radius_m\": 80\n  },\n  \"physical_quantized_lower\": {\n    \"certified_floor_m\": \"55.6528\",\n    \"global_lower_m\": [\n      55.65289872437276,\n      55.65289872437276\n    ],\n    \"t_upper_m\": \"1400.99\",\n    \"quadratic_max_upper\": -1.251711135833296,\n    \"positive_denominator_lower\": 52.210651734641274,\n    \"witness_r_lower_m\": 8.740313547231414,\n    \"witness_second_distance_lower_m\": 5.522865553765134,\n    \"small_b_witness_radius_m\": 80\n  },\n  \"continuous_and_quantized_upper\": {\n    \"q\": [\n      \"4215589/5000\",\n      \"5454003/10000\"\n    ],\n    \"upper_m\": \"55739/1000\",\n    \"verified_by\": \"exact Fraction squared-distance checks\",\n    \"nodes\": 208\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "src/q4_area_arc_certificate.py",
+      "artifacts/q4-lower-bound.json"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "runtime_s": 0.03853583335876465,
+    "stdout": "{\n  \"statement\": \"N >= 15 for every finite fixed universal directional-reception site set\",\n  \"source_disk_radius_m\": 1800,\n  \"minimum_reception_radius_m\": 1000,\n  \"k\": \"69/50\",\n  \"riemann_step_m\": 1,\n  \"intervals\": [\n    {\n      \"r_interval_m\": [\n        1800,\n        1900\n      ],\n      \"overlap_area_upper_m2\": 1385145.7353679936,\n      \"deficit_lower\": 0.559094418627051,\n      \"delta_upper_rad\": \"163/500\",\n      \"verified_slack_lower\": 0.10921441862705095,\n      \"angle_method\": \"cos(upper)<=R/right_endpoint\",\n      \"exact_area_upper\": \"692572867683996759/500000000000\"\n    },\n    {\n      \"r_interval_m\": [\n        1900,\n        1950\n      ],\n      \"overlap_area_upper_m2\": 1195591.7959930024,\n      \"deficit_lower\": 0.6194313114951936,\n      \"delta_upper_rad\": \"79/200\",\n      \"verified_slack_lower\": 0.07433131149519356,\n      \"angle_method\": \"cos(upper)<=R/right_endpoint\",\n      \"exact_area_upper\": \"298897948998250571/250000000000\"\n    },\n    {\n      \"r_interval_m\": [\n        1950,\n        2000\n      ],\n      \"overlap_area_upper_m2\": 1103078.2905855018,\n      \"deficit_lower\": 0.6488792748719185,\n      \"delta_upper_rad\": \"113/250\",\n      \"verified_slack_lower\": 0.025119274871918576,\n      \"angle_method\": \"cos(upper)<=R/right_endpoint\",\n      \"exact_area_upper\": \"551539145292750859/500000000000\"\n    },\n    {\n      \"r_interval_m\": [\n        2000,\n        2025\n      ],\n      \"overlap_area_upper_m2\": 1012301.700118909,\n      \"deficit_lower\": 0.6777743610514922,\n      \"delta_upper_rad\": \"119/250\",\n      \"verified_slack_lower\": 0.02089436105149227,\n      \"angle_method\": \"cos(upper)<=R/right_endpoint\",\n      \"exact_area_upper\": \"12653771251486363/12500000000\"\n    },\n    {\n      \"r_interval_m\": [\n        2025,\n        2050\n      ],\n      \"overlap_area_upper_m2\": 967619.7965069746,\n      \"deficit_lower\": 0.6919970527046823,\n      \"delta_upper_rad\": \"4991/10000\",\n      \"verified_slack_lower\": 0.003239052704682209,\n      \"angle_method\": \"cos(upper)<=R/right_endpoint\",\n      \"exact_area_upper\": \"19352395930139493/20000000000\"\n    },\n    {\n      \"r_interval_m\": [\n        2050,\n        2800\n      ],\n      \"overlap_area_upper_m2\": 923436.9199913507,\n      \"deficit_lower\": 0.706060899099643,\n      \"delta_upper_rad\": \"127/250\",\n      \"verified_slack_lower\": 0.005020899099642949,\n      \"angle_method\": \"global delta<=atan(L/R)<upper\",\n      \"exact_area_upper\": \"92343691999135069/100000000000\"\n    }\n  ],\n  \"N_real_lower\": 14.055397861953915,\n  \"N_integer_lower\": 15,\n  \"scope\": \"All source positions in the radius-1800 disk and all closed 180-degree emission orientations; fixed finite sites; no optical fallback or adaptation counted as sites.\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+      "src/analyze_revision.py"
+    ],
+    "cwd": ".",
+    "exit_code": 0,
+    "runtime_s": 0.6198840141296387,
+    "stdout": "{\n  \"3\": {\n    \"vs56\": {\n      \"n\": 200,\n      \"baseline_mean_s\": 3004.8543406,\n      \"candidate_mean_s\": 3003.36935434,\n      \"saving_s\": 1.4849862600000143,\n      \"saving_pct\": 0.04941957551604637,\n      \"ci95_s\": [\n        1.2115414727761318,\n        1.7584310472238969\n      ],\n      \"faster\": 185,\n      \"slower\": 0,\n      \"ties\": 15,\n      \"max_regression_s\": 9.99999883788405e-07,\n      \"max_saving_s\": 10.693355000000338,\n      \"all_cleared\": true,\n      \"mean_source_s\": 235.0026310105155,\n      \"cpu_mean_s\": 0.095882912305,\n      \"cpu_max_s\": 0.196961875,\n      \"baseline_source_s\": 235.117184752936,\n      \"decomposition_s\": {\n        \"move\": 1.4849862301370014,\n        \"measure\": 0.0,\n        \"switch\": 0.0,\n        \"failed_clear\": 0.0\n      },\n      \"candidate_counts\": {\n        \"move_m\": 11334.696771949166,\n        \"measures\": 111.055,\n        \"switches\": 103.885,\n        \"miss\": 4.04,\n        \"fallbacks\": 0.035,\n        \"residual_replaced\": 0.0,\n        \"residual_retired\": 0.0,\n        \"rollout_calls\": 0.0,\n        \"rollout_replaced\": 0.0\n      }\n    },\n    \"vs78\": {\n      \"n\": 200,\n      \"baseline_mean_s\": 3003.36935434,\n      \"candidate_mean_s\": 3003.36935434,\n      \"saving_s\": 0.0,\n      \"saving_pct\": 0.0,\n      \"ci95_s\": [\n        0.0,\n        0.0\n      ],\n      \"faster\": 0,\n      \"slower\": 0,\n      \"ties\": 200,\n      \"max_regression_s\": -0.0,\n      \"max_saving_s\": 0.0,\n      \"all_cleared\": true,\n      \"mean_source_s\": 235.0026310105155,\n      \"cpu_mean_s\": 0.095882912305,\n      \"cpu_max_s\": 0.196961875,\n      \"baseline_source_s\": 235.0026310105155,\n      \"decomposition_s\": {\n        \"move\": 0.0,\n        \"measure\": 0.0,\n        \"switch\": 0.0,\n        \"failed_clear\": 0.0\n      },\n      \"candidate_counts\": {\n        \"move_m\": 11334.696771949166,\n        \"measures\": 111.055,\n        \"switches\": 103.885,\n        \"miss\": 4.04,\n        \"fallbacks\": 0.035,\n        \"residual_replaced\": 0.0,\n        \"residual_retired\": 0.0,\n        \"rollout_calls\": 0.0,\n        \"rollout_replaced\": 0.0\n      }\n    }\n  },\n  \"4\": {\n    \"vs56\": {\n      \"n\": 200,\n      \"baseline_mean_s\": 5734.60335481,\n      \"candidate_mean_s\": 5704.988258,\n      \"saving_s\": 29.61509681,\n      \"saving_pct\": 0.5164279894817801,\n      \"ci95_s\": [\n        -4.68827964710805,\n        63.918473267108055\n      ],\n      \"faster\": 119,\n      \"slower\": 81,\n      \"ties\": 0,\n      \"max_regression_s\": 707.8485890000002,\n      \"max_saving_s\": 1635.8193390000001,\n      \"all_cleared\": true,\n      \"mean_source_s\": 450.615805982293,\n      \"cpu_mean_s\": 1.48288173268,\n      \"cpu_max_s\": 2.681808667,\n      \"baseline_source_s\": 452.613257543657,\n      \"decomposition_s\": {\n        \"move\": 27.81009774234001,\n        \"measure\": 0.7,\n        \"switch\": 0.175,\n        \"failed_clear\": 0.93\n      },\n      \"candidate_counts\": {\n        \"move_m\": 21012.86629111915,\n        \"measures\": 235.205,\n        \"switches\": 222.33,\n        \"miss\": 12.97,\n        \"fallbacks\": 3.51,\n        \"residual_replaced\": 5.585,\n        \"residual_retired\": 0.0,\n        \"rollout_calls\": 0.0,\n        \"rollout_replaced\": 0.0\n      }\n    },\n    \"vs78\": {\n      \"n\": 200,\n      \"baseline_mean_s\": 5733.40267884,\n      \"candidate_mean_s\": 5704.988258,\n      \"saving_s\": 28.414420839999995,\n      \"saving_pct\": 0.49559436920186617,\n      \"ci95_s\": [\n        -5.916794817337827,\n        62.74563649733781\n      ],\n      \"faster\": 114,\n      \"slower\": 86,\n      \"ties\": 0,\n      \"max_regression_s\": 708.9565220000004,\n      \"max_saving_s\": 1635.8193390000001,\n      \"all_cleared\": true,\n      \"mean_source_s\": 450.615805982293,\n      \"cpu_mean_s\": 1.48288173268,\n      \"cpu_max_s\": 2.681808667,\n      \"baseline_source_s\": 452.519268645632,\n      \"decomposition_s\": {\n        \"move\": 26.60942170328001,\n        \"measure\": 0.7,\n        \"switch\": 0.175,\n        \"failed_clear\": 0.93\n      },\n      \"candidate_counts\": {\n        \"move_m\": 21012.86629111915,\n        \"measures\": 235.205,\n        \"switches\": 222.33,\n        \"miss\": 12.97,\n        \"fallbacks\": 3.51,\n        \"residual_replaced\": 5.585,\n        \"residual_retired\": 0.0,\n        \"rollout_calls\": 0.0,\n        \"rollout_replaced\": 0.0\n      }\n    }\n  }\n}\n",
+    "stderr": ""
+  }
+]

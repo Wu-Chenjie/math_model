@@ -1,0 +1,14 @@
+Target tier: meritorious (total >= 75, floor 60, tier rank >= 2)
+
+Per-seat:
+  Seat A: total 74.7, implied 'below' (unknown-tier)
+  Seat B: total 79.4, implied 'meritorious' (rank 2)
+  Seat C: total 81.8, implied 'finalist' (rank 3)
+
+Min-seat total: 74.7 (Seat A)
+Weakest criterion across seats: 'completeness' = 54.0 (Seat A)
+
+RESULT: FAIL
+  - Seat A implied_tier 'below' cannot be ranked (unknown tier; use outstanding|finalist|meritorious or a documented alias)
+  - min-seat total 74.7 < required 75
+  - Seat A criterion 'completeness'=54 < floor 60

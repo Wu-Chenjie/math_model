@@ -1,0 +1,69 @@
+{
+  "environment": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "records": [
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/信号源数量与平均时长/count_profile",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/信号源数量与平均时长/results/training_replay_q3.csv",
+        "3",
+        "2610001",
+        "200"
+      ],
+      "started_unix": 1789277958.682247,
+      "runtime_s": 44.54002404212952,
+      "exit_code": 0,
+      "stdout": "3 25\n3 50\n3 75\n3 100\n3 125\n3 150\n3 175\n3 200\n",
+      "stderr": "",
+      "output": "results/training_replay_q3.csv",
+      "sha256": "e7fcbe680ee610136737fccf4173afdc2cf2d98bb5c64fd933b5855c3e43330d"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/信号源数量与平均时长/count_profile",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/信号源数量与平均时长/results/training_replay_q4.csv",
+        "4",
+        "2610001",
+        "200"
+      ],
+      "started_unix": 1789277958.682401,
+      "runtime_s": 221.27303194999695,
+      "exit_code": 0,
+      "stdout": "4 25\n4 50\n4 75\n4 100\n4 125\n4 150\n4 175\n4 200\n",
+      "stderr": "",
+      "output": "results/training_replay_q4.csv",
+      "sha256": "fd5d38641bd2b9c0895d4927fe1fd7a46d2526604a8d560758c39c7fe36f4526"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/信号源数量与平均时长/count_profile",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/信号源数量与平均时长/results/validation_q3.csv",
+        "3",
+        "2710001",
+        "200"
+      ],
+      "started_unix": 1789278003.223348,
+      "runtime_s": 39.87912392616272,
+      "exit_code": 0,
+      "stdout": "3 25\n3 50\n3 75\n3 100\n3 125\n3 150\n3 175\n3 200\n",
+      "stderr": "",
+      "output": "results/validation_q3.csv",
+      "sha256": "2d9590a4a5229f220393a9ce5635d6b60a8fbb50a23050f1a5543c71b89d8836"
+    },
+    {
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/信号源数量与平均时长/count_profile",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/信号源数量与平均时长/results/validation_q4.csv",
+        "4",
+        "2710001",
+        "200"
+      ],
+      "started_unix": 1789278043.103418,
+      "runtime_s": 225.4322419166565,
+      "exit_code": 0,
+      "stdout": "4 25\n4 50\n4 75\n4 100\n4 125\n4 150\n4 175\n4 200\n",
+      "stderr": "",
+      "output": "results/validation_q4.csv",
+      "sha256": "ed0855a47089170e8db9316fa599718b03ef227469026fa393394c6aac768872"
+    }
+  ]
+}

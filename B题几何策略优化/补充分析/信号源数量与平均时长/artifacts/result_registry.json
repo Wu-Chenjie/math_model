@@ -1,0 +1,4008 @@
+{
+  "results": [
+    {
+      "id": "count_time.method",
+      "value": 78,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/method",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.coefficients.0",
+      "value": 226.3338113176349,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/coefficients/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.HC3_covariance.0.0",
+      "value": 4.8341182640884695,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/HC3_covariance/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.HC3_t95_intervals.0.0",
+      "value": 221.99814375062158,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/HC3_t95_intervals/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.HC3_t95_intervals.0.1",
+      "value": 230.66947888464824,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/HC3_t95_intervals/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.total_R2",
+      "value": -2.357881836024023,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.avg_R2",
+      "value": -0.06423983862509353,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.LOOCV_avg_RMSE_s",
+      "value": 35.427167198665195,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/LOOCV_avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.LOOCV_total_RMSE_s",
+      "value": 419.86415009242035,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/LOOCV_total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.fresh_validation.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/fresh_validation/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.fresh_validation.mean_avg_error_s",
+      "value": 10.890248103750807,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/fresh_validation/mean_avg_error_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.fresh_validation.avg_RMSE_s",
+      "value": 35.8142654557695,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/fresh_validation/avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.fresh_validation.total_RMSE_s",
+      "value": 425.6336452694948,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/fresh_validation/total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.fresh_validation.avg_R2",
+      "value": -0.1018822787437057,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/fresh_validation/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.proportional.fresh_validation.total_R2",
+      "value": -2.007879949331508,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/proportional/fresh_validation/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.coefficients.0",
+      "value": 2409.9945316829453,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/coefficients/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.coefficients.1",
+      "value": 45.53912683477008,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/coefficients/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.HC3_covariance.0.0",
+      "value": 10698.532896606477,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/HC3_covariance/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.HC3_covariance.0.1",
+      "value": -814.358053129413,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/HC3_covariance/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.HC3_covariance.1.0",
+      "value": -814.3580531294098,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/HC3_covariance/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.HC3_covariance.1.1",
+      "value": 63.3039009508379,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/HC3_covariance/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.HC3_t95_intervals.0.0",
+      "value": 2206.0214426917537,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/HC3_t95_intervals/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.HC3_t95_intervals.0.1",
+      "value": 2613.967620674137,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/HC3_t95_intervals/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.HC3_t95_intervals.1.0",
+      "value": 29.84901654592366,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/HC3_t95_intervals/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.HC3_t95_intervals.1.1",
+      "value": 61.2292371236165,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/HC3_t95_intervals/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.total_R2",
+      "value": 0.15589753840629206,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.avg_R2",
+      "value": 0.7675727228878652,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.LOOCV_avg_RMSE_s",
+      "value": 16.669028895827548,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/LOOCV_avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.LOOCV_total_RMSE_s",
+      "value": 211.73346877531228,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/LOOCV_total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.fresh_validation.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/fresh_validation/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.fresh_validation.mean_avg_error_s",
+      "value": 0.3414084148717911,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/fresh_validation/mean_avg_error_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.fresh_validation.avg_RMSE_s",
+      "value": 17.341638693232653,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/fresh_validation/avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.fresh_validation.total_RMSE_s",
+      "value": 221.3818396016639,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/fresh_validation/total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.fresh_validation.avg_R2",
+      "value": 0.7416530318909051,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/fresh_validation/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine.fresh_validation.total_R2",
+      "value": 0.18628451344721741,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine/fresh_validation/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.coefficients.0",
+      "value": 1719.5270175931103,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/coefficients/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.coefficients.1",
+      "value": 154.96130727815245,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/coefficients/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.coefficients.2",
+      "value": -4.23342447514332,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/coefficients/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_covariance.0.0",
+      "value": 523179.90875346656,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_covariance/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_covariance.0.1",
+      "value": -82529.1011618434,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_covariance/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_covariance.0.2",
+      "value": 3187.4997430093094,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_covariance/0/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_covariance.1.0",
+      "value": -82529.10116185265,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_covariance/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_covariance.1.1",
+      "value": 13093.731272178604,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_covariance/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_covariance.1.2",
+      "value": -508.296206739951,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_covariance/1/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_covariance.2.0",
+      "value": 3187.499743010909,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_covariance/2/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_covariance.2.1",
+      "value": -508.2962067401467,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_covariance/2/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_covariance.2.2",
+      "value": 19.82706233325993,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_covariance/2/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_t95_intervals.0.0",
+      "value": 293.09905181550425,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_t95_intervals/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_t95_intervals.0.1",
+      "value": 3145.954983370716,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_t95_intervals/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_t95_intervals.1.0",
+      "value": -70.69944294245866,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_t95_intervals/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_t95_intervals.1.1",
+      "value": 380.6220574987635,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_t95_intervals/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_t95_intervals.2.0",
+      "value": -13.014617057623964,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_t95_intervals/2/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.HC3_t95_intervals.2.1",
+      "value": 4.547768107337324,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/HC3_t95_intervals/2/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.total_R2",
+      "value": 0.16003009551867198,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.avg_R2",
+      "value": 0.7665684518938441,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.LOOCV_avg_RMSE_s",
+      "value": 16.793757395188837,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/LOOCV_avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.LOOCV_total_RMSE_s",
+      "value": 212.34127934262952,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/LOOCV_total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.fresh_validation.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/fresh_validation/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.fresh_validation.mean_avg_error_s",
+      "value": 0.4353158610986496,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/fresh_validation/mean_avg_error_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.fresh_validation.avg_RMSE_s",
+      "value": 17.30702439850358,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/fresh_validation/avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.fresh_validation.total_RMSE_s",
+      "value": 220.86223525545694,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/fresh_validation/total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.fresh_validation.avg_R2",
+      "value": 0.7426833351445297,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/fresh_validation/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.quadratic.fresh_validation.total_R2",
+      "value": 0.1900997669140566,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/quadratic/fresh_validation/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.coefficients.0",
+      "value": 2240.5412253769464,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/coefficients/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.coefficients.1",
+      "value": 60.005246976443544,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/coefficients/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.coefficients.2",
+      "value": -158.6686595000425,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/coefficients/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_covariance.0.0",
+      "value": 13092.335383572836,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_covariance/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_covariance.0.1",
+      "value": -1012.7476154732749,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_covariance/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_covariance.0.2",
+      "value": 3111.626463999571,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_covariance/0/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_covariance.1.0",
+      "value": -1012.7476154732826,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_covariance/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_covariance.1.1",
+      "value": 79.76785374760051,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_covariance/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_covariance.1.2",
+      "value": -263.53804448832614,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_covariance/1/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_covariance.2.0",
+      "value": 3111.626463999597,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_covariance/2/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_covariance.2.1",
+      "value": -263.5380444883264,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_covariance/2/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_covariance.2.2",
+      "value": 3577.9410780320068,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_covariance/2/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_t95_intervals.0.0",
+      "value": 2014.8925040295098,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_t95_intervals/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_t95_intervals.0.1",
+      "value": 2466.189946724383,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_t95_intervals/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_t95_intervals.1.0",
+      "value": 42.392046862837525,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_t95_intervals/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_t95_intervals.1.1",
+      "value": 77.61844709004956,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_t95_intervals/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_t95_intervals.2.0",
+      "value": -276.6303283453667,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_t95_intervals/2/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.HC3_t95_intervals.2.1",
+      "value": -40.706990654718325,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/HC3_t95_intervals/2/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.total_R2",
+      "value": 0.19129160272516954,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.avg_R2",
+      "value": 0.7730456132702554,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.LOOCV_avg_RMSE_s",
+      "value": 16.542620560892296,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/LOOCV_avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.LOOCV_total_RMSE_s",
+      "value": 208.50278407486437,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/LOOCV_total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.fresh_validation.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/fresh_validation/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.fresh_validation.mean_avg_error_s",
+      "value": 0.767109465170833,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/fresh_validation/mean_avg_error_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.fresh_validation.avg_RMSE_s",
+      "value": 17.19740637249267,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/fresh_validation/avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.fresh_validation.total_RMSE_s",
+      "value": 219.12425169865858,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/fresh_validation/total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.fresh_validation.avg_R2",
+      "value": 0.7459325613418092,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/fresh_validation/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.fresh_validation.total_R2",
+      "value": 0.20279596235896669,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/fresh_validation/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.walking.0",
+      "value": 1402.3950780328064,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/walking/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.walking.1",
+      "value": 67.43896522116123,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/walking/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.walking.2",
+      "value": -118.21200395609326,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/walking/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.discovery_scan.0",
+      "value": 851.9292042830144,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/discovery_scan/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.discovery_scan.1",
+      "value": -28.018244803695136,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/discovery_scan/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.discovery_scan.2",
+      "value": -41.05395409055928,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/discovery_scan/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.known_sensing.0",
+      "value": -19.914192735670817,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/known_sensing/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.known_sensing.1",
+      "value": 15.121016166281777,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/known_sensing/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.known_sensing.2",
+      "value": 1.0196007418293576,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/known_sensing/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.failed_clear.0",
+      "value": 6.131135838757086,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/failed_clear/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.failed_clear.1",
+      "value": 0.4635103926096997,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/failed_clear/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.failed_clear.2",
+      "value": -0.4223021205122804,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/failed_clear/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.successful_clear.0",
+      "value": 5.097342654505172e-14,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/successful_clear/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.successful_clear.1",
+      "value": 5.000000000000005,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/successful_clear/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.models.affine_step16.accounting_coefficient_decomposition.successful_clear.2",
+      "value": -8.719951089348253e-15,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/models/affine_step16/accounting_coefficient_decomposition/successful_clear/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.0.N",
+      "value": 10,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/0/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.0.cases",
+      "value": 32,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/0/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.0.total_mean_s",
+      "value": 2895.70730503125,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/0/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.0.avg_mean_s",
+      "value": 289.570730503125,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/0/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.0.avg_mean_t95_s.0",
+      "value": 282.37173686271547,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/0/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.0.avg_mean_t95_s.1",
+      "value": 296.7697241435345,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/0/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.0.avg_sd_s",
+      "value": 19.96733968034069,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/0/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.0.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/0/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.0.discovery_measure_mean",
+      "value": 96.125,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/0/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.0.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/0/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.1.N",
+      "value": 11,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/1/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.1.cases",
+      "value": 20,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/1/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.1.total_mean_s",
+      "value": 2846.5746181500003,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/1/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.1.avg_mean_s",
+      "value": 258.779510740909,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/1/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.1.avg_mean_t95_s.0",
+      "value": 249.2119229401387,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/1/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.1.avg_mean_t95_s.1",
+      "value": 268.3470985416794,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/1/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.1.avg_sd_s",
+      "value": 20.442934383062425,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/1/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.1.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/1/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.1.discovery_measure_mean",
+      "value": 90.6,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/1/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.1.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/1/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.2.N",
+      "value": 12,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/2/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.2.cases",
+      "value": 29,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/2/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.2.total_mean_s",
+      "value": 2899.773000689655,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/2/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.2.avg_mean_s",
+      "value": 241.64775005747126,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/2/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.2.avg_mean_t95_s.0",
+      "value": 235.6081472919691,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/2/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.2.avg_mean_t95_s.1",
+      "value": 247.68735282297342,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/2/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.2.avg_sd_s",
+      "value": 15.877827995341711,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/2/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.2.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/2/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.2.discovery_measure_mean",
+      "value": 84.48275862068965,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/2/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.2.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/2/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.3.N",
+      "value": 13,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/3/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.3.cases",
+      "value": 31,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/3/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.3.total_mean_s",
+      "value": 3008.295751161291,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/3/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.3.avg_mean_s",
+      "value": 231.40736547394548,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/3/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.3.avg_mean_t95_s.0",
+      "value": 226.11783805553276,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/3/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.3.avg_mean_t95_s.1",
+      "value": 236.6968928923582,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/3/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.3.avg_sd_s",
+      "value": 14.42062353903016,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/3/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.3.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/3/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.3.discovery_measure_mean",
+      "value": 82.29032258064517,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/3/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.3.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/3/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.4.N",
+      "value": 14,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/4/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.4.cases",
+      "value": 29,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/4/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.4.total_mean_s",
+      "value": 3134.3915861724136,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/4/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.4.avg_mean_s",
+      "value": 223.88511329802964,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/4/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.4.avg_mean_t95_s.0",
+      "value": 218.59404983991254,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/4/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.4.avg_mean_t95_s.1",
+      "value": 229.17617675614673,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/4/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.4.avg_sd_s",
+      "value": 13.909953810254617,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/4/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.4.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/4/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.4.discovery_measure_mean",
+      "value": 78.44827586206897,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/4/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.4.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/4/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.5.N",
+      "value": 15,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/5/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.5.cases",
+      "value": 35,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/5/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.5.total_mean_s",
+      "value": 3137.852771971428,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/5/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.5.avg_mean_s",
+      "value": 209.19018479809523,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/5/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.5.avg_mean_t95_s.0",
+      "value": 204.50792262460797,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/5/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.5.avg_mean_t95_s.1",
+      "value": 213.8724469715825,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/5/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.5.avg_sd_s",
+      "value": 13.6305628858803,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/5/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.5.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/5/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.5.discovery_measure_mean",
+      "value": 71.37142857142857,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/5/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.5.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/5/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.6.N",
+      "value": 16,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/6/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.6.cases",
+      "value": 24,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/6/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.6.total_mean_s",
+      "value": 3041.9565175000002,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/6/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.6.avg_mean_s",
+      "value": 190.12228234375002,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/6/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.6.avg_mean_t95_s.0",
+      "value": 183.82815720975574,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/6/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.6.avg_mean_t95_s.1",
+      "value": 196.4164074777443,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/6/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.6.avg_sd_s",
+      "value": 14.905700080923161,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/6/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.6.discovery_sites_mean",
+      "value": 6.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/6/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.6.discovery_measure_mean",
+      "value": 60.666666666666664,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/6/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.training_groups.6.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/training_groups/6/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.0.N",
+      "value": 10,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/0/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.0.cases",
+      "value": 31,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/0/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.0.total_mean_s",
+      "value": 2851.395251774193,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/0/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.0.avg_mean_s",
+      "value": 285.13952517741933,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/0/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.0.avg_mean_t95_s.0",
+      "value": 278.2958332655233,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/0/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.0.avg_mean_t95_s.1",
+      "value": 291.98321708931536,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/0/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.0.avg_sd_s",
+      "value": 18.65767900834016,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/0/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.0.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/0/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.0.discovery_measure_mean",
+      "value": 95.16129032258064,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/0/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.0.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/0/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.1.N",
+      "value": 11,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/1/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.1.cases",
+      "value": 33,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/1/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.1.total_mean_s",
+      "value": 2872.7829947878786,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/1/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.1.avg_mean_s",
+      "value": 261.16209043526163,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/1/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.1.avg_mean_t95_s.0",
+      "value": 254.55390414274774,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/1/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.1.avg_mean_t95_s.1",
+      "value": 267.7702767277755,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/1/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.1.avg_sd_s",
+      "value": 18.636417465117486,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/1/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.1.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/1/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.1.discovery_measure_mean",
+      "value": 91.15151515151516,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/1/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.1.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/1/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.2.N",
+      "value": 12,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/2/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.2.cases",
+      "value": 26,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/2/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.2.total_mean_s",
+      "value": 2997.9585754230766,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/2/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.2.avg_mean_s",
+      "value": 249.82988128525633,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/2/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.2.avg_mean_t95_s.0",
+      "value": 243.19859834486928,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/2/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.2.avg_mean_t95_s.1",
+      "value": 256.4611642256434,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/2/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.2.avg_sd_s",
+      "value": 16.417775267175998,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/2/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.2.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/2/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.2.discovery_measure_mean",
+      "value": 86.57692307692308,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/2/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.2.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/2/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.3.N",
+      "value": 13,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/3/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.3.cases",
+      "value": 26,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/3/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.3.total_mean_s",
+      "value": 2989.820317115384,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/3/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.3.avg_mean_s",
+      "value": 229.98617823964508,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/3/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.3.avg_mean_t95_s.0",
+      "value": 221.20157563541596,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/3/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.3.avg_mean_t95_s.1",
+      "value": 238.7707808438742,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/3/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.3.avg_sd_s",
+      "value": 21.74897869148448,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/3/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.3.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/3/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.3.discovery_measure_mean",
+      "value": 80.73076923076923,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/3/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.3.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/3/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.4.N",
+      "value": 14,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/4/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.4.cases",
+      "value": 28,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/4/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.4.total_mean_s",
+      "value": 3064.5209689642857,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/4/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.4.avg_mean_s",
+      "value": 218.8943549260204,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/4/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.4.avg_mean_t95_s.0",
+      "value": 212.91610182198147,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/4/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.4.avg_mean_t95_s.1",
+      "value": 224.87260803005935,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/4/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.4.avg_sd_s",
+      "value": 15.417424451820175,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/4/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.4.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/4/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.4.discovery_measure_mean",
+      "value": 75.17857142857143,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/4/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.4.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/4/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.5.N",
+      "value": 15,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/5/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.5.cases",
+      "value": 27,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/5/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.5.total_mean_s",
+      "value": 3204.820794111111,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/5/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.5.avg_mean_s",
+      "value": 213.65471960740746,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/5/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.5.avg_mean_t95_s.0",
+      "value": 208.2832818973869,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/5/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.5.avg_mean_t95_s.1",
+      "value": 219.02615731742802,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/5/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.5.avg_sd_s",
+      "value": 13.578403960377551,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/5/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.5.discovery_sites_mean",
+      "value": 7.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/5/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.5.discovery_measure_mean",
+      "value": 73.14814814814815,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/5/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.5.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/5/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.6.N",
+      "value": 16,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/6/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.6.cases",
+      "value": 29,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/6/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.6.total_mean_s",
+      "value": 3097.490043827586,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/6/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.6.avg_mean_s",
+      "value": 193.59312773922412,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/6/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.6.avg_mean_t95_s.0",
+      "value": 187.89137928529598,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/6/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.6.avg_mean_t95_s.1",
+      "value": 199.29487619315225,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/6/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.6.avg_sd_s",
+      "value": 14.989625102711386,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/6/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.6.discovery_sites_mean",
+      "value": 5.9655172413793105,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/6/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.6.discovery_measure_mean",
+      "value": 63.310344827586206,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/6/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.validation_groups.6.directional_sources_mean",
+      "value": 0.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/validation_groups/6/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.0.N",
+      "value": 10,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/0/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.0.predicted_avg_s",
+      "value": 284.0593695141382,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/0/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.0.conditional_mean_HC3_t95_s.0",
+      "value": 278.43231075652807,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/0/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.0.conditional_mean_HC3_t95_s.1",
+      "value": 289.68642827174835,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/0/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.1.N",
+      "value": 11,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/1/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.1.predicted_avg_s",
+      "value": 263.6908129198023,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/1/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.1.conditional_mean_HC3_t95_s.0",
+      "value": 259.8298455155895,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/1/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.1.conditional_mean_HC3_t95_s.1",
+      "value": 267.55178032401506,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/1/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.2.N",
+      "value": 12,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/2/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.2.predicted_avg_s",
+      "value": 246.71701575785573,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/2/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.2.conditional_mean_HC3_t95_s.0",
+      "value": 244.0018559251712,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/2/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.2.conditional_mean_HC3_t95_s.1",
+      "value": 249.43217559054025,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/2/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.3.N",
+      "value": 13,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/3/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.3.predicted_avg_s",
+      "value": 232.35457200543942,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/3/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.3.conditional_mean_HC3_t95_s.0",
+      "value": 229.99633450827432,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/3/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.3.conditional_mean_HC3_t95_s.1",
+      "value": 234.71280950260453,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/3/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.4.N",
+      "value": 14,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/4/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.4.predicted_avg_s",
+      "value": 220.04390593193972,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/4/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.4.conditional_mean_HC3_t95_s.0",
+      "value": 217.33471684485403,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/4/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.4.conditional_mean_HC3_t95_s.1",
+      "value": 222.7530950190254,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/4/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.5.N",
+      "value": 15,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/5/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.5.predicted_avg_s",
+      "value": 209.3746620015733,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/5/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.5.conditional_mean_HC3_t95_s.0",
+      "value": 206.0030437389332,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/5/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.5.conditional_mean_HC3_t95_s.1",
+      "value": 212.74628026421342,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/5/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.6.N",
+      "value": 16,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/6/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.6.predicted_avg_s",
+      "value": 190.12228234375004,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/6/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.6.conditional_mean_HC3_t95_s.0",
+      "value": 183.99295555850168,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/6/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.predictions.6.conditional_mean_HC3_t95_s.1",
+      "value": 196.2516091289984,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/predictions/6/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.correlations.training.pearson_N_total",
+      "value": 0.3948386232453608,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/correlations/training/pearson_N_total",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.correlations.training.pearson_N_avg",
+      "value": -0.8682651925271172,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/correlations/training/pearson_N_avg",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.correlations.training.spearman_N_avg",
+      "value": -0.8841115025654843,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/correlations/training/spearman_N_avg",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.correlations.validation.pearson_N_total",
+      "value": 0.43634101529605746,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/correlations/validation/pearson_N_total",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.correlations.validation.pearson_N_avg",
+      "value": -0.8579410626670791,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/correlations/validation/pearson_N_avg",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.3.correlations.validation.spearman_N_avg",
+      "value": -0.8689173851668572,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/3/correlations/validation/spearman_N_avg",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.coefficients.0",
+      "value": 428.34663585903076,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/coefficients/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.HC3_covariance.0.0",
+      "value": 34.02853758906579,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/HC3_covariance/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.HC3_t95_intervals.0.0",
+      "value": 416.84342759129265,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/HC3_t95_intervals/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.HC3_t95_intervals.0.1",
+      "value": 439.84984412676886,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/HC3_t95_intervals/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.total_R2",
+      "value": -5.771981151333518,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.avg_R2",
+      "value": -0.07790422542405584,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.LOOCV_avg_RMSE_s",
+      "value": 90.29411131609307,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/LOOCV_avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.LOOCV_total_RMSE_s",
+      "value": 1090.2737810897563,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/LOOCV_total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.fresh_validation.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/fresh_validation/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.fresh_validation.mean_avg_error_s",
+      "value": 21.946770866922833,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/fresh_validation/mean_avg_error_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.fresh_validation.avg_RMSE_s",
+      "value": 96.67289877809931,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/fresh_validation/avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.fresh_validation.total_RMSE_s",
+      "value": 1204.7534322217832,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/fresh_validation/total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.fresh_validation.avg_R2",
+      "value": -0.05433905354102997,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/fresh_validation/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.proportional.fresh_validation.total_R2",
+      "value": -4.807121909561043,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/proportional/fresh_validation/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.coefficients.0",
+      "value": 6755.742268459226,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/coefficients/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.coefficients.1",
+      "value": -78.46044432994812,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/coefficients/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.HC3_covariance.0.0",
+      "value": 41579.80950693018,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/HC3_covariance/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.HC3_covariance.0.1",
+      "value": -3445.767396456195,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/HC3_covariance/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.HC3_covariance.1.0",
+      "value": -3445.7673964561955,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/HC3_covariance/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.HC3_covariance.1.1",
+      "value": 288.5150345324195,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/HC3_covariance/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.HC3_t95_intervals.0.0",
+      "value": 6353.625663293371,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/HC3_t95_intervals/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.HC3_t95_intervals.0.1",
+      "value": 7157.85887362508,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/HC3_t95_intervals/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.HC3_t95_intervals.1.0",
+      "value": -111.95660139646557,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/HC3_t95_intervals/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.HC3_t95_intervals.1.1",
+      "value": -44.96428726343066,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/HC3_t95_intervals/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.total_R2",
+      "value": 0.1384684119855082,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.avg_R2",
+      "value": 0.900971263766876,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.LOOCV_avg_RMSE_s",
+      "value": 27.584186654544546,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/LOOCV_avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.LOOCV_total_RMSE_s",
+      "value": 391.7788615346613,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/LOOCV_total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.fresh_validation.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/fresh_validation/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.fresh_validation.mean_avg_error_s",
+      "value": -7.623936133642235,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/fresh_validation/mean_avg_error_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.fresh_validation.avg_RMSE_s",
+      "value": 32.28453783749751,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/fresh_validation/avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.fresh_validation.total_RMSE_s",
+      "value": 456.77965118641225,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/fresh_validation/total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.fresh_validation.avg_R2",
+      "value": 0.882412824561184,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/fresh_validation/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine.fresh_validation.total_R2",
+      "value": 0.1652083509026291,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine/fresh_validation/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.coefficients.0",
+      "value": 1707.99609556883,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/coefficients/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.coefficients.1",
+      "value": 721.4836244224911,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/coefficients/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.coefficients.2",
+      "value": -30.948961039520732,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/coefficients/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_covariance.0.0",
+      "value": 1971515.6722999685,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_covariance/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_covariance.0.1",
+      "value": -323673.6307474738,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_covariance/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_covariance.0.2",
+      "value": 13028.66725756585,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_covariance/0/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_covariance.1.0",
+      "value": -323673.6307473339,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_covariance/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_covariance.1.1",
+      "value": 53297.89337409692,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_covariance/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_covariance.1.2",
+      "value": -2151.408822713268,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_covariance/1/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_covariance.2.0",
+      "value": 13028.667257558056,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_covariance/2/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_covariance.2.1",
+      "value": -2151.4088227128773,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_covariance/2/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_covariance.2.2",
+      "value": 87.08930930866013,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_covariance/2/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_t95_intervals.0.0",
+      "value": -1061.0133219162938,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_t95_intervals/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_t95_intervals.0.1",
+      "value": 4477.005513053954,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_t95_intervals/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_t95_intervals.1.0",
+      "value": 266.2028223182175,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_t95_intervals/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_t95_intervals.1.1",
+      "value": 1176.7644265267645,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_t95_intervals/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_t95_intervals.2.0",
+      "value": -49.35272858031094,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_t95_intervals/2/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.HC3_t95_intervals.2.1",
+      "value": -12.54519349873053,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/HC3_t95_intervals/2/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.total_R2",
+      "value": 0.2045539919794641,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.avg_R2",
+      "value": 0.9075660719543943,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.LOOCV_avg_RMSE_s",
+      "value": 26.82770743920963,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/LOOCV_avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.LOOCV_total_RMSE_s",
+      "value": 379.16871922231894,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/LOOCV_total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.fresh_validation.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/fresh_validation/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.fresh_validation.mean_avg_error_s",
+      "value": -6.937414403696486,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/fresh_validation/mean_avg_error_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.fresh_validation.avg_RMSE_s",
+      "value": 30.838712683040466,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/fresh_validation/avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.fresh_validation.total_RMSE_s",
+      "value": 429.195882695897,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/fresh_validation/total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.fresh_validation.avg_R2",
+      "value": 0.8927090001863373,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/fresh_validation/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.quadratic.fresh_validation.total_R2",
+      "value": 0.2629860756233814,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/quadratic/fresh_validation/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.coefficients.0",
+      "value": 6206.853762232563,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/coefficients/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.coefficients.1",
+      "value": -31.602184384757237,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/coefficients/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.coefficients.2",
+      "value": -513.955173826444,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/coefficients/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_covariance.0.0",
+      "value": 25921.305270620334,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_covariance/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_covariance.0.1",
+      "value": -2140.314927387815,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_covariance/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_covariance.0.2",
+      "value": 8323.73356758474,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_covariance/0/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_covariance.1.0",
+      "value": -2140.314927387819,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_covariance/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_covariance.1.1",
+      "value": 179.45703554207293,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_covariance/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_covariance.1.2",
+      "value": -730.9976412853514,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_covariance/1/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_covariance.2.0",
+      "value": 8323.733567584686,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_covariance/2/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_covariance.2.1",
+      "value": -730.997641285345,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_covariance/2/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_covariance.2.2",
+      "value": 25130.876337884,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_covariance/2/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_t95_intervals.0.0",
+      "value": 5889.347168179263,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_t95_intervals/0/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_t95_intervals.0.1",
+      "value": 6524.360356285863,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_t95_intervals/0/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_t95_intervals.1.0",
+      "value": -58.02046570730734,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_t95_intervals/1/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_t95_intervals.1.1",
+      "value": -5.18390306220714,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_t95_intervals/1/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_t95_intervals.2.0",
+      "value": -826.5833611218952,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_t95_intervals/2/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.HC3_t95_intervals.2.1",
+      "value": -201.32698653099283,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/HC3_t95_intervals/2/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.total_R2",
+      "value": 0.2495847552596132,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.avg_R2",
+      "value": 0.9129595126932245,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.LOOCV_avg_RMSE_s",
+      "value": 26.143365229804747,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/LOOCV_avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.LOOCV_total_RMSE_s",
+      "value": 370.58875326088315,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/LOOCV_total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.fresh_validation.n_cases",
+      "value": 200,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/fresh_validation/n_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.fresh_validation.mean_avg_error_s",
+      "value": -6.245016957076566,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/fresh_validation/mean_avg_error_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.fresh_validation.avg_RMSE_s",
+      "value": 28.931450863416984,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/fresh_validation/avg_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.fresh_validation.total_RMSE_s",
+      "value": 398.7535254797051,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/fresh_validation/total_RMSE_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.fresh_validation.avg_R2",
+      "value": 0.9055697286849004,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/fresh_validation/avg_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.fresh_validation.total_R2",
+      "value": 0.36382928913549006,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/fresh_validation/total_R2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.walking.0",
+      "value": 3581.462431307009,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/walking/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.walking.1",
+      "value": 54.10612993668757,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/walking/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.walking.2",
+      "value": -477.3552037909581,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/walking/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.discovery_scan.0",
+      "value": 2637.408188116732,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/discovery_scan/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.discovery_scan.1",
+      "value": -105.46212471131638,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/discovery_scan/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.discovery_scan.2",
+      "value": -49.55585940233804,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/discovery_scan/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.known_sensing.0",
+      "value": -1.5842536216670828,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/known_sensing/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.known_sensing.1",
+      "value": 10.988221709006943,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/known_sensing/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.known_sensing.2",
+      "value": 2.8977062775561486,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/known_sensing/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.failed_clear.0",
+      "value": -10.432605500734812,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/failed_clear/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.failed_clear.1",
+      "value": 3.7655889145496584,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/failed_clear/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.failed_clear.2",
+      "value": 10.058182867940367,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/failed_clear/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.successful_clear.0",
+      "value": 5.097342654505172e-14,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/successful_clear/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.successful_clear.1",
+      "value": 5.000000000000005,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/successful_clear/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.models.affine_step16.accounting_coefficient_decomposition.successful_clear.2",
+      "value": -8.719951089348253e-15,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/models/affine_step16/accounting_coefficient_decomposition/successful_clear/2",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.0.N",
+      "value": 10,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/0/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.0.cases",
+      "value": 32,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/0/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.0.total_mean_s",
+      "value": 5885.8472855,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/0/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.0.avg_mean_s",
+      "value": 588.5847285499999,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/0/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.0.avg_mean_t95_s.0",
+      "value": 580.5350277018262,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/0/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.0.avg_mean_t95_s.1",
+      "value": 596.6344293981737,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/0/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.0.avg_sd_s",
+      "value": 22.326886116191734,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/0/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.0.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/0/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.0.discovery_measure_mean",
+      "value": 266.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/0/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.0.directional_sources_mean",
+      "value": 4.96875,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/0/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.1.N",
+      "value": 11,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/1/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.1.cases",
+      "value": 20,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/1/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.1.total_mean_s",
+      "value": 5846.1627183,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/1/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.1.avg_mean_s",
+      "value": 531.4693380272728,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/1/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.1.avg_mean_t95_s.0",
+      "value": 521.7416781416623,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/1/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.1.avg_mean_t95_s.1",
+      "value": 541.1969979128833,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/1/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.1.avg_sd_s",
+      "value": 20.784958223876654,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/1/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.1.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/1/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.1.discovery_measure_mean",
+      "value": 244.95,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/1/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.1.directional_sources_mean",
+      "value": 5.65,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/1/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.2.N",
+      "value": 12,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/2/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.2.cases",
+      "value": 29,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/2/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.2.total_mean_s",
+      "value": 5818.405452965518,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/2/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.2.avg_mean_s",
+      "value": 484.86712108045987,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/2/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.2.avg_mean_t95_s.0",
+      "value": 477.8898686208284,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/2/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.2.avg_mean_t95_s.1",
+      "value": 491.84437354009134,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/2/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.2.avg_sd_s",
+      "value": 18.342864379573605,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/2/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.2.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/2/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.2.discovery_measure_mean",
+      "value": 228.24137931034483,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/2/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.2.directional_sources_mean",
+      "value": 6.413793103448276,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/2/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.3.N",
+      "value": 13,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/3/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.3.cases",
+      "value": 31,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/3/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.3.total_mean_s",
+      "value": 5829.796518451614,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/3/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.3.avg_mean_s",
+      "value": 448.4458860347394,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/3/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.3.avg_mean_t95_s.0",
+      "value": 441.2675966876815,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/3/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.3.avg_mean_t95_s.1",
+      "value": 455.6241753817973,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/3/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.3.avg_sd_s",
+      "value": 19.569878391747807,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/3/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.3.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/3/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.3.discovery_measure_mean",
+      "value": 219.2258064516129,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/3/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.3.directional_sources_mean",
+      "value": 6.903225806451613,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/3/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.4.N",
+      "value": 14,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/4/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.4.cases",
+      "value": 29,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/4/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.4.total_mean_s",
+      "value": 5783.437436931035,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/4/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.4.avg_mean_s",
+      "value": 413.10267406650246,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/4/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.4.avg_mean_t95_s.0",
+      "value": 403.87145077025815,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/4/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.4.avg_mean_t95_s.1",
+      "value": 422.33389736274677,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/4/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.4.avg_sd_s",
+      "value": 24.268446349082325,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/4/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.4.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/4/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.4.discovery_measure_mean",
+      "value": 196.75862068965517,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/4/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.4.directional_sources_mean",
+      "value": 7.482758620689655,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/4/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.5.N",
+      "value": 15,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/5/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.5.cases",
+      "value": 35,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/5/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.5.total_mean_s",
+      "value": 5706.820144828572,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/5/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.5.avg_mean_s",
+      "value": 380.4546763219047,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/5/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.5.avg_mean_t95_s.0",
+      "value": 371.304833690046,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/5/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.5.avg_mean_t95_s.1",
+      "value": 389.6045189537634,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/5/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.5.avg_sd_s",
+      "value": 26.636164479566265,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/5/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.5.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/5/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.5.discovery_measure_mean",
+      "value": 174.5142857142857,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/5/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.5.directional_sources_mean",
+      "value": 5.885714285714286,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/5/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.6.N",
+      "value": 16,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/6/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.6.cases",
+      "value": 24,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/6/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.6.total_mean_s",
+      "value": 5187.2636382499995,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/6/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.6.avg_mean_s",
+      "value": 324.20397739062497,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/6/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.6.avg_mean_t95_s.0",
+      "value": 305.53403923096926,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/6/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.6.avg_mean_t95_s.1",
+      "value": 342.8739155502807,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/6/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.6.avg_sd_s",
+      "value": 44.21400795389135,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/6/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.6.discovery_sites_mean",
+      "value": 16.166666666666668,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/6/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.6.discovery_measure_mean",
+      "value": 151.16666666666666,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/6/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.training_groups.6.directional_sources_mean",
+      "value": 8.375,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/training_groups/6/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.0.N",
+      "value": 10,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/0/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.0.cases",
+      "value": 31,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/0/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.0.total_mean_s",
+      "value": 5877.076674806452,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/0/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.0.avg_mean_s",
+      "value": 587.7076674806451,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/0/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.0.avg_mean_t95_s.0",
+      "value": 578.4780146990805,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/0/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.0.avg_mean_t95_s.1",
+      "value": 596.9373202622097,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/0/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.0.avg_sd_s",
+      "value": 25.162427118838124,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/0/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.0.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/0/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.0.discovery_measure_mean",
+      "value": 263.2903225806452,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/0/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.0.directional_sources_mean",
+      "value": 4.741935483870968,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/0/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.1.N",
+      "value": 11,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/1/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.1.cases",
+      "value": 33,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/1/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.1.total_mean_s",
+      "value": 5784.970394151515,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/1/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.1.avg_mean_s",
+      "value": 525.9063994683195,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/1/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.1.avg_mean_t95_s.0",
+      "value": 516.889668094677,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/1/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.1.avg_mean_t95_s.1",
+      "value": 534.923130841962,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/1/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.1.avg_sd_s",
+      "value": 25.429000123738543,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/1/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.1.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/1/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.1.discovery_measure_mean",
+      "value": 245.84848484848484,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/1/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.1.directional_sources_mean",
+      "value": 5.151515151515151,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/1/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.2.N",
+      "value": 12,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/2/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.2.cases",
+      "value": 26,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/2/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.2.total_mean_s",
+      "value": 5814.3328545,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/2/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.2.avg_mean_s",
+      "value": 484.52773787499996,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/2/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.2.avg_mean_t95_s.0",
+      "value": 472.791061827331,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/2/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.2.avg_mean_t95_s.1",
+      "value": 496.2644139226689,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/2/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.2.avg_sd_s",
+      "value": 29.057742139265322,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/2/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.2.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/2/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.2.discovery_measure_mean",
+      "value": 228.3846153846154,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/2/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.2.directional_sources_mean",
+      "value": 4.6923076923076925,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/2/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.3.N",
+      "value": 13,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/3/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.3.cases",
+      "value": 26,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/3/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.3.total_mean_s",
+      "value": 5737.070306961537,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/3/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.3.avg_mean_s",
+      "value": 441.31310053550294,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/3/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.3.avg_mean_t95_s.0",
+      "value": 430.6675464045887,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/3/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.3.avg_mean_t95_s.1",
+      "value": 451.9586546664172,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/3/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.3.avg_sd_s",
+      "value": 26.356335099419912,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/3/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.3.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/3/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.3.discovery_measure_mean",
+      "value": 207.96153846153845,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/3/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.3.directional_sources_mean",
+      "value": 5.653846153846154,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/3/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.4.N",
+      "value": 14,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/4/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.4.cases",
+      "value": 28,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/4/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.4.total_mean_s",
+      "value": 5645.258759785714,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/4/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.4.avg_mean_s",
+      "value": 403.2327685561224,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/4/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.4.avg_mean_t95_s.0",
+      "value": 395.6777003842787,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/4/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.4.avg_mean_t95_s.1",
+      "value": 410.78783672796607,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/4/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.4.avg_sd_s",
+      "value": 19.483901189974198,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/4/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.4.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/4/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.4.discovery_measure_mean",
+      "value": 190.10714285714286,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/4/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.4.directional_sources_mean",
+      "value": 5.571428571428571,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/4/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.5.N",
+      "value": 15,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/5/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.5.cases",
+      "value": 27,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/5/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.5.total_mean_s",
+      "value": 5750.559431925926,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/5/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.5.avg_mean_s",
+      "value": 383.3706287950617,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/5/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.5.avg_mean_t95_s.0",
+      "value": 374.306105647722,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/5/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.5.avg_mean_t95_s.1",
+      "value": 392.4351519424014,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/5/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.5.avg_sd_s",
+      "value": 22.914117904254788,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/5/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.5.discovery_sites_mean",
+      "value": 21.0,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/5/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.5.discovery_measure_mean",
+      "value": 185.14814814814815,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/5/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.5.directional_sources_mean",
+      "value": 7.481481481481482,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/5/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.6.N",
+      "value": 16,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/6/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.6.cases",
+      "value": 29,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/6/cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.6.total_mean_s",
+      "value": 4839.41857937931,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/6/total_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.6.avg_mean_s",
+      "value": 302.4636612112069,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/6/avg_mean_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.6.avg_mean_t95_s.0",
+      "value": 286.80652693586893,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/6/avg_mean_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.6.avg_mean_t95_s.1",
+      "value": 318.12079548654486,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/6/avg_mean_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.6.avg_sd_s",
+      "value": 41.1618602375277,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/6/avg_sd_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.6.discovery_sites_mean",
+      "value": 14.724137931034482,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/6/discovery_sites_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.6.discovery_measure_mean",
+      "value": 138.41379310344828,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/6/discovery_measure_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.validation_groups.6.directional_sources_mean",
+      "value": 6.689655172413793,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/validation_groups/6/directional_sources_mean",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.0.N",
+      "value": 10,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/0/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.0.predicted_avg_s",
+      "value": 589.083191838499,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/0/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.0.conditional_mean_HC3_t95_s.0",
+      "value": 582.6604168977809,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/0/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.0.conditional_mean_HC3_t95_s.1",
+      "value": 595.5059667792171,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/0/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.1.N",
+      "value": 11,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/1/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.1.predicted_avg_s",
+      "value": 532.6572485454758,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/1/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.1.conditional_mean_HC3_t95_s.0",
+      "value": 528.4578173413884,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/1/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.1.conditional_mean_HC3_t95_s.1",
+      "value": 536.8566797495632,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/1/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.2.N",
+      "value": 12,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/2/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.2.predicted_avg_s",
+      "value": 485.63562913462295,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/2/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.2.conditional_mean_HC3_t95_s.0",
+      "value": 482.36712283700894,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/2/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.2.conditional_mean_HC3_t95_s.1",
+      "value": 488.90413543223696,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/2/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.3.N",
+      "value": 13,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/3/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.3.predicted_avg_s",
+      "value": 445.8481050177477,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/3/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.3.conditional_mean_HC3_t95_s.0",
+      "value": 442.12807154670026,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/3/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.3.conditional_mean_HC3_t95_s.1",
+      "value": 449.5681384887951,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/3/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.4.N",
+      "value": 14,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/4/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.4.predicted_avg_s",
+      "value": 411.7445129175686,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/4/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.4.conditional_mean_HC3_t95_s.0",
+      "value": 406.9343709245438,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/4/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.4.conditional_mean_HC3_t95_s.1",
+      "value": 416.5546549105934,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/4/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.5.N",
+      "value": 15,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/5/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.5.predicted_avg_s",
+      "value": 382.18806643074697,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/5/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.5.conditional_mean_HC3_t95_s.0",
+      "value": 376.178072472529,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/5/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.5.conditional_mean_HC3_t95_s.1",
+      "value": 388.19806038896496,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/5/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.6.N",
+      "value": 16,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/6/N",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.6.predicted_avg_s",
+      "value": 324.20397739062525,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/6/predicted_avg_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.6.conditional_mean_HC3_t95_s.0",
+      "value": 306.02287205751793,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/6/conditional_mean_HC3_t95_s/0",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.predictions.6.conditional_mean_HC3_t95_s.1",
+      "value": 342.3850827237326,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/predictions/6/conditional_mean_HC3_t95_s/1",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.correlations.training.pearson_N_total",
+      "value": -0.3721134396733179,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/correlations/training/pearson_N_total",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.correlations.training.pearson_N_avg",
+      "value": -0.9514842514828021,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/correlations/training/pearson_N_avg",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.correlations.training.spearman_N_avg",
+      "value": -0.957206842793408,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/correlations/training/spearman_N_avg",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.correlations.validation.pearson_N_total",
+      "value": -0.4889293161599706,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/correlations/validation/pearson_N_total",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.correlations.validation.pearson_N_avg",
+      "value": -0.9487498248529529,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/correlations/validation/pearson_N_avg",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.Q.4.correlations.validation.spearman_N_avg",
+      "value": -0.9634870076522384,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/Q/4/correlations/validation/spearman_N_avg",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.checks.original_rows_matched",
+      "value": 400,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/checks/original_rows_matched",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.checks.identity_checked_cases",
+      "value": 800,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/checks/identity_checked_cases",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.checks.max_identity_residual_s",
+      "value": 1.3844100067217369e-05,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/checks/max_identity_residual_s",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.checks.validation_seed_disjoint",
+      "value": true,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/checks/validation_seed_disjoint",
+      "status": "verified"
+    },
+    {
+      "id": "count_time.analysis_runtime_s",
+      "value": 0.03624296188354492,
+      "source_artifact": "补充分析/信号源数量与平均时长/artifacts/count_time_results.json",
+      "source_path": "/analysis_runtime_s",
+      "status": "verified"
+    }
+  ]
+}

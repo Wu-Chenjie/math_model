@@ -1,0 +1,51 @@
+{
+  "reception": {
+    "q": [
+      "4215589/5000",
+      "5454003/10000"
+    ],
+    "r1000_constraint_margin_m2": [
+      658534.8205082546,
+      658534.8205082546
+    ],
+    "r5_constraint_margin_m2": [
+      0.10774519592267746,
+      0.10774519592267788
+    ]
+  },
+  "continuous_model_lower": {
+    "certified_floor_m": "55.73823",
+    "global_lower_m": [
+      55.738234284742134,
+      55.738234284742134
+    ],
+    "t_upper_m": "1400.796371",
+    "quadratic_max_upper": -0.00037212459999436055,
+    "positive_denominator_lower": 52.29664500452822,
+    "witness_r_lower_m": 8.579062920165821,
+    "witness_second_distance_lower_m": 5.52161058605315,
+    "small_b_witness_radius_m": 80
+  },
+  "physical_quantized_lower": {
+    "certified_floor_m": "55.6528",
+    "global_lower_m": [
+      55.65289872437276,
+      55.65289872437276
+    ],
+    "t_upper_m": "1400.99",
+    "quadratic_max_upper": -1.251711135833296,
+    "positive_denominator_lower": 52.210651734641274,
+    "witness_r_lower_m": 8.740313547231414,
+    "witness_second_distance_lower_m": 5.522865553765134,
+    "small_b_witness_radius_m": 80
+  },
+  "continuous_and_quantized_upper": {
+    "q": [
+      "4215589/5000",
+      "5454003/10000"
+    ],
+    "upper_m": "55739/1000",
+    "verified_by": "exact Fraction squared-distance checks",
+    "nodes": 208
+  }
+}

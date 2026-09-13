@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/信号源数量与平均时长/count_profile",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/信号源数量与平均时长/results/training_replay_q4.csv",
+    "4",
+    "2610001",
+    "200"
+  ],
+  "started_unix": 1789277958.682401,
+  "runtime_s": 221.27303194999695,
+  "exit_code": 0,
+  "stdout": "4 25\n4 50\n4 75\n4 100\n4 125\n4 150\n4 175\n4 200\n",
+  "stderr": "",
+  "output": "results/training_replay_q4.csv",
+  "sha256": "fd5d38641bd2b9c0895d4927fe1fd7a46d2526604a8d560758c39c7fe36f4526"
+}

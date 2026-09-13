@@ -1,0 +1,8 @@
+{
+  "method": 56,
+  "q3_total_mean_s": 3004.8543406,
+  "q4_total_mean_s": 5734.60335481,
+  "q3_per_source_mean_s": 235.117184752936,
+  "q4_per_source_mean_s": 452.613257543657,
+  "source": "results/iid56.csv"
+}

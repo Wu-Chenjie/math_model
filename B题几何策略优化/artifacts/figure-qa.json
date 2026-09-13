@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "paired_results",
+      "collision_gate": "PASS"
+    },
+    {
+      "figure": "cost_components",
+      "collision_gate": "PASS"
+    },
+    {
+      "figure": "residual_geometry",
+      "collision_gate": "PASS"
+    }
+  ]
+}

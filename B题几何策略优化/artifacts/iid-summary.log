@@ -1,0 +1,158 @@
+{
+  "3": {
+    "vs56": {
+      "n": 200,
+      "baseline_mean_s": 3004.8543406,
+      "candidate_mean_s": 3003.36935434,
+      "saving_s": 1.4849862600000143,
+      "saving_pct": 0.04941957551604637,
+      "ci95_s": [
+        1.2115414727761318,
+        1.7584310472238969
+      ],
+      "faster": 185,
+      "slower": 0,
+      "ties": 15,
+      "max_regression_s": 9.99999883788405e-07,
+      "max_saving_s": 10.693355000000338,
+      "all_cleared": true,
+      "mean_source_s": 235.0026310105155,
+      "cpu_mean_s": 0.095882912305,
+      "cpu_max_s": 0.196961875,
+      "baseline_source_s": 235.117184752936,
+      "decomposition_s": {
+        "move": 1.4849862301370014,
+        "measure": 0.0,
+        "switch": 0.0,
+        "failed_clear": 0.0
+      },
+      "candidate_counts": {
+        "move_m": 11334.696771949166,
+        "measures": 111.055,
+        "switches": 103.885,
+        "miss": 4.04,
+        "fallbacks": 0.035,
+        "residual_replaced": 0.0,
+        "residual_retired": 0.0,
+        "rollout_calls": 0.0,
+        "rollout_replaced": 0.0
+      }
+    },
+    "vs78": {
+      "n": 200,
+      "baseline_mean_s": 3003.36935434,
+      "candidate_mean_s": 3003.36935434,
+      "saving_s": 0.0,
+      "saving_pct": 0.0,
+      "ci95_s": [
+        0.0,
+        0.0
+      ],
+      "faster": 0,
+      "slower": 0,
+      "ties": 200,
+      "max_regression_s": -0.0,
+      "max_saving_s": 0.0,
+      "all_cleared": true,
+      "mean_source_s": 235.0026310105155,
+      "cpu_mean_s": 0.095882912305,
+      "cpu_max_s": 0.196961875,
+      "baseline_source_s": 235.0026310105155,
+      "decomposition_s": {
+        "move": 0.0,
+        "measure": 0.0,
+        "switch": 0.0,
+        "failed_clear": 0.0
+      },
+      "candidate_counts": {
+        "move_m": 11334.696771949166,
+        "measures": 111.055,
+        "switches": 103.885,
+        "miss": 4.04,
+        "fallbacks": 0.035,
+        "residual_replaced": 0.0,
+        "residual_retired": 0.0,
+        "rollout_calls": 0.0,
+        "rollout_replaced": 0.0
+      }
+    }
+  },
+  "4": {
+    "vs56": {
+      "n": 200,
+      "baseline_mean_s": 5734.60335481,
+      "candidate_mean_s": 5704.988258,
+      "saving_s": 29.61509681,
+      "saving_pct": 0.5164279894817801,
+      "ci95_s": [
+        -4.68827964710805,
+        63.918473267108055
+      ],
+      "faster": 119,
+      "slower": 81,
+      "ties": 0,
+      "max_regression_s": 707.8485890000002,
+      "max_saving_s": 1635.8193390000001,
+      "all_cleared": true,
+      "mean_source_s": 450.615805982293,
+      "cpu_mean_s": 1.48288173268,
+      "cpu_max_s": 2.681808667,
+      "baseline_source_s": 452.613257543657,
+      "decomposition_s": {
+        "move": 27.81009774234001,
+        "measure": 0.7,
+        "switch": 0.175,
+        "failed_clear": 0.93
+      },
+      "candidate_counts": {
+        "move_m": 21012.86629111915,
+        "measures": 235.205,
+        "switches": 222.33,
+        "miss": 12.97,
+        "fallbacks": 3.51,
+        "residual_replaced": 5.585,
+        "residual_retired": 0.0,
+        "rollout_calls": 0.0,
+        "rollout_replaced": 0.0
+      }
+    },
+    "vs78": {
+      "n": 200,
+      "baseline_mean_s": 5733.40267884,
+      "candidate_mean_s": 5704.988258,
+      "saving_s": 28.414420839999995,
+      "saving_pct": 0.49559436920186617,
+      "ci95_s": [
+        -5.916794817337827,
+        62.74563649733781
+      ],
+      "faster": 114,
+      "slower": 86,
+      "ties": 0,
+      "max_regression_s": 708.9565220000004,
+      "max_saving_s": 1635.8193390000001,
+      "all_cleared": true,
+      "mean_source_s": 450.615805982293,
+      "cpu_mean_s": 1.48288173268,
+      "cpu_max_s": 2.681808667,
+      "baseline_source_s": 452.519268645632,
+      "decomposition_s": {
+        "move": 26.60942170328001,
+        "measure": 0.7,
+        "switch": 0.175,
+        "failed_clear": 0.93
+      },
+      "candidate_counts": {
+        "move_m": 21012.86629111915,
+        "measures": 235.205,
+        "switches": 222.33,
+        "miss": 12.97,
+        "fallbacks": 3.51,
+        "residual_replaced": 5.585,
+        "residual_retired": 0.0,
+        "rollout_calls": 0.0,
+        "rollout_replaced": 0.0
+      }
+    }
+  }
+}

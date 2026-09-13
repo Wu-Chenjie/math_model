@@ -1,0 +1,9 @@
+{
+  "errors": [
+    "review_decision_not_pass",
+    "review_unresolved_findings",
+    "pending_items_remain"
+  ],
+  "warnings": [],
+  "note": "Full artifact checks applied to LIMITED project, without changing the manifest status."
+}

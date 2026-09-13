@@ -32,3 +32,21 @@ B题联合优化/**/__pycache__/
 B题联合优化/**/*.pyc
 B题连续规划优化/**/__pycache__/
 B题连续规划优化/**/*.pyc
+
+# Latest B paper, reproducibility evidence, and source-count analysis
+!B题几何策略优化/
+!B题几何策略优化/**
+B题几何策略优化/**/.DS_Store
+B题几何策略优化/**/__pycache__/
+B题几何策略优化/**/*.pyc
+B题几何策略优化/bin/
+B题几何策略优化/work/
+B题几何策略优化/robot.exe
+B题几何策略优化/paper/*.aux
+B题几何策略优化/paper/*.log
+B题几何策略优化/paper/*.out
+B题几何策略优化/paper/main.pdf
+B题几何策略优化/review/paper_pages/
+B题几何策略优化/review/solution_pages/
+B题几何策略优化/review/*contact.png
+B题几何策略优化/补充分析/信号源数量与平均时长/count_profile

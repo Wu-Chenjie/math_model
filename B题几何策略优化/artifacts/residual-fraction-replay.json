@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "arithmetic": "Python Fraction, independent of C++ interval code",
+  "sites": 21,
+  "verified_leaf_boxes": 4564,
+  "full_disk_partition": true,
+  "witness_sha256": "573c60ce537641efc0d9e71f31dce6d747646a400eb414656771d8b507da55ae",
+  "runtime_s": 0.8615347079467028
+}

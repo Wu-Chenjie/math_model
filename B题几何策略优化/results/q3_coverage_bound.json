@@ -1,0 +1,13 @@
+{
+  "ring_radius": 1124,
+  "certified_ideal_cover_radius": "999.6",
+  "boundary_squared_upper": "2497727015316618649477/2500000000000000",
+  "inner_squared_upper": "395662227919581111671447/1250000000000000000",
+  "sqrt3_interval": [
+    "3464101615137754587/2000000000000000000",
+    "2165063509461096617/1250000000000000000"
+  ],
+  "coordinate_perturbation_allowance_m": "0.4",
+  "scope": "ideal sixfold ring + origin; implementation floating coordinates must be within 0.4m",
+  "production_binary64_error_bound_m": "0.000000001"
+}
