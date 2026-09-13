@@ -1,0 +1,14 @@
+{
+  "created": "2026-09-13",
+  "problem": 4,
+  "methods": [78, 84],
+  "source_counts": [10, 11, 12, 13, 14, 15, 16],
+  "cases_per_count": 40,
+  "stress": 0,
+  "seed_rule": "seed = 2810001 + 1000*(N-10) + i, i=0..39",
+  "generator": "Same as make_case except N is pinned; the discarded 10+rng()%7 draw is not consumed, so these are new environments, not a subset of IID seeds.",
+  "spacing_m": 40,
+  "directional": "1 + rng()%(N-1) directional sources, remainder omnidirectional",
+  "promotion": "This suite is a balanced Q4 measurement. It does not refit the earlier A+BN+C I(N=16) model and does not change the default controller.",
+  "baseline_prediction": "Frozen mu4(N)=-31.60+6206.85/N-513.96/N*I(N=16) from the earlier method-78 supplement; used only as a reference curve."
+}

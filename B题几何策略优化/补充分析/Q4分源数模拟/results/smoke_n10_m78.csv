@@ -1,0 +1,2 @@
+problem,seed,method,n,directional_n,cleared,time_s,avg_s,move_m,measures,switches,miss,fallbacks,scans,skipped_discovery,certificate,runtime_s
+4,2810001,78,10,7,10,6069.755852,606.9755852,20888.77928456,303,291,12,2,21,0,convex_mesh_per_channel,0.239814875

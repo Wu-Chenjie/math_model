@@ -1,0 +1,20 @@
+{
+  "n": 12,
+  "method": 78,
+  "start": 2812001,
+  "count": 40,
+  "command": [
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n12_m78.csv",
+    "12",
+    "2812001",
+    "40",
+    "78"
+  ],
+  "exit_code": 0,
+  "runtime_s": 18.215064764022827,
+  "stdout": "n=12 method=78 cases=10\nn=12 method=78 cases=20\nn=12 method=78 cases=30\nn=12 method=78 cases=40\n",
+  "stderr": "",
+  "output": "results/q4_n12_m78.csv",
+  "sha256": "99123d075c91b8baff14271b995630b9c17b62cba5f53570248c6c6ca6c96c5f"
+}

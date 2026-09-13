@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>路径规划方案 · 给论文手的可交互讲解</title>
+<style>
+  :root {
+    --ink: #1c1915;
+    --muted: #5c564c;
+    --paper: #f6f1e8;
+    --card: #fffdf8;
+    --line: #d8d0c2;
+    --navy: #1f4e79;
+    --navy-soft: #dce7f2;
+    --amber: #b36b14;
+    --amber-soft: #f4e3c4;
+    --green: #2f6b3a;
+    --green-soft: #d7ead8;
+    --rose: #8a3b32;
+    --site: #4a6f8c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; background: var(--paper); color: var(--ink); }
+  body {
+    font: 16px/1.65 "Songti SC", "Songti SC Regular", "STSong", "Noto Serif SC", "Source Han Serif SC", serif;
+  }
+  button, select, .chip, .copy {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", sans-serif;
+  }
+  header {
+    padding: 22px 28px 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  header h1 { margin: 0 0 6px; font-size: 26px; font-weight: 600; letter-spacing: .04em; }
+  header p { margin: 0; color: var(--muted); max-width: 920px; }
+  .wrap {
+    display: grid;
+    grid-template-columns: minmax(320px, 420px) 1fr;
+    gap: 0;
+    min-height: calc(100vh - 92px);
+  }
+  .copy-col {
+    padding: 18px 22px 32px;
+    border-right: 1px solid var(--line);
+    overflow: auto;
+    max-height: calc(100vh - 92px);
+  }
+  .stage-col { padding: 16px 18px 24px; }
+  h2 { font-size: 17px; margin: 18px 0 8px; }
+  h3 { font-size: 15px; margin: 14px 0 6px; }
+  .lead {
+    background: var(--navy-soft);
+    border-left: 3px solid var(--navy);
+    padding: 10px 12px;
+    margin: 0 0 14px;
+  }
+  .warn {
+    background: #f6e6e3;
+    border-left: 3px solid var(--rose);
+    padding: 10px 12px;
+    color: #5a2b27;
+  }
+  .ok {
+    background: var(--green-soft);
+    border-left: 3px solid var(--green);
+    padding: 10px 12px;
+  }
+  .box {
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    margin: 10px 0;
+  }
+  ol.paper { padding-left: 1.25em; margin: 8px 0; }
+  ol.paper li { margin: 6px 0; }
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px;
+  }
+  button, .chip, select {
+    background: var(--card);
+    border: 1px solid var(--line);
+    color: var(--ink);
+    padding: 6px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  button.primary { background: var(--navy); color: #fff; border-color: var(--navy); }
+  button:hover, .chip:hover { border-color: var(--navy); }
+  .chip.active { background: var(--navy); color: #fff; border-color: var(--navy); }
+  canvas {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: #fbf8f2;
+    border: 1px solid var(--line);
+    cursor: grab;
+    touch-action: none;
+  }
+  canvas.dragging { cursor: grabbing; }
+  .caption {
+    min-height: 4.6em;
+    margin: 10px 0 0;
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+  }
+  .caption b { color: var(--navy); }
+  .legend { display: flex; flex-wrap: wrap; gap: 12px 18px; font-size: 13px; color: var(--muted); margin: 8px 0; }
+  .legend i { display: inline-block; width: 12px; height: 12px; margin-right: 5px; vertical-align: -1px; border: 1px solid var(--ink); }
+  .tasks { font-size: 13.5px; }
+  .tasks table { width: 100%; border-collapse: collapse; }
+  .tasks th, .tasks td { text-align: left; padding: 3px 4px; border-bottom: 1px solid var(--line); }
+  .tasks tr.first td { background: var(--amber-soft); }
+  .copy { float: right; font-size: 12px; padding: 2px 8px; }
+  .small { color: var(--muted); font-size: 13px; }
+  @media (max-width: 980px) {
+    .wrap { grid-template-columns: 1fr; }
+    .copy-col { max-height: none; border-right: 0; border-bottom: 1px solid var(--line); }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>路径规划方案</h1>
+  <p>给论文手用的说法，不是代码注释。右边可以拖动机器狗、点发现点、按步骤播放。图是示意，用来看结构；论文里的数仍以独立模拟为准。</p>
+</header>
+<div class="wrap">
+  <aside class="copy-col">
+    <div class="lead">
+      一句话：我们不是先把认证点走完再逐个定位，而是把<strong>还没扫的发现点</strong>和<strong>已经看见的源的下一步动作</strong>放进同一个开放巡游，每次只做排在第一的那个任务，测完立刻重排。
+    </div>
+    <button class="copy" type="button" data-copy="para1">复制总述</button>
+    <h2>论文可直接用的总述</h2>
+    <div class="box" id="para1">
+      机器人从原点出发。路径不是预先画好的一条固定折线，而是在每个决策时刻求解一个开放巡游问题：节点由尚未访问的认证发现点，以及每个已发现未清除源的下一步测向或清除动作共同组成。节点不超过12时用子集动态规划求最短开放路，否则用多起点最近邻、2-opt 与重定位。真正执行的永远只有排在第一位的任务；传感器返回后，可行集与任务表一并重建。
+    </div>
+    <h3>发现层：先保证“听得到”，再谈走得短</h3>
+    <p>第三问用原点和半径 1124 米的六等分环，共 7 点，覆盖全向接收。第四问用已认证的 21 点双环（内环约 995 米八点、外环约 1864 米十二点，加原点），覆盖全部位置和 180° 朝向。未发现 16 个源时，剩余证书点必须扫完，不能凭空频道多就提前收工。</p>
+    <h3>定位层：角锥交多边形，不是点估计</h3>
+    <p>每次正常示向用 ±1° 角锥裁剪凸多边形。保证清除的条件是最小包围圆半径 ρ≤20 米，不能写成“直径不超过 40 米”。直径 40 米的等边三角形，包围圆半径已是 23.1 米。</p>
+    <h3>联合调度：为什么要混在一张表里</h3>
+    <p>时长 <em>T = L/5 + 换频 + 5×测向 + 3×失败清除 + 5×成功清除</em>。独立集上大约四分之三是走路。发现点和定位点若分成两段TSP，就会出现“旁边有个已经能清的源，却先跑去远处扫空频道”。混排以后，近处的保证清除可以插到发现巡游中间。</p>
+    <ol class="paper">
+      <li>在当前点对未知频道循环测向；近距响应当场清除。</li>
+      <li>每个已发现源用与历史一致的有限假设，做深度 2、节点预算 6000 的动作树，给出下一步测点或清点。</li>
+      <li>未访问发现点与这些下一步动作组成开放巡游，只走第一个。</li>
+      <li>每源最多 6 次局部动作。第三问随后可 35 米试清、至多 3 轮中心试探；第四问转入有限光学子块，对每一块发出清除指令。</li>
+      <li>发现数达到 16 可停止剩余发现；否则扫完证书点，再清完已知源。</li>
+    </ol>
+    <div class="ok">
+      方法 78 不改任何测向路标，只允许<strong>已经保证成功</strong>的清除沿当前路段提前停车。路程不会比原计划更长。这是默认控制器。
+    </div>
+    <div class="box">
+      方法 84 只在第四问额外允许：下一发现点沿连线向当前位置挪近，且剩余覆盖证书仍成立。独立 200 局相对 78 的区间跨零，论文里保持实验候选，不要写成最终方案。
+    </div>
+    <div class="warn">
+      不要写成：先 TSP 走完 21 点再定位；用遗传算法搜网格；直径小于 40 米即可清除；路径扫过 20 米圆就算光学成功；阴性扫描会自动删掉别的发现点。负信息只是把该点从“未来”挪进“历史”，并集不变，其它点不会自己变冗余。
+    </div>
+    <p class="small">复现默认程序：方法 78，Q3 七点、Q4 二十一点，联合开放巡游，安全提前停车。正式成绩仍待官方加密日志。</p>
+  </aside>
+  <section class="stage-col">
+    <div class="toolbar">
+      <span class="chip active" data-q="4">第四问 · 21点</span>
+      <span class="chip" data-q="3">第三问 · 7点</span>
+      <span class="chip active" data-m="78">方法78</span>
+      <span class="chip" data-m="84">方法84示意</span>
+      <button type="button" id="play" class="primary">逐步播放</button>
+      <button type="button" id="next">下一步</button>
+      <button type="button" id="reset">重置</button>
+    </div>
+    <div class="legend">
+      <span><i style="background:#fff;border-color:#4a6f8c;border-radius:50%"></i>未扫发现点</span>
+      <span><i style="background:#1f4e79;border-radius:50%"></i>已扫发现点</span>
+      <span><i style="background:#b36b14"></i>已发现未清除</span>
+      <span><i style="background:#2f6b3a"></i>已清除</span>
+      <span><i style="background:#1c1915;height:3px;width:18px;border:0;vertical-align:3px"></i>已走路</span>
+      <span><i style="background:#b36b14;height:0;width:18px;border:0;border-top:2px dashed #b36b14;vertical-align:4px"></i>当前开放巡游</span>
+    </div>
+    <canvas id="cv" width="980" height="640"></canvas>
+    <p class="small">按住机器狗拖动；点击空心点表示走到该发现点并扫描。图会立刻重排任务表，只把第一项标黄。</p>
+    <div class="caption" id="caption"></div>
+    <div class="tasks" id="tasks"></div>
+  </section>
+</div>
+<script>
+(function () {
+  const cv = document.getElementById("cv");
+  const ctx = cv.getContext("2d");
+  const caption = document.getElementById("caption");
+  const tasksEl = document.getElementById("tasks");
+  const Q3 = [[0, 0]];
+  for (let i = 0; i < 6; i++) {
+    const a = i * Math.PI / 3;
+    Q3.push([1124 * Math.cos(a), 1124 * Math.sin(a)]);
+  }
+  const Q4 = [[0,0],[995,0],[703.5712,703.5712],[0,995],[-703.5712,703.5712],[-995,0],[-703.5712,-703.5712],[0,-995],[703.5712,-703.5712],[1864,0],[1614.2714,932],[932,1614.2714],[0,1864],[-932,1614.2714],[-1614.2714,932],[-1864,0],[-1614.2714,-932],[-932,-1614.2714],[0,-1864],[932,-1614.2714],[1614.2714,-932]];
+  const demo = {
+    3: [
+      { name: "甲", x: 380, y: 160, omni: true, heading: 0 },
+      { name: "乙", x: -820, y: 540, omni: true, heading: 0 },
+      { name: "丙", x: 700, y: -900, omni: true, heading: 0 }
+    ],
+    4: [
+      { name: "甲", x: 420, y: 180, omni: true, heading: 0 },
+      { name: "乙", x: -760, y: 860, omni: false, heading: 210 * Math.PI / 180 },
+      { name: "丙", x: 1180, y: -520, omni: true, heading: 0 }
+    ]
+  };
+  const story = {
+    3: [
+      "第三问证书：原点覆盖约 1000 米圆，六环保证更远的全向源也能被至少一点听到。",
+      "原点扫描未知频道。甲在接收半径内，得到第一条示向，角锥裁出一条细长可行域。",
+      "任务表同时出现：剩余 6 个发现点，以及甲的下一步（横向错开的第二测）。开放巡游只走第一项。",
+      "若第一项是甲的第二测：两条角锥一交，可行域变成有界多边形，再算最小包围圆。",
+      "ρ≤20 米才能保证清除。方法78允许在原计划路段上提前停车，测向点一次都不改。",
+      "乙、丙仍未发现，六环还在表里。发现数不到16，证书点必须扫完，不能提前收工。",
+      "扫到能听到乙或丙的环点后，它们的下一步动作立刻进同一张表，继续只走第一项。"
+    ],
+    4: [
+      "第四问证书：21点双环。定向源有朝向，原点听不见乙这种朝外的源，所以外环不能省。",
+      "原点扫描。甲被发现，得到第一条示向。乙朝外，此处听不到，它仍算未发现频道。",
+      "把未扫的20个发现点和甲的下一步动作放进同一张开放巡游表。虚线是整条代理路，黄行才是真正要走的。",
+      "走到第一项。如果是发现点，就在该点扫完全部未知频道；如果是甲，就做一次测向或一次清除。",
+      "甲的可行域缩小后，若 ρ≤20，清除可沿来路提前。测向路标保持不动，这就是方法78。",
+      "未满16个源时，剩余证书点继续留在表里。阴性扫描只把该点从未来挪进历史，并集不变，别的点不会自己消失。",
+      "方法84才允许把下一发现点沿连线挪近，而且必须重新通过剩余覆盖证书。默认程序不用这一步。"
+    ]
+  };
+  let problem = 4, method = 78, beat = 0, playing = false, drag = null;
+  let state = null;
+
+  function cloneSources() {
+    return demo[problem].map((s) => Object.assign({ found: false, cleared: false, obs: 0, angle: 0 }, s));
+  }
+  function hear(s, x, y) {
+    const dx = x - s.x, dy = y - s.y;
+    if (dx * dx + dy * dy > 1000 * 1000) return false;
+    if (s.omni) return true;
+    return dx * Math.cos(s.heading) + dy * Math.sin(s.heading) >= -1e-6;
+  }
+  function reset(keepBeat) {
+    const pts = (problem === 3 ? Q3 : Q4).map((p) => ({ x: p[0], y: p[1], visited: false }));
+    state = {
+      sites: pts,
+      sources: cloneSources(),
+      robot: { x: 0, y: 0 },
+      path: [[0, 0]],
+      known: 0
+    };
+    if (!keepBeat) beat = 0;
+    update();
+  }
+  function scanAt(x, y) {
+    const s = state;
+    s.robot = { x, y };
+    s.path.push([x, y]);
+    let hitSite = -1, best = 80;
+    s.sites.forEach((p, i) => {
+      const d = Math.hypot(p.x - x, p.y - y);
+      if (d < best) { best = d; hitSite = i; }
+    });
+    if (hitSite >= 0) s.sites[hitSite].visited = true;
+    s.sources.forEach((src) => {
+      if (src.found || src.cleared) return;
+      if (hear(src, x, y)) {
+        src.found = true;
+        src.obs = 1;
+        src.angle = Math.atan2(src.y - y, src.x - x);
+        s.known += 1;
+      }
+    });
+  }
+  function tryClear(src) {
+    if (!src.found || src.cleared) return;
+    const rho = Math.max(18, 140 - 55 * src.obs);
+    if (rho > 20) return;
+    let tx = src.x, ty = src.y;
+    if (method === 78) {
+      const dx = src.x - state.robot.x, dy = src.y - state.robot.y;
+      const L = Math.hypot(dx, dy) || 1;
+      const t = Math.max(0, 1 - 20 / L);
+      tx = state.robot.x + dx * t;
+      ty = state.robot.y + dy * t;
+    }
+    state.robot = { x: tx, y: ty };
+    state.path.push([tx, ty]);
+    src.cleared = true;
+  }
+  function measureSource(src) {
+    if (!src.found || src.cleared) return;
+    src.obs += 1;
+    const q = actionPoint(src);
+    state.robot = { x: q.x, y: q.y };
+    state.path.push([q.x, q.y]);
+    if (src.obs >= 2) tryClear(src);
+  }
+  function actionPoint(src) {
+    const u = { x: Math.cos(src.angle), y: Math.sin(src.angle) };
+    const v = { x: -u.y, y: u.x };
+    if (src.obs === 1) return { x: src.x - 40 * u.x + 220 * v.x, y: src.y - 40 * u.y + 220 * v.y, kind: "测向" };
+    return { x: src.x, y: src.y, kind: src.cleared ? "已清" : "清除" };
+  }
+  function nodes() {
+    const list = [];
+    if (!(state.known >= 16)) {
+      state.sites.forEach((p, i) => {
+        if (!p.visited) {
+          let q = { x: p.x, y: p.y };
+          if (method === 84) {
+            const dx = p.x - state.robot.x, dy = p.y - state.robot.y;
+            const L = Math.hypot(dx, dy) || 1;
+            const pull = Math.min(180, L * 0.18);
+            q = { x: p.x - dx / L * pull, y: p.y - dy / L * pull };
+          }
+          list.push({ type: "发现", name: "发现点" + (i + 1), x: q.x, y: q.y, i, raw: p });
+        }
+      });
+    }
+    state.sources.forEach((src) => {
+      if (src.found && !src.cleared) {
+        const a = actionPoint(src);
+        list.push({ type: a.kind, name: "源" + src.name, x: a.x, y: a.y, src });
+      }
+    });
+    return list;
+  }
+  function tour(list) {
+    if (!list.length) return [];
+    const used = new Array(list.length).fill(false);
+    let order = [];
+    let x = state.robot.x, y = state.robot.y;
+    for (let k = 0; k < list.length; k++) {
+      let best = -1, dmin = 1e18;
+      for (let i = 0; i < list.length; i++) if (!used[i]) {
+        const d = Math.hypot(list[i].x - x, list[i].y - y);
+        if (d < dmin) { dmin = d; best = i; }
+      }
+      used[best] = true;
+      order.push(best);
+      x = list[best].x; y = list[best].y;
+    }
+    const pathLen = (ord) => {
+      let px = state.robot.x, py = state.robot.y, s = 0;
+      for (const i of ord) {
+        s += Math.hypot(list[i].x - px, list[i].y - py);
+        px = list[i].x; py = list[i].y;
+      }
+      return s;
+    };
+    for (let iter = 0; iter < 50; iter++) {
+      let improved = false;
+      for (let i = 0; i < order.length - 1; i++) for (let j = i + 1; j < order.length; j++) {
+        const next = order.slice(0, i).concat(order.slice(i, j + 1).reverse(), order.slice(j + 1));
+        if (pathLen(next) + 1e-7 < pathLen(order)) { order = next; improved = true; }
+      }
+      if (!improved) break;
+    }
+    return order.map((i) => list[i]);
+  }
+  function world() {
+    const w = cv.width, h = cv.height;
+    const scale = Math.min(w, h) / 4200;
+    return {
+      to(x, y) { return [w / 2 + x * scale, h / 2 - y * scale]; },
+      from(px, py) { return [(px - w / 2) / scale, (h / 2 - py) / scale]; },
+      scale
+    };
+  }
+  function drawWedge(xy, ang, fill) {
+    const [x, y] = xy;
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    const R = 520 * world().scale;
+    ctx.arc(x, y, R, -ang - Math.PI / 180, -ang + Math.PI / 180);
+    ctx.closePath();
+    ctx.fillStyle = fill;
+    ctx.fill();
+  }
+  function update() {
+    const W = world();
+    ctx.clearRect(0, 0, cv.width, cv.height);
+    ctx.save();
+    const [cx, cy] = W.to(0, 0);
+    ctx.beginPath();
+    ctx.arc(cx, cy, 1800 * W.scale, 0, Math.PI * 2);
+    ctx.strokeStyle = "#c9c1b3";
+    ctx.lineWidth = 1.2;
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.arc(cx, cy, 1000 * W.scale, 0, Math.PI * 2);
+    ctx.setLineDash([4, 5]);
+    ctx.strokeStyle = "#d7cfc2";
+    ctx.stroke();
+    ctx.setLineDash([]);
+    const list = nodes();
+    const order = tour(list);
+    if (order.length) {
+      ctx.beginPath();
+      ctx.setLineDash([7, 5]);
+      ctx.strokeStyle = "#c47b22";
+      ctx.lineWidth = 1.4;
+      ctx.moveTo(...W.to(state.robot.x, state.robot.y));
+      order.forEach((n) => ctx.lineTo(...W.to(n.x, n.y)));
+      ctx.stroke();
+      ctx.setLineDash([]);
+    }
+    if (state.path.length > 1) {
+      ctx.beginPath();
+      ctx.strokeStyle = "#1c1915";
+      ctx.lineWidth = 2;
+      ctx.moveTo(...W.to(state.path[0][0], state.path[0][1]));
+      state.path.forEach((p) => ctx.lineTo(...W.to(p[0], p[1])));
+      ctx.stroke();
+    }
+    state.sites.forEach((p, i) => {
+      const [x, y] = W.to(p.x, p.y);
+      ctx.beginPath();
+      ctx.arc(x, y, p.visited ? 4.5 : 5.5, 0, Math.PI * 2);
+      ctx.fillStyle = p.visited ? "#1f4e79" : "#fffdf8";
+      ctx.fill();
+      ctx.strokeStyle = "#4a6f8c";
+      ctx.lineWidth = 1.4;
+      ctx.stroke();
+      if (!p.visited && method === 84) {
+        const n = list.find((z) => z.i === i);
+        if (n && (n.x !== p.x || n.y !== p.y)) {
+          ctx.beginPath();
+          ctx.setLineDash([2, 3]);
+          ctx.moveTo(x, y);
+          ctx.lineTo(...W.to(n.x, n.y));
+          ctx.strokeStyle = "#8a3b32";
+          ctx.stroke();
+          ctx.setLineDash([]);
+        }
+      }
+    });
+    state.sources.forEach((s) => {
+      const [x, y] = W.to(s.x, s.y);
+      if (s.found && !s.cleared) {
+        drawWedge(W.to(s.x, s.y), s.angle, "rgba(179,107,20,.18)");
+        ctx.beginPath();
+        ctx.arc(x, y, 22 * W.scale, 0, Math.PI * 2);
+        ctx.strokeStyle = "rgba(47,107,58,.7)";
+        ctx.stroke();
+      }
+      if (!s.omni) {
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        ctx.lineTo(...W.to(s.x + 220 * Math.cos(s.heading), s.y + 220 * Math.sin(s.heading)));
+        ctx.strokeStyle = "#8a3b32";
+        ctx.stroke();
+      }
+      ctx.fillStyle = s.cleared ? "#2f6b3a" : s.found ? "#b36b14" : "#8a3b32";
+      ctx.fillRect(x - 5, y - 5, 10, 10);
+      ctx.fillStyle = "#1c1915";
+      ctx.font = "13px Songti SC, serif";
+      ctx.fillText("源" + s.name + (s.omni ? " 全向" : " 定向"), x + 8, y - 8);
+    });
+    const [rx, ry] = W.to(state.robot.x, state.robot.y);
+    ctx.beginPath();
+    ctx.arc(rx, ry, 7, 0, Math.PI * 2);
+    ctx.fillStyle = "#1c1915";
+    ctx.fill();
+    ctx.fillStyle = "#1c1915";
+    ctx.font = "13px Songti SC, serif";
+    ctx.fillText("机器狗", rx + 10, ry + 4);
+    if (order[0]) {
+      const [fx, fy] = W.to(order[0].x, order[0].y);
+      ctx.beginPath();
+      ctx.arc(fx, fy, 9, 0, Math.PI * 2);
+      ctx.strokeStyle = "#b36b14";
+      ctx.lineWidth = 2;
+      ctx.stroke();
+    }
+    ctx.restore();
+    const lines = story[problem];
+    caption.innerHTML = "<b>第 " + (beat + 1) + " / " + lines.length + " 步</b>　" + lines[Math.min(beat, lines.length - 1)];
+    const rows = order.slice(0, 8).map((n, i) => {
+      const d = Math.hypot(n.x - state.robot.x, n.y - state.robot.y);
+      return "<tr class='" + (i === 0 ? "first" : "") + "'><td>" + (i === 0 ? "先走" : i + 1) + "</td><td>" + n.type + "</td><td>" + n.name + "</td><td>" + d.toFixed(0) + " m</td></tr>";
+    }).join("");
+    tasksEl.innerHTML = "<table><thead><tr><th></th><th>任务</th><th>对象</th><th>距离</th></tr></thead><tbody>" +
+      (rows || "<tr><td colspan=4>没有剩余任务。示意里源很少，正式程序要扫完证书或凑满16个源。</td></tr>") +
+      "</tbody></table>";
+  }
+  function doBeat() {
+    const lines = story[problem];
+    if (beat >= lines.length - 1) { playing = false; return; }
+    beat += 1;
+    if (beat === 1) scanAt(0, 0);
+    if (beat === 3) {
+      const first = tour(nodes())[0];
+      if (first) {
+        if (first.src) measureSource(first.src);
+        else scanAt(first.x, first.y);
+      }
+    }
+    if (beat === 4) {
+      const src = state.sources.find((s) => s.found && !s.cleared);
+      if (src) { src.obs = 2; tryClear(src); }
+    }
+    if (beat === 5) {
+      const rest = state.sites.find((p) => !p.visited && Math.hypot(p.x, p.y) > 10);
+      if (rest) scanAt(rest.x, rest.y);
+    }
+    if (beat === 6) {
+      const first = tour(nodes())[0];
+      if (first) {
+        if (first.src) measureSource(first.src);
+        else scanAt(first.x, first.y);
+      }
+    }
+    update();
+  }
+  document.querySelectorAll(".chip").forEach((el) => {
+    el.addEventListener("click", () => {
+      if (el.dataset.q) {
+        problem = +el.dataset.q;
+        document.querySelectorAll("[data-q]").forEach((x) => x.classList.toggle("active", x === el));
+      }
+      if (el.dataset.m) {
+        method = +el.dataset.m;
+        document.querySelectorAll("[data-m]").forEach((x) => x.classList.toggle("active", +x.dataset.m === method));
+      }
+      playing = false;
+      reset();
+    });
+  });
+  document.getElementById("reset").onclick = () => { playing = false; reset(); };
+  document.getElementById("next").onclick = () => { playing = false; doBeat(); };
+  document.getElementById("play").onclick = () => {
+    if (playing) { playing = false; return; }
+    if (beat >= story[problem].length - 1) reset();
+    playing = true;
+    const tick = () => {
+      if (!playing) return;
+      doBeat();
+      if (beat < story[problem].length - 1) setTimeout(tick, 1100);
+      else playing = false;
+    };
+    tick();
+  };
+  function pick(ev) {
+    const r = cv.getBoundingClientRect();
+    const px = (ev.clientX - r.left) * cv.width / r.width;
+    const py = (ev.clientY - r.top) * cv.height / r.height;
+    return world().from(px, py);
+  }
+  cv.addEventListener("pointerdown", (ev) => {
+    const p = pick(ev);
+    if (Math.hypot(p[0] - state.robot.x, p[1] - state.robot.y) < 90) {
+      drag = "robot";
+      cv.classList.add("dragging");
+      cv.setPointerCapture(ev.pointerId);
+      return;
+    }
+    let best = -1, dmin = 70;
+    state.sites.forEach((s, i) => {
+      const d = Math.hypot(s.x - p[0], s.y - p[1]);
+      if (d < dmin) { dmin = d; best = i; }
+    });
+    if (best >= 0 && !state.sites[best].visited) {
+      scanAt(state.sites[best].x, state.sites[best].y);
+      update();
+    }
+  });
+  cv.addEventListener("pointermove", (ev) => {
+    if (drag !== "robot") return;
+    const p = pick(ev);
+    const L = Math.hypot(p[0], p[1]);
+    const r = Math.min(L, 1800);
+    const x = L < 1e-6 ? 0 : p[0] / L * r;
+    const y = L < 1e-6 ? 0 : p[1] / L * r;
+    state.robot = { x, y };
+    update();
+  });
+  cv.addEventListener("pointerup", () => { drag = null; cv.classList.remove("dragging"); });
+  document.querySelectorAll(".copy").forEach((btn) => {
+    btn.onclick = () => navigator.clipboard.writeText(document.getElementById(btn.dataset.copy).innerText);
+  });
+  reset();
+})();
+</script>
+</body>
+</html>

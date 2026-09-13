@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/usr/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/src/q4_by_count.cpp",
+    "-o",
+    "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count"
+  ],
+  "exit_code": 0,
+  "runtime_s": 2.255892038345337,
+  "stderr": ""
+}

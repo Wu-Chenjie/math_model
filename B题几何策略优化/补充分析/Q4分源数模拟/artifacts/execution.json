@@ -1,0 +1,288 @@
+{
+  "environment": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "compiler": "/usr/bin/clang++",
+  "binary_sha256": "b94dee04070a22b19a39da19faa099708d4074afa4e933f513549dfe7a9f3f48",
+  "source_sha256": "1fc8b825ab1472a6a6a2475fefa8c04bfd68e12e234244a18e5ec38fa9232146",
+  "records": [
+    {
+      "n": 10,
+      "method": 78,
+      "start": 2810001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n10_m78.csv",
+        "10",
+        "2810001",
+        "40",
+        "78"
+      ],
+      "exit_code": 0,
+      "runtime_s": 13.064737796783447,
+      "stdout": "n=10 method=78 cases=10\nn=10 method=78 cases=20\nn=10 method=78 cases=30\nn=10 method=78 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n10_m78.csv",
+      "sha256": "7fc776b26a6af7988923c60a581e7f34bebeb8b7a907974b282deb498ae2667b"
+    },
+    {
+      "n": 10,
+      "method": 84,
+      "start": 2810001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n10_m84.csv",
+        "10",
+        "2810001",
+        "40",
+        "84"
+      ],
+      "exit_code": 0,
+      "runtime_s": 54.837374210357666,
+      "stdout": "n=10 method=84 cases=10\nn=10 method=84 cases=20\nn=10 method=84 cases=30\nn=10 method=84 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n10_m84.csv",
+      "sha256": "bda564dc643472015a11ca323a5dbd8aa2a2b2262b34e2ee82162a9566cb7ed5"
+    },
+    {
+      "n": 11,
+      "method": 78,
+      "start": 2811001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n11_m78.csv",
+        "11",
+        "2811001",
+        "40",
+        "78"
+      ],
+      "exit_code": 0,
+      "runtime_s": 16.089393854141235,
+      "stdout": "n=11 method=78 cases=10\nn=11 method=78 cases=20\nn=11 method=78 cases=30\nn=11 method=78 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n11_m78.csv",
+      "sha256": "7e99de917d7c1b15d83133f9f12d58e9974f350dcfae5d1b149e70447a6df493"
+    },
+    {
+      "n": 11,
+      "method": 84,
+      "start": 2811001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n11_m84.csv",
+        "11",
+        "2811001",
+        "40",
+        "84"
+      ],
+      "exit_code": 0,
+      "runtime_s": 57.60305309295654,
+      "stdout": "n=11 method=84 cases=10\nn=11 method=84 cases=20\nn=11 method=84 cases=30\nn=11 method=84 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n11_m84.csv",
+      "sha256": "2399ecbccd39cbf5438e9f6666129023a0d78e3077a361a828015494415305e3"
+    },
+    {
+      "n": 12,
+      "method": 78,
+      "start": 2812001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n12_m78.csv",
+        "12",
+        "2812001",
+        "40",
+        "78"
+      ],
+      "exit_code": 0,
+      "runtime_s": 18.215064764022827,
+      "stdout": "n=12 method=78 cases=10\nn=12 method=78 cases=20\nn=12 method=78 cases=30\nn=12 method=78 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n12_m78.csv",
+      "sha256": "99123d075c91b8baff14271b995630b9c17b62cba5f53570248c6c6ca6c96c5f"
+    },
+    {
+      "n": 12,
+      "method": 84,
+      "start": 2812001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n12_m84.csv",
+        "12",
+        "2812001",
+        "40",
+        "84"
+      ],
+      "exit_code": 0,
+      "runtime_s": 61.54597520828247,
+      "stdout": "n=12 method=84 cases=10\nn=12 method=84 cases=20\nn=12 method=84 cases=30\nn=12 method=84 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n12_m84.csv",
+      "sha256": "04c5c2cfea13264ffe7baa52eea9060c1b17ded28e86357c96f6d85d05ace65c"
+    },
+    {
+      "n": 13,
+      "method": 78,
+      "start": 2813001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n13_m78.csv",
+        "13",
+        "2813001",
+        "40",
+        "78"
+      ],
+      "exit_code": 0,
+      "runtime_s": 25.539995908737183,
+      "stdout": "n=13 method=78 cases=10\nn=13 method=78 cases=20\nn=13 method=78 cases=30\nn=13 method=78 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n13_m78.csv",
+      "sha256": "da5258c106e83634a2cd6cbd168e9facdbfb79b9534371c9018e749f1e796ede"
+    },
+    {
+      "n": 13,
+      "method": 84,
+      "start": 2813001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n13_m84.csv",
+        "13",
+        "2813001",
+        "40",
+        "84"
+      ],
+      "exit_code": 0,
+      "runtime_s": 76.24849009513855,
+      "stdout": "n=13 method=84 cases=10\nn=13 method=84 cases=20\nn=13 method=84 cases=30\nn=13 method=84 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n13_m84.csv",
+      "sha256": "404ec1977414b6b5760d609198e956869a5b5e8f9de0872ad2d526b760de7ec3"
+    },
+    {
+      "n": 14,
+      "method": 78,
+      "start": 2814001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n14_m78.csv",
+        "14",
+        "2814001",
+        "40",
+        "78"
+      ],
+      "exit_code": 0,
+      "runtime_s": 27.387954711914062,
+      "stdout": "n=14 method=78 cases=10\nn=14 method=78 cases=20\nn=14 method=78 cases=30\nn=14 method=78 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n14_m78.csv",
+      "sha256": "fa01656e117ecf14141ef6899f7dc437a80a653127c4f35aa4f7902b958507ec"
+    },
+    {
+      "n": 14,
+      "method": 84,
+      "start": 2814001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n14_m84.csv",
+        "14",
+        "2814001",
+        "40",
+        "84"
+      ],
+      "exit_code": 0,
+      "runtime_s": 79.5387499332428,
+      "stdout": "n=14 method=84 cases=10\nn=14 method=84 cases=20\nn=14 method=84 cases=30\nn=14 method=84 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n14_m84.csv",
+      "sha256": "a93f061b104dcbccef88076b6b7b83dce984a0d1adc344f555559b6447116d7e"
+    },
+    {
+      "n": 15,
+      "method": 78,
+      "start": 2815001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n15_m78.csv",
+        "15",
+        "2815001",
+        "40",
+        "78"
+      ],
+      "exit_code": 0,
+      "runtime_s": 37.081607818603516,
+      "stdout": "n=15 method=78 cases=10\nn=15 method=78 cases=20\nn=15 method=78 cases=30\nn=15 method=78 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n15_m78.csv",
+      "sha256": "21c5930d256827f7371e9c66d14a9b2fa62e91da83e8ee966f5d682c8364f17e"
+    },
+    {
+      "n": 15,
+      "method": 84,
+      "start": 2815001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n15_m84.csv",
+        "15",
+        "2815001",
+        "40",
+        "84"
+      ],
+      "exit_code": 0,
+      "runtime_s": 89.87786817550659,
+      "stdout": "n=15 method=84 cases=10\nn=15 method=84 cases=20\nn=15 method=84 cases=30\nn=15 method=84 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n15_m84.csv",
+      "sha256": "5ac79c87f256608f3975d4a561dd25fb2c0817c4c57a2cccbb1e4325adfacb84"
+    },
+    {
+      "n": 16,
+      "method": 78,
+      "start": 2816001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n16_m78.csv",
+        "16",
+        "2816001",
+        "40",
+        "78"
+      ],
+      "exit_code": 0,
+      "runtime_s": 44.311047315597534,
+      "stdout": "n=16 method=78 cases=10\nn=16 method=78 cases=20\nn=16 method=78 cases=30\nn=16 method=78 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n16_m78.csv",
+      "sha256": "095d437c8b0d8433c40b74fe56ece2b7b4594ba315e84b3aa603e61ffebf77a1"
+    },
+    {
+      "n": 16,
+      "method": 84,
+      "start": 2816001,
+      "count": 40,
+      "command": [
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/bin/q4_by_count",
+        "/Users/wuchenjie/Downloads/CUMCM2026Problems/B题几何策略优化/补充分析/Q4分源数模拟/results/q4_n16_m84.csv",
+        "16",
+        "2816001",
+        "40",
+        "84"
+      ],
+      "exit_code": 0,
+      "runtime_s": 68.8739640712738,
+      "stdout": "n=16 method=84 cases=10\nn=16 method=84 cases=20\nn=16 method=84 cases=30\nn=16 method=84 cases=40\n",
+      "stderr": "",
+      "output": "results/q4_n16_m84.csv",
+      "sha256": "1b6ee56c096fdd93980bdc55ecb3ab01376636cb0e2b5c2ed8566af4dd70ce80"
+    }
+  ]
+}
